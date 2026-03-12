@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Kronängs IF Calendar Scraper v5
+Kronängs IF Calendar Scraper v6 - with weather forecast
 """
 import requests
 from bs4 import BeautifulSoup
@@ -11,6 +11,80 @@ from pathlib import Path
 
 CALENDAR_URL = "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276"
 OUTPUT_FILE = Path(__file__).parent / "data" / "calendar.json"
+
+# Borås coordinates (Kronäng area)
+LAT, LON = 57.72, 12.94
+
+# WMO Weather codes: https://open-meteo.com/en/docs
+WMO_CODES = {
+    0: ("☀️", "Klar himmel"),
+    1: ("🌤️", "Mestadels klart"),
+    2: ("⛅", "Delvis molnigt"),
+    3: ("☁️", "Molnigt"),
+    45: ("🌫️", "Dimma"),
+    48: ("🌫️", "Dimma"),
+    51: ("🌧️", "Dis"),
+    53: ("🌧️", "Dis"),
+    55: ("🌧️", "Dis"),
+    56: ("🌧️", "Frysande dis"),
+    57: ("🌧️", "Frysande dis"),
+    61: ("🌧️", "Regn"),
+    63: ("🌧️", "Regn"),
+    65: ("🌧️", "Regn"),
+    66: ("🌧️", "Frysande regn"),
+    67: ("🌧️", "Frysande regn"),
+    71: ("❄️", "Snö"),
+    73: ("❄️", "Snö"),
+    75: ("❄️", "Snö"),
+    77: ("❄️", "Snöbyar"),
+    80: ("🌦️", "Regnskurar"),
+    81: ("🌦️", "Regnskurar"),
+    82: ("🌦️", "Regnskurar"),
+    85: ("🌨️", "Snöbyar"),
+    86: ("🌨️", "Snöbyar"),
+    95: ("⛈️", "Åska"),
+    96: ("⛈️", "Åska med hagel"),
+    99: ("⛈️", "Åska med hagel"),
+}
+
+def fetch_weather():
+    """Fetch 7-day hourly weather forecast from Open-Meteo."""
+    url = (f"https://api.open-meteo.com/v1/forecast"
+           f"?latitude={LAT}&longitude={LON}"
+           f"&hourly=weathercode,temperature_2m"
+           f"&timezone=Europe/Stockholm"
+           f"&forecast_days=7")
+    resp = requests.get(url, timeout=15)
+    resp.raise_for_status()
+    data = resp.json()['hourly']
+
+    # Build lookup: "YYYY-MM-DDTHH" -> (code, temp)
+    forecast = {}
+    for i, t in enumerate(data['time']):
+        hour_key = t.replace(':00', '')  # "2026-03-12T14"
+        forecast[hour_key] = {
+            'code': data['weathercode'][i],
+            'temp': data['temperature_2m'][i]
+        }
+    return forecast
+
+
+def get_weather_info(forecast, date_str, time_str):
+    """Get weather for a specific date/time."""
+    if not date_str or not time_str:
+        return None
+
+    # Extract hour from time like "08:45" -> "08"
+    hour = time_str.split(':')[0]
+    hour_key = f"{date_str}T{hour}"
+
+    if hour_key not in forecast:
+        return None
+
+    w = forecast[hour_key]
+    icon, desc = WMO_CODES.get(w['code'], ("❓", "Okänt"))
+    return {'icon': icon, 'desc': desc, 'temp': w['temp']}
+
 
 TEAM_IDS = {
     "38937": "Herr", "52695": "Dam", "38381": "Utvecklingslag",
@@ -198,6 +272,18 @@ def main():
     html = fetch_calendar()
     month, year, activities = parse_calendar(html)
     print(f"Calendar month: {month}/{year}")
+
+    print("Fetching weather forecast...")
+    try:
+        forecast = fetch_weather()
+        # Add weather to each activity
+        for a in activities:
+            a['weather'] = get_weather_info(forecast, a.get('date'), a.get('time'))
+        weather_count = sum(1 for a in activities if a.get('weather'))
+        print(f"Weather added to {weather_count} activities")
+    except Exception as e:
+        print(f"Warning: Could not fetch weather: {e}")
+
     save_data(activities, month, year)
     print(f"Done! Found {len(activities)} activities")
 

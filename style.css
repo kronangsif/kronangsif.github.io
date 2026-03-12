@@ -347,6 +347,15 @@ body {
     content: "📍";
 }
 
+.activity-weather {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: 0.25rem;
+}
+
 .activity-type {
     padding: 0.375rem 0.75rem;
     border-radius: 20px;

@@ -168,6 +168,13 @@ function renderActivity(activity) {
     const location = activity.location
         ? `<div class="activity-location">${activity.location}</div>` : '';
 
+    // Weather info
+    let weatherHtml = '';
+    if (activity.weather) {
+        const w = activity.weather;
+        weatherHtml = `<div class="activity-weather" title="${w.desc}">${w.icon} ${w.temp}°C</div>`;
+    }
+
     return `
         <div class="activity-item">
             <div class="activity-time">${activity.time || 'TBD'}</div>
@@ -175,6 +182,7 @@ function renderActivity(activity) {
                 <div class="activity-team">${activity.team || 'Okänt lag'}</div>
                 <div class="activity-description">${activity.description || activity.type || ''}</div>
                 ${location}
+                ${weatherHtml}
             </div>
             <div class="activity-type ${typeClass}">${activity.type || 'Övrigt'}</div>
         </div>
