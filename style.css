@@ -137,6 +137,24 @@ body {
     box-shadow: 0 0 0 3px rgba(26, 95, 42, 0.1);
 }
 
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+    color: var(--text);
+    cursor: pointer;
+    padding: 0.625rem 0;
+    white-space: nowrap;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: var(--primary);
+}
+
 .refresh-btn {
     padding: 0.625rem 1.25rem;
     background: var(--primary);

@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function setupEventListeners() {
     document.getElementById('team-filter').addEventListener('change', filterActivities);
     document.getElementById('type-filter').addEventListener('change', filterActivities);
+    document.getElementById('show-past').addEventListener('change', filterActivities);
     document.getElementById('refresh-btn').addEventListener('click', () => {
         loadData();
     });
@@ -104,20 +105,33 @@ function updateStats(activities) {
     document.getElementById('training-count').textContent = training;
 }
 
+function isPastActivity(activity) {
+    if (!calendarMonth || !calendarYear) return false;
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const dayDate = new Date(calendarYear, calendarMonth - 1, parseInt(activity.day));
+    return dayDate < today;
+}
+
 function filterActivities() {
     const teamFilter = document.getElementById('team-filter').value;
     const typeFilter = document.getElementById('type-filter').value;
-    
+    const showPast = document.getElementById('show-past').checked;
+
     let filtered = allActivities;
-    
+
+    if (!showPast) {
+        filtered = filtered.filter(a => !isPastActivity(a));
+    }
+
     if (teamFilter !== 'all') {
         filtered = filtered.filter(a => a.team === teamFilter);
     }
-    
+
     if (typeFilter !== 'all') {
         filtered = filtered.filter(a => a.type === typeFilter);
     }
-    
+
     updateStats(filtered);
     renderActivities(filtered);
 }
