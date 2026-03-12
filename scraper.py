@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Kronängs IF Calendar Scraper v3 - Fixed parsing
+Kronängs IF Calendar Scraper v4 - Fixed parsing for malformed HTML
 """
 import requests
 from bs4 import BeautifulSoup
@@ -37,103 +37,110 @@ def fetch_calendar():
 def parse_calendar(html):
     soup = BeautifulSoup(html, 'html.parser')
     activities = []
-    
+
     for day_row in soup.find_all('tr', class_=['dag', 'son', 'idag', 'innanidag']):
+        # NOTE: The site's HTML has unclosed <td> tags, so BS4 nests them.
+        # Only 2 top-level TDs exist: [empty, date+weekday+content nested inside].
         tds = day_row.find_all('td', recursive=False)
-        
+
         day_num = ""
         weekday = ""
-        
-        # Extract day number and weekday
+
         for td in tds:
             style = td.get('style', '')
             if 'padding-left' in style:
                 b = td.find('b')
                 if b:
                     day_num = b.text.strip()
-            
-            width = td.get('width', '')
-            if width == '5%':
-                text = td.get_text(strip=True)
-                if text and len(text) <= 4 and text.isalpha():
-                    weekday = text
-        
-        # Find the inner activity table
+                # Weekday is in a nested <font> tag (inside nested <td width="5%">)
+                font = td.find('font')
+                if font:
+                    wday = font.get_text(strip=True)
+                    if wday and len(wday) <= 4 and wday.isalpha():
+                        weekday = wday
+
+        # Find inner activity table
         inner_table = day_row.find('table', {'border': '0', 'cellspacing': '0', 'cellpadding': '0'})
         if not inner_table:
             continue
-        
-        for act_row in inner_table.find_all('tr', recursive=False):
+
+        # Must use recursive=True — malformed HTML nests all <tr> elements inside each other.
+        # Each TR has 2 top-level cells: [time+calbox, team+description]
+        for act_row in inner_table.find_all('tr'):
             activity = parse_activity(act_row, day_num, weekday)
             if activity:
                 activities.append(activity)
-    
+
     return activities
 
+
 def parse_activity(row, day, weekday):
+    # Each activity row has exactly 2 top-level cells:
+    #   cells[0]: time span + calBox div (activity type)
+    #   cells[1]: team link + description/location link
     cells = row.find_all('td', recursive=False)
-    if len(cells) < 3:
+    if len(cells) < 2:
         return None
-    
-    # Time is in the second cell (index 1)
-    time_cell = cells[1]
-    time_text = time_cell.get_text(strip=True)
+
+    # --- Time (cells[0]) ---
+    time_cell = cells[0]
+    span = time_cell.find('span')
+    time_text = span.get_text(strip=True) if span else time_cell.get_text(strip=True)
     time_match = re.search(r'(\d{1,2}:\d{2})', time_text)
     time_str = time_match.group(1) if time_match else ""
-    
-    # Content is in the third cell (index 2)
-    content = cells[2]
-    
-    # Get team
-    team = None
-    team_id = None
-    for link in content.find_all('a', href=re.compile(r'ID=\d+')):
-        href = link.get('href', '')
-        match = re.search(r'ID=(\d+)', href)
-        if match:
-            team_id = match.group(1)
-            team = TEAM_IDS.get(team_id, link.text.strip())
-            break
-    
-    if not team:
-        return None
-    
-    # Get activity type
+
+    # --- Activity type (calBox in cells[0]) ---
     act_type = "Övrigt"
-    for div in content.find_all('div', class_=re.compile(r'calBox[123]')):
-        classes = div.get('class', [])
-        for c in classes:
+    calbox = time_cell.find('div', class_=re.compile(r'calBox[123]'))
+    if calbox:
+        for c in calbox.get('class', []):
             if c in ACTIVITY_TYPES:
                 act_type = ACTIVITY_TYPES[c]
                 break
-    
-    # Get description and location
+
+    # --- Team (cells[1]) ---
+    content = cells[1]
+    team = None
+    team_id = None
+
+    for link in content.find_all('a', href=re.compile(r'ID=')):
+        href = link.get('href', '')
+        match = re.search(r'ID=(\d+)', href)
+        if match and match.group(1):
+            team_id = match.group(1)
+            team = TEAM_IDS.get(team_id, link.text.strip())
+        else:
+            # Empty ID (e.g. Fotbollsskolan born 2019 not yet in TEAM_IDS)
+            team = link.text.strip()
+        break
+
+    if not team:
+        return None
+
+    # --- Description and location (<a class="kal">) ---
     description = ""
     location = ""
-    
-    for link in content.find_all('a', class_='kal'):
-        text = link.get_text(strip=True)
-        if not text or text == '(..)':
-            continue
-        
-        if ',' in text:
-            parts = text.split(',', 1)
-            description = parts[0].strip()
-            location = parts[1].strip()
-        else:
-            description = text
-        
-        break
-    
-    # Extract location from description if not set
+
+    kal_link = content.find('a', class_='kal')
+    if kal_link:
+        text = kal_link.get_text(strip=True)
+        if text and text != '(..)':
+            if ',' in text:
+                parts = text.split(',', 1)
+                description = parts[0].strip()
+                location = parts[1].strip()
+            else:
+                description = text
+
+    # Fallback: derive location from description text
     if not location and description:
         if 'hemma' in description.lower():
             location = "Kronängs Arena"
         elif 'borta' in description.lower():
-            match = re.search(r'borta[,\s]+(.+)', description, re.I)
-            if match:
-                location = match.group(1).strip()
-    
+            m = re.search(r'borta[,\s]+(.+)', description, re.I)
+            if m:
+                location = m.group(1).strip()
+
     return {
         "day": day,
         "weekday": weekday,
@@ -144,6 +151,7 @@ def parse_activity(row, day, weekday):
         "description": description,
         "location": location
     }
+
 
 def save_data(activities):
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
@@ -156,6 +164,7 @@ def save_data(activities):
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"Saved {len(activities)} activities")
+
 
 def main():
     print("Fetching Kronängs IF calendar...")
