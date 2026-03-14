@@ -70,20 +70,30 @@ def fetch_weather():
 
 
 def get_weather_info(forecast, date_str, time_str):
-    """Get weather for a specific date/time."""
+    """Get weather for a specific date/time - falls back to nearest hour if exact not found."""
     if not date_str or not time_str:
         return None
 
-    # Extract hour from time like "08:45" -> "08"
-    hour = time_str.split(':')[0]
-    hour_key = f"{date_str}T{hour}"
-
-    if hour_key not in forecast:
-        return None
-
-    w = forecast[hour_key]
-    icon, desc = WMO_CODES.get(w['code'], ("❓", "Okänt"))
-    return {'icon': icon, 'desc': desc, 'temp': w['temp']}
+    # Extract hour from time like "08:45" -> 8
+    hour = int(time_str.split(':')[0])
+    
+    # Try exact match first
+    hour_key = f"{date_str}T{hour:02d}"
+    if hour_key in forecast:
+        w = forecast[hour_key]
+        icon, desc = WMO_CODES.get(w['code'], ("❓", "Okänt"))
+        return {'icon': icon, 'desc': desc, 'temp': w['temp']}
+    
+    # Try to find nearest hour in forecast for this date
+    date_key = f"{date_str}T"
+    for h in range(24):
+        check_key = f"{date_key}{h:02d}"
+        if check_key in forecast:
+            w = forecast[check_key]
+            icon, desc = WMO_CODES.get(w['code'], ("❓", "Okänt"))
+            return {'icon': icon, 'desc': desc, 'temp': w['temp']}
+    
+    return None
 
 
 TEAM_IDS = {

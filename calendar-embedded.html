@@ -240,8 +240,9 @@
                 document.getElementById('lastUpdated').textContent = 
                     `Uppdaterad: ${new Date(data.last_updated).toLocaleString('sv-SE')}`;
                 
-                // Group activities by date
-                const activities = data.activities;
+                // Group activities by date - only future activities
+                const today = new Date().toISOString().split('T')[0];
+                const activities = data.activities.filter(a => a.date >= today);
                 const grouped = {};
                 
                 activities.forEach(act => {
