@@ -8,20 +8,26 @@
       "file": "calendar-embedded.html"
     },
     {
-      "id": "weather",
-      "title": "Väder",
-      "icon": "🌤️",
-      "file": "weather-embedded.html"
+      "id": "training",
+      "title": "Träningar",
+      "icon": "🏋️",
+      "file": "training-embedded.html"
+    },
+    {
+      "id": "matches",
+      "title": "Matcher",
+      "icon": "⚽",
+      "file": "matches-embedded.html"
     },
     {
       "id": "herr",
-      "title": "Herr + Matcher",
+      "title": "Herr",
       "icon": "👨‍🦱",
       "file": "herr-embedded.html"
     },
     {
       "id": "dam",
-      "title": "Dam + Matcher",
+      "title": "Dam",
       "icon": "👩‍🦰",
       "file": "dam-embedded.html"
     }
@@ -33,17 +39,22 @@
       "displayMode": "single"
     },
     {
-      "label": "Väder",
-      "pages": ["weather"],
+      "label": "Träningar",
+      "pages": ["training"],
       "displayMode": "single"
     },
     {
-      "label": "Herr + Matcher",
+      "label": "Matcher",
+      "pages": ["matches"],
+      "displayMode": "single"
+    },
+    {
+      "label": "Herr",
       "pages": ["herr"],
       "displayMode": "single"
     },
     {
-      "label": "Dam + Matcher",
+      "label": "Dam",
       "pages": ["dam"],
       "displayMode": "single"
     }
@@ -51,6 +62,6 @@
   "rotation": {
     "enabled": true,
     "intervalSeconds": 10,
-    "groups": [0, 1, 2, 3]
+    "groups": [0, 1, 2, 3, 4]
   }
 }
