@@ -8,6 +8,12 @@
       "file": "calendar-embedded.html"
     },
     {
+      "id": "weather",
+      "title": "Väder",
+      "icon": "🌤️",
+      "file": "weather-embedded.html"
+    },
+    {
       "id": "standings",
       "title": "Tabell",
       "icon": "📊",
@@ -21,9 +27,19 @@
       "displayMode": "single"
     },
     {
+      "label": "Väder",
+      "pages": ["weather"],
+      "displayMode": "single"
+    },
+    {
       "label": "Tabell",
       "pages": ["standings"],
       "displayMode": "single"
+    },
+    {
+      "label": "Kalender + Väder",
+      "pages": ["calendar", "weather"],
+      "displayMode": "sideBySide"
     },
     {
       "label": "Tabell + Kalender",
@@ -34,6 +50,6 @@
   "rotation": {
     "enabled": true,
     "intervalSeconds": 30,
-    "groups": [0, 1, 2]
+    "groups": [0, 1, 2, 3, 4]
   }
 }

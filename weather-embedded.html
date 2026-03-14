@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Väder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --bg-card: #334155;
+            --text-primary: #fff;
+            --text-secondary: #94a3b8;
+            --accent: #22c55e;
+            --accent-blue: #3b82f6;
+            --accent-yellow: #eab308;
+            --accent-orange: #f97316;
+            --accent-red: #ef4444;
+        }
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            padding: 15px;
+        }
+        
+        .header-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--bg-card);
+        }
+        
+        .title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        
+        .location {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+        
+        .weather-container {
+            height: calc(100% - 50px);
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+        
+        .weather-container::-webkit-scrollbar {
+            width: 6px;
+        }
+        .weather-container::-webkit-scrollbar-track {
+            background: var(--bg-secondary);
+        }
+        .weather-container::-webkit-scrollbar-thumb {
+            background: var(--bg-card);
+            border-radius: 3px;
+        }
+        
+        /* Current weather */
+        .current-weather {
+            background: linear-gradient(135deg, var(--bg-secondary) 0%, #1e3a5f 100%);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .current-main {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .current-icon {
+            font-size: 4rem;
+        }
+        
+        .current-temp {
+            font-size: 3.5rem;
+            font-weight: 200;
+            line-height: 1;
+        }
+        
+        .current-details {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        
+        .current-condition {
+            font-size: 1.25rem;
+            color: var(--accent-yellow);
+        }
+        
+        .current-feels {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        
+        .current-extra {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+        
+        .extra-item {
+            background: rgba(255,255,255,0.1);
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .extra-value {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        
+        .extra-label {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+        }
+        
+        /* Hourly */
+        .section-title {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .hourly-scroll {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .hourly-scroll::-webkit-scrollbar {
+            height: 4px;
+        }
+        .hourly-scroll::-webkit-scrollbar-thumb {
+            background: var(--bg-card);
+            border-radius: 2px;
+        }
+        
+        .hour-card {
+            min-width: 60px;
+            background: var(--bg-secondary);
+            padding: 12px 8px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .hour-card.now {
+            border: 1px solid var(--accent);
+        }
+        
+        .hour-time {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            margin-bottom: 6px;
+        }
+        
+        .hour-icon {
+            font-size: 1.5rem;
+            margin-bottom: 4px;
+        }
+        
+        .hour-temp {
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        /* Daily forecast */
+        .daily-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        
+        .day-card {
+            display: grid;
+            grid-template-columns: 60px 30px 1fr 60px;
+            gap: 15px;
+            align-items: center;
+            background: var(--bg-secondary);
+            padding: 14px 16px;
+            border-radius: 10px;
+        }
+        
+        .day-name {
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .day-name.today {
+            color: var(--accent);
+        }
+        
+        .day-icon {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        
+        .day-temps {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .day-high {
+            font-weight: 600;
+            color: var(--accent-orange);
+        }
+        
+        .day-low {
+            color: var(--accent-blue);
+        }
+        
+        .day-bar {
+            flex: 1;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent-blue), var(--accent-orange));
+            border-radius: 2px;
+            margin: 0 10px;
+        }
+        
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <div class="header-bar">
+        <div>
+            <div class="title">🌤️ Väderprognos</div>
+            <div class="location">Kronäng, Borås</div>
+        </div>
+    </div>
+    
+    <div class="weather-container" id="weatherContainer">
+        <div class="loading">Laddar väder...</div>
+    </div>
+
+    <script>
+        const WMO_CODES = {
+            0: { icon: '☀️', desc: 'Klar himmel' },
+            1: { icon: '🌤️', desc: 'Mestadels klart' },
+            2: { icon: '⛅', desc: 'Delvis molnigt' },
+            3: { icon: '☁️', desc: 'Molnigt' },
+            45: { icon: '🌫️', desc: 'Dimma' },
+            48: { icon: '🌫️', desc: 'Dimma' },
+            51: { icon: '🌧️', desc: 'Dis' },
+            53: { icon: '🌧️', desc: 'Dis' },
+            55: { icon: '🌧️', desc: 'Dis' },
+            61: { icon: '🌧️', desc: 'Regn' },
+            63: { icon: '🌧️', desc: 'Regn' },
+            65: { icon: '🌧️', desc: 'Regn' },
+            71: { icon: '❄️', desc: 'Snö' },
+            73: { icon: '❄️', desc: 'Snö' },
+            75: { icon: '❄️', desc: 'Snö' },
+            80: { icon: '🌦️', desc: 'Regnskurar' },
+            81: { icon: '🌦️', desc: 'Regnskurar' },
+            82: { icon: '🌦️', desc: 'Regnskurar' },
+            95: { icon: '⛈️', desc: 'Åska' },
+            96: { icon: '⛈️', desc: 'Åska' },
+            99: { icon: '⛈️', desc: 'Åska' }
+        };
+        
+        const WEEKDAYS = ['Sön', 'Mån', 'Tis', 'Ons', 'Tor', 'Fre', 'Lör'];
+        
+        async function loadWeather() {
+            try {
+                const LAT = 57.72;
+                const LON = 12.94;
+                
+                const url = `https://api.open-meteo.com/v1/forecast`
+                    + `?latitude=${LAT}&longitude=${LON}`
+                    + `&hourly=weathercode,temperature_2m,relativehumidity_2m,wind速度_10m`
+                    + `&daily=weathercode,temperature_2m_max,temperature_2m_min`
+                    + `&timezone=Europe/Stockholm`
+                    + `&forecast_days=7`;
+                
+                const response = await fetch(url);
+                const data = await response.json();
+                
+                const now = new Date();
+                const currentHour = now.getHours();
+                
+                // Current hour index
+                const currentIdx = currentHour;
+                const currentCode = data.hourly.weathercode[currentIdx];
+                const currentTemp = data.hourly.temperature_2m[currentIdx];
+                const currentHumidity = data.hourly.relativehumidity_2m[currentIdx];
+                const currentWind = data.hourly.windspeed_10m[currentIdx];
+                const currentWeather = WMO_CODES[currentCode] || { icon: '🌡️', desc: 'Okänt' };
+                
+                // Hourly for today
+                const hourlyData = [];
+                for (let i = currentHour; i < Math.min(currentHour + 24, data.hourly.time.length); i++) {
+                    if (i % 2 === 0) { // Every 2 hours
+                        const time = new Date(data.hourly.time[i]);
+                        hourlyData.push({
+                            time: time.getHours() + ':00',
+                            code: data.hourly.weathercode[i],
+                            temp: Math.round(data.hourly.temperature_2m[i])
+                        });
+                    }
+                }
+                
+                // Daily forecast
+                const dailyData = [];
+                const today = new Date();
+                for (let i = 0; i < data.daily.time.length; i++) {
+                    const date = new Date(data.daily.time[i]);
+                    dailyData.push({
+                        day: i === 0 ? 'Idag' : i === 1 ? 'Imorgon' : WEEKDAYS[date.getDay()],
+                        code: data.daily.weathercode[i],
+                        high: Math.round(data.daily.temperature_2m_max[i]),
+                        low: Math.round(data.daily.temperature_2m_min[i])
+                    });
+                }
+                
+                // Build HTML
+                let html = `
+                    <div class="current-weather">
+                        <div class="current-main">
+                            <span class="current-icon">${currentWeather.icon}</span>
+                            <div>
+                                <div class="current-temp">${Math.round(currentTemp)}°</div>
+                                <div class="current-condition">${currentWeather.desc}</div>
+                            </div>
+                        </div>
+                        <div class="current-extra">
+                            <div class="extra-item">
+                                <div class="extra-value">${currentHumidity}%</div>
+                                <div class="extra-label">Fukt</div>
+                            </div>
+                            <div class="extra-item">
+                                <div class="extra-value">${Math.round(currentWind)}</div>
+                                <div class="extra-label">m/s vind</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="section-title">Timme för timme</div>
+                    <div class="hourly-scroll">
+                `;
+                
+                hourlyData.forEach((h, i) => {
+                    const weather = WMO_CODES[h.code] || { icon: '🌡️' };
+                    const isNow = i === 0;
+                    html += `
+                        <div class="hour-card ${isNow ? 'now' : ''}">
+                            <div class="hour-time">${isNow ? 'Nu' : h.time}</div>
+                            <div class="hour-icon">${weather.icon}</div>
+                            <div class="hour-temp">${h.temp}°</div>
+                        </div>
+                    `;
+                });
+                
+                html += `
+                    </div>
+                    <div class="section-title">7-dagars prognos</div>
+                    <div class="daily-grid">
+                `;
+                
+                dailyData.forEach(d => {
+                    const weather = WMO_CODES[d.code] || { icon: '🌡️' };
+                    html += `
+                        <div class="day-card">
+                            <div class="day-name ${d.day === 'Idag' ? 'today' : ''}">${d.day}</div>
+                            <div class="day-icon">${weather.icon}</div>
+                            <div class="day-temps">
+                                <span class="day-high">${d.high}°</span>
+                                <div class="day-bar"></div>
+                                <span class="day-low">${d.low}°</span>
+                            </div>
+                        </div>
+                    `;
+                });
+                
+                html += '</div>';
+                
+                document.getElementById('weatherContainer').innerHTML = html;
+                
+            } catch (e) {
+                console.error('Weather error:', e);
+                document.getElementById('weatherContainer').innerHTML = 
+                    '<div class="loading" style="color:#ef4444">Laddfel: ' + e.message + '</div>';
+            }
+        }
+        
+        // Auto-refresh every 15 minutes
+        loadWeather();
+        setInterval(loadWeather, 900000);
+    </script>
+</body>
+</html>

@@ -31,8 +31,28 @@
             padding: 15px;
         }
         
+        .header-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--bg-card);
+        }
+        
+        .month-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        
+        .last-updated {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+        }
+        
         .calendar-container {
-            height: 100%;
+            height: calc(100% - 50px);
             overflow-y: auto;
             padding-right: 10px;
         }
@@ -48,13 +68,6 @@
             border-radius: 3px;
         }
         
-        .month-header {
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-bottom: 15px;
-            color: var(--accent);
-        }
-        
         .calendar-grid {
             display: flex;
             flex-direction: column;
@@ -63,7 +76,7 @@
         
         .day-row {
             display: grid;
-            grid-template-columns: 80px 1fr;
+            grid-template-columns: 70px 1fr;
             gap: 15px;
             padding: 12px;
             background: var(--bg-secondary);
@@ -80,18 +93,18 @@
         }
         
         .day-date .weekday {
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             color: var(--text-secondary);
             text-transform: uppercase;
         }
         
         .day-date .day-num {
-            font-size: 1.75rem;
+            font-size: 1.6rem;
             font-weight: 700;
         }
         
         .day-date .month {
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             color: var(--text-secondary);
         }
         
@@ -126,16 +139,55 @@
         .event-time {
             font-weight: 600;
             min-width: 50px;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
         }
         
-        .event-title {
+        .event-info {
             flex: 1;
-            font-size: 0.95rem;
+            min-width: 0;
+        }
+        
+        .event-team {
+            font-size: 0.9rem;
+            font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .event-desc {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
         
         .event-location {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+        }
+        
+        .event-weather {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 8px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 4px;
             font-size: 0.8rem;
+            white-space: nowrap;
+        }
+        
+        .weather-icon {
+            font-size: 1rem;
+        }
+        
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
             color: var(--text-secondary);
         }
         
@@ -147,166 +199,120 @@
     </style>
 </head>
 <body>
+    <div class="header-bar">
+        <div class="month-title" id="monthTitle">Laddar...</div>
+        <div class="last-updated" id="lastUpdated"></div>
+    </div>
+    
     <div class="calendar-container">
-        <div class="month-header">Mars 2026</div>
-        
-        <div class="calendar-grid">
-            <!-- Today -->
-            <div class="day-row today">
-                <div class="day-date">
-                    <div class="weekday">Lör</div>
-                    <div class="day-num">14</div>
-                    <div class="month">mars</div>
-                </div>
-                <div class="events">
-                    <div class="event match">
-                        <span class="event-time">10:00</span>
-                        <div>
-                            <div class="event-title">⚽ Kronäng IF - IFK Falkenberg</div>
-                            <div class="event-location">Kronäng IP</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Tomorrow -->
-            <div class="day-row">
-                <div class="day-date">
-                    <div class="weekday">Sön</div>
-                    <div class="day-num">15</div>
-                    <div class="month">mars</div>
-                </div>
-                <div class="events">
-                    <div class="event training">
-                        <span class="event-time">10:00</span>
-                        <div>
-                            <div class="event-title">🏋️ Träning U17</div>
-                            <div class="event-location">Hedängs idrottshall</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- More days -->
-            <div class="day-row">
-                <div class="day-date">
-                    <div class="weekday">Mån</div>
-                    <div class="day-num">16</div>
-                    <div class="month">mars</div>
-                </div>
-                <div class="events">
-                    <div class="event training">
-                        <span class="event-time">18:00</span>
-                        <div>
-                            <div class="event-title">🏋️ Träning seniorer</div>
-                            <div class="event-location">Hedängs idrottshall</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="day-row">
-                <div class="day-date">
-                    <div class="weekday">Tis</div>
-                    <div class="day-num">17</div>
-                    <div class="month">mars</div>
-                </div>
-                <div class="events">
-                    <div class="event other">
-                        <span class="event-time">19:00</span>
-                        <div>
-                            <div class="event-title">📋 Styrelsemöte</div>
-                            <div class="event-location">Klubbstuga</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="day-row">
-                <div class="day-date">
-                    <div class="weekday">Ons</div>
-                    <div class="day-num">18</div>
-                    <div class="month">mars</div>
-                </div>
-                <div class="events">
-                    <div class="event training">
-                        <span class="event-time">18:00</span>
-                        <div>
-                            <div class="event-title">🏋️ Träning U17</div>
-                            <div class="event-location">Hedängs idrottshall</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="day-row">
-                <div class="day-date">
-                    <div class="weekday">Tor</div>
-                    <div class="day-num">19</div>
-                    <div class="month">mars</div>
-                </div>
-                <div class="events">
-                    <div class="event training">
-                        <span class="event-time">18:00</span>
-                        <div>
-                            <div class="event-title">🏋️ Träning seniorer</div>
-                            <div class="event-location">Hedängs idrottshall</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="day-row">
-                <div class="day-date">
-                    <div class="weekday">Fre</div>
-                    <div class="day-num">20</div>
-                    <div class="month">mars</div>
-                </div>
-                <div class="events">
-                    <div class="event match">
-                        <span class="event-time">19:00</span>
-                        <div>
-                            <div class="event-title">⚽ Kronäng IF - GIF Sundsvall</div>
-                            <div class="event-location">Kronäng IP</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="day-row">
-                <div class="day-date">
-                    <div class="weekday">Lör</div>
-                    <div class="day-num">21</div>
-                    <div class="month">mars</div>
-                </div>
-                <div class="events">
-                    <div class="event training">
-                        <span class="event-time">10:00</span>
-                        <div>
-                            <div class="event-title">🏋️ Träning U17</div>
-                            <div class="event-location">Hedängs idrottshall</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="day-row">
-                <div class="day-date">
-                    <div class="weekday">Sön</div>
-                    <div class="day-num">22</div>
-                    <div class="month">mars</div>
-                </div>
-                <div class="events">
-                    <div class="event match">
-                        <span class="event-time">13:00</span>
-                        <div>
-                            <div class="event-title">⚽ Kronäng IF - Jönköping S.</div>
-                            <div class="event-location">Kronäng IP</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="calendar-grid" id="calendarGrid">
+            <div class="loading">Laddar kalender...</div>
         </div>
     </div>
+
+    <script>
+        const MONTHS = ['januari', 'februari', 'mars', 'april', 'maj', 'juni', 
+                       'juli', 'augusti', 'september', 'oktober', 'november', 'december'];
+        const WEEKDAYS = ['sön', 'mån', 'tis', 'ons', 'tor', 'fre', 'lör'];
+        
+        const TYPE_ICONS = {
+            'Träning': '🏋️',
+            'Match': '⚽',
+            'Övrigt': '📋',
+            'Cup': '🏆'
+        };
+        
+        const TYPE_CLASSES = {
+            'Träning': 'training',
+            'Match': 'match',
+            'Övrigt': 'other',
+            'Cup': 'match'
+        };
+        
+        async function loadCalendar() {
+            try {
+                const response = await fetch('data/calendar.json');
+                const data = await response.json();
+                
+                // Update header
+                document.getElementById('monthTitle').textContent = 
+                    `${MONTHS[data.month - 1]} ${data.year}`;
+                document.getElementById('lastUpdated').textContent = 
+                    `Uppdaterad: ${new Date(data.last_updated).toLocaleString('sv-SE')}`;
+                
+                // Group activities by date
+                const activities = data.activities;
+                const grouped = {};
+                
+                activities.forEach(act => {
+                    if (!grouped[act.date]) {
+                        grouped[act.date] = [];
+                    }
+                    grouped[act.date].push(act);
+                });
+                
+                // Sort dates
+                const sortedDates = Object.keys(grouped).sort();
+                const today = new Date().toISOString().split('T')[0];
+                
+                // Build calendar
+                const grid = document.getElementById('calendarGrid');
+                let html = '';
+                
+                sortedDates.forEach(date => {
+                    const events = grouped[date];
+                    const isToday = date === today;
+                    const dateObj = new Date(date + 'T12:00:00');
+                    const weekday = WEEKDAYS[dateObj.getDay()];
+                    const dayNum = dateObj.getDate();
+                    
+                    html += `
+                        <div class="day-row ${isToday ? 'today' : ''}">
+                            <div class="day-date">
+                                <div class="weekday">${weekday}</div>
+                                <div class="day-num">${dayNum}</div>
+                                <div class="month">${MONTHS[dateObj.getMonth()].slice(0,3)}</div>
+                            </div>
+                            <div class="events">
+                    `;
+                    
+                    events.forEach(ev => {
+                        const icon = TYPE_ICONS[ev.type] || '📌';
+                        const typeClass = TYPE_CLASSES[ev.type] || 'other';
+                        
+                        html += `
+                            <div class="event ${typeClass}">
+                                <span class="event-time">${ev.time}</span>
+                                <div class="event-info">
+                                    <div class="event-team">${icon} ${ev.team}</div>
+                                    <div class="event-desc">${ev.description || ev.type}</div>
+                                    <div class="event-location">${ev.location || ''}</div>
+                                </div>
+                                ${ev.weather ? `
+                                    <div class="event-weather">
+                                        <span class="weather-icon">${ev.weather.icon}</span>
+                                        <span>${ev.weather.temp}°C</span>
+                                    </div>
+                                ` : ''}
+                            </div>
+                        `;
+                    });
+                    
+                    html += '</div></div>';
+                });
+                
+                grid.innerHTML = html;
+                
+            } catch (e) {
+                console.error('Error loading calendar:', e);
+                document.getElementById('calendarGrid').innerHTML = 
+                    '<div class="loading" style="color:#ef4444">Laddfel: ' + e.message + '</div>';
+            }
+        }
+        
+        // Auto-refresh every 5 minutes
+        loadCalendar();
+        setInterval(loadCalendar, 300000);
+    </script>
 </body>
 </html>
