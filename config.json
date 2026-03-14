@@ -5,19 +5,24 @@
       "id": "calendar",
       "title": "Kalender",
       "icon": "📅",
-      "file": "calendar.html"
+      "file": "calendar-embedded.html"
     },
     {
       "id": "standings",
       "title": "Tabell",
       "icon": "📊",
-      "file": "standings.html"
+      "file": "standings-embedded.html"
     }
   ],
   "pageGroups": [
     {
-      "label": "Standard",
+      "label": "Kalender",
       "pages": ["calendar"],
+      "displayMode": "single"
+    },
+    {
+      "label": "Tabell",
+      "pages": ["standings"],
       "displayMode": "single"
     },
     {
@@ -29,6 +34,6 @@
   "rotation": {
     "enabled": true,
     "intervalSeconds": 30,
-    "groups": ["standard", "standings"]
+    "groups": [0, 1, 2]
   }
 }

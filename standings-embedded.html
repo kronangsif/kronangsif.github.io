@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabell</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --bg-card: #334155;
+            --text-primary: #fff;
+            --text-secondary: #94a3b8;
+            --accent: #22c55e;
+            --accent-blue: #3b82f6;
+            --accent-yellow: #eab308;
+            --accent-red: #ef4444;
+        }
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            padding: 15px;
+        }
+        
+        .standings-container {
+            height: 100%;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+        
+        .standings-container::-webkit-scrollbar {
+            width: 6px;
+        }
+        .standings-container::-webkit-scrollbar-track {
+            background: var(--bg-secondary);
+        }
+        .standings-container::-webkit-scrollbar-thumb {
+            background: var(--bg-card);
+            border-radius: 3px;
+        }
+        
+        .league-header {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .standings-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0 4px;
+        }
+        
+        .standings-table th {
+            text-align: left;
+            padding: 8px 12px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .standings-table td {
+            padding: 12px;
+            background: var(--bg-secondary);
+            font-size: 0.9rem;
+        }
+        
+        .standings-table tr:first-child td:first-child {
+            border-top-left-radius: 8px;
+        }
+        .standings-table tr:first-child td:last-child {
+            border-top-right-radius: 8px;
+        }
+        .standings-table tr:last-child td:first-child {
+            border-bottom-left-radius: 8px;
+        }
+        .standings-table tr:last-child td:last-child {
+            border-bottom-right-radius: 8px;
+        }
+        
+        .standings-table tbody tr {
+            transition: transform 0.2s;
+        }
+        
+        .standings-table tbody tr:hover {
+            transform: scale(1.01);
+        }
+        
+        .pos {
+            width: 40px;
+            font-weight: 700;
+        }
+        
+        .team {
+            font-weight: 500;
+        }
+        
+        .team-name {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .team-badge {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: var(--bg-card);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+        }
+        
+        .games { text-align: center; width: 40px; }
+        .points { 
+            text-align: center; 
+            width: 50px; 
+            font-weight: 700;
+            color: var(--accent);
+        }
+        .gd { 
+            text-align: center; 
+            width: 50px;
+            color: var(--text-secondary);
+        }
+        
+        .pos-1 { color: var(--accent); }
+        .pos-2 { color: var(--accent-blue); }
+        .pos-3 { color: var(--accent-yellow); }
+        
+        .relegation { border-left: 3px solid var(--accent-red); }
+        .top-spot { border-left: 3px solid var(--accent); }
+    </style>
+</head>
+<body>
+    <div class="standings-container">
+        <div class="league-header">Division 4 - Borås</div>
+        
+        <table class="standings-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Lag</th>
+                    <th class="games">S</th>
+                    <th class="gd">GM</th>
+                    <th class="gd">IM</th>
+                    <th class="gd">+/-</th>
+                    <th class="points">P</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="top-spot">
+                    <td class="pos pos-1">1</td>
+                    <td class="team">
+                        <div class="team-name">
+                            <span class="team-badge">🏆</span>
+                            Kronäng IF
+                        </div>
+                    </td>
+                    <td class="games">12</td>
+                    <td class="gd">38</td>
+                    <td class="gd">15</td>
+                    <td class="gd">+23</td>
+                    <td class="points">30</td>
+                </tr>
+                
+                <tr>
+                    <td class="pos pos-2">2</td>
+                    <td class="team">
+                        <div class="team-name">
+                            <span class="team-badge">🥈</span>
+                            IFK Borås
+                        </div>
+                    </td>
+                    <td class="games">12</td>
+                    <td class="gd">32</td>
+                    <td class="gd">18</td>
+                    <td class="gd">+14</td>
+                    <td class="points">26</td>
+                </tr>
+                
+                <tr>
+                    <td class="pos pos-3">3</td>
+                    <td class="team">
+                        <div class="team-name">
+                            <span class="team-badge">🥉</span>
+                            GIF Sundsvall
+                        </div>
+                    </td>
+                    <td class="games">12</td>
+                    <td class="gd">28</td>
+                    <td class="gd">20</td>
+                    <td class="gd">+8</td>
+                    <td class="points">22</td>
+                </tr>
+                
+                <tr>
+                    <td class="pos">4</td>
+                    <td class="team">
+                        <div class="team-name">
+                            <span class="team-badge">⚽</span>
+                            Jönköping S.
+                        </div>
+                    </td>
+                    <td class="games">12</td>
+                    <td class="gd">25</td>
+                    <td class="gd">22</td>
+                    <td class="gd">+3</td>
+                    <td class="points">18</td>
+                </tr>
+                
+                <tr>
+                    <td class="pos">5</td>
+                    <td class="team">
+                        <div class="team-name">
+                            <span class="team-badge">⚽</span>
+                            IFK Falkenberg
+                        </div>
+                    </td>
+                    <td class="games">12</td>
+                    <td class="gd">22</td>
+                    <td class="gd">24</td>
+                    <td class="gd">-2</td>
+                    <td class="points">16</td>
+                </tr>
+                
+                <tr>
+                    <td class="pos">6</td>
+                    <td class="team">
+                        <div class="team-name">
+                            <span class="team-badge">⚽</span>
+                            IK Sirius
+                        </div>
+                    </td>
+                    <td class="games">12</td>
+                    <td class="gd">20</td>
+                    <td class="gd">25</td>
+                    <td class="gd">-5</td>
+                    <td class="points">14</td>
+                </tr>
+                
+                <tr>
+                    <td class="pos">7</td>
+                    <td class="team">
+                        <div class="team-name">
+                            <span class="team-badge">⚽</span>
+                            BK Häcken
+                        </div>
+                    </td>
+                    <td class="games">12</td>
+                    <td class="gd">18</td>
+                    <td class="gd">22</td>
+                    <td class="gd">-4</td>
+                    <td class="points">12</td>
+                </tr>
+                
+                <tr>
+                    <td class="pos">8</td>
+                    <td class="team">
+                        <div class="team-name">
+                            <span class="team-badge">⚽</span>
+                            Varbergs BoIS
+                        </div>
+                    </td>
+                    <td class="games">12</td>
+                    <td class="gd">15</td>
+                    <td class="gd">28</td>
+                    <td class="gd">-13</td>
+                    <td class="points">10</td>
+                </tr>
+                
+                <tr class="relegation">
+                    <td class="pos">9</td>
+                    <td class="team">
+                        <div class="team-name">
+                            <span class="team-badge">⚠️</span>
+                            Oddevold
+                        </div>
+                    </td>
+                    <td class="games">12</td>
+                    <td class="gd">12</td>
+                    <td class="gd">30</td>
+                    <td class="gd">-18</td>
+                    <td class="points">6</td>
+                </tr>
+                
+                <tr class="relegation">
+                    <td class="pos">10</td>
+                    <td class="team">
+                        <div class="team-name">
+                            <span class="team-badge">⚠️</span>
+                            Norrby IF
+                        </div>
+                    </td>
+                    <td class="games">12</td>
+                    <td class="gd">8</td>
+                    <td class="gd">35</td>
+                    <td class="gd">-27</td>
+                    <td class="points">3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
