@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T07:59:14.683233",
+  "last_updated": "2026-03-14T07:50:56.418259",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -748,9 +748,9 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.1
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 3.1
       }
     },
     {
@@ -764,9 +764,9 @@
       "description": "Äspereds IF borta",
       "location": "Ramnavallen()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.1
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 3.1
       }
     },
     {
@@ -782,7 +782,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.1
+        "temp": 4.1
       }
     },
     {
@@ -798,7 +798,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.1
+        "temp": 4.1
       }
     },
     {
@@ -814,23 +814,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.1
-      }
-    },
-    {
-      "date": "2026-03-15",
-      "day": "15",
-      "weekday": "sön",
-      "time": "00:00",
-      "team": "VEO kamera",
-      "team_id": "430796",
-      "type": "Match",
-      "description": "Vara SK hemma",
-      "location": "Kronäng Arena konstgräs 1(Damer DM - Grupp 5 VEO)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 3.7
+        "temp": 4.1
       }
     },
     {
@@ -846,7 +830,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.1
+        "temp": 2.4
       }
     },
     {
@@ -862,7 +846,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.3
+        "temp": 2.6
       }
     },
     {
@@ -878,7 +862,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.6
+        "temp": 3.0
       }
     },
     {
@@ -894,7 +878,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.6
+        "temp": 3.0
       }
     },
     {
@@ -910,7 +894,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.0
+        "temp": 3.4
       }
     },
     {
@@ -926,7 +910,23 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.0
+        "temp": 3.4
+      }
+    },
+    {
+      "date": "2026-03-15",
+      "day": "15",
+      "weekday": "sön",
+      "time": "11:00",
+      "team": "VEO kamera",
+      "team_id": "430796",
+      "type": "Match",
+      "description": "Vara SK hemma",
+      "location": "Kronäng Arena konstgräs 1(Damer DM - Grupp 5 VEO)",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 3.4
       }
     },
     {
@@ -942,7 +942,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.0
+        "temp": 3.4
       }
     },
     {
@@ -958,7 +958,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.6
+        "temp": 4.1
       }
     },
     {
@@ -974,7 +974,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.6
+        "temp": 4.1
       }
     },
     {
@@ -990,7 +990,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.6
+        "temp": 5.0
       }
     },
     {
@@ -1006,7 +1006,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.6
+        "temp": 5.0
       }
     },
     {
@@ -1020,9 +1020,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 4.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 5.2
       }
     },
     {
@@ -1036,9 +1036,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 2.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 3.0
       }
     },
     {
@@ -1054,7 +1054,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.7
+        "temp": 6.9
       }
     },
     {
@@ -1070,7 +1070,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.7
+        "temp": 6.9
       }
     },
     {
@@ -1086,7 +1086,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.2
+        "temp": 5.0
       }
     },
     {
@@ -1102,7 +1102,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.2
+        "temp": 5.0
       }
     },
     {
@@ -1116,9 +1116,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 9.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.2
       }
     },
     {
@@ -1132,9 +1132,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 9.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.2
       }
     },
     {
@@ -1148,9 +1148,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 9.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.2
       }
     },
     {
@@ -1164,9 +1164,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.7
       }
     },
     {
@@ -1180,9 +1180,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.9
       }
     },
     {
@@ -1196,9 +1196,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.9
       }
     },
     {
@@ -1212,9 +1212,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 5.1
       }
     },
     {
@@ -1228,9 +1228,9 @@
       "description": "X-Fit",
       "location": "Xpuls Poolhouse",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.0
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 3.5
       }
     },
     {
@@ -1243,7 +1243,11 @@
       "type": "Övrigt",
       "description": "Karlslundscupen 20-22 Mars",
       "location": "Örebro",
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.7
+      }
     },
     {
       "date": "2026-03-20",
@@ -1255,7 +1259,11 @@
       "type": "Match",
       "description": "Marbäcks IF hemma",
       "location": "Kronängs Arena A-plan()",
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.2
+      }
     },
     {
       "date": "2026-03-21",
