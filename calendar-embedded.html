@@ -231,9 +231,13 @@
         
         async function loadCalendar() {
             try {
+                console.log('Loading calendar...');
                 // Use root-relative path
                 const response = await fetch('/data/calendar.json');
+                if (!response.ok) throw new Error('Network response was not ok: ' + response.status);
+                console.log('Got response, parsing JSON...');
                 const data = await response.json();
+                console.log('JSON parsed, activities:', data.activities.length);
                 
                 // Update header
                 document.getElementById('monthTitle').textContent = 
@@ -307,7 +311,7 @@
             } catch (e) {
                 console.error('Error loading calendar:', e);
                 document.getElementById('calendarGrid').innerHTML = 
-                    '<div class="loading" style="color:#ef4444">Laddfel: ' + e.message + '</div>';
+                    '<div class="loading" style="color:#ef4444">Laddfel: ' + e.message + '<br><br>' + e.stack + '</div>';
             }
         }
         
