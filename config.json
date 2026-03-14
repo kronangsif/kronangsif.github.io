@@ -2,12 +2,6 @@
   "title": "Kronängs IF",
   "pages": [
     {
-      "id": "calendar",
-      "title": "Alla",
-      "icon": "📅",
-      "file": "calendar-embedded.html"
-    },
-    {
       "id": "training",
       "title": "Träningar",
       "icon": "🏋️",
@@ -34,11 +28,6 @@
   ],
   "pageGroups": [
     {
-      "label": "Alla",
-      "pages": ["calendar"],
-      "displayMode": "single"
-    },
-    {
       "label": "Träningar",
       "pages": ["training"],
       "displayMode": "single"
@@ -62,6 +51,6 @@
   "rotation": {
     "enabled": true,
     "intervalSeconds": 10,
-    "groups": [0, 1, 2, 3, 4]
+    "groups": [0, 1, 2, 3]
   }
 }
