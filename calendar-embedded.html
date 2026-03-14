@@ -231,7 +231,8 @@
         
         async function loadCalendar() {
             try {
-                const response = await fetch('data/calendar.json');
+                // Use root-relative path
+                const response = await fetch('/data/calendar.json');
                 const data = await response.json();
                 
                 // Update header
