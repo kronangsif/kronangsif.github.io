@@ -245,9 +245,35 @@
                 document.getElementById('lastUpdated').textContent = 
                     `Uppdaterad: ${new Date(data.last_updated).toLocaleString('sv-SE')}`;
                 
-                // Group activities by date - only future activities
+                // Get filters from URL params
+                const urlParams = new URLSearchParams(window.location.search);
+                const filterTeam = urlParams.get('team');  // e.g., "Herr", "Dam"
+                const filterType = urlParams.get('type');   // e.g., "Match", "Träning"
+                
+                // Update title if filtering
+                if (filterTeam || filterType) {
+                    const filters = [];
+                    if (filterTeam) filters.push(filterTeam);
+                    if (filterType) filters.push(filterType);
+                    document.getElementById('monthTitle').textContent = filters.join(' + ');
+                }
+                
+                // Group activities by date - only future activities, with filters
                 const today = new Date().toISOString().split('T')[0];
-                const activities = data.activities.filter(a => a.date >= today);
+                let activities = data.activities.filter(a => a.date >= today);
+                
+                // Apply team filter
+                if (filterTeam) {
+                    activities = activities.filter(a => a.team && a.team.toLowerCase().includes(filterTeam.toLowerCase()));
+                }
+                
+                // Apply type filter
+                if (filterType) {
+                    activities = activities.filter(a => a.type && a.type.toLowerCase() === filterType.toLowerCase());
+                }
+                
+                console.log('Filtered activities:', activities.length, 'team:', filterTeam, 'type:', filterType);
+                
                 const grouped = {};
                 
                 activities.forEach(act => {

@@ -3,7 +3,7 @@
   "pages": [
     {
       "id": "calendar",
-      "title": "Kalender",
+      "title": "Alla",
       "icon": "📅",
       "file": "calendar-embedded.html"
     },
@@ -15,20 +15,20 @@
     },
     {
       "id": "herr",
-      "title": "Herr",
+      "title": "Herr + Matcher",
       "icon": "👨‍🦱",
       "file": "herr-embedded.html"
     },
     {
       "id": "dam",
-      "title": "Dam",
+      "title": "Dam + Matcher",
       "icon": "👩‍🦰",
       "file": "dam-embedded.html"
     }
   ],
   "pageGroups": [
     {
-      "label": "Kalender",
+      "label": "Alla",
       "pages": ["calendar"],
       "displayMode": "single"
     },
@@ -38,29 +38,19 @@
       "displayMode": "single"
     },
     {
-      "label": "Herr",
+      "label": "Herr + Matcher",
       "pages": ["herr"],
       "displayMode": "single"
     },
     {
-      "label": "Dam",
+      "label": "Dam + Matcher",
       "pages": ["dam"],
       "displayMode": "single"
-    },
-    {
-      "label": "Herr + Kalender",
-      "pages": ["herr", "calendar"],
-      "displayMode": "sideBySide"
-    },
-    {
-      "label": "Dam + Kalender",
-      "pages": ["dam", "calendar"],
-      "displayMode": "sideBySide"
     }
   ],
   "rotation": {
     "enabled": true,
     "intervalSeconds": 10,
-    "groups": [0, 1, 2, 3, 4, 5]
+    "groups": [0, 1, 2, 3]
   }
 }
