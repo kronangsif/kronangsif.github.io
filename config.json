@@ -14,10 +14,16 @@
       "file": "weather-embedded.html"
     },
     {
-      "id": "standings",
-      "title": "Tabell",
-      "icon": "📊",
-      "file": "standings-embedded.html"
+      "id": "herr",
+      "title": "Herr",
+      "icon": "👨‍🦱",
+      "file": "herr-embedded.html"
+    },
+    {
+      "id": "dam",
+      "title": "Dam",
+      "icon": "👩‍🦰",
+      "file": "dam-embedded.html"
     }
   ],
   "pageGroups": [
@@ -32,24 +38,29 @@
       "displayMode": "single"
     },
     {
-      "label": "Tabell",
-      "pages": ["standings"],
+      "label": "Herr",
+      "pages": ["herr"],
       "displayMode": "single"
     },
     {
-      "label": "Kalender + Väder",
-      "pages": ["calendar", "weather"],
+      "label": "Dam",
+      "pages": ["dam"],
+      "displayMode": "single"
+    },
+    {
+      "label": "Herr + Kalender",
+      "pages": ["herr", "calendar"],
       "displayMode": "sideBySide"
     },
     {
-      "label": "Tabell + Kalender",
-      "pages": ["standings", "calendar"],
+      "label": "Dam + Kalender",
+      "pages": ["dam", "calendar"],
       "displayMode": "sideBySide"
     }
   ],
   "rotation": {
     "enabled": true,
     "intervalSeconds": 10,
-    "groups": [0, 1, 2, 3, 4]
+    "groups": [0, 1, 2, 3, 4, 5]
   }
 }
