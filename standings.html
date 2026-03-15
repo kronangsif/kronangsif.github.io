@@ -27,8 +27,11 @@
             justify-content: space-between;
             align-items: center;
             margin-bottom: 20px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding: 16px 20px;
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.98), rgba(30, 41, 59, 0.96));
+            border: 1px solid rgba(148,163,184,0.16);
+            border-radius: 14px;
+            box-shadow: none;
         }
         .logo {
             display: flex;
@@ -36,10 +39,11 @@
             gap: 12px;
         }
         .logo-image {
-            height: 40px;
-            width: auto;
+            height: 48px;
+            width: 32px;
             display: block;
             flex-shrink: 0;
+            object-fit: contain;
         }
         .logo-icon {
             font-size: 32px;
@@ -55,7 +59,7 @@
         }
         .iframe-container {
             width: 100%;
-            background: #fff;
+            background: var(--bg-primary, #0f172a);
             border-radius: 12px;
             overflow: hidden;
         }
