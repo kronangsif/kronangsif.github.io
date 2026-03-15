@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Herrar - Tabell & Matcher</title>
+    <title>Kronängs Herrlag - Tabell & Matcher</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -31,7 +31,7 @@
             align-items: center;
         }
         .header h1 {
-            font-size: 1.35rem;
+            font-size: 1.45rem;
             font-weight: 700;
         }
         
@@ -58,6 +58,13 @@
             color: #94a3b8;
             padding: 6px 10px;
             background: var(--bg-secondary);
+        }
+        .match-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            color: #e2e8f0;
+            padding: 10px 12px;
         }
         
         iframe {
@@ -88,26 +95,26 @@
 <body>
     <div class="header">
         <div>
-            <h1>Herrar</h1>
+            <h1>Kronängs Herrlag</h1>
         </div>
     </div>
     
     <div class="content">
-        <div class="section">
-            <div class="section-title">Tabell</div>
-            <iframe src="https://www.everysport.com/widget?seriesId=144647&type=standings"
-                    style="height:100%;width:100%!important;background:#0f172a;"
-                    frameborder="0" allowfullscreen></iframe>
-        </div>
         <div class="section match-section">
             <div class="team-photo">
                 <img src="https://www.kronangsif.se/images/200/4155/2C913596-DA40-4868-BEF8-610B7D491065_1279706.JPG?v=2022-08-24%2021:52:18"
                      alt="Herrar lagfoto">
             </div>
-            <div class="section-title">Kommande matcher</div>
+            <div class="match-title">Kommande matcher</div>
             <iframe class="match-frame" src="calendar-embedded.html?team=Herr&type=Match&compact=1"
                     style="width:100%!important;"
                     frameborder="0"></iframe>
+        </div>
+        <div class="section">
+            <div class="section-title">Tabell</div>
+            <iframe src="https://www.everysport.com/widget?seriesId=144647&type=standings"
+                    style="height:100%;width:100%!important;background:#0f172a;"
+                    frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 </body>
