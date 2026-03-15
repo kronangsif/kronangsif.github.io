@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Träningar</title>
+    <title>Dagens aktiviteter</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -87,42 +87,55 @@
             color: var(--text-secondary);
             font-size: 0.78rem;
         }
-        .training-list {
+        .activity-list {
             display: flex;
             flex: 1;
             flex-direction: column;
             gap: 10px;
             padding: 12px;
         }
-        .training-item {
+        .activity-item {
             padding: 10px 12px;
             background: var(--bg-card);
             border-radius: 10px;
             border-left: 3px solid var(--accent);
         }
-        .training-meta {
+        .activity-meta {
             display: flex;
             align-items: center;
             justify-content: space-between;
             gap: 10px;
         }
-        .training-time {
+        .activity-time {
             font-size: 0.85rem;
             font-weight: 700;
             color: var(--accent);
         }
-        .training-team {
+        .activity-type {
+            margin-top: 6px;
+            font-size: 0.78rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+        }
+        .activity-team {
             margin-top: 6px;
             font-size: 1rem;
             font-weight: 600;
         }
-        .training-location {
+        .activity-desc {
+            margin-top: 4px;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            line-height: 1.35;
+        }
+        .activity-location {
             margin-top: 6px;
             color: var(--text-secondary);
             font-size: 0.8rem;
             line-height: 1.35;
         }
-        .training-weather {
+        .activity-weather {
             display: inline-flex;
             align-items: center;
             gap: 6px;
@@ -163,12 +176,12 @@
 </head>
 <body>
     <div class="header">
-        <h1 id="pageTitle">🏋️ Dagens träningar</h1>
+        <h1 id="pageTitle">Dagens aktiviteter</h1>
         <img class="header-logo" src="kronang-logo-2026.png" alt="Kronängs IF logga">
     </div>
 
     <div class="grid" id="trainingGrid">
-        <div class="empty-state">Laddar träningar...</div>
+        <div class="empty-state">Laddar aktiviteter...</div>
     </div>
 
     <script>
@@ -196,7 +209,7 @@
             });
             const label = formatter.format(new Date());
             const prettyLabel = label.charAt(0).toUpperCase() + label.slice(1);
-            title.textContent = `Dagens träningar - ${prettyLabel}`;
+            title.textContent = `Dagens aktiviteter - ${prettyLabel}`;
         }
 
         function parseHour(time) {
@@ -216,32 +229,42 @@
             return item.time;
         }
 
+        function isVisibleActivity(item) {
+            const haystack = [item.team, item.description, item.location]
+                .filter(Boolean)
+                .join(' ')
+                .toUpperCase();
+            return !haystack.includes('VEO');
+        }
+
         function renderBucket(bucket, items) {
             const itemHtml = items.length
                 ? items.map(item => `
-                    <div class="training-item">
-                        <div class="training-meta">
-                            <div class="training-time">${formatTimeRange(item)}</div>
-                            ${item.weather ? `<div class="training-weather" title="${item.weather.desc}">${item.weather.icon} ${item.weather.temp}°C</div>` : ''}
+                    <div class="activity-item">
+                        <div class="activity-meta">
+                            <div class="activity-time">${formatTimeRange(item)}</div>
+                            ${item.weather ? `<div class="activity-weather" title="${item.weather.desc}">${item.weather.icon} ${item.weather.temp}°C</div>` : ''}
                         </div>
-                        <div class="training-team">${item.team || 'Okänt lag'}</div>
-                        <div class="training-location">${item.location || ''}</div>
+                        <div class="activity-type">${item.type || 'Aktivitet'}</div>
+                        <div class="activity-team">${item.team || 'Okänt lag'}</div>
+                        ${item.description ? `<div class="activity-desc">${item.description}</div>` : ''}
+                        <div class="activity-location">${item.location || ''}</div>
                     </div>
                 `).join('')
-                : '<div class="empty-bucket">Inga träningar</div>';
+                : '<div class="empty-bucket">Inga aktiviteter</div>';
 
             return `
                 <section class="bucket">
                     <div class="bucket-header">
                         <div class="bucket-title">${bucket.title}</div>
-                        <div class="bucket-subtitle">${items.length} träningar</div>
+                        <div class="bucket-subtitle">${items.length} aktiviteter</div>
                     </div>
-                    <div class="training-list">${itemHtml}</div>
+                    <div class="activity-list">${itemHtml}</div>
                 </section>
             `;
         }
 
-        async function loadTrainings() {
+        async function loadActivities() {
             const grid = document.getElementById('trainingGrid');
             try {
                 const response = await fetch(`data/calendar.json?t=${Date.now()}`);
@@ -249,20 +272,20 @@
                 const data = await response.json();
 
                 const todayIso = todayIsoLocal();
-                const trainings = (data.activities || [])
-                    .filter(item => item.type === 'Träning')
+                const activities = (data.activities || [])
                     .filter(item => item.date === todayIso)
+                    .filter(isVisibleActivity)
                     .sort((a, b) => `${a.time}`.localeCompare(`${b.time}`));
 
                 const grouped = new Map(BUCKETS.map(bucket => [bucket.key, []]));
-                trainings.forEach(item => {
+                activities.forEach(item => {
                     const bucket = bucketForHour(parseHour(item.time));
                     if (bucket) grouped.get(bucket.key).push(item);
                 });
 
-                const hasVisibleTrainings = Array.from(grouped.values()).some(items => items.length > 0);
-                if (!hasVisibleTrainings) {
-                    grid.innerHTML = '<div class="empty-state">Inga träningar idag i de valda tidsintervallen.</div>';
+                const hasVisibleActivities = Array.from(grouped.values()).some(items => items.length > 0);
+                if (!hasVisibleActivities) {
+                    grid.innerHTML = '<div class="empty-state">Inga aktiviteter idag i de valda tidsintervallen.</div>';
                     return;
                 }
 
@@ -270,13 +293,13 @@
                     .map(bucket => renderBucket(bucket, grouped.get(bucket.key) || []))
                     .join('');
             } catch (error) {
-                grid.innerHTML = `<div class="empty-state">Kunde inte ladda träningar.<br>${error.message}</div>`;
+                grid.innerHTML = `<div class="empty-state">Kunde inte ladda aktiviteter.<br>${error.message}</div>`;
             }
         }
 
         updatePageTitle();
-        loadTrainings();
-        setInterval(loadTrainings, 300000);
+        loadActivities();
+        setInterval(loadActivities, 300000);
     </script>
 </body>
 </html>
