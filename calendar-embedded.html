@@ -272,7 +272,11 @@
                 
                 // Update title if filtering
                 let title = '';
-                if (filterTeam || filterType) {
+                if (filterTeam === 'Herr' && filterType === 'Match') {
+                    title = 'Herrlaget - Kommande matcher';
+                } else if (filterTeam === 'Dam' && filterType === 'Match') {
+                    title = 'Damlaget - Kommande matcher';
+                } else if (filterTeam || filterType) {
                     const filters = [];
                     if (filterTeam) filters.push(filterTeam);
                     if (filterType) filters.push(filterType);
