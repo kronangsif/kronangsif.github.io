@@ -8,8 +8,10 @@ import json
 import re
 from datetime import date, datetime
 from pathlib import Path
+from urllib.parse import urljoin
 
 CALENDAR_URL = "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276"
+HOME_URL = "https://www.kronangsif.se/"
 OUTPUT_FILE = Path(__file__).parent / "data" / "calendar.json"
 
 # Borås coordinates (Kronäng area)
@@ -121,6 +123,14 @@ SWEDISH_MONTHS = {
 def fetch_calendar():
     headers = {"User-Agent": "Mozilla/5.0"}
     response = requests.get(CALENDAR_URL, headers=headers, timeout=30)
+    response.raise_for_status()
+    response.encoding = 'iso-8859-1'
+    return response.text
+
+
+def fetch_homepage():
+    headers = {"User-Agent": "Mozilla/5.0"}
+    response = requests.get(HOME_URL, headers=headers, timeout=30)
     response.raise_for_status()
     response.encoding = 'iso-8859-1'
     return response.text
@@ -262,7 +272,51 @@ def parse_activity(row, day, weekday, iso_date):
     }
 
 
-def save_data(activities, month, year):
+def parse_latest_news(html, limit=2):
+    soup = BeautifulSoup(html, 'html.parser')
+    news_items = []
+
+    # Homepage top stories live in .span99 > .inner blocks.
+    for item in soup.select("div.span99 div.inner"):
+        title_link = item.select_one("section .rub a")
+        if not title_link:
+            continue
+
+        title = title_link.get_text(" ", strip=True)
+        href = title_link.get("href", "").strip()
+        if not title or not href:
+            continue
+
+        date_node = item.find("span", string=re.compile(r"\d{4}-\d{2}-\d{2}"))
+        published_at = date_node.get_text(" ", strip=True) if date_node else ""
+
+        image_node = item.select_one(".imgDiv img")
+        image_url = image_node.get("src", "").strip() if image_node else ""
+        if image_url:
+            image_url = urljoin(HOME_URL, image_url)
+
+        summary = ""
+        for block in item.find_all("div", style=re.compile(r"margin-top:5px")):
+            text = block.get_text(" ", strip=True)
+            if text:
+                summary = re.sub(r"\s+", " ", text)
+                break
+
+        news_items.append({
+            "title": title,
+            "published_at": published_at,
+            "url": urljoin(HOME_URL, href),
+            "image": image_url,
+            "summary": summary,
+        })
+
+        if len(news_items) >= limit:
+            break
+
+    return news_items
+
+
+def save_data(activities, month, year, latest_news):
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     data = {
         "last_updated": datetime.now().isoformat(),
@@ -270,7 +324,8 @@ def save_data(activities, month, year):
         "month": month,
         "year": year,
         "activity_count": len(activities),
-        "activities": activities
+        "activities": activities,
+        "latest_news": latest_news,
     }
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -283,6 +338,15 @@ def main():
     month, year, activities = parse_calendar(html)
     print(f"Calendar month: {month}/{year}")
 
+    print("Fetching latest homepage news...")
+    latest_news = []
+    try:
+        homepage_html = fetch_homepage()
+        latest_news = parse_latest_news(homepage_html, limit=2)
+        print(f"News added: {len(latest_news)} items")
+    except Exception as e:
+        print(f"Warning: Could not fetch latest news: {e}")
+
     print("Fetching weather forecast...")
     try:
         forecast = fetch_weather()
@@ -294,7 +358,7 @@ def main():
     except Exception as e:
         print(f"Warning: Could not fetch weather: {e}")
 
-    save_data(activities, month, year)
+    save_data(activities, month, year, latest_news)
     print(f"Done! Found {len(activities)} activities")
 
 if __name__ == "__main__":

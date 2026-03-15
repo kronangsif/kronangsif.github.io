@@ -24,6 +24,12 @@
       "title": "Dam",
       "icon": "👩‍🦰",
       "file": "dam-embedded.html"
+    },
+    {
+      "id": "news",
+      "title": "Nyheter",
+      "icon": "📰",
+      "file": "news-embedded.html"
     }
   ],
   "pageGroups": [
@@ -46,11 +52,16 @@
       "label": "Dam",
       "pages": ["dam"],
       "displayMode": "single"
+    },
+    {
+      "label": "Nyheter",
+      "pages": ["news"],
+      "displayMode": "single"
     }
   ],
   "rotation": {
     "enabled": true,
     "intervalSeconds": 10,
-    "groups": [0, 1, 2, 3]
+    "groups": [0, 1, 2, 3, 4]
   }
 }
