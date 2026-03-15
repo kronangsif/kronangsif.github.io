@@ -47,73 +47,16 @@
         .dashboard-container iframe, 
         .dashboard-container .embedded-content {
             width: 100%;
-            height: calc(100vh - 120px);
+            height: calc(100vh - 46px);
             border: none;
             border-radius: 12px;
             background: var(--bg-primary);
         }
         
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 16px 20px;
-            margin: 0;
-            background: linear-gradient(135deg, rgba(15, 23, 42, 0.98), rgba(30, 41, 59, 0.96));
-            border: 1px solid rgba(148,163,184,0.16);
-            border-radius: 0 0 14px 14px;
-            box-shadow: none;
-        }
-        
-        .header-left {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .logo-image {
-            height: 48px;
-            width: 32px;
-            display: block;
-            flex-shrink: 0;
-            object-fit: contain;
-        }
-        
-        .logo-icon { font-size: 28px; }
-        
-        .logo-text h1 {
-            margin: 0;
-            font-size: 22px;
-            background: linear-gradient(90deg, var(--accent), var(--accent-blue));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        
-        .subtitle { color: var(--text-secondary); font-size: 14px; }
-        
-        .page-indicator { 
-            display: flex; 
-            gap: 8px; 
-            align-items: center;
-        }
-        .page-dot {
-            width: 10px; height: 10px;
-            border-radius: 50%;
-            background: rgba(255,255,255,0.2);
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-        .page-dot.active { background: var(--accent); transform: scale(1.2); }
-        .page-dot:hover { background: rgba(255,255,255,0.5); }
-        
-        .timestamp { color: var(--text-secondary); font-size: 0.85rem; }
-        
         /* TV Mode */
         body.tv-mode { padding: 20px; }
-        body.tv-mode .header { padding: 15px 30px; }
-        body.tv-mode h1 { font-size: 28px; }
         body.tv-mode .dashboard-container iframe {
-            height: calc(100vh - 100px);
+            height: calc(100vh - 86px);
         }
         
         .footer {
@@ -126,15 +69,6 @@
         
         /* Mobile */
         @media (max-width: 768px) {
-            .header {
-                padding: 14px 16px;
-            }
-
-            .logo-image {
-                height: 42px;
-                width: 28px;
-            }
-
             .dashboard-container.side-by-side {
                 grid-template-columns: 1fr;
             }
@@ -151,17 +85,6 @@
     </style>
 </head>
 <body>
-    <div class="header">
-        <div class="header-left">
-            <img class="logo-image" src="kronang-logo.svg" alt="Kronängs IF">
-            <div class="logo-text">
-                <h1>Kronängs IF</h1>
-                <span class="subtitle" id="pageTitle">Dashboard</span>
-            </div>
-        </div>
-        <div class="page-indicator" id="pageIndicator"></div>
-    </div>
-    
     <div id="content">
         <div class="loading">Laddar...</div>
     </div>
@@ -204,7 +127,7 @@
             const now = new Date();
             const page = getCurrentPage();
             const title = page ? (page.icon + ' ' + page.title) : 'Dashboard';
-            document.getElementById('pageTitle').textContent = title + ' | ' + now.toLocaleString('sv-SE');
+            document.title = `${config.title || 'Kronängs IF'} - ${title} | ${now.toLocaleString('sv-SE')}`;
         }
         
         function getCurrentPage() {
@@ -215,51 +138,8 @@
             return config.pages.find(p => p.id === pageId);
         }
         
-        function setupPageIndicator() {
-            const indicator = document.getElementById('pageIndicator');
-            indicator.innerHTML = '';
-            
-            if (!config.pageGroups) return;
-            
-            // Show all pages from all groups for manual selection
-            const allPages = config.pages;
-            allPages.forEach((page, idx) => {
-                const dot = document.createElement('div');
-                dot.className = 'page-dot';
-                dot.title = page.title;
-                dot.onclick = () => {
-                    // Find group containing this page
-                    for (let g = 0; g < config.pageGroups.length; g++) {
-                        const group = config.pageGroups[g];
-                        const pageIdx = group.pages.indexOf(page.id);
-                        if (pageIdx >= 0) {
-                            currentGroupIndex = g;
-                            currentPageIndex = pageIdx;
-                            break;
-                        }
-                    }
-                    showPage(currentPageIndex);
-                    resetRotation();
-                };
-                indicator.appendChild(dot);
-            });
-            
-            updateIndicatorState();
-        }
-        
-        function updateIndicatorState() {
-            const dots = document.querySelectorAll('.page-dot');
-            dots.forEach(dot => dot.classList.remove('active'));
-            
-            // Find current page and mark it
-            const currentPage = getCurrentPage();
-            if (currentPage) {
-                const pageIdx = config.pages.findIndex(p => p.id === currentPage.id);
-                if (pageIdx >= 0 && dots[pageIdx]) {
-                    dots[pageIdx].classList.add('active');
-                }
-            }
-        }
+        function setupPageIndicator() {}
+        function updateIndicatorState() {}
         
         function showPage(index) {
             const currentGroup = config.pageGroups[currentGroupIndex];
