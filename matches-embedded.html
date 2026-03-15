@@ -19,21 +19,35 @@
         }
         html, body {
             height: 100%;
-            overflow: hidden;
             background: var(--bg-primary);
             font-family: 'Inter', sans-serif;
             color: var(--text-primary);
         }
+        body {
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
         .header {
-            padding: 10px 14px;
+            padding: 12px 16px;
             border-bottom: 2px solid var(--accent);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         .header h1 {
-            font-size: 1.35rem;
+            font-size: 1.8rem;
             font-weight: 700;
         }
+        .header-logo {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            flex: 0 0 auto;
+        }
         .week-grid {
-            height: calc(100% - 45px);
+            flex: 1;
+            min-height: 0;
             overflow-y: auto;
             padding: 14px;
             display: grid;
@@ -160,6 +174,7 @@
 <body>
     <div class="header">
         <h1>⚽ Matcher kommande 7 dagar</h1>
+        <img class="header-logo" src="kronang-logo.svg" alt="Kronängs IF logga">
     </div>
 
     <div class="week-grid" id="weekGrid">

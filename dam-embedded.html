@@ -16,27 +16,38 @@
         }
         html, body {
             height: 100%;
-            overflow: hidden;
             background: var(--bg-primary);
             font-family: 'Inter', sans-serif;
             color: #fff;
         }
+        body {
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
         
         .header {
             background: linear-gradient(135deg, var(--bg-secondary), #3b1f4a);
-            padding: 10px 14px;
+            padding: 12px 16px;
             border-bottom: 2px solid var(--accent);
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
         .header h1 {
-            font-size: 1.45rem;
+            font-size: 1.8rem;
             font-weight: 700;
+        }
+        .header-logo {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            flex: 0 0 auto;
         }
         
         .content {
-            height: calc(100% - 45px);
+            flex: 1;
+            min-height: 0;
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 2px;
@@ -45,10 +56,12 @@
         .section {
             background: var(--bg-primary);
             overflow: hidden;
-        }
-        .match-section {
             display: flex;
             flex-direction: column;
+            min-height: 0;
+        }
+        .match-section {
+            background: linear-gradient(180deg, rgba(33, 24, 48, 0.98), rgba(15, 23, 42, 0.98));
         }
         
         .section-title {
@@ -60,27 +73,33 @@
             background: var(--bg-secondary);
         }
         .match-title {
-            font-size: 0.95rem;
+            font-size: 1.15rem;
             font-weight: 700;
             letter-spacing: 0.04em;
             color: #e2e8f0;
-            padding: 10px 12px;
+            padding: 12px;
+            text-align: center;
         }
         
         iframe {
             width: 100%;
-            height: calc(100% - 25px);
+            height: auto;
             border: none;
+            display: block;
         }
         .match-frame {
             flex: 1 1 50%;
             min-height: 0;
-            height: auto;
+        }
+        .table-frame {
+            flex: 1 1 auto;
+            min-height: 0;
+            background: var(--bg-primary);
         }
         .team-photo {
             flex: 0 1 50%;
-            max-height: calc(50% - 13px);
-            border-top: 2px solid rgba(255,255,255,0.08);
+            max-height: 50%;
+            border-bottom: 2px solid rgba(255,255,255,0.08);
             background: #111827;
             overflow: hidden;
         }
@@ -97,6 +116,7 @@
         <div>
             <h1>Kronängs Damlag</h1>
         </div>
+        <img class="header-logo" src="kronang-logo.svg" alt="Kronängs IF logga">
     </div>
     
     <div class="content">
@@ -112,8 +132,8 @@
         </div>
         <div class="section">
             <div class="section-title">Tabell</div>
-            <iframe src="https://www.everysport.com/widget?teamId=25090&seriesId=144820&type=standings"
-                    style="height:100%;width:100%!important;background:#0f172a;"
+            <iframe class="table-frame" src="https://www.everysport.com/widget?teamId=25090&seriesId=144820&type=standings"
+                    style="width:100%!important;background:#0f172a;"
                     frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
