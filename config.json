@@ -30,6 +30,12 @@
       "title": "Nyheter",
       "icon": "📰",
       "file": "news-embedded.html"
+    },
+    {
+      "id": "facebook",
+      "title": "Facebook",
+      "icon": "📘",
+      "file": "facebook-embedded.html"
     }
   ],
   "pageGroups": [
@@ -57,11 +63,16 @@
       "label": "Nyheter",
       "pages": ["news"],
       "displayMode": "single"
+    },
+    {
+      "label": "Facebook",
+      "pages": ["facebook"],
+      "displayMode": "single"
     }
   ],
   "rotation": {
     "enabled": true,
     "intervalSeconds": 10,
-    "groups": [0, 1, 2, 3, 4]
+    "groups": [0, 1, 2, 3, 4, 5]
   }
 }
