@@ -46,6 +46,10 @@
             background: var(--bg-primary);
             overflow: hidden;
         }
+        .match-section {
+            display: flex;
+            flex-direction: column;
+        }
         
         .section-title {
             font-size: 0.65rem;
@@ -60,6 +64,22 @@
             width: 100%;
             height: calc(100% - 25px);
             border: none;
+        }
+        .match-frame {
+            flex: 1 1 auto;
+            min-height: 0;
+            height: auto;
+        }
+        .team-photo {
+            flex: 0 0 auto;
+            border-top: 2px solid rgba(255,255,255,0.08);
+            background: #111827;
+        }
+        .team-photo img {
+            display: block;
+            width: 100%;
+            aspect-ratio: 16 / 10;
+            object-fit: cover;
         }
     </style>
 </head>
@@ -77,11 +97,15 @@
                     style="height:100%;width:100%!important;background:#0f172a;"
                     frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="section">
+        <div class="section match-section">
             <div class="section-title">Kommande matcher</div>
-            <iframe src="calendar-embedded.html?team=Herr&type=Match&compact=1"
-                    style="height:100%;width:100%!important;"
+            <iframe class="match-frame" src="calendar-embedded.html?team=Herr&type=Match&compact=1"
+                    style="width:100%!important;"
                     frameborder="0"></iframe>
+            <div class="team-photo">
+                <img src="https://www.kronangsif.se/images/200/4155/2C913596-DA40-4868-BEF8-610B7D491065_1279706.JPG?v=2022-08-24%2021:52:18"
+                     alt="Herrar lagfoto">
+            </div>
         </div>
     </div>
 </body>
