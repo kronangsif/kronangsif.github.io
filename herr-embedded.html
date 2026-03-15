@@ -66,19 +66,21 @@
             border: none;
         }
         .match-frame {
-            flex: 1 1 auto;
+            flex: 1 1 50%;
             min-height: 0;
             height: auto;
         }
         .team-photo {
-            flex: 0 0 auto;
+            flex: 0 1 50%;
+            max-height: calc(50% - 13px);
             border-top: 2px solid rgba(255,255,255,0.08);
             background: #111827;
+            overflow: hidden;
         }
         .team-photo img {
             display: block;
             width: 100%;
-            aspect-ratio: 16 / 10;
+            height: 100%;
             object-fit: cover;
         }
     </style>

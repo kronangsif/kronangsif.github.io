@@ -81,10 +81,16 @@
             padding: 12px;
         }
         .training-item {
-            padding: 12px;
+            padding: 10px 12px;
             background: var(--bg-card);
             border-radius: 10px;
             border-left: 3px solid var(--accent);
+        }
+        .training-meta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
         }
         .training-time {
             font-size: 0.85rem;
@@ -96,20 +102,13 @@
             font-size: 1rem;
             font-weight: 600;
         }
-        .training-desc {
-            margin-top: 4px;
-            color: var(--text-secondary);
-            font-size: 0.85rem;
-            line-height: 1.35;
-        }
         .training-location {
-            margin-top: 8px;
+            margin-top: 6px;
             color: var(--text-secondary);
             font-size: 0.8rem;
             line-height: 1.35;
         }
         .training-weather {
-            margin-top: 10px;
             display: inline-flex;
             align-items: center;
             gap: 6px;
@@ -186,11 +185,12 @@
             const itemHtml = items.length
                 ? items.map(item => `
                     <div class="training-item">
-                        <div class="training-time">${item.time || 'Tid saknas'}</div>
+                        <div class="training-meta">
+                            <div class="training-time">${item.time || 'Tid saknas'}</div>
+                            ${item.weather ? `<div class="training-weather" title="${item.weather.desc}">${item.weather.icon} ${item.weather.temp}°C</div>` : ''}
+                        </div>
                         <div class="training-team">${item.team || 'Okänt lag'}</div>
-                        <div class="training-desc">${item.description || 'Träning'}</div>
                         <div class="training-location">${item.location || ''}</div>
-                        ${item.weather ? `<div class="training-weather" title="${item.weather.desc}">${item.weather.icon} ${item.weather.temp}°C</div>` : ''}
                     </div>
                 `).join('')
                 : '<div class="empty-bucket">Inga träningar</div>';
