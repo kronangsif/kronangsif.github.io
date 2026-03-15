@@ -163,7 +163,7 @@
 </head>
 <body>
     <div class="header">
-        <h1>🏋️ Dagens träningar</h1>
+        <h1 id="pageTitle">🏋️ Dagens träningar</h1>
         <img class="header-logo" src="kronang-logo-2026.png" alt="Kronängs IF logga">
     </div>
 
@@ -185,6 +185,18 @@
             const month = String(now.getMonth() + 1).padStart(2, '0');
             const day = String(now.getDate()).padStart(2, '0');
             return `${year}-${month}-${day}`;
+        }
+
+        function updatePageTitle() {
+            const title = document.getElementById('pageTitle');
+            const formatter = new Intl.DateTimeFormat('sv-SE', {
+                weekday: 'long',
+                day: 'numeric',
+                month: 'long'
+            });
+            const label = formatter.format(new Date());
+            const prettyLabel = label.charAt(0).toUpperCase() + label.slice(1);
+            title.textContent = `Dagens träningar - ${prettyLabel}`;
         }
 
         function parseHour(time) {
@@ -262,6 +274,7 @@
             }
         }
 
+        updatePageTitle();
         loadTrainings();
         setInterval(loadTrainings, 300000);
     </script>
