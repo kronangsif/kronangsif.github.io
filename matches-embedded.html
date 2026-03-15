@@ -112,6 +112,17 @@
             font-size: 0.8rem;
             line-height: 1.35;
         }
+        .match-weather {
+            margin-top: 10px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 8px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 999px;
+            color: var(--text-primary);
+            font-size: 0.8rem;
+        }
         .empty-day,
         .empty-state {
             display: flex;
@@ -186,6 +197,7 @@
                         <div class="match-team">${match.team || 'Okänt lag'}</div>
                         <div class="match-desc">${match.description || 'Match'}</div>
                         <div class="match-location">${match.location || ''}</div>
+                        ${match.weather ? `<div class="match-weather" title="${match.weather.desc}">${match.weather.icon} ${match.weather.temp}°C</div>` : ''}
                     </div>
                 `).join('')
                 : '<div class="empty-day">Inga matcher</div>';
