@@ -181,12 +181,20 @@
             return BUCKETS.find(bucket => hour !== null && hour >= bucket.from && hour < bucket.to) || null;
         }
 
+        function formatTimeRange(item) {
+            if (!item.time) return 'Tid saknas';
+            if (item.end_time && item.end_time !== item.time) {
+                return `${item.time} - ${item.end_time}`;
+            }
+            return item.time;
+        }
+
         function renderBucket(bucket, items) {
             const itemHtml = items.length
                 ? items.map(item => `
                     <div class="training-item">
                         <div class="training-meta">
-                            <div class="training-time">${item.time || 'Tid saknas'}</div>
+                            <div class="training-time">${formatTimeRange(item)}</div>
                             ${item.weather ? `<div class="training-weather" title="${item.weather.desc}">${item.weather.icon} ${item.weather.temp}°C</div>` : ''}
                         </div>
                         <div class="training-team">${item.team || 'Okänt lag'}</div>

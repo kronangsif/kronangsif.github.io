@@ -207,8 +207,9 @@ def parse_activity(row, day, weekday, iso_date):
     time_cell = cells[0]
     span = time_cell.find('span')
     time_text = span.get_text(strip=True) if span else time_cell.get_text(strip=True)
-    time_match = re.search(r'(\d{1,2}:\d{2})', time_text)
-    time_str = time_match.group(1) if time_match else ""
+    time_matches = re.findall(r'(\d{1,2}:\d{2})', time_text)
+    time_str = time_matches[0] if time_matches else ""
+    end_time = time_matches[1] if len(time_matches) > 1 else ""
 
     # Activity type
     act_type = "Övrigt"
@@ -264,6 +265,7 @@ def parse_activity(row, day, weekday, iso_date):
         "day": day,
         "weekday": weekday,
         "time": time_str,
+        "end_time": end_time,
         "team": team,
         "team_id": team_id,
         "type": act_type,
