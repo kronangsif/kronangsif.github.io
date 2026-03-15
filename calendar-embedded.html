@@ -30,6 +30,10 @@
             color: var(--text-primary);
             padding: 15px;
         }
+
+        body.compact {
+            padding: 0;
+        }
         
         .header-bar {
             display: flex;
@@ -50,11 +54,20 @@
             font-size: 0.7rem;
             color: var(--text-secondary);
         }
+
+        body.compact .header-bar {
+            display: none;
+        }
         
         .calendar-container {
             height: calc(100% - 50px);
             overflow-y: auto;
             padding-right: 10px;
+        }
+
+        body.compact .calendar-container {
+            height: 100%;
+            padding-right: 0;
         }
         
         .calendar-container::-webkit-scrollbar {
@@ -231,6 +244,13 @@
         
         async function loadCalendar() {
             try {
+                const urlParams = new URLSearchParams(window.location.search);
+                const compact = urlParams.get('compact') === '1';
+
+                if (compact) {
+                    document.body.classList.add('compact');
+                }
+
                 console.log('Loading calendar...');
                 // Use root-relative path
                 const response = await fetch('/data/calendar.json');
@@ -246,7 +266,6 @@
                     `Uppdaterad: ${new Date(data.last_updated).toLocaleString('sv-SE')}`;
                 
                 // Get filters from URL params
-                const urlParams = new URLSearchParams(window.location.search);
                 const filterTeam = urlParams.get('team');  // e.g., "Herr", "Dam"
                 const filterType = urlParams.get('type');   // e.g., "Match", "Träning"
                 const filterDay = urlParams.get('day');      // 0 = today, 1 = tomorrow
