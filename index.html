@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kronängs IF - Dashboard</title>
+    <link rel="icon" type="image/png" href="kronang-logo.png">
+    <link rel="apple-touch-icon" href="kronang-logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,6 +65,13 @@
             display: flex;
             align-items: center;
             gap: 12px;
+        }
+
+        .logo-image {
+            height: 40px;
+            width: auto;
+            display: block;
+            flex-shrink: 0;
         }
         
         .logo-icon { font-size: 28px; }
@@ -130,7 +139,7 @@
 <body>
     <div class="header">
         <div class="header-left">
-            <img src="kronang-logo.png" alt="Kronängs IF" style="height:40px;width:auto;display:block;vertical-align:middle;">
+            <img class="logo-image" src="kronang-logo.png" alt="Kronängs IF">
             <div class="logo-text">
                 <h1>Kronängs IF</h1>
                 <span class="subtitle" id="pageTitle">Dashboard</span>
