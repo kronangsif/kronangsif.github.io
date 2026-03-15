@@ -34,8 +34,8 @@ kronang-dashboard/
 ├── calendar-embedded.html     # Generisk kalender-vy med URL-filter
 ├── training-embedded.html     # Träningsvy för idag/imorgon
 ├── matches-embedded.html      # Matchvy
-├── herr-embedded.html         # Herrvy med tabell + matcher
-├── dam-embedded.html          # Damvy med tabell + matcher
+├── herr-embedded.html         # Herrar-vy med tabell + matcher
+├── dam-embedded.html          # Damer-vy med tabell + matcher
 ├── weather-embedded.html      # Separat vädervy
 ├── standings.html             # Enkel tabellvy
 ├── calendar.html              # Full kalenderdashboard

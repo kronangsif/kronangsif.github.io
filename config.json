@@ -15,14 +15,14 @@
     },
     {
       "id": "herr",
-      "title": "Herr",
-      "icon": "👨‍🦱",
+      "title": "Herrar",
+      "icon": "",
       "file": "herr-embedded.html"
     },
     {
       "id": "dam",
-      "title": "Dam",
-      "icon": "👩‍🦰",
+      "title": "Damer",
+      "icon": "",
       "file": "dam-embedded.html"
     },
     {
@@ -44,12 +44,12 @@
       "displayMode": "single"
     },
     {
-      "label": "Herr",
+      "label": "Herrar",
       "pages": ["herr"],
       "displayMode": "single"
     },
     {
-      "label": "Dam",
+      "label": "Damer",
       "pages": ["dam"],
       "displayMode": "single"
     },
