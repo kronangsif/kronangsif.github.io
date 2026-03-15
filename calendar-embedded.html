@@ -69,6 +69,17 @@
             height: 100%;
             padding-right: 0;
         }
+
+        body.two-column .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 10px;
+            align-items: start;
+        }
+
+        body.two-column .day-row {
+            height: 100%;
+        }
         
         .calendar-container::-webkit-scrollbar {
             width: 6px;
@@ -209,6 +220,12 @@
             text-align: center;
             color: var(--text-secondary);
         }
+
+        @media (max-width: 900px) {
+            body.two-column .calendar-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
@@ -246,9 +263,14 @@
             try {
                 const urlParams = new URLSearchParams(window.location.search);
                 const compact = urlParams.get('compact') === '1';
+                const columns = urlParams.get('cols');
 
                 if (compact) {
                     document.body.classList.add('compact');
+                }
+
+                if (columns === '2') {
+                    document.body.classList.add('two-column');
                 }
 
                 console.log('Loading calendar...');
@@ -293,6 +315,15 @@
                 // Group activities by date - only future activities, with filters
                 const today = new Date().toISOString().split('T')[0];
                 let activities = data.activities.filter(a => a.date >= today);
+
+                // Exclude VEO-related entries from dashboard views.
+                activities = activities.filter(a => {
+                    const haystack = [a.team, a.description, a.location]
+                        .filter(Boolean)
+                        .join(' ')
+                        .toLowerCase();
+                    return !haystack.includes('veo');
+                });
                 
                 // Apply team filter
                 if (filterTeam) {
@@ -329,6 +360,11 @@
                 // Build calendar
                 const grid = document.getElementById('calendarGrid');
                 let html = '';
+
+                if (sortedDates.length === 0) {
+                    grid.innerHTML = '<div class="no-events">Inga aktiviteter att visa.</div>';
+                    return;
+                }
                 
                 sortedDates.forEach(date => {
                     const events = grouped[date];
