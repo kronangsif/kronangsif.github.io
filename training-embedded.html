@@ -12,6 +12,9 @@
         :root {
             --bg-primary: #0f172a;
             --bg-secondary: #1e293b;
+            --bg-card: #334155;
+            --text-primary: #fff;
+            --text-secondary: #94a3b8;
             --accent: #3b82f6;
         }
         html, body {
@@ -19,64 +22,225 @@
             overflow: hidden;
             background: var(--bg-primary);
             font-family: 'Inter', sans-serif;
-            color: #fff;
+            color: var(--text-primary);
         }
-        
         .header {
             padding: 10px 14px;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+            border-bottom: 2px solid var(--accent);
         }
         .header h1 {
             font-size: 1.35rem;
             font-weight: 700;
         }
-        
-        .content {
+        .grid {
             height: calc(100% - 45px);
+            overflow-y: auto;
+            padding: 14px;
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2px;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 12px;
+            align-content: start;
         }
-        
-        .section {
-            background: var(--bg-primary);
+        .grid::-webkit-scrollbar {
+            width: 6px;
+        }
+        .grid::-webkit-scrollbar-thumb {
+            background: var(--bg-card);
+            border-radius: 3px;
+        }
+        .bucket {
+            min-height: 240px;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(180deg, rgba(30, 41, 59, 0.98), rgba(15, 23, 42, 0.98));
+            border: 1px solid rgba(148, 163, 184, 0.16);
+            border-radius: 14px;
             overflow: hidden;
         }
-        
-        .section-title {
-            font-size: 0.65rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: #94a3b8;
-            padding: 6px 10px;
-            background: var(--bg-secondary);
+        .bucket-header {
+            padding: 12px 14px;
+            border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+            background: rgba(15, 23, 42, 0.8);
         }
-        
-        iframe {
-            width: 100%;
-            height: calc(100% - 25px);
-            border: none;
+        .bucket-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+        .bucket-subtitle {
+            margin-top: 4px;
+            color: var(--text-secondary);
+            font-size: 0.78rem;
+        }
+        .training-list {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            gap: 10px;
+            padding: 12px;
+        }
+        .training-item {
+            padding: 12px;
+            background: var(--bg-card);
+            border-radius: 10px;
+            border-left: 3px solid var(--accent);
+        }
+        .training-time {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        .training-team {
+            margin-top: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        .training-desc {
+            margin-top: 4px;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            line-height: 1.35;
+        }
+        .training-location {
+            margin-top: 8px;
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            line-height: 1.35;
+        }
+        .training-weather {
+            margin-top: 10px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 8px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 999px;
+            color: var(--text-primary);
+            font-size: 0.8rem;
+        }
+        .empty-bucket,
+        .empty-state {
+            display: flex;
+            flex: 1;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--text-secondary);
+            padding: 20px;
+        }
+        .empty-state {
+            grid-column: 1 / -1;
+            min-height: 220px;
+            background: linear-gradient(180deg, rgba(30, 41, 59, 0.98), rgba(15, 23, 42, 0.98));
+            border: 1px solid rgba(148, 163, 184, 0.16);
+            border-radius: 14px;
+        }
+        @media (max-width: 1400px) {
+            .grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+        @media (max-width: 700px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>🏋️ Träningar - Idag & Imorgon</h1>
+        <h1>🏋️ Dagens träningar</h1>
     </div>
-    
-    <div class="content">
-        <div class="section">
-            <div class="section-title">Idag</div>
-            <iframe src="calendar-embedded.html?type=Träning&day=0&compact=1"
-                    style="height:100%;width:100%!important;"
-                    frameborder="0"></iframe>
-        </div>
-        <div class="section">
-            <div class="section-title">Imorgon</div>
-            <iframe src="calendar-embedded.html?type=Träning&day=1&compact=1"
-                    style="height:100%;width:100%!important;"
-                    frameborder="0"></iframe>
-        </div>
+
+    <div class="grid" id="trainingGrid">
+        <div class="empty-state">Laddar träningar...</div>
     </div>
+
+    <script>
+        const BUCKETS = [
+            { key: 'morning', title: '08:00 - 12:00', from: 8, to: 12 },
+            { key: 'midday', title: '12:00 - 16:00', from: 12, to: 16 },
+            { key: 'afternoon', title: '16:00 - 18:00', from: 16, to: 18 },
+            { key: 'evening', title: '18:00 - 20:00', from: 18, to: 20 }
+        ];
+
+        function todayIsoLocal() {
+            const now = new Date();
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        }
+
+        function parseHour(time) {
+            if (!time || !time.includes(':')) return null;
+            return Number.parseInt(time.split(':')[0], 10);
+        }
+
+        function bucketForHour(hour) {
+            return BUCKETS.find(bucket => hour !== null && hour >= bucket.from && hour < bucket.to) || null;
+        }
+
+        function renderBucket(bucket, items) {
+            const itemHtml = items.length
+                ? items.map(item => `
+                    <div class="training-item">
+                        <div class="training-time">${item.time || 'Tid saknas'}</div>
+                        <div class="training-team">${item.team || 'Okänt lag'}</div>
+                        <div class="training-desc">${item.description || 'Träning'}</div>
+                        <div class="training-location">${item.location || ''}</div>
+                        ${item.weather ? `<div class="training-weather" title="${item.weather.desc}">${item.weather.icon} ${item.weather.temp}°C</div>` : ''}
+                    </div>
+                `).join('')
+                : '<div class="empty-bucket">Inga träningar</div>';
+
+            return `
+                <section class="bucket">
+                    <div class="bucket-header">
+                        <div class="bucket-title">${bucket.title}</div>
+                        <div class="bucket-subtitle">${items.length} träningar</div>
+                    </div>
+                    <div class="training-list">${itemHtml}</div>
+                </section>
+            `;
+        }
+
+        async function loadTrainings() {
+            const grid = document.getElementById('trainingGrid');
+            try {
+                const response = await fetch(`data/calendar.json?t=${Date.now()}`);
+                if (!response.ok) throw new Error('Kunde inte läsa datafilen');
+                const data = await response.json();
+
+                const todayIso = todayIsoLocal();
+                const trainings = (data.activities || [])
+                    .filter(item => item.type === 'Träning')
+                    .filter(item => item.date === todayIso)
+                    .sort((a, b) => `${a.time}`.localeCompare(`${b.time}`));
+
+                const grouped = new Map(BUCKETS.map(bucket => [bucket.key, []]));
+                trainings.forEach(item => {
+                    const bucket = bucketForHour(parseHour(item.time));
+                    if (bucket) grouped.get(bucket.key).push(item);
+                });
+
+                const hasVisibleTrainings = Array.from(grouped.values()).some(items => items.length > 0);
+                if (!hasVisibleTrainings) {
+                    grid.innerHTML = '<div class="empty-state">Inga träningar idag i de valda tidsintervallen.</div>';
+                    return;
+                }
+
+                grid.innerHTML = BUCKETS
+                    .map(bucket => renderBucket(bucket, grouped.get(bucket.key) || []))
+                    .join('');
+            } catch (error) {
+                grid.innerHTML = `<div class="empty-state">Kunde inte ladda träningar.<br>${error.message}</div>`;
+            }
+        }
+
+        loadTrainings();
+        setInterval(loadTrainings, 300000);
+    </script>
 </body>
 </html>
