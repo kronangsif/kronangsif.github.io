@@ -53,20 +53,6 @@
             background: var(--bg-primary);
         }
         
-        /* TV Mode */
-        body.tv-mode { padding: 20px; }
-        body.tv-mode .dashboard-container iframe {
-            height: calc(100vh - 86px);
-        }
-        
-        .footer {
-            text-align: center;
-            padding: 15px;
-            color: var(--text-secondary);
-            font-size: 0.8rem;
-        }
-        .footer a { color: var(--accent); text-decoration: none; }
-        
         /* Mobile */
         @media (max-width: 768px) {
             .dashboard-container.side-by-side {
@@ -87,11 +73,6 @@
 <body>
     <div id="content">
         <div class="loading">Laddar...</div>
-    </div>
-    
-    <div class="footer">
-        <a href="#" onclick="toggleTvMode()">TV-läge</a> | 
-        <a href="https://www.kronangsif.se" target="_blank">kronangsif.se</a>
     </div>
 
     <script>
@@ -203,11 +184,6 @@
                 }
             }
             showPage(currentPageIndex);
-        }
-        
-        function toggleTvMode() {
-            document.body.classList.toggle('tv-mode');
-            return false;
         }
         
         init();

@@ -12,6 +12,9 @@
         :root {
             --bg-primary: #0f172a;
             --bg-secondary: #1e293b;
+            --bg-card: #334155;
+            --text-primary: #fff;
+            --text-secondary: #94a3b8;
             --accent: #22c55e;
         }
         html, body {
@@ -19,11 +22,9 @@
             overflow: hidden;
             background: var(--bg-primary);
             font-family: 'Inter', sans-serif;
-            color: #fff;
+            color: var(--text-primary);
         }
-        
         .header {
-            border-bottom: 1px solid rgba(255,255,255,0.1);
             padding: 10px 14px;
             border-bottom: 2px solid var(--accent);
         }
@@ -31,27 +32,212 @@
             font-size: 1.35rem;
             font-weight: 700;
         }
-        
-        .full-content {
+        .week-grid {
             height: calc(100% - 45px);
+            overflow-y: auto;
+            padding: 14px;
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 12px;
+            align-content: start;
         }
-        
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
+        .week-grid::-webkit-scrollbar {
+            width: 6px;
+        }
+        .week-grid::-webkit-scrollbar-thumb {
+            background: var(--bg-card);
+            border-radius: 3px;
+        }
+        .day-card {
+            min-height: 220px;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(180deg, rgba(30, 41, 59, 0.98), rgba(15, 23, 42, 0.98));
+            border: 1px solid rgba(148, 163, 184, 0.16);
+            border-radius: 14px;
+            overflow: hidden;
+        }
+        .day-card.today {
+            border-color: rgba(34, 197, 94, 0.8);
+            box-shadow: inset 0 0 0 1px rgba(34, 197, 94, 0.25);
+        }
+        .day-header {
+            padding: 12px 14px;
+            border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+            background: rgba(15, 23, 42, 0.8);
+        }
+        .day-label {
+            font-size: 1rem;
+            font-weight: 700;
+        }
+        .day-date {
+            margin-top: 4px;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+        .match-list {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            gap: 10px;
+            padding: 12px;
+        }
+        .match-item {
+            padding: 12px;
+            background: var(--bg-card);
+            border-radius: 10px;
+            border-left: 3px solid var(--accent);
+        }
+        .match-time {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        .match-team {
+            margin-top: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        .match-desc {
+            margin-top: 4px;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            line-height: 1.35;
+        }
+        .match-location {
+            margin-top: 8px;
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            line-height: 1.35;
+        }
+        .empty-day,
+        .empty-state {
+            display: flex;
+            flex: 1;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--text-secondary);
+            padding: 20px;
+        }
+        .empty-state {
+            grid-column: 1 / -1;
+            min-height: 220px;
+            background: linear-gradient(180deg, rgba(30, 41, 59, 0.98), rgba(15, 23, 42, 0.98));
+            border: 1px solid rgba(148, 163, 184, 0.16);
+            border-radius: 14px;
+        }
+        @media (max-width: 1400px) {
+            .week-grid {
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+            }
+        }
+        @media (max-width: 1024px) {
+            .week-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+        @media (max-width: 700px) {
+            .week-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>⚽ Matcher denna vecka</h1>
+        <h1>⚽ Matcher kommande 7 dagar</h1>
     </div>
-    
-    <div class="full-content">
-        <iframe src="calendar-embedded.html?type=Match&compact=1&cols=2"
-                style="height:100%;width:100%!important;"
-                frameborder="0"></iframe>
+
+    <div class="week-grid" id="weekGrid">
+        <div class="empty-state">Laddar matcher...</div>
     </div>
+
+    <script>
+        const MONTHS = ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'];
+        const WEEKDAYS = ['Söndag', 'Måndag', 'Tisdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lördag'];
+
+        function todayIsoLocal() {
+            const now = new Date();
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        }
+
+        function addDaysIso(baseIso, days) {
+            const d = new Date(`${baseIso}T12:00:00`);
+            d.setDate(d.getDate() + days);
+            return d.toISOString().split('T')[0];
+        }
+
+        function renderDayCard(dateIso, matches, todayIso) {
+            const dateObj = new Date(`${dateIso}T12:00:00`);
+            const weekday = WEEKDAYS[dateObj.getDay()];
+            const dateLabel = `${dateObj.getDate()} ${MONTHS[dateObj.getMonth()]}`;
+            const isToday = dateIso === todayIso;
+
+            const matchHtml = matches.length
+                ? matches.map(match => `
+                    <div class="match-item">
+                        <div class="match-time">${match.time || 'Tid saknas'}</div>
+                        <div class="match-team">${match.team || 'Okänt lag'}</div>
+                        <div class="match-desc">${match.description || 'Match'}</div>
+                        <div class="match-location">${match.location || ''}</div>
+                    </div>
+                `).join('')
+                : '<div class="empty-day">Inga matcher</div>';
+
+            return `
+                <section class="day-card${isToday ? ' today' : ''}">
+                    <div class="day-header">
+                        <div class="day-label">${weekday}</div>
+                        <div class="day-date">${dateLabel}</div>
+                    </div>
+                    <div class="match-list">${matchHtml}</div>
+                </section>
+            `;
+        }
+
+        async function loadMatches() {
+            const grid = document.getElementById('weekGrid');
+            try {
+                const response = await fetch(`data/calendar.json?t=${Date.now()}`);
+                if (!response.ok) throw new Error('Kunde inte läsa datafilen');
+                const data = await response.json();
+
+                const todayIso = todayIsoLocal();
+                const lastIso = addDaysIso(todayIso, 6);
+
+                const matches = (data.activities || [])
+                    .filter(item => item.type === 'Match')
+                    .filter(item => item.date && item.date >= todayIso && item.date <= lastIso)
+                    .filter(item => {
+                        const haystack = [item.team, item.description, item.location]
+                            .filter(Boolean)
+                            .join(' ')
+                            .toLowerCase();
+                        return !haystack.includes('veo');
+                    })
+                    .sort((a, b) => `${a.date} ${a.time}`.localeCompare(`${b.date} ${b.time}`));
+
+                const byDate = new Map();
+                matches.forEach(match => {
+                    if (!byDate.has(match.date)) byDate.set(match.date, []);
+                    byDate.get(match.date).push(match);
+                });
+
+                const dates = Array.from({ length: 7 }, (_, index) => addDaysIso(todayIso, index));
+                grid.innerHTML = dates.map(dateIso => renderDayCard(dateIso, byDate.get(dateIso) || [], todayIso)).join('');
+            } catch (error) {
+                grid.innerHTML = `<div class="empty-state">Kunde inte ladda matcher.<br>${error.message}</div>`;
+            }
+        }
+
+        loadMatches();
+        setInterval(loadMatches, 300000);
+    </script>
 </body>
 </html>
