@@ -26,14 +26,8 @@
       "file": "dam-embedded.html"
     },
     {
-      "id": "news",
-      "title": "Nyheter",
-      "icon": "📰",
-      "file": "news-embedded.html"
-    },
-    {
       "id": "facebook",
-      "title": "Facebook",
+      "title": "Facebook och Nyheter",
       "icon": "📘",
       "file": "facebook-embedded.html"
     }
@@ -60,12 +54,7 @@
       "displayMode": "single"
     },
     {
-      "label": "Nyheter",
-      "pages": ["news"],
-      "displayMode": "single"
-    },
-    {
-      "label": "Facebook",
+      "label": "Facebook och Nyheter",
       "pages": ["facebook"],
       "displayMode": "single"
     }
@@ -73,6 +62,6 @@
   "rotation": {
     "enabled": true,
     "intervalSeconds": 10,
-    "groups": [0, 1, 2, 3, 4, 5]
+    "groups": [0, 1, 2, 3, 4]
   }
 }

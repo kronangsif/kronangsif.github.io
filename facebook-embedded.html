@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook</title>
+    <title>Facebook och Nyheter</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,6 +16,7 @@
             --text-primary: #fff;
             --text-secondary: #94a3b8;
             --accent: #1877f2;
+            --news-accent: #22c55e;
         }
         html, body {
             height: 100%;
@@ -32,17 +33,30 @@
             font-size: 1.35rem;
             font-weight: 700;
         }
-        .frame-wrap {
+        .content {
             height: calc(100% - 45px);
+            display: grid;
+            grid-template-columns: 1.2fr 1fr 1fr;
+            gap: 2px;
+            padding: 2px 0 0;
+            background: var(--bg-primary);
+        }
+        .column {
+            min-width: 0;
             padding: 14px;
             background: var(--bg-primary);
         }
-        .frame-card {
+        .frame-card,
+        .news-card {
             height: 100%;
             background: linear-gradient(180deg, rgba(31, 41, 55, 0.98), rgba(15, 23, 42, 0.98));
             border: 1px solid rgba(148, 163, 184, 0.16);
             border-radius: 16px;
             overflow: hidden;
+        }
+        .news-card {
+            display: flex;
+            flex-direction: column;
         }
         iframe {
             width: 100%;
@@ -64,30 +78,129 @@
             color: var(--accent);
             text-decoration: none;
         }
+        .news-image {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+            background: var(--bg-secondary);
+        }
+        .news-body {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            gap: 12px;
+            padding: 18px;
+        }
+        .news-meta {
+            font-size: 0.75rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+        }
+        .news-title {
+            font-size: 1.35rem;
+            line-height: 1.15;
+            color: var(--text-primary);
+        }
+        .news-summary {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        .news-link {
+            margin-top: auto;
+            color: var(--news-accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        @media (max-width: 900px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+            .news-title {
+                font-size: 1.2rem;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>📘 KIF på Facebook</h1>
+        <h1>📘 Facebook och Nyheter</h1>
     </div>
 
-    <div class="frame-wrap">
-        <div class="frame-card">
-            <iframe
-                title="Kronängs IF Facebook"
-                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkronangsifofficial&tabs=timeline&width=1200&height=900&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
-                loading="lazy"
-                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-            </iframe>
-            <noscript>
-                <div class="fallback">
-                    <div>
-                        Facebook-flödet kräver JavaScript.<br>
-                        <a href="https://www.facebook.com/kronangsifofficial" target="_blank" rel="noopener noreferrer">Öppna Kronängs IF på Facebook</a>
+    <div class="content">
+        <div class="column">
+            <div class="frame-card">
+                <iframe
+                    title="Kronängs IF Facebook"
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkronangsifofficial&tabs=timeline&width=500&height=900&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                    loading="lazy"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                </iframe>
+                <noscript>
+                    <div class="fallback">
+                        <div>
+                            Facebook-flödet kräver JavaScript.<br>
+                            <a href="https://www.facebook.com/kronangsifofficial" target="_blank" rel="noopener noreferrer">Öppna Kronängs IF på Facebook</a>
+                        </div>
                     </div>
-                </div>
-            </noscript>
+                </noscript>
+            </div>
+        </div>
+        <div class="column" id="newsCol1">
+            <div class="fallback">Laddar nyheter...</div>
+        </div>
+        <div class="column" id="newsCol2">
+            <div class="fallback">Laddar nyheter...</div>
         </div>
     </div>
+
+    <script>
+        function renderCard(item) {
+            const image = item.image
+                ? `<img class="news-image" src="${item.image}" alt="${item.title}">`
+                : '';
+            const summary = item.summary
+                ? `<div class="news-summary">${item.summary}</div>`
+                : '';
+
+            return `
+                <article class="news-card">
+                    ${image}
+                    <div class="news-body">
+                        <div class="news-meta">${item.published_at || 'Senaste nytt'}</div>
+                        <h2 class="news-title">${item.title}</h2>
+                        ${summary}
+                        <a class="news-link" href="${item.url}" target="_blank" rel="noopener noreferrer">Läs mer</a>
+                    </div>
+                </article>
+            `;
+        }
+
+        async function loadNews() {
+            const col1 = document.getElementById('newsCol1');
+            const col2 = document.getElementById('newsCol2');
+            try {
+                const response = await fetch(`data/calendar.json?t=${Date.now()}`);
+                if (!response.ok) throw new Error('Kunde inte läsa datafilen');
+                const data = await response.json();
+                const items = (data.latest_news || []).slice(0, 2);
+
+                [col1, col2].forEach((col, idx) => {
+                    const item = items[idx];
+                    col.innerHTML = item
+                        ? renderCard(item)
+                        : '<div class="fallback">Ingen nyhet att visa.</div>';
+                });
+            } catch (error) {
+                const message = `<div class="fallback">Kunde inte ladda nyheter.<br>${error.message}</div>`;
+                col1.innerHTML = message;
+                col2.innerHTML = message;
+            }
+        }
+
+        loadNews();
+        setInterval(loadNews, 300000);
+    </script>
 </body>
 </html>
