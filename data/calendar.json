@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T20:06:28.217097",
+  "last_updated": "2026-03-16T22:06:13.613910",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1063,7 +1063,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.3
+        "temp": 8.6
       }
     },
     {
@@ -1080,7 +1080,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.3
+        "temp": 8.6
       }
     },
     {
@@ -1095,9 +1095,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 7.3
       }
     },
     {
@@ -1112,9 +1112,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 7.3
       }
     },
     {
@@ -1129,9 +1129,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 9.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.9
       }
     },
     {
@@ -1146,9 +1146,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 9.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.9
       }
     },
     {
@@ -1163,9 +1163,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 9.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.9
       }
     },
     {
@@ -1180,9 +1180,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 7.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.0
       }
     },
     {
