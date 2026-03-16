@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T18:09:59.995624",
+  "last_updated": "2026-03-16T20:06:28.217097",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1097,7 +1097,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.3
+        "temp": 7.2
       }
     },
     {
@@ -1114,7 +1114,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.3
+        "temp": 7.2
       }
     },
     {
@@ -1131,7 +1131,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 9.4
+        "temp": 9.1
       }
     },
     {
@@ -1148,7 +1148,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 9.4
+        "temp": 9.1
       }
     },
     {
@@ -1165,7 +1165,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 9.4
+        "temp": 9.1
       }
     },
     {
@@ -1180,9 +1180,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 7.9
       }
     },
     {
@@ -1199,7 +1199,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.7
+        "temp": 7.6
       }
     },
     {
@@ -1216,7 +1216,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.7
+        "temp": 7.6
       }
     },
     {
@@ -1233,7 +1233,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.7
+        "temp": 7.6
       }
     },
     {
@@ -1250,7 +1250,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.1
+        "temp": 4.6
       }
     },
     {
@@ -1267,7 +1267,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 3.2
+        "temp": 2.4
       }
     },
     {
@@ -1284,7 +1284,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.6
+        "temp": 10.9
       }
     },
     {
@@ -1299,9 +1299,9 @@
       "description": "Marbäcks IF hemma",
       "location": "Kronängs Arena A-plan()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 6.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 4.9
       }
     },
     {
@@ -1318,7 +1318,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 0.5
+        "temp": 0.9
       }
     },
     {
@@ -1335,7 +1335,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 0.5
+        "temp": 0.9
       }
     },
     {
@@ -1350,9 +1350,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 2.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 2.7
       }
     },
     {
@@ -1367,9 +1367,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 4.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 4.2
       }
     },
     {
@@ -1384,9 +1384,9 @@
       "description": "Träning",
       "location": "Fredriksborgshallen",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 4.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 4.2
       }
     },
     {
@@ -1401,9 +1401,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 6.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 5.5
       }
     },
     {
@@ -1418,9 +1418,9 @@
       "description": "Träningsmatcher mot Bergdalens IK",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 6.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 5.5
       }
     },
     {
@@ -1435,9 +1435,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 8.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.7
       }
     },
     {
@@ -1452,9 +1452,9 @@
       "description": "Mariedals IK hemma",
       "location": "Kronängs Arena()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 8.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.2
       }
     },
     {
@@ -1469,9 +1469,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 6.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 4.9
       }
     },
     {
