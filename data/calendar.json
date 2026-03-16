@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T14:47:45.999250",
+  "last_updated": "2026-03-16T18:09:59.995624",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1046,7 +1046,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.2
+        "temp": 4.4
       }
     },
     {
@@ -1063,7 +1063,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.1
+        "temp": 8.3
       }
     },
     {
@@ -1080,7 +1080,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.1
+        "temp": 8.3
       }
     },
     {
@@ -1097,7 +1097,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.2
+        "temp": 7.3
       }
     },
     {
@@ -1105,7 +1105,7 @@
       "day": "17",
       "weekday": "tis",
       "time": "18:30",
-      "end_time": "20:00",
+      "end_time": "20:15",
       "team": "P2009-2010",
       "team_id": "224798",
       "type": "Träning",
@@ -1114,7 +1114,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.2
+        "temp": 7.3
       }
     },
     {
@@ -1129,9 +1129,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 9.4
       }
     },
     {
@@ -1146,9 +1146,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 9.4
       }
     },
     {
@@ -1163,9 +1163,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 9.4
       }
     },
     {
@@ -1182,7 +1182,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.1
+        "temp": 8.3
       }
     },
     {
