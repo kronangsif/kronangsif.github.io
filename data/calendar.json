@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-17T19:38:28.918393",
+  "last_updated": "2026-03-17T21:56:36.561310",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
-  "activity_count": 141,
+  "activity_count": 142,
   "activities": [
     {
       "date": "2026-03-01",
@@ -1127,7 +1127,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.2
+        "temp": 8.3
       }
     },
     {
@@ -1144,7 +1144,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.2
+        "temp": 8.3
       }
     },
     {
@@ -1161,7 +1161,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.2
+        "temp": 8.3
       }
     },
     {
@@ -1246,7 +1246,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.8
+        "temp": 7.9
       }
     },
     {
@@ -1263,7 +1263,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.3
+        "temp": 5.4
       }
     },
     {
@@ -1355,6 +1355,23 @@
       "date": "2026-03-22",
       "day": "22",
       "weekday": "sön",
+      "time": "09:15",
+      "end_time": "11:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Övrigt",
+      "description": "Träningsmatch Sjömarken",
+      "location": "Sjömarkens IF - idrottsgården",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 3.3
+      }
+    },
+    {
+      "date": "2026-03-22",
+      "day": "22",
+      "weekday": "sön",
       "time": "10:00",
       "end_time": "11:00",
       "team": "Fotbollsskolan födda 2020",
@@ -1372,13 +1389,13 @@
       "date": "2026-03-22",
       "day": "22",
       "weekday": "sön",
-      "time": "10:00",
-      "end_time": "11:15",
+      "time": "10:45",
+      "end_time": "12:30",
       "team": "P 2015",
       "team_id": "56158",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Fredriksborgshallen",
+      "type": "Övrigt",
+      "description": "Träningsmatch Sjömarken!",
+      "location": "Sjömarkens IF idrottsgården",
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
