@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-16T23:55:51.606608",
+  "last_updated": "2026-03-17T05:14:01.538730",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
-  "activity_count": 138,
+  "activity_count": 140,
   "activities": [
     {
       "date": "2026-03-01",
@@ -1057,9 +1057,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.3
       }
     },
     {
@@ -1074,9 +1074,9 @@
       "description": "Träning utomhus + löpning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.3
       }
     },
     {
@@ -1091,9 +1091,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 7.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.0
       }
     },
     {
@@ -1108,9 +1108,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 7.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.0
       }
     },
     {
@@ -1125,9 +1125,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 9.2
       }
     },
     {
@@ -1142,9 +1142,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 9.2
       }
     },
     {
@@ -1159,9 +1159,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 9.2
       }
     },
     {
@@ -1178,7 +1178,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.8
+        "temp": 8.1
       }
     },
     {
@@ -1195,7 +1195,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 7.6
+        "temp": 6.9
       }
     },
     {
@@ -1212,7 +1212,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 7.6
+        "temp": 6.9
       }
     },
     {
@@ -1229,7 +1229,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 7.6
+        "temp": 6.9
       }
     },
     {
@@ -1280,7 +1280,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 10.9
+        "temp": 11.6
       }
     },
     {
@@ -1297,7 +1297,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 4.9
+        "temp": 5.3
       }
     },
     {
@@ -1314,7 +1314,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 0.9
+        "temp": 0.2
       }
     },
     {
@@ -1331,7 +1331,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 0.9
+        "temp": 0.2
       }
     },
     {
@@ -1348,7 +1348,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 2.7
+        "temp": 2.5
       }
     },
     {
@@ -1365,7 +1365,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 4.2
+        "temp": 4.6
       }
     },
     {
@@ -1382,7 +1382,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 4.2
+        "temp": 4.6
       }
     },
     {
@@ -1399,7 +1399,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 5.5
+        "temp": 6.2
       }
     },
     {
@@ -1416,7 +1416,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 5.5
+        "temp": 6.2
       }
     },
     {
@@ -1433,7 +1433,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 6.7
+        "temp": 7.8
       }
     },
     {
@@ -1450,7 +1450,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 6.2
+        "temp": 8.4
       }
     },
     {
@@ -1467,7 +1467,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 4.9
+        "temp": 7.7
       }
     },
     {
@@ -1485,6 +1485,40 @@
         "icon": "🌧️",
         "desc": "Dis",
         "temp": 4.4
+      }
+    },
+    {
+      "date": "2026-03-23",
+      "day": "23",
+      "weekday": "mån",
+      "time": "19:00",
+      "end_time": "",
+      "team": "Dam",
+      "team_id": "52695",
+      "type": "Match",
+      "description": "Ulricehamns IFK U borta",
+      "location": "Lassalyckan A-plan konstgräs(Träningsmatcher Damer, Västergötland)",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.2
+      }
+    },
+    {
+      "date": "2026-03-23",
+      "day": "23",
+      "weekday": "mån",
+      "time": "19:00",
+      "end_time": "",
+      "team": "VEO kamera",
+      "team_id": "430796",
+      "type": "Match",
+      "description": "Ulricehamns IFK U borta",
+      "location": "Lassalyckan A-plan konstgräs(Träningsmatcher Damer VEO)",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.2
       }
     },
     {
