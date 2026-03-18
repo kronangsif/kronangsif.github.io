@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T08:03:41.629282",
+  "last_updated": "2026-03-18T11:34:18.659229",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1111,7 +1111,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.0
+        "temp": 8.5
       }
     },
     {
@@ -1128,7 +1128,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.0
+        "temp": 8.5
       }
     },
     {
@@ -1145,7 +1145,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.0
+        "temp": 8.5
       }
     },
     {
@@ -1162,7 +1162,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.6
+        "temp": 8.0
       }
     },
     {
@@ -1177,9 +1177,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.7
       }
     },
     {
@@ -1194,9 +1194,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.7
       }
     },
     {
@@ -1211,9 +1211,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.7
       }
     },
     {
@@ -1228,9 +1228,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 6.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.4
       }
     },
     {
@@ -1245,9 +1245,9 @@
       "description": "X-Fit",
       "location": "Xpuls Poolhouse",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 4.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 5.3
       }
     },
     {
@@ -1262,9 +1262,9 @@
       "description": "Karlslundscupen 20-22 Mars",
       "location": "Örebro",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 10.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 10.4
       }
     },
     {
@@ -1279,9 +1279,9 @@
       "description": "Marbäcks IF hemma",
       "location": "Kronängs Arena A-plan()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 4.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 4.8
       }
     },
     {
