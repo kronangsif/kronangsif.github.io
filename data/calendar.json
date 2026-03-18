@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T21:51:02.791009",
+  "last_updated": "2026-03-18T23:01:14.028874",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1108,11 +1108,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.8
-      }
+      "weather": null
     },
     {
       "date": "2026-03-18",
@@ -1125,11 +1121,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.8
-      }
+      "weather": null
     },
     {
       "date": "2026-03-18",
@@ -1142,11 +1134,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.8
-      }
+      "weather": null
     },
     {
       "date": "2026-03-18",
@@ -1159,11 +1147,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.5
-      }
+      "weather": null
     },
     {
       "date": "2026-03-19",
@@ -1179,7 +1163,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.7
+        "temp": 9.8
       }
     },
     {
@@ -1196,7 +1180,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.7
+        "temp": 9.8
       }
     },
     {
@@ -1213,7 +1197,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.7
+        "temp": 9.8
       }
     },
     {
@@ -1247,7 +1231,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.7
+        "temp": 5.8
       }
     },
     {
@@ -1281,7 +1265,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.7
+        "temp": 5.6
       }
     },
     {
@@ -1298,7 +1282,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.7
+        "temp": 5.6
       }
     },
     {
@@ -1311,11 +1295,11 @@
       "team_id": "52695",
       "type": "Match",
       "description": "Vartofta SK hemma",
-      "location": "Kronäng Arena konstgräs 1(Damer DM - Grupp 5)",
+      "location": "Omklädningsrum 2(Damer DM - Grupp 5)",
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.3
+        "temp": 1.4
       }
     },
     {
@@ -1332,7 +1316,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.3
+        "temp": 1.4
       }
     },
     {
@@ -1618,7 +1602,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.5
+      }
     },
     {
       "date": "2026-03-25",
@@ -1631,7 +1619,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.5
+      }
     },
     {
       "date": "2026-03-25",
@@ -1644,7 +1636,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.5
+      }
     },
     {
       "date": "2026-03-25",
@@ -1657,7 +1653,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 3.7
+      }
     },
     {
       "date": "2026-03-26",
