@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T21:59:21.407327",
+  "last_updated": "2026-03-19T23:01:20.726498",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1160,11 +1160,7 @@
       "type": "Övrigt",
       "description": "Möte",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 10.9
-      }
+      "weather": null
     },
     {
       "date": "2026-03-19",
@@ -1177,11 +1173,7 @@
       "type": "Träning",
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 10.9
-      }
+      "weather": null
     },
     {
       "date": "2026-03-19",
@@ -1194,11 +1186,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 10.9
-      }
+      "weather": null
     },
     {
       "date": "2026-03-19",
@@ -1211,11 +1199,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 10.9
-      }
+      "weather": null
     },
     {
       "date": "2026-03-19",
@@ -1228,11 +1212,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 10.0
-      }
+      "weather": null
     },
     {
       "date": "2026-03-19",
@@ -1245,11 +1225,7 @@
       "type": "Träning",
       "description": "X-Fit",
       "location": "Xpuls Poolhouse",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.9
-      }
+      "weather": null
     },
     {
       "date": "2026-03-20",
@@ -1265,7 +1241,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.3
+        "temp": 12.9
       }
     },
     {
@@ -1282,7 +1258,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.6
+        "temp": 7.2
       }
     },
     {
@@ -1299,7 +1275,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.6
+        "temp": 7.2
       }
     },
     {
@@ -1316,7 +1292,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.2
+        "temp": 1.8
       }
     },
     {
@@ -1333,7 +1309,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.2
+        "temp": 1.8
       }
     },
     {
@@ -1687,7 +1663,11 @@
       "type": "Träning",
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 3.5
+      }
     },
     {
       "date": "2026-03-26",
@@ -1700,7 +1680,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 3.5
+      }
     },
     {
       "date": "2026-03-26",
@@ -1713,7 +1697,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 3.5
+      }
     },
     {
       "date": "2026-03-26",
@@ -1726,7 +1714,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 3.2
+      }
     },
     {
       "date": "2026-03-26",
@@ -1739,7 +1731,11 @@
       "type": "Träning",
       "description": "Sista Crossfit passet",
       "location": "Xpuls Poolhouse",
-      "weather": null
+      "weather": {
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 2.9
+      }
     },
     {
       "date": "2026-03-27",
