@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T15:39:32.103860",
+  "last_updated": "2026-03-19T18:09:17.382279",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1163,7 +1163,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.2
+        "temp": 10.9
       }
     },
     {
@@ -1180,7 +1180,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.2
+        "temp": 10.9
       }
     },
     {
@@ -1197,7 +1197,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.2
+        "temp": 10.9
       }
     },
     {
@@ -1214,7 +1214,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.2
+        "temp": 10.9
       }
     },
     {
@@ -1231,7 +1231,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.6
+        "temp": 10.0
       }
     },
     {
@@ -1248,7 +1248,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.8
+        "temp": 7.4
       }
     },
     {
@@ -1263,9 +1263,9 @@
       "description": "Karlslundscupen 20-22 Mars",
       "location": "Örebro",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 12.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.9
       }
     },
     {
@@ -1282,7 +1282,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.8
+        "temp": 7.0
       }
     },
     {
@@ -1299,7 +1299,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.8
+        "temp": 7.0
       }
     },
     {
@@ -1316,7 +1316,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.0
+        "temp": 2.3
       }
     },
     {
@@ -1333,7 +1333,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.0
+        "temp": 2.3
       }
     },
     {
