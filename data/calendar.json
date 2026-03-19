@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T12:02:05.096062",
+  "last_updated": "2026-03-19T15:39:32.103860",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1163,7 +1163,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.4
+        "temp": 11.2
       }
     },
     {
@@ -1180,7 +1180,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.4
+        "temp": 11.2
       }
     },
     {
@@ -1197,7 +1197,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.4
+        "temp": 11.2
       }
     },
     {
@@ -1214,7 +1214,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.4
+        "temp": 11.2
       }
     },
     {
@@ -1231,7 +1231,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.8
+        "temp": 9.6
       }
     },
     {
@@ -1248,7 +1248,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.3
+        "temp": 6.8
       }
     },
     {
@@ -1265,7 +1265,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 12.3
+        "temp": 12.6
       }
     },
     {
@@ -1316,7 +1316,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.2
+        "temp": 2.0
       }
     },
     {
@@ -1333,7 +1333,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.2
+        "temp": 2.0
       }
     },
     {
@@ -1350,7 +1350,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.8
+        "temp": 1.6
       }
     },
     {
@@ -1367,7 +1367,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.8
+        "temp": 1.6
       }
     },
     {
@@ -1384,7 +1384,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.7
+        "temp": 2.5
       }
     },
     {
@@ -1401,7 +1401,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.7
+        "temp": 2.5
       }
     },
     {
@@ -1418,7 +1418,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.0
+        "temp": 4.2
       }
     },
     {
@@ -1435,7 +1435,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.0
+        "temp": 4.2
       }
     },
     {
@@ -1450,8 +1450,8 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 5.7
       }
     },
@@ -1469,7 +1469,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.4
+        "temp": 5.9
       }
     },
     {
@@ -1486,7 +1486,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.6
+        "temp": 5.1
       }
     },
     {
@@ -1503,7 +1503,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 3.8
+        "temp": 6.1
       }
     },
     {
@@ -1520,7 +1520,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.3
+        "temp": 3.8
       }
     },
     {
@@ -1537,7 +1537,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.3
+        "temp": 3.8
       }
     },
     {
@@ -1552,9 +1552,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 5.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.9
       }
     },
     {
@@ -1569,9 +1569,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 5.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.9
       }
     },
     {
@@ -1586,9 +1586,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 5.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.2
       }
     },
     {
@@ -1603,9 +1603,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 5.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.2
       }
     },
     {
@@ -2030,18 +2030,18 @@
   ],
   "latest_news": [
     {
+      "title": "Ni trodde väl inte att spelarpresentationerna var över?",
+      "published_at": "2026-03-13 11:59, Dam",
+      "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1330646",
+      "image": "https://cdn.sportadmin.se/559/h/200/c646522bd5834c1c86651972f66d10b4fe883051f8c6d360d62e90f9608f7997_L.jpg",
+      "summary": "Näst på tur har vi vår starka mittfältare Isabell Midholt! En spelare med en otrolig kämparglöd som alltid vill mer och krigar i varje situation. Hon kommer vara en stor tillgång både offensivt och defensivt på plan. Isabel har en härlig energi och vi är väldigt glada att ha henne i laget! Isabell kommer senast från Westbo United men har sina rötter i Gnosjö IF. Fem snabba med Isabell: Vad fick dig att välja just KIF? - Jag valde kronäng för det verkar som ett härligt gäng och jag har precis flyttat till Borås. Vem i laget vill du inte dela bil med till bortamatch? - Elvira, för hon har dålig syn. Hur skulle du beskriva dig som spelare? - Explosiv, teknisk och bra spelförståelse. Vad är viktigast i din matchrutin? - En nocco Toarpsalliansen eller Svenljunga? - Alla motstånd är nya för mig så vi får väl se efter säsongen! Varmt välkommen Isabell!"
+    },
+    {
       "title": "Årsmöte Kronängs IF Måndag 9 mars kl 18:00 Klubbstugan",
       "published_at": "2026-02-14",
       "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1249577",
       "image": "",
       "summary": "ÅRSMÖTE Kronängs IF bjuder in till årsmöte Måndag 9 mars kl. 18:00 Klubbstugan Välkomna Kronängs IF"
-    },
-    {
-      "title": "Ny sponsor Holstens Bygg 2026:)",
-      "published_at": "2026-02-05 14:04",
-      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1323594",
-      "image": "https://cdn.sportadmin.se/559/h/200/86aac08e70d56ccebb15c7709bd453ec05570ac00fdc68c17e90f62d9ac8594a_L.jpg",
-      "summary": "Vi har fått ny sponsorer till vår förening :) Detta är Holstens Bygg"
     }
   ]
 }
