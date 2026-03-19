@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-19T08:00:11.371028",
+  "last_updated": "2026-03-19T10:09:04.060663",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
-  "activity_count": 145,
+  "activity_count": 146,
   "activities": [
     {
       "date": "2026-03-01",
@@ -1154,6 +1154,23 @@
       "day": "19",
       "weekday": "tor",
       "time": "17:30",
+      "end_time": "22:00",
+      "team": "Klubbstuga",
+      "team_id": "181941",
+      "type": "Övrigt",
+      "description": "Möte",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 10.3
+      }
+    },
+    {
+      "date": "2026-03-19",
+      "day": "19",
+      "weekday": "tor",
+      "time": "17:30",
       "end_time": "18:45",
       "team": "P2011",
       "team_id": "260562",
@@ -1163,7 +1180,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.9
+        "temp": 10.3
       }
     },
     {
@@ -1180,7 +1197,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.9
+        "temp": 10.3
       }
     },
     {
@@ -1197,7 +1214,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.9
+        "temp": 10.3
       }
     },
     {
@@ -1214,7 +1231,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.4
+        "temp": 8.7
       }
     },
     {
@@ -1231,7 +1248,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.9
+        "temp": 6.2
       }
     },
     {
@@ -1246,9 +1263,9 @@
       "description": "Karlslundscupen 20-22 Mars",
       "location": "Örebro",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 11.7
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 12.4
       }
     },
     {
@@ -1265,7 +1282,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.2
+        "temp": 6.9
       }
     },
     {
@@ -1282,7 +1299,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.2
+        "temp": 6.9
       }
     },
     {
@@ -1299,7 +1316,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.2
+        "temp": 1.5
       }
     },
     {
@@ -1316,7 +1333,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.2
+        "temp": 1.5
       }
     },
     {
