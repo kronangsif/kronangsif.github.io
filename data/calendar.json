@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T23:01:14.028874",
+  "last_updated": "2026-03-19T05:15:23.170039",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1231,7 +1231,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.8
+        "temp": 5.7
       }
     },
     {
@@ -1248,7 +1248,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.0
+        "temp": 11.4
       }
     },
     {
@@ -1265,7 +1265,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.6
+        "temp": 5.9
       }
     },
     {
@@ -1282,7 +1282,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.6
+        "temp": 5.9
       }
     },
     {
@@ -1299,7 +1299,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.4
+        "temp": 1.0
       }
     },
     {
@@ -1316,7 +1316,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.4
+        "temp": 1.0
       }
     },
     {
@@ -1333,7 +1333,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.6
+        "temp": 3.4
       }
     },
     {
@@ -1350,7 +1350,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.6
+        "temp": 3.4
       }
     },
     {
@@ -1367,7 +1367,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.3
+        "temp": 4.9
       }
     },
     {
@@ -1384,7 +1384,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.3
+        "temp": 4.9
       }
     },
     {
@@ -1401,7 +1401,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.6
+        "temp": 5.9
       }
     },
     {
@@ -1418,7 +1418,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.6
+        "temp": 5.9
       }
     },
     {
@@ -1433,9 +1433,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 7.4
       }
     },
     {
@@ -1452,7 +1452,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.9
+        "temp": 8.1
       }
     },
     {
@@ -1469,7 +1469,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.4
+        "temp": 7.3
       }
     },
     {
@@ -1484,9 +1484,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 3.5
       }
     },
     {
@@ -1501,9 +1501,9 @@
       "description": "Ulricehamns IFK U borta",
       "location": "Lassalyckan A-plan konstgräs(Träningsmatcher Damer, Västergötland)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 3.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 2.6
       }
     },
     {
@@ -1518,9 +1518,9 @@
       "description": "Ulricehamns IFK U borta",
       "location": "Lassalyckan A-plan konstgräs(Träningsmatcher Damer VEO)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 3.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 2.6
       }
     },
     {
@@ -1537,7 +1537,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.4
+        "temp": 6.5
       }
     },
     {
@@ -1554,7 +1554,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.4
+        "temp": 6.5
       }
     },
     {
@@ -1571,7 +1571,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.4
+        "temp": 5.9
       }
     },
     {
@@ -1588,7 +1588,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.4
+        "temp": 5.9
       }
     },
     {
