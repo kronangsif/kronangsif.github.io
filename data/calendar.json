@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T10:02:53.125516",
+  "last_updated": "2026-03-20T11:57:21.648690",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1241,7 +1241,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 12.6
+        "temp": 12.3
       }
     },
     {
@@ -1258,7 +1258,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.3
+        "temp": 7.0
       }
     },
     {
@@ -1275,7 +1275,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.3
+        "temp": 7.0
       }
     },
     {
@@ -1292,7 +1292,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 0.8
+        "temp": 1.1
       }
     },
     {
@@ -1309,7 +1309,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.0
+        "temp": 4.5
       }
     },
     {
@@ -1326,7 +1326,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.3
+        "temp": 2.4
       }
     },
     {
@@ -1343,7 +1343,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.3
+        "temp": 2.4
       }
     },
     {
@@ -1360,7 +1360,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.7
+        "temp": 3.6
       }
     },
     {
@@ -1377,7 +1377,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.7
+        "temp": 3.6
       }
     },
     {
@@ -1394,7 +1394,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 5.3
+        "temp": 4.8
       }
     },
     {
@@ -1411,7 +1411,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 5.3
+        "temp": 4.8
       }
     },
     {
@@ -1428,7 +1428,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 6.6
+        "temp": 6.1
       }
     },
     {
@@ -1477,8 +1477,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 3.8
       }
     },
@@ -1494,8 +1494,8 @@
       "description": "Ulricehamns IFK U borta",
       "location": "Lassalyckan A-plan konstgräs(Träningsmatcher Damer, Västergötland)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 2.3
       }
     },
@@ -1511,8 +1511,8 @@
       "description": "Ulricehamns IFK U borta",
       "location": "Lassalyckan A-plan konstgräs(Träningsmatcher Damer VEO)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 2.3
       }
     },
