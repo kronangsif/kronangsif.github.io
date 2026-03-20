@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T22:59:49.668365",
+  "last_updated": "2026-03-20T23:55:00.284038",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1238,11 +1238,7 @@
       "type": "Övrigt",
       "description": "Karlslundscupen 20-22 Mars",
       "location": "Örebro",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 13.2
-      }
+      "weather": null
     },
     {
       "date": "2026-03-20",
@@ -1255,11 +1251,7 @@
       "type": "Match",
       "description": "Marbäcks IF hemma",
       "location": "Kronängs Arena A-plan()",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.3
-      }
+      "weather": null
     },
     {
       "date": "2026-03-20",
@@ -1272,11 +1264,7 @@
       "type": "Match",
       "description": "Marbäcks IF hemma",
       "location": "Kronängs Arena A-plan()",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.3
-      }
+      "weather": null
     },
     {
       "date": "2026-03-21",
@@ -1664,8 +1652,8 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 4.0
       }
     },
@@ -1681,8 +1669,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 4.0
       }
     },
@@ -1698,8 +1686,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 4.0
       }
     },
@@ -1732,8 +1720,8 @@
       "description": "Sista Crossfit passet",
       "location": "Xpuls Poolhouse",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 2.8
       }
     },
@@ -1748,7 +1736,11 @@
       "type": "Match",
       "description": "Mariedals IK hemma",
       "location": "Kransmossen()",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.2
+      }
     },
     {
       "date": "2026-03-28",
