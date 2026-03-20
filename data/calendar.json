@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T05:08:05.565646",
+  "last_updated": "2026-03-20T07:58:48.865898",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1241,7 +1241,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.0
+        "temp": 13.1
       }
     },
     {
@@ -1284,11 +1284,11 @@
       "weekday": "lör",
       "time": "00:00",
       "end_time": "",
-      "team": "Dam",
-      "team_id": "52695",
+      "team": "VEO kamera",
+      "team_id": "430796",
       "type": "Match",
       "description": "Vartofta SK hemma",
-      "location": "Omklädningsrum 2(Damer DM - Grupp 5)",
+      "location": "Kronäng Arena konstgräs 1(Damer DM - Grupp 5 VEO)",
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
@@ -1299,17 +1299,17 @@
       "date": "2026-03-21",
       "day": "21",
       "weekday": "lör",
-      "time": "00:00",
+      "time": "11:00",
       "end_time": "",
-      "team": "VEO kamera",
-      "team_id": "430796",
+      "team": "Dam",
+      "team_id": "52695",
       "type": "Match",
       "description": "Vartofta SK hemma",
-      "location": "Kronäng Arena konstgräs 1(Damer DM - Grupp 5 VEO)",
+      "location": "Kronängs Arena(Damer DM - Grupp 5)",
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.1
+        "temp": 5.0
       }
     },
     {
@@ -1324,9 +1324,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 3.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 2.8
       }
     },
     {
@@ -1341,9 +1341,9 @@
       "description": "Träningsmatch Sjömarken",
       "location": "Sjömarkens IF - idrottsgården",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 3.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 2.8
       }
     },
     {
@@ -1358,9 +1358,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 4.7
       }
     },
     {
@@ -1375,9 +1375,9 @@
       "description": "Träningsmatch Sjömarken!",
       "location": "Sjömarkens IF idrottsgården",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 4.7
       }
     },
     {
@@ -1392,9 +1392,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 6.1
       }
     },
     {
@@ -1409,9 +1409,9 @@
       "description": "Träningsmatcher mot Bergdalens IK",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 6.1
       }
     },
     {
@@ -1426,9 +1426,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 7.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.1
       }
     },
     {
@@ -1445,7 +1445,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.7
+        "temp": 8.8
       }
     },
     {
@@ -1462,7 +1462,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.1
+        "temp": 8.4
       }
     },
     {
@@ -1477,9 +1477,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 3.8
       }
     },
     {
@@ -1494,9 +1494,9 @@
       "description": "Ulricehamns IFK U borta",
       "location": "Lassalyckan A-plan konstgräs(Träningsmatcher Damer, Västergötland)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 3.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 2.3
       }
     },
     {
@@ -1511,9 +1511,9 @@
       "description": "Ulricehamns IFK U borta",
       "location": "Lassalyckan A-plan konstgräs(Träningsmatcher Damer VEO)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 3.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 2.3
       }
     },
     {
@@ -1528,9 +1528,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.7
       }
     },
     {
@@ -1545,9 +1545,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.7
       }
     },
     {
@@ -1562,9 +1562,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 5.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.8
       }
     },
     {
@@ -1579,9 +1579,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 5.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.8
       }
     },
     {
@@ -1598,7 +1598,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.2
+        "temp": 4.1
       }
     },
     {
@@ -1615,7 +1615,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.2
+        "temp": 4.1
       }
     },
     {
@@ -1632,7 +1632,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.2
+        "temp": 4.1
       }
     },
     {
@@ -1664,9 +1664,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "❄️",
-        "desc": "Snö",
-        "temp": 3.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 3.2
       }
     },
     {
@@ -1681,9 +1681,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "❄️",
-        "desc": "Snö",
-        "temp": 3.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 3.2
       }
     },
     {
@@ -1698,9 +1698,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "❄️",
-        "desc": "Snö",
-        "temp": 3.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 3.2
       }
     },
     {
@@ -1715,9 +1715,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "❄️",
-        "desc": "Snö",
-        "temp": 3.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 2.8
       }
     },
     {
@@ -1732,9 +1732,9 @@
       "description": "Sista Crossfit passet",
       "location": "Xpuls Poolhouse",
       "weather": {
-        "icon": "❄️",
-        "desc": "Snö",
-        "temp": 2.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 2.5
       }
     },
     {
