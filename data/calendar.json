@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T23:01:20.726498",
+  "last_updated": "2026-03-20T05:08:05.565646",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1241,7 +1241,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 12.9
+        "temp": 13.0
       }
     },
     {
@@ -1258,7 +1258,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.2
+        "temp": 7.8
       }
     },
     {
@@ -1275,7 +1275,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.2
+        "temp": 7.8
       }
     },
     {
@@ -1292,7 +1292,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.8
+        "temp": 1.1
       }
     },
     {
@@ -1309,7 +1309,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.8
+        "temp": 1.1
       }
     },
     {
@@ -1324,9 +1324,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 3.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 3.0
       }
     },
     {
@@ -1341,9 +1341,9 @@
       "description": "Träningsmatch Sjömarken",
       "location": "Sjömarkens IF - idrottsgården",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 3.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 3.0
       }
     },
     {
@@ -1358,9 +1358,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 5.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.3
       }
     },
     {
@@ -1375,9 +1375,9 @@
       "description": "Träningsmatch Sjömarken!",
       "location": "Sjömarkens IF idrottsgården",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 5.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.3
       }
     },
     {
@@ -1392,9 +1392,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.8
       }
     },
     {
@@ -1409,9 +1409,9 @@
       "description": "Träningsmatcher mot Bergdalens IK",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.8
       }
     },
     {
@@ -1426,9 +1426,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 8.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 7.2
       }
     },
     {
@@ -1443,9 +1443,9 @@
       "description": "Mariedals IK hemma",
       "location": "Kronängs Arena()",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 8.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.7
       }
     },
     {
@@ -1460,9 +1460,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.1
       }
     },
     {
@@ -1477,9 +1477,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 3.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.8
       }
     },
     {
@@ -1494,9 +1494,9 @@
       "description": "Ulricehamns IFK U borta",
       "location": "Lassalyckan A-plan konstgräs(Träningsmatcher Damer, Västergötland)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 2.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 3.8
       }
     },
     {
@@ -1511,9 +1511,9 @@
       "description": "Ulricehamns IFK U borta",
       "location": "Lassalyckan A-plan konstgräs(Träningsmatcher Damer VEO)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 2.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 3.8
       }
     },
     {
@@ -1528,9 +1528,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.2
       }
     },
     {
@@ -1545,9 +1545,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.2
       }
     },
     {
@@ -1562,9 +1562,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 5.7
       }
     },
     {
@@ -1579,9 +1579,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 5.7
       }
     },
     {
@@ -1598,7 +1598,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.9
+        "temp": 4.2
       }
     },
     {
@@ -1615,7 +1615,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.9
+        "temp": 4.2
       }
     },
     {
@@ -1632,7 +1632,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.9
+        "temp": 4.2
       }
     },
     {
@@ -1649,7 +1649,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.3
+        "temp": 3.7
       }
     },
     {
