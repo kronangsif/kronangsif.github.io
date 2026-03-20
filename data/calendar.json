@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T07:58:48.865898",
+  "last_updated": "2026-03-20T10:02:53.125516",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1241,7 +1241,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.1
+        "temp": 12.6
       }
     },
     {
@@ -1258,7 +1258,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.8
+        "temp": 7.3
       }
     },
     {
@@ -1275,7 +1275,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.8
+        "temp": 7.3
       }
     },
     {
@@ -1292,7 +1292,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.1
+        "temp": 0.8
       }
     },
     {
@@ -1324,9 +1324,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 2.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 2.3
       }
     },
     {
@@ -1341,9 +1341,9 @@
       "description": "Träningsmatch Sjömarken",
       "location": "Sjömarkens IF - idrottsgården",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 2.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 2.3
       }
     },
     {
@@ -1358,9 +1358,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 4.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 3.7
       }
     },
     {
@@ -1375,9 +1375,9 @@
       "description": "Träningsmatch Sjömarken!",
       "location": "Sjömarkens IF idrottsgården",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 4.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 3.7
       }
     },
     {
@@ -1392,9 +1392,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 6.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 5.3
       }
     },
     {
@@ -1409,9 +1409,9 @@
       "description": "Träningsmatcher mot Bergdalens IK",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 6.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 5.3
       }
     },
     {
@@ -1426,9 +1426,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.6
       }
     },
     {
@@ -1445,7 +1445,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.8
+        "temp": 8.4
       }
     },
     {
