@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T23:55:00.284038",
+  "last_updated": "2026-03-21T04:53:41.835769",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1280,7 +1280,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.1
+        "temp": 1.9
       }
     },
     {
@@ -1297,7 +1297,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.2
+        "temp": 2.4
       }
     },
     {
@@ -1348,7 +1348,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.6
+        "temp": 3.3
       }
     },
     {
@@ -1365,7 +1365,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.6
+        "temp": 3.3
       }
     },
     {
@@ -1382,7 +1382,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.9
+        "temp": 4.3
       }
     },
     {
@@ -1399,7 +1399,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.9
+        "temp": 4.3
       }
     },
     {
@@ -1414,9 +1414,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 5.6
       }
     },
     {
@@ -1433,7 +1433,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.4
+        "temp": 7.9
       }
     },
     {
@@ -1450,7 +1450,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.4
+        "temp": 8.3
       }
     },
     {
@@ -1484,7 +1484,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.3
+        "temp": 2.2
       }
     },
     {
@@ -1501,7 +1501,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.3
+        "temp": 2.2
       }
     },
     {
@@ -1518,7 +1518,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.0
+        "temp": 4.3
       }
     },
     {
@@ -1535,7 +1535,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.0
+        "temp": 4.3
       }
     },
     {
@@ -1585,8 +1585,8 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 4.0
+        "desc": "Regn",
+        "temp": 4.9
       }
     },
     {
@@ -1602,8 +1602,8 @@
       "location": "Kronängs Arena A-plan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 4.0
+        "desc": "Regn",
+        "temp": 4.9
       }
     },
     {
@@ -1619,8 +1619,8 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 4.0
+        "desc": "Regn",
+        "temp": 4.9
       }
     },
     {
@@ -1636,8 +1636,8 @@
       "location": "Kronängs Arena A-plan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 3.3
+        "desc": "Regn",
+        "temp": 4.1
       }
     },
     {
@@ -1654,7 +1654,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 4.0
+        "temp": 6.1
       }
     },
     {
@@ -1671,7 +1671,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 4.0
+        "temp": 6.1
       }
     },
     {
@@ -1688,7 +1688,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 4.0
+        "temp": 6.1
       }
     },
     {
@@ -1705,7 +1705,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 3.3
+        "temp": 4.4
       }
     },
     {
@@ -1722,7 +1722,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 2.8
+        "temp": 3.2
       }
     },
     {
