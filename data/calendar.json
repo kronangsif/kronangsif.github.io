@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T09:01:53.782773",
+  "last_updated": "2026-03-21T10:55:28.776666",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1297,7 +1297,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.1
+        "temp": 3.9
       }
     },
     {
@@ -1314,7 +1314,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.1
+        "temp": 2.2
       }
     },
     {
@@ -1331,7 +1331,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.1
+        "temp": 2.2
       }
     },
     {
@@ -1348,7 +1348,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.1
+        "temp": 3.5
       }
     },
     {
@@ -1365,7 +1365,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.1
+        "temp": 3.5
       }
     },
     {
@@ -1382,7 +1382,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.5
+        "temp": 4.4
       }
     },
     {
@@ -1399,7 +1399,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.5
+        "temp": 4.4
       }
     },
     {
@@ -1416,7 +1416,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.7
+        "temp": 5.3
       }
     },
     {
@@ -1431,9 +1431,9 @@
       "description": "Mariedals IK hemma",
       "location": "Kronängs Arena()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.7
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 6.8
       }
     },
     {
@@ -1450,7 +1450,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.9
+        "temp": 7.2
       }
     },
     {
@@ -1467,7 +1467,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 3.8
+        "temp": 5.4
       }
     },
     {
@@ -1482,9 +1482,9 @@
       "description": "Ulricehamns IFK U borta",
       "location": "Lassalyckan A-plan konstgräs(Träningsmatcher Damer, Västergötland)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 2.1
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 3.1
       }
     },
     {
@@ -1499,9 +1499,9 @@
       "description": "Ulricehamns IFK U borta",
       "location": "Lassalyckan A-plan konstgräs(Träningsmatcher Damer VEO)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 2.1
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 3.1
       }
     },
     {
