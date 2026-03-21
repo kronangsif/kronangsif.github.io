@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T15:49:14.578419",
+  "last_updated": "2026-03-21T16:58:36.827679",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1314,7 +1314,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.6
+        "temp": 2.7
       }
     },
     {
@@ -1331,7 +1331,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.6
+        "temp": 2.7
       }
     },
     {
@@ -1348,7 +1348,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.9
+        "temp": 4.1
       }
     },
     {
@@ -1365,7 +1365,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.9
+        "temp": 4.1
       }
     },
     {
@@ -1382,7 +1382,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.3
+        "temp": 5.4
       }
     },
     {
@@ -1399,7 +1399,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.3
+        "temp": 5.4
       }
     },
     {
@@ -1416,7 +1416,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.1
+        "temp": 6.4
       }
     },
     {
@@ -1433,7 +1433,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.3
+        "temp": 7.9
       }
     },
     {
@@ -1450,7 +1450,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.4
+        "temp": 8.0
       }
     },
     {
@@ -1465,9 +1465,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 6.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.0
       }
     },
     {
@@ -1482,9 +1482,9 @@
       "description": "Ulricehamns IFK U borta",
       "location": "Lassalyckan A-plan konstgräs(Träningsmatcher Damer, Västergötland)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 4.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.1
       }
     },
     {
@@ -1499,9 +1499,9 @@
       "description": "Ulricehamns IFK U borta",
       "location": "Lassalyckan A-plan konstgräs(Träningsmatcher Damer VEO)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 4.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.1
       }
     },
     {
