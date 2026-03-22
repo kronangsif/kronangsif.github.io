@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T22:56:15.926423",
+  "last_updated": "2026-03-22T23:55:53.531207",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1290,11 +1290,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 2.0
-      }
+      "weather": null
     },
     {
       "date": "2026-03-22",
@@ -1307,11 +1303,7 @@
       "type": "Övrigt",
       "description": "Träningsmatch Sjömarken",
       "location": "Sjömarkens IF - idrottsgården",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 2.0
-      }
+      "weather": null
     },
     {
       "date": "2026-03-22",
@@ -1324,11 +1316,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.4
-      }
+      "weather": null
     },
     {
       "date": "2026-03-22",
@@ -1341,11 +1329,7 @@
       "type": "Övrigt",
       "description": "Träningsmatch Sjömarken!",
       "location": "Sjömarkens IF idrottsgården",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.4
-      }
+      "weather": null
     },
     {
       "date": "2026-03-22",
@@ -1358,11 +1342,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.4
-      }
+      "weather": null
     },
     {
       "date": "2026-03-22",
@@ -1375,11 +1355,7 @@
       "type": "Träning",
       "description": "Träningsmatcher mot Bergdalens IK",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.4
-      }
+      "weather": null
     },
     {
       "date": "2026-03-22",
@@ -1392,11 +1368,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.0
-      }
+      "weather": null
     },
     {
       "date": "2026-03-22",
@@ -1409,11 +1381,7 @@
       "type": "Match",
       "description": "Mariedals IK hemma",
       "location": "Kronängs Arena()",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 10.8
-      }
+      "weather": null
     },
     {
       "date": "2026-03-22",
@@ -1426,11 +1394,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 10.8
-      }
+      "weather": null
     },
     {
       "date": "2026-03-23",
@@ -1446,7 +1410,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.1
+        "temp": 7.0
       }
     },
     {
@@ -1463,7 +1427,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.0
+        "temp": 4.9
       }
     },
     {
@@ -1480,7 +1444,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.0
+        "temp": 4.9
       }
     },
     {
@@ -1563,8 +1527,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 5.3
       }
     },
@@ -1580,8 +1544,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 5.3
       }
     },
@@ -1597,8 +1561,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 5.3
       }
     },
@@ -1614,8 +1578,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 4.3
       }
     },
@@ -1631,8 +1595,8 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 7.0
       }
     },
@@ -1648,8 +1612,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 7.0
       }
     },
@@ -1665,8 +1629,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 7.0
       }
     },
@@ -1682,8 +1646,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 5.2
       }
     },
@@ -1699,8 +1663,8 @@
       "description": "Sista Crossfit passet",
       "location": "Xpuls Poolhouse",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 3.5
       }
     },
@@ -1716,8 +1680,8 @@
       "description": "Mariedals IK hemma",
       "location": "Kransmossen()",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 6.6
       }
     },
@@ -1733,8 +1697,8 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 1.0
       }
     },
@@ -1749,7 +1713,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 3.2
+      }
     },
     {
       "date": "2026-03-29",
@@ -1762,7 +1730,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 5.0
+      }
     },
     {
       "date": "2026-03-29",
@@ -1775,7 +1747,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Fredriksborgshallen",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 5.0
+      }
     },
     {
       "date": "2026-03-29",
@@ -1788,7 +1764,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 6.7
+      }
     },
     {
       "date": "2026-03-29",
@@ -1801,7 +1781,11 @@
       "type": "Match",
       "description": "Brämhults IK borta",
       "location": "Brämhults IP()",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 6.7
+      }
     },
     {
       "date": "2026-03-29",
@@ -1814,7 +1798,11 @@
       "type": "Träning",
       "description": "Match",
       "location": "Skene",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.9
+      }
     },
     {
       "date": "2026-03-29",
@@ -1827,7 +1815,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.9
+      }
     },
     {
       "date": "2026-03-29",
@@ -1840,7 +1832,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.9
+      }
     },
     {
       "date": "2026-03-29",
@@ -1853,7 +1849,11 @@
       "type": "Match",
       "description": "Sjömarkens If P.14 borta",
       "location": "Idrottsgården, Sjömarken()",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.6
+      }
     },
     {
       "date": "2026-03-29",
@@ -1866,7 +1866,11 @@
       "type": "Match",
       "description": "Sandareds IF hemma",
       "location": "Annan()",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.2
+      }
     },
     {
       "date": "2026-03-29",
@@ -1879,7 +1883,11 @@
       "type": "Träning",
       "description": "Träningsmatch",
       "location": "Dalsjöfors",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.3
+      }
     },
     {
       "date": "2026-03-29",
@@ -1892,7 +1900,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 5.9
+      }
     },
     {
       "date": "2026-03-29",
@@ -1905,7 +1917,11 @@
       "type": "Match",
       "description": "Sandareds IF borta",
       "location": "Sandevi B()",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 5.9
+      }
     },
     {
       "date": "2026-03-30",
