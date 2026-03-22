@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T09:03:13.429788",
+  "last_updated": "2026-03-22T10:56:52.847313",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1340,7 +1340,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.7
+        "temp": 4.4
       }
     },
     {
@@ -1357,7 +1357,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.7
+        "temp": 4.4
       }
     },
     {
@@ -1374,7 +1374,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.7
+        "temp": 6.4
       }
     },
     {
@@ -1391,7 +1391,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.7
+        "temp": 6.4
       }
     },
     {
@@ -1408,7 +1408,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.7
+        "temp": 7.0
       }
     },
     {
@@ -1423,9 +1423,9 @@
       "description": "Mariedals IK hemma",
       "location": "Kronängs Arena()",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 8.6
       }
     },
     {
@@ -1440,9 +1440,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 8.5
       }
     },
     {
@@ -1459,7 +1459,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.7
+        "temp": 7.0
       }
     },
     {
@@ -1476,7 +1476,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.7
+        "temp": 5.0
       }
     },
     {
@@ -1493,7 +1493,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.7
+        "temp": 5.0
       }
     },
     {
@@ -1510,7 +1510,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.4
+        "temp": 6.5
       }
     },
     {
@@ -1527,7 +1527,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.4
+        "temp": 6.5
       }
     },
     {
@@ -1544,7 +1544,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.4
+        "temp": 6.2
       }
     },
     {
@@ -1561,7 +1561,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.4
+        "temp": 6.2
       }
     },
     {
