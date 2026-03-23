@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T20:57:21.805587",
+  "last_updated": "2026-03-23T22:00:26.415376",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1461,7 +1461,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.5
+        "temp": 6.4
       }
     },
     {
@@ -1478,7 +1478,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.5
+        "temp": 6.4
       }
     },
     {
@@ -1527,9 +1527,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.1
       }
     },
     {
@@ -1544,9 +1544,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.1
       }
     },
     {
@@ -1561,9 +1561,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.1
       }
     },
     {
@@ -1580,7 +1580,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.2
+        "temp": 5.5
       }
     },
     {
