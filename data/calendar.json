@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T22:00:26.415376",
+  "last_updated": "2026-03-23T23:58:21.212596",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1407,11 +1407,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.5
-      }
+      "weather": null
     },
     {
       "date": "2026-03-23",
@@ -1424,11 +1420,7 @@
       "type": "Match",
       "description": "Ulricehamns IFK U borta",
       "location": "Lassalyckan A-plan konstgräs(Träningsmatcher Damer, Västergötland)",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 5.0
-      }
+      "weather": null
     },
     {
       "date": "2026-03-23",
@@ -1441,11 +1433,7 @@
       "type": "Match",
       "description": "Ulricehamns IFK U borta",
       "location": "Lassalyckan A-plan konstgräs(Träningsmatcher Damer VEO)",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 5.0
-      }
+      "weather": null
     },
     {
       "date": "2026-03-24",
@@ -1461,7 +1449,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.4
+        "temp": 6.3
       }
     },
     {
@@ -1478,7 +1466,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.4
+        "temp": 6.3
       }
     },
     {
@@ -1495,7 +1483,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.8
+        "temp": 6.6
       }
     },
     {
@@ -1512,7 +1500,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.8
+        "temp": 6.6
       }
     },
     {
@@ -1529,7 +1517,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 6.1
+        "temp": 5.9
       }
     },
     {
@@ -1546,7 +1534,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 6.1
+        "temp": 5.9
       }
     },
     {
@@ -1563,7 +1551,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 6.1
+        "temp": 5.9
       }
     },
     {
@@ -1580,7 +1568,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.5
+        "temp": 5.4
       }
     },
     {
@@ -1934,7 +1922,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": null
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 4.2
+      }
     },
     {
       "date": "2026-03-31",
