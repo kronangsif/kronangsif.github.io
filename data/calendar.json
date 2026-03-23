@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T05:47:27.540771",
+  "last_updated": "2026-03-23T08:38:10.576390",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1410,7 +1410,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.1
+        "temp": 7.0
       }
     },
     {
@@ -1427,7 +1427,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.9
+        "temp": 4.8
       }
     },
     {
@@ -1444,7 +1444,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.9
+        "temp": 4.8
       }
     },
     {
@@ -1461,7 +1461,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.0
+        "temp": 6.8
       }
     },
     {
@@ -1478,7 +1478,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.0
+        "temp": 6.8
       }
     },
     {
@@ -1495,7 +1495,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.1
+        "temp": 6.8
       }
     },
     {
@@ -1512,7 +1512,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.1
+        "temp": 6.8
       }
     },
     {
@@ -1527,9 +1527,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 5.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.2
       }
     },
     {
@@ -1544,9 +1544,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 5.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.2
       }
     },
     {
@@ -1561,9 +1561,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 5.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.2
       }
     },
     {
@@ -1578,8 +1578,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 4.4
       }
     },
@@ -1597,7 +1597,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.7
+        "temp": 8.4
       }
     },
     {
@@ -1614,7 +1614,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.7
+        "temp": 8.4
       }
     },
     {
@@ -1631,7 +1631,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.7
+        "temp": 8.4
       }
     },
     {
@@ -1648,7 +1648,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.0
+        "temp": 6.8
       }
     },
     {
@@ -1665,7 +1665,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.5
+        "temp": 5.7
       }
     },
     {
@@ -1682,7 +1682,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.2
+        "temp": 5.2
       }
     },
     {
@@ -1699,7 +1699,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 3.2
+        "temp": 1.7
       }
     },
     {
@@ -1714,9 +1714,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 3.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 2.8
       }
     },
     {
@@ -1731,9 +1731,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 5.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 5.2
       }
     },
     {
@@ -1748,9 +1748,9 @@
       "description": "Träning",
       "location": "Fredriksborgshallen",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 5.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 5.2
       }
     },
     {
@@ -1765,9 +1765,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 6.7
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.4
       }
     },
     {
@@ -1782,9 +1782,9 @@
       "description": "Brämhults IK borta",
       "location": "Brämhults IP()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 6.7
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.4
       }
     },
     {
@@ -1801,7 +1801,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.9
+        "temp": 9.1
       }
     },
     {
@@ -1818,7 +1818,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.9
+        "temp": 9.1
       }
     },
     {
@@ -1835,7 +1835,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.9
+        "temp": 9.1
       }
     },
     {
@@ -1852,7 +1852,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.6
+        "temp": 9.9
       }
     },
     {
@@ -1869,7 +1869,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.2
+        "temp": 9.6
       }
     },
     {
@@ -1886,7 +1886,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.3
+        "temp": 8.4
       }
     },
     {
@@ -1903,7 +1903,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.9
+        "temp": 6.8
       }
     },
     {
@@ -1920,7 +1920,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.9
+        "temp": 6.8
       }
     },
     {
