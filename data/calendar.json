@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-23T11:33:21.051920",
+  "last_updated": "2026-03-23T15:39:56.725103",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
-  "activity_count": 145,
+  "activity_count": 147,
   "activities": [
     {
       "date": "2026-03-01",
@@ -1410,7 +1410,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.9
+        "temp": 6.3
       }
     },
     {
@@ -1427,7 +1427,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.0
+        "temp": 4.3
       }
     },
     {
@@ -1444,7 +1444,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.0
+        "temp": 4.3
       }
     },
     {
@@ -1461,7 +1461,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.1
+        "temp": 6.5
       }
     },
     {
@@ -1478,7 +1478,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.1
+        "temp": 6.5
       }
     },
     {
@@ -1495,7 +1495,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.4
+        "temp": 6.7
       }
     },
     {
@@ -1512,7 +1512,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.4
+        "temp": 6.7
       }
     },
     {
@@ -1527,8 +1527,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 6.3
       }
     },
@@ -1544,8 +1544,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 6.3
       }
     },
@@ -1561,8 +1561,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 6.3
       }
     },
@@ -1597,7 +1597,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.4
+        "temp": 6.8
       }
     },
     {
@@ -1614,7 +1614,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.4
+        "temp": 6.8
       }
     },
     {
@@ -1631,7 +1631,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.4
+        "temp": 6.8
       }
     },
     {
@@ -1648,7 +1648,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.8
+        "temp": 5.1
       }
     },
     {
@@ -1665,7 +1665,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.7
+        "temp": 3.4
       }
     },
     {
@@ -1680,9 +1680,9 @@
       "description": "Mariedals IK hemma",
       "location": "Kransmossen()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 5.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 4.6
       }
     },
     {
@@ -1697,9 +1697,9 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 1.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 1.9
       }
     },
     {
@@ -1954,6 +1954,32 @@
       "day": "31",
       "weekday": "tis",
       "time": "17:30",
+      "end_time": "18:30",
+      "team": "P2009-2010",
+      "team_id": "224798",
+      "type": "Övrigt",
+      "description": "Möte",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-03-31",
+      "day": "31",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "18:30",
+      "team": "P2011",
+      "team_id": "260562",
+      "type": "Övrigt",
+      "description": "Möte",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-03-31",
+      "day": "31",
+      "weekday": "tis",
+      "time": "17:30",
       "end_time": "18:45",
       "team": "P2013",
       "team_id": "324307",
@@ -2017,18 +2043,18 @@
   ],
   "latest_news": [
     {
+      "title": "Nu  snart startar vi igen på Götavallen",
+      "published_at": "2026-03-23 16:32",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1332662",
+      "image": "https://cdn.sportadmin.se/559/h/200/88387080d6bcd8cdbc6abf5539958e168b596935bd3564a873e95219995eebb4_L.jpg",
+      "summary": ""
+    },
+    {
       "title": "Ni trodde väl inte att spelarpresentationerna var över?",
       "published_at": "2026-03-13 11:59, Dam",
       "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1330646",
       "image": "https://cdn.sportadmin.se/559/h/200/c646522bd5834c1c86651972f66d10b4fe883051f8c6d360d62e90f9608f7997_L.jpg",
       "summary": "Näst på tur har vi vår starka mittfältare Isabell Midholt! En spelare med en otrolig kämparglöd som alltid vill mer och krigar i varje situation. Hon kommer vara en stor tillgång både offensivt och defensivt på plan. Isabel har en härlig energi och vi är väldigt glada att ha henne i laget! Isabell kommer senast från Westbo United men har sina rötter i Gnosjö IF. Fem snabba med Isabell: Vad fick dig att välja just KIF? - Jag valde kronäng för det verkar som ett härligt gäng och jag har precis flyttat till Borås. Vem i laget vill du inte dela bil med till bortamatch? - Elvira, för hon har dålig syn. Hur skulle du beskriva dig som spelare? - Explosiv, teknisk och bra spelförståelse. Vad är viktigast i din matchrutin? - En nocco Toarpsalliansen eller Svenljunga? - Alla motstånd är nya för mig så vi får väl se efter säsongen! Varmt välkommen Isabell!"
-    },
-    {
-      "title": "Årsmöte Kronängs IF Måndag 9 mars kl 18:00 Klubbstugan",
-      "published_at": "2026-02-14",
-      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1249577",
-      "image": "",
-      "summary": "ÅRSMÖTE Kronängs IF bjuder in till årsmöte Måndag 9 mars kl. 18:00 Klubbstugan Välkomna Kronängs IF"
     }
   ]
 }
