@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-24T11:34:36.082518",
+  "last_updated": "2026-03-24T15:45:51.957522",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
-  "activity_count": 148,
+  "activity_count": 146,
   "activities": [
     {
       "date": "2026-03-01",
@@ -1449,7 +1449,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.2
+        "temp": 6.6
       }
     },
     {
@@ -1466,7 +1466,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.2
+        "temp": 6.6
       }
     },
     {
@@ -1483,7 +1483,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.5
+        "temp": 6.8
       }
     },
     {
@@ -1500,7 +1500,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.5
+        "temp": 6.8
       }
     },
     {
@@ -1517,7 +1517,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 5.6
+        "temp": 6.0
       }
     },
     {
@@ -1534,7 +1534,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 5.6
+        "temp": 6.0
       }
     },
     {
@@ -1551,7 +1551,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 5.6
+        "temp": 6.0
       }
     },
     {
@@ -1568,7 +1568,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.2
+        "temp": 5.3
       }
     },
     {
@@ -1583,9 +1583,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 8.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.6
       }
     },
     {
@@ -1600,9 +1600,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 8.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.6
       }
     },
     {
@@ -1617,9 +1617,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 8.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.6
       }
     },
     {
@@ -1634,9 +1634,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 7.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.6
       }
     },
     {
@@ -1651,9 +1651,9 @@
       "description": "Sista Crossfit passet",
       "location": "Xpuls Poolhouse",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 5.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 5.9
       }
     },
     {
@@ -1665,12 +1665,12 @@
       "team": "P2009-2010",
       "team_id": "224798",
       "type": "Träning",
-      "description": "Träning",
+      "description": "Internmatch",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 4.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.9
       }
     },
     {
@@ -1685,9 +1685,9 @@
       "description": "Mariedals IK hemma",
       "location": "Kransmossen()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 4.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.9
       }
     },
     {
@@ -1704,7 +1704,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.7
+        "temp": 3.2
       }
     },
     {
@@ -1721,7 +1721,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.9
+        "temp": 5.0
       }
     },
     {
@@ -1770,9 +1770,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 6.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 7.1
       }
     },
     {
@@ -1787,9 +1787,9 @@
       "description": "Brämhults IK borta",
       "location": "Brämhults IP()",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 6.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 7.1
       }
     },
     {
@@ -1804,9 +1804,9 @@
       "description": "Match",
       "location": "Skene",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.0
       }
     },
     {
@@ -1821,9 +1821,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.0
       }
     },
     {
@@ -1838,9 +1838,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.0
       }
     },
     {
@@ -1855,9 +1855,9 @@
       "description": "Sjömarkens If P.14 borta",
       "location": "Idrottsgården, Sjömarken()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.4
       }
     },
     {
@@ -1872,8 +1872,8 @@
       "description": "Sandareds IF hemma",
       "location": "Annan()",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "❄️",
+        "desc": "Snö",
         "temp": 7.8
       }
     },
@@ -1889,9 +1889,9 @@
       "description": "Träningsmatch",
       "location": "Dalsjöfors",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 7.5
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 6.7
       }
     },
     {
@@ -1906,9 +1906,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 7.0
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 5.7
       }
     },
     {
@@ -1923,9 +1923,9 @@
       "description": "Sandareds IF borta",
       "location": "Sandevi B()",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 7.0
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 5.7
       }
     },
     {
@@ -1955,32 +1955,6 @@
       "team_id": "324307",
       "type": "Övrigt",
       "description": "Föranmälan Laxacupen 22/7-26/7",
-      "location": "Kronängs Arena",
-      "weather": null
-    },
-    {
-      "date": "2026-03-31",
-      "day": "31",
-      "weekday": "tis",
-      "time": "17:30",
-      "end_time": "18:30",
-      "team": "P2009-2010",
-      "team_id": "224798",
-      "type": "Övrigt",
-      "description": "Möte",
-      "location": "Kronängs Arena",
-      "weather": null
-    },
-    {
-      "date": "2026-03-31",
-      "day": "31",
-      "weekday": "tis",
-      "time": "17:30",
-      "end_time": "18:30",
-      "team": "P2011",
-      "team_id": "260562",
-      "type": "Övrigt",
-      "description": "Möte",
       "location": "Kronängs Arena",
       "weather": null
     },
