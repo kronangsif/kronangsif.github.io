@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T21:54:46.246017",
+  "last_updated": "2026-03-24T23:03:12.147892",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1446,11 +1446,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.4
-      }
+      "weather": null
     },
     {
       "date": "2026-03-24",
@@ -1463,11 +1459,7 @@
       "type": "Träning",
       "description": "Träning utomhus",
       "location": "Kronängs Arena A-plan",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.4
-      }
+      "weather": null
     },
     {
       "date": "2026-03-24",
@@ -1480,11 +1472,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.4
-      }
+      "weather": null
     },
     {
       "date": "2026-03-24",
@@ -1497,11 +1485,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.4
-      }
+      "weather": null
     },
     {
       "date": "2026-03-25",
@@ -1670,7 +1654,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 3.8
+        "temp": 3.9
       }
     },
     {
@@ -1973,7 +1957,11 @@
       "type": "Övrigt",
       "description": "Föranmälan Laxacupen 22/7-26/7",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 4.2
+      }
     },
     {
       "date": "2026-03-31",
@@ -1986,7 +1974,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 4.2
+      }
     },
     {
       "date": "2026-03-31",
@@ -1999,7 +1991,11 @@
       "type": "Träning",
       "description": "Träning utomhus + löpning",
       "location": "Kronängs Arena A-plan",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 4.2
+      }
     },
     {
       "date": "2026-03-31",
@@ -2012,7 +2008,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 4.2
+      }
     },
     {
       "date": "2026-03-31",
@@ -2025,7 +2025,11 @@
       "type": "Övrigt",
       "description": "Föräldramöte P.14",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 3.2
+      }
     },
     {
       "date": "2026-03-31",
@@ -2038,7 +2042,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 3.2
+      }
     },
     {
       "date": "2026-03-31",
@@ -2051,7 +2059,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 3.2
+      }
     }
   ],
   "latest_news": [
