@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-24T08:07:18.743164",
+  "last_updated": "2026-03-24T11:34:36.082518",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
-  "activity_count": 147,
+  "activity_count": 148,
   "activities": [
     {
       "date": "2026-03-01",
@@ -1449,7 +1449,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.0
+        "temp": 6.2
       }
     },
     {
@@ -1466,7 +1466,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.0
+        "temp": 6.2
       }
     },
     {
@@ -1483,7 +1483,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.2
+        "temp": 6.5
       }
     },
     {
@@ -1500,7 +1500,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.2
+        "temp": 6.5
       }
     },
     {
@@ -1515,9 +1515,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 5.6
       }
     },
     {
@@ -1532,9 +1532,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 5.6
       }
     },
     {
@@ -1549,9 +1549,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 5.6
       }
     },
     {
@@ -1568,7 +1568,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.9
+        "temp": 5.2
       }
     },
     {
@@ -1585,7 +1585,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 8.4
+        "temp": 8.3
       }
     },
     {
@@ -1602,7 +1602,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 8.4
+        "temp": 8.3
       }
     },
     {
@@ -1619,7 +1619,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 8.4
+        "temp": 8.3
       }
     },
     {
@@ -1634,9 +1634,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 7.2
       }
     },
     {
@@ -1651,8 +1651,25 @@
       "description": "Sista Crossfit passet",
       "location": "Xpuls Poolhouse",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 5.1
+      }
+    },
+    {
+      "date": "2026-03-27",
+      "day": "27",
+      "weekday": "fre",
+      "time": "18:00",
+      "end_time": "20:00",
+      "team": "P2009-2010",
+      "team_id": "224798",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena A-plan",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 4.8
       }
     },
