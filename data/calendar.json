@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T08:05:15.418435",
+  "last_updated": "2026-03-25T11:28:45.330412",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1488,7 +1488,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 5.5
+        "temp": 6.2
       }
     },
     {
@@ -1505,7 +1505,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 5.5
+        "temp": 6.2
       }
     },
     {
@@ -1522,7 +1522,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 5.5
+        "temp": 6.2
       }
     },
     {
@@ -1539,7 +1539,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.0
+        "temp": 5.4
       }
     },
     {
@@ -1554,9 +1554,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.7
       }
     },
     {
@@ -1571,9 +1571,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.7
       }
     },
     {
@@ -1588,9 +1588,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.7
       }
     },
     {
@@ -1605,9 +1605,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 6.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 6.7
       }
     },
     {
@@ -1622,9 +1622,9 @@
       "description": "Sista Crossfit passet",
       "location": "Xpuls Poolhouse",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 4.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 4.7
       }
     },
     {
@@ -1639,9 +1639,9 @@
       "description": "Landskamp + mat",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 2.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 3.2
       }
     },
     {
@@ -1656,9 +1656,9 @@
       "description": "Internmatch",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 4.2
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 6.1
       }
     },
     {
@@ -1673,9 +1673,9 @@
       "description": "Mariedals IK hemma",
       "location": "Kransmossen()",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 4.2
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 6.1
       }
     },
     {
