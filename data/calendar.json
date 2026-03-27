@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T00:01:42.467309",
+  "last_updated": "2026-03-27T06:02:16.110490",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1616,9 +1616,9 @@
       "description": "Internmatch",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.8
       }
     },
     {
@@ -1633,9 +1633,9 @@
       "description": "Mariedals IK hemma",
       "location": "Kransmossen()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.8
       }
     },
     {
@@ -1652,7 +1652,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.7
+        "temp": 3.3
       }
     },
     {
@@ -1667,9 +1667,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 2.4
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 3.9
       }
     },
     {
@@ -1686,7 +1686,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.2
+        "temp": 4.4
       }
     },
     {
@@ -1703,7 +1703,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.2
+        "temp": 4.4
       }
     },
     {
@@ -1720,7 +1720,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.7
+        "temp": 5.0
       }
     },
     {
@@ -1737,7 +1737,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.7
+        "temp": 5.0
       }
     },
     {
@@ -1754,7 +1754,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.2
+        "temp": 5.7
       }
     },
     {
@@ -1771,7 +1771,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.2
+        "temp": 5.7
       }
     },
     {
@@ -1788,7 +1788,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.8
+        "temp": 6.2
       }
     },
     {
@@ -1803,9 +1803,9 @@
       "description": "Sandareds IF hemma",
       "location": "Annan()",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.8
       }
     },
     {
