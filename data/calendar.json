@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T06:02:16.110490",
+  "last_updated": "2026-03-27T10:06:19.410306",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1616,9 +1616,9 @@
       "description": "Internmatch",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 6.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.3
       }
     },
     {
@@ -1633,9 +1633,9 @@
       "description": "Mariedals IK hemma",
       "location": "Kransmossen()",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 6.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.3
       }
     },
     {
@@ -1652,7 +1652,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.3
+        "temp": 2.8
       }
     },
     {
@@ -1667,9 +1667,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 3.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 3.7
       }
     },
     {
@@ -1684,8 +1684,8 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 4.4
       }
     },
@@ -1701,8 +1701,8 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 4.4
       }
     },
@@ -1718,9 +1718,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 5.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.8
       }
     },
     {
@@ -1735,9 +1735,9 @@
       "description": "Brämhults IK borta",
       "location": "Brämhults IP()",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 5.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.8
       }
     },
     {
@@ -1754,7 +1754,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.7
+        "temp": 5.5
       }
     },
     {
@@ -1771,7 +1771,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.7
+        "temp": 5.5
       }
     },
     {
@@ -1788,7 +1788,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.2
+        "temp": 6.4
       }
     },
     {
@@ -1803,9 +1803,9 @@
       "description": "Sandareds IF hemma",
       "location": "Annan()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.7
       }
     },
     {
@@ -1820,9 +1820,9 @@
       "description": "Träningsmatch",
       "location": "Dalsjöfors",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.6
       }
     },
     {
@@ -1837,9 +1837,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 6.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.4
       }
     },
     {
@@ -1854,9 +1854,9 @@
       "description": "Sandareds IF borta",
       "location": "Sandevi B()",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 6.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.4
       }
     },
     {
@@ -1871,9 +1871,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 2.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 3.8
       }
     },
     {
@@ -1890,7 +1890,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.4
+        "temp": 7.1
       }
     },
     {
@@ -1907,7 +1907,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.4
+        "temp": 7.1
       }
     },
     {
@@ -1924,7 +1924,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.4
+        "temp": 7.1
       }
     },
     {
@@ -1941,7 +1941,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.4
+        "temp": 7.1
       }
     },
     {
@@ -1958,7 +1958,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.4
+        "temp": 7.1
       }
     },
     {
@@ -1975,7 +1975,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.4
+        "temp": 7.1
       }
     },
     {
@@ -1992,7 +1992,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 6.3
+        "temp": 5.4
       }
     },
     {
@@ -2009,7 +2009,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 6.3
+        "temp": 5.4
       }
     },
     {
@@ -2026,24 +2026,24 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 6.3
+        "temp": 5.4
       }
     }
   ],
   "latest_news": [
+    {
+      "title": "Ytterligare ett nyförvärv.",
+      "published_at": "2026-03-27 09:39, Dam",
+      "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1333570",
+      "image": "https://cdn.sportadmin.se/559/h/200/4cc27e8e988d280df1ad5eec76a9e6a3e6946cb78d869b2969f588640cf57751_L.jpg",
+      "summary": "Sist ut av alla våra nyförvärv har redan skrivit in sig i målprotokollet under försäsongen och det är ingen mindre än Alessia Bryngelsson Jordan-Killoran. Här har vi en bollskicklig spelare som vet exakt hur hon trollar bort motståndarna. Med hennes teknik och känsla för att komma till avslut kommer hon att sätta motståndarna i en riktigt jobbig sits. Vi har en stark känsla att vi kommer se henne i många målprotokoll framöver den här säsongen! Tidigare kommer Alessia från Ulricehamns IFK men har sina rötter i Sjömarkens IF. Fem snabba med Alessia: Vad fick dig att välja just Kronängs IF? -Hade hört mycket bra om Kronäng. Att ni har det väldigt kul tillsammans men även spelar väldigt bra fotboll! Vem i laget vill du inte möta 1vs1? -Tara tror jag, har sett henne glidtacklas. Vem i laget vill du inte dela bil med till bortamatch? -Tror jag får testa på att åka med några fler så kan jag svara på den frågan sen. Men det värsta jag vet är när någon sätter på dålig musik (dem flesta hade nog sagt att jag har dålig musiksmak dock) Vad är det viktigaste i din matchrutin? -Att äta en bra middag dagen innan match, helst pasta med köttfärssås! Vilken låt sätter du på för att bli riktigt peppad? -Asteroid med Lovet, den är go att sätta på högsta volym i bilen påväg till match. Varmt välkommen Alessia"
+    },
     {
       "title": "Nu  snart startar vi igen på Götavallen",
       "published_at": "2026-03-23 16:32",
       "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1332662",
       "image": "https://cdn.sportadmin.se/559/h/200/88387080d6bcd8cdbc6abf5539958e168b596935bd3564a873e95219995eebb4_L.jpg",
       "summary": ""
-    },
-    {
-      "title": "Ni trodde väl inte att spelarpresentationerna var över?",
-      "published_at": "2026-03-13 11:59, Dam",
-      "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1330646",
-      "image": "https://cdn.sportadmin.se/559/h/200/c646522bd5834c1c86651972f66d10b4fe883051f8c6d360d62e90f9608f7997_L.jpg",
-      "summary": "Näst på tur har vi vår starka mittfältare Isabell Midholt! En spelare med en otrolig kämparglöd som alltid vill mer och krigar i varje situation. Hon kommer vara en stor tillgång både offensivt och defensivt på plan. Isabel har en härlig energi och vi är väldigt glada att ha henne i laget! Isabell kommer senast från Westbo United men har sina rötter i Gnosjö IF. Fem snabba med Isabell: Vad fick dig att välja just KIF? - Jag valde kronäng för det verkar som ett härligt gäng och jag har precis flyttat till Borås. Vem i laget vill du inte dela bil med till bortamatch? - Elvira, för hon har dålig syn. Hur skulle du beskriva dig som spelare? - Explosiv, teknisk och bra spelförståelse. Vad är viktigast i din matchrutin? - En nocco Toarpsalliansen eller Svenljunga? - Alla motstånd är nya för mig så vi får väl se efter säsongen! Varmt välkommen Isabell!"
     }
   ]
 }
