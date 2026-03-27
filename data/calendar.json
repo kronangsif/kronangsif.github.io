@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T10:06:19.410306",
+  "last_updated": "2026-03-27T14:32:20.126287",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1618,7 +1618,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.3
+        "temp": 6.0
       }
     },
     {
@@ -1635,7 +1635,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.3
+        "temp": 6.0
       }
     },
     {
@@ -1686,7 +1686,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.4
+        "temp": 4.3
       }
     },
     {
@@ -1703,7 +1703,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.4
+        "temp": 4.3
       }
     },
     {
@@ -1718,9 +1718,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.9
       }
     },
     {
@@ -1735,9 +1735,9 @@
       "description": "Brämhults IK borta",
       "location": "Brämhults IP()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.9
       }
     },
     {
@@ -1754,7 +1754,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.5
+        "temp": 5.3
       }
     },
     {
@@ -1771,7 +1771,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.5
+        "temp": 5.3
       }
     },
     {
@@ -1788,7 +1788,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.4
+        "temp": 5.3
       }
     },
     {
@@ -1805,7 +1805,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.7
+        "temp": 5.6
       }
     },
     {
@@ -1822,7 +1822,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.6
+        "temp": 5.7
       }
     },
     {
@@ -1839,7 +1839,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.4
+        "temp": 5.6
       }
     },
     {
@@ -1856,7 +1856,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.4
+        "temp": 5.6
       }
     },
     {
@@ -1873,7 +1873,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 3.8
+        "temp": 4.3
       }
     },
     {
@@ -1890,7 +1890,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.1
+        "temp": 6.5
       }
     },
     {
@@ -1907,7 +1907,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.1
+        "temp": 6.5
       }
     },
     {
@@ -1924,7 +1924,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.1
+        "temp": 6.5
       }
     },
     {
@@ -1941,7 +1941,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.1
+        "temp": 6.5
       }
     },
     {
@@ -1958,7 +1958,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.1
+        "temp": 6.5
       }
     },
     {
@@ -1975,7 +1975,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.1
+        "temp": 6.5
       }
     },
     {
@@ -1990,9 +1990,9 @@
       "description": "Föräldramöte P.14",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 5.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 5.1
       }
     },
     {
@@ -2007,9 +2007,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 5.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 5.1
       }
     },
     {
@@ -2024,9 +2024,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 5.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 5.1
       }
     }
   ],
@@ -2036,7 +2036,7 @@
       "published_at": "2026-03-27 09:39, Dam",
       "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1333570",
       "image": "https://cdn.sportadmin.se/559/h/200/4cc27e8e988d280df1ad5eec76a9e6a3e6946cb78d869b2969f588640cf57751_L.jpg",
-      "summary": "Sist ut av alla våra nyförvärv har redan skrivit in sig i målprotokollet under försäsongen och det är ingen mindre än Alessia Bryngelsson Jordan-Killoran. Här har vi en bollskicklig spelare som vet exakt hur hon trollar bort motståndarna. Med hennes teknik och känsla för att komma till avslut kommer hon att sätta motståndarna i en riktigt jobbig sits. Vi har en stark känsla att vi kommer se henne i många målprotokoll framöver den här säsongen! Tidigare kommer Alessia från Ulricehamns IFK men har sina rötter i Sjömarkens IF. Fem snabba med Alessia: Vad fick dig att välja just Kronängs IF? -Hade hört mycket bra om Kronäng. Att ni har det väldigt kul tillsammans men även spelar väldigt bra fotboll! Vem i laget vill du inte möta 1vs1? -Tara tror jag, har sett henne glidtacklas. Vem i laget vill du inte dela bil med till bortamatch? -Tror jag får testa på att åka med några fler så kan jag svara på den frågan sen. Men det värsta jag vet är när någon sätter på dålig musik (dem flesta hade nog sagt att jag har dålig musiksmak dock) Vad är det viktigaste i din matchrutin? -Att äta en bra middag dagen innan match, helst pasta med köttfärssås! Vilken låt sätter du på för att bli riktigt peppad? -Asteroid med Lovet, den är go att sätta på högsta volym i bilen påväg till match. Varmt välkommen Alessia"
+      "summary": "Sist ut av alla våra nyförvärv har redan skrivit in sig i målprotokollet under försäsongen och det är ingen mindre än Alessia Bryngelsson Jordan-Killoran. Här har vi en bollskicklig spelare som vet exakt hur hon trollar bort motståndarna. Med hennes teknik och känsla för att komma till avslut kommer hon att sätta motståndarna i en riktigt jobbig sits. Vi har en stark känsla att vi kommer se henne i många målprotokoll framöver den här säsongen! Tidigare kommer Alessia från Ulricehamns IFK men har sina rötter i Sjömarkens IF. Fem snabba med Alessia: Vad fick dig att välja just Kronängs IF? -Hade hört mycket bra om Kronäng. Att ni har det väldigt kul tillsammans men även spelar väldigt bra fotboll! Vem i laget vill du inte möta 1vs1? -Tara tror jag, har sett henne glidtacklas. Vem i laget vill du inte dela bil med till bortamatch? -Tror jag får testa på att åka med några fler så kan jag svara på den frågan sen. Men det värsta jag vet är när någon sätter på dålig musik (dem flesta hade nog sagt att jag har dålig musiksmak dock) Vad är det viktigaste i din matchrutin? -Att äta en bra middag dagen innan match, helst pasta med köttfärssås! Vilken låt sätter du på för att bli riktigt peppad? -Asteroid med Lovet, den är go att sätta på högsta volym i bilen påväg till match."
     },
     {
       "title": "Nu  snart startar vi igen på Götavallen",
