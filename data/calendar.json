@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T21:51:57.190129",
+  "last_updated": "2026-03-27T23:05:34.329981",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1615,11 +1615,7 @@
       "type": "Träning",
       "description": "Internmatch",
       "location": "Kronängs Arena A-plan",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 6.9
-      }
+      "weather": null
     },
     {
       "date": "2026-03-27",
@@ -1632,11 +1628,7 @@
       "type": "Match",
       "description": "Mariedals IK hemma",
       "location": "Kransmossen()",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 6.9
-      }
+      "weather": null
     },
     {
       "date": "2026-03-28",
@@ -1652,7 +1644,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 2.6
+        "temp": 2.5
       }
     },
     {
@@ -1669,7 +1661,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.7
+        "temp": 3.6
       }
     },
     {
@@ -1754,7 +1746,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.6
+        "temp": 6.7
       }
     },
     {
@@ -1771,7 +1763,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.6
+        "temp": 6.7
       }
     },
     {
