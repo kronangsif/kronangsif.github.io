@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T23:05:34.329981",
+  "last_updated": "2026-03-28T05:14:11.472979",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1644,7 +1644,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 2.5
+        "temp": 2.3
       }
     },
     {
@@ -1661,7 +1661,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.6
+        "temp": 3.7
       }
     },
     {
@@ -1676,8 +1676,8 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 4.9
       }
     },
@@ -1693,8 +1693,8 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 4.9
       }
     },
@@ -1710,9 +1710,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.2
       }
     },
     {
@@ -1727,9 +1727,9 @@
       "description": "Brämhults IK borta",
       "location": "Brämhults IP()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.2
       }
     },
     {
@@ -1746,7 +1746,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.7
+        "temp": 7.0
       }
     },
     {
@@ -1763,7 +1763,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.7
+        "temp": 7.0
       }
     },
     {
@@ -1780,7 +1780,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.1
+        "temp": 6.8
       }
     },
     {
@@ -1797,7 +1797,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.4
+        "temp": 6.7
       }
     },
     {
@@ -1814,7 +1814,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.2
+        "temp": 6.6
       }
     },
     {
@@ -1831,7 +1831,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.6
+        "temp": 6.3
       }
     },
     {
@@ -1848,7 +1848,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.6
+        "temp": 6.3
       }
     },
     {
@@ -1882,7 +1882,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.8
+        "temp": 8.1
       }
     },
     {
@@ -1899,7 +1899,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.8
+        "temp": 8.1
       }
     },
     {
@@ -1916,7 +1916,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.8
+        "temp": 8.1
       }
     },
     {
@@ -1933,7 +1933,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.8
+        "temp": 8.1
       }
     },
     {
@@ -1950,7 +1950,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.8
+        "temp": 8.1
       }
     },
     {
@@ -1967,7 +1967,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.8
+        "temp": 8.1
       }
     },
     {
@@ -1984,7 +1984,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.7
+        "temp": 5.9
       }
     },
     {
@@ -2001,7 +2001,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.7
+        "temp": 5.9
       }
     },
     {
@@ -2018,7 +2018,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.7
+        "temp": 5.9
       }
     }
   ],
