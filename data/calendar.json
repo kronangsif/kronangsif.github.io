@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T09:54:52.185568",
+  "last_updated": "2026-03-28T11:03:04.632424",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1661,7 +1661,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.1
+        "temp": 4.0
       }
     },
     {
@@ -1712,7 +1712,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 6.4
+        "temp": 6.7
       }
     },
     {
@@ -1729,7 +1729,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 6.4
+        "temp": 6.7
       }
     },
     {
@@ -1746,7 +1746,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.3
+        "temp": 7.8
       }
     },
     {
@@ -1763,7 +1763,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.3
+        "temp": 7.8
       }
     },
     {
@@ -1780,7 +1780,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.4
+        "temp": 8.0
       }
     },
     {
@@ -1797,7 +1797,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.0
+        "temp": 7.5
       }
     },
     {
@@ -1831,7 +1831,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.2
+        "temp": 6.9
       }
     },
     {
@@ -1848,7 +1848,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.2
+        "temp": 6.9
       }
     },
     {
@@ -1865,7 +1865,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 5.4
+        "temp": 5.5
       }
     },
     {
