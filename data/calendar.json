@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T21:00:40.362739",
+  "last_updated": "2026-03-28T23:00:27.689127",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1641,11 +1641,7 @@
       "type": "Övrigt",
       "description": "Möte",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 2.2
-      }
+      "weather": null
     },
     {
       "date": "2026-03-29",
@@ -1661,7 +1657,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.7
+        "temp": 3.8
       }
     },
     {
@@ -1678,7 +1674,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.0
+        "temp": 5.2
       }
     },
     {
@@ -1695,7 +1691,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.0
+        "temp": 5.2
       }
     },
     {
@@ -1712,7 +1708,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.7
+        "temp": 6.8
       }
     },
     {
@@ -1729,7 +1725,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.7
+        "temp": 6.8
       }
     },
     {
@@ -1746,7 +1742,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.3
+        "temp": 8.1
       }
     },
     {
@@ -1763,7 +1759,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.3
+        "temp": 8.1
       }
     },
     {
@@ -1780,7 +1776,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.7
+        "temp": 8.3
       }
     },
     {
@@ -1797,7 +1793,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.5
+        "temp": 8.0
       }
     },
     {
@@ -1814,7 +1810,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.6
+        "temp": 6.9
       }
     },
     {
@@ -1831,7 +1827,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.2
+        "temp": 6.5
       }
     },
     {
@@ -1848,7 +1844,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.2
+        "temp": 6.5
       }
     },
     {
@@ -1863,8 +1859,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 6.0
       }
     },
