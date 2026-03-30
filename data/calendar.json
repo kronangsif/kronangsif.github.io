@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-30T06:17:15.455831",
+  "last_updated": "2026-03-30T10:48:32.968096",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
-  "activity_count": 148,
+  "activity_count": 149,
   "activities": [
     {
       "date": "2026-03-01",
@@ -1803,6 +1803,23 @@
       "date": "2026-03-30",
       "day": "30",
       "weekday": "mån",
+      "time": "17:30",
+      "end_time": "18:45",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Utomhusträning",
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.5
+      }
+    },
+    {
+      "date": "2026-03-30",
+      "day": "30",
+      "weekday": "mån",
       "time": "18:30",
       "end_time": "20:00",
       "team": "Herr",
@@ -1811,9 +1828,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 6.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 7.1
       }
     },
     {
@@ -1830,7 +1847,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.6
+        "temp": 10.5
       }
     },
     {
@@ -1847,7 +1864,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.6
+        "temp": 10.5
       }
     },
     {
@@ -1864,7 +1881,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.6
+        "temp": 10.5
       }
     },
     {
@@ -1881,7 +1898,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.6
+        "temp": 10.5
       }
     },
     {
@@ -1898,7 +1915,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.6
+        "temp": 10.5
       }
     },
     {
@@ -1915,7 +1932,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.6
+        "temp": 10.5
       }
     },
     {
@@ -1932,7 +1949,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.9
+        "temp": 10.0
       }
     },
     {
@@ -1949,7 +1966,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.9
+        "temp": 10.0
       }
     },
     {
@@ -1966,7 +1983,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.9
+        "temp": 10.0
       }
     }
   ],
