@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T21:09:53.939437",
+  "last_updated": "2026-03-30T23:52:12.715744",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1810,11 +1810,7 @@
       "type": "Träning",
       "description": "Utomhusträning",
       "location": "Kronängs Arena B-plan",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.3
-      }
+      "weather": null
     },
     {
       "date": "2026-03-30",
@@ -1827,11 +1823,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 7.9
-      }
+      "weather": null
     },
     {
       "date": "2026-03-31",
@@ -1847,7 +1839,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.5
+        "temp": 10.5
       }
     },
     {
@@ -1864,7 +1856,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.5
+        "temp": 10.5
       }
     },
     {
@@ -1881,7 +1873,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.5
+        "temp": 10.5
       }
     },
     {
@@ -1898,7 +1890,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.5
+        "temp": 10.5
       }
     },
     {
@@ -1915,7 +1907,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.5
+        "temp": 10.5
       }
     },
     {
@@ -1932,7 +1924,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.5
+        "temp": 10.5
       }
     },
     {
@@ -1949,7 +1941,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.9
+        "temp": 9.8
       }
     },
     {
@@ -1966,7 +1958,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.9
+        "temp": 9.8
       }
     },
     {
@@ -1983,7 +1975,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.9
+        "temp": 9.8
       }
     }
   ],
