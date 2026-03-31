@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T23:52:12.715744",
+  "last_updated": "2026-03-31T05:55:59.482534",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 3,
   "year": 2026,
@@ -1839,7 +1839,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.5
+        "temp": 10.1
       }
     },
     {
@@ -1856,7 +1856,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.5
+        "temp": 10.1
       }
     },
     {
@@ -1873,7 +1873,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.5
+        "temp": 10.1
       }
     },
     {
@@ -1890,7 +1890,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.5
+        "temp": 10.1
       }
     },
     {
@@ -1907,7 +1907,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.5
+        "temp": 10.1
       }
     },
     {
@@ -1924,7 +1924,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.5
+        "temp": 10.1
       }
     },
     {
@@ -1941,7 +1941,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.8
+        "temp": 9.5
       }
     },
     {
@@ -1958,7 +1958,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.8
+        "temp": 9.5
       }
     },
     {
@@ -1975,7 +1975,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.8
+        "temp": 9.5
       }
     }
   ],
