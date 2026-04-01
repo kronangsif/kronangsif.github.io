@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-01T06:12:35.283846",
+  "last_updated": "2026-04-01T10:36:21.142189",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -19,7 +19,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.0
+        "temp": 7.7
       }
     },
     {
@@ -36,7 +36,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.0
+        "temp": 7.7
       }
     },
     {
@@ -53,7 +53,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.0
+        "temp": 7.7
       }
     },
     {
@@ -70,7 +70,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.1
+        "temp": 7.2
       }
     },
     {
@@ -87,7 +87,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.1
+        "temp": 7.2
       }
     },
     {
@@ -104,7 +104,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.1
+        "temp": 7.2
       }
     },
     {
@@ -170,8 +170,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 7.4
       }
     },
@@ -187,8 +187,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 7.4
       }
     },
@@ -204,8 +204,8 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "❄️",
-        "desc": "Snö",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 2.0
       }
     },
@@ -221,9 +221,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "❄️",
-        "desc": "Snö",
-        "temp": 2.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 2.5
       }
     },
     {
@@ -238,9 +238,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "❄️",
-        "desc": "Snö",
-        "temp": 3.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 3.2
       }
     },
     {
@@ -256,8 +256,8 @@
       "location": "Kristinebergskolan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 4.4
+        "desc": "Dis",
+        "temp": 3.9
       }
     },
     {
@@ -274,7 +274,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.5
+        "temp": 9.4
       }
     },
     {
@@ -289,9 +289,9 @@
       "description": "IFK Fjärås (Utv.) borta",
       "location": "Ögärdets IP B(Träningsmatcher Div. 3 damer)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 8.7
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 9.6
       }
     },
     {
@@ -306,9 +306,9 @@
       "description": "Fristad GoIF borta",
       "location": "Hedens IP, Konstgräs()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 8.7
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 9.6
       }
     },
     {
@@ -325,7 +325,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.2
+        "temp": 8.4
       }
     },
     {
@@ -342,7 +342,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.2
+        "temp": 8.4
       }
     },
     {
@@ -359,7 +359,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.9
+        "temp": 7.1
       }
     },
     {
@@ -376,7 +376,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.9
+        "temp": 7.1
       }
     },
     {
@@ -393,7 +393,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.7
+        "temp": 5.8
       }
     },
     {
@@ -410,7 +410,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.7
+        "temp": 5.8
       }
     },
     {
