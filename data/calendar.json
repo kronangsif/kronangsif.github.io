@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-01T20:06:23.215041",
+  "last_updated": "2026-04-01T23:00:22.296353",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -16,11 +16,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.0
-      }
+      "weather": null
     },
     {
       "date": "2026-04-01",
@@ -33,11 +29,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.0
-      }
+      "weather": null
     },
     {
       "date": "2026-04-01",
@@ -50,11 +42,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.0
-      }
+      "weather": null
     },
     {
       "date": "2026-04-01",
@@ -67,11 +55,7 @@
       "type": "Match",
       "description": "Hässle BK hemma",
       "location": "Kronängs Arena A-plan()",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.6
-      }
+      "weather": null
     },
     {
       "date": "2026-04-01",
@@ -84,11 +68,7 @@
       "type": "Match",
       "description": "Örslösa-Söne IK  borta",
       "location": "Ågårdsvallen B(Damer DM - Cup)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.6
-      }
+      "weather": null
     },
     {
       "date": "2026-04-01",
@@ -101,11 +81,7 @@
       "type": "Match",
       "description": "Hässleholmen BK hemma",
       "location": "Kronängs Arena A-plan()",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.6
-      }
+      "weather": null
     },
     {
       "date": "2026-04-02",
@@ -119,9 +95,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.1
       }
     },
     {
@@ -136,9 +112,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.1
       }
     },
     {
@@ -153,9 +129,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.1
       }
     },
     {
@@ -170,9 +146,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.7
       }
     },
     {
@@ -187,9 +163,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.7
       }
     },
     {
@@ -407,7 +383,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.5
+      }
     },
     {
       "date": "2026-04-08",
@@ -420,7 +400,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.5
+      }
     },
     {
       "date": "2026-04-08",
@@ -433,7 +417,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.5
+      }
     },
     {
       "date": "2026-04-09",
