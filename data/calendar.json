@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-01T14:55:03.209902",
+  "last_updated": "2026-04-01T17:38:49.411265",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -19,7 +19,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.9
+        "temp": 10.0
       }
     },
     {
@@ -36,7 +36,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.9
+        "temp": 10.0
       }
     },
     {
@@ -53,7 +53,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.9
+        "temp": 10.0
       }
     },
     {
@@ -70,7 +70,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 9.3
       }
     },
     {
@@ -87,7 +87,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 9.3
       }
     },
     {
@@ -104,7 +104,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 9.3
       }
     },
     {
@@ -121,7 +121,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.3
+        "temp": 8.1
       }
     },
     {
@@ -138,7 +138,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.3
+        "temp": 8.1
       }
     },
     {
@@ -155,7 +155,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.3
+        "temp": 8.1
       }
     },
     {
@@ -172,7 +172,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.1
+        "temp": 7.6
       }
     },
     {
@@ -189,7 +189,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.1
+        "temp": 7.6
       }
     },
     {
