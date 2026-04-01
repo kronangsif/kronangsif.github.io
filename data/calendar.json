@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T23:50:03.626757",
+  "last_updated": "2026-04-01T06:12:35.283846",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -17,9 +17,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 9.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.0
       }
     },
     {
@@ -34,9 +34,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 9.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.0
       }
     },
     {
@@ -51,9 +51,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 9.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.0
       }
     },
     {
@@ -70,7 +70,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.1
       }
     },
     {
@@ -87,7 +87,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.1
       }
     },
     {
@@ -104,7 +104,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.1
       }
     },
     {
@@ -121,7 +121,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.3
+        "temp": 7.7
       }
     },
     {
@@ -138,7 +138,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.3
+        "temp": 7.7
       }
     },
     {
@@ -155,7 +155,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.3
+        "temp": 7.7
       }
     },
     {
@@ -170,9 +170,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.4
       }
     },
     {
@@ -187,9 +187,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.4
       }
     },
     {
@@ -204,9 +204,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 2.2
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 2.0
       }
     },
     {
@@ -221,9 +221,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 3.1
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 2.7
       }
     },
     {
@@ -238,9 +238,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 4.0
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 3.5
       }
     },
     {
@@ -256,8 +256,8 @@
       "location": "Kristinebergskolan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 4.9
+        "desc": "Regn",
+        "temp": 4.4
       }
     },
     {
@@ -272,9 +272,9 @@
       "description": "Södra Ving hemma",
       "location": "Annan()",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.5
       }
     },
     {
@@ -289,9 +289,9 @@
       "description": "IFK Fjärås (Utv.) borta",
       "location": "Ögärdets IP B(Träningsmatcher Div. 3 damer)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.3
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.7
       }
     },
     {
@@ -306,9 +306,9 @@
       "description": "Fristad GoIF borta",
       "location": "Hedens IP, Konstgräs()",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.3
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.7
       }
     },
     {
