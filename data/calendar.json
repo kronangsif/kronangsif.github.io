@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-02T21:54:33.424371",
+  "last_updated": "2026-04-02T23:03:52.199305",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -94,11 +94,7 @@
       "type": "Träning",
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.0
-      }
+      "weather": null
     },
     {
       "date": "2026-04-02",
@@ -111,11 +107,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.0
-      }
+      "weather": null
     },
     {
       "date": "2026-04-02",
@@ -128,11 +120,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.0
-      }
+      "weather": null
     },
     {
       "date": "2026-04-02",
@@ -145,11 +133,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.2
-      }
+      "weather": null
     },
     {
       "date": "2026-04-02",
@@ -162,11 +146,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.2
-      }
+      "weather": null
     },
     {
       "date": "2026-04-05",
@@ -180,9 +160,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "❄️",
-        "desc": "Snö",
-        "temp": 3.5
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 3.7
       }
     },
     {
@@ -451,7 +431,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 6.8
+      }
     },
     {
       "date": "2026-04-09",
@@ -464,7 +448,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 5.8
+      }
     },
     {
       "date": "2026-04-09",
@@ -477,7 +465,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 5.8
+      }
     },
     {
       "date": "2026-04-09",
@@ -490,7 +482,11 @@
       "type": "Träning",
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 4.6
+      }
     },
     {
       "date": "2026-04-10",
