@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-02T16:13:08.329803",
+  "last_updated": "2026-04-02T19:38:13.589259",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -148,7 +148,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.9
+        "temp": 7.2
       }
     },
     {
@@ -165,7 +165,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.9
+        "temp": 7.2
       }
     },
     {
@@ -182,7 +182,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.2
+        "temp": 3.5
       }
     },
     {
@@ -199,7 +199,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.2
+        "temp": 4.8
       }
     },
     {
@@ -215,8 +215,8 @@
       "location": "Kristinebergskolan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 6.1
+        "desc": "Dis",
+        "temp": 5.7
       }
     },
     {
@@ -233,7 +233,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.7
+        "temp": 7.8
       }
     },
     {
@@ -248,9 +248,9 @@
       "description": "Södra Ving hemma",
       "location": "Annan()",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.0
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.3
       }
     },
     {
@@ -265,9 +265,9 @@
       "description": "IFK Fjärås (Utv.) borta",
       "location": "Ögärdets IP B(Träningsmatcher Div. 3 damer)",
       "weather": {
-        "icon": "❄️",
-        "desc": "Snö",
-        "temp": 7.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 9.0
       }
     },
     {
@@ -282,9 +282,9 @@
       "description": "Fristad GoIF borta",
       "location": "Hedens IP, Konstgräs()",
       "weather": {
-        "icon": "❄️",
-        "desc": "Snö",
-        "temp": 7.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 9.0
       }
     },
     {
@@ -318,7 +318,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.4
+        "temp": 8.3
       }
     },
     {
@@ -335,7 +335,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.4
+        "temp": 8.3
       }
     },
     {
@@ -352,7 +352,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.4
+        "temp": 8.3
       }
     },
     {
@@ -369,7 +369,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.4
+        "temp": 6.3
       }
     },
     {
@@ -386,7 +386,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.4
+        "temp": 6.3
       }
     },
     {
@@ -403,7 +403,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 7.2
+        "temp": 6.2
       }
     },
     {
@@ -420,7 +420,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 7.2
+        "temp": 6.2
       }
     },
     {
@@ -437,7 +437,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 7.2
+        "temp": 6.2
       }
     },
     {
