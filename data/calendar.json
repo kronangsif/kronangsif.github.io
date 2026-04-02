@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-01T23:00:22.296353",
+  "last_updated": "2026-04-02T05:50:29.026287",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -97,7 +97,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.1
+        "temp": 7.7
       }
     },
     {
@@ -114,7 +114,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.1
+        "temp": 7.7
       }
     },
     {
@@ -131,7 +131,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.1
+        "temp": 7.7
       }
     },
     {
@@ -148,7 +148,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.7
+        "temp": 7.5
       }
     },
     {
@@ -165,7 +165,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.7
+        "temp": 7.5
       }
     },
     {
@@ -181,8 +181,8 @@
       "location": "Kristinebergskolan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 3.4
+        "desc": "Dis",
+        "temp": 4.6
       }
     },
     {
@@ -199,7 +199,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 4.6
+        "temp": 5.7
       }
     },
     {
@@ -215,8 +215,8 @@
       "location": "Kristinebergskolan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 5.8
+        "desc": "Dis",
+        "temp": 6.2
       }
     },
     {
@@ -233,7 +233,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.4
+        "temp": 7.7
       }
     },
     {
@@ -248,9 +248,9 @@
       "description": "Södra Ving hemma",
       "location": "Annan()",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 7.4
       }
     },
     {
@@ -265,9 +265,9 @@
       "description": "IFK Fjärås (Utv.) borta",
       "location": "Ögärdets IP B(Träningsmatcher Div. 3 damer)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 9.3
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.4
       }
     },
     {
@@ -282,9 +282,9 @@
       "description": "Fristad GoIF borta",
       "location": "Hedens IP, Konstgräs()",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 9.3
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.4
       }
     },
     {
@@ -299,9 +299,9 @@
       "description": "Frivillig Träning (Påsklov)",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 8.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 9.9
       }
     },
     {
@@ -318,7 +318,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.3
+        "temp": 8.4
       }
     },
     {
@@ -335,7 +335,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.3
+        "temp": 8.4
       }
     },
     {
@@ -352,7 +352,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.1
+        "temp": 6.4
       }
     },
     {
@@ -369,7 +369,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.1
+        "temp": 6.4
       }
     },
     {
@@ -1074,19 +1074,6 @@
       "weather": null
     },
     {
-      "date": "2026-04-22",
-      "day": "22",
-      "weekday": "ons",
-      "time": "19:30",
-      "end_time": "",
-      "team": "Herr",
-      "team_id": "38937",
-      "type": "Match",
-      "description": "Fritsla IF hemma",
-      "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
-      "weather": null
-    },
-    {
       "date": "2026-04-23",
       "day": "23",
       "weekday": "tor",
@@ -1227,6 +1214,19 @@
       "type": "Match",
       "description": "IF Elfsborg Svart hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Dalsjöfors)",
+      "weather": null
+    },
+    {
+      "date": "2026-04-24",
+      "day": "24",
+      "weekday": "fre",
+      "time": "19:15",
+      "end_time": "",
+      "team": "Herr",
+      "team_id": "38937",
+      "type": "Match",
+      "description": "Fritsla IF hemma",
+      "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
       "weather": null
     },
     {
