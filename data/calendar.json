@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-02T12:04:22.750374",
+  "last_updated": "2026-04-02T16:13:08.329803",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -97,7 +97,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.5
+        "temp": 7.0
       }
     },
     {
@@ -114,7 +114,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.5
+        "temp": 7.0
       }
     },
     {
@@ -131,7 +131,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.5
+        "temp": 7.0
       }
     },
     {
@@ -148,7 +148,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.1
+        "temp": 6.9
       }
     },
     {
@@ -165,7 +165,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.1
+        "temp": 6.9
       }
     },
     {
@@ -180,9 +180,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "❄️",
-        "desc": "Snö",
-        "temp": 4.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.2
       }
     },
     {
@@ -199,7 +199,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.4
+        "temp": 5.2
       }
     },
     {
@@ -215,8 +215,8 @@
       "location": "Kristinebergskolan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.3
+        "desc": "Regn",
+        "temp": 6.1
       }
     },
     {
@@ -232,8 +232,8 @@
       "location": "Kristinebergskolan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 6.4
+        "desc": "Dis",
+        "temp": 6.7
       }
     },
     {
@@ -250,7 +250,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.9
+        "temp": 7.0
       }
     },
     {
@@ -265,9 +265,9 @@
       "description": "IFK Fjärås (Utv.) borta",
       "location": "Ögärdets IP B(Träningsmatcher Div. 3 damer)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 8.9
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 7.6
       }
     },
     {
@@ -282,9 +282,9 @@
       "description": "Fristad GoIF borta",
       "location": "Hedens IP, Konstgräs()",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 8.9
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 7.6
       }
     },
     {
@@ -301,7 +301,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.1
+        "temp": 9.8
       }
     },
     {
@@ -318,7 +318,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.7
+        "temp": 8.4
       }
     },
     {
@@ -335,7 +335,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.7
+        "temp": 8.4
       }
     },
     {
@@ -352,7 +352,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.7
+        "temp": 8.4
       }
     },
     {
@@ -369,7 +369,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.8
+        "temp": 6.4
       }
     },
     {
@@ -386,7 +386,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.8
+        "temp": 6.4
       }
     },
     {
