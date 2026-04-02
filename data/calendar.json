@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-02T09:39:52.166581",
+  "last_updated": "2026-04-02T12:04:22.750374",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 101,
+  "activity_count": 107,
   "activities": [
     {
       "date": "2026-04-01",
@@ -97,7 +97,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.1
+        "temp": 8.5
       }
     },
     {
@@ -114,7 +114,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.1
+        "temp": 8.5
       }
     },
     {
@@ -131,7 +131,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.1
+        "temp": 8.5
       }
     },
     {
@@ -148,7 +148,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.9
+        "temp": 8.1
       }
     },
     {
@@ -165,7 +165,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.9
+        "temp": 8.1
       }
     },
     {
@@ -265,8 +265,8 @@
       "description": "IFK Fjärås (Utv.) borta",
       "location": "Ögärdets IP B(Träningsmatcher Div. 3 damer)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 8.9
       }
     },
@@ -282,8 +282,8 @@
       "description": "Fristad GoIF borta",
       "location": "Hedens IP, Konstgräs()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 8.9
       }
     },
@@ -299,8 +299,8 @@
       "description": "Frivillig Träning (Påsklov)",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 10.1
       }
     },
@@ -316,8 +316,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 8.7
       }
     },
@@ -333,8 +333,25 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.7
+      }
+    },
+    {
+      "date": "2026-04-07",
+      "day": "07",
+      "weekday": "tis",
+      "time": "18:45",
+      "end_time": "20:40",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 8.7
       }
     },
@@ -428,19 +445,6 @@
       "day": "09",
       "weekday": "tor",
       "time": "17:30",
-      "end_time": "19:00",
-      "team": "P2012",
-      "team_id": "281528",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "weather": null
-    },
-    {
-      "date": "2026-04-09",
-      "day": "09",
-      "weekday": "tor",
-      "time": "17:30",
       "end_time": "18:45",
       "team": "P2013",
       "team_id": "324307",
@@ -460,6 +464,19 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-09",
+      "day": "09",
+      "weekday": "tor",
+      "time": "18:45",
+      "end_time": "20:40",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
       "weather": null
     },
     {
@@ -700,6 +717,19 @@
       "date": "2026-04-14",
       "day": "14",
       "weekday": "tis",
+      "time": "18:45",
+      "end_time": "20:40",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "weather": null
+    },
+    {
+      "date": "2026-04-14",
+      "day": "14",
+      "weekday": "tis",
       "time": "19:00",
       "end_time": "20:30",
       "team": "Dam",
@@ -819,8 +849,8 @@
       "weekday": "tor",
       "time": "17:30",
       "end_time": "19:00",
-      "team": "P2012",
-      "team_id": "281528",
+      "team": "P2016",
+      "team_id": "414417",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
@@ -830,13 +860,13 @@
       "date": "2026-04-16",
       "day": "16",
       "weekday": "tor",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "P2016",
-      "team_id": "414417",
+      "time": "18:45",
+      "end_time": "20:40",
+      "team": "P2012",
+      "team_id": "281528",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena",
+      "location": "Kronängs Arena B-plan",
       "weather": null
     },
     {
@@ -1012,6 +1042,19 @@
       "date": "2026-04-21",
       "day": "21",
       "weekday": "tis",
+      "time": "18:45",
+      "end_time": "20:40",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "weather": null
+    },
+    {
+      "date": "2026-04-21",
+      "day": "21",
+      "weekday": "tis",
       "time": "19:00",
       "end_time": "20:30",
       "team": "Dam",
@@ -1149,6 +1192,19 @@
       "type": "Match",
       "description": "Svansjö borta",
       "location": "Svansjövallen(Pojkar Div 8 Borås norr)",
+      "weather": null
+    },
+    {
+      "date": "2026-04-23",
+      "day": "23",
+      "weekday": "tor",
+      "time": "18:45",
+      "end_time": "20:40",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
       "weather": null
     },
     {
@@ -1298,6 +1354,19 @@
       "date": "2026-04-28",
       "day": "28",
       "weekday": "tis",
+      "time": "18:45",
+      "end_time": "20:40",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "weather": null
+    },
+    {
+      "date": "2026-04-28",
+      "day": "28",
+      "weekday": "tis",
       "time": "19:00",
       "end_time": "20:30",
       "team": "Dam",
@@ -1363,6 +1432,19 @@
       "date": "2026-04-30",
       "day": "30",
       "weekday": "tor",
+      "time": "18:45",
+      "end_time": "20:40",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "weather": null
+    },
+    {
+      "date": "2026-04-30",
+      "day": "30",
+      "weekday": "tor",
       "time": "19:00",
       "end_time": "",
       "team": "Dam",
@@ -1401,18 +1483,18 @@
   ],
   "latest_news": [
     {
+      "title": "Damlaget vidare i DM-slutspelet!",
+      "published_at": "2026-04-02 12:01, Dam",
+      "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1334858",
+      "image": "https://cdn.sportadmin.se/559/h/200/8d46c1450467499dadb6676a5f04e34ac9bbb7f5ad2e7cc0a8def29d6f8a5209_L.jpg",
+      "summary": "Igår spelade damlaget bortamatch mot Örlösa Sönne IK i Lidköping, det var en lång resa att åka och många spelare borta pga sjukdomar men det löste tjejerna ändå med ett riktigt målkalas! Daniels kommentar om matchen: Riktigt bra insats av tjejerna idag! Likt förra matchen visade samtliga en grym inställning och en vilja att träna på det vi pratat om. Vi lyckas göra mål redan efter två minuter vilket ju underlättar när man möter ett lag som står lite lägre. Vi spelar oss fram till väldigt många fina målchanser i både första och andra halvlek. En del av de kombinationer och uppspelsvarianter vi tränat på såg vi också skymta förbi. Efter 6-0 i första halvlek går målproduktionen ner litegrann i andra, men chanser skapade vi hela tiden. Kul att vara vidare ytterligare ett steg i DM. Nu siktar vi på att även ta oss förbi nästa omgång så vi får spela kvartsfinal efter sommaren! Grattis tjejer och riktigt bra jobbat."
+    },
+    {
       "title": "Ny Sponsor Doz Apotek 2026 :)",
       "published_at": "2026-04-01",
       "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1326573",
       "image": "https://cdn.sportadmin.se/559/h/200/328b46bddeb9dc90eac81833a06f30b198d891d0c45bdbe39faca32e45b2ca44_L.jpg",
       "summary": "Vi har fått ny sponsor till vår förening 😊 Detta är Doz Apotek Där har senior och studenter 10% på tisdagar o torsdagar 😊"
-    },
-    {
-      "title": "Ytterligare ett nyförvärv.",
-      "published_at": "2026-03-27 09:39, Dam",
-      "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1333570",
-      "image": "https://cdn.sportadmin.se/559/h/200/4cc27e8e988d280df1ad5eec76a9e6a3e6946cb78d869b2969f588640cf57751_L.jpg",
-      "summary": "Sist ut av alla våra nyförvärv har redan skrivit in sig i målprotokollet under försäsongen och det är ingen mindre än Alessia Bryngelsson Jordan-Killoran. Här har vi en bollskicklig spelare som vet exakt hur hon trollar bort motståndarna. Med hennes teknik och känsla för att komma till avslut kommer hon att sätta motståndarna i en riktigt jobbig sits. Vi har en stark känsla att vi kommer se henne i många målprotokoll framöver den här säsongen! Tidigare kommer Alessia från Ulricehamns IFK men har sina rötter i Sjömarkens IF. Fem snabba med Alessia: Vad fick dig att välja just Kronängs IF? -Hade hört mycket bra om Kronäng. Att ni har det väldigt kul tillsammans men även spelar väldigt bra fotboll! Vem i laget vill du inte möta 1vs1? -Tara tror jag, har sett henne glidtacklas. Vem i laget vill du inte dela bil med till bortamatch? -Tror jag får testa på att åka med några fler så kan jag svara på den frågan sen. Men det värsta jag vet är när någon sätter på dålig musik (dem flesta hade nog sagt att jag har dålig musiksmak dock) Vad är det viktigaste i din matchrutin? -Att äta en bra middag dagen innan match, helst pasta med köttfärssås! Vilken låt sätter du på för att bli riktigt peppad? -Asteroid med Lovet."
     }
   ]
 }
