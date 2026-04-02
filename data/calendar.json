@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-02T05:50:29.026287",
+  "last_updated": "2026-04-02T09:39:52.166581",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -97,7 +97,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.7
+        "temp": 8.1
       }
     },
     {
@@ -114,7 +114,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.7
+        "temp": 8.1
       }
     },
     {
@@ -131,7 +131,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.7
+        "temp": 8.1
       }
     },
     {
@@ -148,7 +148,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.5
+        "temp": 7.9
       }
     },
     {
@@ -165,7 +165,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.5
+        "temp": 7.9
       }
     },
     {
@@ -180,9 +180,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 4.6
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 4.3
       }
     },
     {
@@ -198,8 +198,8 @@
       "location": "Kristinebergskolan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 5.7
+        "desc": "Dis",
+        "temp": 5.4
       }
     },
     {
@@ -216,7 +216,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.2
+        "temp": 6.3
       }
     },
     {
@@ -232,8 +232,8 @@
       "location": "Kristinebergskolan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.7
+        "desc": "Regn",
+        "temp": 6.4
       }
     },
     {
@@ -248,9 +248,9 @@
       "description": "Södra Ving hemma",
       "location": "Annan()",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 7.4
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 5.9
       }
     },
     {
@@ -267,7 +267,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.4
+        "temp": 8.9
       }
     },
     {
@@ -284,7 +284,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.4
+        "temp": 8.9
       }
     },
     {
@@ -301,7 +301,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 9.9
+        "temp": 10.1
       }
     },
     {
@@ -316,9 +316,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 8.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.7
       }
     },
     {
@@ -333,9 +333,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 8.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.7
       }
     },
     {
@@ -352,7 +352,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.4
+        "temp": 6.8
       }
     },
     {
@@ -369,7 +369,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.4
+        "temp": 6.8
       }
     },
     {
@@ -384,9 +384,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.2
       }
     },
     {
@@ -401,9 +401,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.2
       }
     },
     {
@@ -418,9 +418,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.2
       }
     },
     {
@@ -1401,18 +1401,18 @@
   ],
   "latest_news": [
     {
+      "title": "Ny Sponsor Doz Apotek 2026 :)",
+      "published_at": "2026-04-01",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1326573",
+      "image": "https://cdn.sportadmin.se/559/h/200/328b46bddeb9dc90eac81833a06f30b198d891d0c45bdbe39faca32e45b2ca44_L.jpg",
+      "summary": "Vi har fått ny sponsor till vår förening 😊 Detta är Doz Apotek Där har senior och studenter 10% på tisdagar o torsdagar 😊"
+    },
+    {
       "title": "Ytterligare ett nyförvärv.",
       "published_at": "2026-03-27 09:39, Dam",
       "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1333570",
       "image": "https://cdn.sportadmin.se/559/h/200/4cc27e8e988d280df1ad5eec76a9e6a3e6946cb78d869b2969f588640cf57751_L.jpg",
       "summary": "Sist ut av alla våra nyförvärv har redan skrivit in sig i målprotokollet under försäsongen och det är ingen mindre än Alessia Bryngelsson Jordan-Killoran. Här har vi en bollskicklig spelare som vet exakt hur hon trollar bort motståndarna. Med hennes teknik och känsla för att komma till avslut kommer hon att sätta motståndarna i en riktigt jobbig sits. Vi har en stark känsla att vi kommer se henne i många målprotokoll framöver den här säsongen! Tidigare kommer Alessia från Ulricehamns IFK men har sina rötter i Sjömarkens IF. Fem snabba med Alessia: Vad fick dig att välja just Kronängs IF? -Hade hört mycket bra om Kronäng. Att ni har det väldigt kul tillsammans men även spelar väldigt bra fotboll! Vem i laget vill du inte möta 1vs1? -Tara tror jag, har sett henne glidtacklas. Vem i laget vill du inte dela bil med till bortamatch? -Tror jag får testa på att åka med några fler så kan jag svara på den frågan sen. Men det värsta jag vet är när någon sätter på dålig musik (dem flesta hade nog sagt att jag har dålig musiksmak dock) Vad är det viktigaste i din matchrutin? -Att äta en bra middag dagen innan match, helst pasta med köttfärssås! Vilken låt sätter du på för att bli riktigt peppad? -Asteroid med Lovet."
-    },
-    {
-      "title": "Nu  snart startar vi igen på Götavallen",
-      "published_at": "2026-03-23 16:32",
-      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1332662",
-      "image": "https://cdn.sportadmin.se/559/h/200/88387080d6bcd8cdbc6abf5539958e168b596935bd3564a873e95219995eebb4_L.jpg",
-      "summary": ""
     }
   ]
 }
