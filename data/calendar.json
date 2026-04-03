@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-03T05:50:39.990921",
+  "last_updated": "2026-04-03T08:35:48.118038",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -162,7 +162,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.3
+        "temp": 4.2
       }
     },
     {
@@ -179,7 +179,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 5.0
+        "temp": 4.9
       }
     },
     {
@@ -213,7 +213,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.4
+        "temp": 7.6
       }
     },
     {
@@ -228,9 +228,9 @@
       "description": "Södra Ving hemma",
       "location": "Annan()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.4
       }
     },
     {
@@ -245,9 +245,9 @@
       "description": "IFK Fjärås (Utv.) borta",
       "location": "Ögärdets IP B(Träningsmatcher Div. 3 damer)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 8.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.9
       }
     },
     {
@@ -262,9 +262,9 @@
       "description": "Fristad GoIF borta",
       "location": "Hedens IP, Konstgräs()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 8.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.9
       }
     },
     {
@@ -281,7 +281,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.2
+        "temp": 10.1
       }
     },
     {
@@ -298,7 +298,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.8
+        "temp": 8.9
       }
     },
     {
@@ -315,7 +315,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.8
+        "temp": 8.9
       }
     },
     {
@@ -332,7 +332,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.8
+        "temp": 8.9
       }
     },
     {
@@ -349,7 +349,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.8
+        "temp": 7.3
       }
     },
     {
@@ -366,7 +366,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.8
+        "temp": 7.3
       }
     },
     {
@@ -383,7 +383,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 8.4
       }
     },
     {
@@ -400,7 +400,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 8.4
       }
     },
     {
@@ -417,7 +417,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 8.4
       }
     },
     {
@@ -432,9 +432,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 6.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.7
       }
     },
     {
@@ -449,9 +449,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 5.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.7
       }
     },
     {
@@ -466,9 +466,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 5.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.7
       }
     },
     {
@@ -483,9 +483,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 4.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.6
       }
     },
     {
