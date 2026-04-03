@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-03T14:27:51.673739",
+  "last_updated": "2026-04-03T17:00:33.932578",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -162,7 +162,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.4
+        "temp": 5.7
       }
     },
     {
@@ -179,7 +179,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 5.6
+        "temp": 6.9
       }
     },
     {
@@ -195,8 +195,8 @@
       "location": "Kristinebergskolan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 6.7
+        "desc": "Dis",
+        "temp": 7.3
       }
     },
     {
@@ -213,7 +213,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.2
+        "temp": 7.0
       }
     },
     {
