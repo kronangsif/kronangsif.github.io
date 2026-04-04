@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T15:58:27.171106",
+  "last_updated": "2026-04-04T17:19:13.650133",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -162,7 +162,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.7
+        "temp": 5.6
       }
     },
     {
@@ -247,7 +247,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.9
+        "temp": 10.8
       }
     },
     {
@@ -264,7 +264,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.9
+        "temp": 10.8
       }
     },
     {
@@ -309,23 +309,6 @@
       "end_time": "20:30",
       "team": "Dam",
       "team_id": "52695",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 9.4
-      }
-    },
-    {
-      "date": "2026-04-07",
-      "day": "07",
-      "weekday": "tis",
-      "time": "18:30",
-      "end_time": "20:00",
-      "team": "P2009-2010",
-      "team_id": "224798",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
@@ -503,6 +486,23 @@
         "icon": "☁️",
         "desc": "Molnigt",
         "temp": 9.1
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "day": "10",
+      "weekday": "fre",
+      "time": "17:00",
+      "end_time": "18:30",
+      "team": "P2009-2010",
+      "team_id": "224798",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.2
       }
     },
     {
