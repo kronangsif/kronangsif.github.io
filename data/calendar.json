@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T11:03:37.804086",
+  "last_updated": "2026-04-04T14:02:46.753205",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -162,7 +162,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.4
+        "temp": 5.6
       }
     },
     {
@@ -179,7 +179,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 7.0
+        "temp": 7.2
       }
     },
     {
@@ -196,7 +196,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.0
+        "temp": 7.9
       }
     },
     {
@@ -213,7 +213,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.5
+        "temp": 7.8
       }
     },
     {
@@ -230,7 +230,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 8.4
+        "temp": 8.6
       }
     },
     {
@@ -247,7 +247,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 10.6
+        "temp": 10.8
       }
     },
     {
@@ -264,7 +264,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 10.6
+        "temp": 10.8
       }
     },
     {
@@ -281,7 +281,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.8
+        "temp": 10.0
       }
     },
     {
@@ -296,9 +296,9 @@
       "description": "Frivillig Träning (Påsklov)",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 10.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 10.4
       }
     },
     {
@@ -315,7 +315,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.6
+        "temp": 9.4
       }
     },
     {
@@ -332,7 +332,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.6
+        "temp": 9.4
       }
     },
     {
@@ -349,7 +349,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.6
+        "temp": 9.4
       }
     },
     {
@@ -366,7 +366,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.3
+        "temp": 8.1
       }
     },
     {
@@ -383,7 +383,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.3
+        "temp": 8.1
       }
     },
     {
@@ -400,7 +400,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.8
+        "temp": 11.1
       }
     },
     {
@@ -417,7 +417,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.8
+        "temp": 11.1
       }
     },
     {
@@ -434,7 +434,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.8
+        "temp": 11.1
       }
     },
     {
@@ -449,9 +449,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.9
       }
     },
     {
@@ -466,9 +466,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.1
       }
     },
     {
@@ -483,9 +483,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.1
       }
     },
     {
@@ -502,7 +502,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.4
+        "temp": 9.1
       }
     },
     {
