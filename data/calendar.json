@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-05T08:03:41.781796",
+  "last_updated": "2026-04-05T10:19:46.881390",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 111,
+  "activity_count": 115,
   "activities": [
     {
       "date": "2026-04-01",
@@ -179,7 +179,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 6.2
+        "temp": 5.7
       }
     },
     {
@@ -196,7 +196,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 8.1
+        "temp": 7.8
       }
     },
     {
@@ -213,7 +213,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.6
+        "temp": 7.4
       }
     },
     {
@@ -245,9 +245,9 @@
       "description": "IFK Fjärås (Utv.) borta",
       "location": "Ögärdets IP B(Träningsmatcher Div. 3 damer)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 10.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 10.5
       }
     },
     {
@@ -262,9 +262,9 @@
       "description": "Fristad GoIF borta",
       "location": "Hedens IP, Konstgräs()",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 10.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 10.5
       }
     },
     {
@@ -281,7 +281,24 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.5
+        "temp": 9.8
+      }
+    },
+    {
+      "date": "2026-04-07",
+      "day": "07",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 10.5
       }
     },
     {
@@ -298,7 +315,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.2
+        "temp": 10.5
       }
     },
     {
@@ -315,7 +332,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.7
+        "temp": 10.1
       }
     },
     {
@@ -332,7 +349,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.7
+        "temp": 10.1
       }
     },
     {
@@ -349,7 +366,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.4
+        "temp": 9.3
       }
     },
     {
@@ -366,7 +383,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.4
+        "temp": 9.3
       }
     },
     {
@@ -726,6 +743,19 @@
       "weekday": "tis",
       "time": "17:30",
       "end_time": "19:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "weather": null
+    },
+    {
+      "date": "2026-04-14",
+      "day": "14",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
       "team": "P2014",
       "team_id": "324331",
       "type": "Träning",
@@ -1077,6 +1107,19 @@
       "weekday": "tis",
       "time": "17:30",
       "end_time": "19:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "weather": null
+    },
+    {
+      "date": "2026-04-21",
+      "day": "21",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
       "team": "P2014",
       "team_id": "324331",
       "type": "Träning",
@@ -1394,6 +1437,19 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
+      "weather": null
+    },
+    {
+      "date": "2026-04-28",
+      "day": "28",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
       "weather": null
     },
     {
