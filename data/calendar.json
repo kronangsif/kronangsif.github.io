@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T21:03:08.460416",
+  "last_updated": "2026-04-05T23:03:39.326736",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -159,11 +159,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 5.1
-      }
+      "weather": null
     },
     {
       "date": "2026-04-05",
@@ -176,11 +172,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 5.7
-      }
+      "weather": null
     },
     {
       "date": "2026-04-05",
@@ -193,11 +185,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 7.8
-      }
+      "weather": null
     },
     {
       "date": "2026-04-05",
@@ -210,11 +198,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.3
-      }
+      "weather": null
     },
     {
       "date": "2026-04-06",
@@ -228,9 +212,9 @@
       "description": "Södra Ving hemma",
       "location": "Annan()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 7.9
       }
     },
     {
@@ -281,7 +265,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.9
+        "temp": 10.7
       }
     },
     {
@@ -298,7 +282,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.6
+        "temp": 10.9
       }
     },
     {
@@ -315,7 +299,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.6
+        "temp": 10.9
       }
     },
     {
@@ -332,7 +316,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.1
+        "temp": 10.4
       }
     },
     {
@@ -349,7 +333,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.1
+        "temp": 10.4
       }
     },
     {
@@ -366,7 +350,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.1
+        "temp": 9.7
       }
     },
     {
@@ -383,7 +367,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.1
+        "temp": 9.7
       }
     },
     {
@@ -635,7 +619,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 3.5
+      }
     },
     {
       "date": "2026-04-12",
@@ -648,7 +636,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 5.3
+      }
     },
     {
       "date": "2026-04-12",
@@ -661,7 +653,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.3
+      }
     },
     {
       "date": "2026-04-12",
@@ -674,7 +670,11 @@
       "type": "Match",
       "description": "Borås GIF  borta",
       "location": "Sjöbovallen()",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.3
+      }
     },
     {
       "date": "2026-04-12",
@@ -687,7 +687,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kristinebergskolan",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 9.4
+      }
     },
     {
       "date": "2026-04-12",
@@ -700,7 +704,11 @@
       "type": "Match",
       "description": "Ulricehamns IFK hemma",
       "location": "Kronängs Arena A-plan()",
-      "weather": null
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.1
+      }
     },
     {
       "date": "2026-04-13",
