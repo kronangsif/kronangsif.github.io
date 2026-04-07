@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-07T18:10:16.846042",
+  "last_updated": "2026-04-07T21:30:27.077015",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 133,
+  "activity_count": 132,
   "activities": [
     {
       "date": "2026-04-01",
@@ -127,19 +127,6 @@
       "day": "02",
       "weekday": "tor",
       "time": "18:30",
-      "end_time": "20:30",
-      "team": "Dam",
-      "team_id": "52695",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "weather": null
-    },
-    {
-      "date": "2026-04-02",
-      "day": "02",
-      "weekday": "tor",
-      "time": "18:30",
       "end_time": "20:00",
       "team": "Herr",
       "team_id": "38937",
@@ -211,19 +198,6 @@
       "type": "Match",
       "description": "Södra Ving hemma",
       "location": "Annan()",
-      "weather": null
-    },
-    {
-      "date": "2026-04-06",
-      "day": "06",
-      "weekday": "mån",
-      "time": "15:00",
-      "end_time": "",
-      "team": "Dam",
-      "team_id": "52695",
-      "type": "Match",
-      "description": "IFK Fjärås (Utv.) borta",
-      "location": "Ögärdets IP B(Träningsmatcher Div. 3 damer)",
       "weather": null
     },
     {
@@ -366,8 +340,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 13.1
       }
     },
@@ -383,8 +357,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 13.1
       }
     },
@@ -400,8 +374,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 13.1
       }
     },
@@ -451,9 +425,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 12.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.0
       }
     },
     {
@@ -468,9 +442,9 @@
       "description": "Extra Påsklovsträning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 12.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.0
       }
     },
     {
@@ -487,7 +461,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 11.6
+        "temp": 11.5
       }
     },
     {
@@ -504,7 +478,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 11.6
+        "temp": 11.5
       }
     },
     {
@@ -519,9 +493,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.4
       }
     },
     {
@@ -538,7 +512,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.8
+        "temp": 9.4
       }
     },
     {
@@ -555,7 +529,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.7
+        "temp": 7.4
       }
     },
     {
@@ -572,7 +546,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.7
+        "temp": 7.4
       }
     },
     {
@@ -589,7 +563,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.6
+        "temp": 7.1
       }
     },
     {
@@ -606,7 +580,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.0
+        "temp": 8.5
       }
     },
     {
@@ -623,7 +597,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.0
+        "temp": 8.5
       }
     },
     {
@@ -638,9 +612,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 3.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 4.8
       }
     },
     {
@@ -655,9 +629,26 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 7.6
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "day": "12",
+      "weekday": "sön",
+      "time": "10:00",
+      "end_time": "12:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Övrigt",
+      "description": "Pantinsamling",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 7.6
       }
     },
     {
@@ -672,9 +663,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 9.9
       }
     },
     {
@@ -689,9 +680,9 @@
       "description": "Borås GIF  borta",
       "location": "Sjöbovallen()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 9.9
       }
     },
     {
@@ -706,9 +697,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 11.2
       }
     },
     {
@@ -723,9 +714,9 @@
       "description": "Ulricehamns IFK hemma",
       "location": "Kronängs Arena A-plan()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.1
       }
     },
     {
@@ -742,7 +733,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.0
+        "temp": 10.6
       }
     },
     {
@@ -759,7 +750,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.0
+        "temp": 10.6
       }
     },
     {
@@ -776,7 +767,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.0
+        "temp": 10.6
       }
     },
     {
@@ -793,7 +784,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 8.7
       }
     },
     {
@@ -1828,12 +1819,12 @@
       "day": "30",
       "weekday": "tor",
       "time": "19:00",
-      "end_time": "",
+      "end_time": "20:30",
       "team": "Dam",
       "team_id": "52695",
-      "type": "Match",
-      "description": "Vartofta SK borta",
-      "location": "Strömsborg A(Damer, Div 3 Södra)",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
       "weather": null
     },
     {
@@ -1841,12 +1832,12 @@
       "day": "30",
       "weekday": "tor",
       "time": "19:00",
-      "end_time": "20:30",
+      "end_time": "",
       "team": "Dam",
       "team_id": "52695",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
+      "type": "Match",
+      "description": "Vartofta SK borta",
+      "location": "Strömsborg A(Damer, Div 3 Södra)",
       "weather": null
     },
     {
