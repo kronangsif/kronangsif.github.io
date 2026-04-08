@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-08T14:58:50.525123",
+  "last_updated": "2026-04-08T18:55:19.640380",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -316,9 +316,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.1
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 13.4
       }
     },
     {
@@ -333,9 +333,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.1
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 13.4
       }
     },
     {
@@ -350,9 +350,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.1
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 13.4
       }
     },
     {
@@ -369,7 +369,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 12.7
+        "temp": 12.9
       }
     },
     {
@@ -386,7 +386,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 12.7
+        "temp": 12.9
       }
     },
     {
@@ -403,7 +403,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.0
+        "temp": 12.2
       }
     },
     {
@@ -420,7 +420,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.0
+        "temp": 12.2
       }
     },
     {
@@ -437,7 +437,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.6
+        "temp": 11.7
       }
     },
     {
@@ -454,7 +454,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.6
+        "temp": 11.7
       }
     },
     {
@@ -471,7 +471,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.5
+        "temp": 10.7
       }
     },
     {
@@ -486,9 +486,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 9.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 9.2
       }
     },
     {
@@ -503,9 +503,9 @@
       "description": "Kabel 80 hemma",
       "location": "Kronängs Arena A-plan()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 9.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.1
       }
     },
     {
@@ -520,9 +520,9 @@
       "description": "Kabel 80 hemma",
       "location": "Kronängs Arena A-plan()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 9.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.1
       }
     },
     {
@@ -682,17 +682,17 @@
       "date": "2026-04-12",
       "day": "12",
       "weekday": "sön",
-      "time": "15:00",
+      "time": "17:00",
       "end_time": "",
       "team": "P2009-2010",
       "team_id": "224798",
       "type": "Match",
       "description": "Ulricehamns IFK hemma",
-      "location": "Kronängs Arena A-plan()",
+      "location": "Kronängs Arena B-plan()",
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.5
+        "temp": 9.0
       }
     },
     {
