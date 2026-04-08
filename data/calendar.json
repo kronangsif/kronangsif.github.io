@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-08T18:55:19.640380",
+  "last_updated": "2026-04-08T21:29:44.481815",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 132,
+  "activity_count": 134,
   "activities": [
     {
       "date": "2026-04-01",
@@ -403,7 +403,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.2
+        "temp": 12.5
       }
     },
     {
@@ -420,7 +420,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.2
+        "temp": 12.5
       }
     },
     {
@@ -437,7 +437,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.7
+        "temp": 12.0
       }
     },
     {
@@ -454,7 +454,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.7
+        "temp": 12.0
       }
     },
     {
@@ -471,7 +471,24 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.7
+        "temp": 10.8
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "day": "10",
+      "weekday": "fre",
+      "time": "16:30",
+      "end_time": "18:00",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.2
       }
     },
     {
@@ -488,7 +505,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 9.2
+        "temp": 9.0
       }
     },
     {
@@ -503,9 +520,9 @@
       "description": "Kabel 80 hemma",
       "location": "Kronängs Arena A-plan()",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 8.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 7.8
       }
     },
     {
@@ -520,9 +537,26 @@
       "description": "Kabel 80 hemma",
       "location": "Kronängs Arena A-plan()",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 8.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 7.8
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "day": "11",
+      "weekday": "lör",
+      "time": "09:00",
+      "end_time": "12:00",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 3.0
       }
     },
     {
@@ -539,7 +573,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.0
+        "temp": 6.1
       }
     },
     {
@@ -556,7 +590,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.2
+        "temp": 7.3
       }
     },
     {
@@ -573,7 +607,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.2
+        "temp": 7.3
       }
     },
     {
@@ -590,7 +624,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.3
+        "temp": 4.8
       }
     },
     {
@@ -607,7 +641,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.4
+        "temp": 7.5
       }
     },
     {
@@ -620,11 +654,11 @@
       "team_id": "324307",
       "type": "Övrigt",
       "description": "Pantinsamling",
-      "location": "Kronängs Arena",
+      "location": "Kristinebergskolans parkering",
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.4
+        "temp": 7.5
       }
     },
     {
@@ -641,7 +675,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.1
+        "temp": 9.6
       }
     },
     {
@@ -658,7 +692,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.1
+        "temp": 9.6
       }
     },
     {
@@ -675,7 +709,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.2
+        "temp": 10.8
       }
     },
     {
@@ -692,7 +726,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.0
+        "temp": 12.2
       }
     },
     {
@@ -707,9 +741,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.4
       }
     },
     {
@@ -724,9 +758,9 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.4
       }
     },
     {
@@ -741,9 +775,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.4
       }
     },
     {
@@ -758,9 +792,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 5.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.0
       }
     },
     {
@@ -777,7 +811,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 11.5
       }
     },
     {
@@ -794,7 +828,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 11.5
       }
     },
     {
@@ -811,7 +845,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 11.5
       }
     },
     {
@@ -828,7 +862,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 11.5
       }
     },
     {
@@ -845,7 +879,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 11.5
       }
     },
     {
@@ -862,7 +896,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.9
+        "temp": 10.9
       }
     },
     {
@@ -879,7 +913,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.9
+        "temp": 10.9
       }
     },
     {
@@ -896,7 +930,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.5
+        "temp": 10.3
       }
     },
     {
@@ -913,7 +947,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.5
+        "temp": 10.3
       }
     },
     {
