@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-10T19:57:52.276062",
+  "last_updated": "2026-04-10T21:56:38.955237",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -533,7 +533,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.1
+        "temp": 3.6
       }
     },
     {
@@ -548,9 +548,9 @@
       "description": "Mullsjö IF hemma",
       "location": "Kronäng Arena konstgräs 1(Träningsmatcher Damer, Västergötland)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 8.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.0
       }
     },
     {
@@ -565,9 +565,9 @@
       "description": "Mullsjö IF hemma",
       "location": "Kronäng Arena konstgräs 1(Träningsmatcher Damer VEO)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 8.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.0
       }
     },
     {
@@ -582,9 +582,9 @@
       "description": "Brämhult hemma",
       "location": "Kronängs Arena B-plan()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 10.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 9.2
       }
     },
     {
@@ -599,9 +599,9 @@
       "description": "Kronäng hemma",
       "location": "Kronängs Arena B-plan()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 10.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 9.2
       }
     },
     {
@@ -618,7 +618,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.3
+        "temp": 4.4
       }
     },
     {
@@ -635,7 +635,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.5
+        "temp": 5.0
       }
     },
     {
@@ -652,7 +652,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.5
+        "temp": 5.0
       }
     },
     {
@@ -669,7 +669,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.5
+        "temp": 5.0
       }
     },
     {
@@ -686,7 +686,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.7
+        "temp": 6.0
       }
     },
     {
@@ -703,7 +703,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.7
+        "temp": 6.0
       }
     },
     {
@@ -720,7 +720,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.4
+        "temp": 6.7
       }
     },
     {
@@ -737,7 +737,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.8
+        "temp": 8.6
       }
     },
     {
