@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-10T14:35:08.014055",
+  "last_updated": "2026-04-10T17:36:37.541113",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -448,7 +448,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.9
+        "temp": 10.2
       }
     },
     {
@@ -465,7 +465,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.9
+        "temp": 10.2
       }
     },
     {
@@ -482,7 +482,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.9
+        "temp": 10.2
       }
     },
     {
@@ -497,9 +497,9 @@
       "description": "Kabel 80 hemma",
       "location": "Kronängs Arena A-plan()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 8.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.4
       }
     },
     {
@@ -514,9 +514,9 @@
       "description": "Kabel 80 hemma",
       "location": "Kronängs Arena A-plan()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 8.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.4
       }
     },
     {
@@ -531,9 +531,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 3.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.0
       }
     },
     {
@@ -548,9 +548,9 @@
       "description": "Brämhult borta",
       "location": "Brämhults IP()",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.2
       }
     },
     {
@@ -567,7 +567,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.7
+        "temp": 8.8
       }
     },
     {
@@ -584,7 +584,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.7
+        "temp": 8.8
       }
     },
     {
@@ -601,7 +601,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.8
+        "temp": 10.2
       }
     },
     {
@@ -618,7 +618,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.4
+        "temp": 4.2
       }
     },
     {
@@ -635,7 +635,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.8
+        "temp": 5.4
       }
     },
     {
@@ -652,7 +652,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.8
+        "temp": 5.4
       }
     },
     {
@@ -669,7 +669,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.8
+        "temp": 5.4
       }
     },
     {
@@ -686,7 +686,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.8
+        "temp": 6.2
       }
     },
     {
@@ -703,7 +703,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.8
+        "temp": 6.2
       }
     },
     {
@@ -720,7 +720,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.7
+        "temp": 6.9
       }
     },
     {
@@ -737,7 +737,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.5
+        "temp": 8.9
       }
     },
     {
