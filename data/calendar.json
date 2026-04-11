@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-11T16:01:35.880415",
+  "last_updated": "2026-04-11T18:01:19.914534",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 140,
+  "activity_count": 152,
   "activities": [
     {
       "date": "2026-04-01",
@@ -700,7 +700,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.2
+        "temp": 7.3
       }
     },
     {
@@ -717,7 +717,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.9
+        "temp": 9.0
       }
     },
     {
@@ -734,7 +734,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.8
+        "temp": 12.9
       }
     },
     {
@@ -751,7 +751,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.8
+        "temp": 12.9
       }
     },
     {
@@ -768,7 +768,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.8
+        "temp": 12.9
       }
     },
     {
@@ -785,7 +785,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.9
+        "temp": 11.0
       }
     },
     {
@@ -1661,6 +1661,84 @@
       "weather": null
     },
     {
+      "date": "2026-04-25",
+      "day": "25",
+      "weekday": "lör",
+      "time": "09:00",
+      "end_time": "10:30",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Övrigt",
+      "description": "Städning Kronäng Arena Cup",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-25",
+      "day": "25",
+      "weekday": "lör",
+      "time": "10:30",
+      "end_time": "12:00",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Övrigt",
+      "description": "Städning Kronäng Arena Cup",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-25",
+      "day": "25",
+      "weekday": "lör",
+      "time": "12:00",
+      "end_time": "13:30",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Övrigt",
+      "description": "Städning Kronäng Arena Cup",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-25",
+      "day": "25",
+      "weekday": "lör",
+      "time": "13:30",
+      "end_time": "15:00",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Övrigt",
+      "description": "Städning Kronäng Arena Cup",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-25",
+      "day": "25",
+      "weekday": "lör",
+      "time": "15:00",
+      "end_time": "16:30",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Övrigt",
+      "description": "Städning Kronäng Arena Cup",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-25",
+      "day": "25",
+      "weekday": "lör",
+      "time": "16:30",
+      "end_time": "18:00",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Övrigt",
+      "description": "Städning Kronäng Arena Cup",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
       "date": "2026-04-26",
       "day": "26",
       "weekday": "sön",
@@ -1690,6 +1768,45 @@
       "date": "2026-04-26",
       "day": "26",
       "weekday": "sön",
+      "time": "09:00",
+      "end_time": "10:30",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Övrigt",
+      "description": "Städning Kronäng Arena Cup",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-26",
+      "day": "26",
+      "weekday": "sön",
+      "time": "10:30",
+      "end_time": "12:00",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Övrigt",
+      "description": "Städning Kronäng Arena Cup",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-26",
+      "day": "26",
+      "weekday": "sön",
+      "time": "12:00",
+      "end_time": "13:30",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Övrigt",
+      "description": "Städning Kronäng Arena Cup",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-26",
+      "day": "26",
+      "weekday": "sön",
       "time": "12:35",
       "end_time": "",
       "team": "P2014",
@@ -1697,6 +1814,45 @@
       "type": "Match",
       "description": "Kronängs IF Lag vit (KAC) hemma",
       "location": "Kronängs Arena()",
+      "weather": null
+    },
+    {
+      "date": "2026-04-26",
+      "day": "26",
+      "weekday": "sön",
+      "time": "13:30",
+      "end_time": "15:00",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Övrigt",
+      "description": "Städning Kronäng Arena Cup",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-26",
+      "day": "26",
+      "weekday": "sön",
+      "time": "15:00",
+      "end_time": "16:30",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Övrigt",
+      "description": "Städning Kronäng Arena Cup",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-26",
+      "day": "26",
+      "weekday": "sön",
+      "time": "16:30",
+      "end_time": "18:00",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Övrigt",
+      "description": "Städning Kronäng Arena Cup",
+      "location": "Kronängs Arena",
       "weather": null
     },
     {
