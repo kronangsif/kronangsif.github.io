@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-12T09:32:34.986129",
+  "last_updated": "2026-04-12T11:48:25.820810",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 152,
+  "activity_count": 153,
   "activities": [
     {
       "date": "2026-04-01",
@@ -646,7 +646,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.9
+        "temp": 6.5
       }
     },
     {
@@ -663,7 +663,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.9
+        "temp": 6.5
       }
     },
     {
@@ -680,7 +680,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.4
+        "temp": 7.9
       }
     },
     {
@@ -697,7 +697,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.1
+        "temp": 9.3
       }
     },
     {
@@ -765,7 +765,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.5
       }
     },
     {
@@ -782,7 +782,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.8
+        "temp": 12.1
       }
     },
     {
@@ -799,7 +799,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.8
+        "temp": 12.1
       }
     },
     {
@@ -816,7 +816,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.8
+        "temp": 12.1
       }
     },
     {
@@ -833,7 +833,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.8
+        "temp": 12.1
       }
     },
     {
@@ -850,7 +850,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.8
+        "temp": 12.1
       }
     },
     {
@@ -867,7 +867,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.3
+        "temp": 11.8
       }
     },
     {
@@ -884,7 +884,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.3
+        "temp": 11.8
       }
     },
     {
@@ -901,7 +901,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.6
+        "temp": 11.1
       }
     },
     {
@@ -918,7 +918,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.6
+        "temp": 11.1
       }
     },
     {
@@ -1629,6 +1629,19 @@
       "type": "Match",
       "description": "IF Elfsborg Svart hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Dalsjöfors)",
+      "weather": null
+    },
+    {
+      "date": "2026-04-25",
+      "day": "25",
+      "weekday": "lör",
+      "time": "07:45",
+      "end_time": "12:30",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Kronäng Arena Cup",
+      "location": "Kronängs Arena",
       "weather": null
     },
     {
