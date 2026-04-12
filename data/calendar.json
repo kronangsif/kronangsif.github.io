@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-12T14:10:09.787845",
+  "last_updated": "2026-04-12T17:02:23.290616",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 153,
+  "activity_count": 154,
   "activities": [
     {
       "date": "2026-04-01",
@@ -697,7 +697,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.4
+        "temp": 9.5
       }
     },
     {
@@ -714,7 +714,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 13.4
       }
     },
     {
@@ -731,7 +731,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 13.4
       }
     },
     {
@@ -748,7 +748,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 13.4
       }
     },
     {
@@ -765,7 +765,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.3
+        "temp": 11.4
       }
     },
     {
@@ -782,7 +782,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 11.2
       }
     },
     {
@@ -799,7 +799,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 11.2
       }
     },
     {
@@ -816,7 +816,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 11.2
       }
     },
     {
@@ -833,7 +833,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 11.2
       }
     },
     {
@@ -850,7 +850,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 11.2
       }
     },
     {
@@ -867,7 +867,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.0
+        "temp": 10.6
       }
     },
     {
@@ -884,7 +884,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.0
+        "temp": 10.6
       }
     },
     {
@@ -901,7 +901,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.3
+        "temp": 10.2
       }
     },
     {
@@ -918,7 +918,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.3
+        "temp": 10.2
       }
     },
     {
@@ -1061,8 +1061,25 @@
       "date": "2026-04-16",
       "day": "16",
       "weekday": "tor",
-      "time": "17:00",
-      "end_time": "18:00",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.2
+      }
+    },
+    {
+      "date": "2026-04-16",
+      "day": "16",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
       "team": "P2014",
       "team_id": "324331",
       "type": "Träning",
@@ -1329,7 +1346,7 @@
       "team_id": "324307",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan",
+      "location": "Kronängs Arena",
       "weather": null
     },
     {
@@ -1505,8 +1522,8 @@
       "date": "2026-04-23",
       "day": "23",
       "weekday": "tor",
-      "time": "17:00",
-      "end_time": "18:00",
+      "time": "17:30",
+      "end_time": "19:00",
       "team": "P2014",
       "team_id": "324331",
       "type": "Träning",
@@ -2051,10 +2068,10 @@
       "date": "2026-04-30",
       "day": "30",
       "weekday": "tor",
-      "time": "17:00",
-      "end_time": "18:00",
-      "team": "P2014",
-      "team_id": "324331",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2013",
+      "team_id": "324307",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
@@ -2066,8 +2083,8 @@
       "weekday": "tor",
       "time": "17:30",
       "end_time": "19:00",
-      "team": "P2013",
-      "team_id": "324307",
+      "team": "P2014",
+      "team_id": "324331",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
