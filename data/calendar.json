@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-13T16:20:59.958716",
+  "last_updated": "2026-04-13T17:51:53.164305",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -767,7 +767,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.1
+        "temp": 9.0
       }
     },
     {
@@ -784,7 +784,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.1
+        "temp": 9.0
       }
     },
     {
@@ -801,7 +801,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.1
+        "temp": 9.0
       }
     },
     {
@@ -818,7 +818,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.1
+        "temp": 9.0
       }
     },
     {
@@ -835,24 +835,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.1
-      }
-    },
-    {
-      "date": "2026-04-14",
-      "day": "14",
-      "weekday": "tis",
-      "time": "18:30",
-      "end_time": "20:00",
-      "team": "P2009-2010",
-      "team_id": "224798",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.3
+        "temp": 9.0
       }
     },
     {
@@ -886,7 +869,24 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.4
+        "temp": 7.3
+      }
+    },
+    {
+      "date": "2026-04-14",
+      "day": "14",
+      "weekday": "tis",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "P2009-2010",
+      "team_id": "224798",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 7.3
       }
     },
     {
@@ -903,7 +903,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.4
+        "temp": 7.3
       }
     },
     {
@@ -937,7 +937,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.2
+        "temp": 9.1
       }
     },
     {
@@ -954,7 +954,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.2
+        "temp": 9.1
       }
     },
     {
@@ -971,7 +971,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.2
+        "temp": 9.1
       }
     },
     {
@@ -988,7 +988,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.2
+        "temp": 9.1
       }
     },
     {
@@ -1005,7 +1005,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.2
+        "temp": 9.1
       }
     },
     {
@@ -1022,7 +1022,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.2
+        "temp": 9.1
       }
     },
     {
@@ -1039,7 +1039,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.2
+        "temp": 9.1
       }
     },
     {
@@ -1056,7 +1056,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.2
+        "temp": 9.1
       }
     },
     {
@@ -1073,7 +1073,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.8
+        "temp": 8.7
       }
     },
     {
@@ -1332,7 +1332,7 @@
       "day": "20",
       "weekday": "mån",
       "time": "17:30",
-      "end_time": "19:00",
+      "end_time": "18:30",
       "team": "F2015-2016",
       "team_id": "520574",
       "type": "Träning",
@@ -2034,7 +2034,7 @@
       "day": "27",
       "weekday": "mån",
       "time": "17:30",
-      "end_time": "19:00",
+      "end_time": "18:30",
       "team": "F2015-2016",
       "team_id": "520574",
       "type": "Träning",
