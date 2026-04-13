@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-13T19:00:40.193543",
+  "last_updated": "2026-04-13T20:42:20.081828",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 169,
+  "activity_count": 168,
   "activities": [
     {
       "date": "2026-04-01",
@@ -759,23 +759,6 @@
       "weekday": "tis",
       "time": "17:30",
       "end_time": "18:30",
-      "team": "P2009-2010",
-      "team_id": "224798",
-      "type": "Övrigt",
-      "description": "Möte",
-      "location": "Kronängs Arena",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 9.3
-      }
-    },
-    {
-      "date": "2026-04-14",
-      "day": "14",
-      "weekday": "tis",
-      "time": "17:30",
-      "end_time": "18:30",
       "team": "P2011",
       "team_id": "260562",
       "type": "Övrigt",
@@ -784,7 +767,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.3
+        "temp": 9.2
       }
     },
     {
@@ -801,7 +784,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.3
+        "temp": 9.2
       }
     },
     {
@@ -818,7 +801,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.3
+        "temp": 9.2
       }
     },
     {
@@ -835,7 +818,24 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.3
+        "temp": 9.2
+      }
+    },
+    {
+      "date": "2026-04-14",
+      "day": "14",
+      "weekday": "tis",
+      "time": "18:00",
+      "end_time": "19:00",
+      "team": "P2009-2010",
+      "team_id": "224798",
+      "type": "Övrigt",
+      "description": "Möte",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.5
       }
     },
     {
@@ -852,7 +852,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.7
+        "temp": 8.5
       }
     },
     {
@@ -869,7 +869,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.1
+        "temp": 7.9
       }
     },
     {
@@ -886,7 +886,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.1
+        "temp": 7.9
       }
     },
     {
@@ -903,7 +903,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.1
+        "temp": 7.9
       }
     },
     {
@@ -920,7 +920,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.8
+        "temp": 5.6
       }
     },
     {
@@ -1073,7 +1073,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.1
+        "temp": 8.9
       }
     },
     {
@@ -1090,7 +1090,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.6
+        "temp": 13.1
       }
     },
     {
@@ -1107,7 +1107,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.6
+        "temp": 13.1
       }
     },
     {
@@ -1124,7 +1124,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.6
+        "temp": 13.1
       }
     },
     {
@@ -1141,7 +1141,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.8
       }
     },
     {
@@ -1192,7 +1192,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.1
+        "temp": 12.3
       }
     },
     {
@@ -1209,7 +1209,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.9
+        "temp": 13.9
       }
     },
     {
@@ -1226,7 +1226,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.9
+        "temp": 13.9
       }
     },
     {
@@ -1243,7 +1243,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.5
+        "temp": 15.5
       }
     },
     {
@@ -1260,24 +1260,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
-      }
-    },
-    {
-      "date": "2026-04-19",
-      "day": "19",
-      "weekday": "sön",
-      "time": "10:00",
-      "end_time": "11:00",
-      "team": "Fotbollsskolan födda 2020",
-      "team_id": "584817",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kristinebergskolan",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.9
+        "temp": 8.5
       }
     },
     {
@@ -1294,7 +1277,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.7
+        "temp": 12.8
       }
     },
     {
@@ -1311,7 +1294,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 12.3
+        "temp": 11.2
       }
     },
     {
@@ -1441,7 +1424,7 @@
       "team_id": "584817",
       "type": "Träning",
       "description": "Träning",
-      "location": "Almåshallen",
+      "location": "Kronängs Arena",
       "weather": null
     },
     {
@@ -2117,7 +2100,7 @@
       "team_id": "584817",
       "type": "Träning",
       "description": "Träning",
-      "location": "Almåshallen",
+      "location": "Kronängs Arena",
       "weather": null
     },
     {
