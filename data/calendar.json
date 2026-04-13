@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-13T11:56:34.374261",
+  "last_updated": "2026-04-13T16:20:59.958716",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 156,
+  "activity_count": 169,
   "activities": [
     {
       "date": "2026-04-01",
@@ -682,7 +682,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.3
+        "temp": 13.8
       }
     },
     {
@@ -699,7 +699,24 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.3
+        "temp": 13.8
+      }
+    },
+    {
+      "date": "2026-04-13",
+      "day": "13",
+      "weekday": "mån",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.8
       }
     },
     {
@@ -716,7 +733,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.3
+        "temp": 13.8
       }
     },
     {
@@ -733,7 +750,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.5
+        "temp": 11.9
       }
     },
     {
@@ -750,7 +767,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.0
+        "temp": 9.1
       }
     },
     {
@@ -767,7 +784,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.0
+        "temp": 9.1
       }
     },
     {
@@ -784,7 +801,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.0
+        "temp": 9.1
       }
     },
     {
@@ -801,7 +818,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.0
+        "temp": 9.1
       }
     },
     {
@@ -818,7 +835,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.0
+        "temp": 9.1
       }
     },
     {
@@ -835,7 +852,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.4
+        "temp": 8.3
       }
     },
     {
@@ -852,7 +869,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.4
+        "temp": 8.3
       }
     },
     {
@@ -869,7 +886,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.8
+        "temp": 7.4
       }
     },
     {
@@ -886,7 +903,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.8
+        "temp": 7.4
       }
     },
     {
@@ -903,7 +920,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.5
+        "temp": 5.5
       }
     },
     {
@@ -918,9 +935,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.2
       }
     },
     {
@@ -935,9 +952,9 @@
       "description": "Domarutbildning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.2
       }
     },
     {
@@ -952,9 +969,9 @@
       "description": "Domarutbildning 9v9",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.2
       }
     },
     {
@@ -969,9 +986,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.2
       }
     },
     {
@@ -986,9 +1003,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.2
       }
     },
     {
@@ -1003,9 +1020,26 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.2
+      }
+    },
+    {
+      "date": "2026-04-15",
+      "day": "15",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.2
       }
     },
     {
@@ -1020,9 +1054,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.2
       }
     },
     {
@@ -1039,7 +1073,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.6
+        "temp": 8.8
       }
     },
     {
@@ -1056,7 +1090,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.9
+        "temp": 12.6
       }
     },
     {
@@ -1073,7 +1107,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.9
+        "temp": 12.6
       }
     },
     {
@@ -1090,7 +1124,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.9
+        "temp": 12.6
       }
     },
     {
@@ -1107,7 +1141,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.6
+        "temp": 12.4
       }
     },
     {
@@ -1115,16 +1149,16 @@
       "day": "16",
       "weekday": "tor",
       "time": "19:00",
-      "end_time": "20:30",
+      "end_time": "",
       "team": "Dam",
       "team_id": "52695",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
+      "type": "Match",
+      "description": "Svenljunga IK A borta",
+      "location": "Högvalla IP A konstgräs(Träningsmatcher Damer, Västergötland)",
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.1
+        "temp": 11.2
       }
     },
     {
@@ -1141,7 +1175,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.1
+        "temp": 11.2
       }
     },
     {
@@ -1156,9 +1190,26 @@
       "description": "BK Spark borta",
       "location": "Alströmervallen konstgräs(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.1
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "day": "18",
+      "weekday": "lör",
+      "time": "11:00",
+      "end_time": "",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Match",
+      "description": "Kronängs IF  hemma",
+      "location": "Kronängs Arena B-plan()",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 12.9
       }
     },
     {
@@ -1173,9 +1224,9 @@
       "description": "9 mot 9 P.13 hemma",
       "location": "Kronängs Arena B-plan()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.2
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 12.9
       }
     },
     {
@@ -1190,9 +1241,9 @@
       "description": "Brämhults IK hemma",
       "location": "Kronängs Arena A-plan()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.5
       }
     },
     {
@@ -1295,6 +1346,19 @@
       "weekday": "mån",
       "time": "17:30",
       "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "weather": null
+    },
+    {
+      "date": "2026-04-20",
+      "day": "20",
+      "weekday": "mån",
+      "time": "17:30",
+      "end_time": "19:00",
       "team": "P 2015",
       "team_id": "56158",
       "type": "Träning",
@@ -1339,6 +1403,45 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-21",
+      "day": "21",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "18:45",
+      "team": "Fotbollsskolan födda 2019",
+      "team_id": "0",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-21",
+      "day": "21",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-21",
+      "day": "21",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "18:45",
+      "team": "Fotbollsskolan födda 2020",
+      "team_id": "584817",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Almåshallen",
       "weather": null
     },
     {
@@ -1469,6 +1572,19 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
+      "weather": null
+    },
+    {
+      "date": "2026-04-22",
+      "day": "22",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
       "weather": null
     },
     {
@@ -1932,6 +2048,19 @@
       "weekday": "mån",
       "time": "17:30",
       "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "weather": null
+    },
+    {
+      "date": "2026-04-27",
+      "day": "27",
+      "weekday": "mån",
+      "time": "17:30",
+      "end_time": "19:00",
       "team": "P 2015",
       "team_id": "56158",
       "type": "Träning",
@@ -1950,6 +2079,45 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
+      "weather": null
+    },
+    {
+      "date": "2026-04-28",
+      "day": "28",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "18:45",
+      "team": "Fotbollsskolan födda 2019",
+      "team_id": "0",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-28",
+      "day": "28",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-28",
+      "day": "28",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "18:45",
+      "team": "Fotbollsskolan födda 2020",
+      "team_id": "584817",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Almåshallen",
       "weather": null
     },
     {
@@ -2054,6 +2222,19 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
+      "weather": null
+    },
+    {
+      "date": "2026-04-29",
+      "day": "29",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
       "weather": null
     },
     {
