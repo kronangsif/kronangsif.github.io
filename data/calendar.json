@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-13T23:34:35.230028",
+  "last_updated": "2026-04-14T01:27:36.610173",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -747,7 +747,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.9
+        "temp": 9.2
       }
     },
     {
@@ -764,7 +764,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.9
+        "temp": 9.2
       }
     },
     {
@@ -781,7 +781,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.9
+        "temp": 9.2
       }
     },
     {
@@ -798,7 +798,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.9
+        "temp": 9.2
       }
     },
     {
@@ -815,7 +815,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.2
+        "temp": 8.7
       }
     },
     {
@@ -832,7 +832,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.2
+        "temp": 8.7
       }
     },
     {
@@ -849,7 +849,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.5
+        "temp": 8.0
       }
     },
     {
@@ -866,7 +866,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.5
+        "temp": 8.0
       }
     },
     {
@@ -883,7 +883,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.5
+        "temp": 8.0
       }
     },
     {
@@ -900,7 +900,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.5
+        "temp": 5.6
       }
     },
     {
@@ -1053,7 +1053,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.0
+        "temp": 8.1
       }
     },
     {
@@ -1070,7 +1070,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.1
+        "temp": 12.2
       }
     },
     {
@@ -1087,7 +1087,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.1
+        "temp": 12.2
       }
     },
     {
@@ -1104,7 +1104,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.1
+        "temp": 12.2
       }
     },
     {
@@ -1121,7 +1121,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.8
+        "temp": 11.9
       }
     },
     {
@@ -1172,7 +1172,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.3
+        "temp": 12.6
       }
     },
     {
@@ -1189,7 +1189,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.9
+        "temp": 12.8
       }
     },
     {
@@ -1206,7 +1206,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.9
+        "temp": 12.8
       }
     },
     {
@@ -1223,7 +1223,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 13.4
       }
     },
     {
@@ -1240,7 +1240,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.5
+        "temp": 6.9
       }
     },
     {
@@ -1257,7 +1257,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.8
+        "temp": 10.8
       }
     },
     {
@@ -1272,9 +1272,9 @@
       "description": "IFK Örby TÄFF hemma",
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 5 Mark)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.4
       }
     },
     {
