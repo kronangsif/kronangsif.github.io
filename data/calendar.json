@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-14T15:05:52.946059",
+  "last_updated": "2026-04-14T16:54:45.843152",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 171,
+  "activity_count": 170,
   "activities": [
     {
       "date": "2026-04-01",
@@ -747,7 +747,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.3
+        "temp": 11.1
       }
     },
     {
@@ -764,7 +764,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.3
+        "temp": 11.1
       }
     },
     {
@@ -781,7 +781,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.3
+        "temp": 11.1
       }
     },
     {
@@ -798,7 +798,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.3
+        "temp": 11.1
       }
     },
     {
@@ -815,7 +815,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.3
+        "temp": 11.1
       }
     },
     {
@@ -832,7 +832,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.3
+        "temp": 11.1
       }
     },
     {
@@ -849,7 +849,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.7
+        "temp": 10.3
       }
     },
     {
@@ -866,7 +866,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.7
+        "temp": 10.3
       }
     },
     {
@@ -883,7 +883,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.2
+        "temp": 8.8
       }
     },
     {
@@ -900,7 +900,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.2
+        "temp": 8.8
       }
     },
     {
@@ -917,7 +917,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.2
+        "temp": 8.8
       }
     },
     {
@@ -932,8 +932,8 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 5.6
       }
     },
@@ -951,7 +951,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.7
+        "temp": 8.4
       }
     },
     {
@@ -968,7 +968,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.7
+        "temp": 8.4
       }
     },
     {
@@ -985,7 +985,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.7
+        "temp": 8.4
       }
     },
     {
@@ -1002,7 +1002,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.7
+        "temp": 8.4
       }
     },
     {
@@ -1019,7 +1019,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.7
+        "temp": 8.4
       }
     },
     {
@@ -1036,7 +1036,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.7
+        "temp": 8.4
       }
     },
     {
@@ -1053,7 +1053,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.7
+        "temp": 8.4
       }
     },
     {
@@ -1070,7 +1070,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.7
+        "temp": 8.4
       }
     },
     {
@@ -1085,9 +1085,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.1
       }
     },
     {
@@ -1104,7 +1104,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.9
+        "temp": 13.3
       }
     },
     {
@@ -1121,7 +1121,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.9
+        "temp": 13.3
       }
     },
     {
@@ -1138,7 +1138,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.9
+        "temp": 13.3
       }
     },
     {
@@ -1155,7 +1155,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.4
+        "temp": 13.1
       }
     },
     {
@@ -1172,24 +1172,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.3
-      }
-    },
-    {
-      "date": "2026-04-16",
-      "day": "16",
-      "weekday": "tor",
-      "time": "19:00",
-      "end_time": "",
-      "team": "Dam",
-      "team_id": "52695",
-      "type": "Match",
-      "description": "Svenljunga IK A borta",
-      "location": "Högvalla IP A konstgräs(Träningsmatcher Damer, Västergötland)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.3
+        "temp": 12.4
       }
     },
     {
@@ -1206,7 +1189,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.3
+        "temp": 12.4
       }
     },
     {
@@ -1223,7 +1206,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.3
+        "temp": 12.4
       }
     },
     {
