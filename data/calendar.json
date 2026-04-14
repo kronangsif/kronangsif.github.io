@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-14T11:51:42.056097",
+  "last_updated": "2026-04-14T13:00:54.857004",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 172,
+  "activity_count": 171,
   "activities": [
     {
       "date": "2026-04-01",
@@ -1238,8 +1238,8 @@
       "description": "BK Spark borta",
       "location": "Alströmervallen konstgräs(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 12.1
       }
     },
@@ -1255,8 +1255,8 @@
       "description": "Kronängs IF  hemma",
       "location": "Kronängs Arena B-plan()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 12.2
       }
     },
@@ -1272,26 +1272,9 @@
       "description": "9 mot 9 P.13 hemma",
       "location": "Kronängs Arena B-plan()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 12.2
-      }
-    },
-    {
-      "date": "2026-04-18",
-      "day": "18",
-      "weekday": "lör",
-      "time": "13:30",
-      "end_time": "",
-      "team": "P2009-2010",
-      "team_id": "224798",
-      "type": "Match",
-      "description": "Brämhults IK hemma",
-      "location": "Kronängs Arena A-plan()",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.7
       }
     },
     {
@@ -1306,8 +1289,8 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 6.5
       }
     },
@@ -1323,8 +1306,8 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 9.8
       }
     },
