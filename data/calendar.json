@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-14T06:25:25.061178",
+  "last_updated": "2026-04-14T08:20:59.192950",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 170,
+  "activity_count": 172,
   "activities": [
     {
       "date": "2026-04-01",
@@ -738,6 +738,40 @@
       "day": "14",
       "weekday": "tis",
       "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2019",
+      "team_id": "0",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.4
+      }
+    },
+    {
+      "date": "2026-04-14",
+      "day": "14",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2020",
+      "team_id": "584817",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.4
+      }
+    },
+    {
+      "date": "2026-04-14",
+      "day": "14",
+      "weekday": "tis",
+      "time": "17:30",
       "end_time": "18:30",
       "team": "P2011",
       "team_id": "260562",
@@ -745,9 +779,9 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.4
       }
     },
     {
@@ -762,9 +796,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.4
       }
     },
     {
@@ -779,9 +813,9 @@
       "description": "Träning + löpning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.4
       }
     },
     {
@@ -796,9 +830,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.4
       }
     },
     {
@@ -813,9 +847,9 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.8
       }
     },
     {
@@ -830,9 +864,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.8
       }
     },
     {
@@ -849,7 +883,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.1
+        "temp": 7.9
       }
     },
     {
@@ -866,7 +900,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.1
+        "temp": 7.9
       }
     },
     {
@@ -883,7 +917,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.1
+        "temp": 7.9
       }
     },
     {
@@ -900,7 +934,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.4
+        "temp": 5.6
       }
     },
     {
@@ -917,7 +951,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.0
       }
     },
     {
@@ -934,7 +968,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.0
       }
     },
     {
@@ -951,7 +985,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.0
       }
     },
     {
@@ -968,7 +1002,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.0
       }
     },
     {
@@ -985,7 +1019,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.0
       }
     },
     {
@@ -1002,7 +1036,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.0
       }
     },
     {
@@ -1019,7 +1053,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.0
       }
     },
     {
@@ -1036,7 +1070,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.0
       }
     },
     {
@@ -1053,7 +1087,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 8.3
+        "temp": 7.8
       }
     },
     {
@@ -1070,7 +1104,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 12.8
       }
     },
     {
@@ -1087,7 +1121,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 12.8
       }
     },
     {
@@ -1104,7 +1138,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 12.8
       }
     },
     {
@@ -1121,7 +1155,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.9
+        "temp": 12.2
       }
     },
     {
@@ -1204,9 +1238,9 @@
       "description": "BK Spark borta",
       "location": "Alströmervallen konstgräs(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 12.1
       }
     },
     {
@@ -1223,7 +1257,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.8
+        "temp": 12.2
       }
     },
     {
@@ -1240,7 +1274,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.8
+        "temp": 12.2
       }
     },
     {
@@ -1257,7 +1291,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.4
+        "temp": 14.7
       }
     },
     {
@@ -1274,7 +1308,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.9
+        "temp": 6.5
       }
     },
     {
@@ -1291,7 +1325,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.8
+        "temp": 9.8
       }
     },
     {
@@ -1308,7 +1342,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 8.4
       }
     },
     {
@@ -1323,9 +1357,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 10.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.8
       }
     },
     {
@@ -1340,9 +1374,9 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 10.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.8
       }
     },
     {
@@ -1357,9 +1391,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 10.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.8
       }
     },
     {
@@ -1374,9 +1408,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 10.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.8
       }
     },
     {
@@ -1391,9 +1425,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 9.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.4
       }
     },
     {
