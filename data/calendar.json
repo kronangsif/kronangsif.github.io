@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-15T14:46:50.074742",
+  "last_updated": "2026-04-15T15:58:55.323208",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -907,7 +907,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.7
+        "temp": 8.9
       }
     },
     {
@@ -924,7 +924,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.7
+        "temp": 8.9
       }
     },
     {
@@ -941,7 +941,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.7
+        "temp": 8.9
       }
     },
     {
@@ -958,7 +958,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.7
+        "temp": 8.9
       }
     },
     {
@@ -975,7 +975,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.7
+        "temp": 8.9
       }
     },
     {
@@ -992,7 +992,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.7
+        "temp": 8.9
       }
     },
     {
@@ -1009,7 +1009,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.7
+        "temp": 8.9
       }
     },
     {
@@ -1026,7 +1026,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.7
+        "temp": 8.9
       }
     },
     {
@@ -1043,7 +1043,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.3
+        "temp": 8.4
       }
     },
     {
@@ -1058,9 +1058,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.5
       }
     },
     {
@@ -1075,9 +1075,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.5
       }
     },
     {
@@ -1092,9 +1092,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.5
       }
     },
     {
@@ -1109,9 +1109,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.2
       }
     },
     {
@@ -1126,9 +1126,9 @@
       "description": "Svenljunga IK A borta",
       "location": "Högvalla IP A konstgräs(Träningsmatcher Damer, Västergötland)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.5
       }
     },
     {
@@ -1143,9 +1143,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.5
       }
     },
     {
@@ -1160,9 +1160,9 @@
       "description": "Svenljunga IK A borta",
       "location": "Högvalla IP A konstgräs(Träningsmatcher Damer VEO)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.5
       }
     },
     {
@@ -1179,7 +1179,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.1
+        "temp": 14.4
       }
     },
     {
