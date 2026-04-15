@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-15T01:23:57.853596",
+  "last_updated": "2026-04-15T04:38:05.778809",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -890,7 +890,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.3
+        "temp": 5.8
       }
     },
     {
@@ -905,9 +905,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.7
       }
     },
     {
@@ -922,9 +922,9 @@
       "description": "Domarutbildning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.7
       }
     },
     {
@@ -939,9 +939,9 @@
       "description": "Domarutbildning 9v9",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.7
       }
     },
     {
@@ -956,9 +956,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.7
       }
     },
     {
@@ -973,9 +973,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.7
       }
     },
     {
@@ -990,9 +990,9 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.7
       }
     },
     {
@@ -1007,9 +1007,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.7
       }
     },
     {
@@ -1024,9 +1024,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.7
       }
     },
     {
@@ -1043,7 +1043,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.8
+        "temp": 8.2
       }
     },
     {
@@ -1060,7 +1060,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.8
+        "temp": 14.5
       }
     },
     {
@@ -1077,7 +1077,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.8
+        "temp": 14.5
       }
     },
     {
@@ -1094,7 +1094,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.8
+        "temp": 14.5
       }
     },
     {
@@ -1111,7 +1111,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.1
+        "temp": 14.1
       }
     },
     {
@@ -1128,7 +1128,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.3
+        "temp": 13.1
       }
     },
     {
@@ -1145,7 +1145,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.3
+        "temp": 13.1
       }
     },
     {
@@ -1162,7 +1162,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.3
+        "temp": 13.1
       }
     },
     {
@@ -1648,6 +1648,19 @@
       "weather": null
     },
     {
+      "date": "2026-04-22",
+      "day": "22",
+      "weekday": "ons",
+      "time": "19:30",
+      "end_time": "",
+      "team": "P2009-2010",
+      "team_id": "224798",
+      "type": "Match",
+      "description": "Hestrafors IF  borta",
+      "location": "Bollevi Konstgräs(Pojkar Div 4 Borås)",
+      "weather": null
+    },
+    {
       "date": "2026-04-23",
       "day": "23",
       "weekday": "tor",
@@ -2009,19 +2022,6 @@
       "type": "Övrigt",
       "description": "Städning Kronäng Arena Cup",
       "location": "Kronängs Arena",
-      "weather": null
-    },
-    {
-      "date": "2026-04-26",
-      "day": "26",
-      "weekday": "sön",
-      "time": "17:00",
-      "end_time": "",
-      "team": "F2013/2014",
-      "team_id": "374981",
-      "type": "Match",
-      "description": "Bredareds IF borta",
-      "location": "Hagavallen, Bredared(Flickor Div 5 Kinna)",
       "weather": null
     },
     {
