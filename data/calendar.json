@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-15T17:04:41.257073",
+  "last_updated": "2026-04-15T19:00:28.945934",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1043,7 +1043,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.9
+        "temp": 8.8
       }
     },
     {
@@ -1179,7 +1179,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.5
+        "temp": 14.4
       }
     },
     {
@@ -1262,8 +1262,8 @@
       "description": "IFK Örby TÄFF hemma",
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 5 Mark)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 9.4
       }
     },
@@ -1279,8 +1279,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 11.6
       }
     },
@@ -1296,8 +1296,8 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 11.6
       }
     },
@@ -1313,8 +1313,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 11.6
       }
     },
@@ -1330,8 +1330,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 11.6
       }
     },
