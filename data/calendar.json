@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-14T23:34:52.748099",
+  "last_updated": "2026-04-15T01:23:57.853596",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -890,7 +890,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.2
+        "temp": 5.3
       }
     },
     {
@@ -1043,7 +1043,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.7
+        "temp": 8.8
       }
     },
     {
@@ -1060,7 +1060,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.7
+        "temp": 13.8
       }
     },
     {
@@ -1077,7 +1077,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.7
+        "temp": 13.8
       }
     },
     {
@@ -1094,7 +1094,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.7
+        "temp": 13.8
       }
     },
     {
@@ -1128,7 +1128,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 12.3
       }
     },
     {
@@ -1145,7 +1145,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 12.3
       }
     },
     {
@@ -1162,7 +1162,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 12.3
       }
     },
     {
@@ -1179,7 +1179,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.8
+        "temp": 12.5
       }
     },
     {
@@ -1196,7 +1196,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.7
+        "temp": 11.2
       }
     },
     {
@@ -1213,7 +1213,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.7
+        "temp": 11.2
       }
     },
     {
@@ -1228,9 +1228,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.2
       }
     },
     {
@@ -1245,9 +1245,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.1
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.8
       }
     },
     {
@@ -1264,7 +1264,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.1
+        "temp": 7.1
       }
     },
     {
@@ -1279,9 +1279,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 12.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 10.2
       }
     },
     {
@@ -1296,9 +1296,9 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 12.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 10.2
       }
     },
     {
@@ -1313,9 +1313,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 12.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 10.2
       }
     },
     {
@@ -1330,9 +1330,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 12.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 10.2
       }
     },
     {
@@ -1349,7 +1349,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.0
+        "temp": 7.8
       }
     },
     {
