@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-16T13:05:03.088688",
+  "last_updated": "2026-04-16T15:18:12.858777",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 176,
+  "activity_count": 178,
   "activities": [
     {
       "date": "2026-04-01",
@@ -1018,9 +1018,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.1
       }
     },
     {
@@ -1035,9 +1035,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.1
       }
     },
     {
@@ -1052,9 +1052,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.1
       }
     },
     {
@@ -1071,7 +1071,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 14.1
+        "temp": 14.0
       }
     },
     {
@@ -1088,7 +1088,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 14.1
+        "temp": 14.0
       }
     },
     {
@@ -1105,7 +1105,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 14.1
+        "temp": 14.0
       }
     },
     {
@@ -1122,7 +1122,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.5
+        "temp": 13.4
       }
     },
     {
@@ -1139,7 +1139,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.5
+        "temp": 13.4
       }
     },
     {
@@ -1156,7 +1156,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.3
+        "temp": 15.1
       }
     },
     {
@@ -1173,7 +1173,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.1
+        "temp": 11.0
       }
     },
     {
@@ -1190,7 +1190,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.1
+        "temp": 11.0
       }
     },
     {
@@ -1825,13 +1825,26 @@
       "date": "2026-04-24",
       "day": "24",
       "weekday": "fre",
-      "time": "19:15",
+      "time": "19:30",
       "end_time": "",
       "team": "Herr",
       "team_id": "38937",
       "type": "Match",
       "description": "Fritsla IF hemma",
       "location": "Borås Arena2(Herrar, Div 5 Sydvästra)",
+      "weather": null
+    },
+    {
+      "date": "2026-04-25",
+      "day": "25",
+      "weekday": "lör",
+      "time": "07:30",
+      "end_time": "18:00",
+      "team": "P2011",
+      "team_id": "260562",
+      "type": "Övrigt",
+      "description": "Domare",
+      "location": "Kronängs Arena",
       "weather": null
     },
     {
@@ -1948,6 +1961,19 @@
       "team_id": "324331",
       "type": "Övrigt",
       "description": "Städning Kronäng Arena Cup",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-26",
+      "day": "26",
+      "weekday": "sön",
+      "time": "07:30",
+      "end_time": "18:00",
+      "team": "P2011",
+      "team_id": "260562",
+      "type": "Övrigt",
+      "description": "Domare",
       "location": "Kronängs Arena",
       "weather": null
     },
