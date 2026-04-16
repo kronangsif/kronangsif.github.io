@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-16T19:59:29.786595",
+  "last_updated": "2026-04-16T20:51:41.776405",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 180,
+  "activity_count": 179,
   "activities": [
     {
       "date": "2026-04-01",
@@ -1190,7 +1190,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.7
       }
     },
     {
@@ -1207,7 +1207,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.7
       }
     },
     {
@@ -1333,6 +1333,23 @@
       "date": "2026-04-20",
       "day": "20",
       "weekday": "mån",
+      "time": "18:45",
+      "end_time": "20:45",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 10.2
+      }
+    },
+    {
+      "date": "2026-04-20",
+      "day": "20",
+      "weekday": "mån",
       "time": "19:00",
       "end_time": "20:45",
       "team": "Herr",
@@ -1442,23 +1459,6 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.6
-      }
-    },
-    {
-      "date": "2026-04-21",
-      "day": "21",
-      "weekday": "tis",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "P2012",
-      "team_id": "281528",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena B-plan",
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
@@ -1771,19 +1771,6 @@
       "type": "Träning",
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
-      "weather": null
-    },
-    {
-      "date": "2026-04-23",
-      "day": "23",
-      "weekday": "tor",
-      "time": "18:45",
-      "end_time": "20:40",
-      "team": "P2012",
-      "team_id": "281528",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena B-plan",
       "weather": null
     },
     {
@@ -2180,6 +2167,19 @@
       "date": "2026-04-27",
       "day": "27",
       "weekday": "mån",
+      "time": "18:45",
+      "end_time": "20:45",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "weather": null
+    },
+    {
+      "date": "2026-04-27",
+      "day": "27",
+      "weekday": "mån",
       "time": "19:00",
       "end_time": "20:45",
       "team": "Herr",
@@ -2187,6 +2187,19 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
+      "weather": null
+    },
+    {
+      "date": "2026-04-27",
+      "day": "27",
+      "weekday": "mån",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "P2011",
+      "team_id": "260562",
+      "type": "Träning",
+      "description": "Träning utomhus",
+      "location": "Kronängs Arena",
       "weather": null
     },
     {
@@ -2284,38 +2297,12 @@
       "date": "2026-04-28",
       "day": "28",
       "weekday": "tis",
-      "time": "18:45",
-      "end_time": "20:40",
-      "team": "P2012",
-      "team_id": "281528",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena B-plan",
-      "weather": null
-    },
-    {
-      "date": "2026-04-28",
-      "day": "28",
-      "weekday": "tis",
       "time": "19:00",
       "end_time": "20:30",
       "team": "Dam",
       "team_id": "52695",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena",
-      "weather": null
-    },
-    {
-      "date": "2026-04-28",
-      "day": "28",
-      "weekday": "tis",
-      "time": "19:00",
-      "end_time": "20:30",
-      "team": "P2011",
-      "team_id": "260562",
-      "type": "Träning",
-      "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": null
     },
@@ -2454,7 +2441,7 @@
       "day": "30",
       "weekday": "tor",
       "time": "18:45",
-      "end_time": "20:40",
+      "end_time": "20:45",
       "team": "P2012",
       "team_id": "281528",
       "type": "Träning",
