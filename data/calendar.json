@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-16T10:06:52.562967",
+  "last_updated": "2026-04-16T11:52:17.519226",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1020,7 +1020,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.2
+        "temp": 14.3
       }
     },
     {
@@ -1037,7 +1037,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.2
+        "temp": 14.3
       }
     },
     {
@@ -1054,7 +1054,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.2
+        "temp": 14.3
       }
     },
     {
@@ -1122,7 +1122,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.2
+        "temp": 13.3
       }
     },
     {
@@ -1139,7 +1139,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.2
+        "temp": 13.3
       }
     },
     {
@@ -1156,7 +1156,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.9
+        "temp": 15.2
       }
     },
     {
@@ -1173,7 +1173,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.9
+        "temp": 11.1
       }
     },
     {
@@ -1190,7 +1190,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.9
+        "temp": 11.1
       }
     },
     {
@@ -1825,7 +1825,7 @@
       "date": "2026-04-24",
       "day": "24",
       "weekday": "fre",
-      "time": "19:30",
+      "time": "19:15",
       "end_time": "",
       "team": "Herr",
       "team_id": "38937",
