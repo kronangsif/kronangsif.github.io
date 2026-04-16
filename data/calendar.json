@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-16T15:18:12.858777",
+  "last_updated": "2026-04-16T17:02:53.643161",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 178,
+  "activity_count": 179,
   "activities": [
     {
       "date": "2026-04-01",
@@ -1071,7 +1071,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 14.0
+        "temp": 13.8
       }
     },
     {
@@ -1088,7 +1088,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 14.0
+        "temp": 13.8
       }
     },
     {
@@ -1105,7 +1105,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 14.0
+        "temp": 13.8
       }
     },
     {
@@ -1122,7 +1122,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.4
+        "temp": 13.1
       }
     },
     {
@@ -1139,7 +1139,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.4
+        "temp": 13.1
       }
     },
     {
@@ -1173,7 +1173,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.0
+        "temp": 11.9
       }
     },
     {
@@ -1190,7 +1190,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.0
+        "temp": 11.9
       }
     },
     {
@@ -1896,6 +1896,19 @@
       "team_id": "324331",
       "type": "Övrigt",
       "description": "Städning Kronäng Arena Cup",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-25",
+      "day": "25",
+      "weekday": "lör",
+      "time": "09:00",
+      "end_time": "18:00",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Övrigt",
+      "description": "Kronäng Arena Cup",
       "location": "Kronängs Arena",
       "weather": null
     },
