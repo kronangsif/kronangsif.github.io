@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-16T08:22:23.365403",
+  "last_updated": "2026-04-16T10:06:52.562967",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1018,9 +1018,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.2
       }
     },
     {
@@ -1035,9 +1035,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.2
       }
     },
     {
@@ -1052,9 +1052,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.2
       }
     },
     {
@@ -1071,7 +1071,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 14.1
+        "temp": 13.9
       }
     },
     {
@@ -1088,7 +1088,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 14.1
+        "temp": 13.9
       }
     },
     {
@@ -1105,7 +1105,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 14.1
+        "temp": 13.9
       }
     },
     {
@@ -1122,7 +1122,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.3
+        "temp": 13.2
       }
     },
     {
@@ -1139,7 +1139,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.3
+        "temp": 13.2
       }
     },
     {
@@ -1173,7 +1173,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.0
+        "temp": 10.9
       }
     },
     {
@@ -1190,7 +1190,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.0
+        "temp": 10.9
       }
     },
     {
@@ -1534,23 +1534,6 @@
       }
     },
     {
-      "date": "2026-04-21",
-      "day": "21",
-      "weekday": "tis",
-      "time": "19:30",
-      "end_time": "",
-      "team": "Herr",
-      "team_id": "38937",
-      "type": "Match",
-      "description": "Fritsla IF hemma",
-      "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 11.7
-      }
-    },
-    {
       "date": "2026-04-22",
       "day": "22",
       "weekday": "ons",
@@ -1650,23 +1633,6 @@
         "icon": "🌤️",
         "desc": "Mestadels klart",
         "temp": 15.5
-      }
-    },
-    {
-      "date": "2026-04-22",
-      "day": "22",
-      "weekday": "ons",
-      "time": "19:00",
-      "end_time": "20:45",
-      "team": "Herr",
-      "team_id": "38937",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena A-plan",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 12.2
       }
     },
     {
@@ -1807,6 +1773,19 @@
       "date": "2026-04-23",
       "day": "23",
       "weekday": "tor",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "Herr",
+      "team_id": "38937",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "weather": null
+    },
+    {
+      "date": "2026-04-23",
+      "day": "23",
+      "weekday": "tor",
       "time": "19:15",
       "end_time": "",
       "team": "Dam",
@@ -1840,6 +1819,19 @@
       "type": "Match",
       "description": "IF Elfsborg Svart hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Dalsjöfors)",
+      "weather": null
+    },
+    {
+      "date": "2026-04-24",
+      "day": "24",
+      "weekday": "fre",
+      "time": "19:30",
+      "end_time": "",
+      "team": "Herr",
+      "team_id": "38937",
+      "type": "Match",
+      "description": "Fritsla IF hemma",
+      "location": "Borås Arena2(Herrar, Div 5 Sydvästra)",
       "weather": null
     },
     {
