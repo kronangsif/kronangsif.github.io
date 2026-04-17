@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-17T01:27:22.584503",
+  "last_updated": "2026-04-17T04:41:27.400794",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1124,7 +1124,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.2
+        "temp": 15.1
       }
     },
     {
@@ -1158,7 +1158,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.3
+        "temp": 11.7
       }
     },
     {
@@ -1175,7 +1175,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.3
+        "temp": 11.7
       }
     },
     {
@@ -1192,7 +1192,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.9
+        "temp": 7.6
       }
     },
     {
@@ -1209,7 +1209,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.4
+        "temp": 7.6
       }
     },
     {
@@ -1847,7 +1847,7 @@
       "team_id": "38937",
       "type": "Match",
       "description": "Fritsla IF hemma",
-      "location": "Borås Arena2(Herrar, Div 5 Sydvästra)",
+      "location": "Borås Arena 2 konstgräs(Herrar, Div 5 Sydvästra)",
       "weather": null
     },
     {
