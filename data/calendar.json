@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-17T08:21:15.707817",
+  "last_updated": "2026-04-17T10:05:20.488431",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 179,
+  "activity_count": 180,
   "activities": [
     {
       "date": "2026-04-01",
@@ -1124,7 +1124,24 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.0
+        "temp": 15.4
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "day": "18",
+      "weekday": "lör",
+      "time": "09:00",
+      "end_time": "11:00",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Övrigt",
+      "description": "Domare",
+      "location": "intern Kronäng, Kronängs Arena",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.5
       }
     },
     {
@@ -1141,7 +1158,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.3
+        "temp": 8.5
       }
     },
     {
@@ -1158,7 +1175,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.4
+        "temp": 11.9
       }
     },
     {
@@ -1175,7 +1192,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.4
+        "temp": 11.9
       }
     },
     {
@@ -1192,7 +1209,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.8
+        "temp": 8.0
       }
     },
     {
@@ -1226,7 +1243,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.3
+        "temp": 8.2
       }
     },
     {
