@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-17T18:43:06.465284",
+  "last_updated": "2026-04-17T19:52:07.954084",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 181,
+  "activity_count": 185,
   "activities": [
     {
       "date": "2026-04-01",
@@ -1209,7 +1209,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.9
+        "temp": 8.4
       }
     },
     {
@@ -1226,7 +1226,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.6
+        "temp": 8.2
       }
     },
     {
@@ -1243,7 +1243,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.7
+        "temp": 9.9
       }
     },
     {
@@ -1260,7 +1260,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.7
+        "temp": 9.9
       }
     },
     {
@@ -1277,7 +1277,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.9
+        "temp": 10.6
       }
     },
     {
@@ -1294,7 +1294,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.9
+        "temp": 10.6
       }
     },
     {
@@ -1311,7 +1311,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.9
+        "temp": 10.6
       }
     },
     {
@@ -1328,7 +1328,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.9
+        "temp": 10.6
       }
     },
     {
@@ -1345,7 +1345,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.4
+        "temp": 10.2
       }
     },
     {
@@ -1362,7 +1362,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.6
+        "temp": 9.4
       }
     },
     {
@@ -1379,7 +1379,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.6
+        "temp": 9.4
       }
     },
     {
@@ -1396,7 +1396,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.1
+        "temp": 14.2
       }
     },
     {
@@ -1413,7 +1413,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.1
+        "temp": 14.2
       }
     },
     {
@@ -1430,7 +1430,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.1
+        "temp": 14.2
       }
     },
     {
@@ -1447,7 +1447,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.1
+        "temp": 14.2
       }
     },
     {
@@ -1464,7 +1464,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.1
+        "temp": 14.2
       }
     },
     {
@@ -1481,7 +1481,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.1
+        "temp": 14.2
       }
     },
     {
@@ -1498,7 +1498,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.1
+        "temp": 14.2
       }
     },
     {
@@ -1515,7 +1515,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.1
+        "temp": 14.2
       }
     },
     {
@@ -1532,7 +1532,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.6
+        "temp": 13.0
       }
     },
     {
@@ -1549,7 +1549,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.4
+        "temp": 11.3
       }
     },
     {
@@ -1566,7 +1566,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 13.0
       }
     },
     {
@@ -1583,7 +1583,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 13.0
       }
     },
     {
@@ -1600,7 +1600,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 13.0
       }
     },
     {
@@ -1617,7 +1617,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 13.0
       }
     },
     {
@@ -1634,7 +1634,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 13.0
       }
     },
     {
@@ -1651,7 +1651,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 13.0
       }
     },
     {
@@ -1668,7 +1668,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 11.0
+        "temp": 10.6
       }
     },
     {
@@ -1685,7 +1685,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.2
+        "temp": 7.4
       }
     },
     {
@@ -1702,7 +1702,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 11.2
+        "temp": 13.8
       }
     },
     {
@@ -1719,7 +1719,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 11.2
+        "temp": 13.8
       }
     },
     {
@@ -1736,7 +1736,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 11.2
+        "temp": 13.8
       }
     },
     {
@@ -1753,7 +1753,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 10.1
+        "temp": 12.9
       }
     },
     {
@@ -1770,7 +1770,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 10.1
+        "temp": 12.9
       }
     },
     {
@@ -1787,7 +1787,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 10.1
+        "temp": 12.9
       }
     },
     {
@@ -1804,7 +1804,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 10.1
+        "temp": 12.9
       }
     },
     {
@@ -1821,7 +1821,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.1
+        "temp": 11.9
       }
     },
     {
@@ -1838,7 +1838,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.1
+        "temp": 11.9
       }
     },
     {
@@ -1855,7 +1855,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.1
+        "temp": 11.9
       }
     },
     {
@@ -1894,6 +1894,32 @@
       "team_id": "260562",
       "type": "Övrigt",
       "description": "Domare",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-25",
+      "day": "25",
+      "weekday": "lör",
+      "time": "07:30",
+      "end_time": "18:30",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Träning",
+      "description": "Domare Kronäng Arena Cup",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-25",
+      "day": "25",
+      "weekday": "lör",
+      "time": "",
+      "end_time": "",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Övrigt",
+      "description": "Domare Kronäng Arena Cup",
       "location": "Kronängs Arena",
       "weather": null
     },
@@ -2031,12 +2057,38 @@
       "date": "2026-04-26",
       "day": "26",
       "weekday": "sön",
+      "time": "",
+      "end_time": "",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Övrigt",
+      "description": "Domare Kronäng Arena Cup",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-26",
+      "day": "26",
+      "weekday": "sön",
       "time": "07:30",
       "end_time": "18:00",
       "team": "P2011",
       "team_id": "260562",
       "type": "Övrigt",
       "description": "Domare",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-04-26",
+      "day": "26",
+      "weekday": "sön",
+      "time": "07:30",
+      "end_time": "18:30",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Träning",
+      "description": "Domare Kronäng Arena Cup",
       "location": "Kronängs Arena",
       "weather": null
     },
