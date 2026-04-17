@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-17T21:32:55.646945",
+  "last_updated": "2026-04-17T22:28:26.397261",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1121,11 +1121,7 @@
       "type": "Match",
       "description": "BK Spark borta",
       "location": "Alströmervallen konstgräs(Herrar, Div 5 Sydvästra)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.3
-      }
+      "weather": null
     },
     {
       "date": "2026-04-18",
@@ -1141,7 +1137,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 9.1
       }
     },
     {
@@ -1158,7 +1154,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 9.1
       }
     },
     {
@@ -1175,7 +1171,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.8
+        "temp": 11.7
       }
     },
     {
@@ -1192,7 +1188,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.8
+        "temp": 11.7
       }
     },
     {
@@ -1209,7 +1205,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.5
+        "temp": 8.1
       }
     },
     {
@@ -1241,9 +1237,9 @@
       "description": "IFK Örby hemma",
       "location": "Kronängs Arena()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.8
       }
     },
     {
@@ -1258,9 +1254,9 @@
       "description": "IFK Örby TÄFF hemma",
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 5 Mark)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.8
       }
     },
     {
@@ -1869,7 +1865,11 @@
       "type": "Match",
       "description": "IF Elfsborg Svart hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Dalsjöfors)",
-      "weather": null
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.1
+      }
     },
     {
       "date": "2026-04-24",
@@ -1882,7 +1882,11 @@
       "type": "Match",
       "description": "Fritsla IF hemma",
       "location": "Borås Arena 2 konstgräs(Herrar, Div 5 Sydvästra)",
-      "weather": null
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 11.8
+      }
     },
     {
       "date": "2026-04-25",
