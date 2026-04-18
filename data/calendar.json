@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-18T07:53:54.205891",
+  "last_updated": "2026-04-18T08:37:39.532539",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 185,
+  "activity_count": 186,
   "activities": [
     {
       "date": "2026-04-01",
@@ -1223,6 +1223,23 @@
         "icon": "🌧️",
         "desc": "Dis",
         "temp": 8.1
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "day": "19",
+      "weekday": "sön",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Dam",
+      "team_id": "52695",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.7
       }
     },
     {
