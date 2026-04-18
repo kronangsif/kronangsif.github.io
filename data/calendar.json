@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-18T04:23:57.913740",
+  "last_updated": "2026-04-18T06:07:08.650418",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1137,7 +1137,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.3
+        "temp": 7.1
       }
     },
     {
@@ -1154,7 +1154,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.3
+        "temp": 7.1
       }
     },
     {
@@ -1171,7 +1171,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.7
+        "temp": 10.4
       }
     },
     {
@@ -1188,7 +1188,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.7
+        "temp": 10.4
       }
     },
     {
@@ -1222,7 +1222,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.1
+        "temp": 8.2
       }
     },
     {
@@ -2100,8 +2100,8 @@
       "date": "2026-04-26",
       "day": "26",
       "weekday": "sön",
-      "time": "08:00",
-      "end_time": "18:00",
+      "time": "07:50",
+      "end_time": "14:00",
       "team": "F2015-2016",
       "team_id": "520574",
       "type": "Övrigt",
