@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-18T14:34:40.105913",
+  "last_updated": "2026-04-18T15:29:09.698365",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1358,7 +1358,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.2
+        "temp": 12.1
       }
     },
     {
@@ -2610,18 +2610,18 @@
   ],
   "latest_news": [
     {
+      "title": "KronängsNYTT",
+      "published_at": "2026-04-18 16:42",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1337713",
+      "image": "",
+      "summary": "Kronängsnytt - April"
+    },
+    {
       "title": "Spelschema klart!",
       "published_at": "2026-04-10 09:40, Kronäng Arena Cup 2026",
       "url": "https://www.kronangsif.se/nyheter/?ID=130211&NID=1335989",
       "image": "",
       "summary": "Nu finns spelschemat publicerat på vår cup-sida. Följ denna länk: https://cupen.nu/KAC2026/teams och klicka in er på korrekt division och lag. Cupen.nu kommer under turneringen uppdateras med liveresultat så att man enkelt kan följa sitt eller sina favoritlag! Vi kommer under helgen också att ta en hel del kort runt arenan och matchsituationer. Om det är något lag som inte vill vara med på kort som kan komma att publiceras på vår hemsida, skicka ett mail till info@kronangsif.se med denna information. Vi återkommer med mer praktisk information runt cupen när vi närmar oss!"
-    },
-    {
-      "title": "Damlaget vidare i DM-slutspelet!",
-      "published_at": "2026-04-02 12:01, Dam",
-      "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1334858",
-      "image": "https://cdn.sportadmin.se/559/h/200/8d46c1450467499dadb6676a5f04e34ac9bbb7f5ad2e7cc0a8def29d6f8a5209_L.jpg",
-      "summary": "Igår spelade damlaget bortamatch mot Örlösa Sönne IK i Lidköping, det var en lång resa att åka och många spelare borta pga sjukdomar men det löste tjejerna ändå med ett riktigt målkalas! Daniels kommentar om matchen: Riktigt bra insats av tjejerna idag! Likt förra matchen visade samtliga en grym inställning och en vilja att träna på det vi pratat om. Vi lyckas göra mål redan efter två minuter vilket ju underlättar när man möter ett lag som står lite lägre. Vi spelar oss fram till väldigt många fina målchanser i både första och andra halvlek. En del av de kombinationer och uppspelsvarianter vi tränat på såg vi också skymta förbi. Efter 6-0 i första halvlek går målproduktionen ner litegrann i andra, men chanser skapade vi hela tiden. Kul att vara vidare ytterligare ett steg i DM. Nu siktar vi på att även ta oss förbi nästa omgång så vi får spela kvartsfinal efter sommaren! Grattis tjejer och riktigt bra jobbat."
     }
   ]
 }
