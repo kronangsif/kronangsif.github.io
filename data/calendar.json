@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19T11:27:20.405994",
+  "last_updated": "2026-04-19T12:37:19.590738",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1223,7 +1223,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.8
+        "temp": 7.9
       }
     },
     {
@@ -1240,7 +1240,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.0
+        "temp": 8.1
       }
     },
     {
@@ -1257,7 +1257,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.0
+        "temp": 8.1
       }
     },
     {
@@ -1274,7 +1274,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 12.7
+        "temp": 12.5
       }
     },
     {
@@ -1291,7 +1291,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 12.7
+        "temp": 12.5
       }
     },
     {
@@ -1308,7 +1308,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 12.7
+        "temp": 12.5
       }
     },
     {
@@ -1325,7 +1325,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 12.7
+        "temp": 12.5
       }
     },
     {
@@ -1342,7 +1342,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 12.2
+        "temp": 12.1
       }
     },
     {
@@ -1393,7 +1393,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.4
+        "temp": 15.2
       }
     },
     {
@@ -1410,7 +1410,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.4
+        "temp": 15.2
       }
     },
     {
@@ -1427,7 +1427,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.4
+        "temp": 15.2
       }
     },
     {
@@ -1444,7 +1444,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.4
+        "temp": 15.2
       }
     },
     {
@@ -1461,7 +1461,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.4
+        "temp": 15.2
       }
     },
     {
@@ -1478,7 +1478,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.4
+        "temp": 15.2
       }
     },
     {
@@ -1495,7 +1495,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.4
+        "temp": 15.2
       }
     },
     {
@@ -1512,7 +1512,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.4
+        "temp": 15.2
       }
     },
     {
@@ -1529,7 +1529,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.7
+        "temp": 14.6
       }
     },
     {
@@ -1546,7 +1546,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.4
+        "temp": 13.3
       }
     },
     {
@@ -1563,7 +1563,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 15.6
       }
     },
     {
@@ -1580,7 +1580,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 15.6
       }
     },
     {
@@ -1597,7 +1597,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 15.6
       }
     },
     {
@@ -1614,7 +1614,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 15.6
       }
     },
     {
@@ -1631,7 +1631,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 15.6
       }
     },
     {
@@ -1648,7 +1648,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 15.6
       }
     },
     {
@@ -1663,9 +1663,9 @@
       "description": "Hestrafors IF  borta",
       "location": "Bollevi Konstgräs(Pojkar Div 4 Borås)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 13.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.4
       }
     },
     {
@@ -1682,7 +1682,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 6.9
+        "temp": 6.4
       }
     },
     {
@@ -1697,9 +1697,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 12.8
       }
     },
     {
@@ -1714,9 +1714,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 12.8
       }
     },
     {
@@ -1731,9 +1731,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 12.8
       }
     },
     {
@@ -1748,9 +1748,9 @@
       "description": "Redvägs FK borta",
       "location": "Enevi A-plan(Pojkar Div 6 Borås)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 12.7
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 12.1
       }
     },
     {
@@ -1765,9 +1765,9 @@
       "description": "Svansjö borta",
       "location": "Svansjövallen(Pojkar Div 8 Borås norr)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 12.7
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 12.1
       }
     },
     {
@@ -1782,9 +1782,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 12.7
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 12.1
       }
     },
     {
@@ -1799,9 +1799,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 12.7
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 12.1
       }
     },
     {
@@ -1816,9 +1816,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 11.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 11.0
       }
     },
     {
@@ -1833,9 +1833,9 @@
       "description": "IK Frisco U hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 11.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 11.0
       }
     },
     {
@@ -1850,9 +1850,9 @@
       "description": "IK Frisco U hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 11.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 11.0
       }
     },
     {
@@ -1867,9 +1867,9 @@
       "description": "IF Elfsborg Svart hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Dalsjöfors)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 10.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.8
       }
     },
     {
@@ -1884,9 +1884,9 @@
       "description": "Fritsla IF hemma",
       "location": "Borås Arena 2 konstgräs(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 10.9
       }
     },
     {
@@ -1903,7 +1903,7 @@
       "weather": {
         "icon": "❄️",
         "desc": "Snö",
-        "temp": 2.5
+        "temp": 3.0
       }
     },
     {
@@ -1920,7 +1920,7 @@
       "weather": {
         "icon": "❄️",
         "desc": "Snö",
-        "temp": 2.5
+        "temp": 3.0
       }
     },
     {
@@ -1950,7 +1950,7 @@
       "weather": {
         "icon": "❄️",
         "desc": "Snö",
-        "temp": 2.5
+        "temp": 3.0
       }
     },
     {
@@ -1967,7 +1967,7 @@
       "weather": {
         "icon": "❄️",
         "desc": "Snö",
-        "temp": 2.8
+        "temp": 2.5
       }
     },
     {
@@ -1984,7 +1984,7 @@
       "weather": {
         "icon": "❄️",
         "desc": "Snö",
-        "temp": 2.8
+        "temp": 2.5
       }
     },
     {
