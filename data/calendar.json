@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19T09:37:55.069770",
+  "last_updated": "2026-04-19T10:30:34.478863",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1204,9 +1204,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.5
       }
     },
     {
@@ -1223,7 +1223,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.7
+        "temp": 7.8
       }
     },
     {
@@ -1238,9 +1238,9 @@
       "description": "IFK Örby hemma",
       "location": "Kronängs Arena()",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.9
       }
     },
     {
@@ -1255,9 +1255,9 @@
       "description": "IFK Örby TÄFF hemma",
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 5 Mark)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.9
       }
     },
     {
@@ -1272,9 +1272,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 12.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 12.7
       }
     },
     {
@@ -1289,9 +1289,9 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 12.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 12.7
       }
     },
     {
@@ -1306,9 +1306,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 12.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 12.7
       }
     },
     {
@@ -1323,9 +1323,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 12.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 12.7
       }
     },
     {
@@ -1340,9 +1340,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 12.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.2
       }
     },
     {
@@ -1359,7 +1359,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.0
+        "temp": 11.3
       }
     },
     {
@@ -1376,7 +1376,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.0
+        "temp": 11.3
       }
     },
     {
@@ -1393,7 +1393,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 15.4
       }
     },
     {
@@ -1410,7 +1410,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 15.4
       }
     },
     {
@@ -1427,7 +1427,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 15.4
       }
     },
     {
@@ -1444,7 +1444,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 15.4
       }
     },
     {
@@ -1461,7 +1461,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 15.4
       }
     },
     {
@@ -1478,7 +1478,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 15.4
       }
     },
     {
@@ -1495,7 +1495,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 15.4
       }
     },
     {
@@ -1512,7 +1512,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 15.4
       }
     },
     {
@@ -1529,7 +1529,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.0
+        "temp": 14.7
       }
     },
     {
@@ -1546,7 +1546,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.4
+        "temp": 13.4
       }
     },
     {
@@ -2642,18 +2642,18 @@
   ],
   "latest_news": [
     {
+      "title": "Damlagets match blev ett ytterligare målkalas där matchen slutade 12-3",
+      "published_at": "2026-04-19 12:27, Dam",
+      "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1337801",
+      "image": "https://cdn.sportadmin.se/559/h/200/820be2faa46eec1dccf6581d95c8f4555c262e06ed099d00b2d6754cd8056eaf_L.jpg",
+      "summary": "Daniels kommentar om matchen: Tycker att vi återigen gör en bra match och visar en riktigt bra inställning. Vi spelar oss fram till många fina målchanser och idag var också effektiviteten framför mål lite bättre än senast. Lite extra Kul att vår nya Moa fick igång målskyttet direkt!"
+    },
+    {
       "title": "KronängsNYTT",
       "published_at": "2026-04-18 16:42",
       "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1337713",
       "image": "",
       "summary": "Kronängsnytt - April"
-    },
-    {
-      "title": "Spelschema klart!",
-      "published_at": "2026-04-10 09:40, Kronäng Arena Cup 2026",
-      "url": "https://www.kronangsif.se/nyheter/?ID=130211&NID=1335989",
-      "image": "",
-      "summary": "Nu finns spelschemat publicerat på vår cup-sida. Följ denna länk: https://cupen.nu/KAC2026/teams och klicka in er på korrekt division och lag. Cupen.nu kommer under turneringen uppdateras med liveresultat så att man enkelt kan följa sitt eller sina favoritlag! Vi kommer under helgen också att ta en hel del kort runt arenan och matchsituationer. Om det är något lag som inte vill vara med på kort som kan komma att publiceras på vår hemsida, skicka ett mail till info@kronangsif.se med denna information. Vi återkommer med mer praktisk information runt cupen när vi närmar oss!"
     }
   ]
 }
