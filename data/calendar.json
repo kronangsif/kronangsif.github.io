@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19T01:42:51.212374",
+  "last_updated": "2026-04-19T04:43:43.017845",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1187,9 +1187,9 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 7.8
       }
     },
     {
@@ -1206,7 +1206,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.1
+        "temp": 9.7
       }
     },
     {
@@ -1223,7 +1223,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.3
+        "temp": 8.8
       }
     },
     {
@@ -1240,7 +1240,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.5
+        "temp": 8.5
       }
     },
     {
@@ -1257,7 +1257,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.5
+        "temp": 8.5
       }
     },
     {
@@ -1274,7 +1274,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.4
+        "temp": 12.6
       }
     },
     {
@@ -1291,7 +1291,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.4
+        "temp": 12.6
       }
     },
     {
@@ -1308,7 +1308,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.4
+        "temp": 12.6
       }
     },
     {
@@ -1325,7 +1325,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.4
+        "temp": 12.6
       }
     },
     {
@@ -1342,7 +1342,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.9
+        "temp": 12.0
       }
     },
     {
