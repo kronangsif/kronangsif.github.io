@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-20T16:54:14.327745",
+  "last_updated": "2026-04-20T17:50:45.616621",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 185,
+  "activity_count": 186,
   "activities": [
     {
       "date": "2026-04-01",
@@ -1339,7 +1339,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 12.1
+        "temp": 12.3
       }
     },
     {
@@ -1356,7 +1356,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 12.1
+        "temp": 12.3
       }
     },
     {
@@ -2267,6 +2267,23 @@
         "icon": "⛅",
         "desc": "Delvis molnigt",
         "temp": 8.2
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "day": "26",
+      "weekday": "sön",
+      "time": "16:30",
+      "end_time": "18:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Övrigt",
+      "description": "Röja efter Kronäng Arena Cup",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 7.9
       }
     },
     {
