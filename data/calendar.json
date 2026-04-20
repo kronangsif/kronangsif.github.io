@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-20T13:05:21.168942",
+  "last_updated": "2026-04-20T15:09:02.448594",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1373,7 +1373,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.1
+        "temp": 16.0
       }
     },
     {
@@ -1390,7 +1390,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.1
+        "temp": 16.0
       }
     },
     {
@@ -1407,7 +1407,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.1
+        "temp": 16.0
       }
     },
     {
@@ -1424,7 +1424,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.1
+        "temp": 16.0
       }
     },
     {
@@ -1441,7 +1441,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.1
+        "temp": 16.0
       }
     },
     {
@@ -1458,7 +1458,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.1
+        "temp": 16.0
       }
     },
     {
@@ -1475,7 +1475,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.1
+        "temp": 16.0
       }
     },
     {
@@ -1492,7 +1492,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.1
+        "temp": 16.0
       }
     },
     {
@@ -1500,7 +1500,7 @@
       "day": "21",
       "weekday": "tis",
       "time": "18:45",
-      "end_time": "20:15",
+      "end_time": "20:30",
       "team": "P2009-2010",
       "team_id": "224798",
       "type": "Träning",
@@ -1526,7 +1526,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.5
+        "temp": 14.4
       }
     },
     {
