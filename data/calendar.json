@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T18:57:04.762079",
+  "last_updated": "2026-04-21T20:00:35.604062",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1515,7 +1515,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.9
+        "temp": 18.1
       }
     },
     {
@@ -1532,7 +1532,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.3
+        "temp": 17.5
       }
     },
     {
@@ -1549,7 +1549,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.3
+        "temp": 17.5
       }
     },
     {
@@ -1566,7 +1566,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.3
+        "temp": 17.5
       }
     },
     {
@@ -1583,7 +1583,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.3
+        "temp": 17.5
       }
     },
     {
@@ -1600,7 +1600,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.3
+        "temp": 17.5
       }
     },
     {
@@ -1617,7 +1617,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.3
+        "temp": 17.5
       }
     },
     {
@@ -1634,7 +1634,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 14.9
+        "temp": 15.1
       }
     },
     {
@@ -1651,7 +1651,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 7.2
+        "temp": 7.1
       }
     },
     {
@@ -1668,7 +1668,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.4
+        "temp": 16.5
       }
     },
     {
@@ -1685,7 +1685,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.4
+        "temp": 16.5
       }
     },
     {
@@ -1702,7 +1702,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.4
+        "temp": 16.5
       }
     },
     {
@@ -1719,7 +1719,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.7
+        "temp": 15.8
       }
     },
     {
@@ -1736,7 +1736,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.7
+        "temp": 15.8
       }
     },
     {
@@ -1753,7 +1753,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.7
+        "temp": 15.8
       }
     },
     {
@@ -1770,7 +1770,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.7
+        "temp": 15.8
       }
     },
     {
@@ -1838,7 +1838,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.9
+        "temp": 13.6
       }
     },
     {
@@ -1855,7 +1855,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 12.4
+        "temp": 12.2
       }
     },
     {
@@ -1872,7 +1872,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 5.7
+        "temp": 4.7
       }
     },
     {
@@ -1889,7 +1889,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 5.7
+        "temp": 4.7
       }
     },
     {
@@ -1919,7 +1919,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 5.7
+        "temp": 4.7
       }
     },
     {
@@ -1936,7 +1936,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 6.7
+        "temp": 6.2
       }
     },
     {
@@ -1953,7 +1953,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 6.7
+        "temp": 6.2
       }
     },
     {
@@ -1970,7 +1970,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.4
+        "temp": 7.5
       }
     },
     {
@@ -1987,7 +1987,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.4
+        "temp": 7.5
       }
     },
     {
@@ -2004,7 +2004,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 8.1
+        "temp": 8.8
       }
     },
     {
@@ -2021,7 +2021,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 9.6
       }
     },
     {
@@ -2038,7 +2038,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.4
+        "temp": 9.1
       }
     },
     {
@@ -2055,7 +2055,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 8.6
       }
     },
     {
@@ -2072,7 +2072,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.8
+        "temp": 8.6
       }
     },
     {
@@ -2102,7 +2102,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 1.7
+        "temp": 2.3
       }
     },
     {
@@ -2119,7 +2119,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 1.7
+        "temp": 2.3
       }
     },
     {
@@ -2136,7 +2136,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 1.7
+        "temp": 2.3
       }
     },
     {
@@ -2153,7 +2153,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 2.5
+        "temp": 3.1
       }
     },
     {
@@ -2170,7 +2170,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 3.6
+        "temp": 4.1
       }
     },
     {
@@ -2187,7 +2187,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 4.9
+        "temp": 5.2
       }
     },
     {
@@ -2204,7 +2204,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.1
+        "temp": 7.2
       }
     },
     {
@@ -2221,7 +2221,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.1
+        "temp": 7.2
       }
     },
     {
@@ -2238,7 +2238,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 7.8
+        "temp": 8.1
       }
     },
     {
@@ -2255,7 +2255,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 9.1
+        "temp": 8.9
       }
     },
     {
@@ -2272,7 +2272,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 9.6
+        "temp": 8.9
       }
     },
     {
@@ -2289,7 +2289,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 9.6
+        "temp": 8.9
       }
     },
     {
@@ -2306,7 +2306,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 8.1
+        "temp": 8.2
       }
     },
     {
@@ -2323,7 +2323,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 8.1
+        "temp": 8.2
       }
     },
     {
@@ -2340,7 +2340,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 8.1
+        "temp": 8.2
       }
     },
     {
@@ -2357,7 +2357,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 8.1
+        "temp": 8.2
       }
     },
     {
@@ -2374,7 +2374,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.6
+        "temp": 7.8
       }
     },
     {
@@ -2391,7 +2391,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.1
+        "temp": 7.2
       }
     },
     {
@@ -2408,7 +2408,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.1
+        "temp": 7.2
       }
     },
     {
