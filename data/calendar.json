@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T01:27:19.452072",
+  "last_updated": "2026-04-21T04:41:12.144796",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1345,7 +1345,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.2
+        "temp": 15.9
       }
     },
     {
@@ -1362,7 +1362,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.2
+        "temp": 15.9
       }
     },
     {
@@ -1379,7 +1379,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.2
+        "temp": 15.9
       }
     },
     {
@@ -1396,7 +1396,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.2
+        "temp": 15.9
       }
     },
     {
@@ -1413,7 +1413,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.2
+        "temp": 15.9
       }
     },
     {
@@ -1430,7 +1430,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.2
+        "temp": 15.9
       }
     },
     {
@@ -1447,7 +1447,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.2
+        "temp": 15.9
       }
     },
     {
@@ -1464,7 +1464,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.2
+        "temp": 15.9
       }
     },
     {
@@ -1481,7 +1481,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.8
+        "temp": 15.7
       }
     },
     {
@@ -1498,7 +1498,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.2
+        "temp": 14.9
       }
     },
     {
@@ -1515,7 +1515,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.0
+        "temp": 16.9
       }
     },
     {
@@ -1532,7 +1532,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.0
+        "temp": 16.9
       }
     },
     {
@@ -1549,7 +1549,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.0
+        "temp": 16.9
       }
     },
     {
@@ -1566,7 +1566,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.0
+        "temp": 16.9
       }
     },
     {
@@ -1583,7 +1583,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.0
+        "temp": 16.9
       }
     },
     {
@@ -1600,7 +1600,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.0
+        "temp": 16.9
       }
     },
     {
@@ -1615,9 +1615,9 @@
       "description": "Hestrafors IF  borta",
       "location": "Bollevi Konstgräs(Pojkar Div 4 Borås)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.7
       }
     },
     {
@@ -1632,9 +1632,9 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 7.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 6.9
       }
     },
     {
