@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-22T04:38:34.593587",
+  "last_updated": "2026-04-22T06:29:40.468592",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1475,7 +1475,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.7
+        "temp": 17.9
       }
     },
     {
@@ -1492,7 +1492,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.3
+        "temp": 17.5
       }
     },
     {
@@ -1509,7 +1509,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.3
+        "temp": 17.5
       }
     },
     {
@@ -1526,7 +1526,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.3
+        "temp": 17.5
       }
     },
     {
@@ -1543,7 +1543,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.3
+        "temp": 17.5
       }
     },
     {
@@ -1560,7 +1560,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.3
+        "temp": 17.5
       }
     },
     {
@@ -1577,7 +1577,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.3
+        "temp": 17.5
       }
     },
     {
@@ -1594,7 +1594,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 15.1
+        "temp": 15.2
       }
     },
     {
@@ -1611,7 +1611,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.6
+        "temp": 5.5
       }
     },
     {
@@ -1628,7 +1628,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.7
+        "temp": 16.8
       }
     },
     {
@@ -1645,7 +1645,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.7
+        "temp": 16.8
       }
     },
     {
@@ -1662,7 +1662,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.7
+        "temp": 16.8
       }
     },
     {
