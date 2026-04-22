@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-22T10:10:40.117874",
+  "last_updated": "2026-04-22T11:52:06.607368",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 188,
+  "activity_count": 190,
   "activities": [
     {
       "date": "2026-04-01",
@@ -1475,7 +1475,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.2
+        "temp": 17.4
       }
     },
     {
@@ -1492,7 +1492,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.8
+        "temp": 17.1
       }
     },
     {
@@ -1509,7 +1509,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.8
+        "temp": 17.1
       }
     },
     {
@@ -1526,7 +1526,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.8
+        "temp": 17.1
       }
     },
     {
@@ -1543,7 +1543,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.8
+        "temp": 17.1
       }
     },
     {
@@ -1560,7 +1560,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.8
+        "temp": 17.1
       }
     },
     {
@@ -1577,7 +1577,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.8
+        "temp": 17.1
       }
     },
     {
@@ -1594,7 +1594,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 14.9
+        "temp": 14.8
       }
     },
     {
@@ -1611,7 +1611,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.8
+        "temp": 7.0
       }
     },
     {
@@ -1628,7 +1628,24 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.5
+        "temp": 16.7
+      }
+    },
+    {
+      "date": "2026-04-23",
+      "day": "23",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.7
       }
     },
     {
@@ -1645,7 +1662,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.5
+        "temp": 16.7
       }
     },
     {
@@ -1662,7 +1679,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.5
+        "temp": 16.7
       }
     },
     {
@@ -1679,7 +1696,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.8
+        "temp": 16.0
       }
     },
     {
@@ -1696,7 +1713,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.8
+        "temp": 16.0
       }
     },
     {
@@ -1713,7 +1730,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.8
+        "temp": 16.0
       }
     },
     {
@@ -1730,7 +1747,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.8
+        "temp": 16.0
       }
     },
     {
@@ -1798,7 +1815,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.3
+        "temp": 16.5
       }
     },
     {
@@ -1815,7 +1832,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.3
+        "temp": 14.4
       }
     },
     {
@@ -2587,6 +2604,19 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
+      "weather": null
+    },
+    {
+      "date": "2026-04-30",
+      "day": "30",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
       "weather": null
     },
     {
