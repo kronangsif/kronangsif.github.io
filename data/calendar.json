@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-22T15:03:51.809492",
+  "last_updated": "2026-04-22T16:48:34.981894",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1594,7 +1594,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.9
+        "temp": 14.7
       }
     },
     {
@@ -1609,9 +1609,9 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.0
       }
     },
     {
@@ -1626,9 +1626,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.6
       }
     },
     {
@@ -1643,9 +1643,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.6
       }
     },
     {
@@ -1660,9 +1660,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.6
       }
     },
     {
@@ -1677,9 +1677,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.6
       }
     },
     {
@@ -1696,7 +1696,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.2
+        "temp": 15.8
       }
     },
     {
@@ -1713,7 +1713,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.2
+        "temp": 15.8
       }
     },
     {
@@ -1730,7 +1730,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.2
+        "temp": 15.8
       }
     },
     {
@@ -1747,7 +1747,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.2
+        "temp": 15.8
       }
     },
     {
@@ -1764,7 +1764,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.4
+        "temp": 15.1
       }
     },
     {
@@ -1781,7 +1781,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.4
+        "temp": 15.1
       }
     },
     {
@@ -1798,7 +1798,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.4
+        "temp": 15.1
       }
     },
     {
@@ -1815,7 +1815,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.3
+        "temp": 16.7
       }
     },
     {
@@ -1832,7 +1832,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 15.3
+        "temp": 15.4
       }
     },
     {
