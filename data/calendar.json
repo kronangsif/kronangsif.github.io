@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-23T22:34:23.838744",
+  "last_updated": "2026-04-23T23:36:23.323152",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1752,7 +1752,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.6
+        "temp": 15.7
       }
     },
     {
@@ -1769,7 +1769,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.4
+        "temp": 7.5
       }
     },
     {
@@ -1786,7 +1786,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.4
+        "temp": 7.5
       }
     },
     {
@@ -1816,7 +1816,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.4
+        "temp": 7.5
       }
     },
     {
@@ -1833,7 +1833,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 8.5
+        "temp": 8.6
       }
     },
     {
@@ -1850,7 +1850,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 8.5
+        "temp": 8.6
       }
     },
     {
@@ -1867,7 +1867,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 9.4
+        "temp": 9.5
       }
     },
     {
@@ -1884,7 +1884,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 9.4
+        "temp": 9.5
       }
     },
     {
@@ -1901,7 +1901,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 10.4
+        "temp": 10.3
       }
     },
     {
@@ -1918,7 +1918,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.7
+        "temp": 11.8
       }
     },
     {
@@ -1952,7 +1952,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.6
+        "temp": 10.7
       }
     },
     {
@@ -2050,7 +2050,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 3.3
+        "temp": 3.4
       }
     },
     {
