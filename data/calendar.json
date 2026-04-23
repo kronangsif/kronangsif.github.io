@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-23T06:55:15.073321",
+  "last_updated": "2026-04-23T08:28:40.947152",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1577,9 +1577,9 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 6.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.0
       }
     },
     {
@@ -1596,7 +1596,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.2
+        "temp": 16.6
       }
     },
     {
@@ -1613,7 +1613,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.2
+        "temp": 16.6
       }
     },
     {
@@ -1630,7 +1630,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.2
+        "temp": 16.6
       }
     },
     {
@@ -1647,7 +1647,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.2
+        "temp": 16.6
       }
     },
     {
@@ -1664,7 +1664,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.1
+        "temp": 15.6
       }
     },
     {
@@ -1681,7 +1681,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.1
+        "temp": 15.6
       }
     },
     {
@@ -1698,7 +1698,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.1
+        "temp": 15.6
       }
     },
     {
@@ -1715,7 +1715,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.1
+        "temp": 15.6
       }
     },
     {
@@ -1732,7 +1732,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.1
+        "temp": 14.7
       }
     },
     {
@@ -1749,7 +1749,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.1
+        "temp": 14.7
       }
     },
     {
@@ -1766,7 +1766,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.1
+        "temp": 14.7
       }
     },
     {
@@ -1783,7 +1783,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.1
+        "temp": 16.0
       }
     },
     {
@@ -1800,7 +1800,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 15.1
+        "temp": 14.8
       }
     },
     {
@@ -1817,7 +1817,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.0
+        "temp": 7.3
       }
     },
     {
@@ -1834,7 +1834,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.0
+        "temp": 7.3
       }
     },
     {
@@ -1864,7 +1864,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.0
+        "temp": 7.3
       }
     },
     {
@@ -1881,7 +1881,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.2
+        "temp": 8.3
       }
     },
     {
@@ -1898,7 +1898,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.2
+        "temp": 8.3
       }
     },
     {
@@ -1915,7 +1915,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.4
+        "temp": 9.3
       }
     },
     {
@@ -1932,7 +1932,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.4
+        "temp": 9.3
       }
     },
     {
@@ -1966,7 +1966,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.0
+        "temp": 11.1
       }
     },
     {
@@ -1983,7 +1983,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.2
+        "temp": 11.1
       }
     },
     {
@@ -1998,9 +1998,9 @@
       "description": "Städning Kronäng Arena Cup",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 9.7
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 11.3
       }
     },
     {
@@ -2017,7 +2017,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 10.9
       }
     },
     {
