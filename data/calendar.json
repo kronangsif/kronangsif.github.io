@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24T12:58:35.571130",
+  "last_updated": "2026-04-24T14:44:31.151833",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1752,7 +1752,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.8
+        "temp": 15.7
       }
     },
     {
@@ -1833,7 +1833,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 8.5
+        "temp": 8.4
       }
     },
     {
@@ -1850,7 +1850,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 8.5
+        "temp": 8.4
       }
     },
     {
@@ -1867,7 +1867,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 9.5
+        "temp": 9.4
       }
     },
     {
@@ -1884,7 +1884,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 9.5
+        "temp": 9.4
       }
     },
     {
@@ -1901,7 +1901,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.7
+        "temp": 10.6
       }
     },
     {
@@ -1952,7 +1952,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.0
+        "temp": 11.3
       }
     },
     {
@@ -1969,7 +1969,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.3
+        "temp": 11.4
       }
     },
     {
@@ -2050,7 +2050,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 4.0
+        "temp": 3.9
       }
     },
     {
@@ -2186,7 +2186,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 12.3
+        "temp": 12.2
       }
     },
     {
@@ -2203,7 +2203,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 12.3
+        "temp": 12.2
       }
     },
     {
@@ -2702,18 +2702,18 @@
   ],
   "latest_news": [
     {
+      "title": "Vår samarbetspartner CA Fastigheter",
+      "published_at": "2026-04-24 15:48",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1339131",
+      "image": "https://cdn.sportadmin.se/559/h/200/edb21952c054a94fa36c72bbebf75cd5b8308902e479de7a1da478693f2133cd_L.jpg",
+      "summary": "Vår samarbetspartner CA Fastigheter har lagom till Kronäng Arena Cup satt upp en ny skylt :)"
+    },
+    {
       "title": "Matchens lirare presenterad av GO BANANA",
       "published_at": "2026-04-24 13:10, Dam",
       "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1339033",
       "image": "https://cdn.sportadmin.se/559/h/200/57f8eff78f2c1002188b93ac238514bcdbe6fb5807823800a80529814a1c6ed0_L.jpg",
       "summary": "Kvällens MVP, och säsongens första gick till vår mittback Felicia Muukka! En riktig kämpe som var stabil bakåt och även fick utdelning framåt med ett riktigt fint långskott som seglade in precis under ribban!"
-    },
-    {
-      "title": "Vinnare i 50/50 lotteriet KIF Dam - Frisco IK U",
-      "published_at": "2026-04-24 12:50",
-      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1339028",
-      "image": "https://cdn.sportadmin.se/559/h/200/da1ca7ae5de1fc9be01ba4a2fd5624883ffd075823d11cd251667e9def3fe8de_L.jpg",
-      "summary": ""
     }
   ]
 }
