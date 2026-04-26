@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-26T14:42:42.942143",
+  "last_updated": "2026-04-26T15:33:53.092647",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 188,
+  "activity_count": 187,
   "activities": [
     {
       "date": "2026-04-01",
@@ -2117,7 +2117,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.7
+        "temp": 11.0
       }
     },
     {
@@ -2134,7 +2134,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.7
+        "temp": 11.0
       }
     },
     {
@@ -2151,7 +2151,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.8
+        "temp": 9.0
       }
     },
     {
@@ -2168,7 +2168,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.8
       }
     },
     {
@@ -2185,7 +2185,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.8
       }
     },
     {
@@ -2202,7 +2202,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.8
       }
     },
     {
@@ -2219,7 +2219,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.8
       }
     },
     {
@@ -2236,7 +2236,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.4
+        "temp": 11.7
       }
     },
     {
@@ -2253,7 +2253,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.0
+        "temp": 11.2
       }
     },
     {
@@ -2270,7 +2270,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.0
+        "temp": 11.2
       }
     },
     {
@@ -2287,7 +2287,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.6
       }
     },
     {
@@ -2304,7 +2304,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.6
       }
     },
     {
@@ -2321,7 +2321,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.6
       }
     },
     {
@@ -2338,7 +2338,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.6
       }
     },
     {
@@ -2355,7 +2355,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.6
       }
     },
     {
@@ -2372,7 +2372,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.6
       }
     },
     {
@@ -2389,7 +2389,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.0
+        "temp": 12.2
       }
     },
     {
@@ -2406,7 +2406,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.7
       }
     },
     {
@@ -2492,23 +2492,6 @@
         "icon": "☀️",
         "desc": "Klar himmel",
         "temp": 12.4
-      }
-    },
-    {
-      "date": "2026-04-30",
-      "day": "30",
-      "weekday": "tor",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "Fotbollsskolan födda 2018",
-      "team_id": "520555",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 19.2
       }
     },
     {
