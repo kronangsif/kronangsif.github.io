@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-26T08:11:19.971421",
+  "last_updated": "2026-04-26T09:43:46.180501",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -1492,19 +1492,6 @@
       "day": "22",
       "weekday": "ons",
       "time": "17:30",
-      "end_time": "18:00",
-      "team": "F2013/2014",
-      "team_id": "374981",
-      "type": "Övrigt",
-      "description": "Föräldramöte",
-      "location": "Kronängs Arena",
-      "weather": null
-    },
-    {
-      "date": "2026-04-22",
-      "day": "22",
-      "weekday": "ons",
-      "time": "17:30",
       "end_time": "19:00",
       "team": "F2015-2016",
       "team_id": "520574",
@@ -2028,7 +2015,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.4
+        "temp": 5.2
       }
     },
     {
@@ -2045,7 +2032,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.3
+        "temp": 8.2
       }
     },
     {
@@ -2062,7 +2049,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.3
+        "temp": 8.2
       }
     },
     {
@@ -2079,7 +2066,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.3
+        "temp": 8.2
       }
     },
     {
@@ -2096,7 +2083,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.3
+        "temp": 9.2
       }
     },
     {
@@ -2113,7 +2100,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.8
+        "temp": 10.6
       }
     },
     {
@@ -2130,7 +2117,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 10.9
+        "temp": 10.7
       }
     },
     {
@@ -2147,7 +2134,24 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 10.9
+        "temp": 10.7
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "day": "26",
+      "weekday": "sön",
+      "time": "19:00",
+      "end_time": "",
+      "team": "Herr",
+      "team_id": "38937",
+      "type": "Match",
+      "description": "Fritsla IF hemma",
+      "location": "Annan()",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.9
       }
     },
     {
@@ -2164,7 +2168,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.5
       }
     },
     {
@@ -2181,7 +2185,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.5
       }
     },
     {
@@ -2198,7 +2202,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.5
       }
     },
     {
@@ -2215,7 +2219,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.5
       }
     },
     {
@@ -2232,7 +2236,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.1
+        "temp": 11.0
       }
     },
     {
@@ -2249,7 +2253,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.9
+        "temp": 10.8
       }
     },
     {
@@ -2266,7 +2270,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.9
+        "temp": 10.8
       }
     },
     {
