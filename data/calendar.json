@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-27T04:59:57.454354",
+  "last_updated": "2026-04-27T07:35:13.342990",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
-  "activity_count": 186,
+  "activity_count": 187,
   "activities": [
     {
       "date": "2026-04-01",
@@ -2112,7 +2112,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.5
       }
     },
     {
@@ -2129,7 +2129,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.5
       }
     },
     {
@@ -2146,7 +2146,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.5
       }
     },
     {
@@ -2180,7 +2180,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.8
+        "temp": 10.9
       }
     },
     {
@@ -2197,7 +2197,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.8
+        "temp": 10.9
       }
     },
     {
@@ -2214,7 +2214,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.8
+        "temp": 12.9
       }
     },
     {
@@ -2231,7 +2231,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.8
+        "temp": 12.9
       }
     },
     {
@@ -2248,7 +2248,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.8
+        "temp": 12.9
       }
     },
     {
@@ -2265,7 +2265,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.8
+        "temp": 12.9
       }
     },
     {
@@ -2282,7 +2282,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.8
+        "temp": 12.9
       }
     },
     {
@@ -2299,7 +2299,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.8
+        "temp": 12.9
       }
     },
     {
@@ -2314,9 +2314,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 12.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 12.7
       }
     },
     {
@@ -2333,7 +2333,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 11.9
+        "temp": 12.0
       }
     },
     {
@@ -2348,9 +2348,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.0
       }
     },
     {
@@ -2365,9 +2365,9 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.0
       }
     },
     {
@@ -2382,9 +2382,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.0
       }
     },
     {
@@ -2399,9 +2399,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.0
       }
     },
     {
@@ -2418,7 +2418,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.1
+        "temp": 12.4
       }
     },
     {
@@ -2435,7 +2435,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.5
+        "temp": 16.2
       }
     },
     {
@@ -2452,7 +2452,24 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.8
+        "temp": 14.6
+      }
+    },
+    {
+      "date": "2026-04-30",
+      "day": "30",
+      "weekday": "tor",
+      "time": "18:00",
+      "end_time": "20:00",
+      "team": "P2011",
+      "team_id": "260562",
+      "type": "Övrigt",
+      "description": "Domare",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.6
       }
     },
     {
@@ -2469,7 +2486,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.8
+        "temp": 14.6
       }
     },
     {
@@ -2486,7 +2503,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.8
+        "temp": 14.6
       }
     },
     {
@@ -2503,7 +2520,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.4
+        "temp": 13.0
       }
     },
     {
@@ -2520,7 +2537,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.4
+        "temp": 13.0
       }
     }
   ],
