@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-27T01:48:58.146533",
+  "last_updated": "2026-04-27T04:59:57.454354",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -2112,7 +2112,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.4
+        "temp": 11.6
       }
     },
     {
@@ -2129,7 +2129,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.4
+        "temp": 11.6
       }
     },
     {
@@ -2146,7 +2146,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.4
+        "temp": 11.6
       }
     },
     {
@@ -2163,7 +2163,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.2
+        "temp": 11.3
       }
     },
     {
@@ -2180,7 +2180,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.7
+        "temp": 10.8
       }
     },
     {
@@ -2197,7 +2197,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.7
+        "temp": 10.8
       }
     },
     {
@@ -2214,7 +2214,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.7
+        "temp": 12.8
       }
     },
     {
@@ -2231,7 +2231,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.7
+        "temp": 12.8
       }
     },
     {
@@ -2248,7 +2248,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.7
+        "temp": 12.8
       }
     },
     {
@@ -2265,7 +2265,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.7
+        "temp": 12.8
       }
     },
     {
@@ -2282,7 +2282,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.7
+        "temp": 12.8
       }
     },
     {
@@ -2299,7 +2299,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.7
+        "temp": 12.8
       }
     },
     {
@@ -2316,7 +2316,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 12.3
+        "temp": 12.5
       }
     },
     {
@@ -2331,9 +2331,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 11.9
       }
     },
     {
