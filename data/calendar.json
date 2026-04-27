@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-27T10:05:51.793941",
+  "last_updated": "2026-04-27T12:15:53.741339",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -2180,7 +2180,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.2
+        "temp": 10.1
       }
     },
     {
@@ -2197,7 +2197,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.2
+        "temp": 10.1
       }
     },
     {
@@ -2316,7 +2316,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 11.8
+        "temp": 11.7
       }
     },
     {
@@ -2333,7 +2333,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 11.2
+        "temp": 11.1
       }
     },
     {
@@ -2350,7 +2350,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.3
+        "temp": 16.4
       }
     },
     {
@@ -2367,7 +2367,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.3
+        "temp": 16.4
       }
     },
     {
@@ -2384,7 +2384,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.3
+        "temp": 16.4
       }
     },
     {
@@ -2401,7 +2401,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.3
+        "temp": 16.4
       }
     },
     {
@@ -2418,7 +2418,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.0
+        "temp": 14.1
       }
     },
     {
@@ -2543,18 +2543,18 @@
   ],
   "latest_news": [
     {
+      "title": "Veckans hemmamatcher",
+      "published_at": "2026-04-27 13:24",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1339545",
+      "image": "",
+      "summary": ""
+    },
+    {
       "title": "Vår samarbetspartner CA Fastigheter",
       "published_at": "2026-04-24 15:48",
       "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1339131",
       "image": "https://cdn.sportadmin.se/559/h/200/edb21952c054a94fa36c72bbebf75cd5b8308902e479de7a1da478693f2133cd_L.jpg",
       "summary": "Vår samarbetspartner CA Fastigheter har lagom till Kronäng Arena Cup satt upp en ny skylt :)"
-    },
-    {
-      "title": "Matchens lirare presenterad av GO BANANA",
-      "published_at": "2026-04-24 13:10, Dam",
-      "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1339033",
-      "image": "https://cdn.sportadmin.se/559/h/200/57f8eff78f2c1002188b93ac238514bcdbe6fb5807823800a80529814a1c6ed0_L.jpg",
-      "summary": "Kvällens MVP, och säsongens första gick till vår mittback Felicia Muukka! En riktig kämpe som var stabil bakåt och även fick utdelning framåt med ett riktigt fint långskott som seglade in precis under ribban!"
     }
   ]
 }
