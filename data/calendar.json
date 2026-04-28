@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-28T17:29:08.576840",
+  "last_updated": "2026-04-28T19:19:07.853523",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -2335,7 +2335,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 10.6
+        "temp": 10.9
       }
     },
     {
@@ -2352,7 +2352,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.7
+        "temp": 16.5
       }
     },
     {
@@ -2369,7 +2369,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.7
+        "temp": 16.5
       }
     },
     {
@@ -2386,7 +2386,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.7
+        "temp": 16.5
       }
     },
     {
@@ -2403,7 +2403,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.7
+        "temp": 16.5
       }
     },
     {
@@ -2420,7 +2420,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.4
+        "temp": 15.6
       }
     },
     {
@@ -2437,7 +2437,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.6
+        "temp": 21.7
       }
     },
     {
@@ -2454,7 +2454,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.4
+        "temp": 21.5
       }
     },
     {
@@ -2471,7 +2471,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.4
+        "temp": 21.5
       }
     },
     {
@@ -2488,7 +2488,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.4
+        "temp": 21.5
       }
     },
     {
@@ -2505,7 +2505,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.4
+        "temp": 21.5
       }
     },
     {
@@ -2522,7 +2522,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.5
+        "temp": 20.4
       }
     },
     {
@@ -2539,7 +2539,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.5
+        "temp": 20.4
       }
     }
   ],
