@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-29T01:58:58.853217",
+  "last_updated": "2026-04-29T05:27:12.917845",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -2320,7 +2320,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.5
+        "temp": 16.3
       }
     },
     {
@@ -2337,7 +2337,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.5
+        "temp": 16.3
       }
     },
     {
@@ -2354,7 +2354,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.5
+        "temp": 16.3
       }
     },
     {
@@ -2371,7 +2371,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.5
+        "temp": 16.3
       }
     },
     {
@@ -2388,7 +2388,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.1
+        "temp": 15.7
       }
     },
     {
@@ -2405,7 +2405,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.2
+        "temp": 21.5
       }
     },
     {
@@ -2490,7 +2490,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.1
+        "temp": 19.7
       }
     },
     {
@@ -2507,7 +2507,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.1
+        "temp": 19.7
       }
     }
   ],
