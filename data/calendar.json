@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-29T07:59:21.892397",
+  "last_updated": "2026-04-29T10:06:45.999000",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 4,
   "year": 2026,
@@ -2388,7 +2388,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.8
+        "temp": 15.6
       }
     },
     {
@@ -2422,7 +2422,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.1
+        "temp": 21.0
       }
     },
     {
@@ -2439,7 +2439,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.1
+        "temp": 21.0
       }
     },
     {
@@ -2456,7 +2456,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.1
+        "temp": 21.0
       }
     },
     {
@@ -2473,7 +2473,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.1
+        "temp": 21.0
       }
     },
     {
@@ -2490,7 +2490,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.8
+        "temp": 19.6
       }
     },
     {
@@ -2507,7 +2507,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.8
+        "temp": 19.6
       }
     }
   ],
