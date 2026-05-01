@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T08:11:18.355831",
+  "last_updated": "2026-05-01T10:14:52.487923",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -49,7 +49,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.7
+        "temp": 18.4
       }
     },
     {
@@ -66,7 +66,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.3
+        "temp": 11.3
       }
     },
     {
@@ -96,7 +96,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.9
+        "temp": 10.3
       }
     },
     {
@@ -124,9 +124,9 @@
       "description": "Träning",
       "location": "Helsingborg",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.0
       }
     },
     {
@@ -141,9 +141,9 @@
       "description": "Träning",
       "location": "Helsingborg",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.0
       }
     },
     {
@@ -160,7 +160,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.5
       }
     },
     {
@@ -177,7 +177,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.5
       }
     },
     {
@@ -194,7 +194,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.8
+        "temp": 13.2
       }
     },
     {
@@ -211,7 +211,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.8
+        "temp": 13.2
       }
     },
     {
@@ -228,7 +228,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.8
+        "temp": 13.2
       }
     },
     {
@@ -245,7 +245,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.7
+        "temp": 14.2
       }
     },
     {
@@ -262,7 +262,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.3
+        "temp": 14.7
       }
     },
     {
@@ -279,7 +279,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.6
+        "temp": 14.9
       }
     },
     {
@@ -296,7 +296,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.4
+        "temp": 14.9
       }
     },
     {
@@ -311,9 +311,9 @@
       "description": "Ubbhult/Hällingsjö/Hyssna  borta",
       "location": "Ekåsvallen(Pojkar Div 8 Alingsås)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.4
       }
     },
     {
@@ -330,7 +330,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.9
+        "temp": 13.8
       }
     },
     {
@@ -345,9 +345,9 @@
       "description": "Sandared/Sjömarken Vit borta",
       "location": "Sandevi B konstgräs(Pojkar Div 5 Mark)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.9
       }
     },
     {
