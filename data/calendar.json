@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T21:42:39.752688",
+  "last_updated": "2026-05-01T22:40:11.834774",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -16,11 +16,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Helsingborg",
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 6.4
-      }
+      "weather": null
     },
     {
       "date": "2026-05-01",
@@ -46,11 +42,7 @@
       "type": "Match",
       "description": "SK Mjörn borta",
       "location": "Bodarnevallen A(Herrar, Div 5 Sydvästra)",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 19.0
-      }
+      "weather": null
     },
     {
       "date": "2026-05-02",
@@ -66,7 +58,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.1
+        "temp": 12.6
       }
     },
     {
@@ -94,9 +86,9 @@
       "description": "Träning",
       "location": "Helsingborg",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 12.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 11.7
       }
     },
     {
@@ -126,7 +118,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.8
+        "temp": 15.7
       }
     },
     {
@@ -143,7 +135,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.8
+        "temp": 15.7
       }
     },
     {
@@ -160,7 +152,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.7
+        "temp": 12.0
       }
     },
     {
@@ -177,7 +169,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.3
+        "temp": 13.1
       }
     },
     {
@@ -194,7 +186,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.3
+        "temp": 13.1
       }
     },
     {
@@ -211,7 +203,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.3
+        "temp": 13.1
       }
     },
     {
@@ -228,7 +220,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.0
+        "temp": 14.1
       }
     },
     {
@@ -245,7 +237,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.7
+        "temp": 14.9
       }
     },
     {
@@ -262,7 +254,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.2
       }
     },
     {
@@ -279,7 +271,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.1
+        "temp": 15.5
       }
     },
     {
@@ -296,7 +288,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.6
+        "temp": 15.5
       }
     },
     {
@@ -313,7 +305,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.9
+        "temp": 15.1
       }
     },
     {
@@ -330,7 +322,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.0
+        "temp": 14.5
       }
     },
     {
@@ -905,7 +897,11 @@
       "type": "Övrigt",
       "description": "Kioskbemanning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 10.3
+      }
     },
     {
       "date": "2026-05-08",
@@ -918,7 +914,11 @@
       "type": "Match",
       "description": "Kinna IF borta",
       "location": "Pruhultsplanen(Flickor Div 5 Kinna)",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 9.4
+      }
     },
     {
       "date": "2026-05-08",
@@ -931,7 +931,11 @@
       "type": "Match",
       "description": "Sparsörs AIK hemma",
       "location": "Kronäng Arena(Pojkar Div 9 Fristad)",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 9.4
+      }
     },
     {
       "date": "2026-05-08",
@@ -944,7 +948,11 @@
       "type": "Match",
       "description": "Vårgårda IK Röd  hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Dalsjöfors)",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 9.4
+      }
     },
     {
       "date": "2026-05-09",
