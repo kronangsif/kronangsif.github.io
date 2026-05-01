@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-01T10:14:52.487923",
+  "last_updated": "2026-05-01T11:50:29.199000",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 204,
+  "activity_count": 205,
   "activities": [
     {
       "date": "2026-05-01",
@@ -49,7 +49,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.4
+        "temp": 18.3
       }
     },
     {
@@ -66,7 +66,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.3
+        "temp": 11.5
       }
     },
     {
@@ -96,7 +96,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.3
+        "temp": 10.4
       }
     },
     {
@@ -126,7 +126,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.0
+        "temp": 15.2
       }
     },
     {
@@ -143,7 +143,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.0
+        "temp": 15.2
       }
     },
     {
@@ -194,7 +194,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 13.3
       }
     },
     {
@@ -211,7 +211,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 13.3
       }
     },
     {
@@ -228,7 +228,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 13.3
       }
     },
     {
@@ -245,7 +245,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.2
+        "temp": 14.3
       }
     },
     {
@@ -262,7 +262,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.7
+        "temp": 14.8
       }
     },
     {
@@ -279,7 +279,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.9
+        "temp": 15.0
       }
     },
     {
@@ -330,7 +330,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.8
+        "temp": 13.9
       }
     },
     {
@@ -668,8 +668,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 11.8
       }
     },
@@ -685,8 +685,8 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 11.8
       }
     },
@@ -702,8 +702,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 11.8
       }
     },
@@ -719,8 +719,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 11.8
       }
     },
@@ -736,8 +736,8 @@
       "description": "Södra Härene/Östadkulle U borta",
       "location": "Lenavallen A-plan(Damer, Utveckling Södra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 8.7
       }
     },
@@ -753,8 +753,8 @@
       "description": "Södra Härene/Östadkulle U borta",
       "location": "Lenavallen A-plan(Damer, Utveckling Södra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 8.7
       }
     },
@@ -770,8 +770,8 @@
       "description": "Sätila SK hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 8.7
       }
     },
@@ -957,6 +957,19 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
+      "weather": null
+    },
+    {
+      "date": "2026-05-09",
+      "day": "09",
+      "weekday": "lör",
+      "time": "08:15",
+      "end_time": "",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Match",
+      "description": "Borta",
+      "location": "Sjömarken, Idrottsgården 16()",
       "weather": null
     },
     {
