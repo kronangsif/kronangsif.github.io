@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-01T15:45:44.470923",
+  "last_updated": "2026-05-01T16:44:01.008597",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 205,
+  "activity_count": 204,
   "activities": [
     {
       "date": "2026-05-01",
@@ -66,7 +66,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.7
+        "temp": 12.1
       }
     },
     {
@@ -96,7 +96,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.7
+        "temp": 11.2
       }
     },
     {
@@ -126,7 +126,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.7
+        "temp": 15.6
       }
     },
     {
@@ -143,24 +143,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.7
-      }
-    },
-    {
-      "date": "2026-05-03",
-      "day": "03",
-      "weekday": "sön",
-      "time": "10:00",
-      "end_time": "",
-      "team": "VEO kamera",
-      "team_id": "430796",
-      "type": "Match",
-      "description": "Hestrafors  borta",
-      "location": "Annan()",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.1
+        "temp": 15.6
       }
     },
     {
@@ -177,7 +160,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.1
+        "temp": 12.9
       }
     },
     {
@@ -194,7 +177,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.7
+        "temp": 13.5
       }
     },
     {
@@ -211,7 +194,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.7
+        "temp": 13.5
       }
     },
     {
@@ -228,7 +211,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.7
+        "temp": 13.5
       }
     },
     {
@@ -245,7 +228,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.4
+        "temp": 14.3
       }
     },
     {
@@ -296,7 +279,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.4
+        "temp": 15.9
       }
     },
     {
@@ -313,7 +296,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.1
+        "temp": 15.5
       }
     },
     {
@@ -330,7 +313,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.5
+        "temp": 14.9
       }
     },
     {
@@ -345,9 +328,9 @@
       "description": "Sandared/Sjömarken Vit borta",
       "location": "Sandevi B konstgräs(Pojkar Div 5 Mark)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.3
       }
     },
     {
