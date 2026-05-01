@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T16:44:01.008597",
+  "last_updated": "2026-05-01T17:49:42.154641",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -49,7 +49,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.8
+        "temp": 19.0
       }
     },
     {
@@ -96,7 +96,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.2
+        "temp": 11.4
       }
     },
     {
@@ -126,7 +126,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.6
+        "temp": 15.7
       }
     },
     {
@@ -143,7 +143,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.6
+        "temp": 15.7
       }
     },
     {
@@ -228,7 +228,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.3
+        "temp": 14.5
       }
     },
     {
@@ -245,7 +245,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.1
+        "temp": 15.2
       }
     },
     {
@@ -262,7 +262,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.7
+        "temp": 15.9
       }
     },
     {
@@ -279,7 +279,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 16.1
       }
     },
     {
@@ -296,7 +296,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.6
       }
     },
     {
