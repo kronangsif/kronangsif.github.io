@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T15:37:36.095021",
+  "last_updated": "2026-05-02T16:35:49.816044",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -116,9 +116,9 @@
       "description": "Träning",
       "location": "Helsingborg",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 15.8
       }
     },
     {
@@ -133,9 +133,9 @@
       "description": "Träning",
       "location": "Helsingborg",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 15.8
       }
     },
     {
@@ -152,7 +152,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.3
+        "temp": 12.2
       }
     },
     {
@@ -169,7 +169,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.9
+        "temp": 13.0
       }
     },
     {
@@ -186,7 +186,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.9
+        "temp": 13.0
       }
     },
     {
@@ -203,7 +203,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.9
+        "temp": 13.0
       }
     },
     {
@@ -220,7 +220,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.1
+        "temp": 14.1
       }
     },
     {
@@ -237,7 +237,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.7
+        "temp": 15.1
       }
     },
     {
@@ -254,7 +254,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.2
+        "temp": 15.3
       }
     },
     {
@@ -271,7 +271,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.6
+        "temp": 14.9
       }
     },
     {
@@ -288,7 +288,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.9
+        "temp": 14.3
       }
     },
     {
@@ -305,7 +305,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.7
+        "temp": 14.2
       }
     },
     {
@@ -322,7 +322,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.5
+        "temp": 14.0
       }
     },
     {
@@ -339,7 +339,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.3
+        "temp": 14.2
       }
     },
     {
@@ -356,7 +356,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.3
+        "temp": 14.2
       }
     },
     {
@@ -373,7 +373,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.3
+        "temp": 14.2
       }
     },
     {
@@ -390,7 +390,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.3
+        "temp": 14.2
       }
     },
     {
@@ -407,7 +407,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 13.6
       }
     },
     {
@@ -424,7 +424,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 13.6
       }
     },
     {
@@ -441,7 +441,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 13.6
       }
     },
     {
@@ -458,7 +458,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.0
+        "temp": 12.8
       }
     },
     {
@@ -475,7 +475,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.0
+        "temp": 12.8
       }
     },
     {
