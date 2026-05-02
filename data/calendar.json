@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T08:18:20.097995",
+  "last_updated": "2026-05-02T09:53:00.512820",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -116,8 +116,8 @@
       "description": "Träning",
       "location": "Helsingborg",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 14.8
       }
     },
@@ -133,8 +133,8 @@
       "description": "Träning",
       "location": "Helsingborg",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 14.8
       }
     },
@@ -152,7 +152,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.1
       }
     },
     {
@@ -167,9 +167,9 @@
       "description": "Domare",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.5
       }
     },
     {
@@ -184,9 +184,9 @@
       "description": "Alingsås IF FF Grön borta",
       "location": "Mjörnvallen, B-plan(Pojkar Div 8 Dalsjöfors)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.5
       }
     },
     {
@@ -201,9 +201,9 @@
       "description": "IFK Örby  hemma",
       "location": "Kronäng Arena(Pojkar Div 11 Sandared)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.5
       }
     },
     {
@@ -220,7 +220,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.0
+        "temp": 12.9
       }
     },
     {
@@ -271,7 +271,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.8
+        "temp": 13.9
       }
     },
     {
@@ -288,7 +288,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.0
+        "temp": 14.1
       }
     },
     {
@@ -322,7 +322,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.8
+        "temp": 13.9
       }
     },
     {
