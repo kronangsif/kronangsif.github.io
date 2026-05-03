@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03T11:35:06.510183",
+  "last_updated": "2026-05-03T12:44:28.949829",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -229,7 +229,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.7
+        "temp": 12.6
       }
     },
     {
@@ -263,7 +263,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.2
+        "temp": 14.1
       }
     },
     {
@@ -501,7 +501,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.5
+        "temp": 11.4
       }
     },
     {
@@ -518,7 +518,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.5
+        "temp": 11.4
       }
     },
     {
@@ -535,7 +535,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.5
+        "temp": 11.4
       }
     },
     {
@@ -552,7 +552,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.5
+        "temp": 11.4
       }
     },
     {
@@ -569,7 +569,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.5
+        "temp": 11.4
       }
     },
     {
@@ -586,7 +586,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.5
+        "temp": 11.4
       }
     },
     {
@@ -603,7 +603,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.2
+        "temp": 9.3
       }
     },
     {
@@ -703,8 +703,8 @@
       "description": "Södra Härene/Östadkulle U borta",
       "location": "Lenavallen A-plan(Damer, Utveckling Södra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 9.1
       }
     },
@@ -720,8 +720,8 @@
       "description": "Södra Härene/Östadkulle U borta",
       "location": "Lenavallen A-plan(Damer, Utveckling Södra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 9.1
       }
     },
@@ -737,8 +737,8 @@
       "description": "Sätila SK hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 9.1
       }
     },
@@ -958,8 +958,8 @@
       "description": "Borta",
       "location": "Sjömarken, Idrottsgården 16()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 9.5
       }
     },
