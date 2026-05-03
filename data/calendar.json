@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03T21:32:27.955840",
+  "last_updated": "2026-05-03T22:30:16.346238",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -94,11 +94,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Helsingborg",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.0
-      }
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -111,11 +107,7 @@
       "type": "Match",
       "description": "IF Elfsborg Röd borta",
       "location": "Ryda fotbollshall(Pojkar Div 11 Kinna)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.0
-      }
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -128,11 +120,7 @@
       "type": "Övrigt",
       "description": "Domare",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.0
-      }
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -145,11 +133,7 @@
       "type": "Match",
       "description": "Alingsås IF FF Grön borta",
       "location": "Mjörnvallen, B-plan(Pojkar Div 8 Dalsjöfors)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.0
-      }
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -162,11 +146,7 @@
       "type": "Match",
       "description": "IFK Örby  hemma",
       "location": "Kronäng Arena(Pojkar Div 11 Sandared)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.0
-      }
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -179,11 +159,7 @@
       "type": "Match",
       "description": "Hestrafors IF Vit borta",
       "location": "Bollevi(Pojkar Div 13 Borås)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.1
-      }
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -196,11 +172,7 @@
       "type": "Match",
       "description": "Kinna IF Blå hemma",
       "location": "Kronäng Arena(Pojkar Div 6 Borås)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.6
-      }
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -213,11 +185,7 @@
       "type": "Match",
       "description": "Ulricehamns IFK Svart borta",
       "location": "Lassalyckan C-plan(Pojkar Div 13 Dalsjöfors)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.7
-      }
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -230,11 +198,7 @@
       "type": "Match",
       "description": "Kinna IF Röd borta",
       "location": "Viskavallen Pruhultsplanen B(Pojkar Div 9 Fristad)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.2
-      }
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -247,11 +211,7 @@
       "type": "Match",
       "description": "Ubbhult/Hällingsjö/Hyssna  borta",
       "location": "Ekåsvallen(Pojkar Div 8 Alingsås)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.8
-      }
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -264,11 +224,7 @@
       "type": "Match",
       "description": "Bredareds IF borta",
       "location": "Hagavallen, Bredared(Flickor Div 5 Kinna)",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.2
-      }
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -281,11 +237,7 @@
       "type": "Match",
       "description": "Sandared/Sjömarken Vit borta",
       "location": "Sandevi B konstgräs(Pojkar Div 5 Mark)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.0
-      }
+      "weather": null
     },
     {
       "date": "2026-05-04",
@@ -454,7 +406,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.3
+        "temp": 8.9
       }
     },
     {
@@ -471,7 +423,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.0
+        "temp": 12.0
       }
     },
     {
@@ -488,7 +440,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.0
+        "temp": 12.0
       }
     },
     {
@@ -505,7 +457,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.0
+        "temp": 12.0
       }
     },
     {
@@ -522,7 +474,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.0
+        "temp": 12.0
       }
     },
     {
@@ -539,7 +491,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.0
+        "temp": 12.0
       }
     },
     {
@@ -556,7 +508,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.0
+        "temp": 12.0
       }
     },
     {
@@ -573,7 +525,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.0
+        "temp": 10.8
       }
     },
     {
@@ -590,7 +542,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.1
+        "temp": 5.6
       }
     },
     {
@@ -1029,7 +981,11 @@
       "type": "Övrigt",
       "description": "Domare",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.6
+      }
     },
     {
       "date": "2026-05-10",
@@ -1042,7 +998,11 @@
       "type": "Match",
       "description": "Bergdalens IK  borta",
       "location": "Björkängsvallen, Borås(Pojkar Div 8 Borås norr)",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.6
+      }
     },
     {
       "date": "2026-05-10",
@@ -1055,7 +1015,11 @@
       "type": "Match",
       "description": "Holmalund City FF Svart hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Alingsås)",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.6
+      }
     },
     {
       "date": "2026-05-10",
@@ -1068,7 +1032,11 @@
       "type": "Match",
       "description": "Svansjö hemma",
       "location": "Kronäng Arena(Pojkar Div 11 Kinna)",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.6
+      }
     },
     {
       "date": "2026-05-10",
@@ -1081,7 +1049,11 @@
       "type": "Match",
       "description": "Brämhults IK Svart hemma",
       "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.6
+      }
     },
     {
       "date": "2026-05-10",
@@ -1094,7 +1066,11 @@
       "type": "Match",
       "description": "Skene IF Vit hemma",
       "location": "Kronäng Arena(Pojkar Div 13 Borås)",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.6
+      }
     },
     {
       "date": "2026-05-10",
@@ -1107,7 +1083,11 @@
       "type": "Match",
       "description": "IFK Tidaholm borta",
       "location": "Tidavallen A-plan(Damer, Div 3 Södra)",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.8
+      }
     },
     {
       "date": "2026-05-10",
@@ -1120,7 +1100,11 @@
       "type": "Match",
       "description": "IFK Tidaholm borta",
       "location": "Tidavallen A-plan(Damer, Div 3 Södra)",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.8
+      }
     },
     {
       "date": "2026-05-10",
@@ -1133,7 +1117,11 @@
       "type": "Match",
       "description": "Byttorps IF hemma",
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 5 Mark)",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.9
+      }
     },
     {
       "date": "2026-05-11",
