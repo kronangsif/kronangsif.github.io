@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03T12:44:28.949829",
+  "last_updated": "2026-05-03T14:05:57.784436",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -246,7 +246,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.6
+        "temp": 12.7
       }
     },
     {
@@ -263,7 +263,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.1
+        "temp": 13.2
       }
     },
     {
@@ -280,7 +280,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.2
+        "temp": 14.6
       }
     },
     {
@@ -295,9 +295,9 @@
       "description": "Bredareds IF borta",
       "location": "Hagavallen, Bredared(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.7
       }
     },
     {
@@ -314,7 +314,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.6
+        "temp": 14.5
       }
     },
     {
@@ -331,7 +331,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 14.0
       }
     },
     {
@@ -348,7 +348,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 14.0
       }
     },
     {
@@ -365,7 +365,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 14.0
       }
     },
     {
@@ -382,7 +382,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 14.0
       }
     },
     {
@@ -399,7 +399,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.2
+        "temp": 13.5
       }
     },
     {
@@ -416,7 +416,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.2
+        "temp": 13.5
       }
     },
     {
@@ -433,7 +433,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.2
+        "temp": 13.5
       }
     },
     {
@@ -450,7 +450,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.4
+        "temp": 12.6
       }
     },
     {
@@ -467,7 +467,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.4
+        "temp": 12.6
       }
     },
     {
@@ -501,7 +501,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.4
+        "temp": 11.2
       }
     },
     {
@@ -518,7 +518,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.4
+        "temp": 11.2
       }
     },
     {
@@ -535,7 +535,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.4
+        "temp": 11.2
       }
     },
     {
@@ -552,7 +552,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.4
+        "temp": 11.2
       }
     },
     {
@@ -569,7 +569,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.4
+        "temp": 11.2
       }
     },
     {
@@ -586,7 +586,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.4
+        "temp": 11.2
       }
     },
     {
@@ -603,7 +603,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.3
+        "temp": 10.1
       }
     },
     {
@@ -637,7 +637,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 11.0
+        "temp": 12.0
       }
     },
     {
@@ -654,7 +654,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 11.0
+        "temp": 12.0
       }
     },
     {
@@ -671,7 +671,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 11.0
+        "temp": 12.0
       }
     },
     {
@@ -688,7 +688,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 11.0
+        "temp": 12.0
       }
     },
     {
@@ -705,7 +705,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.1
+        "temp": 9.6
       }
     },
     {
@@ -722,7 +722,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.1
+        "temp": 9.6
       }
     },
     {
@@ -739,7 +739,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.1
+        "temp": 9.6
       }
     },
     {
@@ -756,7 +756,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.2
+        "temp": 11.6
       }
     },
     {
@@ -773,7 +773,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.2
+        "temp": 11.6
       }
     },
     {
@@ -790,7 +790,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.2
+        "temp": 11.6
       }
     },
     {
@@ -807,7 +807,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.2
+        "temp": 11.6
       }
     },
     {
@@ -824,7 +824,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.4
+        "temp": 10.7
       }
     },
     {
@@ -841,7 +841,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.4
+        "temp": 10.7
       }
     },
     {
@@ -858,7 +858,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.3
+        "temp": 9.6
       }
     },
     {
@@ -875,7 +875,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.3
+        "temp": 9.6
       }
     },
     {
@@ -892,7 +892,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.2
+        "temp": 11.9
       }
     },
     {
@@ -909,7 +909,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.0
+        "temp": 11.3
       }
     },
     {
@@ -926,7 +926,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.0
+        "temp": 11.3
       }
     },
     {
@@ -943,7 +943,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.0
+        "temp": 11.3
       }
     },
     {
@@ -960,7 +960,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.5
+        "temp": 9.4
       }
     },
     {
