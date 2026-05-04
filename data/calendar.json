@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04T08:15:57.078889",
+  "last_updated": "2026-05-04T10:55:50.199876",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -253,7 +253,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.4
+        "temp": 14.2
       }
     },
     {
@@ -270,7 +270,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.4
+        "temp": 14.2
       }
     },
     {
@@ -287,7 +287,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.4
+        "temp": 14.2
       }
     },
     {
@@ -304,7 +304,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.4
+        "temp": 14.2
       }
     },
     {
@@ -321,7 +321,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 13.7
       }
     },
     {
@@ -338,7 +338,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 13.7
       }
     },
     {
@@ -355,7 +355,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 13.7
       }
     },
     {
@@ -372,7 +372,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.2
+        "temp": 13.0
       }
     },
     {
@@ -389,7 +389,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.2
+        "temp": 13.0
       }
     },
     {
@@ -406,7 +406,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.5
+        "temp": 9.3
       }
     },
     {
@@ -423,7 +423,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.4
+        "temp": 13.1
       }
     },
     {
@@ -440,7 +440,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.4
+        "temp": 13.1
       }
     },
     {
@@ -457,7 +457,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.4
+        "temp": 13.1
       }
     },
     {
@@ -474,7 +474,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.4
+        "temp": 13.1
       }
     },
     {
@@ -491,7 +491,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.4
+        "temp": 13.1
       }
     },
     {
@@ -508,7 +508,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.4
+        "temp": 13.1
       }
     },
     {
@@ -523,9 +523,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 11.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 11.8
       }
     },
     {
@@ -540,9 +540,9 @@
       "description": "Ospecificerat lag (10) hemma",
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 6.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 7.6
       }
     },
     {
@@ -557,9 +557,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.4
       }
     },
     {
@@ -574,9 +574,9 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.4
       }
     },
     {
@@ -591,9 +591,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.4
       }
     },
     {
@@ -608,9 +608,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.4
       }
     },
     {
@@ -625,9 +625,9 @@
       "description": "Södra Härene/Östadkulle U borta",
       "location": "Lenavallen A-plan(Damer, Utveckling Södra)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.1
       }
     },
     {
@@ -642,9 +642,9 @@
       "description": "Södra Härene/Östadkulle U borta",
       "location": "Lenavallen A-plan(Damer, Utveckling Södra)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.1
       }
     },
     {
@@ -659,9 +659,9 @@
       "description": "Sätila SK hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.1
       }
     },
     {
