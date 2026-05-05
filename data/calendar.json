@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-05T13:10:35.537360",
+  "last_updated": "2026-05-05T15:37:22.924741",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 207,
+  "activity_count": 208,
   "activities": [
     {
       "date": "2026-05-01",
@@ -387,7 +387,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.3
+        "temp": 14.0
       }
     },
     {
@@ -404,7 +404,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.3
+        "temp": 14.0
       }
     },
     {
@@ -421,7 +421,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.3
+        "temp": 14.0
       }
     },
     {
@@ -438,7 +438,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.3
+        "temp": 14.0
       }
     },
     {
@@ -455,7 +455,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.3
+        "temp": 14.0
       }
     },
     {
@@ -472,7 +472,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.3
+        "temp": 14.0
       }
     },
     {
@@ -489,7 +489,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.7
+        "temp": 13.4
       }
     },
     {
@@ -506,7 +506,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.9
+        "temp": 12.6
       }
     },
     {
@@ -523,7 +523,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.3
+        "temp": 5.5
       }
     },
     {
@@ -540,7 +540,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.1
+        "temp": 16.3
       }
     },
     {
@@ -557,7 +557,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.1
+        "temp": 16.3
       }
     },
     {
@@ -574,7 +574,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.1
+        "temp": 16.3
       }
     },
     {
@@ -591,7 +591,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.1
+        "temp": 16.3
       }
     },
     {
@@ -608,7 +608,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.7
+        "temp": 14.9
       }
     },
     {
@@ -625,7 +625,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.7
+        "temp": 14.9
       }
     },
     {
@@ -642,7 +642,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.7
+        "temp": 14.9
       }
     },
     {
@@ -659,7 +659,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.7
+        "temp": 16.9
       }
     },
     {
@@ -676,7 +676,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.7
+        "temp": 16.9
       }
     },
     {
@@ -693,7 +693,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.7
+        "temp": 16.9
       }
     },
     {
@@ -710,7 +710,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.7
+        "temp": 16.9
       }
     },
     {
@@ -727,7 +727,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.3
+        "temp": 16.5
       }
     },
     {
@@ -744,7 +744,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.3
+        "temp": 16.5
       }
     },
     {
@@ -761,7 +761,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.7
+        "temp": 15.9
       }
     },
     {
@@ -778,7 +778,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.7
+        "temp": 15.9
       }
     },
     {
@@ -795,7 +795,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.6
+        "temp": 16.6
       }
     },
     {
@@ -812,7 +812,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.2
+        "temp": 14.9
       }
     },
     {
@@ -829,7 +829,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.2
+        "temp": 14.9
       }
     },
     {
@@ -846,7 +846,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.2
+        "temp": 14.9
       }
     },
     {
@@ -863,7 +863,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.2
+        "temp": 14.9
       }
     },
     {
@@ -880,7 +880,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.1
+        "temp": 8.6
       }
     },
     {
@@ -897,7 +897,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.1
+        "temp": 12.4
       }
     },
     {
@@ -914,7 +914,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.1
+        "temp": 16.5
       }
     },
     {
@@ -931,7 +931,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.1
+        "temp": 16.5
       }
     },
     {
@@ -948,7 +948,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.1
+        "temp": 16.5
       }
     },
     {
@@ -965,7 +965,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.5
+        "temp": 16.9
       }
     },
     {
@@ -982,7 +982,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.9
+        "temp": 14.9
       }
     },
     {
@@ -999,7 +999,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.9
+        "temp": 14.9
       }
     },
     {
@@ -1016,7 +1016,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.9
+        "temp": 14.9
       }
     },
     {
@@ -1033,7 +1033,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.9
+        "temp": 14.9
       }
     },
     {
@@ -1050,7 +1050,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.9
+        "temp": 14.9
       }
     },
     {
@@ -1067,7 +1067,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
+        "temp": 16.1
       }
     },
     {
@@ -1084,7 +1084,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
+        "temp": 16.1
       }
     },
     {
@@ -1101,7 +1101,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.5
+        "temp": 15.9
       }
     },
     {
@@ -1118,7 +1118,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.5
+        "temp": 15.9
       }
     },
     {
@@ -1135,7 +1135,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.4
+        "temp": 15.7
       }
     },
     {
@@ -1346,6 +1346,19 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-05-12",
+      "day": "12",
+      "weekday": "tis",
+      "time": "18:30",
+      "end_time": "",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Match",
+      "description": "Sandareds IF Grön borta",
+      "location": "Sandevi B-plan(Pojkar Div 11 Sandared)",
       "weather": null
     },
     {
