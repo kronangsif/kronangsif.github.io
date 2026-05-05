@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-05T19:04:24.501191",
+  "last_updated": "2026-05-05T20:53:14.831713",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 208,
+  "activity_count": 209,
   "activities": [
     {
       "date": "2026-05-01",
@@ -523,7 +523,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.1
+        "temp": 6.2
       }
     },
     {
@@ -540,7 +540,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.1
+        "temp": 16.0
       }
     },
     {
@@ -557,7 +557,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.1
+        "temp": 16.0
       }
     },
     {
@@ -574,7 +574,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.1
+        "temp": 16.0
       }
     },
     {
@@ -591,7 +591,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.1
+        "temp": 16.0
       }
     },
     {
@@ -659,7 +659,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.1
+        "temp": 16.9
       }
     },
     {
@@ -676,7 +676,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.1
+        "temp": 16.9
       }
     },
     {
@@ -693,7 +693,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.1
+        "temp": 16.9
       }
     },
     {
@@ -710,7 +710,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.1
+        "temp": 16.9
       }
     },
     {
@@ -727,7 +727,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.7
+        "temp": 16.3
       }
     },
     {
@@ -744,7 +744,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.7
+        "temp": 16.3
       }
     },
     {
@@ -761,7 +761,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.9
+        "temp": 15.4
       }
     },
     {
@@ -778,7 +778,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.9
+        "temp": 15.4
       }
     },
     {
@@ -808,7 +808,7 @@
       "team_id": "374981",
       "type": "Match",
       "description": "Kinna IF borta",
-      "location": "Pruhultsplanen(Flickor Div 5 Kinna)",
+      "location": "Kronängs Arena(Flickor Div 5 Kinna)",
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
@@ -864,6 +864,23 @@
         "icon": "🌤️",
         "desc": "Mestadels klart",
         "temp": 14.9
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "day": "09",
+      "weekday": "lör",
+      "time": "07:30",
+      "end_time": "11:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Övrigt",
+      "description": "Sammandrag i Sandared",
+      "location": "Sandared ( Idrottsgården)",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 6.6
       }
     },
     {
