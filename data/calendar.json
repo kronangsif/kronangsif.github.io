@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-06T15:21:54.544955",
+  "last_updated": "2026-05-06T17:21:46.304697",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 211,
+  "activity_count": 215,
   "activities": [
     {
       "date": "2026-05-01",
@@ -502,9 +502,9 @@
       "description": "Övrigt",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.3
       }
     },
     {
@@ -519,9 +519,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.3
       }
     },
     {
@@ -536,9 +536,9 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.3
       }
     },
     {
@@ -553,9 +553,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.3
       }
     },
     {
@@ -570,9 +570,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.3
       }
     },
     {
@@ -589,7 +589,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.6
+        "temp": 16.7
       }
     },
     {
@@ -606,7 +606,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.8
+        "temp": 16.0
       }
     },
     {
@@ -623,7 +623,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.8
+        "temp": 16.0
       }
     },
     {
@@ -638,9 +638,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.9
       }
     },
     {
@@ -655,9 +655,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.9
       }
     },
     {
@@ -672,9 +672,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.9
       }
     },
     {
@@ -689,9 +689,26 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.9
+      }
+    },
+    {
+      "date": "2026-05-07",
+      "day": "07",
+      "weekday": "tor",
+      "time": "18:45",
+      "end_time": "20:30",
+      "team": "P2009-2010",
+      "team_id": "224798",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.5
       }
     },
     {
@@ -708,7 +725,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.7
+        "temp": 16.5
       }
     },
     {
@@ -725,7 +742,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.7
+        "temp": 16.5
       }
     },
     {
@@ -742,7 +759,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.0
+        "temp": 15.8
       }
     },
     {
@@ -759,7 +776,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.0
+        "temp": 15.8
       }
     },
     {
@@ -776,7 +793,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.1
+        "temp": 18.8
       }
     },
     {
@@ -793,7 +810,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.9
+        "temp": 18.2
       }
     },
     {
@@ -810,7 +827,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.9
+        "temp": 18.2
       }
     },
     {
@@ -827,7 +844,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.9
+        "temp": 18.2
       }
     },
     {
@@ -844,7 +861,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.9
+        "temp": 18.2
       }
     },
     {
@@ -868,17 +885,17 @@
       "date": "2026-05-09",
       "day": "09",
       "weekday": "lör",
-      "time": "08:15",
+      "time": "10:00",
       "end_time": "",
-      "team": "Fotbollsskolan födda 2017",
-      "team_id": "481208",
+      "team": "F2015-2016",
+      "team_id": "520574",
       "type": "Match",
-      "description": "Borta",
-      "location": "Sjömarken, Idrottsgården 16()",
+      "description": "Brämhults IK Svart borta",
+      "location": "Brämhults IP C(Flickor Div 7 Borås)",
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.6
+        "temp": 12.4
       }
     },
     {
@@ -887,11 +904,11 @@
       "weekday": "lör",
       "time": "10:00",
       "end_time": "",
-      "team": "F2015-2016",
-      "team_id": "520574",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
       "type": "Match",
-      "description": "Brämhults IK Svart borta",
-      "location": "Brämhults IP C(Flickor Div 7 Borås)",
+      "description": "Borta",
+      "location": "Sjömarken, Idrottsgården 16()",
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
@@ -1603,6 +1620,19 @@
       "day": "14",
       "weekday": "tor",
       "time": "18:45",
+      "end_time": "20:30",
+      "team": "P2009-2010",
+      "team_id": "224798",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-05-14",
+      "day": "14",
+      "weekday": "tor",
+      "time": "18:45",
       "end_time": "20:45",
       "team": "P2012",
       "team_id": "281528",
@@ -2126,6 +2156,19 @@
       "end_time": "19:00",
       "team": "P2016",
       "team_id": "414417",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-05-21",
+      "day": "21",
+      "weekday": "tor",
+      "time": "18:45",
+      "end_time": "20:30",
+      "team": "P2009-2010",
+      "team_id": "224798",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
@@ -2724,6 +2767,19 @@
       "end_time": "19:00",
       "team": "P2016",
       "team_id": "414417",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-05-28",
+      "day": "28",
+      "weekday": "tor",
+      "time": "18:45",
+      "end_time": "20:30",
+      "team": "P2009-2010",
+      "team_id": "224798",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
