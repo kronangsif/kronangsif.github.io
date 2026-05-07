@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06T23:40:37.058494",
+  "last_updated": "2026-05-07T01:56:11.045347",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -604,7 +604,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.7
+        "temp": 17.0
       }
     },
     {
@@ -621,7 +621,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.7
+        "temp": 17.0
       }
     },
     {
@@ -638,7 +638,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.7
+        "temp": 17.0
       }
     },
     {
@@ -655,7 +655,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.7
+        "temp": 17.0
       }
     },
     {
@@ -672,7 +672,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.5
+        "temp": 16.8
       }
     },
     {
@@ -689,7 +689,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.5
+        "temp": 16.8
       }
     },
     {
@@ -706,7 +706,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.5
+        "temp": 16.8
       }
     },
     {
@@ -723,7 +723,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.0
+        "temp": 16.2
       }
     },
     {
@@ -740,7 +740,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.0
+        "temp": 16.2
       }
     },
     {
@@ -755,9 +755,9 @@
       "description": "Kioskbemanning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 18.6
       }
     },
     {
@@ -774,7 +774,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.6
+        "temp": 18.4
       }
     },
     {
@@ -791,7 +791,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.6
+        "temp": 18.4
       }
     },
     {
@@ -808,7 +808,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.6
+        "temp": 18.4
       }
     },
     {
@@ -825,7 +825,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.6
+        "temp": 18.4
       }
     },
     {
@@ -842,7 +842,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.3
+        "temp": 6.2
       }
     },
     {
@@ -859,7 +859,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.2
+        "temp": 12.0
       }
     },
     {
@@ -876,7 +876,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.2
+        "temp": 12.0
       }
     },
     {
@@ -891,8 +891,8 @@
       "description": "Borgstena/Fristad/Sparsör U borta",
       "location": "Nosseborg A(Herrar, Utveckling B Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 15.9
       }
     },
@@ -908,8 +908,8 @@
       "description": "Mariedals IK Blå borta",
       "location": "Kransmossens IP A(Pojkar Div 6 Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 15.9
       }
     },
@@ -925,8 +925,8 @@
       "description": "Hestrafors IF Grön borta",
       "location": "Bollevi(Pojkar Div 11 Sandared)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 15.9
       }
     },
@@ -944,7 +944,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.5
+        "temp": 16.3
       }
     },
     {
@@ -961,7 +961,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.9
+        "temp": 11.3
       }
     },
     {
@@ -978,7 +978,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.9
+        "temp": 11.3
       }
     },
     {
@@ -995,7 +995,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.9
+        "temp": 11.3
       }
     },
     {
@@ -1012,7 +1012,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.9
+        "temp": 11.3
       }
     },
     {
@@ -1029,7 +1029,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.9
+        "temp": 11.3
       }
     },
     {
@@ -1044,8 +1044,8 @@
       "description": "Övrigt",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 11.4
       }
     },
@@ -1061,8 +1061,8 @@
       "description": "Brämhults IK Svart hemma",
       "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 11.4
       }
     },
@@ -1078,8 +1078,8 @@
       "description": "Skene IF Vit hemma",
       "location": "Kronäng Arena(Pojkar Div 13 Borås)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 11.4
       }
     },
@@ -1095,9 +1095,9 @@
       "description": "IFK Tidaholm borta",
       "location": "Tidavallen A-plan(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 12.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.1
       }
     },
     {
@@ -1112,9 +1112,9 @@
       "description": "IFK Tidaholm borta",
       "location": "Tidavallen A-plan(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 12.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.1
       }
     },
     {
@@ -1129,9 +1129,9 @@
       "description": "Byttorps IF hemma",
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 5 Mark)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 11.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.1
       }
     },
     {
@@ -1146,9 +1146,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.6
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 5.4
       }
     },
     {
@@ -1163,9 +1163,9 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.6
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 5.4
       }
     },
     {
@@ -1180,9 +1180,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.6
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 5.4
       }
     },
     {
@@ -1197,9 +1197,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.6
+        "icon": "❄️",
+        "desc": "Snö",
+        "temp": 5.4
       }
     },
     {
@@ -1214,9 +1214,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 9.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.9
       }
     },
     {
@@ -1231,9 +1231,9 @@
       "description": "Viskafors IF borta",
       "location": "Svanehov A(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.5
       }
     },
     {
@@ -1248,9 +1248,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.5
       }
     },
     {
@@ -1267,7 +1267,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.4
+        "temp": 7.4
       }
     },
     {
@@ -1284,7 +1284,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.4
+        "temp": 7.4
       }
     },
     {
@@ -1301,7 +1301,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.4
+        "temp": 7.4
       }
     },
     {
@@ -1318,7 +1318,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.4
+        "temp": 7.4
       }
     },
     {
@@ -1335,7 +1335,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.4
+        "temp": 7.4
       }
     },
     {
@@ -1352,7 +1352,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.4
+        "temp": 7.4
       }
     },
     {
@@ -1369,7 +1369,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.4
+        "temp": 7.4
       }
     },
     {
@@ -1386,7 +1386,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.5
+        "temp": 6.9
       }
     },
     {
@@ -1403,7 +1403,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.5
+        "temp": 6.9
       }
     },
     {
@@ -1420,7 +1420,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.7
+        "temp": 6.8
       }
     },
     {
