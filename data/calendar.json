@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-07T01:56:11.045347",
+  "last_updated": "2026-05-07T05:25:46.480905",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -604,7 +604,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.0
+        "temp": 17.2
       }
     },
     {
@@ -621,7 +621,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.0
+        "temp": 17.2
       }
     },
     {
@@ -638,7 +638,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.0
+        "temp": 17.2
       }
     },
     {
@@ -655,7 +655,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.0
+        "temp": 17.2
       }
     },
     {
@@ -670,9 +670,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.9
       }
     },
     {
@@ -687,9 +687,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.9
       }
     },
     {
@@ -704,9 +704,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.9
       }
     },
     {
@@ -721,8 +721,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 16.2
       }
     },
@@ -738,8 +738,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 16.2
       }
     },
@@ -755,8 +755,8 @@
       "description": "Kioskbemanning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 18.6
       }
     },
@@ -774,7 +774,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.4
+        "temp": 18.5
       }
     },
     {
@@ -791,7 +791,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.4
+        "temp": 18.5
       }
     },
     {
@@ -808,7 +808,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.4
+        "temp": 18.5
       }
     },
     {
@@ -825,7 +825,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.4
+        "temp": 18.5
       }
     },
     {
@@ -842,7 +842,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.2
+        "temp": 6.9
       }
     },
     {
@@ -859,7 +859,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.0
+        "temp": 11.8
       }
     },
     {
@@ -876,7 +876,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.0
+        "temp": 11.8
       }
     },
     {
@@ -891,9 +891,9 @@
       "description": "Borgstena/Fristad/Sparsör U borta",
       "location": "Nosseborg A(Herrar, Utveckling B Borås)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.8
       }
     },
     {
@@ -908,9 +908,9 @@
       "description": "Mariedals IK Blå borta",
       "location": "Kransmossens IP A(Pojkar Div 6 Borås)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.8
       }
     },
     {
@@ -925,9 +925,9 @@
       "description": "Hestrafors IF Grön borta",
       "location": "Bollevi(Pojkar Div 11 Sandared)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.8
       }
     },
     {
@@ -942,9 +942,9 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.9
       }
     },
     {
