@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-07T11:00:20.772375",
+  "last_updated": "2026-05-07T12:59:03.845729",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -604,7 +604,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.7
+        "temp": 16.5
       }
     },
     {
@@ -621,7 +621,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.7
+        "temp": 16.5
       }
     },
     {
@@ -638,7 +638,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.7
+        "temp": 16.5
       }
     },
     {
@@ -655,7 +655,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.7
+        "temp": 16.5
       }
     },
     {
@@ -672,7 +672,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.3
+        "temp": 16.1
       }
     },
     {
@@ -689,7 +689,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.3
+        "temp": 16.1
       }
     },
     {
@@ -706,7 +706,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.3
+        "temp": 16.1
       }
     },
     {
@@ -723,7 +723,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.6
+        "temp": 15.5
       }
     },
     {
@@ -740,7 +740,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.6
+        "temp": 15.5
       }
     },
     {
@@ -757,7 +757,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.6
+        "temp": 18.5
       }
     },
     {
@@ -774,7 +774,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.4
+        "temp": 18.3
       }
     },
     {
@@ -791,7 +791,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.4
+        "temp": 18.3
       }
     },
     {
@@ -808,7 +808,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.4
+        "temp": 18.3
       }
     },
     {
@@ -825,7 +825,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.4
+        "temp": 18.3
       }
     },
     {
@@ -859,7 +859,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.8
+        "temp": 12.0
       }
     },
     {
@@ -876,7 +876,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.8
+        "temp": 12.0
       }
     },
     {
@@ -1044,8 +1044,8 @@
       "description": "Övrigt",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 11.4
       }
     },
@@ -1061,8 +1061,8 @@
       "description": "Brämhults IK Svart hemma",
       "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 11.4
       }
     },
@@ -1078,8 +1078,8 @@
       "description": "Skene IF Vit hemma",
       "location": "Kronäng Arena(Pojkar Div 13 Borås)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 11.4
       }
     },
@@ -1095,8 +1095,8 @@
       "description": "IFK Tidaholm borta",
       "location": "Tidavallen A-plan(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 11.2
       }
     },
@@ -1112,8 +1112,8 @@
       "description": "IFK Tidaholm borta",
       "location": "Tidavallen A-plan(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 11.2
       }
     },
@@ -1129,8 +1129,8 @@
       "description": "Byttorps IF hemma",
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 5 Mark)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 10.2
       }
     },
@@ -1265,8 +1265,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 9.4
       }
     },
@@ -1282,8 +1282,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 9.4
       }
     },
@@ -1299,8 +1299,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 9.4
       }
     },
@@ -1316,8 +1316,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 9.4
       }
     },
@@ -1333,8 +1333,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 9.4
       }
     },
@@ -1350,8 +1350,8 @@
       "description": "Träning + löpning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 9.4
       }
     },
@@ -1367,8 +1367,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 9.4
       }
     },
@@ -3023,18 +3023,18 @@
   ],
   "latest_news": [
     {
+      "title": "Damerna har varit på träningsläger i Helsingborg!",
+      "published_at": "2026-05-07 14:15, Dam",
+      "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1341684",
+      "image": "",
+      "summary": "Efter bortamatchen i torsdags blev det hem och sova några timmar innan minibussarna rullade söderut för en helg tillsammans - och vilket väder dem prickade in! 30 grymma tjejer åkte med - ett perfekt tillfälle att finslipa på detaljer inför säsongen samt stärka deras fina gemenskap! Helgen bjöd på träningspass varje dag på en närliggande Arena samt den obligatoriska femkampen som Nicke bokstavligt talat snickrat ihop i år. På lördagen hann dem även med en omgång bowling och shuffleboard - och vi kan nog vara överens om att det är tur att tjejerna har valt att spela fotboll istället! Efter lunch på söndagen rullade bussarna hemåt igen, alla fyllda med energi och skratt men också helt slut efter dessa intensiva dagar. Förutom lite finsk karaoke i en av bussarna valde resten att vila ögonen istället. Ett helt klart lyckat träningsläger som tjejerna årligen ser fram emot!"
+    },
+    {
       "title": "Veckans hemmamatcher",
       "published_at": "2026-04-27 13:24",
       "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1339545",
       "image": "",
       "summary": ""
-    },
-    {
-      "title": "Vår samarbetspartner CA Fastigheter",
-      "published_at": "2026-04-24 15:48",
-      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1339131",
-      "image": "https://cdn.sportadmin.se/559/h/200/edb21952c054a94fa36c72bbebf75cd5b8308902e479de7a1da478693f2133cd_L.jpg",
-      "summary": "Vår samarbetspartner CA Fastigheter har lagom till Kronäng Arena Cup satt upp en ny skylt :)"
     }
   ]
 }
