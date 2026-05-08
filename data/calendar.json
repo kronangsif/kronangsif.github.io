@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-08T15:12:48.237810",
+  "last_updated": "2026-05-08T17:01:36.161798",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 219,
+  "activity_count": 220,
   "activities": [
     {
       "date": "2026-05-01",
@@ -721,7 +721,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.8
+        "temp": 19.0
       }
     },
     {
@@ -806,7 +806,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.1
+        "temp": 6.4
       }
     },
     {
@@ -823,7 +823,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.3
+        "temp": 12.4
       }
     },
     {
@@ -840,7 +840,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.3
+        "temp": 12.4
       }
     },
     {
@@ -857,7 +857,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.9
+        "temp": 16.1
       }
     },
     {
@@ -940,9 +940,9 @@
       "description": "Domare",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.0
       }
     },
     {
@@ -957,9 +957,9 @@
       "description": "Domare",
       "location": "Kronängs IF-Sävsjö IF, Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.0
       }
     },
     {
@@ -974,9 +974,9 @@
       "description": "Bergdalens IK  borta",
       "location": "Björkängsvallen, Borås(Pojkar Div 8 Borås norr)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.0
       }
     },
     {
@@ -991,9 +991,9 @@
       "description": "Holmalund City FF Svart hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Alingsås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.0
       }
     },
     {
@@ -1008,9 +1008,9 @@
       "description": "Svansjö hemma",
       "location": "Kronäng Arena(Pojkar Div 11 Kinna)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.0
       }
     },
     {
@@ -1026,8 +1026,8 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 11.3
+        "desc": "Regn",
+        "temp": 11.5
       }
     },
     {
@@ -1043,8 +1043,8 @@
       "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 11.3
+        "desc": "Regn",
+        "temp": 11.5
       }
     },
     {
@@ -1060,8 +1060,8 @@
       "location": "Kronäng Arena(Pojkar Div 13 Borås)",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 11.3
+        "desc": "Regn",
+        "temp": 11.5
       }
     },
     {
@@ -1076,9 +1076,9 @@
       "description": "IFK Tidaholm borta",
       "location": "Tidavallen A-plan(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.4
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.1
       }
     },
     {
@@ -1093,9 +1093,9 @@
       "description": "IFK Tidaholm borta",
       "location": "Tidavallen A-plan(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.4
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.1
       }
     },
     {
@@ -1112,7 +1112,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.5
+        "temp": 11.6
       }
     },
     {
@@ -2155,6 +2155,19 @@
       "type": "Match",
       "description": "Hemsjö IF U hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)",
+      "weather": null
+    },
+    {
+      "date": "2026-05-21",
+      "day": "21",
+      "weekday": "tor",
+      "time": "08:00",
+      "end_time": "15:00",
+      "team": "Klubbstuga",
+      "team_id": "181941",
+      "type": "Övrigt",
+      "description": "Möte",
+      "location": "Kronängs Arena",
       "weather": null
     },
     {
