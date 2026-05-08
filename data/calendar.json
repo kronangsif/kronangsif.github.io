@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T02:01:57.195866",
+  "last_updated": "2026-05-08T05:21:53.868809",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -738,7 +738,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 18.1
       }
     },
     {
@@ -755,7 +755,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 18.1
       }
     },
     {
@@ -772,7 +772,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 18.1
       }
     },
     {
@@ -789,7 +789,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 18.1
       }
     },
     {
@@ -806,7 +806,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.1
+        "temp": 6.2
       }
     },
     {
@@ -857,7 +857,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.5
+        "temp": 17.6
       }
     },
     {
@@ -874,7 +874,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.5
+        "temp": 17.6
       }
     },
     {
@@ -891,7 +891,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.5
+        "temp": 17.6
       }
     },
     {
@@ -908,7 +908,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.2
+        "temp": 18.4
       }
     },
     {
@@ -925,7 +925,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 14.0
       }
     },
     {
@@ -942,7 +942,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 14.0
       }
     },
     {
@@ -959,7 +959,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 14.0
       }
     },
     {
@@ -976,7 +976,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 14.0
       }
     },
     {
@@ -993,7 +993,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 14.0
       }
     },
     {
@@ -1008,9 +1008,9 @@
       "description": "Övrigt",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.3
       }
     },
     {
@@ -1025,9 +1025,9 @@
       "description": "Brämhults IK Svart hemma",
       "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.3
       }
     },
     {
@@ -1042,9 +1042,9 @@
       "description": "Skene IF Vit hemma",
       "location": "Kronäng Arena(Pojkar Div 13 Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.3
       }
     },
     {
