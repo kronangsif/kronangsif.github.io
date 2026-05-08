@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T19:03:07.048160",
+  "last_updated": "2026-05-08T20:45:09.569782",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -806,7 +806,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.6
+        "temp": 6.4
       }
     },
     {
@@ -823,7 +823,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.7
+        "temp": 12.5
       }
     },
     {
@@ -840,7 +840,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 12.7
+        "temp": 12.5
       }
     },
     {
@@ -857,7 +857,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.2
+        "temp": 15.9
       }
     },
     {
@@ -925,7 +925,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.8
+        "temp": 18.7
       }
     },
     {
@@ -940,9 +940,9 @@
       "description": "Domare",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.0
       }
     },
     {
@@ -957,9 +957,9 @@
       "description": "Domare",
       "location": "Kronängs IF-Sävsjö IF, Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.0
       }
     },
     {
@@ -974,9 +974,9 @@
       "description": "Bergdalens IK  borta",
       "location": "Björkängsvallen, Borås(Pojkar Div 8 Borås norr)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.0
       }
     },
     {
@@ -991,9 +991,9 @@
       "description": "Holmalund City FF Svart hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Alingsås)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.0
       }
     },
     {
@@ -1008,9 +1008,9 @@
       "description": "Svansjö hemma",
       "location": "Kronäng Arena(Pojkar Div 11 Kinna)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.0
       }
     },
     {
@@ -1026,7 +1026,7 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
+        "desc": "Dis",
         "temp": 11.8
       }
     },
@@ -1043,7 +1043,7 @@
       "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
+        "desc": "Dis",
         "temp": 11.8
       }
     },
@@ -1060,7 +1060,7 @@
       "location": "Kronäng Arena(Pojkar Div 13 Borås)",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
+        "desc": "Dis",
         "temp": 11.8
       }
     },
@@ -1076,9 +1076,9 @@
       "description": "IFK Tidaholm borta",
       "location": "Tidavallen A-plan(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.6
       }
     },
     {
@@ -1093,9 +1093,9 @@
       "description": "IFK Tidaholm borta",
       "location": "Tidavallen A-plan(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.6
       }
     },
     {
@@ -1110,9 +1110,9 @@
       "description": "Byttorps IF hemma",
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 5 Mark)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.7
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 11.6
       }
     },
     {
