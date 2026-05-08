@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T09:04:34.627946",
+  "last_updated": "2026-05-08T11:02:07.553515",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -719,9 +719,9 @@
       "description": "Kioskbemanning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.3
       }
     },
     {
@@ -736,9 +736,9 @@
       "description": "Kinna IF borta",
       "location": "Pruhultsplan vid Viskavallen(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.1
       }
     },
     {
@@ -753,9 +753,9 @@
       "description": "Domare",
       "location": "Kronängs IF-Sparsör AIK, Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.1
       }
     },
     {
@@ -770,9 +770,9 @@
       "description": "Sparsörs AIK hemma",
       "location": "Kronäng Arena(Pojkar Div 9 Fristad)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.1
       }
     },
     {
@@ -787,9 +787,9 @@
       "description": "Vårgårda IK Röd  hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Dalsjöfors)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.1
       }
     },
     {
@@ -806,7 +806,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.0
+        "temp": 6.4
       }
     },
     {
@@ -823,7 +823,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.9
+        "temp": 12.5
       }
     },
     {
@@ -840,7 +840,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 11.9
+        "temp": 12.5
       }
     },
     {
@@ -857,7 +857,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.2
+        "temp": 17.6
       }
     },
     {
@@ -874,7 +874,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.2
+        "temp": 17.6
       }
     },
     {
@@ -891,7 +891,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.2
+        "temp": 17.6
       }
     },
     {
@@ -908,7 +908,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 18.2
       }
     },
     {
@@ -923,9 +923,9 @@
       "description": "Domare",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.8
       }
     },
     {
@@ -940,9 +940,9 @@
       "description": "Domare",
       "location": "Kronängs IF-Sävsjö IF, Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.8
       }
     },
     {
@@ -957,9 +957,9 @@
       "description": "Bergdalens IK  borta",
       "location": "Björkängsvallen, Borås(Pojkar Div 8 Borås norr)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.8
       }
     },
     {
@@ -974,9 +974,9 @@
       "description": "Holmalund City FF Svart hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Alingsås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.8
       }
     },
     {
@@ -991,9 +991,9 @@
       "description": "Svansjö hemma",
       "location": "Kronäng Arena(Pojkar Div 11 Kinna)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.8
       }
     },
     {
@@ -1009,8 +1009,8 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.2
+        "desc": "Regn",
+        "temp": 10.7
       }
     },
     {
@@ -1026,8 +1026,8 @@
       "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.2
+        "desc": "Regn",
+        "temp": 10.7
       }
     },
     {
@@ -1043,8 +1043,8 @@
       "location": "Kronäng Arena(Pojkar Div 13 Borås)",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.2
+        "desc": "Regn",
+        "temp": 10.7
       }
     },
     {
@@ -1060,8 +1060,8 @@
       "location": "Tidavallen A-plan(Damer, Div 3 Södra)",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 12.3
+        "desc": "Dis",
+        "temp": 11.2
       }
     },
     {
@@ -1077,8 +1077,8 @@
       "location": "Tidavallen A-plan(Damer, Div 3 Södra)",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 12.3
+        "desc": "Dis",
+        "temp": 11.2
       }
     },
     {
@@ -1093,9 +1093,9 @@
       "description": "Byttorps IF hemma",
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 5 Mark)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 11.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 11.0
       }
     },
     {
@@ -3036,18 +3036,18 @@
   ],
   "latest_news": [
     {
-      "title": "Damerna har varit på träningsläger i Helsingborg!",
-      "published_at": "2026-05-07 14:15, Dam",
-      "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1341684",
-      "image": "",
-      "summary": "Efter bortamatchen i torsdags blev det hem och sova några timmar innan minibussarna rullade söderut för en helg tillsammans - och vilket väder dem prickade in! 30 grymma tjejer åkte med - ett perfekt tillfälle att finslipa på detaljer inför säsongen samt stärka deras fina gemenskap! Helgen bjöd på träningspass varje dag på en närliggande Arena samt den obligatoriska femkampen som Nicke bokstavligt talat snickrat ihop i år. På lördagen hann dem även med en omgång bowling och shuffleboard - och vi kan nog vara överens om att det är tur att tjejerna har valt att spela fotboll istället! Efter lunch på söndagen rullade bussarna hemåt igen, alla fyllda med energi och skratt men också helt slut efter dessa intensiva dagar. Förutom lite finsk karaoke i en av bussarna valde resten att vila ögonen istället. Ett helt klart lyckat träningsläger som tjejerna årligen ser fram emot!"
+      "title": "Herrlagets andra match och Go Banana bidrar med priset till matchens lirare!",
+      "published_at": "2026-05-08 12:05, Herr",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38936&NID=1341837",
+      "image": "https://cdn.sportadmin.se/559/h/200/bcefe57473345ee152517c0c7454a5d88aba12459fc0707d40b6acd335f1a667_L.jpg",
+      "summary": "Ikväll blev publikens val av MVP Marius Hultén, med motivering som lyder: Marius bidrog med en riktig krigarinsats ikväll och var otröttlig i sina löpningar, en sån här insats måste belönas med MVP! Grattis Marius och tack Go Banana!"
     },
     {
-      "title": "Veckans hemmamatcher",
-      "published_at": "2026-04-27 13:24",
-      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1339545",
-      "image": "",
-      "summary": ""
+      "title": "Kronängs IF Sommarfotbollsskola 2026",
+      "published_at": "2026-05-08 11:03",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1341820",
+      "image": "https://cdn.sportadmin.se/559/h/200/9f94f5ee352d35ae789c6934f32be756ba284a14789840741e5936d6f22340d4_L.jpg",
+      "summary": "Kronängs IF Sommarfotbollsskola 2026"
     }
   ]
 }
