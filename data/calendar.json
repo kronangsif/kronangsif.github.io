@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T18:45:10.880002",
+  "last_updated": "2026-05-10T19:51:58.430061",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1058,9 +1058,9 @@
       "description": "Viskafors borta",
       "location": "Annan()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.2
       }
     },
     {
@@ -1075,9 +1075,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.4
       }
     },
     {
@@ -1092,9 +1092,9 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.4
       }
     },
     {
@@ -1109,9 +1109,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.4
       }
     },
     {
@@ -1126,9 +1126,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.4
       }
     },
     {
@@ -1143,9 +1143,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.7
       }
     },
     {
@@ -1160,9 +1160,9 @@
       "description": "Viskafors IF borta",
       "location": "Svanehov A(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.0
       }
     },
     {
@@ -1177,9 +1177,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.0
       }
     },
     {
@@ -1194,9 +1194,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.3
       }
     },
     {
@@ -1211,9 +1211,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.3
       }
     },
     {
@@ -1228,9 +1228,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.3
       }
     },
     {
@@ -1245,9 +1245,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.3
       }
     },
     {
@@ -1262,9 +1262,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.3
       }
     },
     {
@@ -1279,9 +1279,9 @@
       "description": "Träning + löpning i spåret",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.3
       }
     },
     {
@@ -1296,9 +1296,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.3
       }
     },
     {
@@ -1313,9 +1313,9 @@
       "description": "Sandareds IF Grön borta",
       "location": "Sandevi B-plan(Pojkar Div 11 Sandared)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.2
       }
     },
     {
@@ -1330,9 +1330,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.2
       }
     },
     {
@@ -1347,9 +1347,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 12.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.2
       }
     },
     {
@@ -1435,6 +1435,23 @@
         "icon": "❄️",
         "desc": "Snö",
         "temp": 6.4
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "day": "14",
+      "weekday": "tor",
+      "time": "11:00",
+      "end_time": "12:30",
+      "team": "Dam",
+      "team_id": "52695",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.8
       }
     },
     {
@@ -1537,23 +1554,6 @@
         "icon": "🌧️",
         "desc": "Dis",
         "temp": 7.7
-      }
-    },
-    {
-      "date": "2026-05-14",
-      "day": "14",
-      "weekday": "tor",
-      "time": "19:00",
-      "end_time": "20:30",
-      "team": "Dam",
-      "team_id": "52695",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.9
       }
     },
     {
