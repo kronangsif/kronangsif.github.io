@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-10T16:41:49.602365",
+  "last_updated": "2026-05-10T17:41:32.079662",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 217,
+  "activity_count": 216,
   "activities": [
     {
       "date": "2026-05-01",
@@ -1043,7 +1043,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.8
+        "temp": 12.8
       }
     },
     {
@@ -1060,7 +1060,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.0
       }
     },
     {
@@ -1077,7 +1077,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.9
+        "temp": 11.3
       }
     },
     {
@@ -1094,7 +1094,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.9
+        "temp": 11.3
       }
     },
     {
@@ -1111,7 +1111,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.9
+        "temp": 11.3
       }
     },
     {
@@ -1128,7 +1128,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.9
+        "temp": 11.3
       }
     },
     {
@@ -1145,7 +1145,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.5
+        "temp": 11.1
       }
     },
     {
@@ -1162,7 +1162,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.9
+        "temp": 10.4
       }
     },
     {
@@ -1179,7 +1179,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.9
+        "temp": 10.4
       }
     },
     {
@@ -1196,7 +1196,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.8
+        "temp": 13.4
       }
     },
     {
@@ -1213,7 +1213,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.8
+        "temp": 13.4
       }
     },
     {
@@ -1230,7 +1230,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.8
+        "temp": 13.4
       }
     },
     {
@@ -1247,7 +1247,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.8
+        "temp": 13.4
       }
     },
     {
@@ -1264,7 +1264,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.8
+        "temp": 13.4
       }
     },
     {
@@ -1281,7 +1281,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.8
+        "temp": 13.4
       }
     },
     {
@@ -1298,7 +1298,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.8
+        "temp": 13.4
       }
     },
     {
@@ -1315,7 +1315,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.9
+        "temp": 13.6
       }
     },
     {
@@ -1332,7 +1332,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.9
+        "temp": 13.6
       }
     },
     {
@@ -1349,7 +1349,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.1
+        "temp": 12.7
       }
     },
     {
@@ -1479,23 +1479,6 @@
       "end_time": "19:00",
       "team": "P2013",
       "team_id": "324307",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena B-plan",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 11.4
-      }
-    },
-    {
-      "date": "2026-05-14",
-      "day": "14",
-      "weekday": "tor",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "P2014",
-      "team_id": "324331",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
