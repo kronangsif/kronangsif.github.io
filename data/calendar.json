@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-11T13:36:48.048043",
+  "last_updated": "2026-05-11T16:23:40.003126",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1020,7 +1020,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.0
+        "temp": 11.9
       }
     },
     {
@@ -1037,7 +1037,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.2
+        "temp": 10.8
       }
     },
     {
@@ -1054,7 +1054,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.2
+        "temp": 10.8
       }
     },
     {
@@ -1071,7 +1071,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.2
+        "temp": 10.8
       }
     },
     {
@@ -1088,7 +1088,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.2
+        "temp": 10.8
       }
     },
     {
@@ -1122,7 +1122,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.3
+        "temp": 8.7
       }
     },
     {
@@ -1139,7 +1139,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.3
+        "temp": 8.7
       }
     },
     {
@@ -1154,9 +1154,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 11.4
       }
     },
     {
@@ -1171,9 +1171,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 11.4
       }
     },
     {
@@ -1188,9 +1188,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 11.4
       }
     },
     {
@@ -1205,9 +1205,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 11.4
       }
     },
     {
@@ -1222,9 +1222,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 11.4
       }
     },
     {
@@ -1239,9 +1239,9 @@
       "description": "Träning + löpning i spåret",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 11.4
       }
     },
     {
@@ -1256,9 +1256,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 11.4
       }
     },
     {
@@ -1273,9 +1273,9 @@
       "description": "Sandareds IF Grön borta",
       "location": "Sandevi B-plan(Pojkar Div 11 Sandared)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.7
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 11.3
       }
     },
     {
@@ -1290,9 +1290,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.7
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 11.3
       }
     },
     {
@@ -1307,9 +1307,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 11.0
       }
     },
     {
@@ -1324,9 +1324,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.3
       }
     },
     {
@@ -1341,9 +1341,9 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.3
       }
     },
     {
@@ -1358,9 +1358,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.3
       }
     },
     {
@@ -1375,9 +1375,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.8
       }
     },
     {
@@ -1392,9 +1392,9 @@
       "description": "Ubbhult/Hällingsjö/Hyssna  borta",
       "location": "Ekäng A(Pojkar Div 4 Borås)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.8
       }
     },
     {
