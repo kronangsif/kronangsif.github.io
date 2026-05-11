@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-11T16:23:40.003126",
+  "last_updated": "2026-05-11T18:50:15.957729",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1105,7 +1105,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.0
+        "temp": 9.7
       }
     },
     {
@@ -1122,7 +1122,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.7
+        "temp": 8.9
       }
     },
     {
@@ -1139,7 +1139,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.7
+        "temp": 8.9
       }
     },
     {
@@ -1156,7 +1156,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 11.4
+        "temp": 10.7
       }
     },
     {
@@ -1173,7 +1173,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 11.4
+        "temp": 10.7
       }
     },
     {
@@ -1190,7 +1190,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 11.4
+        "temp": 10.7
       }
     },
     {
@@ -1207,7 +1207,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 11.4
+        "temp": 10.7
       }
     },
     {
@@ -1224,7 +1224,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 11.4
+        "temp": 10.7
       }
     },
     {
@@ -1241,7 +1241,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 11.4
+        "temp": 10.7
       }
     },
     {
@@ -1258,7 +1258,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 11.4
+        "temp": 10.7
       }
     },
     {
@@ -1273,9 +1273,9 @@
       "description": "Sandareds IF Grön borta",
       "location": "Sandevi B-plan(Pojkar Div 11 Sandared)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 11.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 10.8
       }
     },
     {
@@ -1290,9 +1290,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 11.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 10.8
       }
     },
     {
@@ -1307,9 +1307,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 11.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.8
       }
     },
     {
@@ -1324,9 +1324,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.5
       }
     },
     {
@@ -1341,9 +1341,9 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.5
       }
     },
     {
@@ -1358,9 +1358,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.5
       }
     },
     {
@@ -1375,9 +1375,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.0
       }
     },
     {
@@ -1392,9 +1392,9 @@
       "description": "Ubbhult/Hällingsjö/Hyssna  borta",
       "location": "Ekäng A(Pojkar Div 4 Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.0
       }
     },
     {
