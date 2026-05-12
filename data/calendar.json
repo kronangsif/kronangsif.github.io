@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12T18:30:11.994891",
+  "last_updated": "2026-05-12T20:24:53.782203",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1294,7 +1294,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.5
+        "temp": 7.8
       }
     },
     {
@@ -1311,7 +1311,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.5
+        "temp": 7.8
       }
     },
     {
@@ -1328,7 +1328,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.5
+        "temp": 7.8
       }
     },
     {
@@ -1345,7 +1345,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.8
+        "temp": 6.9
       }
     },
     {
@@ -1362,7 +1362,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.8
+        "temp": 6.9
       }
     },
     {
@@ -1378,8 +1378,8 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 7.7
+        "desc": "Dis",
+        "temp": 8.5
       }
     },
     {
@@ -1395,8 +1395,8 @@
       "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 7.7
+        "desc": "Dis",
+        "temp": 8.5
       }
     },
     {
@@ -1411,9 +1411,9 @@
       "description": "IF Elfsborg Gul hemma",
       "location": "Kronäng Arena(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 10.4
       }
     },
     {
@@ -1428,9 +1428,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 9.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.3
       }
     },
     {
@@ -1445,9 +1445,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 9.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.3
       }
     },
     {
@@ -1462,9 +1462,9 @@
       "description": "Töllsjö hemma",
       "location": "Kronängs Arena A-plan()",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.2
       }
     },
     {
@@ -1479,9 +1479,9 @@
       "description": "Skene IF Vit hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 13.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.4
       }
     },
     {
@@ -1496,9 +1496,9 @@
       "description": "Töllsjö IF hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 12.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.6
       }
     },
     {
@@ -1515,7 +1515,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.2
+        "temp": 8.9
       }
     },
     {
@@ -1532,7 +1532,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.2
+        "temp": 8.9
       }
     },
     {
@@ -1549,7 +1549,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.2
+        "temp": 9.1
       }
     },
     {
@@ -1566,7 +1566,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.1
+        "temp": 9.4
       }
     },
     {
@@ -1583,7 +1583,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.2
+        "temp": 9.6
       }
     },
     {
@@ -1600,7 +1600,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.2
+        "temp": 9.6
       }
     },
     {
@@ -1617,7 +1617,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.2
+        "temp": 9.6
       }
     },
     {
@@ -1634,7 +1634,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.9
+        "temp": 10.1
       }
     },
     {
@@ -1651,7 +1651,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 10.4
+        "temp": 10.6
       }
     },
     {
@@ -1668,7 +1668,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 10.4
+        "temp": 10.6
       }
     },
     {
@@ -1685,7 +1685,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 10.4
+        "temp": 10.6
       }
     },
     {
@@ -1702,7 +1702,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 10.4
+        "temp": 10.6
       }
     },
     {
@@ -1719,7 +1719,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.5
+        "temp": 13.1
       }
     },
     {
@@ -1736,7 +1736,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.5
+        "temp": 13.1
       }
     },
     {
@@ -1753,7 +1753,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.5
+        "temp": 13.1
       }
     },
     {
@@ -1770,7 +1770,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.5
+        "temp": 13.1
       }
     },
     {
@@ -1804,7 +1804,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 12.6
+        "temp": 12.9
       }
     },
     {
@@ -1821,7 +1821,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 12.6
+        "temp": 12.9
       }
     },
     {
