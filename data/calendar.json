@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-12T08:33:37.015983",
+  "last_updated": "2026-05-12T11:11:38.597788",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 215,
+  "activity_count": 217,
   "activities": [
     {
       "date": "2026-05-01",
@@ -1124,7 +1124,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.9
+        "temp": 10.5
       }
     },
     {
@@ -1141,7 +1141,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.9
+        "temp": 10.5
       }
     },
     {
@@ -1158,7 +1158,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.9
+        "temp": 10.5
       }
     },
     {
@@ -1175,7 +1175,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.9
+        "temp": 10.5
       }
     },
     {
@@ -1192,7 +1192,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.9
+        "temp": 10.5
       }
     },
     {
@@ -1209,7 +1209,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.9
+        "temp": 10.5
       }
     },
     {
@@ -1226,7 +1226,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.9
+        "temp": 10.5
       }
     },
     {
@@ -1243,7 +1243,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.0
+        "temp": 10.4
       }
     },
     {
@@ -1260,7 +1260,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.0
+        "temp": 10.4
       }
     },
     {
@@ -1277,7 +1277,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 9.7
+        "temp": 10.0
       }
     },
     {
@@ -1294,7 +1294,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 8.8
       }
     },
     {
@@ -1311,7 +1311,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 8.8
       }
     },
     {
@@ -1328,7 +1328,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.2
+        "temp": 8.8
       }
     },
     {
@@ -1343,9 +1343,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 7.4
       }
     },
     {
@@ -1360,9 +1360,9 @@
       "description": "Ubbhult/Hällingsjö/Hyssna  borta",
       "location": "Ekäng A(Pojkar Div 4 Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 7.4
       }
     },
     {
@@ -1377,9 +1377,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 9.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.5
       }
     },
     {
@@ -1394,9 +1394,9 @@
       "description": "Rydboholms SK hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 9.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.5
       }
     },
     {
@@ -1411,9 +1411,9 @@
       "description": "IF Elfsborg Gul hemma",
       "location": "Kronäng Arena(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 11.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.7
       }
     },
     {
@@ -1430,7 +1430,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 11.3
+        "temp": 11.8
       }
     },
     {
@@ -1447,7 +1447,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.8
+        "temp": 10.9
       }
     },
     {
@@ -1464,7 +1464,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.8
+        "temp": 10.9
       }
     },
     {
@@ -1597,6 +1597,23 @@
       "type": "Match",
       "description": "Mariedals IK  hemma",
       "location": "Kronäng Arena(Flickor Div 7 Borås)",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.3
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "day": "17",
+      "weekday": "sön",
+      "time": "14:00",
+      "end_time": "16:00",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Övrigt",
+      "description": "Domare",
+      "location": "Kronäng-sjömarken , Kronängs Arena",
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
@@ -2186,6 +2203,19 @@
       "type": "Match",
       "description": "Södra Ving/Hössna/Timmele hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
+      "weather": null
+    },
+    {
+      "date": "2026-05-23",
+      "day": "23",
+      "weekday": "lör",
+      "time": "08:45",
+      "end_time": "",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Match",
+      "description": "Borta",
+      "location": "Kransmossen()",
       "weather": null
     },
     {
