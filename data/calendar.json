@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-12T13:52:30.922934",
+  "last_updated": "2026-05-12T16:12:45.116739",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 217,
+  "activity_count": 216,
   "activities": [
     {
       "date": "2026-05-01",
@@ -950,8 +950,8 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Brämhults IK Svart hemma",
-      "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
+      "description": "Skene IF Vit hemma",
+      "location": "Kronäng Arena(Pojkar Div 13 Borås)",
       "weather": null
     },
     {
@@ -963,8 +963,8 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Skene IF Vit hemma",
-      "location": "Kronäng Arena(Pojkar Div 13 Borås)",
+      "description": "Brämhults IK Svart hemma",
+      "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
       "weather": null
     },
     {
@@ -1124,7 +1124,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.6
+        "temp": 10.4
       }
     },
     {
@@ -1141,7 +1141,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.6
+        "temp": 10.4
       }
     },
     {
@@ -1158,7 +1158,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.6
+        "temp": 10.4
       }
     },
     {
@@ -1175,7 +1175,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.6
+        "temp": 10.4
       }
     },
     {
@@ -1192,7 +1192,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.6
+        "temp": 10.4
       }
     },
     {
@@ -1209,7 +1209,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.6
+        "temp": 10.4
       }
     },
     {
@@ -1226,7 +1226,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.6
+        "temp": 10.4
       }
     },
     {
@@ -1241,9 +1241,9 @@
       "description": "Sandareds IF Grön borta",
       "location": "Sandevi B-plan(Pojkar Div 11 Sandared)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.3
       }
     },
     {
@@ -1258,9 +1258,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.3
       }
     },
     {
@@ -1277,7 +1277,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 10.2
+        "temp": 9.9
       }
     },
     {
@@ -1294,7 +1294,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.2
+        "temp": 8.4
       }
     },
     {
@@ -1311,7 +1311,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.2
+        "temp": 8.4
       }
     },
     {
@@ -1328,7 +1328,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.2
+        "temp": 8.4
       }
     },
     {
@@ -1345,7 +1345,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.3
+        "temp": 7.8
       }
     },
     {
@@ -1362,7 +1362,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.3
+        "temp": 7.8
       }
     },
     {
@@ -1378,8 +1378,8 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.5
+        "desc": "Regn",
+        "temp": 7.5
       }
     },
     {
@@ -1395,8 +1395,8 @@
       "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.5
+        "desc": "Regn",
+        "temp": 7.5
       }
     },
     {
@@ -1411,26 +1411,9 @@
       "description": "IF Elfsborg Gul hemma",
       "location": "Kronäng Arena(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.1
-      }
-    },
-    {
-      "date": "2026-05-14",
-      "day": "14",
-      "weekday": "tor",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "P2013",
-      "team_id": "324307",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena B-plan",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.6
       }
     },
     {
@@ -1445,9 +1428,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.1
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 9.5
       }
     },
     {
@@ -1462,9 +1445,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.1
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 9.5
       }
     },
     {
@@ -2279,8 +2262,8 @@
       "team": "P2014",
       "team_id": "324331",
       "type": "Match",
-      "description": "Hemsjö IF  hemma",
-      "location": "Kronäng Arena(Pojkar Div 8 Alingsås)",
+      "description": "IF Elfsborg Svart hemma",
+      "location": "Kronäng Arena(Pojkar Div 9 Fristad)",
       "weather": null
     },
     {
@@ -2292,8 +2275,8 @@
       "team": "P2014",
       "team_id": "324331",
       "type": "Match",
-      "description": "IF Elfsborg Svart hemma",
-      "location": "Kronäng Arena(Pojkar Div 9 Fristad)",
+      "description": "Hemsjö IF  hemma",
+      "location": "Kronäng Arena(Pojkar Div 8 Alingsås)",
       "weather": null
     },
     {
