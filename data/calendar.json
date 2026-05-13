@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-13T14:05:38.375134",
+  "last_updated": "2026-05-13T17:07:46.583719",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 217,
+  "activity_count": 219,
   "activities": [
     {
       "date": "2026-05-01",
@@ -1244,6 +1244,40 @@
       "date": "2026-05-13",
       "day": "13",
       "weekday": "ons",
+      "time": "17:00",
+      "end_time": "",
+      "team": "VEO kamera",
+      "team_id": "430796",
+      "type": "Match",
+      "description": "Hyssna/Ubbhult/Hällingsjö hemma",
+      "location": "Annan()",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.1
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "day": "13",
+      "weekday": "ons",
+      "time": "17:00",
+      "end_time": "",
+      "team": "VEO kamera",
+      "team_id": "430796",
+      "type": "Match",
+      "description": "Hyssna/Ubbhult/Hällingsjö hemma",
+      "location": "Annan()",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.1
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "day": "13",
+      "weekday": "ons",
       "time": "17:30",
       "end_time": "19:00",
       "team": "F2013/2014",
@@ -1254,7 +1288,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.6
+        "temp": 10.1
       }
     },
     {
@@ -1271,7 +1305,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.6
+        "temp": 10.1
       }
     },
     {
@@ -1288,7 +1322,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.6
+        "temp": 10.1
       }
     },
     {
@@ -1305,7 +1339,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.8
+        "temp": 8.6
       }
     },
     {
@@ -1322,7 +1356,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.8
+        "temp": 8.6
       }
     },
     {
@@ -1339,7 +1373,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.3
+        "temp": 8.9
       }
     },
     {
@@ -1356,7 +1390,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.3
+        "temp": 8.9
       }
     },
     {
@@ -1373,7 +1407,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.0
+        "temp": 10.9
       }
     },
     {
@@ -1390,7 +1424,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.0
+        "temp": 10.9
       }
     },
     {
@@ -1407,7 +1441,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.9
+        "temp": 10.4
       }
     },
     {
@@ -1424,7 +1458,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.9
+        "temp": 10.4
       }
     },
     {
@@ -1441,7 +1475,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 14.2
+        "temp": 14.5
       }
     },
     {
@@ -1456,9 +1490,9 @@
       "description": "Skene IF Vit hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 13.9
       }
     },
     {
@@ -1473,9 +1507,9 @@
       "description": "Töllsjö IF hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 13.8
       }
     },
     {
