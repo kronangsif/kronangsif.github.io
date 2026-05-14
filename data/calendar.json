@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T02:08:52.927792",
+  "last_updated": "2026-05-14T06:15:06.231675",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1345,7 +1345,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.5
+        "temp": 7.3
       }
     },
     {
@@ -1362,7 +1362,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.5
+        "temp": 7.3
       }
     },
     {
@@ -1377,9 +1377,9 @@
       "description": "IF Elfsborg Gul hemma",
       "location": "Kronäng Arena(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.0
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 8.5
       }
     },
     {
@@ -1394,9 +1394,9 @@
       "description": "Domare",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.0
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 8.5
       }
     },
     {
@@ -1411,9 +1411,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 10.5
       }
     },
     {
@@ -1428,9 +1428,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 10.5
       }
     },
     {
@@ -1445,9 +1445,9 @@
       "description": "Töllsjö hemma",
       "location": "Kronängs Arena A-plan()",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.4
       }
     },
     {
@@ -1464,7 +1464,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.4
+        "temp": 13.7
       }
     },
     {
@@ -1479,9 +1479,9 @@
       "description": "Töllsjö IF hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 13.6
       }
     },
     {
