@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T09:26:24.350777",
+  "last_updated": "2026-05-14T11:43:32.988433",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1345,7 +1345,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.7
+        "temp": 7.8
       }
     },
     {
@@ -1362,7 +1362,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.7
+        "temp": 7.8
       }
     },
     {
@@ -1377,9 +1377,9 @@
       "description": "IF Elfsborg Gul hemma",
       "location": "Kronäng Arena(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 9.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 10.1
       }
     },
     {
@@ -1394,9 +1394,9 @@
       "description": "Domare",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 9.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 10.1
       }
     },
     {
@@ -1411,9 +1411,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.6
       }
     },
     {
@@ -1428,9 +1428,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.6
       }
     },
     {
@@ -1447,7 +1447,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.1
+        "temp": 14.8
       }
     },
     {
@@ -1462,9 +1462,9 @@
       "description": "Skene IF Vit hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 13.9
       }
     },
     {
@@ -1481,7 +1481,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 12.7
+        "temp": 13.1
       }
     },
     {
