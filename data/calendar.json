@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-14T13:29:29.688381",
+  "last_updated": "2026-05-14T16:04:24.310077",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 220,
+  "activity_count": 219,
   "activities": [
     {
       "date": "2026-05-01",
@@ -1404,23 +1404,6 @@
       "day": "14",
       "weekday": "tor",
       "time": "18:45",
-      "end_time": "20:30",
-      "team": "P2009-2010",
-      "team_id": "224798",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.5
-      }
-    },
-    {
-      "date": "2026-05-14",
-      "day": "14",
-      "weekday": "tor",
-      "time": "18:45",
       "end_time": "20:45",
       "team": "P2012",
       "team_id": "281528",
@@ -1430,7 +1413,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.5
+        "temp": 7.9
       }
     },
     {
@@ -1445,9 +1428,9 @@
       "description": "Töllsjö hemma",
       "location": "Kronängs Arena A-plan()",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.0
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 12.8
       }
     },
     {
@@ -1462,9 +1445,9 @@
       "description": "Skene IF Vit hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.6
       }
     },
     {
@@ -1481,7 +1464,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.4
+        "temp": 11.9
       }
     },
     {
@@ -2322,8 +2305,8 @@
       "team": "P2014",
       "team_id": "324331",
       "type": "Match",
-      "description": "Hemsjö IF  hemma",
-      "location": "Kronäng Arena(Pojkar Div 8 Alingsås)",
+      "description": "IF Elfsborg Svart hemma",
+      "location": "Kronäng Arena(Pojkar Div 9 Fristad)",
       "weather": null
     },
     {
@@ -2335,8 +2318,8 @@
       "team": "P2014",
       "team_id": "324331",
       "type": "Match",
-      "description": "IF Elfsborg Svart hemma",
-      "location": "Kronäng Arena(Pojkar Div 9 Fristad)",
+      "description": "Hemsjö IF  hemma",
+      "location": "Kronäng Arena(Pojkar Div 8 Alingsås)",
       "weather": null
     },
     {
@@ -2361,7 +2344,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Träning",
-      "description": "Lagfotografering",
+      "description": "Lagfotografering (samling kl.13:15)",
       "location": "Kronängs Arena",
       "weather": null
     },
