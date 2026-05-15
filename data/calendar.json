@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T19:16:01.486145",
+  "last_updated": "2026-05-15T20:50:57.980003",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1461,7 +1461,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.3
+        "temp": 10.6
       }
     },
     {
@@ -1478,7 +1478,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.3
+        "temp": 10.6
       }
     },
     {
@@ -1495,7 +1495,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.3
+        "temp": 11.6
       }
     },
     {
@@ -1512,7 +1512,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.0
+        "temp": 12.3
       }
     },
     {
@@ -1529,7 +1529,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.1
+        "temp": 12.4
       }
     },
     {
@@ -1546,7 +1546,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.1
+        "temp": 12.4
       }
     },
     {
@@ -1563,7 +1563,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.1
+        "temp": 12.4
       }
     },
     {
@@ -1580,7 +1580,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.3
+        "temp": 12.5
       }
     },
     {
@@ -1597,7 +1597,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 12.7
+        "temp": 12.9
       }
     },
     {
@@ -1614,7 +1614,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 12.7
+        "temp": 12.9
       }
     },
     {
@@ -1631,7 +1631,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 12.7
+        "temp": 12.9
       }
     },
     {
@@ -1648,7 +1648,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 12.7
+        "temp": 12.9
       }
     },
     {
