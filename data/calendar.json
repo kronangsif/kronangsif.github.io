@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T21:49:12.805117",
+  "last_updated": "2026-05-15T22:43:48.838980",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1407,11 +1407,7 @@
       "type": "Match",
       "description": "Töllsjö hemma",
       "location": "Kronängs Arena A-plan()",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.9
-      }
+      "weather": null
     },
     {
       "date": "2026-05-15",
@@ -1424,11 +1420,7 @@
       "type": "Match",
       "description": "Skene IF Vit hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.0
-      }
+      "weather": null
     },
     {
       "date": "2026-05-15",
@@ -1441,11 +1433,7 @@
       "type": "Match",
       "description": "Töllsjö IF hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 11.5
-      }
+      "weather": null
     },
     {
       "date": "2026-05-17",
@@ -1459,9 +1447,9 @@
       "description": "Fristad/Sparsör/Borgstena Grön hemma",
       "location": "Kronäng Arena(Pojkar Div 6 Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.9
       }
     },
     {
@@ -1476,9 +1464,9 @@
       "description": "Alingsås IF FF Vit borta",
       "location": "Mjörnvallen, B-plan(Pojkar Div 8 Alingsås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.9
       }
     },
     {
@@ -1495,7 +1483,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.5
+        "temp": 11.0
       }
     },
     {
@@ -1512,7 +1500,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 11.6
       }
     },
     {
@@ -1529,7 +1517,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.3
+        "temp": 12.1
       }
     },
     {
@@ -1546,7 +1534,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.3
+        "temp": 12.1
       }
     },
     {
@@ -1563,7 +1551,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.3
+        "temp": 12.1
       }
     },
     {
@@ -1578,9 +1566,9 @@
       "description": "Byttorps IF Vit borta",
       "location": "Byttorps IP C(Pojkar Div 13 Dalsjöfors)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.8
       }
     },
     {
@@ -1595,9 +1583,9 @@
       "description": "Falköpings KIK U borta",
       "location": "Odenplan A-plan(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 12.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 12.5
       }
     },
     {
@@ -1612,9 +1600,9 @@
       "description": "Mariedals IK U borta",
       "location": "Kransmossens IP D(Herrar, Utveckling B Borås)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 12.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 12.5
       }
     },
     {
@@ -1629,9 +1617,9 @@
       "description": "Falköpings KIK U borta",
       "location": "Odenplan A-plan(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 12.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 12.5
       }
     },
     {
@@ -1646,9 +1634,9 @@
       "description": "Hestrafors IF borta",
       "location": "Bollevi A(Pojkar Div 5 Mark)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 12.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 12.5
       }
     },
     {
@@ -2223,7 +2211,11 @@
       "type": "Match",
       "description": "Södra Ving/Hössna/Timmele hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 18.4
+      }
     },
     {
       "date": "2026-05-22",
@@ -2236,7 +2228,11 @@
       "type": "Match",
       "description": "Södra Ving/Hössna/Timmele hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 18.4
+      }
     },
     {
       "date": "2026-05-23",
