@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T21:39:14.076387",
+  "last_updated": "2026-05-16T22:35:35.594906",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -2245,7 +2245,11 @@
       "type": "Match",
       "description": "Borta",
       "location": "Kransmossen()",
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.8
+      }
     },
     {
       "date": "2026-05-23",
@@ -2258,7 +2262,11 @@
       "type": "Övrigt",
       "description": "Lagfotografering",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.6
+      }
     },
     {
       "date": "2026-05-23",
@@ -2271,7 +2279,11 @@
       "type": "Match",
       "description": "Svenljunga/Högvad hemma",
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)",
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 17.1
+      }
     },
     {
       "date": "2026-05-23",
@@ -2284,7 +2296,11 @@
       "type": "Match",
       "description": "Brämhults IK Gul borta",
       "location": "Brämhults IP C(Pojkar Div 11 Sandared)",
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 19.8
+      }
     },
     {
       "date": "2026-05-23",
@@ -2297,7 +2313,11 @@
       "type": "Match",
       "description": "Alingsås KIK Blå borta",
       "location": "Noltorpsvallen B Konstgräs(Flickor Div 5 Kinna)",
-      "weather": null
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 20.6
+      }
     },
     {
       "date": "2026-05-24",
