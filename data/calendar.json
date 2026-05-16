@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T23:44:26.472250",
+  "last_updated": "2026-05-16T01:59:17.163421",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1449,7 +1449,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.0
+        "temp": 10.4
       }
     },
     {
@@ -1466,7 +1466,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.0
+        "temp": 10.4
       }
     },
     {
@@ -1483,7 +1483,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.0
+        "temp": 10.6
       }
     },
     {
@@ -1500,7 +1500,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.2
       }
     },
     {
@@ -1517,7 +1517,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.1
+        "temp": 11.9
       }
     },
     {
@@ -1534,7 +1534,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.1
+        "temp": 11.9
       }
     },
     {
@@ -1551,7 +1551,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.1
+        "temp": 11.9
       }
     },
     {
@@ -1566,9 +1566,9 @@
       "description": "Byttorps IF Vit borta",
       "location": "Byttorps IP C(Pojkar Div 13 Dalsjöfors)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 12.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.3
       }
     },
     {
