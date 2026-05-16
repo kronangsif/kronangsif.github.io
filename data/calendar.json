@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T12:57:23.337177",
+  "last_updated": "2026-05-16T14:20:14.208127",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1447,9 +1447,9 @@
       "description": "Fristad/Sparsör/Borgstena Grön hemma",
       "location": "Kronäng Arena(Pojkar Div 6 Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.6
       }
     },
     {
@@ -1464,9 +1464,9 @@
       "description": "Alingsås IF FF Vit borta",
       "location": "Mjörnvallen, B-plan(Pojkar Div 8 Alingsås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.6
       }
     },
     {
@@ -1481,9 +1481,9 @@
       "description": "IF Elfsborg  borta",
       "location": "Ryda Sportfält C3(Pojkar Div 13 Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.9
       }
     },
     {
@@ -1500,7 +1500,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.9
+        "temp": 11.9
       }
     },
     {
@@ -1517,7 +1517,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.5
+        "temp": 12.2
       }
     },
     {
@@ -1534,7 +1534,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.5
+        "temp": 12.2
       }
     },
     {
@@ -1551,7 +1551,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.5
+        "temp": 12.2
       }
     },
     {
@@ -1568,7 +1568,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.8
+        "temp": 12.5
       }
     },
     {
@@ -1653,7 +1653,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 15.4
       }
     },
     {
@@ -1670,7 +1670,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 15.4
       }
     },
     {
@@ -1687,7 +1687,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 15.4
       }
     },
     {
@@ -1704,7 +1704,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 15.4
       }
     },
     {
@@ -1721,7 +1721,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.6
+        "temp": 15.2
       }
     },
     {
@@ -1738,7 +1738,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.1
+        "temp": 14.7
       }
     },
     {
@@ -1755,7 +1755,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.1
+        "temp": 14.7
       }
     },
     {
@@ -1772,7 +1772,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 17.7
       }
     },
     {
@@ -1789,7 +1789,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 17.7
       }
     },
     {
@@ -1806,7 +1806,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 17.7
       }
     },
     {
@@ -1823,7 +1823,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 17.7
       }
     },
     {
@@ -1840,7 +1840,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 17.7
       }
     },
     {
@@ -1857,7 +1857,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 17.7
       }
     },
     {
@@ -1874,7 +1874,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 17.7
       }
     },
     {
@@ -1891,7 +1891,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.2
+        "temp": 16.9
       }
     },
     {
@@ -1908,7 +1908,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.2
+        "temp": 15.8
       }
     },
     {
@@ -1925,7 +1925,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.5
+        "temp": 16.4
       }
     },
     {
@@ -1942,7 +1942,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.5
+        "temp": 16.4
       }
     },
     {
@@ -1959,7 +1959,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.5
+        "temp": 16.4
       }
     },
     {
@@ -1976,7 +1976,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.5
+        "temp": 16.4
       }
     },
     {
@@ -1993,7 +1993,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.0
+        "temp": 15.9
       }
     },
     {
@@ -2010,7 +2010,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.0
+        "temp": 15.9
       }
     },
     {
@@ -2027,7 +2027,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.0
+        "temp": 15.9
       }
     },
     {
@@ -2044,7 +2044,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.9
+        "temp": 11.3
       }
     },
     {
@@ -2061,7 +2061,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.9
+        "temp": 13.8
       }
     },
     {
@@ -2078,7 +2078,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.9
+        "temp": 13.8
       }
     },
     {
@@ -2095,7 +2095,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.9
+        "temp": 13.8
       }
     },
     {
@@ -2112,7 +2112,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.9
+        "temp": 13.8
       }
     },
     {
@@ -2129,7 +2129,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.5
+        "temp": 13.8
       }
     },
     {
@@ -2146,7 +2146,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.5
+        "temp": 13.8
       }
     },
     {
@@ -2163,7 +2163,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.7
+        "temp": 13.5
       }
     },
     {
@@ -2180,7 +2180,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.7
+        "temp": 13.5
       }
     },
     {
@@ -2197,7 +2197,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.7
+        "temp": 13.5
       }
     },
     {
