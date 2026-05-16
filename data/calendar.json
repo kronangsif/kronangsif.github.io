@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T07:48:33.447589",
+  "last_updated": "2026-05-16T09:20:21.818801",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1449,7 +1449,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.1
+        "temp": 9.9
       }
     },
     {
@@ -1466,7 +1466,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.1
+        "temp": 9.9
       }
     },
     {
@@ -1483,7 +1483,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.7
+        "temp": 10.2
       }
     },
     {
@@ -1500,7 +1500,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.1
+        "temp": 10.8
       }
     },
     {
@@ -1517,7 +1517,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.4
+        "temp": 11.2
       }
     },
     {
@@ -1534,7 +1534,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.4
+        "temp": 11.2
       }
     },
     {
@@ -1551,7 +1551,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.4
+        "temp": 11.2
       }
     },
     {
@@ -1568,7 +1568,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.0
+        "temp": 11.9
       }
     },
     {
@@ -1721,7 +1721,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.6
+        "temp": 15.4
       }
     },
     {
@@ -1736,8 +1736,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 14.6
       }
     },
@@ -1753,8 +1753,8 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 14.6
       }
     },
@@ -1770,8 +1770,8 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 16.9
       }
     },
@@ -1787,8 +1787,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 16.9
       }
     },
@@ -1804,8 +1804,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 16.9
       }
     },
@@ -1821,8 +1821,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 16.9
       }
     },
@@ -1838,8 +1838,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 16.9
       }
     },
@@ -1855,8 +1855,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 16.9
       }
     },
@@ -1872,8 +1872,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 16.9
       }
     },
@@ -1889,8 +1889,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 16.5
       }
     },
@@ -2127,8 +2127,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 16.1
       }
     },
@@ -2144,8 +2144,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 16.1
       }
     },
@@ -2161,8 +2161,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 15.2
       }
     },
@@ -2178,8 +2178,8 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 15.2
       }
     },
@@ -2195,8 +2195,8 @@
       "description": "Rydboholms SK borta",
       "location": "Sven Erikssonsvallen A konstgräs(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 15.2
       }
     },
@@ -2212,8 +2212,8 @@
       "description": "Södra Ving/Hössna/Timmele hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 18.4
       }
     },
@@ -2229,8 +2229,8 @@
       "description": "Södra Ving/Hössna/Timmele hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 18.4
       }
     },
