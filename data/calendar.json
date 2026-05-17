@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-17T20:00:03.171215",
+  "last_updated": "2026-05-17T20:57:02.791753",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -15,7 +15,8 @@
       "team_id": "52695",
       "type": "Övrigt",
       "description": "Träningsläger",
-      "location": "Helsingborg"
+      "location": "Helsingborg",
+      "weather": null
     },
     {
       "date": "2026-05-01",
@@ -27,7 +28,8 @@
       "team_id": "52695",
       "type": "Träning",
       "description": "Träning",
-      "location": "Helsingborg"
+      "location": "Helsingborg",
+      "weather": null
     },
     {
       "date": "2026-05-01",
@@ -39,7 +41,8 @@
       "team_id": "38937",
       "type": "Match",
       "description": "SK Mjörn borta",
-      "location": "Bodarnevallen A(Herrar, Div 5 Sydvästra)"
+      "location": "Bodarnevallen A(Herrar, Div 5 Sydvästra)",
+      "weather": null
     },
     {
       "date": "2026-05-02",
@@ -51,7 +54,8 @@
       "team_id": "52695",
       "type": "Övrigt",
       "description": "Träningsläger",
-      "location": "Helsingborg"
+      "location": "Helsingborg",
+      "weather": null
     },
     {
       "date": "2026-05-02",
@@ -63,7 +67,8 @@
       "team_id": "52695",
       "type": "Träning",
       "description": "Träning",
-      "location": "Helsingborg"
+      "location": "Helsingborg",
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -75,7 +80,8 @@
       "team_id": "52695",
       "type": "Övrigt",
       "description": "Träningsläger",
-      "location": "Helsingborg"
+      "location": "Helsingborg",
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -87,7 +93,8 @@
       "team_id": "52695",
       "type": "Träning",
       "description": "Träning",
-      "location": "Helsingborg"
+      "location": "Helsingborg",
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -99,7 +106,8 @@
       "team_id": "56158",
       "type": "Match",
       "description": "IF Elfsborg Röd borta",
-      "location": "Ryda fotbollshall(Pojkar Div 11 Kinna)"
+      "location": "Ryda fotbollshall(Pojkar Div 11 Kinna)",
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -111,7 +119,8 @@
       "team_id": "260562",
       "type": "Övrigt",
       "description": "Domare",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -123,7 +132,8 @@
       "team_id": "324307",
       "type": "Match",
       "description": "Alingsås IF FF Grön borta",
-      "location": "Mjörnvallen, B-plan(Pojkar Div 8 Dalsjöfors)"
+      "location": "Mjörnvallen, B-plan(Pojkar Div 8 Dalsjöfors)",
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -135,7 +145,8 @@
       "team_id": "56158",
       "type": "Match",
       "description": "IFK Örby  hemma",
-      "location": "Kronäng Arena(Pojkar Div 11 Sandared)"
+      "location": "Kronäng Arena(Pojkar Div 11 Sandared)",
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -147,7 +158,8 @@
       "team_id": "414417",
       "type": "Match",
       "description": "Hestrafors IF Vit borta",
-      "location": "Bollevi(Pojkar Div 13 Borås)"
+      "location": "Bollevi(Pojkar Div 13 Borås)",
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -159,7 +171,8 @@
       "team_id": "281528",
       "type": "Match",
       "description": "Kinna IF Blå hemma",
-      "location": "Kronäng Arena(Pojkar Div 6 Borås)"
+      "location": "Kronäng Arena(Pojkar Div 6 Borås)",
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -171,7 +184,8 @@
       "team_id": "414417",
       "type": "Match",
       "description": "Ulricehamns IFK Svart borta",
-      "location": "Lassalyckan C-plan(Pojkar Div 13 Dalsjöfors)"
+      "location": "Lassalyckan C-plan(Pojkar Div 13 Dalsjöfors)",
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -183,7 +197,8 @@
       "team_id": "324331",
       "type": "Match",
       "description": "Kinna IF Röd borta",
-      "location": "Viskavallen Pruhultsplanen B(Pojkar Div 9 Fristad)"
+      "location": "Viskavallen Pruhultsplanen B(Pojkar Div 9 Fristad)",
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -195,7 +210,8 @@
       "team_id": "324331",
       "type": "Match",
       "description": "Ubbhult/Hällingsjö/Hyssna  borta",
-      "location": "Ekåsvallen(Pojkar Div 8 Alingsås)"
+      "location": "Ekåsvallen(Pojkar Div 8 Alingsås)",
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -207,7 +223,8 @@
       "team_id": "374981",
       "type": "Match",
       "description": "Bredareds IF borta",
-      "location": "Hagavallen, Bredared(Flickor Div 5 Kinna)"
+      "location": "Hagavallen, Bredared(Flickor Div 5 Kinna)",
+      "weather": null
     },
     {
       "date": "2026-05-03",
@@ -219,7 +236,8 @@
       "team_id": "260562",
       "type": "Match",
       "description": "Sandared/Sjömarken Vit borta",
-      "location": "Sandevi B konstgräs(Pojkar Div 5 Mark)"
+      "location": "Sandevi B konstgräs(Pojkar Div 5 Mark)",
+      "weather": null
     },
     {
       "date": "2026-05-04",
@@ -231,7 +249,8 @@
       "team_id": "374981",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-04",
@@ -243,7 +262,8 @@
       "team_id": "520574",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronäng Arena C-Plan"
+      "location": "Kronäng Arena C-Plan",
+      "weather": null
     },
     {
       "date": "2026-05-04",
@@ -255,7 +275,8 @@
       "team_id": "481208",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-04",
@@ -267,7 +288,8 @@
       "team_id": "56158",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena A-plan"
+      "location": "Kronängs Arena A-plan",
+      "weather": null
     },
     {
       "date": "2026-05-04",
@@ -279,7 +301,8 @@
       "team_id": "224798",
       "type": "Övrigt",
       "description": "Uppföljningsmöte Danmark DIGITALT",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-04",
@@ -291,7 +314,8 @@
       "team_id": "260562",
       "type": "Övrigt",
       "description": "Uppföljningsmöte Danmark DIGITALT",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-04",
@@ -303,7 +327,8 @@
       "team_id": "281528",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-04",
@@ -315,7 +340,8 @@
       "team_id": "38937",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena A-plan"
+      "location": "Kronängs Arena A-plan",
+      "weather": null
     },
     {
       "date": "2026-05-04",
@@ -327,7 +353,8 @@
       "team_id": "260562",
       "type": "Träning",
       "description": "Träning utomhus",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-05",
@@ -339,7 +366,8 @@
       "team_id": "181941",
       "type": "Övrigt",
       "description": "Möte",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-05",
@@ -351,7 +379,8 @@
       "team_id": "0",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-05",
@@ -363,7 +392,8 @@
       "team_id": "520555",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-05",
@@ -375,7 +405,8 @@
       "team_id": "584817",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-05",
@@ -387,7 +418,8 @@
       "team_id": "324307",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-05",
@@ -399,7 +431,8 @@
       "team_id": "324331",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-05",
@@ -411,7 +444,8 @@
       "team_id": "414417",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-05",
@@ -423,7 +457,8 @@
       "team_id": "224798",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-05",
@@ -435,7 +470,8 @@
       "team_id": "52695",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-06",
@@ -447,7 +483,8 @@
       "team_id": "224798",
       "type": "Match",
       "description": "Ospecificerat lag (10) hemma",
-      "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)"
+      "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)",
+      "weather": null
     },
     {
       "date": "2026-05-06",
@@ -459,7 +496,8 @@
       "team_id": "430796",
       "type": "Övrigt",
       "description": "Övrigt",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-06",
@@ -471,7 +509,8 @@
       "team_id": "374981",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-06",
@@ -483,7 +522,8 @@
       "team_id": "520574",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronäng Arena C-Plan"
+      "location": "Kronäng Arena C-Plan",
+      "weather": null
     },
     {
       "date": "2026-05-06",
@@ -495,7 +535,8 @@
       "team_id": "481208",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-06",
@@ -507,7 +548,8 @@
       "team_id": "56158",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena A-plan"
+      "location": "Kronängs Arena A-plan",
+      "weather": null
     },
     {
       "date": "2026-05-06",
@@ -519,7 +561,8 @@
       "team_id": "430796",
       "type": "Match",
       "description": "Sätila hemma",
-      "location": "Kronängs Arena A-plan()"
+      "location": "Kronängs Arena A-plan()",
+      "weather": null
     },
     {
       "date": "2026-05-06",
@@ -531,7 +574,8 @@
       "team_id": "52695",
       "type": "Match",
       "description": "Södra Härene/Östadkulle U borta",
-      "location": "Lenavallen A-plan(Damer, Utveckling Södra)"
+      "location": "Lenavallen A-plan(Damer, Utveckling Södra)",
+      "weather": null
     },
     {
       "date": "2026-05-06",
@@ -543,7 +587,8 @@
       "team_id": "38937",
       "type": "Match",
       "description": "Sätila SK hemma",
-      "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)"
+      "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
+      "weather": null
     },
     {
       "date": "2026-05-07",
@@ -555,7 +600,8 @@
       "team_id": "520555",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-07",
@@ -567,7 +613,8 @@
       "team_id": "324307",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-07",
@@ -579,7 +626,8 @@
       "team_id": "324331",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-07",
@@ -591,7 +639,8 @@
       "team_id": "414417",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-07",
@@ -603,7 +652,8 @@
       "team_id": "224798",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-07",
@@ -615,7 +665,8 @@
       "team_id": "260562",
       "type": "Träning",
       "description": "Träning utomhus",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-07",
@@ -627,7 +678,8 @@
       "team_id": "281528",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-07",
@@ -639,7 +691,8 @@
       "team_id": "52695",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-07",
@@ -651,7 +704,8 @@
       "team_id": "38937",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-08",
@@ -663,7 +717,8 @@
       "team_id": "324331",
       "type": "Övrigt",
       "description": "Kioskbemanning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-08",
@@ -675,7 +730,8 @@
       "team_id": "374981",
       "type": "Match",
       "description": "Kinna IF borta",
-      "location": "Pruhultsplan vid Viskavallen(Flickor Div 5 Kinna)"
+      "location": "Pruhultsplan vid Viskavallen(Flickor Div 5 Kinna)",
+      "weather": null
     },
     {
       "date": "2026-05-08",
@@ -687,7 +743,8 @@
       "team_id": "281528",
       "type": "Övrigt",
       "description": "Domare",
-      "location": "Kronängs IF-Sparsör AIK, Kronängs Arena"
+      "location": "Kronängs IF-Sparsör AIK, Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-08",
@@ -699,7 +756,8 @@
       "team_id": "324331",
       "type": "Match",
       "description": "Sparsörs AIK hemma",
-      "location": "Kronäng Arena(Pojkar Div 9 Fristad)"
+      "location": "Kronäng Arena(Pojkar Div 9 Fristad)",
+      "weather": null
     },
     {
       "date": "2026-05-08",
@@ -711,7 +769,8 @@
       "team_id": "324307",
       "type": "Match",
       "description": "Vårgårda IK Röd  hemma",
-      "location": "Kronäng Arena(Pojkar Div 8 Dalsjöfors)"
+      "location": "Kronäng Arena(Pojkar Div 8 Dalsjöfors)",
+      "weather": null
     },
     {
       "date": "2026-05-09",
@@ -723,7 +782,8 @@
       "team_id": "520555",
       "type": "Övrigt",
       "description": "Sammandrag i Sjömarken",
-      "location": "Sjömarken ( Hagavägen 16)"
+      "location": "Sjömarken ( Hagavägen 16)",
+      "weather": null
     },
     {
       "date": "2026-05-09",
@@ -735,7 +795,8 @@
       "team_id": "520574",
       "type": "Match",
       "description": "Brämhults IK Svart borta",
-      "location": "Brämhults IP C(Flickor Div 7 Borås)"
+      "location": "Brämhults IP C(Flickor Div 7 Borås)",
+      "weather": null
     },
     {
       "date": "2026-05-09",
@@ -747,7 +808,8 @@
       "team_id": "481208",
       "type": "Match",
       "description": "Borta",
-      "location": "Sjömarken, Idrottsgården 16()"
+      "location": "Sjömarken, Idrottsgården 16()",
+      "weather": null
     },
     {
       "date": "2026-05-09",
@@ -759,7 +821,8 @@
       "team_id": "430796",
       "type": "Match",
       "description": "Borgstena borta",
-      "location": "Annan()"
+      "location": "Annan()",
+      "weather": null
     },
     {
       "date": "2026-05-09",
@@ -771,7 +834,8 @@
       "team_id": "38937",
       "type": "Match",
       "description": "Borgstena/Fristad/Sparsör U borta",
-      "location": "Nosseborg A(Herrar, Utveckling B Borås)"
+      "location": "Nosseborg A(Herrar, Utveckling B Borås)",
+      "weather": null
     },
     {
       "date": "2026-05-09",
@@ -783,7 +847,8 @@
       "team_id": "281528",
       "type": "Match",
       "description": "Mariedals IK Blå borta",
-      "location": "Kransmossens IP A(Pojkar Div 6 Borås)"
+      "location": "Kransmossens IP A(Pojkar Div 6 Borås)",
+      "weather": null
     },
     {
       "date": "2026-05-09",
@@ -795,7 +860,8 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Hestrafors IF Grön borta",
-      "location": "Bollevi(Pojkar Div 11 Sandared)"
+      "location": "Bollevi(Pojkar Div 11 Sandared)",
+      "weather": null
     },
     {
       "date": "2026-05-09",
@@ -807,7 +873,8 @@
       "team_id": "181941",
       "type": "Övrigt",
       "description": "Möte",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-10",
@@ -819,7 +886,8 @@
       "team_id": "260562",
       "type": "Övrigt",
       "description": "Domare",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-10",
@@ -831,7 +899,8 @@
       "team_id": "281528",
       "type": "Övrigt",
       "description": "Domare",
-      "location": "Kronängs IF-Sävsjö IF, Kronängs Arena"
+      "location": "Kronängs IF-Sävsjö IF, Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-10",
@@ -843,7 +912,8 @@
       "team_id": "324307",
       "type": "Match",
       "description": "Bergdalens IK  borta",
-      "location": "Björkängsvallen, Borås(Pojkar Div 8 Borås norr)"
+      "location": "Björkängsvallen, Borås(Pojkar Div 8 Borås norr)",
+      "weather": null
     },
     {
       "date": "2026-05-10",
@@ -855,7 +925,8 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Svansjö hemma",
-      "location": "Kronäng Arena(Pojkar Div 11 Kinna)"
+      "location": "Kronäng Arena(Pojkar Div 11 Kinna)",
+      "weather": null
     },
     {
       "date": "2026-05-10",
@@ -867,7 +938,8 @@
       "team_id": "324307",
       "type": "Övrigt",
       "description": "Övrigt",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-10",
@@ -879,7 +951,8 @@
       "team_id": "414417",
       "type": "Match",
       "description": "Brämhults IK Svart hemma",
-      "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)"
+      "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
+      "weather": null
     },
     {
       "date": "2026-05-10",
@@ -891,7 +964,8 @@
       "team_id": "414417",
       "type": "Match",
       "description": "Skene IF Vit hemma",
-      "location": "Kronäng Arena(Pojkar Div 13 Borås)"
+      "location": "Kronäng Arena(Pojkar Div 13 Borås)",
+      "weather": null
     },
     {
       "date": "2026-05-10",
@@ -903,7 +977,8 @@
       "team_id": "52695",
       "type": "Match",
       "description": "IFK Tidaholm borta",
-      "location": "Tidavallen A-plan(Damer, Div 3 Södra)"
+      "location": "Tidavallen A-plan(Damer, Div 3 Södra)",
+      "weather": null
     },
     {
       "date": "2026-05-10",
@@ -915,7 +990,8 @@
       "team_id": "430796",
       "type": "Match",
       "description": "IFK Tidaholm borta",
-      "location": "Tidavallen A-plan(Damer, Div 3 Södra)"
+      "location": "Tidavallen A-plan(Damer, Div 3 Södra)",
+      "weather": null
     },
     {
       "date": "2026-05-10",
@@ -927,7 +1003,8 @@
       "team_id": "260562",
       "type": "Match",
       "description": "Byttorps IF hemma",
-      "location": "Kronäng Arena konstgräs 1(Pojkar Div 5 Mark)"
+      "location": "Kronäng Arena konstgräs 1(Pojkar Div 5 Mark)",
+      "weather": null
     },
     {
       "date": "2026-05-11",
@@ -939,7 +1016,8 @@
       "team_id": "430796",
       "type": "Match",
       "description": "Viskafors borta",
-      "location": "Annan()"
+      "location": "Annan()",
+      "weather": null
     },
     {
       "date": "2026-05-11",
@@ -951,7 +1029,8 @@
       "team_id": "374981",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-11",
@@ -963,7 +1042,8 @@
       "team_id": "520574",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronäng Arena C-Plan"
+      "location": "Kronäng Arena C-Plan",
+      "weather": null
     },
     {
       "date": "2026-05-11",
@@ -975,7 +1055,8 @@
       "team_id": "481208",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-11",
@@ -987,7 +1068,8 @@
       "team_id": "56158",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena A-plan"
+      "location": "Kronängs Arena A-plan",
+      "weather": null
     },
     {
       "date": "2026-05-11",
@@ -999,7 +1081,8 @@
       "team_id": "281528",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-11",
@@ -1011,7 +1094,8 @@
       "team_id": "38937",
       "type": "Match",
       "description": "Viskafors IF borta",
-      "location": "Svanehov A(Herrar, Div 5 Sydvästra)"
+      "location": "Svanehov A(Herrar, Div 5 Sydvästra)",
+      "weather": null
     },
     {
       "date": "2026-05-11",
@@ -1023,7 +1107,8 @@
       "team_id": "260562",
       "type": "Träning",
       "description": "Träning utomhus",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-12",
@@ -1035,7 +1120,8 @@
       "team_id": "0",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-12",
@@ -1047,7 +1133,8 @@
       "team_id": "520555",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-12",
@@ -1059,7 +1146,8 @@
       "team_id": "584817",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-12",
@@ -1071,7 +1159,8 @@
       "team_id": "181941",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-12",
@@ -1083,7 +1172,8 @@
       "team_id": "324307",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-12",
@@ -1095,7 +1185,8 @@
       "team_id": "324331",
       "type": "Träning",
       "description": "Träning + löpning i spåret",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-12",
@@ -1107,7 +1198,8 @@
       "team_id": "414417",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-12",
@@ -1119,7 +1211,8 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Sandareds IF Grön borta",
-      "location": "Sandevi B-plan(Pojkar Div 11 Sandared)"
+      "location": "Sandevi B-plan(Pojkar Div 11 Sandared)",
+      "weather": null
     },
     {
       "date": "2026-05-12",
@@ -1131,7 +1224,8 @@
       "team_id": "224798",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-12",
@@ -1143,7 +1237,8 @@
       "team_id": "52695",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-13",
@@ -1155,7 +1250,8 @@
       "team_id": "430796",
       "type": "Match",
       "description": "Hyssna/Ubbhult/Hällingsjö hemma",
-      "location": "Annan()"
+      "location": "Annan()",
+      "weather": null
     },
     {
       "date": "2026-05-13",
@@ -1167,7 +1263,8 @@
       "team_id": "430796",
       "type": "Match",
       "description": "Hyssna/Ubbhult/Hällingsjö hemma",
-      "location": "Annan()"
+      "location": "Annan()",
+      "weather": null
     },
     {
       "date": "2026-05-13",
@@ -1179,7 +1276,8 @@
       "team_id": "374981",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-13",
@@ -1191,7 +1289,8 @@
       "team_id": "520574",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronäng Arena C-Plan"
+      "location": "Kronäng Arena C-Plan",
+      "weather": null
     },
     {
       "date": "2026-05-13",
@@ -1203,7 +1302,8 @@
       "team_id": "56158",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena A-plan"
+      "location": "Kronängs Arena A-plan",
+      "weather": null
     },
     {
       "date": "2026-05-13",
@@ -1215,7 +1315,8 @@
       "team_id": "38937",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena A-plan"
+      "location": "Kronängs Arena A-plan",
+      "weather": null
     },
     {
       "date": "2026-05-13",
@@ -1227,7 +1328,8 @@
       "team_id": "224798",
       "type": "Match",
       "description": "Ubbhult/Hällingsjö/Hyssna  borta",
-      "location": "Ekäng A(Pojkar Div 4 Borås)"
+      "location": "Ekäng A(Pojkar Div 4 Borås)",
+      "weather": null
     },
     {
       "date": "2026-05-14",
@@ -1239,7 +1341,8 @@
       "team_id": "52695",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-14",
@@ -1251,7 +1354,8 @@
       "team_id": "324307",
       "type": "Match",
       "description": "Rydboholms SK hemma",
-      "location": "Kronäng Arena(Pojkar Div 8 Borås norr)"
+      "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
+      "weather": null
     },
     {
       "date": "2026-05-14",
@@ -1263,7 +1367,8 @@
       "team_id": "374981",
       "type": "Match",
       "description": "IF Elfsborg Gul hemma",
-      "location": "Kronäng Arena(Flickor Div 5 Kinna)"
+      "location": "Kronäng Arena(Flickor Div 5 Kinna)",
+      "weather": null
     },
     {
       "date": "2026-05-14",
@@ -1275,7 +1380,8 @@
       "team_id": "260562",
       "type": "Övrigt",
       "description": "Domare",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-14",
@@ -1287,7 +1393,8 @@
       "team_id": "281528",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-15",
@@ -1299,7 +1406,8 @@
       "team_id": "430796",
       "type": "Match",
       "description": "Töllsjö hemma",
-      "location": "Kronängs Arena A-plan()"
+      "location": "Kronängs Arena A-plan()",
+      "weather": null
     },
     {
       "date": "2026-05-15",
@@ -1311,7 +1419,8 @@
       "team_id": "324307",
       "type": "Match",
       "description": "Skene IF Vit hemma",
-      "location": "Kronäng Arena(Pojkar Div 8 Borås norr)"
+      "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
+      "weather": null
     },
     {
       "date": "2026-05-15",
@@ -1323,7 +1432,8 @@
       "team_id": "38937",
       "type": "Match",
       "description": "Töllsjö IF hemma",
-      "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)"
+      "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
+      "weather": null
     },
     {
       "date": "2026-05-17",
@@ -1335,7 +1445,12 @@
       "team_id": "281528",
       "type": "Match",
       "description": "Fristad/Sparsör/Borgstena Grön hemma",
-      "location": "Kronäng Arena(Pojkar Div 6 Borås)"
+      "location": "Kronäng Arena(Pojkar Div 6 Borås)",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.3
+      }
     },
     {
       "date": "2026-05-17",
@@ -1347,7 +1462,12 @@
       "team_id": "324331",
       "type": "Match",
       "description": "Alingsås IF FF Vit borta",
-      "location": "Mjörnvallen, B-plan(Pojkar Div 8 Alingsås)"
+      "location": "Mjörnvallen, B-plan(Pojkar Div 8 Alingsås)",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.3
+      }
     },
     {
       "date": "2026-05-17",
@@ -1359,7 +1479,12 @@
       "team_id": "414417",
       "type": "Match",
       "description": "IF Elfsborg  borta",
-      "location": "Ryda Sportfält C3(Pojkar Div 13 Borås)"
+      "location": "Ryda Sportfält C3(Pojkar Div 13 Borås)",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.9
+      }
     },
     {
       "date": "2026-05-17",
@@ -1371,7 +1496,12 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Byttorps IF Vit borta",
-      "location": "Byttorps IP B(Pojkar Div 11 Kinna)"
+      "location": "Byttorps IP B(Pojkar Div 11 Kinna)",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.8
+      }
     },
     {
       "date": "2026-05-17",
@@ -1383,7 +1513,12 @@
       "team_id": "520574",
       "type": "Match",
       "description": "Mariedals IK  hemma",
-      "location": "Kronäng Arena(Flickor Div 7 Borås)"
+      "location": "Kronäng Arena(Flickor Div 7 Borås)",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.3
+      }
     },
     {
       "date": "2026-05-17",
@@ -1395,7 +1530,12 @@
       "team_id": "281528",
       "type": "Övrigt",
       "description": "Domare",
-      "location": "Kronäng-sjömarken , Kronängs Arena"
+      "location": "Kronäng-sjömarken , Kronängs Arena",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.3
+      }
     },
     {
       "date": "2026-05-17",
@@ -1407,7 +1547,12 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Sjömarkens IF Grön hemma",
-      "location": "Kronäng Arena(Pojkar Div 11 Sandared)"
+      "location": "Kronäng Arena(Pojkar Div 11 Sandared)",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.3
+      }
     },
     {
       "date": "2026-05-17",
@@ -1419,7 +1564,12 @@
       "team_id": "414417",
       "type": "Match",
       "description": "Byttorps IF Vit borta",
-      "location": "Byttorps IP C(Pojkar Div 13 Dalsjöfors)"
+      "location": "Byttorps IP C(Pojkar Div 13 Dalsjöfors)",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.5
+      }
     },
     {
       "date": "2026-05-17",
@@ -1431,7 +1581,12 @@
       "team_id": "52695",
       "type": "Match",
       "description": "Falköpings KIK U borta",
-      "location": "Odenplan A-plan(Damer, Div 3 Södra)"
+      "location": "Odenplan A-plan(Damer, Div 3 Södra)",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 13.9
+      }
     },
     {
       "date": "2026-05-17",
@@ -1443,7 +1598,12 @@
       "team_id": "38937",
       "type": "Match",
       "description": "Mariedals IK U borta",
-      "location": "Kransmossens IP D(Herrar, Utveckling B Borås)"
+      "location": "Kransmossens IP D(Herrar, Utveckling B Borås)",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 13.9
+      }
     },
     {
       "date": "2026-05-17",
@@ -1455,7 +1615,12 @@
       "team_id": "430796",
       "type": "Match",
       "description": "Falköpings KIK U borta",
-      "location": "Odenplan A-plan(Damer, Div 3 Södra)"
+      "location": "Odenplan A-plan(Damer, Div 3 Södra)",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 13.9
+      }
     },
     {
       "date": "2026-05-17",
@@ -1467,7 +1632,12 @@
       "team_id": "260562",
       "type": "Match",
       "description": "Hestrafors IF borta",
-      "location": "Bollevi A(Pojkar Div 5 Mark)"
+      "location": "Bollevi A(Pojkar Div 5 Mark)",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 13.9
+      }
     },
     {
       "date": "2026-05-18",
@@ -1479,7 +1649,12 @@
       "team_id": "374981",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.8
+      }
     },
     {
       "date": "2026-05-18",
@@ -1491,7 +1666,12 @@
       "team_id": "520574",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronäng Arena C-Plan"
+      "location": "Kronäng Arena C-Plan",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.8
+      }
     },
     {
       "date": "2026-05-18",
@@ -1503,7 +1683,12 @@
       "team_id": "481208",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.8
+      }
     },
     {
       "date": "2026-05-18",
@@ -1515,7 +1700,12 @@
       "team_id": "56158",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena A-plan"
+      "location": "Kronängs Arena A-plan",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.8
+      }
     },
     {
       "date": "2026-05-18",
@@ -1527,7 +1717,12 @@
       "team_id": "281528",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.2
+      }
     },
     {
       "date": "2026-05-18",
@@ -1539,7 +1734,12 @@
       "team_id": "38937",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena A-plan"
+      "location": "Kronängs Arena A-plan",
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.8
+      }
     },
     {
       "date": "2026-05-18",
@@ -1551,7 +1751,12 @@
       "team_id": "260562",
       "type": "Träning",
       "description": "Träning utomhus",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.8
+      }
     },
     {
       "date": "2026-05-19",
@@ -1563,7 +1768,12 @@
       "team_id": "181941",
       "type": "Övrigt",
       "description": "Möte",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.7
+      }
     },
     {
       "date": "2026-05-19",
@@ -1575,7 +1785,12 @@
       "team_id": "0",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.7
+      }
     },
     {
       "date": "2026-05-19",
@@ -1587,7 +1802,12 @@
       "team_id": "520555",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.7
+      }
     },
     {
       "date": "2026-05-19",
@@ -1599,7 +1819,12 @@
       "team_id": "584817",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.7
+      }
     },
     {
       "date": "2026-05-19",
@@ -1611,7 +1836,12 @@
       "team_id": "324307",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.7
+      }
     },
     {
       "date": "2026-05-19",
@@ -1623,7 +1853,12 @@
       "team_id": "324331",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.7
+      }
     },
     {
       "date": "2026-05-19",
@@ -1635,7 +1870,12 @@
       "team_id": "414417",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.7
+      }
     },
     {
       "date": "2026-05-19",
@@ -1647,7 +1887,12 @@
       "team_id": "224798",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.4
+      }
     },
     {
       "date": "2026-05-19",
@@ -1659,7 +1904,12 @@
       "team_id": "52695",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.9
+      }
     },
     {
       "date": "2026-05-20",
@@ -1671,7 +1921,12 @@
       "team_id": "374981",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.0
+      }
     },
     {
       "date": "2026-05-20",
@@ -1683,7 +1938,12 @@
       "team_id": "520574",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronäng Arena C-Plan"
+      "location": "Kronäng Arena C-Plan",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.0
+      }
     },
     {
       "date": "2026-05-20",
@@ -1695,7 +1955,12 @@
       "team_id": "481208",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.0
+      }
     },
     {
       "date": "2026-05-20",
@@ -1707,7 +1972,12 @@
       "team_id": "56158",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena A-plan"
+      "location": "Kronängs Arena A-plan",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.0
+      }
     },
     {
       "date": "2026-05-20",
@@ -1719,7 +1989,12 @@
       "team_id": "38937",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena A-plan"
+      "location": "Kronängs Arena A-plan",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.4
+      }
     },
     {
       "date": "2026-05-20",
@@ -1731,7 +2006,12 @@
       "team_id": "52695",
       "type": "Match",
       "description": "Hemsjö IF U hemma",
-      "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)"
+      "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.4
+      }
     },
     {
       "date": "2026-05-20",
@@ -1743,7 +2023,12 @@
       "team_id": "430796",
       "type": "Match",
       "description": "Hemsjö IF U hemma",
-      "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)"
+      "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.4
+      }
     },
     {
       "date": "2026-05-21",
@@ -1755,7 +2040,12 @@
       "team_id": "181941",
       "type": "Övrigt",
       "description": "Möte",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.6
+      }
     },
     {
       "date": "2026-05-21",
@@ -1767,7 +2057,12 @@
       "team_id": "520555",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.2
+      }
     },
     {
       "date": "2026-05-21",
@@ -1779,7 +2074,12 @@
       "team_id": "324307",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.2
+      }
     },
     {
       "date": "2026-05-21",
@@ -1791,7 +2091,12 @@
       "team_id": "324331",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.2
+      }
     },
     {
       "date": "2026-05-21",
@@ -1803,7 +2108,12 @@
       "team_id": "414417",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.2
+      }
     },
     {
       "date": "2026-05-21",
@@ -1815,7 +2125,12 @@
       "team_id": "224798",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.0
+      }
     },
     {
       "date": "2026-05-21",
@@ -1827,7 +2142,12 @@
       "team_id": "281528",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.0
+      }
     },
     {
       "date": "2026-05-21",
@@ -1839,7 +2159,12 @@
       "team_id": "52695",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.7
+      }
     },
     {
       "date": "2026-05-21",
@@ -1851,7 +2176,12 @@
       "team_id": "260562",
       "type": "Träning",
       "description": "Träning utomhus",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.7
+      }
     },
     {
       "date": "2026-05-21",
@@ -1863,7 +2193,12 @@
       "team_id": "38937",
       "type": "Match",
       "description": "Rydboholms SK borta",
-      "location": "Sven Erikssonsvallen A konstgräs(Herrar, Div 5 Sydvästra)"
+      "location": "Sven Erikssonsvallen A konstgräs(Herrar, Div 5 Sydvästra)",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.7
+      }
     },
     {
       "date": "2026-05-22",
@@ -1875,7 +2210,12 @@
       "team_id": "52695",
       "type": "Match",
       "description": "Södra Ving/Hössna/Timmele hemma",
-      "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)"
+      "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 15.9
+      }
     },
     {
       "date": "2026-05-22",
@@ -1887,7 +2227,12 @@
       "team_id": "430796",
       "type": "Match",
       "description": "Södra Ving/Hössna/Timmele hemma",
-      "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)"
+      "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 15.9
+      }
     },
     {
       "date": "2026-05-23",
@@ -1899,7 +2244,12 @@
       "team_id": "481208",
       "type": "Match",
       "description": "Borta",
-      "location": "Kransmossen()"
+      "location": "Kransmossen()",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.9
+      }
     },
     {
       "date": "2026-05-23",
@@ -1911,7 +2261,12 @@
       "team_id": "324331",
       "type": "Övrigt",
       "description": "Lagfotografering",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.5
+      }
     },
     {
       "date": "2026-05-23",
@@ -1923,7 +2278,12 @@
       "team_id": "224798",
       "type": "Match",
       "description": "Svenljunga/Högvad hemma",
-      "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)"
+      "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.1
+      }
     },
     {
       "date": "2026-05-23",
@@ -1935,7 +2295,12 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Brämhults IK Gul borta",
-      "location": "Brämhults IP C(Pojkar Div 11 Sandared)"
+      "location": "Brämhults IP C(Pojkar Div 11 Sandared)",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 20.9
+      }
     },
     {
       "date": "2026-05-23",
@@ -1947,7 +2312,12 @@
       "team_id": "374981",
       "type": "Match",
       "description": "Alingsås KIK Blå borta",
-      "location": "Noltorpsvallen B Konstgräs(Flickor Div 5 Kinna)"
+      "location": "Noltorpsvallen B Konstgräs(Flickor Div 5 Kinna)",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 22.0
+      }
     },
     {
       "date": "2026-05-24",
@@ -1959,7 +2329,8 @@
       "team_id": "324331",
       "type": "Övrigt",
       "description": "Kioskbemanning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-24",
@@ -1971,7 +2342,8 @@
       "team_id": "324331",
       "type": "Match",
       "description": "IF Elfsborg Svart hemma",
-      "location": "Kronäng Arena(Pojkar Div 9 Fristad)"
+      "location": "Kronäng Arena(Pojkar Div 9 Fristad)",
+      "weather": null
     },
     {
       "date": "2026-05-24",
@@ -1983,7 +2355,8 @@
       "team_id": "324331",
       "type": "Match",
       "description": "Hemsjö IF  hemma",
-      "location": "Kronäng Arena(Pojkar Div 8 Alingsås)"
+      "location": "Kronäng Arena(Pojkar Div 8 Alingsås)",
+      "weather": null
     },
     {
       "date": "2026-05-24",
@@ -1995,7 +2368,8 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Sandareds IF Svart hemma",
-      "location": "Kronäng Arena(Pojkar Div 11 Kinna)"
+      "location": "Kronäng Arena(Pojkar Div 11 Kinna)",
+      "weather": null
     },
     {
       "date": "2026-05-24",
@@ -2007,7 +2381,8 @@
       "team_id": "414417",
       "type": "Träning",
       "description": "Lagfotografering (samling kl.13:15)",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-24",
@@ -2019,7 +2394,8 @@
       "team_id": "281528",
       "type": "Övrigt",
       "description": "Lagfotografering",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-24",
@@ -2031,7 +2407,8 @@
       "team_id": "414417",
       "type": "Match",
       "description": "Rydboholms SK hemma",
-      "location": "Kronäng Arena(Pojkar Div 13 Borås)"
+      "location": "Kronäng Arena(Pojkar Div 13 Borås)",
+      "weather": null
     },
     {
       "date": "2026-05-24",
@@ -2043,7 +2420,8 @@
       "team_id": "414417",
       "type": "Match",
       "description": "Sjömarkens IF Vit hemma",
-      "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)"
+      "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
+      "weather": null
     },
     {
       "date": "2026-05-24",
@@ -2055,7 +2433,8 @@
       "team_id": "52695",
       "type": "Match",
       "description": "Jung/Kvänum 10 IF borta",
-      "location": "Jungavallen 1(Damer DM - Cup)"
+      "location": "Jungavallen 1(Damer DM - Cup)",
+      "weather": null
     },
     {
       "date": "2026-05-24",
@@ -2067,7 +2446,8 @@
       "team_id": "281528",
       "type": "Match",
       "description": "Hajoms IF hemma",
-      "location": "Kronäng Arena(Pojkar Div 6 Borås)"
+      "location": "Kronäng Arena(Pojkar Div 6 Borås)",
+      "weather": null
     },
     {
       "date": "2026-05-24",
@@ -2079,7 +2459,8 @@
       "team_id": "520574",
       "type": "Match",
       "description": "Dalsjöfors GoIF Svart borta",
-      "location": "Dalsjöhov(Flickor Div 7 Borås)"
+      "location": "Dalsjöhov(Flickor Div 7 Borås)",
+      "weather": null
     },
     {
       "date": "2026-05-24",
@@ -2091,7 +2472,8 @@
       "team_id": "38937",
       "type": "Match",
       "description": "Rydboholms SK U hemma",
-      "location": "Kronäng Arena konstgräs 1(Herrar, Utveckling B Borås)"
+      "location": "Kronäng Arena konstgräs 1(Herrar, Utveckling B Borås)",
+      "weather": null
     },
     {
       "date": "2026-05-25",
@@ -2103,7 +2485,8 @@
       "team_id": "374981",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-25",
@@ -2115,7 +2498,8 @@
       "team_id": "520574",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronäng Arena C-Plan"
+      "location": "Kronäng Arena C-Plan",
+      "weather": null
     },
     {
       "date": "2026-05-25",
@@ -2127,7 +2511,8 @@
       "team_id": "481208",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-25",
@@ -2139,7 +2524,8 @@
       "team_id": "56158",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena A-plan"
+      "location": "Kronängs Arena A-plan",
+      "weather": null
     },
     {
       "date": "2026-05-25",
@@ -2151,7 +2537,8 @@
       "team_id": "281528",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-25",
@@ -2163,7 +2550,8 @@
       "team_id": "38937",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena A-plan"
+      "location": "Kronängs Arena A-plan",
+      "weather": null
     },
     {
       "date": "2026-05-26",
@@ -2175,7 +2563,8 @@
       "team_id": "0",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-26",
@@ -2187,7 +2576,8 @@
       "team_id": "520555",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-26",
@@ -2199,7 +2589,8 @@
       "team_id": "584817",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-26",
@@ -2211,7 +2602,8 @@
       "team_id": "324307",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-26",
@@ -2223,7 +2615,8 @@
       "team_id": "324331",
       "type": "Träning",
       "description": "Träning + löpning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-26",
@@ -2235,7 +2628,8 @@
       "team_id": "414417",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-26",
@@ -2247,7 +2641,8 @@
       "team_id": "224798",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-26",
@@ -2259,7 +2654,8 @@
       "team_id": "52695",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-26",
@@ -2271,7 +2667,8 @@
       "team_id": "260562",
       "type": "Träning",
       "description": "Träning utomhus",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-27",
@@ -2283,7 +2680,8 @@
       "team_id": "374981",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-27",
@@ -2295,7 +2693,8 @@
       "team_id": "520574",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronäng Arena C-Plan"
+      "location": "Kronäng Arena C-Plan",
+      "weather": null
     },
     {
       "date": "2026-05-27",
@@ -2307,7 +2706,8 @@
       "team_id": "481208",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-27",
@@ -2319,7 +2719,8 @@
       "team_id": "56158",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena A-plan"
+      "location": "Kronängs Arena A-plan",
+      "weather": null
     },
     {
       "date": "2026-05-27",
@@ -2331,7 +2732,8 @@
       "team_id": "38937",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena A-plan"
+      "location": "Kronängs Arena A-plan",
+      "weather": null
     },
     {
       "date": "2026-05-27",
@@ -2343,7 +2745,8 @@
       "team_id": "52695",
       "type": "Match",
       "description": "Svenljunga IK borta",
-      "location": "Högvalla IP A konstgräs(Damer, Div 3 Södra)"
+      "location": "Högvalla IP A konstgräs(Damer, Div 3 Södra)",
+      "weather": null
     },
     {
       "date": "2026-05-27",
@@ -2355,7 +2758,8 @@
       "team_id": "430796",
       "type": "Match",
       "description": "Svenljunga IK borta",
-      "location": "Högvalla IP A konstgräs(Damer, Div 3 Södra)"
+      "location": "Högvalla IP A konstgräs(Damer, Div 3 Södra)",
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2367,7 +2771,8 @@
       "team_id": "520555",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2379,7 +2784,8 @@
       "team_id": "324307",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2391,7 +2797,8 @@
       "team_id": "324331",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2403,7 +2810,8 @@
       "team_id": "414417",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2415,7 +2823,8 @@
       "team_id": "224798",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2427,7 +2836,8 @@
       "team_id": "281528",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena B-plan"
+      "location": "Kronängs Arena B-plan",
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2439,7 +2849,8 @@
       "team_id": "52695",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2451,7 +2862,8 @@
       "team_id": "260562",
       "type": "Träning",
       "description": "Träning utomhus",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2463,7 +2875,8 @@
       "team_id": "38937",
       "type": "Match",
       "description": "Sandhults SK hemma",
-      "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)"
+      "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
+      "weather": null
     },
     {
       "date": "2026-05-29",
@@ -2475,7 +2888,8 @@
       "team_id": "224798",
       "type": "Match",
       "description": "Ulricehamns IFK Blå borta",
-      "location": "Lassalyckan B-plan(Pojkar Div 4 Borås)"
+      "location": "Lassalyckan B-plan(Pojkar Div 4 Borås)",
+      "weather": null
     },
     {
       "date": "2026-05-30",
@@ -2487,7 +2901,8 @@
       "team_id": "181941",
       "type": "Övrigt",
       "description": "Tävling Boule",
-      "location": "Kronängs Arena"
+      "location": "Kronängs Arena",
+      "weather": null
     },
     {
       "date": "2026-05-30",
@@ -2499,7 +2914,8 @@
       "team_id": "224798",
       "type": "Match",
       "description": "Rydboholms SK hemma",
-      "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)"
+      "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)",
+      "weather": null
     },
     {
       "date": "2026-05-30",
@@ -2511,7 +2927,8 @@
       "team_id": "281528",
       "type": "Match",
       "description": "Alingsås IF FF Vit hemma",
-      "location": "Kronäng Arena Konstgräs 2(Pojkar Div 6 Borås)"
+      "location": "Kronäng Arena Konstgräs 2(Pojkar Div 6 Borås)",
+      "weather": null
     },
     {
       "date": "2026-05-30",
@@ -2523,7 +2940,8 @@
       "team_id": "324331",
       "type": "Match",
       "description": "Fristads GoIF Grön borta",
-      "location": "Hedens IP Konstgräs(Pojkar Div 9 Fristad)"
+      "location": "Hedens IP Konstgräs(Pojkar Div 9 Fristad)",
+      "weather": null
     },
     {
       "date": "2026-05-30",
@@ -2535,7 +2953,8 @@
       "team_id": "324307",
       "type": "Match",
       "description": "Sjömarken/Sandared Vit borta",
-      "location": "Idrottsgården Konstgräsplan(Pojkar Div 8 Dalsjöfors)"
+      "location": "Idrottsgården Konstgräsplan(Pojkar Div 8 Dalsjöfors)",
+      "weather": null
     },
     {
       "date": "2026-05-30",
@@ -2547,7 +2966,8 @@
       "team_id": "414417",
       "type": "Match",
       "description": "Mariedals IK Vit borta",
-      "location": "Kransmossens IP D(Pojkar Div 13 Dalsjöfors)"
+      "location": "Kransmossens IP D(Pojkar Div 13 Dalsjöfors)",
+      "weather": null
     },
     {
       "date": "2026-05-31",
@@ -2559,7 +2979,8 @@
       "team_id": "374981",
       "type": "Match",
       "description": "Byttorps IF hemma",
-      "location": "Kronäng Arena(Flickor Div 5 Kinna)"
+      "location": "Kronäng Arena(Flickor Div 5 Kinna)",
+      "weather": null
     },
     {
       "date": "2026-05-31",
@@ -2571,7 +2992,8 @@
       "team_id": "520574",
       "type": "Match",
       "description": "Svenljunga IK  borta",
-      "location": "Högvalla IP A konstgräs(Flickor Div 7 Borås)"
+      "location": "Högvalla IP A konstgräs(Flickor Div 7 Borås)",
+      "weather": null
     },
     {
       "date": "2026-05-31",
@@ -2583,7 +3005,8 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Sätila SK borta",
-      "location": "Lygnevi A(Pojkar Div 11 Kinna)"
+      "location": "Lygnevi A(Pojkar Div 11 Kinna)",
+      "weather": null
     },
     {
       "date": "2026-05-31",
@@ -2595,7 +3018,8 @@
       "team_id": "324307",
       "type": "Match",
       "description": "Tollered/Hemsjö hemma",
-      "location": "Kronäng Arena(Pojkar Div 8 Borås norr)"
+      "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
+      "weather": null
     },
     {
       "date": "2026-05-31",
@@ -2607,7 +3031,8 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Kinna IF Blå hemma",
-      "location": "Kronäng Arena(Pojkar Div 11 Sandared)"
+      "location": "Kronäng Arena(Pojkar Div 11 Sandared)",
+      "weather": null
     },
     {
       "date": "2026-05-31",
@@ -2619,7 +3044,8 @@
       "team_id": "324331",
       "type": "Match",
       "description": "Annelunds IF borta",
-      "location": "Mörlanda A 9 mot 9(Pojkar Div 8 Alingsås)"
+      "location": "Mörlanda A 9 mot 9(Pojkar Div 8 Alingsås)",
+      "weather": null
     },
     {
       "date": "2026-05-31",
@@ -2631,7 +3057,8 @@
       "team_id": "52695",
       "type": "Match",
       "description": "Bergdalens IK U hemma",
-      "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)"
+      "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)",
+      "weather": null
     },
     {
       "date": "2026-05-31",
@@ -2643,7 +3070,8 @@
       "team_id": "430796",
       "type": "Match",
       "description": "Bergdalens IK U hemma",
-      "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)"
+      "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)",
+      "weather": null
     }
   ],
   "latest_news": [
