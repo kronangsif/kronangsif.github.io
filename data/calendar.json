@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-17T10:19:51.888631",
+  "last_updated": "2026-05-17T11:53:33.795959",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 219,
+  "activity_count": 220,
   "activities": [
     {
       "date": "2026-05-01",
@@ -1483,7 +1483,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.7
+        "temp": 10.9
       }
     },
     {
@@ -1517,7 +1517,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 12.1
       }
     },
     {
@@ -1534,7 +1534,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 12.1
       }
     },
     {
@@ -1551,7 +1551,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 12.1
       }
     },
     {
@@ -1568,7 +1568,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.8
+        "temp": 12.6
       }
     },
     {
@@ -1585,7 +1585,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.3
+        "temp": 14.4
       }
     },
     {
@@ -1602,7 +1602,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.3
+        "temp": 14.4
       }
     },
     {
@@ -1619,7 +1619,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.3
+        "temp": 14.4
       }
     },
     {
@@ -1636,7 +1636,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.3
+        "temp": 14.4
       }
     },
     {
@@ -1653,7 +1653,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.3
+        "temp": 17.2
       }
     },
     {
@@ -1670,7 +1670,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.3
+        "temp": 17.2
       }
     },
     {
@@ -1687,7 +1687,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.3
+        "temp": 17.2
       }
     },
     {
@@ -1704,7 +1704,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.3
+        "temp": 17.2
       }
     },
     {
@@ -1721,7 +1721,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.2
+        "temp": 17.1
       }
     },
     {
@@ -1738,7 +1738,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.6
+        "temp": 16.5
       }
     },
     {
@@ -1755,7 +1755,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.6
+        "temp": 16.5
       }
     },
     {
@@ -1772,7 +1772,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.1
+        "temp": 18.9
       }
     },
     {
@@ -1789,7 +1789,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.1
+        "temp": 18.9
       }
     },
     {
@@ -1806,7 +1806,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.1
+        "temp": 18.9
       }
     },
     {
@@ -1823,7 +1823,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.1
+        "temp": 18.9
       }
     },
     {
@@ -1840,7 +1840,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.1
+        "temp": 18.9
       }
     },
     {
@@ -1857,7 +1857,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.1
+        "temp": 18.9
       }
     },
     {
@@ -1874,7 +1874,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.1
+        "temp": 18.9
       }
     },
     {
@@ -1891,7 +1891,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.6
+        "temp": 18.5
       }
     },
     {
@@ -1908,7 +1908,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.4
+        "temp": 17.3
       }
     },
     {
@@ -2381,6 +2381,19 @@
       "team_id": "414417",
       "type": "Träning",
       "description": "Lagfotografering (samling kl.13:15)",
+      "location": "Kronängs Arena",
+      "weather": null
+    },
+    {
+      "date": "2026-05-24",
+      "day": "24",
+      "weekday": "sön",
+      "time": "14:00",
+      "end_time": "15:00",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Övrigt",
+      "description": "Lagfotografering",
       "location": "Kronängs Arena",
       "weather": null
     },
