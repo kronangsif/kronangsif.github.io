@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-19T16:44:19.103043",
+  "last_updated": "2026-05-19T18:52:23.210329",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 224,
+  "activity_count": 225,
   "activities": [
     {
       "date": "2026-05-01",
@@ -1815,7 +1815,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.3
+        "temp": 17.7
       }
     },
     {
@@ -1832,7 +1832,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.8
+        "temp": 17.5
       }
     },
     {
@@ -1847,9 +1847,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.1
       }
     },
     {
@@ -1864,9 +1864,9 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.1
       }
     },
     {
@@ -1881,9 +1881,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.1
       }
     },
     {
@@ -1898,9 +1898,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.1
       }
     },
     {
@@ -1917,7 +1917,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.9
+        "temp": 15.0
       }
     },
     {
@@ -1934,7 +1934,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.9
+        "temp": 15.0
       }
     },
     {
@@ -1951,7 +1951,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.9
+        "temp": 15.0
       }
     },
     {
@@ -1968,7 +1968,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.1
+        "temp": 11.9
       }
     },
     {
@@ -1983,9 +1983,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.6
       }
     },
     {
@@ -2000,9 +2000,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.6
       }
     },
     {
@@ -2017,9 +2017,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.6
       }
     },
     {
@@ -2034,9 +2034,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.6
       }
     },
     {
@@ -2053,7 +2053,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.6
+        "temp": 15.7
       }
     },
     {
@@ -2070,7 +2070,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.6
+        "temp": 15.7
       }
     },
     {
@@ -2087,7 +2087,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.4
+        "temp": 15.2
       }
     },
     {
@@ -2104,7 +2104,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.4
+        "temp": 15.2
       }
     },
     {
@@ -2121,7 +2121,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.4
+        "temp": 15.2
       }
     },
     {
@@ -2203,6 +2203,23 @@
       "type": "Match",
       "description": "Svenljunga/Högvad hemma",
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.0
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "day": "23",
+      "weekday": "lör",
+      "time": "11:15",
+      "end_time": "12:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Övrigt",
+      "description": "Lagfotografering",
+      "location": "Kronängs Arena",
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
@@ -2418,6 +2435,23 @@
       "day": "24",
       "weekday": "sön",
       "time": "15:00",
+      "end_time": "17:30",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Övrigt",
+      "description": "Domare",
+      "location": "Kronängs Arena B-plan",
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 19.0
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "day": "24",
+      "weekday": "sön",
+      "time": "15:00",
       "end_time": "",
       "team": "P2016",
       "team_id": "414417",
@@ -2475,23 +2509,6 @@
       "type": "Match",
       "description": "Hajoms IF hemma",
       "location": "Kronäng Arena(Pojkar Div 6 Borås)",
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.3
-      }
-    },
-    {
-      "date": "2026-05-24",
-      "day": "24",
-      "weekday": "sön",
-      "time": "16:15",
-      "end_time": "",
-      "team": "F2015-2016",
-      "team_id": "520574",
-      "type": "Match",
-      "description": "Dalsjöfors GoIF Svart borta",
-      "location": "Dalsjöhov(Flickor Div 7 Borås)",
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
