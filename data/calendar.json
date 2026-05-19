@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-19T06:39:27.089416",
+  "last_updated": "2026-05-19T10:31:22.411372",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1696,7 +1696,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 16.4
       }
     },
     {
@@ -1713,7 +1713,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 16.4
       }
     },
     {
@@ -1730,7 +1730,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 16.4
       }
     },
     {
@@ -1747,7 +1747,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 16.4
       }
     },
     {
@@ -1764,7 +1764,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 16.4
       }
     },
     {
@@ -1781,7 +1781,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 16.4
       }
     },
     {
@@ -1798,7 +1798,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 16.4
       }
     },
     {
@@ -1815,7 +1815,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.5
+        "temp": 15.9
       }
     },
     {
@@ -1832,7 +1832,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.1
+        "temp": 15.5
       }
     },
     {
@@ -1849,7 +1849,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.0
+        "temp": 16.1
       }
     },
     {
@@ -1866,7 +1866,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.0
+        "temp": 16.1
       }
     },
     {
@@ -1883,7 +1883,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.0
+        "temp": 16.1
       }
     },
     {
@@ -1900,7 +1900,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.0
+        "temp": 16.1
       }
     },
     {
@@ -1917,7 +1917,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.0
+        "temp": 15.2
       }
     },
     {
@@ -1934,7 +1934,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.0
+        "temp": 15.2
       }
     },
     {
@@ -1951,7 +1951,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.0
+        "temp": 15.2
       }
     },
     {
@@ -1968,7 +1968,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.4
+        "temp": 12.2
       }
     },
     {
@@ -1983,9 +1983,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.7
       }
     },
     {
@@ -2000,9 +2000,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.7
       }
     },
     {
@@ -2017,9 +2017,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.7
       }
     },
     {
@@ -2034,9 +2034,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.7
       }
     },
     {
@@ -2051,9 +2051,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.6
       }
     },
     {
@@ -2068,9 +2068,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.6
       }
     },
     {
@@ -2085,9 +2085,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 13.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.3
       }
     },
     {
@@ -2102,9 +2102,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 13.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.3
       }
     },
     {
@@ -2119,9 +2119,9 @@
       "description": "Rydboholms SK borta",
       "location": "Sven Erikssonsvallen A konstgräs(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 13.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.3
       }
     },
     {
@@ -2138,7 +2138,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.4
+        "temp": 15.6
       }
     },
     {
@@ -2155,7 +2155,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.4
+        "temp": 15.6
       }
     },
     {
@@ -2172,7 +2172,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.1
+        "temp": 14.9
       }
     },
     {
@@ -2189,7 +2189,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.0
+        "temp": 17.7
       }
     },
     {
@@ -2206,7 +2206,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.6
+        "temp": 18.7
       }
     },
     {
@@ -2238,9 +2238,9 @@
       "description": "Alingsås KIK Blå borta",
       "location": "Noltorpsvallen B Konstgräs(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 18.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 20.0
       }
     },
     {
@@ -2255,9 +2255,9 @@
       "description": "Dalsjöfors GoIF Svart borta",
       "location": "Dalsjöfors GoIF Svart()",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 18.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 20.0
       }
     },
     {
@@ -2274,7 +2274,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.1
+        "temp": 14.9
       }
     },
     {
@@ -2291,7 +2291,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.0
+        "temp": 17.3
       }
     },
     {
@@ -2308,7 +2308,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.6
+        "temp": 19.3
       }
     },
     {
@@ -2325,7 +2325,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.6
+        "temp": 19.3
       }
     },
     {
@@ -2342,7 +2342,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.6
+        "temp": 19.3
       }
     },
     {
@@ -2359,7 +2359,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.6
+        "temp": 19.3
       }
     },
     {
@@ -2376,7 +2376,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.6
+        "temp": 19.3
       }
     },
     {
@@ -2410,7 +2410,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 22.4
+        "temp": 22.5
       }
     },
     {
@@ -2427,7 +2427,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 22.0
+        "temp": 22.4
       }
     },
     {
@@ -2444,7 +2444,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 22.0
+        "temp": 22.4
       }
     },
     {
@@ -2461,7 +2461,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.2
+        "temp": 21.8
       }
     },
     {
@@ -2478,7 +2478,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.2
+        "temp": 21.8
       }
     },
     {
@@ -2495,7 +2495,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.2
+        "temp": 21.8
       }
     },
     {
@@ -2512,7 +2512,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.9
+        "temp": 19.5
       }
     },
     {
@@ -2529,7 +2529,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.5
+        "temp": 18.1
       }
     },
     {
@@ -2546,7 +2546,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.5
+        "temp": 18.1
       }
     },
     {
@@ -2563,7 +2563,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.5
+        "temp": 18.1
       }
     },
     {
@@ -2580,7 +2580,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.5
+        "temp": 18.1
       }
     },
     {
@@ -2597,7 +2597,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.1
+        "temp": 17.2
       }
     },
     {
@@ -2614,7 +2614,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.6
+        "temp": 16.2
       }
     },
     {
@@ -3140,18 +3140,18 @@
   ],
   "latest_news": [
     {
+      "title": "Vi har nu bockat av tredje bortamatchen i rad och åkt hem med 9 av 9 möjliga poäng.",
+      "published_at": "2026-05-19 11:43, Dam",
+      "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1343856",
+      "image": "",
+      "summary": "Trots dålig plan med stora sandfläckar så spelar vi första halvlek riktigt bra! Mycket fina kombinationer och vi får till bra passningsspel trots underlaget! I andra halvlek så är det inte mycket till finspel men det är en krigarinställning och vi viker aldrig ner oss trots att Falköping jobbar sig in mer i matchen. Slutresultatet blir därmed 1-4. Thea gav vidare den gyllene hatten till Ippe som krigar hela matchen, kommer på löpningar gång på gång. Fint spel och ger verkligen en riktig krigarinsats som smittar av sig på alla spelare. Dessutom stod hon för första målet och vann Nickes daim-mål. Daniels kommentar: Första 35 minuterna är väldigt bra från vår sida idag, vi trycker ner motståndarna med bra rörelse och fint kombinationsspel. Defensivt ligger vi också bra i våra positioner och låter dem knappt komma förbi egen planhalva. Under denna period gör vi också tre av våra mål. I andra halvlek flyttar de upp sina positioner lite grann samtidigt som vi slappnar av och spelet jämnar ut sig. Men segern var aldrig hotad och vi tar med oss tre goa poäng hem till Borås!"
+    },
+    {
       "title": "Veckans hemmamatcher",
       "published_at": "2026-05-11",
       "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1339545",
       "image": "",
       "summary": ""
-    },
-    {
-      "title": "Kronängs IF Sommarfotbollsskola 2026",
-      "published_at": "2026-05-10",
-      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1341820",
-      "image": "https://cdn.sportadmin.se/559/h/200/9f94f5ee352d35ae789c6934f32be756ba284a14789840741e5936d6f22340d4_L.jpg",
-      "summary": "Kronängs IF Sommarfotbollsskola 2026 anmälan på www.kronangsif.se"
     }
   ]
 }
