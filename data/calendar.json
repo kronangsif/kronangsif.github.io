@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T20:29:52.795366",
+  "last_updated": "2026-05-21T22:10:55.010693",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1875,11 +1875,7 @@
       "type": "Övrigt",
       "description": "Möte",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.4
-      }
+      "weather": null
     },
     {
       "date": "2026-05-21",
@@ -1892,11 +1888,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.2
-      }
+      "weather": null
     },
     {
       "date": "2026-05-21",
@@ -1909,11 +1901,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.2
-      }
+      "weather": null
     },
     {
       "date": "2026-05-21",
@@ -1926,11 +1914,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.2
-      }
+      "weather": null
     },
     {
       "date": "2026-05-21",
@@ -1943,11 +1927,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.2
-      }
+      "weather": null
     },
     {
       "date": "2026-05-21",
@@ -1960,11 +1940,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.1
-      }
+      "weather": null
     },
     {
       "date": "2026-05-21",
@@ -1977,11 +1953,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.8
-      }
+      "weather": null
     },
     {
       "date": "2026-05-21",
@@ -1994,11 +1966,7 @@
       "type": "Träning",
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.8
-      }
+      "weather": null
     },
     {
       "date": "2026-05-21",
@@ -2011,11 +1979,7 @@
       "type": "Match",
       "description": "Rydboholms SK borta",
       "location": "Sven Erikssonsvallen A Konstgräs()",
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.8
-      }
+      "weather": null
     },
     {
       "date": "2026-05-22",
@@ -2031,7 +1995,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.2
+        "temp": 18.3
       }
     },
     {
@@ -2048,7 +2012,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.2
+        "temp": 18.3
       }
     },
     {
@@ -2065,7 +2029,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.7
+        "temp": 14.5
       }
     },
     {
@@ -2082,7 +2046,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.7
+        "temp": 14.5
       }
     },
     {
@@ -2097,9 +2061,9 @@
       "description": "Lagfotografering",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.5
       }
     },
     {
@@ -2116,7 +2080,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.8
+        "temp": 20.1
       }
     },
     {
@@ -2133,7 +2097,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.1
+        "temp": 21.0
       }
     },
     {
@@ -2150,7 +2114,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.1
+        "temp": 21.0
       }
     },
     {
@@ -2165,9 +2129,9 @@
       "description": "Dalsjöfors GoIF Svart borta",
       "location": "Dalsjöfors GoIF Svart()",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 18.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 21.5
       }
     },
     {
@@ -2182,9 +2146,9 @@
       "description": "Alingsås KIK Blå borta",
       "location": "Noltorpsvallen B Konstgräs(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 12.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 13.0
       }
     },
     {
@@ -2199,9 +2163,9 @@
       "description": "Lagfotografering!",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.5
       }
     },
     {
@@ -2596,6 +2560,23 @@
       }
     },
     {
+      "date": "2026-05-25",
+      "day": "25",
+      "weekday": "mån",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "P2011",
+      "team_id": "260562",
+      "type": "Träning",
+      "description": "Träning utomhus",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.1
+      }
+    },
+    {
       "date": "2026-05-26",
       "day": "26",
       "weekday": "tis",
@@ -2724,23 +2705,6 @@
       "team_id": "52695",
       "type": "Träning",
       "description": "Träning",
-      "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 13.9
-      }
-    },
-    {
-      "date": "2026-05-26",
-      "day": "26",
-      "weekday": "tis",
-      "time": "19:00",
-      "end_time": "20:30",
-      "team": "P2011",
-      "team_id": "260562",
-      "type": "Träning",
-      "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
         "icon": "☀️",
@@ -2878,7 +2842,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.9
+      }
     },
     {
       "date": "2026-05-28",
@@ -2891,7 +2859,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.9
+      }
     },
     {
       "date": "2026-05-28",
@@ -2904,7 +2876,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.9
+      }
     },
     {
       "date": "2026-05-28",
@@ -2917,7 +2893,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.9
+      }
     },
     {
       "date": "2026-05-28",
@@ -2930,7 +2910,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.5
+      }
     },
     {
       "date": "2026-05-28",
@@ -2943,7 +2927,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.5
+      }
     },
     {
       "date": "2026-05-28",
@@ -2956,7 +2944,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 13.9
+      }
     },
     {
       "date": "2026-05-28",
@@ -2969,7 +2961,11 @@
       "type": "Träning",
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 13.9
+      }
     },
     {
       "date": "2026-05-28",
@@ -2982,7 +2978,11 @@
       "type": "Match",
       "description": "Sandhults SK hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 13.9
+      }
     },
     {
       "date": "2026-05-29",
