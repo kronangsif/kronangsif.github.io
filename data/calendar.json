@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T13:54:22.711814",
+  "last_updated": "2026-05-21T16:34:05.235639",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1895,7 +1895,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 13.2
       }
     },
     {
@@ -1912,7 +1912,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 13.2
       }
     },
     {
@@ -1929,7 +1929,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 13.2
       }
     },
     {
@@ -1946,7 +1946,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 13.2
       }
     },
     {
@@ -1961,9 +1961,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.6
       }
     },
     {
@@ -1980,7 +1980,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 15.1
+        "temp": 13.9
       }
     },
     {
@@ -1997,7 +1997,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 15.1
+        "temp": 13.9
       }
     },
     {
@@ -2014,7 +2014,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 15.1
+        "temp": 13.9
       }
     },
     {
@@ -2029,9 +2029,9 @@
       "description": "Södra Ving/Hössna/Timmele hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 18.2
       }
     },
     {
@@ -2046,9 +2046,9 @@
       "description": "Södra Ving/Hössna/Timmele hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 18.2
       }
     },
     {
@@ -2063,9 +2063,9 @@
       "description": "Sammandrag",
       "location": "Kransmossen",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.3
       }
     },
     {
@@ -2080,9 +2080,9 @@
       "description": "Borta",
       "location": "Kransmossen()",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.3
       }
     },
     {
@@ -2116,7 +2116,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.0
+        "temp": 20.3
       }
     },
     {
@@ -2133,7 +2133,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.3
+        "temp": 20.4
       }
     },
     {
@@ -2150,7 +2150,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.4
+        "temp": 21.4
       }
     },
     {
@@ -2167,7 +2167,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.4
+        "temp": 21.4
       }
     },
     {
@@ -2184,7 +2184,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 19.8
+        "temp": 19.7
       }
     },
     {
