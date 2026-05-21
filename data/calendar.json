@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-21T06:41:49.890423",
+  "last_updated": "2026-05-21T10:30:28.634442",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 224,
+  "activity_count": 225,
   "activities": [
     {
       "date": "2026-05-01",
@@ -1878,7 +1878,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.2
+        "temp": 12.4
       }
     },
     {
@@ -1893,9 +1893,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.4
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 15.2
       }
     },
     {
@@ -1910,9 +1910,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.4
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 15.2
       }
     },
     {
@@ -1927,9 +1927,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.4
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 15.2
       }
     },
     {
@@ -1944,9 +1944,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.4
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 15.2
       }
     },
     {
@@ -1961,9 +1961,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.6
       }
     },
     {
@@ -1980,7 +1980,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 15.0
+        "temp": 15.4
       }
     },
     {
@@ -1997,7 +1997,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 15.0
+        "temp": 15.4
       }
     },
     {
@@ -2014,7 +2014,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 15.0
+        "temp": 15.4
       }
     },
     {
@@ -2031,7 +2031,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.5
+        "temp": 18.5
       }
     },
     {
@@ -2048,7 +2048,24 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.5
+        "temp": 18.5
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "day": "23",
+      "weekday": "lör",
+      "time": "08:00",
+      "end_time": "13:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Övrigt",
+      "description": "Sammandrag",
+      "location": "Kransmossen",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.9
       }
     },
     {
@@ -2063,9 +2080,9 @@
       "description": "Borta",
       "location": "Kransmossen()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.9
       }
     },
     {
@@ -2082,7 +2099,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.3
+        "temp": 18.6
       }
     },
     {
@@ -2116,7 +2133,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.0
+        "temp": 19.7
       }
     },
     {
@@ -2133,7 +2150,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.6
+        "temp": 20.0
       }
     },
     {
@@ -2150,7 +2167,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.6
+        "temp": 20.0
       }
     },
     {
@@ -2165,9 +2182,9 @@
       "description": "Dalsjöfors GoIF Svart borta",
       "location": "Dalsjöfors GoIF Svart()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 19.2
       }
     },
     {
@@ -2184,7 +2201,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.5
+        "temp": 14.6
       }
     },
     {
@@ -2218,7 +2235,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.5
+        "temp": 17.4
       }
     },
     {
@@ -2235,7 +2252,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.5
+        "temp": 17.4
       }
     },
     {
@@ -2252,7 +2269,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.5
+        "temp": 17.4
       }
     },
     {
@@ -2269,7 +2286,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.5
+        "temp": 17.4
       }
     },
     {
@@ -2286,7 +2303,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.5
+        "temp": 17.4
       }
     },
     {
@@ -2320,7 +2337,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.7
+        "temp": 18.5
       }
     },
     {
@@ -2337,7 +2354,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.5
+        "temp": 18.3
       }
     },
     {
@@ -2354,7 +2371,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.5
+        "temp": 18.3
       }
     },
     {
@@ -2371,7 +2388,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.5
+        "temp": 18.3
       }
     },
     {
@@ -2388,7 +2405,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.0
+        "temp": 18.3
       }
     },
     {
@@ -2405,7 +2422,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.0
+        "temp": 18.3
       }
     },
     {
@@ -2439,7 +2456,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.7
+        "temp": 17.8
       }
     },
     {
@@ -2456,7 +2473,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.7
+        "temp": 17.8
       }
     },
     {
@@ -2473,7 +2490,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.7
+        "temp": 17.8
       }
     },
     {
@@ -2490,7 +2507,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.7
+        "temp": 17.8
       }
     },
     {
@@ -2507,7 +2524,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.7
+        "temp": 17.8
       }
     },
     {
@@ -2524,7 +2541,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.7
+        "temp": 17.8
       }
     },
     {
@@ -2541,7 +2558,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.0
+        "temp": 16.8
       }
     },
     {
@@ -2558,7 +2575,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.0
+        "temp": 15.4
       }
     },
     {
@@ -2573,9 +2590,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.6
       }
     },
     {
@@ -2590,9 +2607,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.6
       }
     },
     {
@@ -2607,9 +2624,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.6
       }
     },
     {
@@ -2624,9 +2641,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.6
       }
     },
     {
@@ -2641,9 +2658,9 @@
       "description": "Träning + löpning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.6
       }
     },
     {
@@ -2658,9 +2675,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.6
       }
     },
     {
@@ -2675,9 +2692,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.4
       }
     },
     {
@@ -2692,9 +2709,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 13.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.4
       }
     },
     {
@@ -2709,9 +2726,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 13.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.4
       }
     },
     {
@@ -2728,7 +2745,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.0
+        "temp": 13.9
       }
     },
     {
@@ -2745,7 +2762,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.0
+        "temp": 13.9
       }
     },
     {
@@ -2762,7 +2779,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.0
+        "temp": 13.9
       }
     },
     {
@@ -2779,7 +2796,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.0
+        "temp": 13.9
       }
     },
     {
@@ -2796,7 +2813,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.6
+        "temp": 14.2
       }
     },
     {
@@ -2813,7 +2830,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.6
+        "temp": 14.2
       }
     },
     {
@@ -2830,7 +2847,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.6
+        "temp": 14.2
       }
     },
     {
@@ -3148,18 +3165,18 @@
   ],
   "latest_news": [
     {
+      "title": "50/50 lotten Kronängs IF Dam match fredag 21maj",
+      "published_at": "2026-05-21 09:10",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1344233",
+      "image": "",
+      "summary": "Köp 50/50 lotten till Kronängs IF Dam match nu på fredag 21maj Lotten kostar 20kr o man kan köpa fler lotter än en lott"
+    },
+    {
       "title": "Vi har nu bockat av tredje bortamatchen i rad och åkt hem med 9 av 9 möjliga poäng.",
       "published_at": "2026-05-19 11:43, Dam",
       "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1343856",
       "image": "",
       "summary": "Trots dålig plan med stora sandfläckar så spelar vi första halvlek riktigt bra! Mycket fina kombinationer och vi får till bra passningsspel trots underlaget! I andra halvlek så är det inte mycket till finspel men det är en krigarinställning och vi viker aldrig ner oss trots att Falköping jobbar sig in mer i matchen. Slutresultatet blir därmed 1-4. Thea gav vidare den gyllene hatten till Ippe som krigar hela matchen, kommer på löpningar gång på gång. Fint spel och ger verkligen en riktig krigarinsats som smittar av sig på alla spelare. Dessutom stod hon för första målet och vann Nickes daim-mål. Daniels kommentar: Första 35 minuterna är väldigt bra från vår sida idag, vi trycker ner motståndarna med bra rörelse och fint kombinationsspel. Defensivt ligger vi också bra i våra positioner och låter dem knappt komma förbi egen planhalva. Under denna period gör vi också tre av våra mål. I andra halvlek flyttar de upp sina positioner lite grann samtidigt som vi slappnar av och spelet jämnar ut sig. Men segern var aldrig hotad och vi tar med oss tre goa poäng hem till Borås!"
-    },
-    {
-      "title": "Veckans hemmamatcher",
-      "published_at": "2026-05-11",
-      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1339545",
-      "image": "",
-      "summary": ""
     }
   ]
 }
