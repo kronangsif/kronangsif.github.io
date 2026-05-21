@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T16:34:05.235639",
+  "last_updated": "2026-05-21T18:51:54.154618",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1963,7 +1963,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.6
+        "temp": 14.1
       }
     },
     {
@@ -1980,7 +1980,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.9
+        "temp": 14.8
       }
     },
     {
@@ -1997,7 +1997,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.9
+        "temp": 14.8
       }
     },
     {
@@ -2014,7 +2014,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.9
+        "temp": 14.8
       }
     },
     {
@@ -2031,7 +2031,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.2
+        "temp": 18.3
       }
     },
     {
@@ -2048,7 +2048,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.2
+        "temp": 18.3
       }
     },
     {
@@ -2065,7 +2065,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.3
+        "temp": 14.8
       }
     },
     {
@@ -2082,7 +2082,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.3
+        "temp": 14.8
       }
     },
     {
@@ -2099,7 +2099,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.9
+        "temp": 19.0
       }
     },
     {
@@ -2116,24 +2116,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.3
-      }
-    },
-    {
-      "date": "2026-05-23",
-      "day": "23",
-      "weekday": "lör",
-      "time": "12:45",
-      "end_time": "",
-      "team": "F2013/2014",
-      "team_id": "374981",
-      "type": "Match",
-      "description": "Alingsås KIK Blå borta",
-      "location": "Noltorpsvallen B Konstgräs(Flickor Div 5 Kinna)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 20.4
+        "temp": 20.0
       }
     },
     {
@@ -2150,7 +2133,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.4
+        "temp": 20.3
       }
     },
     {
@@ -2167,7 +2150,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.4
+        "temp": 20.3
       }
     },
     {
@@ -2184,7 +2167,24 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 19.7
+        "temp": 18.1
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "day": "24",
+      "weekday": "sön",
+      "time": "08:45",
+      "end_time": "",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Match",
+      "description": "Alingsås KIK Blå borta",
+      "location": "Noltorpsvallen B Konstgräs(Flickor Div 5 Kinna)",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.8
       }
     },
     {
@@ -2318,8 +2318,8 @@
       "description": "Lagfotografering (samling kl.13:15)",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 18.0
       }
     },
@@ -2454,8 +2454,8 @@
       "description": "Rydboholms SK U hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Utveckling B Borås)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 16.8
       }
     },
@@ -2471,8 +2471,8 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 17.6
       }
     },
@@ -2488,8 +2488,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 17.6
       }
     },
@@ -2505,8 +2505,8 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 17.6
       }
     },
@@ -2522,8 +2522,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 17.6
       }
     },
@@ -2539,8 +2539,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 17.6
       }
     },
@@ -2556,8 +2556,8 @@
       "description": "Öbollen 2026 - Föräldramöte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 17.6
       }
     },
@@ -2573,8 +2573,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 17.0
       }
     },
@@ -2760,8 +2760,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 13.9
       }
     },
@@ -2777,8 +2777,8 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 13.9
       }
     },
@@ -2794,8 +2794,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 13.9
       }
     },
@@ -2811,8 +2811,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 13.9
       }
     },
@@ -2828,8 +2828,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 14.2
       }
     },
@@ -2845,8 +2845,8 @@
       "description": "Svenljunga IK borta",
       "location": "Högvalla IP A konstgräs(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 14.2
       }
     },
@@ -2862,8 +2862,8 @@
       "description": "Svenljunga IK borta",
       "location": "Högvalla IP A konstgräs(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 14.2
       }
     },
