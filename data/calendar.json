@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T21:57:49.590653",
+  "last_updated": "2026-05-22T22:55:22.473619",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1992,11 +1992,7 @@
       "type": "Match",
       "description": "Södra Ving/Hössna/Timmele hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 19.6
-      }
+      "weather": null
     },
     {
       "date": "2026-05-22",
@@ -2009,11 +2005,7 @@
       "type": "Match",
       "description": "Södra Ving/Hössna/Timmele hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 19.6
-      }
+      "weather": null
     },
     {
       "date": "2026-05-23",
@@ -2029,7 +2021,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.9
+        "temp": 14.0
       }
     },
     {
@@ -2046,7 +2038,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.9
+        "temp": 14.0
       }
     },
     {
@@ -2097,7 +2089,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.0
+        "temp": 20.9
       }
     },
     {
@@ -2114,7 +2106,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.0
+        "temp": 20.9
       }
     },
     {
@@ -2131,7 +2123,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 20.9
+        "temp": 20.7
       }
     },
     {
@@ -2148,7 +2140,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 14.6
       }
     },
     {
@@ -2165,7 +2157,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.6
+        "temp": 16.5
       }
     },
     {
@@ -2182,7 +2174,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.6
+        "temp": 16.5
       }
     },
     {
@@ -2199,7 +2191,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.2
+        "temp": 18.1
       }
     },
     {
@@ -2216,7 +2208,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.2
+        "temp": 18.1
       }
     },
     {
@@ -2233,7 +2225,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.2
+        "temp": 18.1
       }
     },
     {
@@ -2250,7 +2242,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.2
+        "temp": 18.1
       }
     },
     {
@@ -2267,7 +2259,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.2
+        "temp": 18.1
       }
     },
     {
@@ -2284,7 +2276,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.6
+        "temp": 20.4
       }
     },
     {
@@ -2301,7 +2293,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.1
+        "temp": 20.9
       }
     },
     {
@@ -2318,7 +2310,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.4
+        "temp": 21.1
       }
     },
     {
@@ -2335,7 +2327,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.4
+        "temp": 21.1
       }
     },
     {
@@ -2352,7 +2344,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.4
+        "temp": 21.1
       }
     },
     {
@@ -2369,7 +2361,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.4
+        "temp": 21.1
       }
     },
     {
@@ -2386,7 +2378,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.0
+        "temp": 20.7
       }
     },
     {
@@ -2403,7 +2395,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.0
+        "temp": 20.7
       }
     },
     {
@@ -2420,7 +2412,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.0
+        "temp": 20.7
       }
     },
     {
@@ -2437,7 +2429,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.8
+        "temp": 19.5
       }
     },
     {
@@ -3012,7 +3004,11 @@
       "type": "Match",
       "description": "Ulricehamns IFK Blå borta",
       "location": "Lassalyckan B-plan(Pojkar Div 4 Borås)",
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.2
+      }
     },
     {
       "date": "2026-05-30",
