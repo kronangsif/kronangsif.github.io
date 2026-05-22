@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T06:39:17.170745",
+  "last_updated": "2026-05-22T10:15:54.389228",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -1993,9 +1993,9 @@
       "description": "Södra Ving/Hössna/Timmele hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.3
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.2
       }
     },
     {
@@ -2010,9 +2010,9 @@
       "description": "Södra Ving/Hössna/Timmele hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.3
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.2
       }
     },
     {
@@ -2027,9 +2027,9 @@
       "description": "Sammandrag",
       "location": "Kransmossen",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.7
       }
     },
     {
@@ -2044,9 +2044,9 @@
       "description": "Borta",
       "location": "Kransmossen()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.7
       }
     },
     {
@@ -2061,9 +2061,9 @@
       "description": "Lagfotografering",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.6
       }
     },
     {
@@ -2097,7 +2097,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.2
+        "temp": 21.0
       }
     },
     {
@@ -2114,7 +2114,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.2
+        "temp": 21.0
       }
     },
     {
@@ -2129,9 +2129,9 @@
       "description": "Dalsjöfors GoIF Svart borta",
       "location": "Dalsjöfors GoIF Svart()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 20.8
       }
     },
     {
@@ -2148,7 +2148,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.1
+        "temp": 14.1
       }
     },
     {
@@ -2163,9 +2163,9 @@
       "description": "Alingsås KIK Blå borta",
       "location": "Noltorpsvallen B Konstgräs(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.2
       }
     },
     {
@@ -2180,9 +2180,9 @@
       "description": "Kioskbemanning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.2
       }
     },
     {
@@ -2199,7 +2199,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.3
+        "temp": 18.0
       }
     },
     {
@@ -2216,7 +2216,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.3
+        "temp": 18.0
       }
     },
     {
@@ -2233,7 +2233,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.3
+        "temp": 18.0
       }
     },
     {
@@ -2250,7 +2250,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.3
+        "temp": 18.0
       }
     },
     {
@@ -2267,7 +2267,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.3
+        "temp": 18.0
       }
     },
     {
@@ -2282,9 +2282,9 @@
       "description": "Lagfotografering (samling kl.13:15)",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 19.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 19.9
       }
     },
     {
@@ -2299,9 +2299,9 @@
       "description": "Lagfotografering",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 20.1
       }
     },
     {
@@ -2316,9 +2316,9 @@
       "description": "Domare",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 20.1
       }
     },
     {
@@ -2333,9 +2333,9 @@
       "description": "Bergdalens IK hemma",
       "location": "Kronäng Arena C-Plan()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 20.1
       }
     },
     {
@@ -2350,9 +2350,9 @@
       "description": "Rydboholms SK hemma",
       "location": "Kronäng Arena(Pojkar Div 13 Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 20.1
       }
     },
     {
@@ -2367,9 +2367,9 @@
       "description": "Sjömarkens IF Vit hemma",
       "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 20.1
       }
     },
     {
@@ -2384,9 +2384,9 @@
       "description": "Jung/Kvänum 10 IF borta",
       "location": "Jungavallen 1(Damer DM - Cup)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.2
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 19.9
       }
     },
     {
@@ -2401,9 +2401,9 @@
       "description": "Hajoms IF hemma",
       "location": "Kronäng Arena(Pojkar Div 6 Borås)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.2
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 19.9
       }
     },
     {
@@ -2418,9 +2418,9 @@
       "description": "Jung/Kvänum 10 IF borta",
       "location": "Jungavallen 1(Damer DM - Cup)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.2
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 19.9
       }
     },
     {
@@ -2437,7 +2437,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.0
+        "temp": 18.8
       }
     },
     {
@@ -2454,7 +2454,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 17.6
       }
     },
     {
@@ -2471,7 +2471,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 17.6
       }
     },
     {
@@ -2488,7 +2488,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 17.6
       }
     },
     {
@@ -2505,7 +2505,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 17.6
       }
     },
     {
@@ -2522,7 +2522,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 17.6
       }
     },
     {
@@ -2539,7 +2539,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 17.6
       }
     },
     {
@@ -2556,7 +2556,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.3
+        "temp": 17.0
       }
     },
     {
@@ -2573,7 +2573,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.2
+        "temp": 16.0
       }
     },
     {
@@ -2590,7 +2590,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.2
+        "temp": 16.0
       }
     },
     {
@@ -2607,7 +2607,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 14.4
       }
     },
     {
@@ -2624,7 +2624,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 14.4
       }
     },
     {
@@ -2641,7 +2641,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 14.4
       }
     },
     {
@@ -2658,7 +2658,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 14.4
       }
     },
     {
@@ -2675,7 +2675,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 14.4
       }
     },
     {
@@ -2692,7 +2692,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 14.4
       }
     },
     {
@@ -2709,7 +2709,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.2
+        "temp": 13.9
       }
     },
     {
@@ -2726,7 +2726,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.5
+        "temp": 13.2
       }
     },
     {
@@ -2743,7 +2743,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 14.4
       }
     },
     {
@@ -2760,7 +2760,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 14.4
       }
     },
     {
@@ -2777,7 +2777,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 14.4
       }
     },
     {
@@ -2794,7 +2794,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 14.4
       }
     },
     {
@@ -2811,7 +2811,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.1
+        "temp": 13.9
       }
     },
     {
@@ -2828,7 +2828,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.1
+        "temp": 13.9
       }
     },
     {
@@ -2845,7 +2845,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.1
+        "temp": 13.9
       }
     },
     {
@@ -2862,7 +2862,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 15.2
       }
     },
     {
@@ -2879,7 +2879,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 15.2
       }
     },
     {
@@ -2896,7 +2896,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 15.2
       }
     },
     {
@@ -2913,7 +2913,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 15.2
       }
     },
     {
@@ -2930,7 +2930,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.5
+        "temp": 15.1
       }
     },
     {
@@ -2947,7 +2947,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.5
+        "temp": 15.1
       }
     },
     {
@@ -2964,7 +2964,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.9
+        "temp": 14.9
       }
     },
     {
@@ -2981,7 +2981,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.9
+        "temp": 14.9
       }
     },
     {
@@ -2998,7 +2998,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.9
+        "temp": 14.9
       }
     },
     {
@@ -3199,18 +3199,18 @@
   ],
   "latest_news": [
     {
+      "title": "Kronängsbladet",
+      "published_at": "2026-05-22 10:00",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1344509",
+      "image": "",
+      "summary": ""
+    },
+    {
       "title": "50/50 lotten Kronängs IF Dam match fredag 21maj",
       "published_at": "2026-05-21 09:10",
       "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1344233",
       "image": "",
       "summary": "Köp 50/50 lotten till Kronängs IF Dam match nu på fredag 21maj Lotten kostar 20kr o man kan köpa fler lotter än en lott"
-    },
-    {
-      "title": "Vi har nu bockat av tredje bortamatchen i rad och åkt hem med 9 av 9 möjliga poäng.",
-      "published_at": "2026-05-19 11:43, Dam",
-      "url": "https://www.kronangsif.se/nyheter/?ID=52694&NID=1343856",
-      "image": "",
-      "summary": "Trots dålig plan med stora sandfläckar så spelar vi första halvlek riktigt bra! Mycket fina kombinationer och vi får till bra passningsspel trots underlaget! I andra halvlek så är det inte mycket till finspel men det är en krigarinställning och vi viker aldrig ner oss trots att Falköping jobbar sig in mer i matchen. Slutresultatet blir därmed 1-4. Thea gav vidare den gyllene hatten till Ippe som krigar hela matchen, kommer på löpningar gång på gång. Fint spel och ger verkligen en riktig krigarinsats som smittar av sig på alla spelare. Dessutom stod hon för första målet och vann Nickes daim-mål. Daniels kommentar: Första 35 minuterna är väldigt bra från vår sida idag, vi trycker ner motståndarna med bra rörelse och fint kombinationsspel. Defensivt ligger vi också bra i våra positioner och låter dem knappt komma förbi egen planhalva. Under denna period gör vi också tre av våra mål. I andra halvlek flyttar de upp sina positioner lite grann samtidigt som vi slappnar av och spelet jämnar ut sig. Men segern var aldrig hotad och vi tar med oss tre goa poäng hem till Borås!"
     }
   ]
 }
