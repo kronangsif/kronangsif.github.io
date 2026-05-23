@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-23T02:46:37.477530",
+  "last_updated": "2026-05-23T05:58:17.034199",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -2021,7 +2021,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.6
+        "temp": 13.4
       }
     },
     {
@@ -2038,7 +2038,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.6
+        "temp": 13.4
       }
     },
     {
@@ -2055,7 +2055,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.9
+        "temp": 18.0
       }
     },
     {
@@ -2072,7 +2072,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.2
+        "temp": 19.0
       }
     },
     {
@@ -2089,7 +2089,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.4
+        "temp": 20.3
       }
     },
     {
@@ -2106,7 +2106,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.4
+        "temp": 20.3
       }
     },
     {
@@ -2121,9 +2121,9 @@
       "description": "Dalsjöfors GoIF Svart borta",
       "location": "Dalsjöfors GoIF Svart()",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 20.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 20.6
       }
     },
     {
@@ -2140,7 +2140,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.0
+        "temp": 14.1
       }
     },
     {
@@ -2157,7 +2157,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.8
+        "temp": 15.9
       }
     },
     {
@@ -2174,7 +2174,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.8
+        "temp": 15.9
       }
     },
     {
@@ -2189,9 +2189,9 @@
       "description": "Domare",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.8
       }
     },
     {
@@ -2206,9 +2206,9 @@
       "description": "Domare",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.8
       }
     },
     {
@@ -2223,9 +2223,9 @@
       "description": "IF Elfsborg Svart hemma",
       "location": "Kronäng Arena(Pojkar Div 9 Fristad)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.8
       }
     },
     {
@@ -2240,9 +2240,9 @@
       "description": "Hemsjö IF  hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Alingsås)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.8
       }
     },
     {
@@ -2257,9 +2257,9 @@
       "description": "Sandareds IF Svart hemma",
       "location": "Kronäng Arena(Pojkar Div 11 Kinna)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.8
       }
     },
     {
@@ -2274,8 +2274,8 @@
       "description": "Lagfotografering (samling kl.13:15)",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 19.7
       }
     },
@@ -2291,8 +2291,8 @@
       "description": "Lagfotografering",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 20.2
       }
     },
@@ -2310,7 +2310,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.4
+        "temp": 20.3
       }
     },
     {
@@ -2327,7 +2327,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.4
+        "temp": 20.3
       }
     },
     {
@@ -2344,7 +2344,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.4
+        "temp": 20.3
       }
     },
     {
@@ -2361,7 +2361,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.4
+        "temp": 20.3
       }
     },
     {
@@ -2378,7 +2378,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.3
+        "temp": 20.2
       }
     },
     {
@@ -2395,7 +2395,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.3
+        "temp": 20.2
       }
     },
     {
@@ -2412,7 +2412,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.3
+        "temp": 20.2
       }
     },
     {
@@ -2429,7 +2429,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.0
+        "temp": 19.1
       }
     },
     {
