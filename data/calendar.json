@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-23T12:58:45.819108",
+  "last_updated": "2026-05-23T14:28:17.442259",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -2123,7 +2123,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.5
+        "temp": 21.3
       }
     },
     {
@@ -2140,7 +2140,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.8
+        "temp": 15.1
       }
     },
     {
@@ -2157,7 +2157,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.7
+        "temp": 16.9
       }
     },
     {
@@ -2174,7 +2174,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.7
+        "temp": 16.9
       }
     },
     {
@@ -2191,7 +2191,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.2
+        "temp": 18.5
       }
     },
     {
@@ -2208,7 +2208,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.2
+        "temp": 18.5
       }
     },
     {
@@ -2225,7 +2225,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.2
+        "temp": 18.5
       }
     },
     {
@@ -2242,7 +2242,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.2
+        "temp": 18.5
       }
     },
     {
@@ -2259,7 +2259,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.2
+        "temp": 18.5
       }
     },
     {
@@ -2276,7 +2276,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.2
+        "temp": 20.5
       }
     },
     {
@@ -2293,7 +2293,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.6
+        "temp": 20.8
       }
     },
     {
@@ -2310,7 +2310,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.6
+        "temp": 20.9
       }
     },
     {
@@ -2327,7 +2327,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.6
+        "temp": 20.9
       }
     },
     {
@@ -2344,7 +2344,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.6
+        "temp": 20.9
       }
     },
     {
@@ -2361,7 +2361,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.6
+        "temp": 20.9
       }
     },
     {
@@ -2378,7 +2378,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.5
+        "temp": 21.0
       }
     },
     {
@@ -2395,7 +2395,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.5
+        "temp": 21.0
       }
     },
     {
@@ -2412,7 +2412,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.5
+        "temp": 21.0
       }
     },
     {
@@ -2429,7 +2429,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.6
+        "temp": 20.0
       }
     },
     {
@@ -2446,7 +2446,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.4
+        "temp": 20.5
       }
     },
     {
@@ -2463,7 +2463,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.4
+        "temp": 20.5
       }
     },
     {
@@ -2480,7 +2480,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.4
+        "temp": 20.5
       }
     },
     {
@@ -2497,7 +2497,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.4
+        "temp": 20.5
       }
     },
     {
@@ -2514,7 +2514,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.4
+        "temp": 20.5
       }
     },
     {
@@ -2531,7 +2531,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.4
+        "temp": 20.5
       }
     },
     {
@@ -2548,7 +2548,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.0
+        "temp": 20.1
       }
     },
     {
@@ -2565,7 +2565,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.7
+        "temp": 19.5
       }
     },
     {
@@ -2582,7 +2582,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.7
+        "temp": 19.5
       }
     },
     {
