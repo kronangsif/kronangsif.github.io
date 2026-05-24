@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24T17:51:52.246258",
+  "last_updated": "2026-05-24T19:00:22.013019",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -2705,9 +2705,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 16.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.7
       }
     },
     {
@@ -2722,9 +2722,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 16.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.7
       }
     },
     {
@@ -2739,9 +2739,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 16.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.7
       }
     },
     {
@@ -2758,7 +2758,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.9
+        "temp": 15.5
       }
     },
     {
@@ -2775,7 +2775,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.9
+        "temp": 15.5
       }
     },
     {
@@ -2792,7 +2792,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.9
+        "temp": 15.5
       }
     },
     {
@@ -2809,7 +2809,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.6
+        "temp": 17.5
       }
     },
     {
@@ -2826,7 +2826,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.6
+        "temp": 17.5
       }
     },
     {
@@ -2843,7 +2843,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.6
+        "temp": 17.5
       }
     },
     {
@@ -2860,7 +2860,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.6
+        "temp": 17.5
       }
     },
     {
@@ -2877,7 +2877,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.0
+        "temp": 16.8
       }
     },
     {
@@ -2894,7 +2894,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.0
+        "temp": 16.8
       }
     },
     {
@@ -2911,7 +2911,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 15.6
       }
     },
     {
@@ -2928,7 +2928,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 15.6
       }
     },
     {
@@ -2945,7 +2945,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.9
+        "temp": 15.6
       }
     },
     {
@@ -2962,7 +2962,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.6
+        "temp": 19.5
       }
     },
     {
@@ -2977,9 +2977,9 @@
       "description": "Tävling Boule",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 11.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.4
       }
     },
     {
@@ -2994,9 +2994,9 @@
       "description": "Rydboholms SK hemma",
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.1
       }
     },
     {
@@ -3011,9 +3011,9 @@
       "description": "Alingsås IF FF Vit hemma",
       "location": "Kronäng Arena Konstgräs 2(Pojkar Div 6 Borås)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.1
       }
     },
     {
@@ -3028,9 +3028,9 @@
       "description": "Fristad goif borta",
       "location": "Almåshallen()",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.1
       }
     },
     {
@@ -3045,9 +3045,9 @@
       "description": "Sjömarken/Sandared Vit borta",
       "location": "Idrottsgården Konstgräsplan(Pojkar Div 8 Dalsjöfors)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.8
       }
     },
     {
@@ -3062,9 +3062,9 @@
       "description": "Mariedals IK Vit borta",
       "location": "Kransmossens IP D(Pojkar Div 13 Dalsjöfors)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.8
       }
     },
     {
@@ -3079,9 +3079,9 @@
       "description": "Övrigt",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 18.1
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 20.5
       }
     },
     {
