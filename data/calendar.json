@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-25T11:42:24.169136",
+  "last_updated": "2026-05-25T14:33:06.525001",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 226,
+  "activity_count": 228,
   "activities": [
     {
       "date": "2026-05-01",
@@ -2346,7 +2346,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.3
+        "temp": 21.8
       }
     },
     {
@@ -2363,7 +2363,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.3
+        "temp": 21.8
       }
     },
     {
@@ -2380,7 +2380,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.3
+        "temp": 21.8
       }
     },
     {
@@ -2397,7 +2397,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.3
+        "temp": 21.8
       }
     },
     {
@@ -2414,7 +2414,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.3
+        "temp": 21.8
       }
     },
     {
@@ -2431,7 +2431,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.3
+        "temp": 21.8
       }
     },
     {
@@ -2448,7 +2448,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.8
+        "temp": 21.4
       }
     },
     {
@@ -2465,7 +2465,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.0
+        "temp": 20.6
       }
     },
     {
@@ -2482,7 +2482,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.0
+        "temp": 20.6
       }
     },
     {
@@ -2601,7 +2601,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.5
+        "temp": 17.1
       }
     },
     {
@@ -2618,7 +2618,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.1
+        "temp": 16.9
       }
     },
     {
@@ -2686,7 +2686,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.8
+        "temp": 18.4
       }
     },
     {
@@ -2703,7 +2703,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.8
+        "temp": 18.4
       }
     },
     {
@@ -2720,7 +2720,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.8
+        "temp": 18.4
       }
     },
     {
@@ -2805,7 +2805,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.4
+        "temp": 17.0
       }
     },
     {
@@ -2822,7 +2822,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.4
+        "temp": 17.0
       }
     },
     {
@@ -2839,7 +2839,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.2
+        "temp": 15.8
       }
     },
     {
@@ -2856,7 +2856,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.2
+        "temp": 15.8
       }
     },
     {
@@ -2873,7 +2873,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.2
+        "temp": 15.8
       }
     },
     {
@@ -2888,9 +2888,9 @@
       "description": "Ulricehamns IFK Blå borta",
       "location": "Lassalyckan B-plan(Pojkar Div 4 Borås)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.0
       }
     },
     {
@@ -2905,9 +2905,43 @@
       "description": "Tävling Boule",
       "location": "Kronängs Arena",
       "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.4
+      }
+    },
+    {
+      "date": "2026-05-30",
+      "day": "30",
+      "weekday": "lör",
+      "time": "10:00",
+      "end_time": "18:00",
+      "team": "Klubbstuga",
+      "team_id": "181941",
+      "type": "Övrigt",
+      "description": "Möte",
+      "location": "Kronängs Arena",
+      "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.8
+        "temp": 12.4
+      }
+    },
+    {
+      "date": "2026-05-30",
+      "day": "30",
+      "weekday": "lör",
+      "time": "10:00",
+      "end_time": "18:00",
+      "team": "VEO kamera",
+      "team_id": "430796",
+      "type": "Övrigt",
+      "description": "Möte",
+      "location": "Annan",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.4
       }
     },
     {
@@ -2924,7 +2958,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.5
+        "temp": 12.6
       }
     },
     {
@@ -2941,7 +2975,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.5
+        "temp": 12.6
       }
     },
     {
@@ -2958,7 +2992,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.5
+        "temp": 12.6
       }
     },
     {
@@ -2975,7 +3009,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.6
+        "temp": 13.4
       }
     },
     {
@@ -2992,7 +3026,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.6
+        "temp": 13.4
       }
     },
     {
@@ -3009,7 +3043,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 18.1
+        "temp": 16.5
       }
     },
     {
