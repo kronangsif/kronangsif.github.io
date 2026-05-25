@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-25T20:18:36.105054",
+  "last_updated": "2026-05-25T22:00:46.417270",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -2343,11 +2343,7 @@
       "type": "Övrigt",
       "description": "Möte",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.0
-      }
+      "weather": null
     },
     {
       "date": "2026-05-25",
@@ -2360,11 +2356,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.0
-      }
+      "weather": null
     },
     {
       "date": "2026-05-25",
@@ -2377,11 +2369,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.0
-      }
+      "weather": null
     },
     {
       "date": "2026-05-25",
@@ -2394,11 +2382,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.0
-      }
+      "weather": null
     },
     {
       "date": "2026-05-25",
@@ -2411,11 +2395,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.0
-      }
+      "weather": null
     },
     {
       "date": "2026-05-25",
@@ -2428,11 +2408,7 @@
       "type": "Övrigt",
       "description": "Öbollen 2026 - Föräldramöte",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.0
-      }
+      "weather": null
     },
     {
       "date": "2026-05-25",
@@ -2445,11 +2421,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 21.7
-      }
+      "weather": null
     },
     {
       "date": "2026-05-25",
@@ -2462,11 +2434,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 20.8
-      }
+      "weather": null
     },
     {
       "date": "2026-05-25",
@@ -2479,11 +2447,7 @@
       "type": "Träning",
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 20.8
-      }
+      "weather": null
     },
     {
       "date": "2026-05-26",
@@ -2499,7 +2463,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.2
+        "temp": 17.5
       }
     },
     {
@@ -2516,7 +2480,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.2
+        "temp": 17.5
       }
     },
     {
@@ -2533,7 +2497,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.2
+        "temp": 17.5
       }
     },
     {
@@ -2550,7 +2514,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.2
+        "temp": 17.5
       }
     },
     {
@@ -2567,7 +2531,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.2
+        "temp": 17.5
       }
     },
     {
@@ -2584,7 +2548,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.2
+        "temp": 17.5
       }
     },
     {
@@ -2599,9 +2563,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.3
       }
     },
     {
@@ -2616,9 +2580,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 16.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.7
       }
     },
     {
@@ -2635,7 +2599,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.3
+        "temp": 18.7
       }
     },
     {
@@ -2652,7 +2616,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.3
+        "temp": 18.7
       }
     },
     {
@@ -2669,7 +2633,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.3
+        "temp": 18.7
       }
     },
     {
@@ -2684,9 +2648,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.7
       }
     },
     {
@@ -2701,9 +2665,9 @@
       "description": "Svenljunga IK borta",
       "location": "Högvalla IP A konstgräs(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.7
       }
     },
     {
@@ -2718,9 +2682,9 @@
       "description": "Svenljunga IK borta",
       "location": "Högvalla IP A konstgräs(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.7
       }
     },
     {
