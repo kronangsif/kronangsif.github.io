@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-25T07:01:54.836858",
+  "last_updated": "2026-05-25T11:42:24.169136",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -2346,7 +2346,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.5
+        "temp": 22.3
       }
     },
     {
@@ -2363,7 +2363,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.5
+        "temp": 22.3
       }
     },
     {
@@ -2380,7 +2380,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.5
+        "temp": 22.3
       }
     },
     {
@@ -2397,7 +2397,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.5
+        "temp": 22.3
       }
     },
     {
@@ -2414,7 +2414,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.5
+        "temp": 22.3
       }
     },
     {
@@ -2431,7 +2431,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.5
+        "temp": 22.3
       }
     },
     {
@@ -2448,7 +2448,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.2
+        "temp": 21.8
       }
     },
     {
@@ -2465,7 +2465,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.4
+        "temp": 21.0
       }
     },
     {
@@ -2482,7 +2482,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.4
+        "temp": 21.0
       }
     },
     {
@@ -2497,8 +2497,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 17.7
       }
     },
@@ -2514,8 +2514,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 17.7
       }
     },
@@ -2531,8 +2531,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 17.7
       }
     },
@@ -2548,8 +2548,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 17.7
       }
     },
@@ -2565,8 +2565,8 @@
       "description": "Träning + löpning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 17.7
       }
     },
@@ -2582,8 +2582,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 17.7
       }
     },
@@ -2599,9 +2599,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.5
       }
     },
     {
@@ -2635,7 +2635,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.4
+        "temp": 19.4
       }
     },
     {
@@ -2652,7 +2652,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.4
+        "temp": 19.4
       }
     },
     {
@@ -2669,7 +2669,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.4
+        "temp": 19.4
       }
     },
     {
@@ -2684,9 +2684,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.8
       }
     },
     {
@@ -2701,9 +2701,9 @@
       "description": "Svenljunga IK borta",
       "location": "Högvalla IP A konstgräs(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.8
       }
     },
     {
@@ -2718,9 +2718,9 @@
       "description": "Svenljunga IK borta",
       "location": "Högvalla IP A konstgräs(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.8
       }
     },
     {
@@ -2737,7 +2737,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.1
+        "temp": 17.8
       }
     },
     {
@@ -2754,7 +2754,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.1
+        "temp": 17.8
       }
     },
     {
@@ -2771,7 +2771,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.1
+        "temp": 17.8
       }
     },
     {
@@ -2788,7 +2788,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.1
+        "temp": 17.8
       }
     },
     {
@@ -2805,7 +2805,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.6
+        "temp": 17.4
       }
     },
     {
@@ -2822,7 +2822,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.6
+        "temp": 17.4
       }
     },
     {
@@ -2837,9 +2837,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 16.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.2
       }
     },
     {
@@ -2854,9 +2854,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 16.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.2
       }
     },
     {
@@ -2871,9 +2871,9 @@
       "description": "Sandhults SK hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 16.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.2
       }
     },
     {
@@ -2888,9 +2888,9 @@
       "description": "Ulricehamns IFK Blå borta",
       "location": "Lassalyckan B-plan(Pojkar Div 4 Borås)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 19.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.5
       }
     },
     {
@@ -2905,9 +2905,9 @@
       "description": "Tävling Boule",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.8
       }
     },
     {
@@ -2924,7 +2924,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.1
+        "temp": 11.5
       }
     },
     {
@@ -2941,7 +2941,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.1
+        "temp": 11.5
       }
     },
     {
@@ -2958,7 +2958,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.1
+        "temp": 11.5
       }
     },
     {
@@ -2975,7 +2975,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 12.6
       }
     },
     {
@@ -2992,7 +2992,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 12.6
       }
     },
     {
@@ -3009,7 +3009,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.6
+        "temp": 18.1
       }
     },
     {
@@ -3024,9 +3024,9 @@
       "description": "Byttorps IF hemma",
       "location": "Kronäng Arena(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 20.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.1
       }
     },
     {
@@ -3041,9 +3041,9 @@
       "description": "Sätila SK borta",
       "location": "Lygnevi A(Pojkar Div 11 Kinna)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 20.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.1
       }
     },
     {
@@ -3058,9 +3058,9 @@
       "description": "Tollered/Hemsjö hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 20.9
       }
     },
     {
@@ -3075,9 +3075,9 @@
       "description": "Kinna IF Blå hemma",
       "location": "Kronäng Arena(Pojkar Div 11 Sandared)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 20.9
       }
     },
     {
@@ -3092,9 +3092,9 @@
       "description": "Annelunds IF borta",
       "location": "Mörlanda A 9 mot 9(Pojkar Div 8 Alingsås)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 19.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 17.1
       }
     },
     {
@@ -3109,9 +3109,9 @@
       "description": "Bergdalens IK U hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.8
       }
     },
     {
@@ -3126,26 +3126,26 @@
       "description": "Bergdalens IK U hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.8
       }
     }
   ],
   "latest_news": [
     {
-      "title": "Kronängsbladet",
-      "published_at": "2026-05-22 10:00",
-      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1344509",
-      "image": "",
-      "summary": ""
+      "title": "Vinst i 50/50 lotteriet KIF Dam Södra Ving",
+      "published_at": "2026-05-25 12:22",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1344919",
+      "image": "https://cdn.sportadmin.se/559/h/200/9cfc299eade371570b7594163fb24dcb7c809a82fb5e285ac8e6b036977019d6_L.jpeg",
+      "summary": "Vinsten i 50/50 lotteriet 22 maj blev 960kronor. Stort grattis till vinnaren."
     },
     {
-      "title": "50/50 lotten Kronängs IF Dam match fredag 21maj",
-      "published_at": "2026-05-21 09:10",
-      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1344233",
+      "title": "Veckans hemmamatcher",
+      "published_at": "2026-05-25",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1339545",
       "image": "",
-      "summary": "Köp 50/50 lotten till Kronängs IF Dam match nu på fredag 21maj Lotten kostar 20kr o man kan köpa fler lotter än en lott"
+      "summary": ""
     }
   ]
 }
