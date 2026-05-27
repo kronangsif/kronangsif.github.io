@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-26T23:00:53.108828",
+  "last_updated": "2026-05-27T02:29:08.269902",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -2554,7 +2554,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.4
+        "temp": 19.6
       }
     },
     {
@@ -2571,7 +2571,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.4
+        "temp": 19.6
       }
     },
     {
@@ -2588,7 +2588,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.4
+        "temp": 19.6
       }
     },
     {
@@ -2605,7 +2605,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.2
+        "temp": 18.5
       }
     },
     {
@@ -2622,7 +2622,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.2
+        "temp": 18.5
       }
     },
     {
@@ -2639,7 +2639,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.2
+        "temp": 18.5
       }
     },
     {
@@ -2656,7 +2656,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 20.5
+        "temp": 20.8
       }
     },
     {
@@ -2673,7 +2673,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 20.5
+        "temp": 20.8
       }
     },
     {
@@ -2690,7 +2690,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 20.5
+        "temp": 20.8
       }
     },
     {
@@ -2707,7 +2707,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 20.5
+        "temp": 20.8
       }
     },
     {
@@ -2724,7 +2724,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 19.8
+        "temp": 20.0
       }
     },
     {
@@ -2741,7 +2741,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 19.8
+        "temp": 20.0
       }
     },
     {
@@ -2758,7 +2758,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.1
+        "temp": 19.3
       }
     },
     {
@@ -2775,7 +2775,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.1
+        "temp": 19.3
       }
     },
     {
@@ -2792,7 +2792,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.1
+        "temp": 19.3
       }
     },
     {
@@ -2807,9 +2807,9 @@
       "description": "Ulricehamns IFK Blå borta",
       "location": "Lassalyckan B-plan(Pojkar Div 4 Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.4
       }
     },
     {
@@ -2824,8 +2824,8 @@
       "description": "Tävling Boule",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 12.4
       }
     },
@@ -2841,9 +2841,9 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.4
       }
     },
     {
@@ -2858,9 +2858,9 @@
       "description": "Möte",
       "location": "Annan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.4
       }
     },
     {
@@ -2877,7 +2877,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.6
+        "temp": 15.6
       }
     },
     {
@@ -2894,7 +2894,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.6
+        "temp": 15.6
       }
     },
     {
@@ -2911,7 +2911,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.6
+        "temp": 15.6
       }
     },
     {
@@ -2928,7 +2928,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.3
+        "temp": 16.4
       }
     },
     {
@@ -2945,7 +2945,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.3
+        "temp": 16.4
       }
     },
     {
@@ -2960,9 +2960,9 @@
       "description": "Hemma",
       "location": "P2016()",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.0
       }
     },
     {
@@ -2979,7 +2979,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 17.2
       }
     },
     {
@@ -2994,9 +2994,9 @@
       "description": "Byttorps IF hemma",
       "location": "Kronäng Arena(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 19.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 18.8
       }
     },
     {
@@ -3011,9 +3011,9 @@
       "description": "Sätila SK borta",
       "location": "Lygnevi A(Pojkar Div 11 Kinna)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 19.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 18.8
       }
     },
     {
@@ -3030,7 +3030,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 19.9
+        "temp": 21.4
       }
     },
     {
@@ -3047,7 +3047,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 19.9
+        "temp": 21.4
       }
     },
     {
@@ -3064,7 +3064,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 17.5
       }
     },
     {
@@ -3081,7 +3081,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.0
+        "temp": 17.3
       }
     },
     {
@@ -3098,7 +3098,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.0
+        "temp": 17.3
       }
     }
   ],
