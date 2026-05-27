@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-27T17:50:42.938478",
+  "last_updated": "2026-05-27T19:58:49.798630",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -2724,7 +2724,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.1
+        "temp": 20.3
       }
     },
     {
@@ -2741,7 +2741,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.1
+        "temp": 20.3
       }
     },
     {
@@ -2758,7 +2758,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.3
+        "temp": 19.5
       }
     },
     {
@@ -2775,7 +2775,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.3
+        "temp": 19.5
       }
     },
     {
@@ -2792,7 +2792,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.3
+        "temp": 19.5
       }
     },
     {
@@ -2809,7 +2809,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.9
+        "temp": 21.5
       }
     },
     {
@@ -2826,7 +2826,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.7
       }
     },
     {
@@ -2841,9 +2841,9 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.9
       }
     },
     {
@@ -2858,9 +2858,9 @@
       "description": "Möte",
       "location": "Annan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.9
       }
     },
     {
@@ -2875,9 +2875,9 @@
       "description": "Rydboholms SK hemma",
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.7
       }
     },
     {
@@ -2892,9 +2892,9 @@
       "description": "Alingsås IF FF Vit hemma",
       "location": "Kronäng Arena Konstgräs 2(Pojkar Div 6 Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.7
       }
     },
     {
@@ -2909,9 +2909,9 @@
       "description": "Fristad goif borta",
       "location": "Almåshallen()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.7
       }
     },
     {
@@ -2926,9 +2926,9 @@
       "description": "Sjömarken/Sandared Vit borta",
       "location": "Idrottsgården Konstgräsplan(Pojkar Div 8 Dalsjöfors)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 18.5
       }
     },
     {
@@ -2943,9 +2943,9 @@
       "description": "Mariedals IK Vit borta",
       "location": "Kransmossens IP D(Pojkar Div 13 Dalsjöfors)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 18.5
       }
     },
     {
@@ -2960,9 +2960,9 @@
       "description": "Hemma",
       "location": "P2016()",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.7
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 19.4
       }
     },
     {
@@ -2979,7 +2979,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.2
+        "temp": 17.4
       }
     },
     {
@@ -2996,7 +2996,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 19.8
       }
     },
     {
@@ -3013,7 +3013,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 19.8
       }
     },
     {
@@ -3030,7 +3030,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 20.7
+        "temp": 20.1
       }
     },
     {
@@ -3047,7 +3047,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 20.7
+        "temp": 20.1
       }
     },
     {
@@ -3064,7 +3064,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 20.7
+        "temp": 20.1
       }
     },
     {
@@ -3079,9 +3079,9 @@
       "description": "Annelunds IF borta",
       "location": "Mörlanda A 9 mot 9(Pojkar Div 8 Alingsås)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 16.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 17.2
       }
     },
     {
@@ -3096,8 +3096,8 @@
       "description": "Bergdalens IK U hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 15.6
       }
     },
@@ -3113,8 +3113,8 @@
       "description": "Bergdalens IK U hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 15.6
       }
     }
