@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-27T14:18:17.960632",
+  "last_updated": "2026-05-27T17:50:42.938478",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -2552,9 +2552,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 19.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 19.3
       }
     },
     {
@@ -2569,9 +2569,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 19.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 19.3
       }
     },
     {
@@ -2586,9 +2586,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 19.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 19.3
       }
     },
     {
@@ -2603,9 +2603,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.3
       }
     },
     {
@@ -2620,9 +2620,9 @@
       "description": "Svenljunga IK borta",
       "location": "Högvalla IP A konstgräs(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.3
       }
     },
     {
@@ -2637,9 +2637,9 @@
       "description": "Svenljunga IK borta",
       "location": "Högvalla IP A konstgräs(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.3
       }
     },
     {
@@ -2654,8 +2654,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 20.2
       }
     },
@@ -2671,8 +2671,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 20.2
       }
     },
@@ -2688,8 +2688,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 20.2
       }
     },
@@ -2705,8 +2705,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 20.2
       }
     },
@@ -2724,7 +2724,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.2
+        "temp": 20.1
       }
     },
     {
@@ -2741,7 +2741,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.2
+        "temp": 20.1
       }
     },
     {
@@ -2758,7 +2758,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.2
+        "temp": 19.3
       }
     },
     {
@@ -2775,7 +2775,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.2
+        "temp": 19.3
       }
     },
     {
@@ -2792,7 +2792,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.2
+        "temp": 19.3
       }
     },
     {
@@ -2807,9 +2807,9 @@
       "description": "Ulricehamns IFK Blå borta",
       "location": "Lassalyckan B-plan(Pojkar Div 4 Borås)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 19.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 20.9
       }
     },
     {
