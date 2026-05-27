@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-27T19:58:49.798630",
+  "last_updated": "2026-05-27T21:53:40.729947",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -2654,9 +2654,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 20.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 20.0
       }
     },
     {
@@ -2671,9 +2671,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 20.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 20.0
       }
     },
     {
@@ -2688,9 +2688,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 20.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 20.0
       }
     },
     {
@@ -2705,9 +2705,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 20.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 20.0
       }
     },
     {
@@ -2724,7 +2724,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.3
+        "temp": 20.1
       }
     },
     {
@@ -2741,7 +2741,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.3
+        "temp": 20.1
       }
     },
     {
@@ -2758,7 +2758,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.5
+        "temp": 19.4
       }
     },
     {
@@ -2775,7 +2775,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.5
+        "temp": 19.4
       }
     },
     {
@@ -2792,7 +2792,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.5
+        "temp": 19.4
       }
     },
     {
@@ -2809,7 +2809,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.5
+        "temp": 20.9
       }
     },
     {
@@ -2826,7 +2826,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.7
+        "temp": 13.1
       }
     },
     {
