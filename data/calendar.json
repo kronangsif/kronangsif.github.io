@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-28T10:43:55.409290",
+  "last_updated": "2026-05-28T14:27:44.436806",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -2630,8 +2630,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 19.8
       }
     },
@@ -2647,8 +2647,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 19.8
       }
     },
@@ -2664,8 +2664,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 19.8
       }
     },
@@ -2681,8 +2681,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 19.8
       }
     },
@@ -2732,9 +2732,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 19.2
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.7
       }
     },
     {
@@ -2749,9 +2749,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 19.2
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.7
       }
     },
     {
@@ -2766,9 +2766,9 @@
       "description": "Sandhults SK hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 19.2
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.7
       }
     },
     {
@@ -2785,7 +2785,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.2
+        "temp": 20.5
       }
     },
     {
@@ -2802,7 +2802,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.5
+        "temp": 13.6
       }
     },
     {
@@ -2819,7 +2819,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.6
+        "temp": 16.1
       }
     },
     {
@@ -2836,7 +2836,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.6
+        "temp": 16.1
       }
     },
     {
@@ -2853,7 +2853,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.9
+        "temp": 17.1
       }
     },
     {
@@ -2870,7 +2870,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.9
+        "temp": 17.1
       }
     },
     {
@@ -2887,7 +2887,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.9
+        "temp": 17.1
       }
     },
     {
@@ -2904,7 +2904,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 17.8
       }
     },
     {
@@ -2921,7 +2921,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 17.8
       }
     },
     {
@@ -2938,7 +2938,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 19.7
+        "temp": 19.2
       }
     },
     {
@@ -2955,7 +2955,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.7
+        "temp": 18.5
       }
     },
     {
@@ -2970,9 +2970,9 @@
       "description": "Byttorps IF hemma",
       "location": "Kronäng Arena(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.9
       }
     },
     {
@@ -2987,9 +2987,9 @@
       "description": "Sätila SK borta",
       "location": "Lygnevi A(Pojkar Div 11 Kinna)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.9
       }
     },
     {
@@ -3006,7 +3006,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 20.3
+        "temp": 18.5
       }
     },
     {
@@ -3023,7 +3023,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 20.3
+        "temp": 18.5
       }
     },
     {
@@ -3040,7 +3040,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 20.3
+        "temp": 18.5
       }
     },
     {
@@ -3057,7 +3057,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.8
+        "temp": 15.6
       }
     },
     {
@@ -3074,7 +3074,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.5
+        "temp": 15.5
       }
     },
     {
@@ -3091,7 +3091,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.5
+        "temp": 15.5
       }
     }
   ],
