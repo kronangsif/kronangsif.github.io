@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-27T23:09:09.454137",
+  "last_updated": "2026-05-28T02:01:06.262196",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -2698,9 +2698,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 20.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 20.0
       }
     },
     {
@@ -2715,9 +2715,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 20.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 20.0
       }
     },
     {
@@ -2732,9 +2732,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 19.3
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 19.2
       }
     },
     {
@@ -2749,9 +2749,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 19.3
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 19.2
       }
     },
     {
@@ -2766,9 +2766,9 @@
       "description": "Sandhults SK hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 19.3
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 19.2
       }
     },
     {
@@ -2785,7 +2785,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.9
+        "temp": 21.4
       }
     },
     {
@@ -2802,7 +2802,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.1
+        "temp": 13.6
       }
     },
     {
@@ -2817,9 +2817,9 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.5
       }
     },
     {
@@ -2834,9 +2834,9 @@
       "description": "Möte",
       "location": "Annan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.5
       }
     },
     {
@@ -2853,7 +2853,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.7
+        "temp": 18.0
       }
     },
     {
@@ -2870,7 +2870,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.7
+        "temp": 18.0
       }
     },
     {
@@ -2887,7 +2887,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.7
+        "temp": 18.0
       }
     },
     {
@@ -2902,8 +2902,8 @@
       "description": "Sjömarken/Sandared Vit borta",
       "location": "Idrottsgården Konstgräsplan(Pojkar Div 8 Dalsjöfors)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 18.5
       }
     },
@@ -2919,8 +2919,8 @@
       "description": "Mariedals IK Vit borta",
       "location": "Kransmossens IP D(Pojkar Div 13 Dalsjöfors)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 18.5
       }
     },
@@ -2936,9 +2936,9 @@
       "description": "Hemma",
       "location": "P2016()",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 19.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 19.1
       }
     },
     {
@@ -2953,9 +2953,9 @@
       "description": "Övrigt",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 17.6
       }
     },
     {
@@ -2972,7 +2972,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.8
+        "temp": 18.5
       }
     },
     {
@@ -2989,7 +2989,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.8
+        "temp": 18.5
       }
     },
     {
@@ -3057,7 +3057,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.2
+        "temp": 17.5
       }
     },
     {
@@ -3074,7 +3074,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.6
+        "temp": 15.9
       }
     },
     {
@@ -3091,7 +3091,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.6
+        "temp": 15.9
       }
     }
   ],
