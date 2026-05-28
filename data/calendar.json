@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-28T20:06:18.418003",
+  "last_updated": "2026-05-28T22:26:04.468459",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -2629,11 +2629,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 20.6
-      }
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2646,11 +2642,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 20.6
-      }
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2663,11 +2655,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 20.6
-      }
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2680,11 +2668,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 20.6
-      }
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2697,11 +2681,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 20.5
-      }
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2714,11 +2694,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 20.5
-      }
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2731,11 +2707,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 19.7
-      }
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2748,11 +2720,7 @@
       "type": "Träning",
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 19.7
-      }
+      "weather": null
     },
     {
       "date": "2026-05-28",
@@ -2765,11 +2733,7 @@
       "type": "Match",
       "description": "Sandhults SK hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 19.7
-      }
+      "weather": null
     },
     {
       "date": "2026-05-29",
@@ -2785,7 +2749,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.6
+        "temp": 21.3
       }
     },
     {
@@ -2802,7 +2766,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.6
+        "temp": 13.7
       }
     },
     {
@@ -2819,7 +2783,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.8
+        "temp": 15.3
       }
     },
     {
@@ -2836,7 +2800,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.8
+        "temp": 15.3
       }
     },
     {
@@ -2853,7 +2817,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.9
       }
     },
     {
@@ -2870,7 +2834,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.9
       }
     },
     {
@@ -2887,7 +2851,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.9
       }
     },
     {
@@ -2904,7 +2868,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.2
+        "temp": 16.3
       }
     },
     {
@@ -2921,7 +2885,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.2
+        "temp": 16.3
       }
     },
     {
@@ -2938,7 +2902,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 18.0
       }
     },
     {
