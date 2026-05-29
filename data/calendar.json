@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-29T05:04:51.507545",
+  "last_updated": "2026-05-29T09:34:06.509120",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 229,
+  "activity_count": 228,
   "activities": [
     {
       "date": "2026-05-01",
@@ -2675,19 +2675,6 @@
       "day": "28",
       "weekday": "tor",
       "time": "18:45",
-      "end_time": "20:30",
-      "team": "P2009-2010",
-      "team_id": "224798",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "weather": null
-    },
-    {
-      "date": "2026-05-28",
-      "day": "28",
-      "weekday": "tor",
-      "time": "18:45",
       "end_time": "20:45",
       "team": "P2012",
       "team_id": "281528",
@@ -2766,7 +2753,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.6
+        "temp": 13.7
       }
     },
     {
@@ -2783,7 +2770,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.3
+        "temp": 14.5
       }
     },
     {
@@ -2800,7 +2787,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.3
+        "temp": 14.5
       }
     },
     {
@@ -2817,7 +2804,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.1
+        "temp": 15.3
       }
     },
     {
@@ -2834,7 +2821,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.1
+        "temp": 15.3
       }
     },
     {
@@ -2851,7 +2838,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.1
+        "temp": 15.3
       }
     },
     {
@@ -2868,7 +2855,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.5
+        "temp": 16.1
       }
     },
     {
@@ -2885,7 +2872,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.5
+        "temp": 16.1
       }
     },
     {
@@ -2902,7 +2889,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.2
+        "temp": 18.3
       }
     },
     {
@@ -2919,7 +2906,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.5
+        "temp": 18.3
       }
     },
     {
@@ -2934,9 +2921,9 @@
       "description": "Byttorps IF hemma",
       "location": "Kronäng Arena(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 17.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.1
       }
     },
     {
@@ -2951,9 +2938,9 @@
       "description": "Sätila SK borta",
       "location": "Lygnevi A(Pojkar Div 11 Kinna)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 17.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.1
       }
     },
     {
@@ -3019,9 +3006,9 @@
       "description": "Annelunds IF borta",
       "location": "Mörlanda A 9 mot 9(Pojkar Div 8 Alingsås)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 19.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 19.5
       }
     },
     {
@@ -3038,7 +3025,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 19.5
+        "temp": 16.9
       }
     },
     {
@@ -3055,7 +3042,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 19.5
+        "temp": 16.9
       }
     }
   ],
