@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-29T00:01:54.702888",
+  "last_updated": "2026-05-29T05:04:51.507545",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -2747,9 +2747,9 @@
       "description": "Ulricehamns IFK Blå borta",
       "location": "Lassalyckan B-plan(Pojkar Div 4 Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 21.4
       }
     },
     {
@@ -2766,7 +2766,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.3
+        "temp": 13.6
       }
     },
     {
@@ -2817,7 +2817,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.0
+        "temp": 16.1
       }
     },
     {
@@ -2834,7 +2834,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.0
+        "temp": 16.1
       }
     },
     {
@@ -2851,7 +2851,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.0
+        "temp": 16.1
       }
     },
     {
@@ -2868,7 +2868,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.4
+        "temp": 16.5
       }
     },
     {
@@ -2885,7 +2885,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.4
+        "temp": 16.5
       }
     },
     {
@@ -2902,7 +2902,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 18.2
       }
     },
     {
@@ -2919,7 +2919,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.9
+        "temp": 18.5
       }
     },
     {
@@ -2936,7 +2936,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.9
+        "temp": 17.4
       }
     },
     {
@@ -2953,7 +2953,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.9
+        "temp": 17.4
       }
     },
     {
@@ -2968,8 +2968,8 @@
       "description": "Tollered/Hemsjö hemma",
       "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 19.1
       }
     },
@@ -2985,8 +2985,8 @@
       "description": "Övrigt",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 19.1
       }
     },
@@ -3002,8 +3002,8 @@
       "description": "Kinna IF Blå hemma",
       "location": "Kronäng Arena(Pojkar Div 11 Sandared)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 19.1
       }
     },
@@ -3019,9 +3019,9 @@
       "description": "Annelunds IF borta",
       "location": "Mörlanda A 9 mot 9(Pojkar Div 8 Alingsås)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 17.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 19.7
       }
     },
     {
@@ -3036,9 +3036,9 @@
       "description": "Bergdalens IK U hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 16.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 19.5
       }
     },
     {
@@ -3053,9 +3053,9 @@
       "description": "Bergdalens IK U hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 16.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 19.5
       }
     }
   ],
