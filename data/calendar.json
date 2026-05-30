@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-30T17:56:19.699763",
+  "last_updated": "2026-05-30T19:02:56.448066",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
-  "activity_count": 228,
+  "activity_count": 227,
   "activities": [
     {
       "date": "2026-05-01",
@@ -2911,23 +2911,6 @@
       "weekday": "sön",
       "time": "11:00",
       "end_time": "",
-      "team": "F2013/2014",
-      "team_id": "374981",
-      "type": "Match",
-      "description": "Byttorps IF hemma",
-      "location": "Kronäng Arena(Flickor Div 5 Kinna)",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 18.6
-      }
-    },
-    {
-      "date": "2026-05-31",
-      "day": "31",
-      "weekday": "sön",
-      "time": "11:00",
-      "end_time": "",
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
@@ -2936,7 +2919,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.6
+        "temp": 17.9
       }
     },
     {
@@ -2953,7 +2936,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.8
+        "temp": 20.0
       }
     },
     {
@@ -2970,7 +2953,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.8
+        "temp": 20.0
       }
     },
     {
@@ -2987,7 +2970,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.8
+        "temp": 20.0
       }
     },
     {
@@ -3004,7 +2987,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.3
+        "temp": 20.1
       }
     },
     {
@@ -3021,7 +3004,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.0
+        "temp": 20.1
       }
     },
     {
@@ -3038,7 +3021,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.0
+        "temp": 20.1
       }
     }
   ],
