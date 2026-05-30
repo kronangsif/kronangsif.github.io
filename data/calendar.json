@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30T14:57:56.611524",
+  "last_updated": "2026-05-30T16:02:36.262904",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -2902,7 +2902,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 19.0
       }
     },
     {
@@ -2917,9 +2917,9 @@
       "description": "Byttorps IF hemma",
       "location": "Kronäng Arena(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.5
       }
     },
     {
@@ -2934,9 +2934,9 @@
       "description": "Sätila SK borta",
       "location": "Lygnevi A(Pojkar Div 11 Kinna)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.5
       }
     },
     {
@@ -2953,7 +2953,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.0
+        "temp": 19.9
       }
     },
     {
@@ -2970,7 +2970,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.0
+        "temp": 19.9
       }
     },
     {
@@ -2987,7 +2987,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.0
+        "temp": 19.9
       }
     },
     {
@@ -3004,7 +3004,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 20.5
+        "temp": 20.4
       }
     },
     {
@@ -3021,7 +3021,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 19.9
+        "temp": 20.2
       }
     },
     {
@@ -3038,7 +3038,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 19.9
+        "temp": 20.2
       }
     }
   ],
