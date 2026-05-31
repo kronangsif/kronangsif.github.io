@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31T06:48:21.313678",
+  "last_updated": "2026-05-31T09:41:38.159725",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 5,
   "year": 2026,
@@ -2879,7 +2879,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.4
+        "temp": 17.5
       }
     },
     {
@@ -2896,7 +2896,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.2
+        "temp": 19.6
       }
     },
     {
@@ -2913,7 +2913,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.2
+        "temp": 19.6
       }
     },
     {
@@ -2930,7 +2930,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.2
+        "temp": 19.6
       }
     },
     {
@@ -2947,7 +2947,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.1
+        "temp": 20.3
       }
     },
     {
@@ -2964,7 +2964,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.5
+        "temp": 19.8
       }
     },
     {
@@ -2981,7 +2981,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.5
+        "temp": 19.8
       }
     }
   ],
