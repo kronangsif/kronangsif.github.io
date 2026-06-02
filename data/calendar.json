@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-02T14:42:00.797290",
+  "last_updated": "2026-06-02T18:31:04.224054",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
-  "activity_count": 167,
+  "activity_count": 166,
   "activities": [
     {
       "date": "2026-06-01",
@@ -123,7 +123,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.6
+        "temp": 20.0
       }
     },
     {
@@ -140,7 +140,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.6
+        "temp": 20.0
       }
     },
     {
@@ -157,7 +157,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.6
+        "temp": 20.0
       }
     },
     {
@@ -174,7 +174,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.6
+        "temp": 20.0
       }
     },
     {
@@ -191,7 +191,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.6
+        "temp": 20.0
       }
     },
     {
@@ -208,7 +208,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.6
+        "temp": 20.0
       }
     },
     {
@@ -225,7 +225,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.1
+        "temp": 20.8
       }
     },
     {
@@ -242,7 +242,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.1
+        "temp": 20.8
       }
     },
     {
@@ -257,9 +257,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 21.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 20.9
       }
     },
     {
@@ -276,7 +276,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.5
+        "temp": 16.8
       }
     },
     {
@@ -293,7 +293,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 23.5
+        "temp": 23.4
       }
     },
     {
@@ -310,7 +310,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 23.5
+        "temp": 23.4
       }
     },
     {
@@ -327,7 +327,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 23.5
+        "temp": 23.4
       }
     },
     {
@@ -344,7 +344,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 23.5
+        "temp": 23.4
       }
     },
     {
@@ -361,7 +361,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.5
+        "temp": 20.8
       }
     },
     {
@@ -378,7 +378,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.5
+        "temp": 20.8
       }
     },
     {
@@ -395,7 +395,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.5
+        "temp": 20.8
       }
     },
     {
@@ -412,7 +412,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.5
+        "temp": 20.8
       }
     },
     {
@@ -429,7 +429,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
+        "temp": 16.4
       }
     },
     {
@@ -446,7 +446,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
+        "temp": 16.4
       }
     },
     {
@@ -463,7 +463,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
+        "temp": 16.4
       }
     },
     {
@@ -480,24 +480,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
-      }
-    },
-    {
-      "date": "2026-06-04",
-      "day": "04",
-      "weekday": "tor",
-      "time": "19:00",
-      "end_time": "20:30",
-      "team": "Dam",
-      "team_id": "52695",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.9
+        "temp": 16.7
       }
     },
     {
