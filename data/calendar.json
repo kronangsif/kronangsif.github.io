@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T21:41:16.370440",
+  "last_updated": "2026-06-03T23:25:32.522063",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -237,11 +237,7 @@
       "type": "Övrigt",
       "description": "Möte",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.8
-      }
+      "weather": null
     },
     {
       "date": "2026-06-03",
@@ -254,11 +250,7 @@
       "type": "Match",
       "description": "Byttorps IF hemma",
       "location": "Kronängs Arena B-plan()",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 25.2
-      }
+      "weather": null
     },
     {
       "date": "2026-06-03",
@@ -271,11 +263,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 25.2
-      }
+      "weather": null
     },
     {
       "date": "2026-06-03",
@@ -288,11 +276,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 25.2
-      }
+      "weather": null
     },
     {
       "date": "2026-06-03",
@@ -305,11 +289,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 25.2
-      }
+      "weather": null
     },
     {
       "date": "2026-06-03",
@@ -322,11 +302,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.2
-      }
+      "weather": null
     },
     {
       "date": "2026-06-03",
@@ -339,11 +315,7 @@
       "type": "Match",
       "description": "IF Elfsborg Svart borta",
       "location": "Ryda Sportfält B(Pojkar Div 8 Dalsjöfors)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.2
-      }
+      "weather": null
     },
     {
       "date": "2026-06-03",
@@ -356,11 +328,7 @@
       "type": "Match",
       "description": "Alingsås KIK U borta",
       "location": "Noltorpsvallen B Konstgräs(Damer, Div 3 Södra)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.2
-      }
+      "weather": null
     },
     {
       "date": "2026-06-03",
@@ -373,11 +341,7 @@
       "type": "Match",
       "description": "Alingsås KIK U borta",
       "location": "Noltorpsvallen B Konstgräs(Damer, Div 3 Södra)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.2
-      }
+      "weather": null
     },
     {
       "date": "2026-06-04",
@@ -392,8 +356,8 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.4
+        "desc": "Regn",
+        "temp": 16.1
       }
     },
     {
@@ -409,8 +373,8 @@
       "location": "Kronängs Arena B-plan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.4
+        "desc": "Regn",
+        "temp": 16.1
       }
     },
     {
@@ -426,8 +390,8 @@
       "location": "Kronängs Arena B-plan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.4
+        "desc": "Regn",
+        "temp": 16.1
       }
     },
     {
@@ -442,9 +406,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 15.9
       }
     },
     {
@@ -460,8 +424,8 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 16.2
+        "desc": "Dis",
+        "temp": 15.5
       }
     },
     {
@@ -478,7 +442,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.4
+        "temp": 18.6
       }
     },
     {
@@ -495,7 +459,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 18.0
       }
     },
     {
@@ -510,9 +474,9 @@
       "description": "Rävlanda AIS borta",
       "location": "Bråtaredsvallen 1(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.5
       }
     },
     {
@@ -1036,7 +1000,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.9
+      }
     },
     {
       "date": "2026-06-10",
@@ -1049,7 +1017,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.9
+      }
     },
     {
       "date": "2026-06-10",
@@ -1062,7 +1034,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.9
+      }
     },
     {
       "date": "2026-06-10",
@@ -1075,7 +1051,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.9
+      }
     },
     {
       "date": "2026-06-10",
@@ -1088,7 +1068,11 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.8
+      }
     },
     {
       "date": "2026-06-11",
