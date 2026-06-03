@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T13:05:36.678221",
+  "last_updated": "2026-06-03T18:15:38.860124",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -257,7 +257,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 25.7
+        "temp": 25.2
       }
     },
     {
@@ -274,7 +274,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 25.7
+        "temp": 25.2
       }
     },
     {
@@ -291,7 +291,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 25.7
+        "temp": 25.2
       }
     },
     {
@@ -308,7 +308,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 25.7
+        "temp": 25.2
       }
     },
     {
@@ -323,9 +323,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 18.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 19.2
       }
     },
     {
@@ -340,9 +340,9 @@
       "description": "IF Elfsborg Svart borta",
       "location": "Ryda Sportfält B(Pojkar Div 8 Dalsjöfors)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 18.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 19.2
       }
     },
     {
@@ -357,9 +357,9 @@
       "description": "Alingsås KIK U borta",
       "location": "Noltorpsvallen B Konstgräs(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 18.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 19.2
       }
     },
     {
@@ -374,9 +374,9 @@
       "description": "Alingsås KIK U borta",
       "location": "Noltorpsvallen B Konstgräs(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 18.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 19.2
       }
     },
     {
@@ -393,7 +393,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 16.6
+        "temp": 15.9
       }
     },
     {
@@ -410,7 +410,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 16.6
+        "temp": 15.9
       }
     },
     {
@@ -427,7 +427,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 16.6
+        "temp": 15.9
       }
     },
     {
@@ -442,9 +442,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.9
       }
     },
     {
@@ -495,7 +495,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.9
+        "temp": 17.3
       }
     },
     {
@@ -512,7 +512,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.4
+        "temp": 17.0
       }
     },
     {
