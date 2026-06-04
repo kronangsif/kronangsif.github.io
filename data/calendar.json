@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-04T07:14:30.753864",
+  "last_updated": "2026-06-04T10:53:42.164078",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
-  "activity_count": 165,
+  "activity_count": 166,
   "activities": [
     {
       "date": "2026-06-01",
@@ -356,7 +356,7 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
+        "desc": "Regn",
         "temp": 15.8
       }
     },
@@ -373,7 +373,7 @@
       "location": "Kronängs Arena B-plan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
+        "desc": "Regn",
         "temp": 15.8
       }
     },
@@ -390,7 +390,7 @@
       "location": "Kronängs Arena B-plan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
+        "desc": "Regn",
         "temp": 15.8
       }
     },
@@ -423,9 +423,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 15.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.6
       }
     },
     {
@@ -440,9 +440,9 @@
       "description": "Ö-bollen 2026!",
       "location": "Ö-bollen Öckerö",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.2
       }
     },
     {
@@ -458,8 +458,8 @@
       "location": "Bråtaredsvallen 1(Herrar, Div 5 Sydvästra)",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 17.1
+        "desc": "Dis",
+        "temp": 17.9
       }
     },
     {
@@ -476,7 +476,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.0
+        "temp": 15.8
       }
     },
     {
@@ -493,7 +493,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.0
+        "temp": 15.8
       }
     },
     {
@@ -510,7 +510,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.9
+        "temp": 18.6
       }
     },
     {
@@ -527,7 +527,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.0
+        "temp": 19.1
       }
     },
     {
@@ -544,7 +544,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.4
+        "temp": 20.5
       }
     },
     {
@@ -561,7 +561,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.4
+        "temp": 20.5
       }
     },
     {
@@ -578,7 +578,24 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 19.5
+        "temp": 17.0
+      }
+    },
+    {
+      "date": "2026-06-07",
+      "day": "07",
+      "weekday": "sön",
+      "time": "16:00",
+      "end_time": "18:00",
+      "team": "P2011",
+      "team_id": "260562",
+      "type": "Träning",
+      "description": "Domaruppdrag",
+      "location": "Kronängs Arena",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.0
       }
     },
     {
@@ -595,7 +612,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 19.5
+        "temp": 17.0
       }
     },
     {
@@ -612,7 +629,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 18.2
+        "temp": 15.1
       }
     },
     {
@@ -629,7 +646,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 18.2
+        "temp": 15.1
       }
     },
     {
@@ -646,7 +663,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 18.2
+        "temp": 15.1
       }
     },
     {
@@ -663,7 +680,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 18.2
+        "temp": 15.1
       }
     },
     {
@@ -680,7 +697,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.3
+        "temp": 13.0
       }
     },
     {
@@ -697,7 +714,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 20.5
+        "temp": 19.6
       }
     },
     {
@@ -714,7 +731,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 20.5
+        "temp": 19.6
       }
     },
     {
@@ -731,7 +748,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 20.5
+        "temp": 19.6
       }
     },
     {
@@ -748,7 +765,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 20.5
+        "temp": 19.6
       }
     },
     {
@@ -765,7 +782,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.9
+        "temp": 19.4
       }
     },
     {
@@ -816,7 +833,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.0
+        "temp": 14.2
       }
     },
     {
@@ -833,7 +850,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 14.6
+        "temp": 14.0
       }
     },
     {
@@ -850,7 +867,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 14.6
+        "temp": 14.0
       }
     },
     {
@@ -867,7 +884,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 14.6
+        "temp": 14.0
       }
     },
     {
@@ -884,7 +901,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 14.6
+        "temp": 14.0
       }
     },
     {
@@ -901,7 +918,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 14.6
+        "temp": 14.0
       }
     },
     {
@@ -918,7 +935,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 14.6
+        "temp": 14.0
       }
     },
     {
@@ -935,7 +952,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.8
+        "temp": 13.5
       }
     },
     {
@@ -952,7 +969,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.5
+        "temp": 13.4
       }
     },
     {
@@ -969,7 +986,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.5
+        "temp": 13.4
       }
     },
     {
@@ -986,7 +1003,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 15.6
       }
     },
     {
@@ -1003,7 +1020,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 15.6
       }
     },
     {
@@ -1020,7 +1037,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 15.6
       }
     },
     {
@@ -1037,7 +1054,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 15.6
       }
     },
     {
@@ -1054,7 +1071,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 14.7
       }
     },
     {
