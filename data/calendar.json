@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05T20:44:15.101003",
+  "last_updated": "2026-06-05T22:08:06.956230",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -406,11 +406,7 @@
       "type": "Övrigt",
       "description": "Ö-bollen 2026!",
       "location": "Ö-bollen Öckerö",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.6
-      }
+      "weather": null
     },
     {
       "date": "2026-06-05",
@@ -423,11 +419,7 @@
       "type": "Match",
       "description": "Rävlanda AIS borta",
       "location": "Bråtaredsvallen 1(Herrar, Div 5 Sydvästra)",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.0
-      }
+      "weather": null
     },
     {
       "date": "2026-06-06",
@@ -443,7 +435,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.9
+        "temp": 16.0
       }
     },
     {
@@ -460,7 +452,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.9
+        "temp": 16.0
       }
     },
     {
@@ -477,7 +469,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.7
+        "temp": 18.4
       }
     },
     {
@@ -494,7 +486,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.1
+        "temp": 18.1
       }
     },
     {
@@ -511,7 +503,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.3
+        "temp": 17.7
       }
     },
     {
@@ -528,7 +520,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.3
+        "temp": 17.7
       }
     },
     {
@@ -545,7 +537,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.3
+        "temp": 17.7
       }
     },
     {
@@ -577,9 +569,9 @@
       "description": "Domaruppdrag",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.0
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 17.1
       }
     },
     {
@@ -594,9 +586,9 @@
       "description": "Sjömarkens IF Vit hemma",
       "location": "Kronäng Arena(Pojkar Div 9 Fristad)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.0
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 17.1
       }
     },
     {
@@ -611,9 +603,9 @@
       "description": "Skene IF borta",
       "location": "Vävarevallen C-plan(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.7
       }
     },
     {
@@ -628,9 +620,9 @@
       "description": "Sandared/Sjömarken Vit borta",
       "location": "Sandevi B-plan(Pojkar Div 6 Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.7
       }
     },
     {
@@ -645,9 +637,9 @@
       "description": "BK Spark U hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Utveckling B Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.7
       }
     },
     {
@@ -662,9 +654,9 @@
       "description": "Skene IF hemma",
       "location": "Kronäng Arena Konstgräs 2(Pojkar Div 5 Mark)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.7
       }
     },
     {
@@ -681,7 +673,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.8
+        "temp": 13.8
       }
     },
     {
@@ -1171,7 +1163,11 @@
       "type": "Övrigt",
       "description": "Möte",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.7
+      }
     },
     {
       "date": "2026-06-12",
@@ -1184,7 +1180,11 @@
       "type": "Träning",
       "description": "Ö-bollen 2026",
       "location": "Öckerö",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.1
+      }
     },
     {
       "date": "2026-06-12",
@@ -1210,7 +1210,11 @@
       "type": "Match",
       "description": "Sjömarkens IF Grön borta",
       "location": "Idrottsgården Konstgräsplan(Pojkar Div 13 Borås)",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.4
+      }
     },
     {
       "date": "2026-06-13",
