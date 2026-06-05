@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05T22:08:06.956230",
+  "last_updated": "2026-06-05T23:58:13.438650",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -435,7 +435,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.0
+        "temp": 16.1
       }
     },
     {
@@ -452,7 +452,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.0
+        "temp": 16.1
       }
     },
     {
@@ -469,7 +469,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.4
+        "temp": 18.7
       }
     },
     {
@@ -486,7 +486,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 18.3
       }
     },
     {
@@ -503,7 +503,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.7
+        "temp": 17.9
       }
     },
     {
@@ -520,7 +520,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.7
+        "temp": 17.9
       }
     },
     {
@@ -537,7 +537,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.7
+        "temp": 17.9
       }
     },
     {
@@ -554,7 +554,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 18.1
       }
     },
     {
@@ -571,7 +571,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 17.1
+        "temp": 17.2
       }
     },
     {
@@ -588,7 +588,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 17.1
+        "temp": 17.2
       }
     },
     {
@@ -605,7 +605,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.7
+        "temp": 16.9
       }
     },
     {
@@ -622,7 +622,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.7
+        "temp": 16.9
       }
     },
     {
@@ -639,7 +639,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.7
+        "temp": 16.9
       }
     },
     {
@@ -656,7 +656,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.7
+        "temp": 16.9
       }
     },
     {
@@ -673,7 +673,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.8
+        "temp": 13.7
       }
     },
     {
