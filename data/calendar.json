@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05T13:46:35.608914",
+  "last_updated": "2026-06-05T16:24:26.123181",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -409,7 +409,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.0
+        "temp": 17.6
       }
     },
     {
@@ -426,7 +426,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.4
+        "temp": 17.3
       }
     },
     {
@@ -443,7 +443,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 15.9
+        "temp": 16.5
       }
     },
     {
@@ -460,7 +460,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 15.9
+        "temp": 16.5
       }
     },
     {
@@ -475,9 +475,9 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.1
       }
     },
     {
@@ -494,7 +494,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.3
+        "temp": 18.6
       }
     },
     {
@@ -511,7 +511,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.5
+        "temp": 19.1
       }
     },
     {
@@ -528,7 +528,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.5
+        "temp": 19.1
       }
     },
     {
@@ -545,7 +545,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.5
+        "temp": 19.1
       }
     },
     {
@@ -562,7 +562,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.0
+        "temp": 18.7
       }
     },
     {
@@ -579,7 +579,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.4
+        "temp": 18.5
       }
     },
     {
@@ -596,7 +596,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.4
+        "temp": 18.5
       }
     },
     {
@@ -611,9 +611,9 @@
       "description": "Skene IF borta",
       "location": "Vävarevallen C-plan(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.1
       }
     },
     {
@@ -628,9 +628,9 @@
       "description": "Sandared/Sjömarken Vit borta",
       "location": "Sandevi B-plan(Pojkar Div 6 Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.1
       }
     },
     {
@@ -645,9 +645,9 @@
       "description": "BK Spark U hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Utveckling B Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.1
       }
     },
     {
@@ -662,9 +662,9 @@
       "description": "Skene IF hemma",
       "location": "Kronäng Arena Konstgräs 2(Pojkar Div 5 Mark)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.1
       }
     },
     {
