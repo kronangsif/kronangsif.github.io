@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-06T02:55:58.793351",
+  "last_updated": "2026-06-06T06:22:17.351472",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -435,7 +435,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.1
+        "temp": 15.5
       }
     },
     {
@@ -452,7 +452,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.1
+        "temp": 15.5
       }
     },
     {
@@ -467,9 +467,9 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.3
       }
     },
     {
@@ -486,7 +486,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 18.0
       }
     },
     {
@@ -501,9 +501,9 @@
       "description": "Domare",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.7
       }
     },
     {
@@ -518,9 +518,9 @@
       "description": "Sandareds IF Vit hemma",
       "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.7
       }
     },
     {
@@ -535,9 +535,9 @@
       "description": "Fristads GoIF Vit hemma",
       "location": "Kronäng Arena(Pojkar Div 13 Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.7
       }
     },
     {
@@ -554,7 +554,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 19.2
+        "temp": 18.5
       }
     },
     {
@@ -570,8 +570,8 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 18.4
+        "desc": "Dis",
+        "temp": 18.3
       }
     },
     {
@@ -587,8 +587,8 @@
       "location": "Kronäng Arena(Pojkar Div 9 Fristad)",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 18.4
+        "desc": "Dis",
+        "temp": 18.3
       }
     },
     {
@@ -605,7 +605,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.0
+        "temp": 17.1
       }
     },
     {
@@ -622,7 +622,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.0
+        "temp": 17.1
       }
     },
     {
@@ -639,7 +639,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.0
+        "temp": 17.1
       }
     },
     {
@@ -656,7 +656,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.0
+        "temp": 17.1
       }
     },
     {
@@ -673,7 +673,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.4
+        "temp": 14.3
       }
     },
     {
