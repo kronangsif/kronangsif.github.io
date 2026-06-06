@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-06T21:55:29.030715",
+  "last_updated": "2026-06-06T22:55:03.819190",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -432,11 +432,7 @@
       "type": "Match",
       "description": "Svenljunga/Högvad hemma",
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.7
-      }
+      "weather": null
     },
     {
       "date": "2026-06-06",
@@ -449,11 +445,7 @@
       "type": "Match",
       "description": "Hestrafors IF Vit borta",
       "location": "Bollevi B(Pojkar Div 8 Alingsås)",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.7
-      }
+      "weather": null
     },
     {
       "date": "2026-06-06",
@@ -466,11 +458,7 @@
       "type": "Övrigt",
       "description": "Möte",
       "location": "Kronängs Arena",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.8
-      }
+      "weather": null
     },
     {
       "date": "2026-06-07",
@@ -486,7 +474,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.1
+        "temp": 17.0
       }
     },
     {
@@ -503,7 +491,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.6
+        "temp": 18.7
       }
     },
     {
@@ -520,7 +508,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.6
+        "temp": 18.7
       }
     },
     {
@@ -537,7 +525,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.6
+        "temp": 18.7
       }
     },
     {
@@ -571,7 +559,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 18.5
+        "temp": 18.6
       }
     },
     {
@@ -588,7 +576,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 18.5
+        "temp": 18.6
       }
     },
     {
@@ -673,7 +661,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.6
+        "temp": 14.4
       }
     },
     {
@@ -1240,7 +1228,11 @@
       "type": "Träning",
       "description": "Ö-bollen 2026",
       "location": "Öckerö",
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 10.3
+      }
     },
     {
       "date": "2026-06-13",
@@ -1253,7 +1245,11 @@
       "type": "Match",
       "description": "Fristad/Sparsör/Borgstena Vit borta",
       "location": "Trollevi A(Pojkar Div 5 Mark)",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.9
+      }
     },
     {
       "date": "2026-06-13",
@@ -1266,7 +1262,11 @@
       "type": "Övrigt",
       "description": "Möte",
       "location": "Kronängs Arena",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.9
+      }
     },
     {
       "date": "2026-06-13",
@@ -1279,7 +1279,11 @@
       "type": "Match",
       "description": "Sjömarken/Sandared hemma",
       "location": "Kronäng Arena(Flickor Div 5 Kinna)",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 19.2
+      }
     },
     {
       "date": "2026-06-14",
