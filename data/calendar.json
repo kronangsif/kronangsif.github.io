@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-07T06:58:16.191300",
+  "last_updated": "2026-06-07T09:58:22.150997",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -474,7 +474,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.9
+        "temp": 16.6
       }
     },
     {
@@ -491,7 +491,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.7
+        "temp": 17.9
       }
     },
     {
@@ -508,7 +508,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.7
+        "temp": 17.9
       }
     },
     {
@@ -525,7 +525,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.7
+        "temp": 17.9
       }
     },
     {
@@ -542,7 +542,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.9
+        "temp": 17.7
       }
     },
     {
@@ -559,7 +559,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.1
+        "temp": 16.5
       }
     },
     {
@@ -576,7 +576,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.1
+        "temp": 16.5
       }
     },
     {
@@ -591,9 +591,9 @@
       "description": "Skene IF borta",
       "location": "Vävarevallen C-plan(Flickor Div 5 Kinna)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.6
       }
     },
     {
@@ -608,9 +608,9 @@
       "description": "Sandared/Sjömarken Vit borta",
       "location": "Sandevi B-plan(Pojkar Div 6 Borås)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.6
       }
     },
     {
@@ -625,9 +625,9 @@
       "description": "BK Spark U hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Utveckling B Borås)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.6
       }
     },
     {
@@ -642,9 +642,9 @@
       "description": "Skene IF hemma",
       "location": "Kronäng Arena Konstgräs 2(Pojkar Div 5 Mark)",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.6
       }
     },
     {
@@ -661,7 +661,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.7
+        "temp": 14.3
       }
     },
     {
@@ -676,9 +676,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.9
       }
     },
     {
@@ -693,9 +693,9 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.9
       }
     },
     {
@@ -710,9 +710,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.9
       }
     },
     {
@@ -727,9 +727,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.9
       }
     },
     {
@@ -744,9 +744,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.1
       }
     },
     {
@@ -761,9 +761,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.8
       }
     },
     {
@@ -778,9 +778,9 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.8
       }
     },
     {
@@ -795,9 +795,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 15.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.4
       }
     },
     {
@@ -813,8 +813,8 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 13.7
+        "desc": "Dis",
+        "temp": 15.1
       }
     },
     {
@@ -830,8 +830,8 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 13.7
+        "desc": "Dis",
+        "temp": 15.1
       }
     },
     {
@@ -847,8 +847,8 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 13.7
+        "desc": "Dis",
+        "temp": 15.1
       }
     },
     {
@@ -864,8 +864,8 @@
       "location": "Kronängs Arena B-plan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 13.7
+        "desc": "Dis",
+        "temp": 15.1
       }
     },
     {
@@ -881,8 +881,8 @@
       "location": "Kronängs Arena B-plan",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 13.7
+        "desc": "Dis",
+        "temp": 15.1
       }
     },
     {
@@ -898,8 +898,8 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 13.7
+        "desc": "Dis",
+        "temp": 15.1
       }
     },
     {
@@ -915,8 +915,8 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.4
+        "desc": "Regn",
+        "temp": 14.8
       }
     },
     {
@@ -933,7 +933,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 11.8
+        "temp": 13.7
       }
     },
     {
@@ -950,7 +950,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 11.8
+        "temp": 13.7
       }
     },
     {
@@ -967,7 +967,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.5
+        "temp": 11.9
       }
     },
     {
@@ -984,7 +984,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.5
+        "temp": 11.9
       }
     },
     {
@@ -1001,7 +1001,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.5
+        "temp": 11.9
       }
     },
     {
@@ -1018,7 +1018,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.5
+        "temp": 11.9
       }
     },
     {
@@ -1035,7 +1035,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.1
+        "temp": 11.3
       }
     },
     {
@@ -1052,7 +1052,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.1
+        "temp": 12.7
       }
     },
     {
@@ -1067,9 +1067,9 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 15.2
       }
     },
     {
@@ -1084,9 +1084,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 15.2
       }
     },
     {
@@ -1103,7 +1103,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.6
+        "temp": 14.9
       }
     },
     {
@@ -1153,8 +1153,8 @@
       "location": "Kronängs Arena",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 15.0
+        "desc": "Regn",
+        "temp": 11.0
       }
     },
     {
@@ -1171,7 +1171,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.3
+        "temp": 11.7
       }
     },
     {
@@ -1199,9 +1199,9 @@
       "description": "Sjömarkens IF Grön borta",
       "location": "Idrottsgården Konstgräsplan(Pojkar Div 13 Borås)",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.1
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.6
       }
     },
     {
@@ -1229,9 +1229,9 @@
       "description": "Ö-bollen 2026",
       "location": "Öckerö",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 10.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.6
       }
     },
     {
@@ -1248,7 +1248,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.9
+        "temp": 13.0
       }
     },
     {
@@ -1265,7 +1265,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.9
+        "temp": 13.5
       }
     },
     {
@@ -1282,7 +1282,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 19.2
+        "temp": 14.2
       }
     },
     {
