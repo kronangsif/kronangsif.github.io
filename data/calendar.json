@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-07T19:05:17.775915",
+  "last_updated": "2026-06-07T20:59:40.952170",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -661,7 +661,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.7
+        "temp": 14.6
       }
     },
     {
@@ -678,7 +678,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 21.6
+        "temp": 21.5
       }
     },
     {
@@ -695,7 +695,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 21.6
+        "temp": 21.5
       }
     },
     {
@@ -712,7 +712,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 21.6
+        "temp": 21.5
       }
     },
     {
@@ -729,7 +729,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 21.6
+        "temp": 21.5
       }
     },
     {
@@ -814,7 +814,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 16.0
+        "temp": 16.1
       }
     },
     {
@@ -831,7 +831,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 16.0
+        "temp": 16.1
       }
     },
     {
@@ -848,7 +848,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 16.0
+        "temp": 16.1
       }
     },
     {
@@ -865,7 +865,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 16.0
+        "temp": 16.1
       }
     },
     {
@@ -882,7 +882,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 16.0
+        "temp": 16.1
       }
     },
     {
@@ -899,7 +899,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 16.0
+        "temp": 16.1
       }
     },
     {
@@ -933,7 +933,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.0
+        "temp": 15.1
       }
     },
     {
@@ -950,7 +950,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.0
+        "temp": 15.1
       }
     },
     {
@@ -967,7 +967,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.0
+        "temp": 15.0
       }
     },
     {
@@ -984,7 +984,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.0
+        "temp": 15.0
       }
     },
     {
@@ -1001,7 +1001,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.0
+        "temp": 15.0
       }
     },
     {
@@ -1018,7 +1018,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.0
+        "temp": 15.0
       }
     },
     {
@@ -1035,7 +1035,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.8
+        "temp": 14.0
       }
     },
     {
@@ -1052,7 +1052,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.9
+        "temp": 14.1
       }
     },
     {
@@ -1069,7 +1069,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.4
+        "temp": 16.8
       }
     },
     {
@@ -1086,7 +1086,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.4
+        "temp": 16.8
       }
     },
     {
@@ -1103,7 +1103,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 16.3
       }
     },
     {
@@ -1120,7 +1120,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 14.3
+        "temp": 15.6
       }
     },
     {
@@ -1137,7 +1137,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 14.3
+        "temp": 15.6
       }
     },
     {
@@ -1154,7 +1154,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.7
+        "temp": 13.7
       }
     },
     {
@@ -1171,7 +1171,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.3
+        "temp": 13.3
       }
     },
     {
@@ -1201,7 +1201,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 15.0
+        "temp": 11.3
       }
     },
     {
@@ -1231,7 +1231,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.8
+        "temp": 9.5
       }
     },
     {
@@ -1248,7 +1248,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.0
+        "temp": 15.4
       }
     },
     {
@@ -1265,7 +1265,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.5
+        "temp": 15.3
       }
     },
     {
@@ -1282,7 +1282,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.2
+        "temp": 16.7
       }
     },
     {
@@ -1335,19 +1335,6 @@
       "type": "Match",
       "description": "Fristads GoIF Grön borta",
       "location": "Hedens IP B-plan(Pojkar Div 8 Borås norr)",
-      "weather": null
-    },
-    {
-      "date": "2026-06-14",
-      "day": "14",
-      "weekday": "sön",
-      "time": "13:45",
-      "end_time": "",
-      "team": "P 2015",
-      "team_id": "56158",
-      "type": "Match",
-      "description": "Ubbhult/Hällingsjö/Hyssna borta",
-      "location": "Björkängsvallen 1 Gräs(Pojkar Div 11 Kinna)",
       "weather": null
     },
     {
@@ -1413,6 +1400,19 @@
       "type": "Match",
       "description": "Dalsjöfors GoIF Svart borta",
       "location": "Gårdavallen A-plan(Flickor Div 7 Borås)",
+      "weather": null
+    },
+    {
+      "date": "2026-06-14",
+      "day": "14",
+      "weekday": "sön",
+      "time": "16:45",
+      "end_time": "",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Match",
+      "description": "Ubbhult/Hällingsjö/Hyssna borta",
+      "location": "Björkängsvallen 1 Gräs(Pojkar Div 11 Kinna)",
       "weather": null
     },
     {
