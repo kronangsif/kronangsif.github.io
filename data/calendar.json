@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-09T21:25:20.338397",
+  "last_updated": "2026-06-09T23:01:12.298983",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -759,11 +759,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.2
-      }
+      "weather": null
     },
     {
       "date": "2026-06-09",
@@ -777,11 +773,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.6
-      }
+      "weather": null
     },
     {
       "date": "2026-06-09",
@@ -795,11 +787,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.6
-      }
+      "weather": null
     },
     {
       "date": "2026-06-09",
@@ -813,11 +801,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.6
-      }
+      "weather": null
     },
     {
       "date": "2026-06-09",
@@ -831,11 +815,7 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.6
-      }
+      "weather": null
     },
     {
       "date": "2026-06-09",
@@ -849,11 +829,7 @@
       "description": "Cafeterian+träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.6
-      }
+      "weather": null
     },
     {
       "date": "2026-06-09",
@@ -867,11 +843,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.6
-      }
+      "weather": null
     },
     {
       "date": "2026-06-09",
@@ -885,11 +857,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.5
-      }
+      "weather": null
     },
     {
       "date": "2026-06-09",
@@ -903,11 +871,7 @@
       "description": "Sandared/Sjömarken borta",
       "location": "Sandevi B konstgräs(Pojkar Div 4 Borås)",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.5
-      }
+      "weather": null
     },
     {
       "date": "2026-06-10",
@@ -922,9 +886,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.7
       }
     },
     {
@@ -940,9 +904,9 @@
       "location": "Kronäng Arena C-Plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.7
       }
     },
     {
@@ -958,9 +922,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.7
       }
     },
     {
@@ -976,9 +940,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.7
       }
     },
     {
@@ -994,9 +958,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.6
       }
     },
     {
@@ -1014,7 +978,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 12.8
+        "temp": 13.2
       }
     },
     {
@@ -1032,7 +996,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.7
+        "temp": 17.8
       }
     },
     {
@@ -1050,7 +1014,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.3
+        "temp": 17.6
       }
     },
     {
@@ -1068,7 +1032,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.7
+        "temp": 17.2
       }
     },
     {
@@ -1086,7 +1050,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.7
+        "temp": 17.2
       }
     },
     {
@@ -1557,7 +1521,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 13.7
+      }
     },
     {
       "date": "2026-06-16",
@@ -1571,7 +1539,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 13.7
+      }
     },
     {
       "date": "2026-06-16",
@@ -1585,7 +1557,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 13.7
+      }
     },
     {
       "date": "2026-06-16",
@@ -1599,7 +1575,11 @@
       "description": "Holmalund city fc hemma",
       "location": "Kronängs Arena B-plan()",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 13.7
+      }
     },
     {
       "date": "2026-06-16",
@@ -1613,7 +1593,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 13.7
+      }
     },
     {
       "date": "2026-06-16",
@@ -1627,7 +1611,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 13.3
+      }
     },
     {
       "date": "2026-06-16",
@@ -1641,7 +1629,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 12.8
+      }
     },
     {
       "date": "2026-06-16",
@@ -1655,7 +1647,11 @@
       "description": "Dalsjöfors GoIF Grön borta",
       "location": "Dalsjöhov(Pojkar Div 8 Dalsjöfors)",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 12.8
+      }
     },
     {
       "date": "2026-06-16",
@@ -1669,7 +1665,11 @@
       "description": "Byttorps IF hemma",
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 12.8
+      }
     },
     {
       "date": "2026-06-16",
@@ -1683,7 +1683,11 @@
       "description": "Södra Härene/Östadkulle U hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 12.8
+      }
     },
     {
       "date": "2026-06-16",
@@ -1697,7 +1701,11 @@
       "description": "Södra Härene/Östadkulle U hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 12.8
+      }
     },
     {
       "date": "2026-06-17",
