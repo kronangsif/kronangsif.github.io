@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-09T10:27:12.428110",
+  "last_updated": "2026-06-09T13:36:28.417034",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -725,7 +725,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.7
       }
     },
     {
@@ -742,7 +742,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.7
       }
     },
     {
@@ -759,7 +759,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.7
       }
     },
     {
@@ -776,7 +776,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.7
       }
     },
     {
@@ -793,7 +793,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.7
       }
     },
     {
@@ -810,7 +810,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.7
       }
     },
     {
@@ -827,7 +827,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.3
+        "temp": 13.5
       }
     },
     {
@@ -844,7 +844,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.3
+        "temp": 13.5
       }
     },
     {
@@ -859,9 +859,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.1
       }
     },
     {
@@ -876,9 +876,9 @@
       "description": "Träning",
       "location": "Kronäng Arena C-Plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.1
       }
     },
     {
@@ -893,9 +893,9 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.1
       }
     },
     {
@@ -910,9 +910,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.1
       }
     },
     {
@@ -927,9 +927,9 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.8
       }
     },
     {
@@ -946,7 +946,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.4
+        "temp": 13.7
       }
     },
     {
@@ -997,7 +997,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.6
+        "temp": 17.4
       }
     },
     {
@@ -1014,7 +1014,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.6
+        "temp": 17.4
       }
     },
     {
@@ -1031,7 +1031,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.2
+        "temp": 15.5
       }
     },
     {
@@ -1046,9 +1046,9 @@
       "description": "Ö-bollen 2026",
       "location": "Öckerö",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.1
       }
     },
     {
@@ -1076,9 +1076,9 @@
       "description": "Sjömarkens IF Grön borta",
       "location": "Idrottsgården Konstgräsplan(Pojkar Div 13 Borås)",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.1
       }
     },
     {
@@ -1108,7 +1108,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.6
+        "temp": 10.8
       }
     },
     {
@@ -1125,7 +1125,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.1
+        "temp": 14.6
       }
     },
     {
@@ -1142,7 +1142,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.5
+        "temp": 14.7
       }
     },
     {
@@ -1159,7 +1159,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 13.8
       }
     },
     {
@@ -1187,9 +1187,9 @@
       "description": "Ö-bollen 2026",
       "location": "Öckerö",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 8.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.5
       }
     },
     {
@@ -1206,7 +1206,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.1
+        "temp": 13.1
       }
     },
     {
@@ -1223,7 +1223,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.1
+        "temp": 13.1
       }
     },
     {
@@ -1238,9 +1238,9 @@
       "description": "Fristad/Borgstena/Sparsör  hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.0
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 13.6
       }
     },
     {
@@ -1255,9 +1255,9 @@
       "description": "Horreds IF borta",
       "location": "Eksätersvallen A-plan(Herrar, Div 5 Sydvästra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.0
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 13.6
       }
     },
     {
@@ -1272,9 +1272,9 @@
       "description": "Rydboholms SK borta",
       "location": "Sven Erikssonsvallen(Pojkar Div 11 Sandared)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.0
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 13.6
       }
     },
     {
@@ -1289,9 +1289,9 @@
       "description": "Fristad/Borgstena/Sparsör  hemma",
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.0
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 13.6
       }
     },
     {
@@ -1306,9 +1306,9 @@
       "description": "Dalsjöfors GoIF Svart borta",
       "location": "Gårdavallen A-plan(Flickor Div 7 Borås)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.0
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 13.6
       }
     },
     {
@@ -1323,9 +1323,9 @@
       "description": "Ubbhult/Hällingsjö/Hyssna borta",
       "location": "Björkängsvallen 1 Gräs(Pojkar Div 11 Kinna)",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.0
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 13.6
       }
     },
     {
@@ -2256,18 +2256,18 @@
   ],
   "latest_news": [
     {
+      "title": "Kronäng Sommar Fotbollsskola tillsammans med Stolt Sponsor ICA Maxi",
+      "published_at": "2026-06-09 14:17",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1347586",
+      "image": "",
+      "summary": ""
+    },
+    {
       "title": "Veckans hemmamatcher",
       "published_at": "2026-05-25",
       "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1339545",
       "image": "",
       "summary": "Flickor div 5 Kronängs IF m Sjömarken/Sandared 14:00 13-jun Pojkar div 6 Kronängs IF m Byttorps IF 11:00 14-jun Dam div 3 Kronängs IF m Fristad/Borgstena/Sparsör 16:00 14-jun"
-    },
-    {
-      "title": "Kronängsbladet",
-      "published_at": "2026-05-22 10:00",
-      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1344509",
-      "image": "",
-      "summary": ""
     }
   ]
 }
