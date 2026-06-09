@@ -113,6 +113,8 @@ ACTIVITY_TYPES = {
     "calBox1": "Träning", "calBox2": "Match", "calBox3": "Övrigt"
 }
 
+LOCKEROOM_PATTERN = re.compile(r"\(\s*(H\d+)\s*(B\d+)\s*\)\s*$", re.IGNORECASE)
+
 SWEDISH_MONTHS = {
     "JANUARI": 1, "FEBRUARI": 2, "MARS": 3, "APRIL": 4,
     "MAJ": 5, "JUNI": 6, "JULI": 7, "AUGUSTI": 8,
@@ -241,6 +243,7 @@ def parse_activity(row, day, weekday, iso_date):
     # Description and location
     description = ""
     location = ""
+    lockerooms = None
     kal_link = content.find('a', class_='kal')
     if kal_link:
         text = kal_link.get_text(strip=True)
@@ -251,6 +254,18 @@ def parse_activity(row, day, weekday, iso_date):
                 location = parts[1].strip()
             else:
                 description = text
+
+    if description:
+        match = LOCKEROOM_PATTERN.search(description)
+        if match:
+            home_room = match.group(1).upper()
+            away_room = match.group(2).upper()
+            lockerooms = {
+                "raw": f"{home_room}{away_room}",
+                "home": home_room,
+                "away": away_room,
+            }
+            description = LOCKEROOM_PATTERN.sub("", description).strip()
 
     if not location and description:
         if 'hemma' in description.lower():
@@ -271,6 +286,7 @@ def parse_activity(row, day, weekday, iso_date):
         "type": act_type,
         "description": description,
         "location": location,
+        "lockerooms": lockerooms,
     }
 
 

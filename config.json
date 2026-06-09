@@ -30,6 +30,12 @@
       "title": "Facebook och Nyheter",
       "icon": "📘",
       "file": "facebook-embedded.html"
+    },
+    {
+      "id": "home-matches-today",
+      "title": "Hemmamatcher idag",
+      "icon": "🏟️",
+      "file": "home-matches-today.html"
     }
   ],
   "pageGroups": [
