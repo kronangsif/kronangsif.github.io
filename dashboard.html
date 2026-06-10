@@ -30,6 +30,8 @@
         .mini-list { list-style: none; margin-top: 16px; display: grid; gap: 8px; }
         .mini-list li { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 10px 12px; border-radius: 10px; background: rgba(51, 65, 85, 0.7); color: #cbd5e1; }
         .mini-list li span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .mini-list-main { display: grid; gap: 2px; min-width: 0; }
+        .mini-list-main small { color: #94a3b8; font-size: 0.76rem; }
         .mini-list li strong { color: #f8fafc; font-size: 1rem; }
         .property-note { color: #94a3b8; font-size: 0.9rem; margin-top: 10px; line-height: 1.5; }
         .trend { margin-top: 16px; }
@@ -67,13 +69,22 @@
         .hist-label { font-size: 0.75rem; color: #94a3b8; margin-top: 5px; }
         
         .weather-chart { height: 200px; position: relative; margin-top: 20px; }
+        .weather-legend { display: flex; gap: 14px; align-items: center; justify-content: flex-end; margin-bottom: 10px; color: #cbd5e1; font-size: 0.8rem; font-weight: 700; }
+        .weather-legend span { display: inline-flex; align-items: center; gap: 6px; }
+        .legend-swatch { width: 10px; height: 10px; border-radius: 999px; display: inline-block; }
+        .legend-max { background: #ef4444; }
+        .legend-min { background: #3b82f6; }
         .weather-chart svg { width: 100%; height: 100%; }
-        .weather-line-max { stroke: #ef4444; stroke-width: 2; fill: none; }
-        .weather-line-min { stroke: #3b82f6; stroke-width: 2; fill: none; }
+        .weather-grid-line { stroke: rgba(148, 163, 184, 0.18); stroke-width: 1; stroke-dasharray: 4 6; }
+        .weather-axis-label { fill: #94a3b8; font-size: 12px; font-weight: 700; }
+        .weather-band { fill: rgba(56, 189, 248, 0.10); stroke: none; }
+        .weather-line-max { stroke: #ef4444; stroke-width: 3; fill: none; filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.3)); }
+        .weather-line-min { stroke: #3b82f6; stroke-width: 3; fill: none; filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.3)); }
         .weather-dot-max { fill: #ef4444; }
         .weather-dot-min { fill: #3b82f6; }
-        .date-labels { display: flex; justify-content: space-between; margin-top: 10px; }
-        .date-labels span { font-size: 0.75rem; color: #64748b; }
+        .weather-dot { stroke: #0f172a; stroke-width: 1.5; }
+        .date-labels { display: grid; grid-template-columns: repeat(auto-fit, minmax(44px, 1fr)); gap: 8px; margin-top: 10px; }
+        .date-labels span { font-size: 0.75rem; color: #64748b; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
         @media (max-width: 640px) {
             .recent-week-grid { grid-template-columns: 1fr; }
         }
@@ -82,7 +93,7 @@
 <body>
     <div class="container">
         <h1>📊 Data Dashboard</h1>
-        <p class="last-update">Uppdaterad: 2026-06-09 21:45</p>
+        <p class="last-update">Uppdaterad: 2026-06-10 21:45</p>
         
         <div class="grid">
             <div class="card trains">
@@ -90,11 +101,11 @@
                 <div class="stats">
                     <div class="stat">
                         <div class="stat-label">Totalt</div>
-                        <div class="stat-value">6,126,918</div>
+                        <div class="stat-value">6,200,245</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Unika tåg</div>
-                        <div class="stat-value">6,126,116</div>
+                        <div class="stat-value">6,199,396</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Stationer</div>
@@ -102,11 +113,11 @@
                     </div>
                     <div class="stat">
                         <div class="stat-label">Försenade</div>
-                        <div class="stat-value delay">102,075</div>
+                        <div class="stat-value delay">102,079</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">I tid</div>
-                        <div class="stat-value on-time">98.3%</div>
+                        <div class="stat-value on-time">98.4%</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Snittförsening</div>
@@ -121,21 +132,21 @@
                 <div class="history-section">
                     <h3>📈 30 dagars historik</h3>
                     <div class="history-chart">
-                        <div class="history-bar" style="height: 0.1%; background: #22c55e;"><span class="tooltip">2026-05-10<br>0.1% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-11<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-12<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-13<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-14<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.1%; background: #22c55e;"><span class="tooltip">2026-05-15<br>0.1% försenade</span></div><div class="history-bar" style="height: 1.9%; background: #22c55e;"><span class="tooltip">2026-05-16<br>1.9% försenade</span></div><div class="history-bar" style="height: 6.1%; background: #22c55e;"><span class="tooltip">2026-05-17<br>6.1% försenade</span></div><div class="history-bar" style="height: 6.2%; background: #22c55e;"><span class="tooltip">2026-05-18<br>6.2% försenade</span></div><div class="history-bar" style="height: 3.9%; background: #22c55e;"><span class="tooltip">2026-05-19<br>3.9% försenade</span></div><div class="history-bar" style="height: 3.4%; background: #22c55e;"><span class="tooltip">2026-05-20<br>3.4% försenade</span></div><div class="history-bar" style="height: 3.3%; background: #22c55e;"><span class="tooltip">2026-05-21<br>3.3% försenade</span></div><div class="history-bar" style="height: 10.1%; background: #22c55e;"><span class="tooltip">2026-05-22<br>10.1% försenade</span></div><div class="history-bar" style="height: 1.8%; background: #22c55e;"><span class="tooltip">2026-05-23<br>1.8% försenade</span></div><div class="history-bar" style="height: 1.3%; background: #22c55e;"><span class="tooltip">2026-05-24<br>1.3% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-25<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-26<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-27<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-28<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-29<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-30<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-31<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-06-01<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-06-02<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-06-03<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.1%; background: #22c55e;"><span class="tooltip">2026-06-04<br>0.1% försenade</span></div><div class="history-bar" style="height: 0.6%; background: #22c55e;"><span class="tooltip">2026-06-05<br>0.6% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-06-06<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-06-07<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-06-08<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-06-09<br>0.0% försenade</span></div>
+                        <div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-11<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-12<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-13<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-14<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.1%; background: #22c55e;"><span class="tooltip">2026-05-15<br>0.1% försenade</span></div><div class="history-bar" style="height: 1.9%; background: #22c55e;"><span class="tooltip">2026-05-16<br>1.9% försenade</span></div><div class="history-bar" style="height: 6.1%; background: #22c55e;"><span class="tooltip">2026-05-17<br>6.1% försenade</span></div><div class="history-bar" style="height: 6.2%; background: #22c55e;"><span class="tooltip">2026-05-18<br>6.2% försenade</span></div><div class="history-bar" style="height: 3.9%; background: #22c55e;"><span class="tooltip">2026-05-19<br>3.9% försenade</span></div><div class="history-bar" style="height: 3.4%; background: #22c55e;"><span class="tooltip">2026-05-20<br>3.4% försenade</span></div><div class="history-bar" style="height: 3.3%; background: #22c55e;"><span class="tooltip">2026-05-21<br>3.3% försenade</span></div><div class="history-bar" style="height: 10.1%; background: #22c55e;"><span class="tooltip">2026-05-22<br>10.1% försenade</span></div><div class="history-bar" style="height: 1.8%; background: #22c55e;"><span class="tooltip">2026-05-23<br>1.8% försenade</span></div><div class="history-bar" style="height: 1.3%; background: #22c55e;"><span class="tooltip">2026-05-24<br>1.3% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-25<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-26<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-27<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-28<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-29<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-30<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-05-31<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-06-01<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-06-02<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-06-03<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.1%; background: #22c55e;"><span class="tooltip">2026-06-04<br>0.1% försenade</span></div><div class="history-bar" style="height: 0.6%; background: #22c55e;"><span class="tooltip">2026-06-05<br>0.6% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-06-06<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-06-07<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-06-08<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-06-09<br>0.0% försenade</span></div><div class="history-bar" style="height: 0.0%; background: #22c55e;"><span class="tooltip">2026-06-10<br>0.0% försenade</span></div>
                     </div>
                 </div>
 
                 <div class="trend">
                     <h3>📉 Senaste 7 dagarna</h3>
                     <div class="recent-week-grid">
-                        <div class="recent-week-card"><div class="recent-week-head"><span>06-03</span><strong>0.0%</strong></div><div class="recent-week-track" aria-hidden="true"><div class="recent-week-fill" style="width: 12%;"></div></div><div class="recent-week-foot">13 försenade av 108,086</div></div><div class="recent-week-card"><div class="recent-week-head"><span>06-04</span><strong>0.1%</strong></div><div class="recent-week-track" aria-hidden="true"><div class="recent-week-fill" style="width: 17%;"></div></div><div class="recent-week-foot">18 försenade av 21,322</div></div><div class="recent-week-card"><div class="recent-week-head"><span>06-05</span><strong>0.6%</strong></div><div class="recent-week-track" aria-hidden="true"><div class="recent-week-fill" style="width: 100%;"></div></div><div class="recent-week-foot">302 försenade av 49,686</div></div><div class="recent-week-card"><div class="recent-week-head"><span>06-06</span><strong>0.0%</strong></div><div class="recent-week-track" aria-hidden="true"><div class="recent-week-fill" style="width: 12%;"></div></div><div class="recent-week-foot">3 försenade av 49,831</div></div><div class="recent-week-card"><div class="recent-week-head"><span>06-07</span><strong>0.0%</strong></div><div class="recent-week-track" aria-hidden="true"><div class="recent-week-fill" style="width: 12%;"></div></div><div class="recent-week-foot">2 försenade av 61,737</div></div><div class="recent-week-card"><div class="recent-week-head"><span>06-08</span><strong>0.0%</strong></div><div class="recent-week-track" aria-hidden="true"><div class="recent-week-fill" style="width: 12%;"></div></div><div class="recent-week-foot">0 försenade av 89,950</div></div><div class="recent-week-card"><div class="recent-week-head"><span>06-09</span><strong>0.0%</strong></div><div class="recent-week-track" aria-hidden="true"><div class="recent-week-fill" style="width: 12%;"></div></div><div class="recent-week-foot">3 försenade av 63,204</div></div>
+                        <div class="recent-week-card"><div class="recent-week-head"><span>06-04</span><strong>0.1%</strong></div><div class="recent-week-track" aria-hidden="true"><div class="recent-week-fill" style="width: 17%;"></div></div><div class="recent-week-foot">18 försenade av 21,322</div></div><div class="recent-week-card"><div class="recent-week-head"><span>06-05</span><strong>0.6%</strong></div><div class="recent-week-track" aria-hidden="true"><div class="recent-week-fill" style="width: 100%;"></div></div><div class="recent-week-foot">302 försenade av 49,686</div></div><div class="recent-week-card"><div class="recent-week-head"><span>06-06</span><strong>0.0%</strong></div><div class="recent-week-track" aria-hidden="true"><div class="recent-week-fill" style="width: 12%;"></div></div><div class="recent-week-foot">3 försenade av 49,831</div></div><div class="recent-week-card"><div class="recent-week-head"><span>06-07</span><strong>0.0%</strong></div><div class="recent-week-track" aria-hidden="true"><div class="recent-week-fill" style="width: 12%;"></div></div><div class="recent-week-foot">2 försenade av 61,737</div></div><div class="recent-week-card"><div class="recent-week-head"><span>06-08</span><strong>0.0%</strong></div><div class="recent-week-track" aria-hidden="true"><div class="recent-week-fill" style="width: 12%;"></div></div><div class="recent-week-foot">0 försenade av 89,950</div></div><div class="recent-week-card"><div class="recent-week-head"><span>06-09</span><strong>0.0%</strong></div><div class="recent-week-track" aria-hidden="true"><div class="recent-week-fill" style="width: 12%;"></div></div><div class="recent-week-foot">6 försenade av 65,352</div></div><div class="recent-week-card"><div class="recent-week-head"><span>06-10</span><strong>0.0%</strong></div><div class="recent-week-track" aria-hidden="true"><div class="recent-week-fill" style="width: 12%;"></div></div><div class="recent-week-foot">1 försenade av 71,179</div></div>
                     </div>
                 </div>
 
                 <div class="history-section">
                     <h3>Fördelning av förseningar</h3>
                     <div class="histogram">
-                        <div class="hist-bar"><div class="hist-bar-value"><div class="hist-bar-fill" style="height: 96.6%;"></div></div><div class="hist-label">0 (i tid)<br>5,918,982</div></div><div class="hist-bar"><div class="hist-bar-value"><div class="hist-bar-fill" style="height: 3.1%;"></div></div><div class="hist-label">1-10<br>192,904</div></div><div class="hist-bar"><div class="hist-bar-value"><div class="hist-bar-fill" style="height: 0.2%;"></div></div><div class="hist-label">11-20<br>10,730</div></div><div class="hist-bar"><div class="hist-bar-value"><div class="hist-bar-fill" style="height: 0.0%;"></div></div><div class="hist-label">21-30<br>2,350</div></div><div class="hist-bar"><div class="hist-bar-value"><div class="hist-bar-fill" style="height: 0.0%;"></div></div><div class="hist-label">31-60<br>1,593</div></div><div class="hist-bar"><div class="hist-bar-value"><div class="hist-bar-fill" style="height: 0.0%;"></div></div><div class="hist-label">60+<br>359</div></div>
+                        <div class="hist-bar"><div class="hist-bar-value"><div class="hist-bar-fill" style="height: 96.6%;"></div></div><div class="hist-label">0 (i tid)<br>5,992,303</div></div><div class="hist-bar"><div class="hist-bar-value"><div class="hist-bar-fill" style="height: 3.1%;"></div></div><div class="hist-label">1-10<br>192,906</div></div><div class="hist-bar"><div class="hist-bar-value"><div class="hist-bar-fill" style="height: 0.2%;"></div></div><div class="hist-label">11-20<br>10,732</div></div><div class="hist-bar"><div class="hist-bar-value"><div class="hist-bar-fill" style="height: 0.0%;"></div></div><div class="hist-label">21-30<br>2,351</div></div><div class="hist-bar"><div class="hist-bar-value"><div class="hist-bar-fill" style="height: 0.0%;"></div></div><div class="hist-label">31-60<br>1,593</div></div><div class="hist-bar"><div class="hist-bar-value"><div class="hist-bar-fill" style="height: 0.0%;"></div></div><div class="hist-label">60+<br>360</div></div>
                     </div>
                 </div>
 
@@ -160,7 +171,7 @@
                 <div class="stats">
                     <div class="stat">
                         <div class="stat-label">Totalt</div>
-                        <div class="stat-value">7,195</div>
+                        <div class="stat-value">7,308</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Medeltemp</div>
@@ -178,13 +189,24 @@
                 
                 <div class="history-section">
                     <h3>📈 Temperatur (senaste 30 dagarna)</h3>
-                    <div class="weather-chart">
-                        <svg viewBox="0 0 1860 200">
-                            <polyline class="weather-line-max" points="0,124.0,60,130.0,120,131.2,180,137.2,240,141.6,300,122.4,360,130.8,420,123.6,480,110.0,540,106.0,600,103.6,660,116.4,720,108.8,780,99.2,840,104.8,900,97.2,960,109.2,1020,111.6,1080,108.4,1140,89.2,1200,111.2,1260,103.6,1320,106.0,1380,100.0,1440,78.4,1500,103.2,1560,105.2,1620,110.0,1680,100.4,1740,104.0,1800,111.6"/>
-                            <polyline class="weather-line-min" points="0,172.4,60,176.8,120,159.2,180,165.2,240,164.8,300,162.8,360,164.0,420,158.8,480,155.2,540,162.0,600,159.6,660,148.8,720,150.0,780,138.8,840,142.8,900,137.2,960,138.0,1020,149.2,1080,156.8,1140,158.4,1200,142.0,1260,136.4,1320,134.4,1380,132.4,1440,128.4,1500,128.8,1560,137.6,1620,158.4,1680,161.2,1740,132.4,1800,133.6"/>
-                        </svg>
+                    
+                <div class="weather-chart">
+                    <div class="weather-legend" aria-hidden="true">
+                        <span><i class="legend-swatch legend-max"></i> Max</span>
+                        <span><i class="legend-swatch legend-min"></i> Min</span>
                     </div>
-                    <div class="date-labels"><span>05-10</span><span>05-11</span><span>05-12</span><span>05-13</span><span>05-14</span><span>05-15</span><span>05-16</span><span>05-17</span><span>05-18</span><span>05-19</span><span>05-20</span><span>05-21</span><span>05-22</span><span>05-23</span><span>05-24</span><span>05-25</span><span>05-26</span><span>05-27</span><span>05-28</span><span>05-29</span><span>05-30</span><span>05-31</span><span>06-01</span><span>06-02</span><span>06-03</span><span>06-04</span><span>06-05</span><span>06-06</span><span>06-07</span><span>06-08</span><span>06-09</span></div>
+                    <svg viewBox="0 0 1854 190" preserveAspectRatio="none" role="img" aria-label="Temperaturgraf med y-axel och temperaturband">
+                        <g class="weather-grid"><line class="weather-grid-line" x1="44" y1="12.0" x2="1844" y2="12.0" /><line class="weather-grid-line" x1="44" y1="49.5" x2="1844" y2="49.5" /><line class="weather-grid-line" x1="44" y1="87.0" x2="1844" y2="87.0" /><line class="weather-grid-line" x1="44" y1="124.5" x2="1844" y2="124.5" /><line class="weather-grid-line" x1="44" y1="162.0" x2="1844" y2="162.0" /></g>
+                        <g class="weather-axis"><text class="weather-axis-label" x="34" y="16.0" text-anchor="end">28°</text><text class="weather-axis-label" x="34" y="53.5" text-anchor="end">20.5°</text><text class="weather-axis-label" x="34" y="91.0" text-anchor="end">13°</text><text class="weather-axis-label" x="34" y="128.5" text-anchor="end">5.5°</text><text class="weather-axis-label" x="34" y="166.0" text-anchor="end">-2°</text></g>
+                        <polygon class="weather-band" points="44.0,89.5 104.0,91.0 164.0,98.5 224.0,104.0 284.0,80.0 344.0,90.5 404.0,81.5 464.0,64.5 524.0,59.5 584.0,56.5 644.0,72.5 704.0,63.0 764.0,51.0 824.0,58.0 884.0,48.5 944.0,63.5 1004.0,66.5 1064.0,62.5 1124.0,38.5 1184.0,66.0 1244.0,56.5 1304.0,59.5 1364.0,52.0 1424.0,25.0 1484.0,56.0 1544.0,58.5 1604.0,64.5 1664.0,52.5 1724.0,57.0 1784.0,66.5 1844.0,81.5 1844.0,104.5 1784.0,101.0 1724.0,92.5 1664.0,128.5 1604.0,125.0 1544.0,99.0 1484.0,88.0 1424.0,87.5 1364.0,92.5 1304.0,95.0 1244.0,97.5 1184.0,104.5 1124.0,125.0 1064.0,123.0 1004.0,113.5 944.0,99.5 884.0,98.5 824.0,105.5 764.0,100.5 704.0,114.5 644.0,113.0 584.0,126.5 524.0,129.5 464.0,121.0 404.0,125.5 344.0,132.0 284.0,130.5 224.0,133.0 164.0,133.5 104.0,126.0 44.0,148.0"/>
+                        <polyline class="weather-line-max" points="44.0,89.5,104.0,91.0,164.0,98.5,224.0,104.0,284.0,80.0,344.0,90.5,404.0,81.5,464.0,64.5,524.0,59.5,584.0,56.5,644.0,72.5,704.0,63.0,764.0,51.0,824.0,58.0,884.0,48.5,944.0,63.5,1004.0,66.5,1064.0,62.5,1124.0,38.5,1184.0,66.0,1244.0,56.5,1304.0,59.5,1364.0,52.0,1424.0,25.0,1484.0,56.0,1544.0,58.5,1604.0,64.5,1664.0,52.5,1724.0,57.0,1784.0,66.5,1844.0,81.5"/>
+                        <polyline class="weather-line-min" points="44.0,148.0,104.0,126.0,164.0,133.5,224.0,133.0,284.0,130.5,344.0,132.0,404.0,125.5,464.0,121.0,524.0,129.5,584.0,126.5,644.0,113.0,704.0,114.5,764.0,100.5,824.0,105.5,884.0,98.5,944.0,99.5,1004.0,113.5,1064.0,123.0,1124.0,125.0,1184.0,104.5,1244.0,97.5,1304.0,95.0,1364.0,92.5,1424.0,87.5,1484.0,88.0,1544.0,99.0,1604.0,125.0,1664.0,128.5,1724.0,92.5,1784.0,101.0,1844.0,104.5"/>
+                        <circle class="weather-dot weather-dot-max" cx="44.0" cy="89.5" r="3.2"><title>05-11 max 12.5°</title></circle><circle class="weather-dot weather-dot-max" cx="104.0" cy="91.0" r="3.2"><title>05-12 max 12.2°</title></circle><circle class="weather-dot weather-dot-max" cx="164.0" cy="98.5" r="3.2"><title>05-13 max 10.7°</title></circle><circle class="weather-dot weather-dot-max" cx="224.0" cy="104.0" r="3.2"><title>05-14 max 9.6°</title></circle><circle class="weather-dot weather-dot-max" cx="284.0" cy="80.0" r="3.2"><title>05-15 max 14.4°</title></circle><circle class="weather-dot weather-dot-max" cx="344.0" cy="90.5" r="3.2"><title>05-16 max 12.3°</title></circle><circle class="weather-dot weather-dot-max" cx="404.0" cy="81.5" r="3.2"><title>05-17 max 14.1°</title></circle><circle class="weather-dot weather-dot-max" cx="464.0" cy="64.5" r="3.2"><title>05-18 max 17.5°</title></circle><circle class="weather-dot weather-dot-max" cx="524.0" cy="59.5" r="3.2"><title>05-19 max 18.5°</title></circle><circle class="weather-dot weather-dot-max" cx="584.0" cy="56.5" r="3.2"><title>05-20 max 19.1°</title></circle><circle class="weather-dot weather-dot-max" cx="644.0" cy="72.5" r="3.2"><title>05-21 max 15.9°</title></circle><circle class="weather-dot weather-dot-max" cx="704.0" cy="63.0" r="3.2"><title>05-22 max 17.8°</title></circle><circle class="weather-dot weather-dot-max" cx="764.0" cy="51.0" r="3.2"><title>05-23 max 20.2°</title></circle><circle class="weather-dot weather-dot-max" cx="824.0" cy="58.0" r="3.2"><title>05-24 max 18.8°</title></circle><circle class="weather-dot weather-dot-max" cx="884.0" cy="48.5" r="3.2"><title>05-25 max 20.7°</title></circle><circle class="weather-dot weather-dot-max" cx="944.0" cy="63.5" r="3.2"><title>05-26 max 17.7°</title></circle><circle class="weather-dot weather-dot-max" cx="1004.0" cy="66.5" r="3.2"><title>05-27 max 17.1°</title></circle><circle class="weather-dot weather-dot-max" cx="1064.0" cy="62.5" r="3.2"><title>05-28 max 17.9°</title></circle><circle class="weather-dot weather-dot-max" cx="1124.0" cy="38.5" r="3.2"><title>05-29 max 22.7°</title></circle><circle class="weather-dot weather-dot-max" cx="1184.0" cy="66.0" r="3.2"><title>05-30 max 17.2°</title></circle><circle class="weather-dot weather-dot-max" cx="1244.0" cy="56.5" r="3.2"><title>05-31 max 19.1°</title></circle><circle class="weather-dot weather-dot-max" cx="1304.0" cy="59.5" r="3.2"><title>06-01 max 18.5°</title></circle><circle class="weather-dot weather-dot-max" cx="1364.0" cy="52.0" r="3.2"><title>06-02 max 20°</title></circle><circle class="weather-dot weather-dot-max" cx="1424.0" cy="25.0" r="3.2"><title>06-03 max 25.4°</title></circle><circle class="weather-dot weather-dot-max" cx="1484.0" cy="56.0" r="3.2"><title>06-04 max 19.2°</title></circle><circle class="weather-dot weather-dot-max" cx="1544.0" cy="58.5" r="3.2"><title>06-05 max 18.7°</title></circle><circle class="weather-dot weather-dot-max" cx="1604.0" cy="64.5" r="3.2"><title>06-06 max 17.5°</title></circle><circle class="weather-dot weather-dot-max" cx="1664.0" cy="52.5" r="3.2"><title>06-07 max 19.9°</title></circle><circle class="weather-dot weather-dot-max" cx="1724.0" cy="57.0" r="3.2"><title>06-08 max 19°</title></circle><circle class="weather-dot weather-dot-max" cx="1784.0" cy="66.5" r="3.2"><title>06-09 max 17.1°</title></circle><circle class="weather-dot weather-dot-max" cx="1844.0" cy="81.5" r="3.2"><title>06-10 max 14.1°</title></circle>
+                        <circle class="weather-dot weather-dot-min" cx="44.0" cy="148.0" r="3.2"><title>05-11 min 0.8°</title></circle><circle class="weather-dot weather-dot-min" cx="104.0" cy="126.0" r="3.2"><title>05-12 min 5.2°</title></circle><circle class="weather-dot weather-dot-min" cx="164.0" cy="133.5" r="3.2"><title>05-13 min 3.7°</title></circle><circle class="weather-dot weather-dot-min" cx="224.0" cy="133.0" r="3.2"><title>05-14 min 3.8°</title></circle><circle class="weather-dot weather-dot-min" cx="284.0" cy="130.5" r="3.2"><title>05-15 min 4.3°</title></circle><circle class="weather-dot weather-dot-min" cx="344.0" cy="132.0" r="3.2"><title>05-16 min 4°</title></circle><circle class="weather-dot weather-dot-min" cx="404.0" cy="125.5" r="3.2"><title>05-17 min 5.3°</title></circle><circle class="weather-dot weather-dot-min" cx="464.0" cy="121.0" r="3.2"><title>05-18 min 6.2°</title></circle><circle class="weather-dot weather-dot-min" cx="524.0" cy="129.5" r="3.2"><title>05-19 min 4.5°</title></circle><circle class="weather-dot weather-dot-min" cx="584.0" cy="126.5" r="3.2"><title>05-20 min 5.1°</title></circle><circle class="weather-dot weather-dot-min" cx="644.0" cy="113.0" r="3.2"><title>05-21 min 7.8°</title></circle><circle class="weather-dot weather-dot-min" cx="704.0" cy="114.5" r="3.2"><title>05-22 min 7.5°</title></circle><circle class="weather-dot weather-dot-min" cx="764.0" cy="100.5" r="3.2"><title>05-23 min 10.3°</title></circle><circle class="weather-dot weather-dot-min" cx="824.0" cy="105.5" r="3.2"><title>05-24 min 9.3°</title></circle><circle class="weather-dot weather-dot-min" cx="884.0" cy="98.5" r="3.2"><title>05-25 min 10.7°</title></circle><circle class="weather-dot weather-dot-min" cx="944.0" cy="99.5" r="3.2"><title>05-26 min 10.5°</title></circle><circle class="weather-dot weather-dot-min" cx="1004.0" cy="113.5" r="3.2"><title>05-27 min 7.7°</title></circle><circle class="weather-dot weather-dot-min" cx="1064.0" cy="123.0" r="3.2"><title>05-28 min 5.8°</title></circle><circle class="weather-dot weather-dot-min" cx="1124.0" cy="125.0" r="3.2"><title>05-29 min 5.4°</title></circle><circle class="weather-dot weather-dot-min" cx="1184.0" cy="104.5" r="3.2"><title>05-30 min 9.5°</title></circle><circle class="weather-dot weather-dot-min" cx="1244.0" cy="97.5" r="3.2"><title>05-31 min 10.9°</title></circle><circle class="weather-dot weather-dot-min" cx="1304.0" cy="95.0" r="3.2"><title>06-01 min 11.4°</title></circle><circle class="weather-dot weather-dot-min" cx="1364.0" cy="92.5" r="3.2"><title>06-02 min 11.9°</title></circle><circle class="weather-dot weather-dot-min" cx="1424.0" cy="87.5" r="3.2"><title>06-03 min 12.9°</title></circle><circle class="weather-dot weather-dot-min" cx="1484.0" cy="88.0" r="3.2"><title>06-04 min 12.8°</title></circle><circle class="weather-dot weather-dot-min" cx="1544.0" cy="99.0" r="3.2"><title>06-05 min 10.6°</title></circle><circle class="weather-dot weather-dot-min" cx="1604.0" cy="125.0" r="3.2"><title>06-06 min 5.4°</title></circle><circle class="weather-dot weather-dot-min" cx="1664.0" cy="128.5" r="3.2"><title>06-07 min 4.7°</title></circle><circle class="weather-dot weather-dot-min" cx="1724.0" cy="92.5" r="3.2"><title>06-08 min 11.9°</title></circle><circle class="weather-dot weather-dot-min" cx="1784.0" cy="101.0" r="3.2"><title>06-09 min 10.2°</title></circle><circle class="weather-dot weather-dot-min" cx="1844.0" cy="104.5" r="3.2"><title>06-10 min 9.5°</title></circle>
+                    </svg>
+                </div>
+                <div class="date-labels"><span title="05-11">05-11</span><span title="05-16">05-16</span><span title="05-21">05-21</span><span title="05-26">05-26</span><span title="05-31">05-31</span><span title="06-05">06-05</span><span title="06-10">06-10</span></div>
+        
                 </div>
             </div>
             
@@ -193,7 +215,7 @@
                 <div class="stats">
                     <div class="stat">
                         <div class="stat-label">Senaste dag</div>
-                        <div class="stat-value">2026-06-09</div>
+                        <div class="stat-value">2026-06-10</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Mätpunkter</div>
@@ -201,15 +223,15 @@
                     </div>
                     <div class="stat">
                         <div class="stat-label">Snitt</div>
-                        <div class="stat-value">1.01 kr</div>
+                        <div class="stat-value">0.85 kr</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Spread</div>
-                        <div class="stat-value">1.34 kr</div>
+                        <div class="stat-value">1.47 kr</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Lägst</div>
-                        <div class="stat-value" style="color: #22c55e;">0.24 kr</div>
+                        <div class="stat-value" style="color: #22c55e;">0.11 kr</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Högst</div>
@@ -220,7 +242,7 @@
                 <div class="trend">
                     <h3>📈 Dagstrend</h3>
                     <div class="trend-chart">
-                        <div class="trend-bar" style="height: 71%;"><span>06-08</span><strong>1.18</strong></div><div class="trend-bar" style="height: 60%;"><span>06-09</span><strong>1.00</strong></div>
+                        <div class="trend-bar" style="height: 71%;"><span>06-08</span><strong>1.18</strong></div><div class="trend-bar" style="height: 58%;"><span>06-09</span><strong>0.97</strong></div><div class="trend-bar" style="height: 41%;"><span>06-10</span><strong>0.68</strong></div>
                     </div>
                 </div>
 
@@ -228,13 +250,13 @@
                     <div class="split-panel">
                         <h3>Dyraste timmarna</h3>
                         <ul>
-                            <li><span>07:00</span><strong>1.58 kr</strong></li><li><span>18:45</span><strong>1.54 kr</strong></li><li><span>08:00</span><strong>1.51 kr</strong></li>
+                            <li><span>20:45</span><strong>1.29 kr</strong></li><li><span>19:45</span><strong>1.27 kr</strong></li><li><span>20:30</span><strong>1.25 kr</strong></li>
                         </ul>
                     </div>
                     <div class="split-panel">
                         <h3>Billigaste timmarna</h3>
                         <ul>
-                            <li><span>16:00</span><strong>0.24 kr</strong></li><li><span>12:45</span><strong>0.25 kr</strong></li><li><span>15:00</span><strong>0.30 kr</strong></li>
+                            <li><span>14:45</span><strong>0.11 kr</strong></li><li><span>14:15</span><strong>0.11 kr</strong></li><li><span>14:30</span><strong>0.11 kr</strong></li>
                         </ul>
                     </div>
                 </div>
@@ -252,8 +274,8 @@
                         <div class="stat-value">57,184</div>
                     </div>
                     <div class="stat">
-                        <div class="stat-label">Totalt värde</div>
-                        <div class="stat-value">223761.6 Mkr</div>
+                        <div class="stat-label">Genomsnittligt värde</div>
+                        <div class="stat-value">3.9 Mkr</div>
                     </div>
                     <div class="stat">
                         <div class="stat-label">Topplän</div>
@@ -261,9 +283,9 @@
                     </div>
                 </div>
                 <ul class="mini-list">
-                    <li><span>Stockholm</span><strong>1,380</strong></li><li><span>Göteborg</span><strong>1,351</strong></li><li><span>Malmö</span><strong>874</strong></li><li><span>Uppsala</span><strong>858</strong></li><li><span>Västerås</span><strong>784</strong></li>
+                    <li><div class="mini-list-main"><span>Stockholm</span><small>1,380 försäljningar</small></div><strong>8.8 Mkr</strong></li><li><div class="mini-list-main"><span>Göteborg</span><small>1,351 försäljningar</small></div><strong>7.2 Mkr</strong></li><li><div class="mini-list-main"><span>Malmö</span><small>874 försäljningar</small></div><strong>6.3 Mkr</strong></li><li><div class="mini-list-main"><span>Uppsala</span><small>858 försäljningar</small></div><strong>5.0 Mkr</strong></li><li><div class="mini-list-main"><span>Västerås</span><small>784 försäljningar</small></div><strong>4.2 Mkr</strong></li>
                 </ul>
-                <p class="property-note">Visar småhus för senaste året. Värdet är uppskattat från SCB:s medelköpeskilling per region och är därför mer “bra nog för en dashboard” än “lagfartsnotarie med monokel”.</p>
+                <p class="property-note">Visar småhus för senaste året. Värdet är nu snitt per försäljning och regionraderna visar genomsnittspriset i stället för totalsumman, vilket gör kortet lättare att jämföra mellan regioner.</p>
             </div>
 
             <div class="card heatmap">
