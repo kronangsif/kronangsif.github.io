@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-09T23:01:12.298983",
+  "last_updated": "2026-06-10T01:32:39.696826",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -886,9 +886,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.4
       }
     },
     {
@@ -904,9 +904,9 @@
       "location": "Kronäng Arena C-Plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.4
       }
     },
     {
@@ -922,9 +922,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.4
       }
     },
     {
@@ -940,9 +940,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.4
       }
     },
     {
@@ -958,9 +958,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.7
       }
     },
     {
@@ -978,7 +978,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.2
+        "temp": 13.1
       }
     },
     {
@@ -996,7 +996,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.8
+        "temp": 18.0
       }
     },
     {
@@ -1014,7 +1014,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.6
+        "temp": 17.5
       }
     },
     {
@@ -1032,7 +1032,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.2
+        "temp": 17.0
       }
     },
     {
@@ -1050,7 +1050,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.2
+        "temp": 17.0
       }
     },
     {
@@ -1068,7 +1068,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.0
+        "temp": 13.7
       }
     },
     {
@@ -1084,9 +1084,9 @@
       "location": "Öckerö",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 15.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.8
       }
     },
     {
@@ -1118,7 +1118,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.9
+        "temp": 11.4
       }
     },
     {
@@ -1149,8 +1149,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 10.9
+        "desc": "Dis",
+        "temp": 10.8
       }
     },
     {
@@ -1168,7 +1168,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.2
+        "temp": 13.8
       }
     },
     {
@@ -1186,7 +1186,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.7
+        "temp": 14.2
       }
     },
     {
@@ -1204,7 +1204,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 15.2
       }
     },
     {
@@ -1234,9 +1234,9 @@
       "location": "Öckerö",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 8.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.2
       }
     },
     {
@@ -1254,7 +1254,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.3
+        "temp": 15.7
       }
     },
     {
@@ -1272,7 +1272,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.3
+        "temp": 15.7
       }
     },
     {
@@ -1288,9 +1288,9 @@
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.2
       }
     },
     {
@@ -1306,9 +1306,9 @@
       "location": "Eksätersvallen A-plan(Herrar, Div 5 Sydvästra)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.2
       }
     },
     {
@@ -1324,9 +1324,9 @@
       "location": "Sven Erikssonsvallen(Pojkar Div 11 Sandared)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.2
       }
     },
     {
@@ -1342,9 +1342,9 @@
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.2
       }
     },
     {
@@ -1360,9 +1360,9 @@
       "location": "Gårdavallen A-plan(Flickor Div 7 Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.2
       }
     },
     {
@@ -1378,9 +1378,9 @@
       "location": "Ubbhultsplanen, Ubbhult(Pojkar Div 11 Kinna)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.2
       }
     },
     {
@@ -1397,8 +1397,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 13.7
+        "desc": "Dis",
+        "temp": 15.8
       }
     },
     {
@@ -1415,8 +1415,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 13.7
+        "desc": "Dis",
+        "temp": 15.8
       }
     },
     {
@@ -1433,8 +1433,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 13.7
+        "desc": "Dis",
+        "temp": 15.8
       }
     },
     {
@@ -1450,9 +1450,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 13.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 15.3
       }
     },
     {
@@ -1468,9 +1468,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 12.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.3
       }
     },
     {
@@ -1486,9 +1486,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 12.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.3
       }
     },
     {
@@ -1504,9 +1504,9 @@
       "location": "Byttorps IP A Konstgräs(Herrar, Utveckling B Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 12.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.3
       }
     },
     {
