@@ -42,9 +42,10 @@ def price_color(value, min_value, max_value):
         return "#eab308"
 
     t = clamp((value - min_value) / (max_value - min_value), 0, 1)
+    t = t ** 0.72
     if t <= 0.5:
-        return lerp_color("#22c55e", "#eab308", t * 2)
-    return lerp_color("#eab308", "#ef4444", (t - 0.5) * 2)
+        return lerp_color("#16a34a", "#facc15", t * 2)
+    return lerp_color("#facc15", "#dc2626", (t - 0.5) * 2)
 
 
 def mercator_project(lon, lat):
@@ -518,8 +519,8 @@ def render_property_map(regions):
         avg_value_tkr = region['avg_value_tkr'] if region else None
         count = region['count'] if region else 0
         has_data = avg_value_tkr is not None
-        fill = price_color(avg_value_tkr, min_price, max_price) if has_data else 'rgba(255,255,255,0.05)'
-        fill_opacity = 0.96 if has_data else 0.22
+        fill = price_color(avg_value_tkr, min_price, max_price) if has_data else 'none'
+        fill_opacity = 0.98 if has_data else 1
         label = municipality['name'] or municipality['code']
         if region:
             title = (
