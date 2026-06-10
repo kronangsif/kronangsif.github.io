@@ -6,9 +6,160 @@ import os
 import json
 import math
 from datetime import datetime, timezone
+from urllib.request import urlopen
 
 DB_PATH = os.path.join(os.path.dirname(__file__), "data", "collected.db")
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "dashboard.html")
+MUNICIPALITY_GEOJSON_PATH = os.path.join(os.path.dirname(__file__), "data", "swedish_municipalities.geojson")
+MUNICIPALITY_GEOJSON_URL = "https://raw.githubusercontent.com/okfse/sweden-geojson/master/swedish_municipalities.geojson"
+
+
+def clamp(value, minimum, maximum):
+    return max(minimum, min(maximum, value))
+
+
+def hex_to_rgb(color):
+    color = color.lstrip("#")
+    return tuple(int(color[i:i + 2], 16) for i in (0, 2, 4))
+
+
+def rgb_to_hex(rgb):
+    return "#" + "".join(f"{clamp(int(round(component)), 0, 255):02x}" for component in rgb)
+
+
+def lerp_color(start, end, t):
+    start_rgb = hex_to_rgb(start)
+    end_rgb = hex_to_rgb(end)
+    return rgb_to_hex(tuple(start_rgb[i] + (end_rgb[i] - start_rgb[i]) * t for i in range(3)))
+
+
+def price_color(value, min_value, max_value):
+    if value is None:
+        return "rgba(255,255,255,0.08)"
+    if max_value is None or min_value is None:
+        return "#eab308"
+    if max_value <= min_value:
+        return "#eab308"
+
+    t = clamp((value - min_value) / (max_value - min_value), 0, 1)
+    if t <= 0.5:
+        return lerp_color("#22c55e", "#eab308", t * 2)
+    return lerp_color("#eab308", "#ef4444", (t - 0.5) * 2)
+
+
+def mercator_project(lon, lat):
+    lat = clamp(lat, -89.5, 89.5)
+    lon_rad = math.radians(lon)
+    lat_rad = math.radians(lat)
+    return lon_rad, math.log(math.tan(math.pi / 4 + lat_rad / 2))
+
+
+def iter_geojson_rings(geometry):
+    geom_type = geometry.get("type")
+    coords = geometry.get("coordinates", [])
+    if geom_type == "Polygon":
+        for ring in coords:
+            yield ring
+    elif geom_type == "MultiPolygon":
+        for polygon in coords:
+            for ring in polygon:
+                yield ring
+
+
+def load_municipality_map():
+    if not os.path.exists(MUNICIPALITY_GEOJSON_PATH):
+        os.makedirs(os.path.dirname(MUNICIPALITY_GEOJSON_PATH), exist_ok=True)
+        with urlopen(MUNICIPALITY_GEOJSON_URL, timeout=60) as response:
+            geojson_text = response.read().decode("utf-8")
+        with open(MUNICIPALITY_GEOJSON_PATH, "w", encoding="utf-8") as f:
+            f.write(geojson_text)
+
+    with open(MUNICIPALITY_GEOJSON_PATH, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    features = data.get("features", [])
+    if not features:
+        return [], {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 1,
+            "maxY": 1,
+            "scale": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "width": 1000,
+            "height": 1100,
+        }
+
+    map_width = 1000
+    map_height = 1100
+    map_margin = 70
+    projected_points = []
+    for feature in features:
+        geometry = feature.get("geometry", {})
+        for ring in iter_geojson_rings(geometry):
+            for lon, lat in ring:
+                projected_points.append(mercator_project(lon, lat))
+
+    xs = [point[0] for point in projected_points]
+    ys = [point[1] for point in projected_points]
+    min_x = min(xs)
+    max_x = max(xs)
+    min_y = min(ys)
+    max_y = max(ys)
+    inner_width = map_width - 2 * map_margin
+    inner_height = map_height - 2 * map_margin
+    scale = min(inner_width / (max_x - min_x), inner_height / (max_y - min_y))
+    offset_x = map_margin + (inner_width - (max_x - min_x) * scale) / 2
+    offset_y = map_margin + (inner_height - (max_y - min_y) * scale) / 2
+
+    def project_point(lon, lat):
+        x, y = mercator_project(lon, lat)
+        sx = offset_x + (x - min_x) * scale
+        sy = offset_y + (max_y - y) * scale
+        return sx, sy
+
+    municipalities = []
+    for feature in features:
+        geometry = feature.get("geometry", {})
+        props = feature.get("properties", {})
+        path_parts = []
+        for ring in iter_geojson_rings(geometry):
+            if not ring:
+                continue
+            projected = [project_point(lon, lat) for lon, lat in ring]
+            if not projected:
+                continue
+            commands = [f"M {projected[0][0]:.2f} {projected[0][1]:.2f}"]
+            commands.extend(f"L {x:.2f} {y:.2f}" for x, y in projected[1:])
+            commands.append("Z")
+            path_parts.append(" ".join(commands))
+
+        geo_point = props.get("geo_point_2d") or []
+        label_x = label_y = None
+        if isinstance(geo_point, list) and len(geo_point) == 2:
+            label_x, label_y = project_point(float(geo_point[1]), float(geo_point[0]))
+
+        municipalities.append({
+            "code": str(props.get("id", "")),
+            "name": props.get("kom_namn", ""),
+            "path": " ".join(path_parts),
+            "label_x": label_x,
+            "label_y": label_y,
+        })
+
+    transform = {
+        "minX": min_x,
+        "minY": min_y,
+        "maxX": max_x,
+        "maxY": max_y,
+        "scale": scale,
+        "offsetX": offset_x,
+        "offsetY": offset_y,
+        "width": map_width,
+        "height": map_height,
+    }
+    return municipalities, transform
 
 def get_stats():
     """Get statistics from database"""
@@ -296,22 +447,27 @@ def get_stats():
     avg_value_tkr = round(total_value_tkr / total_sales, 1) if total_sales else 0
 
     c.execute("""
-        SELECT region_name, count, total_value_tkr
+        SELECT region_code, region_name, count, total_value_tkr
         FROM property_transfers
         WHERE year = ?
-        ORDER BY count DESC
-        LIMIT 5
+        ORDER BY count DESC, region_name ASC
     """, (latest_year,))
+    prop_regions = []
     prop_top_regions = []
     for row in c.fetchall():
         region_count = row['count'] or 0
         region_total_value_tkr = row['total_value_tkr'] or 0
-        prop_top_regions.append({
+        region_avg_value_tkr = round(region_total_value_tkr / region_count, 1) if region_count else 0
+        region_data = {
+            'region_code': row['region_code'],
             'region_name': row['region_name'],
             'count': region_count,
             'total_value_tkr': region_total_value_tkr,
-            'avg_value_tkr': round(region_total_value_tkr / region_count, 1) if region_count else 0,
-        })
+            'avg_value_tkr': region_avg_value_tkr,
+        }
+        prop_regions.append(region_data)
+        if len(prop_top_regions) < 5:
+            prop_top_regions.append(region_data)
 
     stats['property'] = {
         'total_sales': total_sales,
@@ -319,6 +475,7 @@ def get_stats():
         'avg_value_tkr': avg_value_tkr,
         'latest_year': latest_year,
         'top_regions': prop_top_regions,
+        'regions': prop_regions,
     }
     
     conn.close()
@@ -341,6 +498,75 @@ def get_dashboard_timestamp(stats):
     if not candidates:
         return datetime.now().strftime('%Y-%m-%d %H:%M')
     return max(candidates).strftime('%Y-%m-%d %H:%M')
+
+def render_property_map(regions):
+    if not regions:
+        return '<div class="property-map-empty">Ingen kartdata ännu</div>'
+
+    region_lookup = {row['region_code']: row for row in regions if row.get('region_code')}
+    price_values = [row['avg_value_tkr'] for row in regions if row.get('avg_value_tkr') is not None]
+    if not price_values:
+        return '<div class="property-map-empty">Ingen prisdata ännu</div>'
+
+    min_price = min(price_values)
+    max_price = max(price_values)
+    municipalities, transform = load_municipality_map()
+
+    map_paths = []
+    for municipality in municipalities:
+        region = region_lookup.get(municipality['code'])
+        avg_value_tkr = region['avg_value_tkr'] if region else None
+        count = region['count'] if region else 0
+        has_data = avg_value_tkr is not None
+        fill = price_color(avg_value_tkr, min_price, max_price) if has_data else 'rgba(255,255,255,0.05)'
+        fill_opacity = 0.96 if has_data else 0.22
+        label = municipality['name'] or municipality['code']
+        if region:
+            title = (
+                f"{label} ({municipality['code']})\n"
+                f"Försäljningar: {count:,}\n"
+                f"Genomsnittspris: {avg_value_tkr / 1000:.1f} Mkr"
+            )
+        else:
+            title = f"{label} ({municipality['code']})\nIngen data"
+        map_paths.append(
+            f'<path d="{municipality["path"]}" fill="{fill}" fill-opacity="{fill_opacity}" '
+            f'stroke="rgba(255,255,255,0.16)" stroke-width="1" vector-effect="non-scaling-stroke">'
+            f'<title>{title}</title></path>'
+        )
+
+    return f"""
+        <div class="property-map-shell">
+            <div class="property-map-header">
+                <div>
+                    <div class="property-map-title">Kommunkarta</div>
+                    <div class="property-map-subtitle">Billigast är grönt, dyrast rött och mitten går via gult.</div>
+                </div>
+                <div class="property-map-legend">
+                    <span class="legend-chip"><i style="background:#22c55e"></i>Billigast</span>
+                    <span class="legend-chip"><i style="background:#eab308"></i>Mellan</span>
+                    <span class="legend-chip"><i style="background:#ef4444"></i>Dyrast</span>
+                </div>
+            </div>
+            <div class="property-map-frame">
+                <svg viewBox="0 0 {transform['width']} {transform['height']}" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Kommunkarta med färgskala för genomsnittligt försäljningspris">
+                    <defs>
+                        <radialGradient id="propertyMapGlow" cx="50%" cy="42%" r="70%">
+                            <stop offset="0%" stop-color="rgba(110,231,255,0.09)"></stop>
+                            <stop offset="100%" stop-color="rgba(110,231,255,0)"></stop>
+                        </radialGradient>
+                    </defs>
+                    <rect x="0" y="0" width="{transform['width']}" height="{transform['height']}" fill="url(#propertyMapGlow)"></rect>
+                    <g class="property-map-boundary">{''.join(map_paths)}</g>
+                </svg>
+            </div>
+            <div class="property-scale">
+                <span>{min_price / 1000:.1f} Mkr</span>
+                <div class="property-scale-bar" aria-hidden="true"></div>
+                <span>{max_price / 1000:.1f} Mkr</span>
+            </div>
+        </div>
+    """
 
 def generate_html(stats):
     """Generate dashboard HTML"""
@@ -503,6 +729,20 @@ def generate_html(stats):
         .mini-list-main small {{ color: #94a3b8; font-size: 0.76rem; }}
         .mini-list li strong {{ color: #f8fafc; font-size: 1rem; }}
         .property-note {{ color: #94a3b8; font-size: 0.9rem; margin-top: 10px; line-height: 1.5; }}
+        .property-map-shell {{ margin-top: 18px; display: grid; gap: 12px; }}
+        .property-map-header {{ display: flex; justify-content: space-between; gap: 14px; align-items: flex-end; flex-wrap: wrap; }}
+        .property-map-title {{ font-size: 1rem; font-weight: 800; color: #f8fafc; }}
+        .property-map-subtitle {{ color: #94a3b8; font-size: 0.86rem; margin-top: 4px; line-height: 1.45; }}
+        .property-map-legend {{ display: flex; flex-wrap: wrap; gap: 8px; }}
+        .legend-chip {{ display: inline-flex; align-items: center; gap: 7px; border-radius: 999px; padding: 7px 10px; background: rgba(51, 65, 85, 0.7); color: #cbd5e1; font-size: 0.78rem; font-weight: 700; }}
+        .legend-chip i {{ width: 12px; height: 12px; border-radius: 999px; display: inline-block; }}
+        .property-map-frame {{ min-height: 360px; border-radius: 18px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); background: radial-gradient(circle at center, rgba(110,231,255,0.05), transparent 60%), rgba(255,255,255,0.03); }}
+        .property-map-frame svg {{ display: block; width: 100%; height: 100%; }}
+        .property-map-boundary path {{ transition: opacity 0.18s ease, transform 0.18s ease; }}
+        .property-map-boundary path:hover {{ opacity: 1; transform: translateY(-1px); }}
+        .property-scale {{ display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 0.82rem; font-weight: 700; }}
+        .property-scale-bar {{ flex: 1; height: 12px; border-radius: 999px; background: linear-gradient(90deg, #22c55e 0%, #eab308 50%, #ef4444 100%); border: 1px solid rgba(255,255,255,0.12); }}
+        .property-map-empty {{ min-height: 260px; display: flex; align-items: center; justify-content: center; color: #94a3b8; }}
         .trend {{ margin-top: 16px; }}
         .trend-chart {{ height: 140px; display: grid; grid-template-columns: repeat(auto-fit, minmax(42px, 1fr)); align-items: end; gap: 8px; }}
         .trend-bar {{ position: relative; min-height: 18px; border-radius: 10px 10px 4px 4px; background: linear-gradient(180deg, rgba(234, 179, 8, 0.95), rgba(249, 115, 22, 0.95)); display: flex; flex-direction: column; justify-content: flex-end; padding: 10px 8px 8px; overflow: hidden; }}
@@ -734,10 +974,11 @@ def generate_html(stats):
                         <div class="stat-value">{stats['property']['top_regions'][0]['region_name'] if stats['property']['top_regions'] else '—'}</div>
                     </div>
                 </div>
+                {render_property_map(stats['property']['regions'])}
                 <ul class="mini-list">
                     {property_top_regions}
                 </ul>
-                <p class="property-note">Visar småhus för senaste året. Värdet är nu snitt per försäljning och regionraderna visar genomsnittspriset i stället för totalsumman, vilket gör kortet lättare att jämföra mellan regioner.</p>
+                <p class="property-note">Visar småhus för senaste året. Värdet är nu snitt per försäljning, regionraderna visar genomsnittspris och kartan färgar kommunerna från grönt till rött beroende på prisnivå.</p>
             </div>
 
             <div class="card heatmap">
