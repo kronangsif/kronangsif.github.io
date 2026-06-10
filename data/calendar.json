@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-10T01:32:39.696826",
+  "last_updated": "2026-06-10T06:07:52.388055",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -888,7 +888,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.4
+        "temp": 14.9
       }
     },
     {
@@ -906,7 +906,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.4
+        "temp": 14.9
       }
     },
     {
@@ -924,7 +924,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.4
+        "temp": 14.9
       }
     },
     {
@@ -942,7 +942,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.4
+        "temp": 14.9
       }
     },
     {
@@ -960,7 +960,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 14.7
+        "temp": 14.8
       }
     },
     {
@@ -976,9 +976,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 13.1
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 13.0
       }
     },
     {
@@ -996,7 +996,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.0
+        "temp": 18.2
       }
     },
     {
@@ -1014,7 +1014,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.5
+        "temp": 18.0
       }
     },
     {
@@ -1030,9 +1030,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.3
       }
     },
     {
@@ -1048,9 +1048,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.3
       }
     },
     {
@@ -1066,9 +1066,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.4
       }
     },
     {
@@ -1084,9 +1084,9 @@
       "location": "Öckerö",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.4
       }
     },
     {
