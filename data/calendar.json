@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-10T23:57:37.271215",
+  "last_updated": "2026-06-11T04:53:15.898515",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
-  "activity_count": 156,
+  "activity_count": 155,
   "activities": [
     {
       "date": "2026-06-01",
@@ -1355,7 +1355,7 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Ubbhult/Hällingsjö/Hyssna borta",
-      "location": "Ubbhultsplanen, Ubbhult(Pojkar Div 11 Kinna)",
+      "location": "Ekåsvallen(Pojkar Div 11 Kinna)",
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
@@ -1876,20 +1876,6 @@
       "type": "Match",
       "description": "Ospecificerat lag (10) hemma",
       "location": "Kronäng Arena(Flickor Div 5 Kinna)",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-06-21",
-      "day": "21",
-      "weekday": "sön",
-      "time": "10:30",
-      "end_time": "",
-      "team": "P2014",
-      "team_id": "324331",
-      "type": "Match",
-      "description": "IF Elfsborg Svart borta",
-      "location": "Ryda Sportfält C1(Pojkar Div 9 Fristad)",
       "lockerooms": null,
       "weather": null
     },
