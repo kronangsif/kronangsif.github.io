@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T20:37:05.816816",
+  "last_updated": "2026-06-12T22:15:25.790593",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1025,11 +1025,7 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.6
-      }
+      "weather": null
     },
     {
       "date": "2026-06-12",
@@ -1043,11 +1039,7 @@
       "description": "Ö-bollen 2026",
       "location": "Öckerö",
       "lockerooms": null,
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.6
-      }
+      "weather": null
     },
     {
       "date": "2026-06-12",
@@ -1075,11 +1067,7 @@
       "description": "Sjömarkens IF Grön borta",
       "location": "Idrottsgården Konstgräsplan(Pojkar Div 13 Borås)",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.2
-      }
+      "weather": null
     },
     {
       "date": "2026-06-13",
@@ -1109,8 +1097,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 12.9
+        "desc": "Dis",
+        "temp": 12.7
       }
     },
     {
@@ -1126,9 +1114,9 @@
       "location": "Trollevi A(Pojkar Div 5 Mark)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.2
       }
     },
     {
@@ -1144,9 +1132,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.9
       }
     },
     {
@@ -1164,7 +1152,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.0
+        "temp": 16.1
       }
     },
     {
@@ -1194,9 +1182,9 @@
       "location": "Öckerö",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.8
       }
     },
     {
@@ -1214,7 +1202,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.7
+        "temp": 16.2
       }
     },
     {
@@ -1232,7 +1220,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.7
+        "temp": 16.2
       }
     },
     {
@@ -1248,9 +1236,9 @@
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.4
       }
     },
     {
@@ -1266,9 +1254,9 @@
       "location": "Eksätersvallen A-plan(Herrar, Div 5 Sydvästra)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.4
       }
     },
     {
@@ -1284,9 +1272,9 @@
       "location": "Sven Erikssonsvallen(Pojkar Div 11 Sandared)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.4
       }
     },
     {
@@ -1302,9 +1290,9 @@
       "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.4
       }
     },
     {
@@ -1320,9 +1308,9 @@
       "location": "Gårdavallen A-plan(Flickor Div 7 Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.4
       }
     },
     {
@@ -1338,9 +1326,9 @@
       "location": "Ekåsvallen(Pojkar Div 11 Kinna)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.4
       }
     },
     {
@@ -1358,7 +1346,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.0
+        "temp": 16.5
       }
     },
     {
@@ -1376,7 +1364,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.0
+        "temp": 16.5
       }
     },
     {
@@ -1394,7 +1382,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.0
+        "temp": 16.5
       }
     },
     {
@@ -1412,7 +1400,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.7
+        "temp": 16.0
       }
     },
     {
@@ -1430,7 +1418,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.3
+        "temp": 15.1
       }
     },
     {
@@ -1448,7 +1436,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.3
+        "temp": 15.1
       }
     },
     {
@@ -1466,7 +1454,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.8
+        "temp": 15.7
       }
     },
     {
@@ -1484,7 +1472,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.8
+        "temp": 15.7
       }
     },
     {
@@ -1502,7 +1490,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.8
+        "temp": 15.7
       }
     },
     {
@@ -1520,7 +1508,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.8
+        "temp": 15.7
       }
     },
     {
@@ -1538,7 +1526,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.8
+        "temp": 15.7
       }
     },
     {
@@ -1556,7 +1544,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 14.5
+        "temp": 15.4
       }
     },
     {
@@ -1574,7 +1562,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.2
+        "temp": 14.8
       }
     },
     {
@@ -1592,7 +1580,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.2
+        "temp": 14.8
       }
     },
     {
@@ -1610,7 +1598,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.2
+        "temp": 14.8
       }
     },
     {
@@ -1628,7 +1616,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.2
+        "temp": 14.8
       }
     },
     {
@@ -1646,7 +1634,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.2
+        "temp": 14.8
       }
     },
     {
@@ -1664,7 +1652,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.2
+        "temp": 14.8
       }
     },
     {
@@ -1682,7 +1670,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.8
+        "temp": 16.6
       }
     },
     {
@@ -1700,7 +1688,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.8
+        "temp": 16.6
       }
     },
     {
@@ -1718,7 +1706,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.8
+        "temp": 16.6
       }
     },
     {
@@ -1736,7 +1724,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.1
+        "temp": 15.4
       }
     },
     {
@@ -1754,7 +1742,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.1
+        "temp": 15.4
       }
     },
     {
@@ -1772,7 +1760,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.0
+        "temp": 13.3
       }
     },
     {
@@ -1790,7 +1778,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.0
+        "temp": 13.3
       }
     },
     {
@@ -1808,7 +1796,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.0
+        "temp": 13.3
       }
     },
     {
@@ -1826,7 +1814,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.5
+        "temp": 12.9
       }
     },
     {
@@ -1844,7 +1832,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.9
+        "temp": 12.4
       }
     },
     {
