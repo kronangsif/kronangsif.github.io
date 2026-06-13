@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T10:59:22.255875",
+  "last_updated": "2026-06-13T12:55:56.926141",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1152,7 +1152,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.0
+        "temp": 15.5
       }
     },
     {
@@ -1182,9 +1182,9 @@
       "location": "Öckerö",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.6
       }
     },
     {
@@ -1202,7 +1202,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.8
+        "temp": 15.6
       }
     },
     {
@@ -1220,7 +1220,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.8
+        "temp": 15.6
       }
     },
     {
@@ -1238,7 +1238,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.0
+        "temp": 16.2
       }
     },
     {
@@ -1256,7 +1256,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.0
+        "temp": 16.2
       }
     },
     {
@@ -1274,7 +1274,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.0
+        "temp": 16.2
       }
     },
     {
@@ -1292,7 +1292,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.0
+        "temp": 16.2
       }
     },
     {
@@ -1310,7 +1310,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.0
+        "temp": 16.2
       }
     },
     {
@@ -1328,7 +1328,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.0
+        "temp": 16.2
       }
     },
     {
@@ -1346,7 +1346,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.3
+        "temp": 15.2
       }
     },
     {
@@ -1364,7 +1364,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.3
+        "temp": 15.2
       }
     },
     {
@@ -1382,7 +1382,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.3
+        "temp": 15.2
       }
     },
     {
@@ -1400,7 +1400,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.5
+        "temp": 15.5
       }
     },
     {
@@ -1416,9 +1416,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.7
       }
     },
     {
@@ -1434,9 +1434,9 @@
       "location": "Byttorps IP A Konstgräs(Herrar, Utveckling B Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.7
       }
     },
     {
