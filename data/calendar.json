@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-16T22:20:26.132469",
+  "last_updated": "2026-06-16T23:58:10.501265",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
-  "activity_count": 151,
+  "activity_count": 150,
   "activities": [
     {
       "date": "2026-06-01",
@@ -1437,20 +1437,6 @@
       "date": "2026-06-16",
       "day": "16",
       "weekday": "tis",
-      "time": "18:45",
-      "end_time": "20:30",
-      "team": "P2009-2010",
-      "team_id": "224798",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-06-16",
-      "day": "16",
-      "weekday": "tis",
       "time": "19:00",
       "end_time": "20:30",
       "team": "Dam",
@@ -1600,7 +1586,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
+        "temp": 17.7
       }
     },
     {
@@ -1618,7 +1604,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
+        "temp": 17.7
       }
     },
     {
@@ -1690,7 +1676,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.7
+        "temp": 16.5
       }
     },
     {
@@ -1708,7 +1694,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 21.3
+        "temp": 20.3
       }
     },
     {
@@ -1726,7 +1712,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 21.8
+        "temp": 21.1
       }
     },
     {
@@ -1744,7 +1730,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.9
+        "temp": 20.7
       }
     },
     {
@@ -1762,7 +1748,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 21.5
+        "temp": 19.9
       }
     },
     {
@@ -1780,7 +1766,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.7
+        "temp": 19.1
       }
     },
     {
@@ -1798,7 +1784,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.8
+        "temp": 18.3
       }
     },
     {
@@ -1816,7 +1802,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.8
+        "temp": 18.3
       }
     },
     {
@@ -1834,7 +1820,7 @@
       "weather": {
         "icon": "⛈️",
         "desc": "Åska",
-        "temp": 16.0
+        "temp": 20.9
       }
     },
     {
@@ -1852,7 +1838,7 @@
       "weather": {
         "icon": "⛈️",
         "desc": "Åska",
-        "temp": 16.0
+        "temp": 20.9
       }
     },
     {
@@ -1870,7 +1856,7 @@
       "weather": {
         "icon": "⛈️",
         "desc": "Åska",
-        "temp": 16.0
+        "temp": 19.3
       }
     },
     {
@@ -1888,7 +1874,7 @@
       "weather": {
         "icon": "⛈️",
         "desc": "Åska",
-        "temp": 16.0
+        "temp": 19.3
       }
     },
     {
@@ -1904,9 +1890,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌦️",
-        "desc": "Regnskurar",
-        "temp": 15.8
+        "icon": "⛈️",
+        "desc": "Åska",
+        "temp": 17.7
       }
     },
     {
@@ -1922,9 +1908,9 @@
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌦️",
-        "desc": "Regnskurar",
-        "temp": 15.8
+        "icon": "⛈️",
+        "desc": "Åska",
+        "temp": 17.7
       }
     },
     {
