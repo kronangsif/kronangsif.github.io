@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T14:03:11.378932",
+  "last_updated": "2026-06-17T17:26:06.455505",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1532,7 +1532,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.9
+        "temp": 18.6
       }
     },
     {
@@ -1550,7 +1550,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.9
+        "temp": 18.6
       }
     },
     {
@@ -1568,7 +1568,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.9
+        "temp": 18.6
       }
     },
     {
@@ -1586,7 +1586,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.2
+        "temp": 16.6
       }
     },
     {
@@ -1604,7 +1604,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.2
+        "temp": 16.6
       }
     },
     {
@@ -1622,7 +1622,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.9
+        "temp": 20.0
       }
     },
     {
@@ -1630,16 +1630,16 @@
       "day": "18",
       "weekday": "tor",
       "time": "18:45",
-      "end_time": "20:45",
+      "end_time": "20:00",
       "team": "P2012",
       "team_id": "281528",
       "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena B-plan",
+      "description": "Träning på björkehov",
+      "location": "Björkehov Södra Granbäcksvägen 9, 504 95 Borås",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 20.3
       }
     },
@@ -1658,7 +1658,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.2
+        "temp": 16.3
       }
     },
     {
@@ -1676,7 +1676,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.2
+        "temp": 19.6
       }
     },
     {
@@ -1692,9 +1692,9 @@
       "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 20.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 19.9
       }
     },
     {
@@ -1712,7 +1712,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.4
+        "temp": 18.8
       }
     },
     {
@@ -1730,7 +1730,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 19.7
       }
     },
     {
@@ -1746,9 +1746,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 19.1
       }
     },
     {
@@ -1764,9 +1764,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 16.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.5
       }
     },
     {
@@ -1782,9 +1782,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 16.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.5
       }
     },
     {
