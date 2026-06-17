@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-17T05:05:26.800082",
+  "last_updated": "2026-06-17T10:06:27.209413",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
-  "activity_count": 149,
+  "activity_count": 148,
   "activities": [
     {
       "date": "2026-06-01",
@@ -1532,7 +1532,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.0
+        "temp": 18.2
       }
     },
     {
@@ -1550,7 +1550,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.0
+        "temp": 18.2
       }
     },
     {
@@ -1568,7 +1568,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.0
+        "temp": 18.2
       }
     },
     {
@@ -1586,7 +1586,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.9
+        "temp": 16.5
       }
     },
     {
@@ -1604,7 +1604,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.9
+        "temp": 16.5
       }
     },
     {
@@ -1622,7 +1622,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.1
+        "temp": 20.2
       }
     },
     {
@@ -1638,27 +1638,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 20.2
-      }
-    },
-    {
-      "date": "2026-06-18",
-      "day": "18",
-      "weekday": "tor",
-      "time": "19:00",
-      "end_time": "20:30",
-      "team": "Dam",
-      "team_id": "52695",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 20.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 20.3
       }
     },
     {
@@ -1674,8 +1656,8 @@
       "location": "Kronäng Arena(Flickor Div 5 Kinna)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 17.2
       }
     },
@@ -1692,9 +1674,9 @@
       "location": "Bodavallen C konstgräs(Flickor Div 7 Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 20.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 20.2
       }
     },
     {
@@ -1712,7 +1694,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.0
+        "temp": 20.6
       }
     },
     {
@@ -1730,7 +1712,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.9
+        "temp": 19.4
       }
     },
     {
@@ -1746,9 +1728,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 21.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.1
       }
     },
     {
@@ -1764,9 +1746,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 20.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.5
       }
     },
     {
@@ -1782,9 +1764,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 19.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.9
       }
     },
     {
@@ -1800,9 +1782,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 19.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.9
       }
     },
     {
@@ -1818,9 +1800,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛈️",
-        "desc": "Åska",
-        "temp": 20.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.2
       }
     },
     {
@@ -1832,13 +1814,13 @@
       "team": "P2014",
       "team_id": "324331",
       "type": "Träning",
-      "description": "Träning",
+      "description": "Träning + Föräldrakamp",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛈️",
-        "desc": "Åska",
-        "temp": 20.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.2
       }
     },
     {
@@ -1854,9 +1836,9 @@
       "location": "Björnskogsvallen(Pojkar Div 5 Mark)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛈️",
-        "desc": "Åska",
-        "temp": 19.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.6
       }
     },
     {
@@ -1872,9 +1854,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛈️",
-        "desc": "Åska",
-        "temp": 19.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.6
       }
     },
     {
@@ -1890,9 +1872,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛈️",
-        "desc": "Åska",
-        "temp": 17.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.2
       }
     },
     {
@@ -1908,9 +1890,9 @@
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛈️",
-        "desc": "Åska",
-        "temp": 17.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.2
       }
     },
     {
@@ -2182,18 +2164,18 @@
   ],
   "latest_news": [
     {
+      "title": "Nyhetsbrev",
+      "published_at": "2026-06-17 11:26",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1348774",
+      "image": "",
+      "summary": ""
+    },
+    {
       "title": "Vinst i 50/50 KIF Dam-Fristad/Sparsör/Borgstena",
       "published_at": "2026-06-15 12:40",
       "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1348454",
       "image": "https://cdn.sportadmin.se/559/h/200/f1d82f8e5179fa8dd36f467b745f8c315260b7d744ce07391990c202e84b0cc5_L.png",
       "summary": "Vinnaren i 50/50 lotteriet blev 420 kronor rikare. Grattis till vinsten."
-    },
-    {
-      "title": "Veckans hemmamatcher",
-      "published_at": "2026-06-15",
-      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1339545",
-      "image": "",
-      "summary": ""
     }
   ]
 }
