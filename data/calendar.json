@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18T14:30:11.708802",
+  "last_updated": "2026-06-18T17:45:42.084905",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1602,7 +1602,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.2
+        "temp": 20.0
       }
     },
     {
@@ -1618,9 +1618,9 @@
       "location": "Björkehov Södra Granbäcksvägen 9, 504 95 Borås",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 20.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 20.2
       }
     },
     {
@@ -1638,7 +1638,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.0
+        "temp": 18.7
       }
     },
     {
