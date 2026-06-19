@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T20:17:23.906291",
+  "last_updated": "2026-06-19T21:46:37.602684",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1630,7 +1630,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.4
+        "temp": 20.0
       }
     },
     {
@@ -1646,9 +1646,9 @@
       "location": "Bodavallen C konstgräs(Flickor Div 7 Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 22.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 22.7
       }
     },
     {
@@ -1664,9 +1664,9 @@
       "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 23.3
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 23.5
       }
     },
     {
@@ -1684,7 +1684,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.2
+        "temp": 23.5
       }
     },
     {
