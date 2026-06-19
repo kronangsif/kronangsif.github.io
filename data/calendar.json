@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T05:29:24.707607",
+  "last_updated": "2026-06-19T10:04:05.659526",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1648,7 +1648,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.2
+        "temp": 21.5
       }
     },
     {
@@ -1684,7 +1684,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.2
+        "temp": 22.4
       }
     },
     {
@@ -1702,7 +1702,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.2
+        "temp": 20.8
       }
     },
     {
@@ -1720,7 +1720,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.4
+        "temp": 20.2
       }
     },
     {
@@ -1738,7 +1738,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.3
+        "temp": 19.0
       }
     },
     {
@@ -1756,7 +1756,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.3
+        "temp": 19.0
       }
     },
     {
@@ -1774,7 +1774,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.8
+        "temp": 22.1
       }
     },
     {
@@ -1792,7 +1792,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.8
+        "temp": 22.1
       }
     },
     {
@@ -1810,7 +1810,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 20.1
+        "temp": 21.2
       }
     },
     {
@@ -1828,7 +1828,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 20.1
+        "temp": 21.2
       }
     },
     {
@@ -1846,7 +1846,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 19.1
+        "temp": 19.9
       }
     },
     {
@@ -1864,7 +1864,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 19.1
+        "temp": 19.9
       }
     },
     {
@@ -1882,7 +1882,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.2
+        "temp": 19.9
       }
     },
     {
@@ -1900,7 +1900,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.1
+        "temp": 18.3
       }
     },
     {
@@ -1918,7 +1918,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.1
+        "temp": 18.3
       }
     },
     {
@@ -1936,7 +1936,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.1
+        "temp": 18.3
       }
     },
     {
@@ -1954,7 +1954,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 22.4
+        "temp": 22.6
       }
     },
     {
@@ -1970,9 +1970,9 @@
       "location": "Holmängen A-plan(Pojkar Div 8 Alingsås)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.0
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 22.2
       }
     },
     {
@@ -1988,9 +1988,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.0
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 22.2
       }
     },
     {
@@ -2006,9 +2006,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 21.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 21.6
       }
     },
     {
@@ -2024,9 +2024,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 21.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 21.6
       }
     },
     {
@@ -2042,9 +2042,9 @@
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 21.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 21.6
       }
     },
     {
