@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T23:05:30.762584",
+  "last_updated": "2026-06-20T01:30:38.594728",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1630,7 +1630,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.6
+        "temp": 20.1
       }
     },
     {
@@ -1648,7 +1648,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.4
+        "temp": 22.8
       }
     },
     {
@@ -1666,7 +1666,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.3
+        "temp": 23.7
       }
     },
     {
@@ -1684,7 +1684,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.3
+        "temp": 23.9
       }
     },
     {
@@ -1702,7 +1702,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.5
+        "temp": 20.0
       }
     },
     {
@@ -1718,9 +1718,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 20.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.1
       }
     },
     {
@@ -1736,9 +1736,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.7
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.8
       }
     },
     {
@@ -1754,9 +1754,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.7
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.8
       }
     },
     {
@@ -1772,9 +1772,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 23.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 22.3
       }
     },
     {
@@ -1790,9 +1790,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 23.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 22.3
       }
     },
     {
@@ -1810,7 +1810,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 22.4
+        "temp": 21.4
       }
     },
     {
@@ -1828,7 +1828,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 22.4
+        "temp": 21.4
       }
     },
     {
@@ -1846,7 +1846,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 20.8
+        "temp": 20.1
       }
     },
     {
@@ -1864,7 +1864,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 20.8
+        "temp": 20.1
       }
     },
     {
@@ -1880,9 +1880,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 21.7
       }
     },
     {
@@ -1900,7 +1900,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 21.2
+        "temp": 20.4
       }
     },
     {
@@ -1918,7 +1918,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 21.2
+        "temp": 20.4
       }
     },
     {
@@ -1936,7 +1936,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 21.2
+        "temp": 20.4
       }
     },
     {
@@ -1954,7 +1954,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.7
+        "temp": 24.0
       }
     },
     {
@@ -1972,7 +1972,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.8
+        "temp": 22.9
       }
     },
     {
@@ -1990,7 +1990,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.8
+        "temp": 22.9
       }
     },
     {
@@ -2008,7 +2008,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.8
+        "temp": 21.6
       }
     },
     {
@@ -2026,7 +2026,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.8
+        "temp": 21.6
       }
     },
     {
@@ -2044,7 +2044,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.8
+        "temp": 21.6
       }
     },
     {
