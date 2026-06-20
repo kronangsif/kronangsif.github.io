@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T21:23:58.725718",
+  "last_updated": "2026-06-20T22:44:59.294953",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1628,9 +1628,9 @@
       "location": "Kronäng Arena(Flickor Div 5 Kinna)",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 19.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 20.0
       }
     },
     {
@@ -1648,7 +1648,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.4
+        "temp": 23.2
       }
     },
     {
@@ -1682,9 +1682,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 23.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 23.7
       }
     },
     {
@@ -1700,9 +1700,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 23.0
       }
     },
     {
@@ -1718,9 +1718,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 23.0
       }
     },
     {
@@ -2005,7 +2005,11 @@
       "description": "IFK Örby TÄFF borta",
       "location": "Örby IP A(Pojkar Div 5 Mark)",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 27.1
+      }
     },
     {
       "date": "2026-06-28",
@@ -2101,11 +2105,11 @@
       "summary": ""
     },
     {
-      "title": "Vinst i 50/50 KIF Dam-Fristad/Sparsör/Borgstena",
-      "published_at": "2026-06-15 12:40",
-      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1348454",
-      "image": "https://cdn.sportadmin.se/559/h/200/f1d82f8e5179fa8dd36f467b745f8c315260b7d744ce07391990c202e84b0cc5_L.png",
-      "summary": "Vinnaren i 50/50 lotteriet blev 420 kronor rikare. Grattis till vinsten."
+      "title": "Veckans hemmamatcher",
+      "published_at": "2026-06-15",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1339545",
+      "image": "",
+      "summary": ""
     }
   ]
 }
