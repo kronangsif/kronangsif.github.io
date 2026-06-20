@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T14:20:05.761520",
+  "last_updated": "2026-06-20T16:00:23.209941",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1628,9 +1628,9 @@
       "location": "Kronäng Arena(Flickor Div 5 Kinna)",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 19.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 19.6
       }
     },
     {
@@ -1648,7 +1648,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.4
+        "temp": 23.5
       }
     },
     {
@@ -1684,7 +1684,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 24.1
+        "temp": 24.0
       }
     },
     {
@@ -1700,9 +1700,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 23.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 23.2
       }
     },
     {
@@ -1718,9 +1718,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 22.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 22.7
       }
     },
     {
@@ -1736,9 +1736,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 22.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 22.7
       }
     },
     {
