@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-20T19:47:43.007866",
+  "last_updated": "2026-06-20T21:23:58.725718",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
-  "activity_count": 146,
+  "activity_count": 143,
   "activities": [
     {
       "date": "2026-06-01",
@@ -1630,7 +1630,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.0
+        "temp": 19.9
       }
     },
     {
@@ -1667,24 +1667,6 @@
         "icon": "☀️",
         "desc": "Klar himmel",
         "temp": 23.4
-      }
-    },
-    {
-      "date": "2026-06-22",
-      "day": "22",
-      "weekday": "mån",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "F2013/2014",
-      "team_id": "374981",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena B-plan",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 23.9
       }
     },
     {
@@ -1847,24 +1829,6 @@
         "icon": "☀️",
         "desc": "Klar himmel",
         "temp": 19.4
-      }
-    },
-    {
-      "date": "2026-06-24",
-      "day": "24",
-      "weekday": "ons",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "F2013/2014",
-      "team_id": "374981",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena B-plan",
-      "lockerooms": null,
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 21.9
       }
     },
     {
@@ -2068,20 +2032,6 @@
       "type": "Match",
       "description": "Borås GIF U hemma",
       "location": "Kronäng Arena konstgräs 1(Herrar, Utveckling B Borås)",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-06-29",
-      "day": "29",
-      "weekday": "mån",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "F2013/2014",
-      "team_id": "374981",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": null
     },
