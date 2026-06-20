@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-20T01:30:38.594728",
+  "last_updated": "2026-06-20T06:04:32.031080",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
-  "activity_count": 147,
+  "activity_count": 146,
   "activities": [
     {
       "date": "2026-06-01",
@@ -1630,7 +1630,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.1
+        "temp": 20.0
       }
     },
     {
@@ -1648,25 +1648,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.8
-      }
-    },
-    {
-      "date": "2026-06-21",
-      "day": "21",
-      "weekday": "sön",
-      "time": "13:00",
-      "end_time": "",
-      "team": "P2013",
-      "team_id": "324307",
-      "type": "Match",
-      "description": "IF Elfsborg Röd hemma",
-      "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 23.7
+        "temp": 23.0
       }
     },
     {
@@ -1684,7 +1666,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.9
+        "temp": 23.7
       }
     },
     {
