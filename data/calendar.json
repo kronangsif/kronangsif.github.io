@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T14:29:23.594112",
+  "last_updated": "2026-06-21T16:17:09.935991",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1682,9 +1682,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 24.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 24.2
       }
     },
     {
@@ -1738,7 +1738,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.5
+        "temp": 24.7
       }
     },
     {
@@ -1756,7 +1756,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.5
+        "temp": 24.7
       }
     },
     {
@@ -1774,7 +1774,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.7
+        "temp": 24.0
       }
     },
     {
@@ -1792,7 +1792,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.7
+        "temp": 24.0
       }
     },
     {
@@ -1808,9 +1808,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 23.0
       }
     },
     {
@@ -1826,9 +1826,9 @@
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 23.0
       }
     },
     {
