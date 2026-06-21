@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T18:07:23.496740",
+  "last_updated": "2026-06-21T20:04:46.328709",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1684,7 +1684,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 24.0
+        "temp": 23.8
       }
     },
     {
@@ -1702,7 +1702,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.4
+        "temp": 23.2
       }
     },
     {
@@ -1720,7 +1720,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.4
+        "temp": 23.2
       }
     },
     {
@@ -1738,7 +1738,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.6
+        "temp": 24.2
       }
     },
     {
@@ -1756,7 +1756,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.6
+        "temp": 24.2
       }
     },
     {
@@ -1774,7 +1774,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.9
+        "temp": 23.4
       }
     },
     {
@@ -1792,7 +1792,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.9
+        "temp": 23.4
       }
     },
     {
@@ -1810,7 +1810,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.9
+        "temp": 22.4
       }
     },
     {
@@ -1828,7 +1828,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.9
+        "temp": 22.4
       }
     },
     {
@@ -1846,7 +1846,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.8
+        "temp": 20.5
       }
     },
     {
@@ -1864,7 +1864,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.8
+        "temp": 20.5
       }
     },
     {
@@ -1882,7 +1882,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.8
+        "temp": 20.5
       }
     },
     {
@@ -1900,7 +1900,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 25.5
+        "temp": 25.9
       }
     },
     {
@@ -1916,9 +1916,9 @@
       "location": "Holmängen A-plan(Pojkar Div 8 Alingsås)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 24.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 25.1
       }
     },
     {
@@ -1934,9 +1934,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 24.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 25.1
       }
     },
     {
@@ -1952,9 +1952,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 23.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 24.1
       }
     },
     {
@@ -1970,9 +1970,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 23.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 24.1
       }
     },
     {
@@ -1988,9 +1988,9 @@
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 23.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 24.1
       }
     },
     {
@@ -2006,9 +2006,9 @@
       "location": "Örby IP A(Pojkar Div 5 Mark)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 24.0
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 28.1
       }
     },
     {
