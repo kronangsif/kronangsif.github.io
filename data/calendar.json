@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T05:02:00.217059",
+  "last_updated": "2026-06-21T09:03:18.682212",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1648,7 +1648,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.3
+        "temp": 21.9
       }
     },
     {
@@ -1666,7 +1666,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.9
+        "temp": 23.0
       }
     },
     {
@@ -1684,7 +1684,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.5
+        "temp": 23.8
       }
     },
     {
@@ -1702,7 +1702,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.0
+        "temp": 23.3
       }
     },
     {
@@ -1720,7 +1720,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.0
+        "temp": 23.3
       }
     },
     {
@@ -1736,9 +1736,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 21.2
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 22.7
       }
     },
     {
@@ -1754,9 +1754,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 21.2
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 22.7
       }
     },
     {
@@ -1774,7 +1774,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.1
+        "temp": 20.7
       }
     },
     {
@@ -1792,7 +1792,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.1
+        "temp": 20.7
       }
     },
     {
@@ -1808,9 +1808,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.3
       }
     },
     {
@@ -1826,9 +1826,9 @@
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.3
       }
     },
     {
@@ -1846,7 +1846,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.5
+        "temp": 20.7
       }
     },
     {
@@ -1864,7 +1864,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.5
+        "temp": 20.7
       }
     },
     {
@@ -1882,7 +1882,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.5
+        "temp": 20.7
       }
     },
     {
@@ -1900,7 +1900,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 25.2
+        "temp": 26.0
       }
     },
     {
@@ -1918,7 +1918,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.5
+        "temp": 25.2
       }
     },
     {
@@ -1936,7 +1936,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.5
+        "temp": 25.2
       }
     },
     {
@@ -1954,7 +1954,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.4
+        "temp": 24.1
       }
     },
     {
@@ -1972,7 +1972,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.4
+        "temp": 24.1
       }
     },
     {
@@ -1990,7 +1990,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.4
+        "temp": 24.1
       }
     },
     {
@@ -2006,9 +2006,9 @@
       "location": "Örby IP A(Pojkar Div 5 Mark)",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 27.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 24.0
       }
     },
     {
