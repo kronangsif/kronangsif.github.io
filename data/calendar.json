@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-21T16:17:09.935991",
+  "last_updated": "2026-06-21T18:07:23.496740",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
-  "activity_count": 143,
+  "activity_count": 142,
   "activities": [
     {
       "date": "2026-06-01",
@@ -1684,7 +1684,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 24.2
+        "temp": 24.0
       }
     },
     {
@@ -1702,7 +1702,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.5
+        "temp": 23.4
       }
     },
     {
@@ -1720,7 +1720,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.5
+        "temp": 23.4
       }
     },
     {
@@ -1738,7 +1738,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.7
+        "temp": 24.6
       }
     },
     {
@@ -1756,7 +1756,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.7
+        "temp": 24.6
       }
     },
     {
@@ -1774,7 +1774,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.0
+        "temp": 23.9
       }
     },
     {
@@ -1792,7 +1792,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.0
+        "temp": 23.9
       }
     },
     {
@@ -1810,7 +1810,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.0
+        "temp": 22.9
       }
     },
     {
@@ -1828,7 +1828,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.0
+        "temp": 22.9
       }
     },
     {
@@ -2050,20 +2050,6 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-06-30",
-      "day": "30",
-      "weekday": "tis",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "P2013",
-      "team_id": "324307",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": null
     },
