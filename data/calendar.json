@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-22T06:07:14.300009",
+  "last_updated": "2026-06-22T12:27:35.220323",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
-  "activity_count": 142,
+  "activity_count": 143,
   "activities": [
     {
       "date": "2026-06-01",
@@ -100,6 +100,20 @@
       "type": "Match",
       "description": "Ubbhults/Hällingsjö/Hyssna  borta",
       "location": "Björkängsvallen 1 Gräs(Pojkar Div 5 Mark)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-02",
+      "day": "02",
+      "weekday": "tis",
+      "time": "17:00",
+      "end_time": "18:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": null
     },
@@ -1495,20 +1509,6 @@
       "weekday": "tis",
       "time": "19:30",
       "end_time": "",
-      "team": "Dam",
-      "team_id": "52695",
-      "type": "Match",
-      "description": "Södra Härene/Östadkulle U hemma",
-      "location": "Kronäng Arena konstgräs 1(Damer, Utveckling Södra)",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-06-16",
-      "day": "16",
-      "weekday": "tis",
-      "time": "19:30",
-      "end_time": "",
       "team": "VEO kamera",
       "team_id": "430796",
       "type": "Match",
@@ -1672,7 +1672,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 23.2
+        "temp": 22.9
       }
     },
     {
@@ -1688,9 +1688,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 22.3
       }
     },
     {
@@ -1706,9 +1706,27 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 22.3
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "day": "23",
+      "weekday": "tis",
+      "time": "17:00",
+      "end_time": "18:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 24.8
       }
     },
     {
@@ -1726,7 +1744,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.8
+        "temp": 24.8
       }
     },
     {
@@ -1744,7 +1762,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.8
+        "temp": 24.8
       }
     },
     {
@@ -1762,7 +1780,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.3
+        "temp": 24.1
       }
     },
     {
@@ -1780,7 +1798,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.3
+        "temp": 24.1
       }
     },
     {
@@ -1798,7 +1816,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.4
+        "temp": 23.2
       }
     },
     {
@@ -1816,7 +1834,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.4
+        "temp": 23.2
       }
     },
     {
@@ -1834,7 +1852,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.0
+        "temp": 23.2
       }
     },
     {
@@ -1852,7 +1870,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.0
+        "temp": 23.2
       }
     },
     {
@@ -1870,7 +1888,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.0
+        "temp": 23.2
       }
     },
     {
@@ -1886,9 +1904,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 26.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 25.9
       }
     },
     {
@@ -1904,9 +1922,9 @@
       "location": "Holmängen A-plan(Pojkar Div 8 Alingsås)",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 25.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 25.1
       }
     },
     {
@@ -1922,9 +1940,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 25.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 25.1
       }
     },
     {
@@ -1940,9 +1958,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 24.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 24.1
       }
     },
     {
@@ -1958,9 +1976,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 24.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 24.1
       }
     },
     {
@@ -1976,9 +1994,9 @@
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 24.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 24.1
       }
     },
     {
@@ -1996,7 +2014,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 28.7
+        "temp": 28.5
       }
     },
     {
@@ -2012,9 +2030,9 @@
       "location": "Kronäng Arena(Flickor Div 5 Kinna)",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 27.7
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 30.1
       }
     },
     {
@@ -2032,7 +2050,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 26.7
+        "temp": 28.3
       }
     },
     {
