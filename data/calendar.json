@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22T20:20:33.790976",
+  "last_updated": "2026-06-22T22:22:32.626980",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1669,11 +1669,7 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 22.8
-      }
+      "weather": null
     },
     {
       "date": "2026-06-22",
@@ -1687,11 +1683,7 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 22.1
-      }
+      "weather": null
     },
     {
       "date": "2026-06-22",
@@ -1705,11 +1697,7 @@
       "description": "Träning+Spelarråd kl.18:45",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 22.1
-      }
+      "weather": null
     },
     {
       "date": "2026-06-23",
@@ -1726,7 +1714,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 25.3
+        "temp": 25.4
       }
     },
     {
@@ -1744,7 +1732,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 25.3
+        "temp": 25.4
       }
     },
     {
@@ -1762,7 +1750,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 25.3
+        "temp": 25.4
       }
     },
     {
@@ -1780,7 +1768,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.6
+        "temp": 24.8
       }
     },
     {
@@ -1798,7 +1786,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.0
+        "temp": 23.9
       }
     },
     {
@@ -1816,7 +1804,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.0
+        "temp": 23.9
       }
     },
     {
@@ -1832,8 +1820,8 @@
       "location": "Gårdavallen A-plan(Damer, Div 3 Södra)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 23.8
       }
     },
@@ -1850,8 +1838,8 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 23.8
       }
     },
@@ -1868,8 +1856,8 @@
       "location": "Gårdavallen A-plan(Damer, Div 3 Södra)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 23.8
       }
     },
@@ -2029,7 +2017,11 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 21.7
+      }
     },
     {
       "date": "2026-06-30",
