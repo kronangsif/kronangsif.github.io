@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-22T23:51:38.402314",
+  "last_updated": "2026-06-23T04:07:51.808693",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
-  "activity_count": 141,
+  "activity_count": 140,
   "activities": [
     {
       "date": "2026-06-01",
@@ -1714,7 +1714,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 25.2
+        "temp": 24.8
       }
     },
     {
@@ -1732,7 +1732,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 25.2
+        "temp": 24.8
       }
     },
     {
@@ -1750,7 +1750,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 25.2
+        "temp": 24.8
       }
     },
     {
@@ -1768,7 +1768,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.5
+        "temp": 24.1
       }
     },
     {
@@ -1786,25 +1786,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.6
-      }
-    },
-    {
-      "date": "2026-06-23",
-      "day": "23",
-      "weekday": "tis",
-      "time": "19:15",
-      "end_time": "",
-      "team": "P2009-2010",
-      "team_id": "224798",
-      "type": "Match",
-      "description": "Hestrafors IF  hemma",
-      "location": "Kronäng Arena konstgräs 1(Pojkar Div 4 Borås)",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 23.6
+        "temp": 23.3
       }
     },
     {
@@ -1822,7 +1804,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.3
+        "temp": 23.8
       }
     },
     {
@@ -1840,7 +1822,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.3
+        "temp": 23.8
       }
     },
     {
@@ -1858,7 +1840,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.3
+        "temp": 23.8
       }
     },
     {
