@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-23T07:59:09.605310",
+  "last_updated": "2026-06-23T11:26:24.802466",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
-  "activity_count": 140,
+  "activity_count": 142,
   "activities": [
     {
       "date": "2026-06-01",
@@ -422,6 +422,34 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-04",
+      "day": "04",
+      "weekday": "tor",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "Dam",
+      "team_id": "52695",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-04",
+      "day": "04",
+      "weekday": "tor",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "Dam",
+      "team_id": "52695",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": null
     },
@@ -1714,7 +1742,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.8
+        "temp": 24.5
       }
     },
     {
@@ -1732,7 +1760,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.8
+        "temp": 24.5
       }
     },
     {
@@ -1750,7 +1778,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.8
+        "temp": 24.5
       }
     },
     {
@@ -1768,7 +1796,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.2
+        "temp": 23.6
       }
     },
     {
@@ -1786,7 +1814,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.2
+        "temp": 23.0
       }
     },
     {
@@ -1856,9 +1884,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 26.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 28.0
       }
     },
     {
@@ -1874,9 +1902,9 @@
       "location": "Holmängen A-plan(Pojkar Div 8 Alingsås)",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 25.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 27.4
       }
     },
     {
@@ -1892,9 +1920,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 25.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 27.4
       }
     },
     {
@@ -1912,7 +1940,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 23.2
+        "temp": 25.8
       }
     },
     {
@@ -1930,7 +1958,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 23.2
+        "temp": 25.8
       }
     },
     {
@@ -1948,7 +1976,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 23.2
+        "temp": 25.8
       }
     },
     {
