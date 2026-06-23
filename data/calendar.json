@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T18:55:58.418813",
+  "last_updated": "2026-06-23T21:04:33.862719",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1832,7 +1832,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.1
+        "temp": 23.9
       }
     },
     {
@@ -1850,7 +1850,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.1
+        "temp": 23.9
       }
     },
     {
@@ -1868,7 +1868,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.1
+        "temp": 23.9
       }
     },
     {
@@ -1886,7 +1886,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 28.2
+        "temp": 28.1
       }
     },
     {
@@ -1904,7 +1904,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 27.6
+        "temp": 27.5
       }
     },
     {
@@ -1922,7 +1922,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 27.0
+        "temp": 26.9
       }
     },
     {
@@ -1940,7 +1940,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 27.0
+        "temp": 26.9
       }
     },
     {
@@ -1958,7 +1958,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 27.0
+        "temp": 26.9
       }
     },
     {
@@ -1976,7 +1976,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 27.4
+        "temp": 27.8
       }
     },
     {
@@ -1992,9 +1992,9 @@
       "location": "Kronäng Arena konstgräs 1(Herrar, Utveckling B Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 27.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 25.0
       }
     },
     {
@@ -2012,7 +2012,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 22.3
+        "temp": 20.9
       }
     },
     {
