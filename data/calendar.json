@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T23:42:08.710968",
+  "last_updated": "2026-06-24T01:47:14.615661",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1812,7 +1812,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.3
+        "temp": 22.8
       }
     },
     {
@@ -1830,7 +1830,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.3
+        "temp": 22.8
       }
     },
     {
@@ -1848,7 +1848,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.3
+        "temp": 22.8
       }
     },
     {
@@ -1866,7 +1866,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 28.1
+        "temp": 28.0
       }
     },
     {
@@ -1884,7 +1884,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 27.5
+        "temp": 27.3
       }
     },
     {
@@ -1902,7 +1902,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 26.6
+        "temp": 26.4
       }
     },
     {
@@ -1920,7 +1920,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 26.6
+        "temp": 26.4
       }
     },
     {
@@ -1938,7 +1938,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 26.6
+        "temp": 26.4
       }
     },
     {
@@ -1956,7 +1956,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 27.8
+        "temp": 28.3
       }
     },
     {
@@ -1972,9 +1972,9 @@
       "location": "Kronäng Arena konstgräs 1(Herrar, Utveckling B Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 25.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 30.7
       }
     },
     {
@@ -1990,9 +1990,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 20.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 22.2
       }
     },
     {
