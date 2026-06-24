@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T01:47:14.615661",
+  "last_updated": "2026-06-24T06:12:56.953164",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1812,7 +1812,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.8
+        "temp": 23.4
       }
     },
     {
@@ -1830,7 +1830,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.8
+        "temp": 23.4
       }
     },
     {
@@ -1848,7 +1848,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.8
+        "temp": 23.4
       }
     },
     {
@@ -1864,9 +1864,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 28.0
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 27.9
       }
     },
     {
@@ -1882,9 +1882,9 @@
       "location": "Holmängen A-plan(Pojkar Div 8 Alingsås)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 27.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 27.4
       }
     },
     {
@@ -1900,9 +1900,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 26.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 26.6
       }
     },
     {
@@ -1918,9 +1918,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 26.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 26.6
       }
     },
     {
@@ -1936,9 +1936,9 @@
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 26.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 26.6
       }
     },
     {
