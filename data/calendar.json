@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T21:00:40.727532",
+  "last_updated": "2026-06-24T22:40:57.650698",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1851,11 +1851,7 @@
       "description": "Toarpsalliansen borta",
       "location": "Gårdavallen A-plan(Damer, Div 3 Södra)",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 24.1
-      }
+      "weather": null
     },
     {
       "date": "2026-06-24",
@@ -1869,11 +1865,7 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 24.1
-      }
+      "weather": null
     },
     {
       "date": "2026-06-24",
@@ -1887,11 +1879,7 @@
       "description": "Toarpsalliansen borta",
       "location": "Gårdavallen A-plan(Damer, Div 3 Södra)",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 24.1
-      }
+      "weather": null
     },
     {
       "date": "2026-06-25",
@@ -1908,7 +1896,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 28.5
+        "temp": 28.7
       }
     },
     {
@@ -1924,9 +1912,9 @@
       "location": "Holmängen A-plan(Pojkar Div 8 Alingsås)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 27.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 28.0
       }
     },
     {
@@ -1942,9 +1930,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 27.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 27.4
       }
     },
     {
@@ -1960,9 +1948,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 27.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 27.4
       }
     },
     {
@@ -1978,9 +1966,9 @@
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 27.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 27.4
       }
     },
     {
