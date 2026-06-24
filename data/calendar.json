@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-24T06:12:56.953164",
+  "last_updated": "2026-06-24T09:53:06.854275",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
-  "activity_count": 141,
+  "activity_count": 144,
   "activities": [
     {
       "date": "2026-06-01",
@@ -111,6 +111,20 @@
       "end_time": "18:00",
       "team": "Fotbollsskolan födda 2018",
       "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-02",
+      "day": "02",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2019",
+      "team_id": "0",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
@@ -808,6 +822,20 @@
       "day": "09",
       "weekday": "tis",
       "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2019",
+      "team_id": "0",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-09",
+      "day": "09",
+      "weekday": "tis",
+      "time": "17:30",
       "end_time": "18:45",
       "team": "Fotbollsskolan födda 2019",
       "team_id": "0",
@@ -881,6 +909,20 @@
       "end_time": "19:00",
       "team": "P2016",
       "team_id": "414417",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-09",
+      "day": "09",
+      "weekday": "tis",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "Dam",
+      "team_id": "52695",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
@@ -1494,6 +1536,20 @@
       "day": "16",
       "weekday": "tis",
       "time": "19:00",
+      "end_time": "20:30",
+      "team": "Dam",
+      "team_id": "52695",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-16",
+      "day": "16",
+      "weekday": "tis",
+      "time": "19:00",
       "end_time": "20:15",
       "team": "Herr",
       "team_id": "38937",
@@ -1553,20 +1609,6 @@
       "end_time": "19:00",
       "team": "F2013/2014",
       "team_id": "374981",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena B-plan",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-06-17",
-      "day": "17",
-      "weekday": "ons",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "Fotbollsskolan födda 2017",
-      "team_id": "481208",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
@@ -1640,20 +1682,6 @@
       "type": "Träning",
       "description": "Träning på björkehov",
       "location": "Björkehov Södra Granbäcksvägen 9, 504 95 Borås",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-06-21",
-      "day": "21",
-      "weekday": "sön",
-      "time": "00:00",
-      "end_time": "",
-      "team": "F2013/2014",
-      "team_id": "374981",
-      "type": "Match",
-      "description": "Ospecificerat lag (10) hemma",
-      "location": "Kronäng Arena(Flickor Div 5 Kinna)",
       "lockerooms": null,
       "weather": null
     },
@@ -1798,6 +1826,20 @@
       "weather": null
     },
     {
+      "date": "2026-06-23",
+      "day": "23",
+      "weekday": "tis",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "Dam",
+      "team_id": "52695",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
       "date": "2026-06-24",
       "day": "24",
       "weekday": "ons",
@@ -1812,7 +1854,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.4
+        "temp": 23.8
       }
     },
     {
@@ -1830,7 +1872,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.4
+        "temp": 23.8
       }
     },
     {
@@ -1848,7 +1890,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.4
+        "temp": 23.8
       }
     },
     {
@@ -1866,7 +1908,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 27.9
+        "temp": 28.0
       }
     },
     {
@@ -1882,9 +1924,9 @@
       "location": "Holmängen A-plan(Pojkar Div 8 Alingsås)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 27.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 27.5
       }
     },
     {
@@ -1902,7 +1944,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 26.6
+        "temp": 26.9
       }
     },
     {
@@ -1920,7 +1962,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 26.6
+        "temp": 26.9
       }
     },
     {
@@ -1938,7 +1980,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 26.6
+        "temp": 26.9
       }
     },
     {
@@ -1954,9 +1996,9 @@
       "location": "Örby IP A(Pojkar Div 5 Mark)",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 28.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 27.6
       }
     },
     {
@@ -1972,9 +2014,9 @@
       "location": "Kronäng Arena konstgräs 1(Herrar, Utveckling B Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 30.7
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 28.8
       }
     },
     {
@@ -1990,8 +2032,8 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 22.2
       }
     },
@@ -2008,9 +2050,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 19.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 20.6
       }
     },
     {
@@ -2026,25 +2068,25 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 19.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 20.6
       }
     }
   ],
   "latest_news": [
     {
       "title": "Namnbricka på Kronängs IF anno 1946",
-      "published_at": "2026-06-23 16:44",
+      "published_at": "2026-06-24",
       "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1349516",
       "image": "",
       "summary": "Nu kan man stötta Kronängs IF som fyller 80år detta med en namnbricka för 1946kr + adminavgift Om man vill vara med o stötta vår förening finns anmälan på vår hemsida www.kronangsif.se"
     },
     {
-      "title": "Veckans hemmamatcher",
-      "published_at": "2026-06-22",
-      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1339545",
-      "image": "",
+      "title": "Vad händer 22augusti :)",
+      "published_at": "2026-06-23",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1349574",
+      "image": "https://cdn.sportadmin.se/559/h/200/fc50a17bae5676abdffec675d57c247a4f642f6c347e9b79e51ec27ce22b8a64_L.jpg",
       "summary": ""
     }
   ]
