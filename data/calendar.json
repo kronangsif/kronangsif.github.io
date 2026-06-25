@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-25T10:49:58.470608",
+  "last_updated": "2026-06-25T13:22:58.830635",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
-  "activity_count": 144,
+  "activity_count": 145,
   "activities": [
     {
       "date": "2026-06-01",
@@ -1896,7 +1896,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 27.9
+        "temp": 27.7
       }
     },
     {
@@ -1914,7 +1914,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 27.3
+        "temp": 26.9
       }
     },
     {
@@ -1932,7 +1932,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 26.8
+        "temp": 26.1
       }
     },
     {
@@ -1950,7 +1950,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 26.8
+        "temp": 26.1
       }
     },
     {
@@ -1968,7 +1968,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 26.8
+        "temp": 26.1
       }
     },
     {
@@ -1986,7 +1986,25 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 29.4
+        "temp": 29.0
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "day": "28",
+      "weekday": "sön",
+      "time": "18:00",
+      "end_time": "19:30",
+      "team": "Dam",
+      "team_id": "52695",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 29.0
       }
     },
     {
@@ -2002,9 +2020,9 @@
       "location": "Kronäng Arena konstgräs 1(Herrar, Utveckling B Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 27.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 29.0
       }
     },
     {
@@ -2022,7 +2040,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.8
+        "temp": 18.4
       }
     },
     {
@@ -2040,7 +2058,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 19.9
+        "temp": 19.3
       }
     },
     {
@@ -2058,7 +2076,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 19.9
+        "temp": 19.3
       }
     }
   ],
