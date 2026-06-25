@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T23:51:51.135752",
+  "last_updated": "2026-06-25T04:11:19.805415",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1896,7 +1896,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 28.6
+        "temp": 28.7
       }
     },
     {
@@ -1914,7 +1914,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 27.9
+        "temp": 28.0
       }
     },
     {
@@ -1930,9 +1930,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 27.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 27.2
       }
     },
     {
@@ -1948,9 +1948,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 27.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 27.2
       }
     },
     {
@@ -1966,9 +1966,9 @@
       "location": "Kronäng Arena konstgräs 1(Herrar, Div 5 Sydvästra)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 27.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 27.2
       }
     },
     {
@@ -1984,9 +1984,9 @@
       "location": "Örby IP A(Pojkar Div 5 Mark)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 28.7
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 30.3
       }
     },
     {
@@ -2002,9 +2002,9 @@
       "location": "Kronäng Arena konstgräs 1(Herrar, Utveckling B Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 30.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 27.8
       }
     },
     {
@@ -2020,9 +2020,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 21.2
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 20.4
       }
     },
     {
@@ -2038,9 +2038,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 20.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 25.1
       }
     },
     {
@@ -2056,9 +2056,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 20.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 25.1
       }
     }
   ],
