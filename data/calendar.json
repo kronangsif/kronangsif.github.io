@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T04:11:19.805415",
+  "last_updated": "2026-06-25T07:55:49.292431",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1896,7 +1896,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 28.7
+        "temp": 28.5
       }
     },
     {
@@ -1914,7 +1914,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 28.0
+        "temp": 27.8
       }
     },
     {
@@ -1932,7 +1932,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 27.2
+        "temp": 27.1
       }
     },
     {
@@ -1950,7 +1950,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 27.2
+        "temp": 27.1
       }
     },
     {
@@ -1968,7 +1968,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 27.2
+        "temp": 27.1
       }
     },
     {
@@ -1986,7 +1986,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 30.3
+        "temp": 29.2
       }
     },
     {
@@ -2002,8 +2002,8 @@
       "location": "Kronäng Arena konstgräs 1(Herrar, Utveckling B Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 27.8
       }
     },
@@ -2038,8 +2038,8 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 25.1
       }
     },
@@ -2056,8 +2056,8 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 25.1
       }
     }
