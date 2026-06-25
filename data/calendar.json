@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T22:11:19.976078",
+  "last_updated": "2026-06-25T23:47:15.170575",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1966,7 +1966,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 28.6
+        "temp": 28.5
       }
     },
     {
@@ -1997,7 +1997,7 @@
       "team_id": "38937",
       "type": "Match",
       "description": "Borås GIF U hemma",
-      "location": "Almåshallen()",
+      "location": "Kronängs Arena()",
       "lockerooms": null,
       "weather": {
         "icon": "⛅",
