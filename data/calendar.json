@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-26T08:09:02.348674",
+  "last_updated": "2026-06-26T11:15:29.167491",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
-  "activity_count": 145,
+  "activity_count": 146,
   "activities": [
     {
       "date": "2026-06-01",
@@ -1858,6 +1858,20 @@
       "day": "24",
       "weekday": "ons",
       "time": "19:00",
+      "end_time": "20:30",
+      "team": "Dam",
+      "team_id": "52695",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-24",
+      "day": "24",
+      "weekday": "ons",
+      "time": "19:00",
       "end_time": "20:15",
       "team": "Herr",
       "team_id": "38937",
@@ -1964,9 +1978,9 @@
       "location": "Örby IP A(Pojkar Div 5 Mark)",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 29.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 29.3
       }
     },
     {
@@ -1982,9 +1996,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 26.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 28.8
       }
     },
     {
@@ -2000,9 +2014,9 @@
       "location": "Kronängs Arena()",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 26.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 28.8
       }
     },
     {
