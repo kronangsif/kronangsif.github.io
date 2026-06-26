@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T04:17:56.016941",
+  "last_updated": "2026-06-26T08:09:02.348674",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1966,7 +1966,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 29.0
+        "temp": 29.1
       }
     },
     {
@@ -1982,9 +1982,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 29.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 26.6
       }
     },
     {
@@ -2000,9 +2000,9 @@
       "location": "Kronängs Arena()",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 29.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 26.6
       }
     },
     {
@@ -2018,9 +2018,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 18.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.4
       }
     },
     {
@@ -2036,9 +2036,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 23.2
       }
     },
     {
@@ -2054,9 +2054,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 23.2
       }
     }
   ],
