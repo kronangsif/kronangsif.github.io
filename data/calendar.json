@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T21:43:11.588413",
+  "last_updated": "2026-06-26T22:54:51.436980",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1978,9 +1978,9 @@
       "location": "Örby IP A(Pojkar Div 5 Mark)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 29.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 29.0
       }
     },
     {
@@ -1998,7 +1998,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 28.7
+        "temp": 28.9
       }
     },
     {
@@ -2016,7 +2016,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 28.7
+        "temp": 28.9
       }
     },
     {
