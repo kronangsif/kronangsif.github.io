@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28T21:40:43.337745",
+  "last_updated": "2026-06-28T22:44:50.704232",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -1991,11 +1991,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 25.3
-      }
+      "weather": null
     },
     {
       "date": "2026-06-28",
@@ -2009,11 +2005,7 @@
       "description": "Borås GIF U hemma",
       "location": "Kronängs Arena()",
       "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 25.3
-      }
+      "weather": null
     },
     {
       "date": "2026-06-29",
@@ -2030,7 +2022,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.5
+        "temp": 21.4
       }
     },
     {
@@ -2048,7 +2040,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.5
+        "temp": 21.4
       }
     },
     {
@@ -2066,7 +2058,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.9
+        "temp": 22.8
       }
     },
     {
@@ -2084,7 +2076,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.9
+        "temp": 22.8
       }
     }
   ],
