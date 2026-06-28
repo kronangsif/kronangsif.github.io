@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-28T14:17:19.381273",
+  "last_updated": "2026-06-28T15:52:12.497813",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
-  "activity_count": 146,
+  "activity_count": 147,
   "activities": [
     {
       "date": "2026-06-01",
@@ -1992,9 +1992,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 25.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 25.1
       }
     },
     {
@@ -2010,9 +2010,9 @@
       "location": "Kronängs Arena()",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 25.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 25.1
       }
     },
     {
@@ -2030,7 +2030,25 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.3
+        "temp": 21.1
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "day": "29",
+      "weekday": "mån",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "P2011",
+      "team_id": "260562",
+      "type": "Träning",
+      "description": "Träning utomhus",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 21.1
       }
     },
     {
@@ -2048,7 +2066,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.6
+        "temp": 21.8
       }
     },
     {
@@ -2066,7 +2084,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.6
+        "temp": 21.8
       }
     }
   ],
