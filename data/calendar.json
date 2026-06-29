@@ -1,10 +1,24 @@
 {
-  "last_updated": "2026-06-29T09:53:56.807177",
+  "last_updated": "2026-06-29T14:11:37.357555",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
-  "activity_count": 157,
+  "activity_count": 169,
   "activities": [
+    {
+      "date": "2026-06-01",
+      "day": "01",
+      "weekday": "mån",
+      "time": "17:00",
+      "end_time": "18:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
     {
       "date": "2026-06-01",
       "day": "01",
@@ -527,6 +541,34 @@
       "date": "2026-06-05",
       "day": "05",
       "weekday": "fre",
+      "time": "16:00",
+      "end_time": "17:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Öckerö",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-05",
+      "day": "05",
+      "weekday": "fre",
+      "time": "17:00",
+      "end_time": "19:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Öckerö",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-05",
+      "day": "05",
+      "weekday": "fre",
       "time": "17:00",
       "end_time": "23:59",
       "team": "P 2015",
@@ -590,6 +632,34 @@
       "type": "Övrigt",
       "description": "Möte",
       "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-06",
+      "day": "06",
+      "weekday": "lör",
+      "time": "16:00",
+      "end_time": "17:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Öckerö",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-06",
+      "day": "06",
+      "weekday": "lör",
+      "time": "17:00",
+      "end_time": "19:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Öckerö",
       "lockerooms": null,
       "weather": null
     },
@@ -695,6 +765,34 @@
       "date": "2026-06-07",
       "day": "07",
       "weekday": "sön",
+      "time": "16:00",
+      "end_time": "17:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Öckerö",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-07",
+      "day": "07",
+      "weekday": "sön",
+      "time": "17:00",
+      "end_time": "19:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Öckerö",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-07",
+      "day": "07",
+      "weekday": "sön",
       "time": "18:00",
       "end_time": "",
       "team": "F2013/2014",
@@ -757,6 +855,20 @@
       "team_id": "181941",
       "type": "Övrigt",
       "description": "Möte",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-08",
+      "day": "08",
+      "weekday": "mån",
+      "time": "17:00",
+      "end_time": "18:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": null
@@ -1465,6 +1577,20 @@
       "date": "2026-06-15",
       "day": "15",
       "weekday": "mån",
+      "time": "17:00",
+      "end_time": "18:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-15",
+      "day": "15",
+      "weekday": "mån",
       "time": "17:30",
       "end_time": "19:00",
       "team": "F2013/2014",
@@ -1815,6 +1941,20 @@
       "date": "2026-06-22",
       "day": "22",
       "weekday": "mån",
+      "time": "17:00",
+      "end_time": "18:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-06-22",
+      "day": "22",
+      "weekday": "mån",
       "time": "18:45",
       "end_time": "20:45",
       "team": "P2012",
@@ -2151,6 +2291,24 @@
       "date": "2026-06-29",
       "day": "29",
       "weekday": "mån",
+      "time": "17:00",
+      "end_time": "18:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 23.4
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "day": "29",
+      "weekday": "mån",
       "time": "19:00",
       "end_time": "20:45",
       "team": "Herr",
@@ -2162,7 +2320,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.6
+        "temp": 21.8
       }
     },
     {
@@ -2180,7 +2338,25 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.6
+        "temp": 21.8
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "day": "30",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "21:00",
+      "team": "Dam",
+      "team_id": "52695",
+      "type": "Träning",
+      "description": "Träning och mat",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 21.7
       }
     },
     {
@@ -2198,7 +2374,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.1
+        "temp": 21.4
       }
     },
     {
@@ -2216,7 +2392,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.1
+        "temp": 21.4
       }
     }
   ],
