@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T21:09:50.935979",
+  "last_updated": "2026-06-29T22:32:54.753910",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 6,
   "year": 2026,
@@ -2257,11 +2257,7 @@
       "description": "Inställd Träning ikväll",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 21.4
-      }
+      "weather": null
     },
     {
       "date": "2026-06-29",
@@ -2275,11 +2271,7 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 21.4
-      }
+      "weather": null
     },
     {
       "date": "2026-06-30",
@@ -2296,7 +2288,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.8
+        "temp": 21.4
       }
     },
     {
@@ -2314,7 +2306,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.6
+        "temp": 21.2
       }
     },
     {
@@ -2332,7 +2324,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.6
+        "temp": 21.2
       }
     }
   ],
