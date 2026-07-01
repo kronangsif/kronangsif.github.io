@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T08:53:42.654396",
+  "last_updated": "2026-07-01T12:13:06.300550",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 7,
   "year": 2026,
@@ -18,9 +18,9 @@
       "location": "Katebovallen A(Damer, Div 3 Södra)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 22.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 24.1
       }
     },
     {
@@ -36,9 +36,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 22.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 24.1
       }
     },
     {
@@ -54,9 +54,9 @@
       "location": "Katebovallen A(Damer, Div 3 Södra)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 22.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 24.1
       }
     },
     {
@@ -74,7 +74,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 15.7
+        "temp": 16.4
       }
     },
     {
@@ -92,7 +92,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.2
+        "temp": 15.1
       }
     },
     {
