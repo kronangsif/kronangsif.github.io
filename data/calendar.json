@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02T21:50:35.372293",
+  "last_updated": "2026-07-02T23:15:11.478519",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 7,
   "year": 2026,
@@ -59,11 +59,7 @@
       "description": "Fritsla IF borta",
       "location": "Kungaberg A(Herrar, Div 5 Sydvästra)",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.0
-      }
+      "weather": null
     },
     {
       "date": "2026-07-06",
