@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02T15:33:02.422899",
+  "last_updated": "2026-07-02T17:20:43.660946",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 7,
   "year": 2026,
@@ -61,7 +61,7 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
+        "desc": "Dis",
         "temp": 15.8
       }
     },
