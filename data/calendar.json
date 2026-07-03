@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03T20:04:25.076856",
+  "last_updated": "2026-07-03T21:33:40.761392",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 7,
   "year": 2026,
@@ -16,8 +16,7 @@
       "type": "Match",
       "description": "IK Frisco U borta",
       "location": "Katebovallen A(Damer, Div 3 Södra)",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-01",
@@ -30,8 +29,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-01",
@@ -44,8 +42,7 @@
       "type": "Match",
       "description": "IK Frisco U borta",
       "location": "Katebovallen A(Damer, Div 3 Södra)",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-02",
@@ -58,8 +55,7 @@
       "type": "Match",
       "description": "Fritsla IF borta",
       "location": "Kungaberg A(Herrar, Div 5 Sydvästra)",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-06",
@@ -72,12 +68,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "lockerooms": null,
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.9
-      }
+      "lockerooms": null
     },
     {
       "date": "2026-07-08",
@@ -90,12 +81,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "lockerooms": null,
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.1
-      }
+      "lockerooms": null
     },
     {
       "date": "2026-07-13",
@@ -108,8 +94,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-13",
@@ -122,8 +107,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-15",
@@ -136,8 +120,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-15",
@@ -150,8 +133,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-20",
@@ -164,8 +146,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-20",
@@ -178,8 +159,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-22",
@@ -192,8 +172,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-22",
@@ -206,8 +185,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-27",
@@ -220,8 +198,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-27",
@@ -234,8 +211,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-29",
@@ -248,8 +224,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-29",
@@ -262,8 +237,7 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-30",
@@ -276,8 +250,7 @@
       "type": "Övrigt",
       "description": "Skarasommarland Cup",
       "location": "Skara (Samlingsplats - Kronäng Arena)",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-30",
@@ -290,8 +263,7 @@
       "type": "Övrigt",
       "description": "Skara sommarcup",
       "location": "Kronängs Arena",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-31",
@@ -304,8 +276,7 @@
       "type": "Övrigt",
       "description": "Skarasommarland Cup",
       "location": "Skara (Samlingsplats - Kronäng Arena)",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     },
     {
       "date": "2026-07-31",
@@ -318,8 +289,7 @@
       "type": "Match",
       "description": "BOULE hemma",
       "location": "Kronängs Arena Boule()",
-      "lockerooms": null,
-      "weather": null
+      "lockerooms": null
     }
   ],
   "latest_news": [
