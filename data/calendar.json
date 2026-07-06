@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-07-06T12:29:49.010010",
+  "last_updated": "2026-07-06T16:06:41.392177",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 7,
   "year": 2026,
-  "activity_count": 14,
+  "activity_count": 15,
   "activities": [
     {
       "date": "2026-07-01",
@@ -60,6 +60,24 @@
       "location": "Kungaberg A(Herrar, Div 5 Sydvästra)",
       "lockerooms": null,
       "weather": null
+    },
+    {
+      "date": "2026-07-08",
+      "day": "08",
+      "weekday": "ons",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "P2009-2010",
+      "team_id": "224798",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 22.6
+      }
     },
     {
       "date": "2026-07-13",
