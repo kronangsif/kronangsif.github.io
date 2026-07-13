@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12T23:10:35.956471",
+  "last_updated": "2026-07-13T00:12:22.047950",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 7,
   "year": 2026,
@@ -102,9 +102,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 26.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 26.8
       }
     },
     {
