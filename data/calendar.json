@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16T21:47:06.869294",
+  "last_updated": "2026-07-16T23:03:23.563286",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 7,
   "year": 2026,
@@ -101,11 +101,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 30.1
-      }
+      "weather": null
     },
     {
       "date": "2026-07-20",
