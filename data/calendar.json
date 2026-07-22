@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21T23:33:48.618480",
+  "last_updated": "2026-07-22T01:09:09.596938",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 7,
   "year": 2026,
@@ -132,7 +132,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.4
+        "temp": 17.9
       }
     },
     {
@@ -150,7 +150,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.2
+        "temp": 18.4
       }
     },
     {
@@ -168,7 +168,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.4
+        "temp": 17.5
       }
     },
     {
