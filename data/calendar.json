@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-07-24T21:39:20.285833",
+  "last_updated": "2026-07-24T22:43:56.349206",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 7,
   "year": 2026,
-  "activity_count": 15,
+  "activity_count": 16,
   "activities": [
     {
       "date": "2026-07-01",
@@ -150,6 +150,24 @@
       }
     },
     {
+      "date": "2026-07-27",
+      "day": "27",
+      "weekday": "mån",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Extra träning försäsong.",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.9
+      }
+    },
+    {
       "date": "2026-07-29",
       "day": "29",
       "weekday": "ons",
@@ -225,7 +243,11 @@
       "description": "BOULE hemma",
       "location": "Kronängs Arena Boule()",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.8
+      }
     }
   ],
   "latest_news": [
