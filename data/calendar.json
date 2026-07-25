@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25T14:39:49.687833",
+  "last_updated": "2026-07-25T15:48:09.868672",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 7,
   "year": 2026,
@@ -146,7 +146,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 19.0
+        "temp": 19.1
       }
     },
     {
@@ -164,7 +164,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 19.0
+        "temp": 19.1
       }
     },
     {
@@ -252,18 +252,18 @@
   ],
   "latest_news": [
     {
+      "title": "Månadsbrev",
+      "published_at": "2026-07-25 17:05",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1352947",
+      "image": "",
+      "summary": ""
+    },
+    {
       "title": "Vad händer 22augusti ?     Kronängs IF 80årsfirande :)",
       "published_at": "2026-06-26",
       "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1349574",
       "image": "https://cdn.sportadmin.se/559/h/200/fc50a17bae5676abdffec675d57c247a4f642f6c347e9b79e51ec27ce22b8a64_L.jpg",
       "summary": ""
-    },
-    {
-      "title": "Namnbricka på Kronängs IF anno 1946",
-      "published_at": "2026-06-24",
-      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1349516",
-      "image": "",
-      "summary": "Nu kan man stötta Kronängs IF som fyller 80år detta med en namnbricka för 1946kr + adminavgift Om man vill vara med o stötta vår förening finns anmälan på vår hemsida www.kronangsif.se"
     }
   ]
 }
