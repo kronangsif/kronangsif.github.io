@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28T21:42:00.627377",
+  "last_updated": "2026-07-28T22:43:39.240174",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 7,
   "year": 2026,
@@ -186,9 +186,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 23.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 23.5
       }
     },
     {
@@ -204,9 +204,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 23.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 23.8
       }
     },
     {
@@ -236,9 +236,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 30.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 30.3
       }
     },
     {
@@ -268,9 +268,9 @@
       "location": "Kronängs Arena Boule()",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 15.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 15.8
       }
     }
   ],
