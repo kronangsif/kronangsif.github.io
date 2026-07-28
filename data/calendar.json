@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-07-28T18:49:01.467484",
+  "last_updated": "2026-07-28T20:20:17.528898",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 7,
   "year": 2026,
-  "activity_count": 17,
+  "activity_count": 18,
   "activities": [
     {
       "date": "2026-07-01",
@@ -177,6 +177,24 @@
       "date": "2026-07-29",
       "day": "29",
       "weekday": "ons",
+      "time": "16:00",
+      "end_time": "17:30",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Extra Träning försäsong",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 23.6
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "day": "29",
+      "weekday": "ons",
       "time": "17:30",
       "end_time": "19:00",
       "team": "F2013/2014",
@@ -188,7 +206,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 23.5
+        "temp": 23.4
       }
     },
     {
@@ -252,7 +270,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.5
+        "temp": 15.4
       }
     }
   ],
