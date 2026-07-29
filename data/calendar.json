@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29T10:19:36.038202",
+  "last_updated": "2026-07-29T12:32:15.660096",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 7,
   "year": 2026,
@@ -188,7 +188,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 24.3
+        "temp": 24.2
       }
     },
     {
@@ -206,7 +206,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 24.3
+        "temp": 24.2
       }
     },
     {
@@ -270,7 +270,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.6
+        "temp": 16.5
       }
     }
   ],
