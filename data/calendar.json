@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29T07:32:39.148181",
+  "last_updated": "2026-07-29T10:19:36.038202",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 7,
   "year": 2026,
@@ -179,6 +179,24 @@
       "weekday": "ons",
       "time": "16:00",
       "end_time": "17:30",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 24.3
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "day": "29",
+      "weekday": "ons",
+      "time": "16:00",
+      "end_time": "17:30",
       "team": "P 2015",
       "team_id": "56158",
       "type": "Träning",
@@ -188,25 +206,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 23.9
-      }
-    },
-    {
-      "date": "2026-07-29",
-      "day": "29",
-      "weekday": "ons",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "F2013/2014",
-      "team_id": "374981",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena B-plan",
-      "lockerooms": null,
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 24.1
+        "temp": 24.3
       }
     },
     {
@@ -238,7 +238,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 30.9
+        "temp": 31.2
       }
     },
     {
@@ -268,9 +268,9 @@
       "location": "Kronängs Arena Boule()",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 16.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.6
       }
     }
   ],
