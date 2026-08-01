@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-01T21:06:13.751001",
+  "last_updated": "2026-08-01T22:12:42.318761",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 8,
   "year": 2026,
@@ -31,11 +31,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 20.7
-      }
+      "weather": null
     },
     {
       "date": "2026-08-02",
@@ -64,9 +60,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 20.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 21.0
       }
     },
     {
@@ -82,9 +78,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 20.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 21.0
       }
     },
     {
@@ -100,9 +96,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 20.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 20.7
       }
     },
     {
@@ -405,7 +401,11 @@
       "description": "Mariedal Cup",
       "location": "Kransmossen",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.3
+      }
     },
     {
       "date": "2026-08-08",
@@ -419,7 +419,11 @@
       "description": "Skene IF Vit borta",
       "location": "Vävarevallen(Pojkar Div 8 Borås norr)",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 15.7
+      }
     },
     {
       "date": "2026-08-09",
