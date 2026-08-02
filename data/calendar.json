@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-02T06:46:29.792268",
+  "last_updated": "2026-08-02T09:14:10.530415",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 8,
   "year": 2026,
-  "activity_count": 137,
+  "activity_count": 138,
   "activities": [
     {
       "date": "2026-08-01",
@@ -62,7 +62,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 21.2
+        "temp": 21.3
       }
     },
     {
@@ -80,17 +80,17 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 21.2
+        "temp": 21.3
       }
     },
     {
       "date": "2026-08-03",
       "day": "03",
       "weekday": "mån",
-      "time": "18:00",
-      "end_time": "20:00",
-      "team": "P2011",
-      "team_id": "260562",
+      "time": "18:30",
+      "end_time": "20:30",
+      "team": "P2009-2010",
+      "team_id": "224798",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
@@ -98,7 +98,25 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 20.9
+        "temp": 21.0
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "day": "03",
+      "weekday": "mån",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "P2011",
+      "team_id": "260562",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 20.6
       }
     },
     {
@@ -116,7 +134,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 24.8
+        "temp": 25.0
       }
     },
     {
@@ -134,7 +152,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 24.8
+        "temp": 25.0
       }
     },
     {
@@ -1116,12 +1134,12 @@
       "day": "19",
       "weekday": "ons",
       "time": "17:30",
-      "end_time": "",
+      "end_time": "19:00",
       "team": "F2013/2014",
       "team_id": "374981",
-      "type": "Match",
-      "description": "Bredareds IF hemma",
-      "location": "Kronäng Arena(Flickor Div 5 Kinna)",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": null
     },
@@ -1130,12 +1148,12 @@
       "day": "19",
       "weekday": "ons",
       "time": "17:30",
-      "end_time": "19:00",
+      "end_time": "",
       "team": "F2013/2014",
       "team_id": "374981",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena B-plan",
+      "type": "Match",
+      "description": "Bredareds IF hemma",
+      "location": "Kronäng Arena(Flickor Div 5 Kinna)",
       "lockerooms": null,
       "weather": null
     },
@@ -1400,8 +1418,8 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Bergdalens IK Vit hemma",
-      "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
+      "description": "Kinna IF Röd hemma",
+      "location": "Kronäng Arena(Pojkar Div 13 Borås)",
       "lockerooms": null,
       "weather": null
     },
@@ -1414,8 +1432,8 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Kinna IF Röd hemma",
-      "location": "Kronäng Arena(Pojkar Div 13 Borås)",
+      "description": "Bergdalens IK Vit hemma",
+      "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
       "lockerooms": null,
       "weather": null
     },
@@ -1890,8 +1908,8 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Ulricehamns IFK Svart hemma",
-      "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
+      "description": "Hestrafors IF Vit hemma",
+      "location": "Kronäng Arena(Pojkar Div 13 Borås)",
       "lockerooms": null,
       "weather": null
     },
@@ -1904,8 +1922,8 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Hestrafors IF Vit hemma",
-      "location": "Kronäng Arena(Pojkar Div 13 Borås)",
+      "description": "Ulricehamns IFK Svart hemma",
+      "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
       "lockerooms": null,
       "weather": null
     },
