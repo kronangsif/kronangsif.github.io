@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-02T19:57:25.822477",
+  "last_updated": "2026-08-02T21:04:55.712324",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 8,
   "year": 2026,
@@ -206,7 +206,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 25.2
+        "temp": 25.3
       }
     },
     {
