@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-02T22:11:43.935213",
+  "last_updated": "2026-08-02T23:14:34.965576",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 8,
   "year": 2026,
@@ -62,7 +62,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 21.4
+        "temp": 21.5
       }
     },
     {
@@ -80,7 +80,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 21.4
+        "temp": 21.5
       }
     },
     {
@@ -98,7 +98,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 21.3
+        "temp": 21.4
       }
     },
     {
@@ -116,7 +116,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.9
+        "temp": 21.0
       }
     },
     {
@@ -134,7 +134,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 25.6
+        "temp": 25.7
       }
     },
     {
@@ -152,7 +152,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 25.6
+        "temp": 25.7
       }
     },
     {
@@ -170,7 +170,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 25.6
+        "temp": 25.7
       }
     },
     {
@@ -188,7 +188,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 25.5
+        "temp": 25.6
       }
     },
     {
@@ -206,7 +206,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 24.9
+        "temp": 25.0
       }
     },
     {
