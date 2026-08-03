@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T20:15:56.283514",
+  "last_updated": "2026-08-03T21:42:45.342445",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 8,
   "year": 2026,
@@ -132,9 +132,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 24.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 24.6
       }
     },
     {
@@ -150,9 +150,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 24.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 24.6
       }
     },
     {
@@ -168,9 +168,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 24.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 24.6
       }
     },
     {
@@ -186,8 +186,8 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 24.3
       }
     },
@@ -204,9 +204,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 24.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 25.8
       }
     },
     {
@@ -222,9 +222,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 24.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 25.8
       }
     },
     {
@@ -240,9 +240,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 24.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 25.1
       }
     },
     {
@@ -258,9 +258,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 15.6
       }
     },
     {
@@ -276,9 +276,9 @@
       "location": "Helsingör, Danmark",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.0
       }
     },
     {
