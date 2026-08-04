@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04T03:20:19.509850",
+  "last_updated": "2026-08-04T06:11:41.487646",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 8,
   "year": 2026,
@@ -116,9 +116,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 24.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 24.2
       }
     },
     {
@@ -134,9 +134,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 24.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 24.2
       }
     },
     {
@@ -152,9 +152,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 24.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 24.2
       }
     },
     {
@@ -188,9 +188,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 25.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 25.2
       }
     },
     {
@@ -206,9 +206,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 25.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 25.2
       }
     },
     {
@@ -224,9 +224,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 24.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 24.5
       }
     },
     {
@@ -242,9 +242,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.8
       }
     },
     {
@@ -260,9 +260,9 @@
       "location": "Helsingör, Danmark",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 17.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 17.1
       }
     },
     {
