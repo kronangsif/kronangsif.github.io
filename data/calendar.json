@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-04T09:12:20.263074",
+  "last_updated": "2026-08-04T11:35:13.557830",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 8,
   "year": 2026,
-  "activity_count": 138,
+  "activity_count": 146,
   "activities": [
     {
       "date": "2026-08-01",
@@ -118,7 +118,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.7
+        "temp": 25.7
       }
     },
     {
@@ -136,7 +136,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.7
+        "temp": 25.7
       }
     },
     {
@@ -154,7 +154,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.7
+        "temp": 25.7
       }
     },
     {
@@ -170,9 +170,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 22.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 25.1
       }
     },
     {
@@ -190,7 +190,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 23.1
+        "temp": 24.0
       }
     },
     {
@@ -208,7 +208,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 23.1
+        "temp": 24.0
       }
     },
     {
@@ -224,9 +224,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 22.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 23.6
       }
     },
     {
@@ -244,7 +244,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.4
+        "temp": 16.1
       }
     },
     {
@@ -260,9 +260,9 @@
       "location": "Helsingör, Danmark",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.8
       }
     },
     {
@@ -280,7 +280,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.2
+        "temp": 18.9
       }
     },
     {
@@ -298,7 +298,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.2
+        "temp": 18.9
       }
     },
     {
@@ -316,7 +316,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.2
+        "temp": 18.9
       }
     },
     {
@@ -332,9 +332,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.1
       }
     },
     {
@@ -350,9 +350,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 15.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 17.0
       }
     },
     {
@@ -1089,6 +1089,62 @@
       "weekday": "tis",
       "time": "17:30",
       "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2019",
+      "team_id": "0",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-08-18",
+      "day": "18",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan flickor födda 2018",
+      "team_id": "612530",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-08-18",
+      "day": "18",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2020",
+      "team_id": "584817",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-08-18",
+      "day": "18",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-08-18",
+      "day": "18",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
       "team": "P2013",
       "team_id": "324307",
       "type": "Träning",
@@ -1584,6 +1640,62 @@
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-08-25",
+      "day": "25",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2019",
+      "team_id": "0",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-08-25",
+      "day": "25",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan flickor födda 2018",
+      "team_id": "612530",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-08-25",
+      "day": "25",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2020",
+      "team_id": "584817",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-08-25",
+      "day": "25",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": null
     },
