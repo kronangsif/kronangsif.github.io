@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04T13:25:33.058081",
+  "last_updated": "2026-08-04T15:57:39.977032",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 8,
   "year": 2026,
@@ -116,9 +116,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 26.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 27.6
       }
     },
     {
@@ -134,9 +134,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 26.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 27.6
       }
     },
     {
@@ -152,9 +152,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 26.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 27.6
       }
     },
     {
@@ -172,7 +172,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 26.7
+        "temp": 26.9
       }
     },
     {
@@ -190,7 +190,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 24.1
+        "temp": 21.4
       }
     },
     {
@@ -208,7 +208,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 24.1
+        "temp": 21.4
       }
     },
     {
@@ -224,9 +224,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 23.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 22.0
       }
     },
     {
@@ -262,7 +262,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 16.8
+        "temp": 16.7
       }
     },
     {
@@ -280,7 +280,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 18.1
+        "temp": 17.6
       }
     },
     {
@@ -298,7 +298,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 18.1
+        "temp": 17.6
       }
     },
     {
@@ -316,7 +316,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 18.1
+        "temp": 17.6
       }
     },
     {
@@ -334,7 +334,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.5
+        "temp": 17.2
       }
     },
     {
@@ -350,9 +350,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.9
       }
     },
     {
