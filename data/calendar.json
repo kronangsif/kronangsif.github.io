@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04T21:18:37.878778",
+  "last_updated": "2026-08-04T22:37:28.525587",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 8,
   "year": 2026,
@@ -115,11 +115,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 27.6
-      }
+      "weather": null
     },
     {
       "date": "2026-08-04",
@@ -133,11 +129,7 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 27.6
-      }
+      "weather": null
     },
     {
       "date": "2026-08-04",
@@ -151,11 +143,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 27.6
-      }
+      "weather": null
     },
     {
       "date": "2026-08-04",
@@ -169,11 +157,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 25.9
-      }
+      "weather": null
     },
     {
       "date": "2026-08-05",
@@ -190,7 +174,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.7
+        "temp": 20.9
       }
     },
     {
@@ -208,7 +192,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.7
+        "temp": 20.9
       }
     },
     {
@@ -224,9 +208,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 21.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 21.3
       }
     },
     {
@@ -242,9 +226,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 16.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.1
       }
     },
     {
@@ -260,8 +244,8 @@
       "location": "Helsingör, Danmark",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 16.7
       }
     },
@@ -280,7 +264,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.7
+        "temp": 18.0
       }
     },
     {
@@ -298,7 +282,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.7
+        "temp": 18.0
       }
     },
     {
@@ -316,7 +300,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.7
+        "temp": 18.0
       }
     },
     {
@@ -332,9 +316,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.8
       }
     },
     {
@@ -352,7 +336,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.4
+        "temp": 16.8
       }
     },
     {
@@ -637,7 +621,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.6
+      }
     },
     {
       "date": "2026-08-11",
@@ -651,7 +639,11 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.6
+      }
     },
     {
       "date": "2026-08-11",
@@ -665,7 +657,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.1
+      }
     },
     {
       "date": "2026-08-11",
@@ -679,7 +675,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.6
+      }
     },
     {
       "date": "2026-08-12",
