@@ -36,6 +36,12 @@
       "title": "Hemmamatcher idag",
       "icon": "🏟️",
       "file": "home-matches-today.html"
+    },
+    {
+      "id": "home-matches-next-month",
+      "title": "Nästa månads omklädningsrum",
+      "icon": "🗓️",
+      "file": "home-matches-next-month.html"
     }
   ],
   "pageGroups": [
@@ -63,11 +69,16 @@
       "label": "Facebook och Nyheter",
       "pages": ["facebook"],
       "displayMode": "single"
+    },
+    {
+      "label": "Nästa månads omklädningsrum",
+      "pages": ["home-matches-next-month"],
+      "displayMode": "single"
     }
   ],
   "rotation": {
     "enabled": true,
     "intervalSeconds": 10,
-    "groups": [0, 1, 2, 3, 4]
+    "groups": [0, 1, 2, 3, 4, 5]
   }
 }

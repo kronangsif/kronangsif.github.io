@@ -10,7 +10,7 @@ from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import urljoin
 
-CALENDAR_URL = "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276"
+CALENDAR_URL = "https://www.kronangsif.se/match/?ID=38276&kommande=1"
 HOME_URL = "https://www.kronangsif.se/"
 OUTPUT_FILE = Path(__file__).parent / "data" / "calendar.json"
 
@@ -152,49 +152,69 @@ def parse_month_year(soup):
 
 def parse_calendar(html):
     soup = BeautifulSoup(html, 'html.parser')
-    month, year = parse_month_year(soup)
     activities = []
+    month_sections = []
 
-    for day_row in soup.find_all('tr', class_=['dag', 'son', 'idag', 'innanidag']):
-        # HTML has unclosed <td> tags — BS4 nests them.
-        # Only 2 top-level TDs: [empty, date+everything nested inside].
-        tds = day_row.find_all('td', recursive=False)
+    for header in soup.find_all('b', style=re.compile(r'font-size')):
+        parts = header.get_text(strip=True).upper().split()
+        if len(parts) != 2 or parts[0] not in SWEDISH_MONTHS or not parts[1].isdigit():
+            continue
+        label = header.find_parent('div', class_='inner')
+        if label:
+            month_sections.append((label, SWEDISH_MONTHS[parts[0]], int(parts[1])))
 
-        day_num = ""
-        weekday = ""
+    if not month_sections:
+        month, year = parse_month_year(soup)
+        month_sections = [(soup, month, year)]
 
-        for td in tds:
-            style = td.get('style', '')
-            if 'padding-left' in style:
-                b = td.find('b')
-                if b:
-                    day_num = b.text.strip()
-                font = td.find('font')
-                if font:
-                    wday = font.get_text(strip=True)
-                    if wday and len(wday) <= 4 and wday.isalpha():
-                        weekday = wday
+    def parse_day_rows(day_rows, month, year):
+        for day_row in day_rows:
+            # HTML has unclosed <td> tags — BS4 nests them.
+            tds = day_row.find_all('td', recursive=False)
+            day_num = ""
+            weekday = ""
 
-        if not day_num:
+            for td in tds:
+                if 'padding-left' in td.get('style', ''):
+                    b = td.find('b')
+                    if b:
+                        day_num = b.text.strip()
+                    font = td.find('font')
+                    if font:
+                        wday = font.get_text(strip=True)
+                        if wday and len(wday) <= 4 and wday.isalpha():
+                            weekday = wday
+
+            if not day_num:
+                continue
+
+            try:
+                iso_date = date(year, month, int(day_num)).isoformat()
+            except ValueError:
+                iso_date = ""
+
+            inner_table = day_row.find('table', {'border': '0', 'cellspacing': '0', 'cellpadding': '0'})
+            if not inner_table:
+                continue
+
+            for act_row in inner_table.find_all('tr'):
+                activity = parse_activity(act_row, day_num, weekday, iso_date)
+                if activity:
+                    activities.append(activity)
+
+    for index, (label, month, year) in enumerate(month_sections):
+        if label is soup:
+            parse_day_rows(soup.find_all('tr', class_=['dag', 'son', 'idag', 'innanidag']), month, year)
             continue
 
-        # Build ISO date string for this day
-        try:
-            iso_date = date(year, month, int(day_num)).isoformat()
-        except ValueError:
-            iso_date = ""
+        for sibling in label.find_next_siblings():
+            if sibling.name == 'div' and 'inner' in (sibling.get('class') or []):
+                break
+            if sibling.name == 'table' and 'mCal' in (sibling.get('class') or []):
+                parse_day_rows(sibling.find_all('tr', class_=['dag', 'son', 'idag', 'innanidag']), month, year)
 
-        inner_table = day_row.find('table', {'border': '0', 'cellspacing': '0', 'cellpadding': '0'})
-        if not inner_table:
-            continue
-
-        # recursive=True needed — malformed HTML nests all <tr> inside each other
-        for act_row in inner_table.find_all('tr'):
-            activity = parse_activity(act_row, day_num, weekday, iso_date)
-            if activity:
-                activities.append(activity)
-
-    return month, year, activities
+    first_month, first_year = month_sections[0][1:]
+    return first_month, first_year, activities
 
 
 def parse_activity(row, day, weekday, iso_date):
