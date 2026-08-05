@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nästa månads omklädningsrum</title>
+    <title>Kommande hemmamatcher och omklädningsrum</title>
     <link rel="icon" type="image/png" href="kronang-logo-2026.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,8 +42,8 @@
     <header>
         <img class="logo" src="kronang-logo-2026.png" alt="Kronängs IF logotyp">
         <div>
-            <h1 id="pageTitle">Nästa månads omklädningsrum</h1>
-            <div class="subtitle">Preliminärt utdrag för kommande månads hemmamatcher</div>
+            <h1 id="pageTitle">Kommande hemmamatcher och omklädningsrum</h1>
+            <div class="subtitle">Alla hemmamatcher från idag och tre månader framåt</div>
             <div class="updated" id="updatedLabel">Laddar...</div>
         </div>
     </header>
@@ -113,14 +113,16 @@
         const time = interval(match); const young = isYoung(match.team, match.date);
         return `<article class="match"><div class="match-info"><div class="match-time">${match.time || 'Tid saknas'}</div><div class="match-team">${match.team || 'Okänt lag'}</div><div class="opponent">Motståndare: ${opponent(match.description)}</div></div><div class="rooms"><div class="room home"><div class="room-label">Kronäng</div><div class="room-number">Rum ${room.home}</div><div class="room-time">${formatTime(time.start)}–${formatTime(time.end)} · ${young ? 'ungdomstid' : 'äldre lag'}</div></div><div class="room away"><div class="room-label">Motståndare</div><div class="room-number">Rum ${room.away}</div><div class="room-time">${formatTime(time.start)}–${formatTime(time.end)}</div></div></div></article>`;
     }
-    function nextMonthKey() { const now = new Date(); const next = new Date(now.getFullYear(), now.getMonth() + 1, 1); return `${next.getFullYear()}-${String(next.getMonth()+1).padStart(2,'0')}`; }
+    function localIso(date) { return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`; }
+    function scheduleRange() { const start = new Date(); start.setHours(12,0,0,0); const end = new Date(start); end.setMonth(end.getMonth() + 3); return { start: localIso(start), end: localIso(end) }; }
     async function loadPage() {
         try {
             const response = await fetch(`data/calendar.json?t=${Date.now()}`); if (!response.ok) throw new Error('Kunde inte läsa kalenderdata.');
-            const data = await response.json(); const month = nextMonthKey();
-            const matches = (data.activities || []).filter(item => item.date?.startsWith(month)).filter(isRoomAssignmentMatch).filter(isHomeMatch).filter(item => interval(item));
+            const data = await response.json(); const range = scheduleRange();
+            const matches = (data.activities || []).filter(item => item.date && item.date >= range.start && item.date < range.end).filter(isRoomAssignmentMatch).filter(isHomeMatch).filter(item => interval(item));
             const roomMap = assignments(matches); const schedule = document.getElementById('schedule');
-            document.getElementById('pageTitle').textContent = `Omklädningsrum – ${new Intl.DateTimeFormat('sv-SE', { month: 'long', year: 'numeric' }).format(new Date(`${month}-01T12:00:00`))}`;
+            const lastDate = new Date(`${range.end}T12:00:00`); lastDate.setDate(lastDate.getDate() - 1);
+            document.getElementById('pageTitle').textContent = `Omklädningsrum – ${new Intl.DateTimeFormat('sv-SE', { day: 'numeric', month: 'long' }).format(new Date(`${range.start}T12:00:00`))} till ${new Intl.DateTimeFormat('sv-SE', { day: 'numeric', month: 'long', year: 'numeric' }).format(lastDate)}`;
             document.getElementById('updatedLabel').textContent = data.last_updated ? `Kalender uppdaterad: ${new Date(data.last_updated).toLocaleString('sv-SE')}` : '';
             if (!matches.length) { schedule.innerHTML = '<div class="empty">Inga kommande hemmamatcher är registrerade ännu.</div>'; return; }
             const groups = new Map(); matches.forEach(match => { if (!groups.has(match.date)) groups.set(match.date, []); groups.get(match.date).push(match); });

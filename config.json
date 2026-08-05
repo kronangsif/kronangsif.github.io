@@ -39,7 +39,7 @@
     },
     {
       "id": "home-matches-next-month",
-      "title": "Nästa månads omklädningsrum",
+      "title": "Kommande matcher och omklädningsrum",
       "icon": "🗓️",
       "file": "home-matches-next-month.html"
     }
@@ -71,7 +71,7 @@
       "displayMode": "single"
     },
     {
-      "label": "Nästa månads omklädningsrum",
+      "label": "Kommande matcher och omklädningsrum",
       "pages": ["home-matches-next-month"],
       "displayMode": "single"
     }

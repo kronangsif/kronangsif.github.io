@@ -274,6 +274,24 @@ def parse_activity(row, day, weekday, iso_date):
                 location = parts[1].strip()
             else:
                 description = text
+    else:
+        # The upcoming-match view uses a calendar URL without the `kal` class
+        # and renders the fixture as "Kronängs IF - Opponent".
+        match_link = content.find('a', href=re.compile(r'kalender/'))
+        if match_link:
+            text = match_link.get_text(" ", strip=True)
+            teams = re.split(r'\s+[-–]\s+', text, maxsplit=1)
+            if len(teams) == 2:
+                home_team, away_team = (part.strip() for part in teams)
+                if re.search(r'kronängs?\s+if', home_team, re.IGNORECASE):
+                    description = f"{away_team} hemma"
+                else:
+                    description = f"{home_team} borta"
+
+                content_text = content.get_text(" ", strip=True)
+                if ',' in content_text:
+                    location_text = content_text.split(',', 1)[1]
+                    location = location_text.split(home_team, 1)[0].strip()
 
     if description:
         match = LOCKEROOM_PATTERN.search(description)
