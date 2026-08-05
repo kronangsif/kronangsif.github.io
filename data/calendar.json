@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T10:10:53.881939",
+  "last_updated": "2026-08-05T12:18:33.560341",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
@@ -20,7 +20,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.9
+        "temp": 18.8
       }
     },
     {
@@ -36,8 +36,8 @@
       "location": "Vävarevallen P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 18.1
       }
     },
@@ -90,8 +90,8 @@
       "location": "Ekåsvallen F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 22.8
       }
     },
