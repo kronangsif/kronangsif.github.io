@@ -481,7 +481,7 @@
 
         function parseHomeNotation(description) {
             if (!description) return null;
-            const match = description.match(/\(\s*(H\d+)\s*(B\d+)\s*\)\s*$/i);
+            const match = description.match(/\(\s*(H\d+)\s*(?:[\s,;\-\/:]*?)\s*(B\d+)\s*\)\s*$/i);
             if (!match) return null;
             return {
                 raw: `${match[1].toUpperCase()}${match[2].toUpperCase()}`,
@@ -492,7 +492,119 @@
 
         function stripHomeNotation(description) {
             if (!description) return '';
-            return description.replace(/\(\s*H\d+\s*B\d+\s*\)\s*$/i, '').trim();
+            return description.replace(/\(\s*H\d+\s*(?:[\s,;\-\/:]*?)\s*B\d+\s*\)\s*$/i, '').trim();
+        }
+
+        const AVAILABLE_ROOMS = [1, 2, 3, 6, 7, 8];
+        const SMALL_ROOMS = new Set([7, 8]);
+
+        function parseTimeToMinutes(value) {
+            const match = String(value || '').match(/^(\d{1,2}):(\d{2})$/);
+            if (!match) return null;
+            return Number(match[1]) * 60 + Number(match[2]);
+        }
+
+        function getTeamAge(team, dateIso) {
+            const years = String(team || '').match(/(?:19|20)\d{2}/g);
+            if (!years || !years.length) return 13;
+            // Use the oldest birth year in a combined age group. Exactly 12 is young.
+            const birthYear = Math.min(...years.map(Number));
+            return Number(String(dateIso || '').slice(0, 4)) - birthYear;
+        }
+
+        function isYoungTeam(team, dateIso) {
+            return getTeamAge(team, dateIso) <= 12;
+        }
+
+        function hashString(value) {
+            let hash = 2166136261;
+            for (let index = 0; index < value.length; index += 1) {
+                hash ^= value.charCodeAt(index);
+                hash = Math.imul(hash, 16777619);
+            }
+            return hash >>> 0;
+        }
+
+        function shuffledRooms(seed) {
+            const rooms = [...AVAILABLE_ROOMS];
+            let state = hashString(seed) || 1;
+            for (let index = rooms.length - 1; index > 0; index -= 1) {
+                state = (Math.imul(state, 1664525) + 1013904223) >>> 0;
+                const swapIndex = state % (index + 1);
+                [rooms[index], rooms[swapIndex]] = [rooms[swapIndex], rooms[index]];
+            }
+            return rooms;
+        }
+
+        function intervalsOverlap(first, second) {
+            return first.start < second.end && second.start < first.end;
+        }
+
+        function getRoomInterval(match) {
+            const start = parseTimeToMinutes(match.time);
+            if (start === null) return null;
+            const young = isYoungTeam(match.team, match.date);
+            return {
+                start: start - (young ? 60 : 90),
+                end: start + (young ? 120 : 180)
+            };
+        }
+
+        function isRoomAssignmentMatch(match) {
+            return match.type === 'Match' && !/veo\s*kamera/i.test(match.team || '');
+        }
+
+        function fixedRoomsFor(match) {
+            const team = String(match.team || '').trim().toLowerCase();
+            if (team === 'herr') return { home: 5, away: 3 };
+            if (team === 'dam') return { home: 4, away: 2 };
+            return null;
+        }
+
+        function roomIsFree(room, interval, usage) {
+            return interval && !(usage[room] || []).some(existing => intervalsOverlap(interval, existing));
+        }
+
+        function getRoomAssignments(matches) {
+            const assignments = new Map();
+            const usage = Object.fromEntries([...Array(9).keys()].map(room => [room, []]));
+            const eligible = matches.filter(match => isRoomAssignmentMatch(match) && isHomeMatch(match));
+
+            // Reserve the mandatory Herr/Dam rooms first, so random allocation cannot collide with them.
+            eligible.forEach(match => {
+                const fixed = fixedRoomsFor(match);
+                const interval = getRoomInterval(match);
+                if (!fixed || !interval) return;
+                assignments.set(match, fixed);
+                usage[fixed.home].push(interval);
+                usage[fixed.away].push(interval);
+            });
+
+            eligible
+                .filter(match => !assignments.has(match))
+                .sort((first, second) => `${first.time || ''}${first.team || ''}`.localeCompare(`${second.time || ''}${second.team || ''}`))
+                .forEach(match => {
+                    const interval = getRoomInterval(match);
+                    if (!interval) return;
+                    const preferred = isYoungTeam(match.team, match.date)
+                        ? AVAILABLE_ROOMS
+                        : AVAILABLE_ROOMS.filter(room => !SMALL_ROOMS.has(room));
+                    const shuffled = shuffledRooms(`${match.date}|${match.time}|${match.team}|${match.description}`);
+                    const candidates = [
+                        ...shuffled.filter(room => preferred.includes(room)),
+                        ...shuffled.filter(room => !preferred.includes(room))
+                    ];
+                    const homeRoom = candidates.find(room => roomIsFree(room, interval, usage));
+                    const awayRoom = candidates.find(room => room !== homeRoom && roomIsFree(room, interval, usage));
+
+                    if (homeRoom && awayRoom) {
+                        assignments.set(match, { home: homeRoom, away: awayRoom });
+                        usage[homeRoom].push(interval);
+                        usage[awayRoom].push(interval);
+                    }
+                });
+
+            return assignments;
         }
 
         function getWeatherLabel(weather) {
@@ -500,14 +612,17 @@
             return `${weather.icon || ''} ${Math.round(weather.temp)}°C · ${weather.desc || ''}`.trim();
         }
 
-        function renderCard(match) {
-            const notation = match.lockerooms || parseHomeNotation(match.description);
+        function renderCard(match, roomAssignments) {
+            const assignedRooms = roomAssignments.get(match);
             const cleanDescription = stripHomeNotation(match.description || '');
-            const homeRoom = notation?.home || '';
-            const awayRoom = notation?.away || '';
+            const homeRoom = assignedRooms?.home || '';
+            const awayRoom = assignedRooms?.away || '';
             const venue = formatVenue(match.location || '');
             const opponentName = parseOpponent(cleanDescription || match.description || '');
             const weatherLabel = getWeatherLabel(match.weather);
+            const bookingText = assignedRooms
+                ? `Bokas ${isYoungTeam(match.team, match.date) ? '1 timme före till 2 timmar efter' : '1,5 timmar före till 3 timmar efter'} matchstart.`
+                : 'Ingen rumsbokning kunde göras för denna post.';
 
             return `
                 <article class="match-card">
@@ -525,12 +640,12 @@
                                     <div class="room-card home">
                                         <div class="room-head"><span class="match-home">Kronäng</span></div>
                                         <div class="room-code">${homeRoom ? `Omklädningsrum ${homeRoom.replace(/^H/i, '')}` : 'Omklädningsrum ?'}</div>
-                                        <div class="room-note">${homeRoom ? 'Det här är omklädningsrummet för Kronäng.' : 'Omklädningsrum är inte angivet ännu.'}</div>
+                                        <div class="room-note">${homeRoom ? `Det här är omklädningsrummet för Kronäng. ${bookingText}` : bookingText}</div>
                                     </div>
                                     <div class="room-card away">
                                         <div class="room-head"><span class="match-away">${opponentName}</span></div>
                                         <div class="room-code">${awayRoom ? `Omklädningsrum ${awayRoom.replace(/^B/i, '')}` : 'Omklädningsrum ?'}</div>
-                                        <div class="room-note">${awayRoom ? `Det här är omklädningsrummet för ${opponentName}.` : 'Omklädningsrum är inte angivet ännu.'}</div>
+                                        <div class="room-note">${awayRoom ? `Det här är omklädningsrummet för ${opponentName}. ${bookingText}` : bookingText}</div>
                                     </div>
                                 </div>
                             </div>
@@ -554,7 +669,11 @@
                     .filter(item => item.type === 'Match')
                     .filter(item => item.date === todayIso)
                     .filter(isHomeMatch)
+                    .filter(isRoomAssignmentMatch)
                     .sort((a, b) => `${a.time || ''} ${a.team || ''}`.localeCompare(`${b.time || ''} ${b.team || ''}`));
+                const roomAssignments = getRoomAssignments(
+                    (data.activities || []).filter(item => item.date === todayIso)
+                );
 
                 document.getElementById('updatedLabel').textContent = formatUpdatedLabel(data.last_updated);
 
@@ -569,7 +688,7 @@
                     return;
                 }
 
-                cards.innerHTML = homeMatches.map(renderCard).join('');
+                cards.innerHTML = homeMatches.map(match => renderCard(match, roomAssignments)).join('');
             } catch (error) {
                 document.getElementById('updatedLabel').textContent = 'Kunde inte ladda sidan';
                 document.getElementById('cards').innerHTML = `
