@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T18:27:01.620645",
+  "last_updated": "2026-08-05T20:11:16.175247",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
@@ -18,9 +18,9 @@
       "location": "Kronäng Arena P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.8
       }
     },
     {
@@ -36,9 +36,9 @@
       "location": "Vävarevallen P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.0
       }
     },
     {
@@ -54,9 +54,9 @@
       "location": "Spinnarvallen 1 Gräs Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 22.0
       }
     },
     {
@@ -72,9 +72,9 @@
       "location": "Kronäng Arena P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 22.0
       }
     },
     {
@@ -90,9 +90,9 @@
       "location": "Ekåsvallen F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 22.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 22.0
       }
     },
     {
@@ -108,9 +108,9 @@
       "location": "Kronäng Arena konstgräs 1 Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 15.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.9
       }
     },
     {
