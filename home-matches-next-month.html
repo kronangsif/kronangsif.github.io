@@ -112,11 +112,15 @@
     function assignments(matches) {
         const result = new Map(); const usage = Object.fromEntries([...Array(9).keys()].map(room => [room, []]));
         const eligible = matches.filter(match => isRoomAssignmentMatch(match) && isHomeMatch(match));
+        let sharingMode = 0;
         const canUse = (room, time, side, group) => {
             if (!time) return false;
             const overlapping = usage[room].filter(item => overlaps(item.time, time));
-            if (side === 'home') return !overlapping.some(item => item.side === 'away');
-            return overlapping.length === 0;
+            if (side === 'away') return overlapping.length === 0;
+            if (overlapping.some(item => item.side === 'away')) return false;
+            if (sharingMode === 0) return !overlapping.some(item => item.side === 'home');
+            if (sharingMode === 1) return !overlapping.some(item => item.side === 'home' && item.ageGroup !== group);
+            return true;
         };
         const roomOptions = match => {
             const fixed = fixedRooms(match);
@@ -139,8 +143,10 @@
                     const smallRoomPenalty = (!isYoung(match.team, match.date) && (SMALL_ROOMS.has(pair.home) || SMALL_ROOMS.has(pair.away))) ? 100 : 0;
                     const balancePenalty = Math.abs(time.startTrim - time.endTrim);
                     const sharing = usage[pair.home].filter(item => item.side === 'home' && overlaps(item.time, time));
-                    const differentAgePenalty = sharing.some(item => item.ageGroup !== ageGroup(match.team)) ? 500 : 0;
-                    candidates.push({ ...pair, time, score: time.trimMinutes * 10 + balancePenalty + smallRoomPenalty + differentAgePenalty });
+                    const differentAgeSharing = sharing.filter(item => item.ageGroup !== ageGroup(match.team)).length;
+                    const sharingPenalty = differentAgeSharing * 1000;
+                    const differentAgePenalty = differentAgeSharing * 100;
+                    candidates.push({ ...pair, time, score: time.trimMinutes * 10 + balancePenalty + smallRoomPenalty + sharingPenalty + differentAgePenalty });
                 }
             }));
             return candidates.sort((a, b) => a.score - b.score);
@@ -163,12 +169,18 @@
             }
             return false;
         };
+        const solveWithSharingFallback = dateMatches => {
+            for (sharingMode = 0; sharingMode <= 2; sharingMode += 1) {
+                if (solve(dateMatches)) return true;
+            }
+            return false;
+        };
         const byDate = new Map();
         pending.forEach(match => {
             if (!byDate.has(match.date)) byDate.set(match.date, []);
             byDate.get(match.date).push(match);
         });
-        byDate.forEach(dateMatches => solve(dateMatches));
+        byDate.forEach(dateMatches => solveWithSharingFallback(dateMatches));
         return result;
     }
     function formatDate(date) { const value = new Date(`${date}T12:00:00`); return new Intl.DateTimeFormat('sv-SE', { weekday: 'long', day: 'numeric', month: 'long' }).format(value); }
