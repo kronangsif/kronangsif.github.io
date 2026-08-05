@@ -68,18 +68,25 @@
         return Number(date.slice(0, 4)) - Math.min(...years.map(Number));
     }
     function isYoung(team, date) { return getAge(team, date) <= 12; }
-    function interval(match) {
+    function interval(match, startTrim = 0, endTrim = 0) {
         const start = parseTime(match.time);
         if (start === null) return null;
         const before = isYoung(match.team, match.date) ? 60 : 90;
         const after = isYoung(match.team, match.date) ? 120 : 180;
         const dayStart = new Date(`${match.date}T00:00:00`).getTime();
         return {
-            start: dayStart + (start - before) * 60000,
-            end: dayStart + (start + after) * 60000,
-            displayStart: start - before,
-            displayEnd: start + after
+            start: dayStart + (start - before + startTrim) * 60000,
+            end: dayStart + (start + after - endTrim) * 60000,
+            displayStart: start - before + startTrim,
+            displayEnd: start + after - endTrim,
+            trimMinutes: startTrim + endTrim,
+            startTrim,
+            endTrim
         };
+    }
+    function intervalOptions(match) {
+        return [[0,0], [15,0], [0,15], [30,0], [0,30], [15,15]]
+            .map(([startTrim, endTrim]) => interval(match, startTrim, endTrim));
     }
     function hash(value) {
         let result = 2166136261;
@@ -102,22 +109,32 @@
         const result = new Map(); const usage = Object.fromEntries([...Array(9).keys()].map(room => [room, []]));
         const eligible = matches.filter(match => isRoomAssignmentMatch(match) && isHomeMatch(match));
         const free = (room, time) => time && !usage[room].some(item => overlaps(item, time));
-        eligible.forEach(match => { const rooms = fixedRooms(match); const time = interval(match); if (!rooms || !time) return; result.set(match, rooms); usage[rooms.home].push(time); usage[rooms.away].push(time); });
-        const pending = eligible.filter(match => !result.has(match));
-        const roomPairs = match => {
-            const time = interval(match); if (!time) return [];
+        const roomOptions = match => {
+            const fixed = fixedRooms(match);
+            if (fixed) return [fixed];
             const preferred = isYoung(match.team, match.date) ? AVAILABLE_ROOMS : AVAILABLE_ROOMS.filter(room => !SMALL_ROOMS.has(room));
             const order = shuffled(`${match.date}|${match.time}|${match.team}|${match.description}`);
             const rooms = [...order.filter(room => preferred.includes(room)), ...order.filter(room => !preferred.includes(room))];
             const pairs = [];
             rooms.forEach(home => rooms.forEach(away => {
-                if (home !== away && free(home, time) && free(away, time)) {
-                    const smallRoomPenalty = (!isYoung(match.team, match.date) && (SMALL_ROOMS.has(home) || SMALL_ROOMS.has(away))) ? 100 : 0;
-                    pairs.push({ home, away, score: smallRoomPenalty + rooms.indexOf(home) + rooms.indexOf(away) });
+                if (home !== away) pairs.push({ home, away });
+            }));
+            return pairs;
+        };
+        const roomPairs = match => {
+            const options = intervalOptions(match).filter(Boolean); if (!options.length) return [];
+            const rooms = roomOptions(match);
+            const candidates = [];
+            options.forEach(time => rooms.forEach(pair => {
+                if (free(pair.home, time) && free(pair.away, time)) {
+                    const smallRoomPenalty = (!isYoung(match.team, match.date) && (SMALL_ROOMS.has(pair.home) || SMALL_ROOMS.has(pair.away))) ? 100 : 0;
+                    const balancePenalty = Math.abs(time.startTrim - time.endTrim);
+                    candidates.push({ ...pair, time, score: time.trimMinutes * 10 + balancePenalty + smallRoomPenalty });
                 }
             }));
-            return pairs.sort((a, b) => a.score - b.score);
+            return candidates.sort((a, b) => a.score - b.score);
         };
+        const pending = eligible.filter(match => interval(match));
         const solve = remaining => {
             if (!remaining.length) return true;
             let selected = null; let candidates = null;
@@ -126,12 +143,11 @@
                 if (candidates === null || options.length < candidates.length) { selected = match; candidates = options; }
             });
             if (!candidates.length) return false;
-            const time = interval(selected);
-            for (const pair of candidates) {
-                result.set(selected, pair);
-                usage[pair.home].push(time); usage[pair.away].push(time);
+            for (const candidate of candidates) {
+                result.set(selected, candidate);
+                usage[candidate.home].push(candidate.time); usage[candidate.away].push(candidate.time);
                 if (solve(remaining.filter(match => match !== selected))) return true;
-                usage[pair.home].pop(); usage[pair.away].pop(); result.delete(selected);
+                usage[candidate.home].pop(); usage[candidate.away].pop(); result.delete(selected);
             }
             return false;
         };
@@ -147,9 +163,10 @@
     function formatTime(minutes) { const value = (minutes + 1440) % 1440; return `${String(Math.floor(value / 60)).padStart(2,'0')}:${String(value % 60).padStart(2,'0')}`; }
     function opponent(description) { return String(description || '').split(',')[0].replace(/\s+(hemma|borta)\s*$/i, '').trim() || 'Motståndarlaget'; }
     function renderMatch(match, room) {
-        const time = interval(match); const young = isYoung(match.team, match.date);
+        const time = room?.time || interval(match); const young = isYoung(match.team, match.date);
         const hasRooms = room && Number.isInteger(room.home) && Number.isInteger(room.away);
-        const booking = time ? `${formatTime(time.displayStart)}–${formatTime(time.displayEnd)}` : 'Tid saknas';
+        const adjustment = time?.trimMinutes ? ` · justerad −${time.trimMinutes} min` : '';
+        const booking = time ? `${formatTime(time.displayStart)}–${formatTime(time.displayEnd)}${adjustment}` : 'Tid saknas';
         const roomText = hasRooms
             ? `<div class="room home"><div class="room-label">Kronäng</div><div class="room-number">Rum ${room.home}</div><div class="room-time">${booking} · ${young ? 'ungdomstid' : 'äldre lag'}</div></div><div class="room away"><div class="room-label">Motståndare</div><div class="room-number">Rum ${room.away}</div><div class="room-time">${booking}</div></div>`
             : `<div class="room home"><div class="room-label">Kronäng</div><div class="room-number">Ej tilldelat</div><div class="room-time">Alla rum är upptagna under intervallet.</div></div><div class="room away"><div class="room-label">Motståndare</div><div class="room-number">Ej tilldelat</div><div class="room-time">Ingen schemakrock skapas.</div></div>`;
