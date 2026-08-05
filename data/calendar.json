@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T01:09:37.038237",
+  "last_updated": "2026-08-05T04:30:56.494982",
   "source": "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID=38276",
   "month": 8,
   "year": 2026,
@@ -210,7 +210,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 21.7
+        "temp": 21.5
       }
     },
     {
@@ -228,7 +228,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 15.8
       }
     },
     {
@@ -246,7 +246,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.6
+        "temp": 16.4
       }
     },
     {
@@ -264,7 +264,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.2
+        "temp": 17.5
       }
     },
     {
@@ -282,7 +282,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.2
+        "temp": 17.5
       }
     },
     {
@@ -300,7 +300,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.2
+        "temp": 17.5
       }
     },
     {
@@ -316,8 +316,8 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 17.1
       }
     },
@@ -336,7 +336,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.0
+        "temp": 16.8
       }
     },
     {
