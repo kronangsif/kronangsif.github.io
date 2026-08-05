@@ -68,6 +68,10 @@
         return Number(date.slice(0, 4)) - Math.min(...years.map(Number));
     }
     function isYoung(team, date) { return getAge(team, date) <= 12; }
+    function ageGroup(team) {
+        const years = String(team || '').match(/(?:19|20)\d{2}/g);
+        return years ? years.join('/') : String(team || '').trim().toLowerCase();
+    }
     function interval(match, startTrim = 0, endTrim = 0) {
         const start = parseTime(match.time);
         if (start === null) return null;
@@ -108,7 +112,12 @@
     function assignments(matches) {
         const result = new Map(); const usage = Object.fromEntries([...Array(9).keys()].map(room => [room, []]));
         const eligible = matches.filter(match => isRoomAssignmentMatch(match) && isHomeMatch(match));
-        const free = (room, time) => time && !usage[room].some(item => overlaps(item, time));
+        const canUse = (room, time, side, group) => {
+            if (!time) return false;
+            const overlapping = usage[room].filter(item => overlaps(item.time, time));
+            if (side === 'home') return !overlapping.some(item => item.side === 'away');
+            return overlapping.length === 0;
+        };
         const roomOptions = match => {
             const fixed = fixedRooms(match);
             if (fixed) return [fixed];
@@ -126,10 +135,12 @@
             const rooms = roomOptions(match);
             const candidates = [];
             options.forEach(time => rooms.forEach(pair => {
-                if (free(pair.home, time) && free(pair.away, time)) {
+                if (canUse(pair.home, time, 'home', ageGroup(match.team)) && canUse(pair.away, time, 'away', ageGroup(match.team))) {
                     const smallRoomPenalty = (!isYoung(match.team, match.date) && (SMALL_ROOMS.has(pair.home) || SMALL_ROOMS.has(pair.away))) ? 100 : 0;
                     const balancePenalty = Math.abs(time.startTrim - time.endTrim);
-                    candidates.push({ ...pair, time, score: time.trimMinutes * 10 + balancePenalty + smallRoomPenalty });
+                    const sharing = usage[pair.home].filter(item => item.side === 'home' && overlaps(item.time, time));
+                    const differentAgePenalty = sharing.some(item => item.ageGroup !== ageGroup(match.team)) ? 500 : 0;
+                    candidates.push({ ...pair, time, score: time.trimMinutes * 10 + balancePenalty + smallRoomPenalty + differentAgePenalty });
                 }
             }));
             return candidates.sort((a, b) => a.score - b.score);
@@ -145,7 +156,8 @@
             if (!candidates.length) return false;
             for (const candidate of candidates) {
                 result.set(selected, candidate);
-                usage[candidate.home].push(candidate.time); usage[candidate.away].push(candidate.time);
+                usage[candidate.home].push({ time: candidate.time, side: 'home', ageGroup: ageGroup(selected.team) });
+                usage[candidate.away].push({ time: candidate.time, side: 'away', ageGroup: ageGroup(selected.team) });
                 if (solve(remaining.filter(match => match !== selected))) return true;
                 usage[candidate.home].pop(); usage[candidate.away].pop(); result.delete(selected);
             }
