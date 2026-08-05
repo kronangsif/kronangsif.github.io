@@ -135,7 +135,12 @@
             }
             return false;
         };
-        solve(pending);
+        const byDate = new Map();
+        pending.forEach(match => {
+            if (!byDate.has(match.date)) byDate.set(match.date, []);
+            byDate.get(match.date).push(match);
+        });
+        byDate.forEach(dateMatches => solve(dateMatches));
         return result;
     }
     function formatDate(date) { const value = new Date(`${date}T12:00:00`); return new Intl.DateTimeFormat('sv-SE', { weekday: 'long', day: 'numeric', month: 'long' }).format(value); }
