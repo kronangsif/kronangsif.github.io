@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T10:13:11.636563",
+  "last_updated": "2026-08-06T12:21:32.137757",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
@@ -20,7 +20,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.1
+        "temp": 18.9
       }
     },
     {
@@ -38,7 +38,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 17.9
       }
     },
     {
@@ -54,9 +54,9 @@
       "location": "Spinnarvallen 1 Gräs Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 22.0
       }
     },
     {
@@ -72,9 +72,9 @@
       "location": "Kronäng Arena P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 22.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 22.0
       }
     },
     {
@@ -90,9 +90,9 @@
       "location": "Ekåsvallen F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 23.7
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 22.9
       }
     },
     {
@@ -108,9 +108,9 @@
       "location": "Kronäng Arena konstgräs 1 Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 16.1
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.3
       }
     },
     {
