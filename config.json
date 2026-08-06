@@ -69,16 +69,11 @@
       "label": "Facebook och Nyheter",
       "pages": ["facebook"],
       "displayMode": "single"
-    },
-    {
-      "label": "Kommande matcher och omklädningsrum",
-      "pages": ["home-matches-next-month"],
-      "displayMode": "single"
     }
   ],
   "rotation": {
     "enabled": true,
     "intervalSeconds": 10,
-    "groups": [0, 1, 2, 3, 4, 5]
+    "groups": [0, 1, 2, 3, 4]
   }
 }
