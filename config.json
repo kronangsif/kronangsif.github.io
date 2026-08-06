@@ -36,12 +36,6 @@
       "title": "Hemmamatcher idag",
       "icon": "🏟️",
       "file": "home-matches-today.html"
-    },
-    {
-      "id": "home-matches-next-month",
-      "title": "Nästa månads matcher och omklädningsrum",
-      "icon": "🗓️",
-      "file": "home-matches-next-month.html"
     }
   ],
   "pageGroups": [
