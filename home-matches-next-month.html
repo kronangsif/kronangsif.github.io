@@ -152,7 +152,10 @@
             return candidates.sort((a, b) => a.score - b.score);
         };
         const pending = eligible.filter(match => interval(match));
+        let searchSteps = 0;
         const solve = remaining => {
+            searchSteps += 1;
+            if (searchSteps > 3000) return false;
             if (!remaining.length) return true;
             let selected = null; let candidates = null;
             remaining.forEach(match => {
@@ -171,6 +174,7 @@
         };
         const solveWithSharingFallback = dateMatches => {
             for (sharingMode = 0; sharingMode <= 2; sharingMode += 1) {
+                searchSteps = 0;
                 if (solve(dateMatches)) return true;
             }
             return false;
