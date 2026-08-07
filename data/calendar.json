@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T14:59:27.235996",
+  "last_updated": "2026-08-07T16:04:19.809252",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
@@ -20,7 +20,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.7
+        "temp": 19.4
       }
     },
     {
@@ -38,7 +38,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.3
+        "temp": 17.9
       }
     },
     {
@@ -54,9 +54,9 @@
       "location": "Spinnarvallen 1 Gräs Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 23.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 23.1
       }
     },
     {
@@ -72,9 +72,9 @@
       "location": "Kronängs Arena B-plan P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 23.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 23.1
       }
     },
     {
@@ -90,9 +90,9 @@
       "location": "Kronängs Arena F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 25.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 25.2
       }
     },
     {
