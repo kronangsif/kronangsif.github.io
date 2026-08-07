@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T06:49:42.350965",
+  "last_updated": "2026-08-07T08:18:15.402717",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
@@ -20,7 +20,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
+        "temp": 17.4
       }
     },
     {
@@ -38,7 +38,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.0
+        "temp": 16.9
       }
     },
     {
@@ -56,7 +56,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.9
+        "temp": 21.8
       }
     },
     {
@@ -74,7 +74,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.9
+        "temp": 21.8
       }
     },
     {
@@ -92,7 +92,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 23.6
+        "temp": 23.4
       }
     },
     {
@@ -110,7 +110,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.3
+        "temp": 15.2
       }
     },
     {
@@ -123,11 +123,11 @@
       "team_id": "260562",
       "type": "Match",
       "description": "Sandared/Sjömarken Vit hemma",
-      "location": "Kronäng Arena Konstgräs 2 P2011 »",
+      "location": "Kronängs Arena B-plan P2011 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 17.5
       }
     },
@@ -141,7 +141,7 @@
       "team_id": "520574",
       "type": "Match",
       "description": "Tranemo IF Fotboll hemma",
-      "location": "Kronäng Arena F2015-2016 »",
+      "location": "Kronängs Arena A-plan F2015-2016 »",
       "lockerooms": null,
       "weather": null
     },
@@ -155,7 +155,7 @@
       "team_id": "324307",
       "type": "Match",
       "description": "Bergdalens IK hemma",
-      "location": "Kronäng Arena P2013 »",
+      "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": null
     },
@@ -225,21 +225,7 @@
       "team_id": "374981",
       "type": "Match",
       "description": "Kinna IF hemma",
-      "location": "Kronäng Arena F2012/2013 »",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-08-16",
-      "day": "16",
-      "weekday": "sön",
-      "time": "14:00",
-      "end_time": "",
-      "team": "P2016",
-      "team_id": "414417",
-      "type": "Match",
-      "description": "Borås GIF hemma",
-      "location": "Kronäng Arena P2016 »",
+      "location": "Kronängs Arena B-plan F2012/2013 »",
       "lockerooms": null,
       "weather": null
     },
@@ -253,7 +239,21 @@
       "team_id": "414417",
       "type": "Match",
       "description": "Fritsla IF hemma",
-      "location": "Kronäng Arena P2016 »",
+      "location": "Kronängs Arena A-plan P2016 »",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-08-16",
+      "day": "16",
+      "weekday": "sön",
+      "time": "14:00",
+      "end_time": "",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Match",
+      "description": "Borås GIF hemma",
+      "location": "Kronängs Arena A-plan P2016 »",
       "lockerooms": null,
       "weather": null
     },
@@ -267,7 +267,7 @@
       "team_id": "324331",
       "type": "Match",
       "description": "Sandareds IF Vit hemma",
-      "location": "Kronäng Arena P2014 »",
+      "location": "Kronängs Arena B-plan P2014 »",
       "lockerooms": null,
       "weather": null
     },
@@ -281,7 +281,7 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Gerdskens BK Vit hemma",
-      "location": "Kronäng Arena P 2015 »",
+      "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": null
     },
@@ -295,7 +295,7 @@
       "team_id": "52695",
       "type": "Match",
       "description": "Vartofta SK hemma",
-      "location": "Kronäng Arena konstgräs 1 Dam »",
+      "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
       "weather": null
     },
@@ -379,7 +379,7 @@
       "team_id": "374981",
       "type": "Match",
       "description": "Bredareds IF hemma",
-      "location": "Kronäng Arena F2012/2013 »",
+      "location": "Kronängs Arena B-plan F2012/2013 »",
       "lockerooms": null,
       "weather": null
     },
@@ -393,7 +393,7 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Hestrafors IF Grön hemma",
-      "location": "Kronäng Arena P 2015 »",
+      "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": null
     },
@@ -407,7 +407,7 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Kinna IF Röd hemma",
-      "location": "Kronäng Arena P 2015 »",
+      "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": null
     },
@@ -421,7 +421,7 @@
       "team_id": "224798",
       "type": "Match",
       "description": "Ubbhult/Hällingsjö/Hyssna hemma",
-      "location": "Kronäng Arena konstgräs 1 P2009-2010 »",
+      "location": "Kronängs Arena A-plan P2009-2010 »",
       "lockerooms": null,
       "weather": null
     },
@@ -435,7 +435,7 @@
       "team_id": "324307",
       "type": "Match",
       "description": "Gerdskens BK Vit hemma",
-      "location": "Kronäng Arena P2013 »",
+      "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": null
     },
@@ -449,7 +449,7 @@
       "team_id": "52695",
       "type": "Match",
       "description": "IFK Tidaholm hemma",
-      "location": "Kronäng Arena konstgräs 1 Dam »",
+      "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
       "weather": null
     },
@@ -505,7 +505,7 @@
       "team_id": "38937",
       "type": "Match",
       "description": "Viskafors IF hemma",
-      "location": "Kronäng Arena konstgräs 1 Herr »",
+      "location": "Kronängs Arena A-plan Herr »",
       "lockerooms": null,
       "weather": null
     },
@@ -533,7 +533,7 @@
       "team_id": "324331",
       "type": "Match",
       "description": "Alingsås IF FF Vit hemma",
-      "location": "Kronäng Arena P2014 »",
+      "location": "Kronängs Arena B-plan P2014 »",
       "lockerooms": null,
       "weather": null
     },
@@ -547,7 +547,7 @@
       "team_id": "414417",
       "type": "Match",
       "description": "Kinna IF Röd hemma",
-      "location": "Kronäng Arena P2016 »",
+      "location": "Kronängs Arena B-plan P2016 »",
       "lockerooms": null,
       "weather": null
     },
@@ -561,7 +561,7 @@
       "team_id": "414417",
       "type": "Match",
       "description": "Bergdalens IK Vit hemma",
-      "location": "Kronäng Arena P2016 »",
+      "location": "Kronängs Arena B-plan P2016 »",
       "lockerooms": null,
       "weather": null
     },
@@ -589,7 +589,7 @@
       "team_id": "38937",
       "type": "Match",
       "description": "Mariedals IK U hemma",
-      "location": "Kronäng Arena konstgräs 1 Herr »",
+      "location": "Kronängs Arena A-plan Herr »",
       "lockerooms": null,
       "weather": null
     },
@@ -603,7 +603,7 @@
       "team_id": "260562",
       "type": "Match",
       "description": "Hestrafors IF hemma",
-      "location": "Kronäng Arena Konstgräs 2 P2011 »",
+      "location": "Kronängs Arena B-plan P2011 »",
       "lockerooms": null,
       "weather": null
     },
@@ -659,7 +659,7 @@
       "team_id": "52695",
       "type": "Match",
       "description": "IF Elfsborg hemma",
-      "location": "Kronäng Arena konstgräs 1 Dam »",
+      "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
       "weather": null
     },
@@ -1736,20 +1736,6 @@
       "team": "P2014",
       "team_id": "324331",
       "type": "Match",
-      "description": "Lerums IS hemma",
-      "location": "Kronäng Arena P2014 »",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-09-27",
-      "day": "27",
-      "weekday": "sön",
-      "time": "00:00",
-      "end_time": "",
-      "team": "P2014",
-      "team_id": "324331",
-      "type": "Match",
       "description": "Ospecificerat lag (9) hemma",
       "location": "Kronäng Arena P2014 »",
       "lockerooms": null,
@@ -1765,6 +1751,20 @@
       "team_id": "324331",
       "type": "Match",
       "description": "Ospecificerat lag (11) hemma",
+      "location": "Kronäng Arena P2014 »",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-27",
+      "day": "27",
+      "weekday": "sön",
+      "time": "00:00",
+      "end_time": "",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Match",
+      "description": "Lerums IS hemma",
       "location": "Kronäng Arena P2014 »",
       "lockerooms": null,
       "weather": null
@@ -1862,7 +1862,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Byttorps IF Grön hemma",
+      "description": "Mariedals IK Vit hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
@@ -1876,7 +1876,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Mariedals IK Vit hemma",
+      "description": "Byttorps IF Grön hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
