@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T00:32:05.082855",
+  "last_updated": "2026-08-07T03:40:03.720718",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
@@ -20,7 +20,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.0
+        "temp": 18.8
       }
     },
     {
@@ -38,7 +38,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.2
+        "temp": 17.3
       }
     },
     {
@@ -56,7 +56,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.9
+        "temp": 22.2
       }
     },
     {
@@ -74,7 +74,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.9
+        "temp": 22.2
       }
     },
     {
@@ -345,7 +345,7 @@
       "date": "2026-08-17",
       "day": "17",
       "weekday": "mån",
-      "time": "00:00",
+      "time": "18:45",
       "end_time": "",
       "team": "Herr",
       "team_id": "38937",
@@ -1434,34 +1434,6 @@
       "weather": null
     },
     {
-      "date": "2026-09-16",
-      "day": "16",
-      "weekday": "ons",
-      "time": "19:00",
-      "end_time": "",
-      "team": "Dam",
-      "team_id": "52695",
-      "type": "Match",
-      "description": "Bergdalens IK U borta",
-      "location": "Björkängsvallen, Borås, Gräs Dam »",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-09-16",
-      "day": "16",
-      "weekday": "ons",
-      "time": "19:00",
-      "end_time": "",
-      "team": "VEO kamera",
-      "team_id": "430796",
-      "type": "Match",
-      "description": "Bergdalens IK U borta",
-      "location": "Björkängsvallen, Borås, Gräs VEO kamera »",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
       "date": "2026-09-18",
       "day": "18",
       "weekday": "fre",
@@ -1920,6 +1892,34 @@
       "type": "Match",
       "description": "Bollebygds SK hemma",
       "location": "Kronäng Arena konstgräs 1 P2011 »",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-30",
+      "day": "30",
+      "weekday": "ons",
+      "time": "18:45",
+      "end_time": "",
+      "team": "Dam",
+      "team_id": "52695",
+      "type": "Match",
+      "description": "Bergdalens IK U borta",
+      "location": "Björkängsvallen, Borås, Gräs Dam »",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-30",
+      "day": "30",
+      "weekday": "ons",
+      "time": "18:45",
+      "end_time": "",
+      "team": "VEO kamera",
+      "team_id": "430796",
+      "type": "Match",
+      "description": "Bergdalens IK U borta",
+      "location": "Björkängsvallen, Borås, Gräs VEO kamera »",
       "lockerooms": null,
       "weather": null
     },
