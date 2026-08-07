@@ -1,28 +1,10 @@
 {
-  "last_updated": "2026-08-07T21:56:56.988381",
+  "last_updated": "2026-08-07T22:47:59.149359",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
-  "activity_count": 151,
+  "activity_count": 150,
   "activities": [
-    {
-      "date": "2026-08-07",
-      "day": "07",
-      "weekday": "fre",
-      "time": "18:00",
-      "end_time": "",
-      "team": "P2013",
-      "team_id": "324307",
-      "type": "Match",
-      "description": "Alingsås IF FF Grön hemma",
-      "location": "Kronängs Arena B-plan P2013 »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.3
-      }
-    },
     {
       "date": "2026-08-08",
       "day": "08",
@@ -38,7 +20,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.3
+        "temp": 17.2
       }
     },
     {
@@ -56,7 +38,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.8
+        "temp": 22.6
       }
     },
     {
@@ -74,7 +56,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.8
+        "temp": 22.6
       }
     },
     {
@@ -92,7 +74,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.9
+        "temp": 24.5
       }
     },
     {
@@ -143,7 +125,11 @@
       "description": "Tranemo IF Fotboll hemma",
       "location": "Kronängs Arena A-plan F2015-2016 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 21.4
+      }
     },
     {
       "date": "2026-08-14",
@@ -157,7 +143,11 @@
       "description": "Bergdalens IK hemma",
       "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 21.4
+      }
     },
     {
       "date": "2026-08-14",
@@ -171,7 +161,11 @@
       "description": "Sätila SK borta",
       "location": "Lygnevi A Herr »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 21.4
+      }
     },
     {
       "date": "2026-08-15",
@@ -392,7 +386,7 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Hestrafors IF Grön hemma",
+      "description": "Kinna IF Röd hemma",
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": null
@@ -406,7 +400,7 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Kinna IF Röd hemma",
+      "description": "Hestrafors IF Grön hemma",
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": null
@@ -546,7 +540,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Kinna IF Röd hemma",
+      "description": "Bergdalens IK Vit hemma",
       "location": "Kronängs Arena B-plan P2016 »",
       "lockerooms": null,
       "weather": null
@@ -560,7 +554,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Bergdalens IK Vit hemma",
+      "description": "Kinna IF Röd hemma",
       "location": "Kronängs Arena B-plan P2016 »",
       "lockerooms": null,
       "weather": null
@@ -1386,7 +1380,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Byttorps IF Vit hemma",
+      "description": "IF Elfsborg hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
@@ -1400,7 +1394,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "IF Elfsborg hemma",
+      "description": "Byttorps IF Vit hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
