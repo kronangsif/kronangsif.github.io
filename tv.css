@@ -1,0 +1,22 @@
+/* Readability mode for large TV displays. It leaves phones and ordinary monitors unchanged. */
+@media (min-width: 1800px) and (min-height: 900px) {
+    html {
+        font-size: 118%;
+    }
+
+    body {
+        zoom: 1.18;
+        width: 84.75%;
+    }
+}
+
+@media (min-width: 3000px) and (min-height: 1600px) {
+    html {
+        font-size: 130%;
+    }
+
+    body {
+        zoom: 1.30;
+        width: 76.92%;
+    }
+}
