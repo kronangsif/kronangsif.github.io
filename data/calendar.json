@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08T09:02:42.689211",
+  "last_updated": "2026-08-08T09:55:52.077139",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
@@ -20,7 +20,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.6
+        "temp": 17.5
       }
     },
     {
@@ -38,7 +38,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.6
+        "temp": 23.0
       }
     },
     {
@@ -56,7 +56,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.6
+        "temp": 23.0
       }
     },
     {
@@ -72,9 +72,9 @@
       "location": "Kronängs Arena F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 24.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 24.5
       }
     },
     {
@@ -90,9 +90,9 @@
       "location": "Kronäng Arena A plan Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.7
       }
     },
     {
