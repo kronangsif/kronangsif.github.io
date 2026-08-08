@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08T02:44:32.441773",
+  "last_updated": "2026-08-08T03:58:45.323685",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
@@ -18,9 +18,9 @@
       "location": "Vävarevallen P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.0
       }
     },
     {
@@ -38,7 +38,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.9
+        "temp": 22.9
       }
     },
     {
@@ -56,7 +56,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.9
+        "temp": 22.9
       }
     },
     {
@@ -72,9 +72,9 @@
       "location": "Kronängs Arena F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 24.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 24.7
       }
     },
     {
