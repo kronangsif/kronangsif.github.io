@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08T09:55:52.077139",
+  "last_updated": "2026-08-08T10:41:14.795395",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
@@ -38,7 +38,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 23.0
+        "temp": 22.7
       }
     },
     {
@@ -56,7 +56,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 23.0
+        "temp": 22.7
       }
     },
     {
@@ -74,7 +74,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 24.5
+        "temp": 24.2
       }
     },
     {
@@ -92,7 +92,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.7
+        "temp": 16.4
       }
     },
     {
