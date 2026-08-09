@@ -1,64 +1,10 @@
 {
-  "last_updated": "2026-08-09T21:52:35.865318",
+  "last_updated": "2026-08-09T22:37:53.222362",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
-  "activity_count": 149,
+  "activity_count": 146,
   "activities": [
-    {
-      "date": "2026-08-09",
-      "day": "09",
-      "weekday": "sön",
-      "time": "13:00",
-      "end_time": "",
-      "team": "Dam",
-      "team_id": "52695",
-      "type": "Match",
-      "description": "Tollereds IF (D3D) borta",
-      "location": "Spinnarvallen 1 Gräs Dam »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.8
-      }
-    },
-    {
-      "date": "2026-08-09",
-      "day": "09",
-      "weekday": "sön",
-      "time": "13:00",
-      "end_time": "",
-      "team": "P2014",
-      "team_id": "324331",
-      "type": "Match",
-      "description": "Ubbhult/Hällingsjö/Hyssna hemma",
-      "location": "Kronängs Arena B-plan P2014 »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.8
-      }
-    },
-    {
-      "date": "2026-08-09",
-      "day": "09",
-      "weekday": "sön",
-      "time": "17:00",
-      "end_time": "",
-      "team": "F2013/2014",
-      "team_id": "374981",
-      "type": "Match",
-      "description": "Ubbhult/Hällingsjö/Hyssna Svart borta",
-      "location": "Kronängs Arena F2012/2013 »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 24.4
-      }
-    },
     {
       "date": "2026-08-10",
       "day": "10",
@@ -179,7 +125,11 @@
       "description": "IFK Örby borta",
       "location": "Örby IP C Lilla Gräs P 2015 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.6
+      }
     },
     {
       "date": "2026-08-16",
@@ -193,7 +143,11 @@
       "description": "Holmalund City FF Svart borta",
       "location": "Östlyckevallen P2014 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.7
+      }
     },
     {
       "date": "2026-08-16",
@@ -207,7 +161,11 @@
       "description": "Kinna IF hemma",
       "location": "Kronängs Arena B-plan F2012/2013 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 19.5
+      }
     },
     {
       "date": "2026-08-16",
@@ -221,7 +179,11 @@
       "description": "Fritsla IF hemma",
       "location": "Kronängs Arena A-plan P2016 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 19.8
+      }
     },
     {
       "date": "2026-08-16",
@@ -235,7 +197,11 @@
       "description": "Borås GIF hemma",
       "location": "Kronängs Arena A-plan P2016 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 19.8
+      }
     },
     {
       "date": "2026-08-16",
@@ -249,7 +215,11 @@
       "description": "Sandareds IF Vit hemma",
       "location": "Kronängs Arena B-plan P2014 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.2
+      }
     },
     {
       "date": "2026-08-16",
@@ -263,7 +233,11 @@
       "description": "Gerdskens BK Vit hemma",
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.2
+      }
     },
     {
       "date": "2026-08-16",
@@ -277,7 +251,11 @@
       "description": "Vartofta SK hemma",
       "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.5
+      }
     },
     {
       "date": "2026-08-16",
@@ -291,7 +269,11 @@
       "description": "Byttorps IF borta",
       "location": "Byttorps IP A Konstgräs P2011 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.5
+      }
     },
     {
       "date": "2026-08-16",
@@ -305,7 +287,11 @@
       "description": "Vartofta SK hemma",
       "location": "Kronäng Arena konstgräs 1 VEO kamera »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.5
+      }
     },
     {
       "date": "2026-08-16",
@@ -319,7 +305,11 @@
       "description": "Bergdalens IK borta",
       "location": "Björkängsvallen, Borås, Konstgräs P2009-2010 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 17.7
+      }
     },
     {
       "date": "2026-08-17",
@@ -372,7 +362,7 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Hestrafors IF Grön hemma",
+      "description": "Kinna IF Röd hemma",
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": null
@@ -386,7 +376,7 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Kinna IF Röd hemma",
+      "description": "Hestrafors IF Grön hemma",
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": null
@@ -834,7 +824,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Hestrafors IF Vit hemma",
+      "description": "Ulricehamns IFK Svart hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
@@ -848,7 +838,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Ulricehamns IFK Svart hemma",
+      "description": "Hestrafors IF Vit hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
@@ -1366,7 +1356,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Byttorps IF Vit hemma",
+      "description": "IF Elfsborg hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
@@ -1380,7 +1370,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "IF Elfsborg hemma",
+      "description": "Byttorps IF Vit hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
