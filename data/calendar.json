@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09T15:37:51.999811",
+  "last_updated": "2026-08-09T16:12:52.948141",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
@@ -54,9 +54,9 @@
       "location": "Kronängs Arena F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 23.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 24.4
       }
     },
     {
@@ -74,7 +74,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.4
+        "temp": 16.7
       }
     },
     {
