@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09T06:24:20.056735",
+  "last_updated": "2026-08-09T07:35:23.286361",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
@@ -20,7 +20,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.3
+        "temp": 22.0
       }
     },
     {
@@ -38,7 +38,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.3
+        "temp": 22.0
       }
     },
     {
@@ -54,9 +54,9 @@
       "location": "Kronängs Arena F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 23.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 23.8
       }
     },
     {
@@ -92,7 +92,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 17.3
       }
     },
     {
@@ -108,9 +108,9 @@
       "location": "Kronängs Arena A-plan F2015-2016 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 24.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 23.8
       }
     },
     {
@@ -126,9 +126,9 @@
       "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 24.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 23.8
       }
     },
     {
@@ -144,9 +144,9 @@
       "location": "Lygnevi A Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 24.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 23.8
       }
     },
     {
@@ -162,9 +162,9 @@
       "location": "Tånga Hed Pelle planen B P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 21.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 22.1
       }
     },
     {
