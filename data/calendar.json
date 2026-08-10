@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T09:39:53.380426",
+  "last_updated": "2026-08-10T10:48:11.074824",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
@@ -20,7 +20,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.2
+        "temp": 16.8
       }
     },
     {
@@ -38,7 +38,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 20.9
+        "temp": 20.7
       }
     },
     {
