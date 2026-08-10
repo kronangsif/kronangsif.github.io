@@ -44,7 +44,7 @@
         <img class="logo" src="kronang-logo-2026.png" alt="Kronängs IF logotyp">
         <div>
             <h1 id="pageTitle">Kommande hemmamatcher och omklädningsrum</h1>
-            <div class="subtitle">Alla hemmamatcher under nästa kalendermånad</div>
+            <div class="subtitle">Alla hemmamatcher från idag och sju dagar framåt</div>
             <div class="updated" id="updatedLabel">Laddar...</div>
         </div>
     </header>
@@ -202,7 +202,7 @@
         return `<article class="match"><div class="match-info"><div class="match-time">Matchstart ${match.time || 'Tid saknas'}</div><div class="match-team">${match.team || 'Okänt lag'}</div><div class="opponent">Motståndare: ${opponent(match.description)}</div></div><div class="rooms">${roomText}</div></article>`;
     }
     function localIso(date) { return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`; }
-    function scheduleRange() { const now = new Date(); const start = new Date(now.getFullYear(), now.getMonth() + 1, 1, 12); const end = new Date(now.getFullYear(), now.getMonth() + 2, 1, 12); return { start: localIso(start), end: localIso(end) }; }
+    function scheduleRange() { const start = new Date(); start.setHours(12, 0, 0, 0); const end = new Date(start); end.setDate(end.getDate() + 7); return { start: localIso(start), end: localIso(end) }; }
     async function loadPage() {
         try {
             const response = await fetch(`data/calendar.json?t=${Date.now()}`); if (!response.ok) throw new Error('Kunde inte läsa kalenderdata.');
