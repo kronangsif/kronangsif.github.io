@@ -252,7 +252,7 @@
         }
         .detail-label {
             color: var(--muted);
-            font-size: 0.75rem;
+            font-size: 0.68rem;
             text-transform: uppercase;
             letter-spacing: 0.12em;
             font-weight: 700;
@@ -293,7 +293,7 @@
             align-items: center;
             justify-content: flex-start;
             gap: 8px;
-            font-size: 0.78rem;
+            font-size: clamp(1rem, 1.35vw, 1.25rem);
             text-transform: uppercase;
             letter-spacing: 0.12em;
             font-weight: 900;
@@ -311,7 +311,7 @@
             color: #eff6ff;
         }
         .room-code {
-            font-size: clamp(2.1rem, 3vw, 2.8rem);
+            font-size: clamp(1.7rem, 2.35vw, 2.3rem);
             line-height: 0.95;
             font-weight: 900;
             letter-spacing: -0.06em;
@@ -628,6 +628,16 @@
             return String(room || '').replace(/^H/i, '').trim();
         }
 
+        function formatBookingTime(match) {
+            const roomInterval = getRoomInterval(match);
+            if (!roomInterval) return 'Bokningstid saknas';
+            const formatMinutes = minutes => {
+                const normalized = (minutes + 1440) % 1440;
+                return `${String(Math.floor(normalized / 60)).padStart(2, '0')}:${String(normalized % 60).padStart(2, '0')}`;
+            };
+            return `Bokat ${formatMinutes(roomInterval.start)} - ${formatMinutes(roomInterval.end)}`;
+        }
+
         function renderCard(match, roomAssignments) {
             const assignedRooms = roomAssignments.get(match);
             const cleanDescription = stripHomeNotation(match.description || '');
@@ -636,9 +646,7 @@
             const venue = formatVenue(match.location || '');
             const opponentName = parseOpponent(cleanDescription || match.description || '');
             const weatherLabel = getWeatherLabel(match.weather);
-            const bookingText = assignedRooms
-                ? `Bokas ${isYoungTeam(match.team, match.date) ? '1 timme före till 2 timmar efter' : '1,5 timmar före till 3 timmar efter'} matchstart.`
-                : 'Ingen rumsbokning kunde göras för denna post.';
+            const bookingText = assignedRooms ? formatBookingTime(match) : 'Ingen rumsbokning kunde göras för denna post.';
 
             return `
                 <article class="match-card">
@@ -656,12 +664,12 @@
                                     <div class="room-card home">
                                         <div class="room-head"><span class="match-home">Kronäng</span></div>
                                         <div class="room-code">${homeRoom ? `Omklädningsrum ${formatRoomNumber(homeRoom)}` : 'Omklädningsrum ?'}</div>
-                                        <div class="room-note">${homeRoom ? `Det här är omklädningsrummet för Kronäng. ${bookingText}` : bookingText}</div>
+                                        <div class="room-note">${bookingText}</div>
                                     </div>
                                     <div class="room-card away">
                                         <div class="room-head"><span class="match-away">${opponentName}</span></div>
                                         <div class="room-code">${awayRoom ? `Omklädningsrum ${formatRoomNumber(awayRoom)}` : 'Omklädningsrum ?'}</div>
-                                        <div class="room-note">${awayRoom ? `Det här är omklädningsrummet för ${opponentName}. ${bookingText}` : bookingText}</div>
+                                        <div class="room-note">${bookingText}</div>
                                     </div>
                                 </div>
                             </div>
