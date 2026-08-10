@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T11:53:13.039375",
+  "last_updated": "2026-08-10T13:23:11.569865",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
@@ -20,7 +20,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.7
+        "temp": 16.8
       }
     },
     {
@@ -38,7 +38,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 20.6
+        "temp": 21.4
       }
     },
     {
@@ -54,8 +54,8 @@
       "location": "Kronängs Arena A-plan F2015-2016 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 24.9
       }
     },
@@ -72,8 +72,8 @@
       "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 24.9
       }
     },
@@ -90,8 +90,8 @@
       "location": "Lygnevi A Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 24.9
       }
     },
@@ -110,7 +110,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.4
+        "temp": 24.2
       }
     },
     {
