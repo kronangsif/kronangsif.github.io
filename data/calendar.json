@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T14:38:12.465820",
+  "last_updated": "2026-08-10T15:40:58.151759",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
@@ -20,7 +20,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.4
+        "temp": 17.3
       }
     },
     {
@@ -36,9 +36,9 @@
       "location": "Kronängs Arena B-plan P2011 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 21.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 21.8
       }
     },
     {
