@@ -1,28 +1,10 @@
 {
-  "last_updated": "2026-08-12T21:53:37.306504",
+  "last_updated": "2026-08-12T22:49:52.524255",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
-  "activity_count": 146,
+  "activity_count": 145,
   "activities": [
-    {
-      "date": "2026-08-12",
-      "day": "12",
-      "weekday": "ons",
-      "time": "19:15",
-      "end_time": "",
-      "team": "P2011",
-      "team_id": "260562",
-      "type": "Match",
-      "description": "Sandared/Sjömarken Vit hemma",
-      "location": "Kronängs Arena B-plan P2011 »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.2
-      }
-    },
     {
       "date": "2026-08-14",
       "day": "14",
@@ -323,7 +305,11 @@
       "description": "Ospecificerat lag (10) borta",
       "location": "Annan P2009-2010 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.5
+      }
     },
     {
       "date": "2026-08-19",
@@ -337,7 +323,11 @@
       "description": "Bredareds IF hemma",
       "location": "Kronängs Arena B-plan F2012/2013 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 20.2
+      }
     },
     {
       "date": "2026-08-21",
@@ -348,7 +338,7 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Kinna IF Röd hemma",
+      "description": "Hestrafors IF Grön hemma",
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": null
@@ -362,7 +352,7 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Hestrafors IF Grön hemma",
+      "description": "Kinna IF Röd hemma",
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": null
@@ -502,7 +492,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Kinna IF Röd hemma",
+      "description": "Bergdalens IK Vit hemma",
       "location": "Kronängs Arena B-plan P2016 »",
       "lockerooms": null,
       "weather": null
@@ -516,7 +506,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Bergdalens IK Vit hemma",
+      "description": "Kinna IF Röd hemma",
       "location": "Kronängs Arena B-plan P2016 »",
       "lockerooms": null,
       "weather": null
@@ -1776,7 +1766,7 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Sätila SK hemma",
+      "description": "Rydboholms SK hemma",
       "location": "Kronäng Arena P 2015 »",
       "lockerooms": null,
       "weather": null
@@ -1790,7 +1780,7 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Rydboholms SK hemma",
+      "description": "Sätila SK hemma",
       "location": "Kronäng Arena P 2015 »",
       "lockerooms": null,
       "weather": null
