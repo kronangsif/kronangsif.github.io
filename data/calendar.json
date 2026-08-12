@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12T11:32:23.511637",
+  "last_updated": "2026-08-12T12:33:50.638650",
   "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
   "month": 8,
   "year": 2026,
@@ -20,7 +20,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.1
+        "temp": 21.2
       }
     },
     {
@@ -38,7 +38,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.8
+        "temp": 16.1
       }
     },
     {
@@ -92,7 +92,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 23.0
+        "temp": 24.0
       }
     },
     {
@@ -108,9 +108,9 @@
       "location": "Örby IP C Lilla Gräs P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.6
       }
     },
     {
@@ -126,8 +126,8 @@
       "location": "Östlyckevallen P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 18.8
       }
     },
@@ -144,9 +144,9 @@
       "location": "Kronängs Arena B-plan F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.8
       }
     },
     {
@@ -164,7 +164,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.7
+        "temp": 20.0
       }
     },
     {
@@ -182,7 +182,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.7
+        "temp": 20.0
       }
     },
     {
@@ -198,9 +198,9 @@
       "location": "Kronängs Arena B-plan P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.8
       }
     },
     {
@@ -216,9 +216,9 @@
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.8
       }
     },
     {
@@ -234,9 +234,9 @@
       "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 20.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.4
       }
     },
     {
@@ -252,9 +252,9 @@
       "location": "Byttorps IP A Konstgräs P2011 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 20.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.4
       }
     },
     {
@@ -270,9 +270,9 @@
       "location": "Kronäng Arena konstgräs 1 VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 20.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.4
       }
     },
     {
@@ -288,9 +288,9 @@
       "location": "Björkängsvallen, Borås, Konstgräs P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 18.5
       }
     },
     {
@@ -306,9 +306,9 @@
       "location": "Lundavallen A Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.8
       }
     },
     {
