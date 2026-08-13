@@ -190,7 +190,7 @@
 </head>
 <body>
     <div class="header">
-        <h1>⚽ Matcher kommande 7 dagar</h1>
+        <h1 id="matchesTitle">⚽ Matcher kommande 4 dagar</h1>
         <img class="header-logo" src="kronang-logo-2026.png" alt="Kronängs IF logga">
     </div>
 
@@ -253,11 +253,16 @@
                 const data = await response.json();
 
                 const todayIso = todayIsoLocal();
-                const lastIso = addDaysIso(todayIso, 6);
+                const pageIndex = Number.parseInt(new URLSearchParams(window.location.search).get('part') || '0', 10) || 0;
+                const startOffset = Math.max(0, pageIndex) * 4;
+                const firstIso = addDaysIso(todayIso, startOffset);
+                const lastIso = addDaysIso(firstIso, 3);
+                document.getElementById('matchesTitle').textContent =
+                    `⚽ Matcher dag ${startOffset + 1}-${startOffset + 4}`;
 
                 const matches = (data.activities || [])
                     .filter(item => item.type === 'Match')
-                    .filter(item => item.date && item.date >= todayIso && item.date <= lastIso)
+                    .filter(item => item.date && item.date >= firstIso && item.date <= lastIso)
                     .filter(item => {
                         const haystack = [item.team, item.description, item.location]
                             .filter(Boolean)
@@ -273,7 +278,7 @@
                     byDate.get(match.date).push(match);
                 });
 
-                const dates = Array.from({ length: 7 }, (_, index) => addDaysIso(todayIso, index));
+                const dates = Array.from({ length: 4 }, (_, index) => addDaysIso(firstIso, index));
                 grid.innerHTML = dates.map(dateIso => renderDayCard(dateIso, byDate.get(dateIso) || [], todayIso)).join('');
             } catch (error) {
                 grid.innerHTML = `<div class="empty-state">Kunde inte ladda matcher.<br>${error.message}</div>`;

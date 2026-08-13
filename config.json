@@ -8,10 +8,16 @@
       "file": "training-embedded.html"
     },
     {
-      "id": "matches",
-      "title": "Matcher",
+      "id": "matches-1",
+      "title": "Matcher dag 1-4",
       "icon": "⚽",
-      "file": "matches-embedded.html"
+      "file": "matches-embedded.html?part=0"
+    },
+    {
+      "id": "matches-2",
+      "title": "Matcher dag 5-8",
+      "icon": "⚽",
+      "file": "matches-embedded.html?part=1"
     },
     {
       "id": "herr",
@@ -46,7 +52,7 @@
     },
     {
       "label": "Matcher",
-      "pages": ["matches"],
+      "pages": ["matches-1", "matches-2"],
       "displayMode": "single"
     },
     {

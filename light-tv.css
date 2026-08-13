@@ -67,6 +67,7 @@ body {
 .bucket,
 .day-card,
 .calendar-container,
+.calendar-grid,
 .day-row,
 .event,
 .match-item,
@@ -92,6 +93,7 @@ body {
 .event-info,
 .match-list,
 .activity-list,
+.events,
 .rooms,
 .room-grid {
     background: var(--tv-surface-strong) !important;
