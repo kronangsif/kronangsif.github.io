@@ -191,8 +191,7 @@
             { key: 'morning', title: '08:00 - 11:00', from: 8, to: 11 },
             { key: 'midday', title: '11:00 - 16:00', from: 11, to: 16 },
             { key: 'afternoon', title: '16:00 - 18:00', from: 16, to: 18 },
-            { key: 'evening', title: '18:00 - 20:00', from: 18, to: 20 },
-            { key: 'other', title: 'Övriga tider', fallback: true }
+            { key: 'evening', title: '18:00 - 21:00', from: 18, to: 21 }
         ];
         const CALENDAR_DATA_URLS = [
             new URL('data/calendar.json', document.baseURI).href,
@@ -227,9 +226,7 @@
         }
 
         function bucketForHour(hour) {
-            return BUCKETS.find(bucket =>
-                bucket.fallback || (hour !== null && hour >= bucket.from && hour < bucket.to)
-            ) || null;
+            return BUCKETS.find(bucket => hour !== null && hour >= bucket.from && hour < bucket.to) || null;
         }
 
         function formatTimeRange(item) {

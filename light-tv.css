@@ -31,7 +31,12 @@ body {
 .section-title,
 .bucket-title,
 .day-label,
-.match-title {
+.match-title,
+.day-num,
+.event-desc,
+.match-away,
+.match-home,
+.match-desc {
     color: var(--tv-text) !important;
 }
 
@@ -97,7 +102,6 @@ body {
 .activity-team,
 .match-team,
 .event-team,
-.match-desc,
 .activity-type,
 .news-title,
 .news-body,
