@@ -1,94 +1,13 @@
 {
-  "last_updated": "2026-08-13T18:39:05.410026",
-  "source": "https://www.kronangsif.se/match/?ID=38276&kommande=1",
+  "last_updated": "2026-08-13T19:45:58.480619",
+  "source": [
+    "https://www.kronangsif.se/match/?ID=38276&kommande=1",
+    "team calendars"
+  ],
   "month": 8,
   "year": 2026,
-  "activity_count": 152,
+  "activity_count": 145,
   "activities": [
-    {
-      "date": "2026-08-13",
-      "day": "13",
-      "weekday": "tor",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "P2013",
-      "team_id": "324307",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena"
-    },
-    {
-      "date": "2026-08-13",
-      "day": "13",
-      "weekday": "tor",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "P2014",
-      "team_id": "324331",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena B-plan"
-    },
-    {
-      "date": "2026-08-13",
-      "day": "13",
-      "weekday": "tor",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "P2016",
-      "team_id": "414417",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena"
-    },
-    {
-      "date": "2026-08-13",
-      "day": "13",
-      "weekday": "tor",
-      "time": "18:45",
-      "end_time": "20:45",
-      "team": "P2012",
-      "team_id": "281528",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena B-plan"
-    },
-    {
-      "date": "2026-08-13",
-      "day": "13",
-      "weekday": "tor",
-      "time": "19:00",
-      "end_time": "20:30",
-      "team": "Dam",
-      "team_id": "52695",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena"
-    },
-    {
-      "date": "2026-08-13",
-      "day": "13",
-      "weekday": "tor",
-      "time": "19:00",
-      "end_time": "20:30",
-      "team": "P2009-2010",
-      "team_id": "224798",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena"
-    },
-    {
-      "date": "2026-08-13",
-      "day": "13",
-      "weekday": "tor",
-      "time": "19:00",
-      "end_time": "20:30",
-      "team": "P2011",
-      "team_id": "260562",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena"
-    },
     {
       "date": "2026-08-14",
       "day": "14",
@@ -102,9 +21,9 @@
       "location": "Kronängs Arena A-plan F2015-2016 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.0
       }
     },
     {
@@ -122,7 +41,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 27.4
+        "temp": 27.5
       }
     },
     {
@@ -140,7 +59,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 27.4
+        "temp": 27.5
       }
     },
     {
@@ -158,7 +77,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 23.6
+        "temp": 23.0
       }
     },
     {
@@ -174,9 +93,9 @@
       "location": "Örby IP C Lilla Gräs P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.1
       }
     },
     {
@@ -192,9 +111,9 @@
       "location": "Östlyckevallen P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.5
       }
     },
     {
@@ -210,9 +129,9 @@
       "location": "Kronängs Arena B-plan F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 19.6
       }
     },
     {
@@ -228,9 +147,9 @@
       "location": "Kronängs Arena A-plan P2016 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.1
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 19.8
       }
     },
     {
@@ -246,9 +165,9 @@
       "location": "Kronängs Arena A-plan P2016 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.1
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 19.8
       }
     },
     {
@@ -266,7 +185,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.8
+        "temp": 19.4
       }
     },
     {
@@ -284,7 +203,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.8
+        "temp": 19.4
       }
     },
     {
@@ -300,9 +219,9 @@
       "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.9
       }
     },
     {
@@ -318,9 +237,9 @@
       "location": "Byttorps IP A Konstgräs P2011 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.9
       }
     },
     {
@@ -336,9 +255,9 @@
       "location": "Kronäng Arena konstgräs 1 VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.9
       }
     },
     {
@@ -354,9 +273,9 @@
       "location": "Björkängsvallen, Borås, Konstgräs P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌦️",
-        "desc": "Regnskurar",
-        "temp": 14.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.2
       }
     },
     {
@@ -374,7 +293,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.4
+        "temp": 15.5
       }
     },
     {
@@ -390,9 +309,9 @@
       "location": "Annan P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.7
       }
     },
     {
@@ -408,9 +327,9 @@
       "location": "Kronängs Arena B-plan F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 17.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.5
       }
     },
     {
