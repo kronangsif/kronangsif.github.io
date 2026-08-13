@@ -190,20 +190,27 @@
             { key: 'morning', title: '08:00 - 11:00', from: 8, to: 11 },
             { key: 'midday', title: '11:00 - 16:00', from: 11, to: 16 },
             { key: 'afternoon', title: '16:00 - 18:00', from: 16, to: 18 },
-            { key: 'evening', title: '18:00 - 20:00', from: 18, to: 20 }
+            { key: 'evening', title: '18:00 - 20:00', from: 18, to: 20 },
+            { key: 'other', title: 'Övriga tider', fallback: true }
+        ];
+        const CALENDAR_DATA_URLS = [
+            new URL('data/calendar.json', document.baseURI).href,
+            'https://raw.githubusercontent.com/kronangsif/kronangsif.github.io/main/data/calendar.json'
         ];
 
         function todayIsoLocal() {
-            const now = new Date();
-            const year = now.getFullYear();
-            const month = String(now.getMonth() + 1).padStart(2, '0');
-            const day = String(now.getDate()).padStart(2, '0');
-            return `${year}-${month}-${day}`;
+            return new Intl.DateTimeFormat('sv-SE', {
+                timeZone: 'Europe/Stockholm',
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit'
+            }).format(new Date());
         }
 
         function updatePageTitle() {
             const title = document.getElementById('pageTitle');
             const formatter = new Intl.DateTimeFormat('sv-SE', {
+                timeZone: 'Europe/Stockholm',
                 weekday: 'long',
                 day: 'numeric',
                 month: 'long'
@@ -219,7 +226,9 @@
         }
 
         function bucketForHour(hour) {
-            return BUCKETS.find(bucket => hour !== null && hour >= bucket.from && hour < bucket.to) || null;
+            return BUCKETS.find(bucket =>
+                bucket.fallback || (hour !== null && hour >= bucket.from && hour < bucket.to)
+            ) || null;
         }
 
         function formatTimeRange(item) {
@@ -268,9 +277,21 @@
         async function loadActivities() {
             const grid = document.getElementById('trainingGrid');
             try {
-                const response = await fetch(`data/calendar.json?t=${Date.now()}`);
-                if (!response.ok) throw new Error('Kunde inte läsa datafilen');
-                const data = await response.json();
+                let data = null;
+                let lastError = null;
+                for (const url of CALENDAR_DATA_URLS) {
+                    try {
+                        const response = await fetch(`${url}?t=${Date.now()}`, { cache: 'no-store' });
+                        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                        data = await response.json();
+                        break;
+                    } catch (error) {
+                        lastError = error;
+                    }
+                }
+                if (!data) {
+                    throw new Error(`Kalenderdata kunde inte hämtas (${lastError?.message || 'okänt fel'})`);
+                }
 
                 const todayIso = todayIsoLocal();
                 const activities = (data.activities || [])
@@ -294,7 +315,7 @@
                     .map(bucket => renderBucket(bucket, grouped.get(bucket.key) || []))
                     .join('');
             } catch (error) {
-                grid.innerHTML = `<div class="empty-state">Kunde inte ladda aktiviteter.<br>${error.message}</div>`;
+                grid.innerHTML = `<div class="empty-state">Kunde inte ladda aktiviteter.<br>${error.message}<br><small>Kontrollera nätanslutningen och öppna sidan via http/https.</small></div>`;
             }
         }
 

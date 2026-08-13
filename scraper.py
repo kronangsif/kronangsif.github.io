@@ -11,6 +11,7 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 CALENDAR_URL = "https://www.kronangsif.se/match/?ID=38276&kommande=1"
+TEAM_CALENDAR_URL = "https://www.kronangsif.se/kalender/?ID={team_id}&GID=0"
 HOME_URL = "https://www.kronangsif.se/"
 OUTPUT_FILE = Path(__file__).parent / "data" / "calendar.json"
 
@@ -125,6 +126,19 @@ SWEDISH_MONTHS = {
 def fetch_calendar():
     headers = {"User-Agent": "Mozilla/5.0"}
     response = requests.get(CALENDAR_URL, headers=headers, timeout=30)
+    response.raise_for_status()
+    response.encoding = 'iso-8859-1'
+    return response.text
+
+
+def fetch_team_calendar(team_id):
+    """Fetch a team's calendar, which contains training sessions as well as matches."""
+    headers = {"User-Agent": "Mozilla/5.0"}
+    response = requests.get(
+        TEAM_CALENDAR_URL.format(team_id=team_id),
+        headers=headers,
+        timeout=30,
+    )
     response.raise_for_status()
     response.encoding = 'iso-8859-1'
     return response.text
@@ -376,7 +390,7 @@ def save_data(activities, month, year, latest_news):
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     data = {
         "last_updated": datetime.now().isoformat(),
-        "source": CALENDAR_URL,
+        "source": [CALENDAR_URL, "team calendars"],
         "month": month,
         "year": year,
         "activity_count": len(activities),
@@ -393,6 +407,32 @@ def main():
     html = fetch_calendar()
     month, year, activities = parse_calendar(html)
     print(f"Calendar month: {month}/{year}")
+
+    # The match calendar does not include regular team training sessions.
+    # Fetch each team's calendar as well so the dashboard's daily activity
+    # view contains both matches and training.
+    existing = {
+        (a.get('date'), a.get('time'), a.get('team'), a.get('description'), a.get('location'))
+        for a in activities
+    }
+    team_calendar_count = 0
+    for team_id, team_name in TEAM_IDS.items():
+        if team_name == "VEO kamera":
+            continue
+        try:
+            _, _, team_activities = parse_calendar(fetch_team_calendar(team_id))
+            for activity in team_activities:
+                key = (
+                    activity.get('date'), activity.get('time'), activity.get('team'),
+                    activity.get('description'), activity.get('location')
+                )
+                if key not in existing:
+                    activities.append(activity)
+                    existing.add(key)
+            team_calendar_count += 1
+        except Exception as e:
+            print(f"Warning: Could not fetch calendar for {team_name} ({team_id}): {e}")
+    print(f"Team calendars added: {team_calendar_count}")
 
     print("Fetching latest homepage news...")
     latest_news = []
