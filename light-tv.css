@@ -19,10 +19,15 @@ body {
 }
 
 .header,
-.header-bar {
+.header-bar,
+.hero {
     background: var(--tv-bg) !important;
     color: var(--tv-text) !important;
     border-color: #2563eb !important;
+}
+
+.hero {
+    background-image: none !important;
 }
 
 .header h1,
@@ -32,6 +37,7 @@ body {
 .bucket-title,
 .day-label,
 .match-title,
+.date,
 .day-num,
 .event-desc,
 .match-away,
@@ -86,6 +92,56 @@ body {
     color: var(--tv-text) !important;
     border-color: var(--tv-border) !important;
     box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08) !important;
+}
+
+.match-card {
+    background: var(--tv-surface) !important;
+    border-color: var(--tv-border) !important;
+    box-shadow: 0 3px 12px rgba(15, 23, 42, 0.1) !important;
+}
+
+.match-card::before {
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.06), transparent 55%) !important;
+}
+
+.team,
+.meta-line,
+.meta-line .meta-team,
+.meta-line .meta-venue,
+.meta-line .meta-sep,
+.desc,
+.venue-main,
+.room-note {
+    color: var(--tv-text) !important;
+}
+
+.match-title,
+.match-title .match-home,
+.match-title .match-away {
+    color: var(--tv-text) !important;
+}
+
+.room-card.home {
+    background: #ecfdf5 !important;
+    border-color: #86efac !important;
+}
+
+.room-card.away {
+    background: #eff6ff !important;
+    border-color: #93c5fd !important;
+}
+
+.room-card.home .room-head,
+.room-card.home .room-code,
+.room-card.away .room-head,
+.room-card.away .room-code {
+    color: var(--tv-text) !important;
+}
+
+.badge {
+    background: #e0ecff !important;
+    border-color: #93c5fd !important;
+    color: #1e3a8a !important;
 }
 
 .bucket-header,
