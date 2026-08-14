@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14T02:28:17.416212",
+  "last_updated": "2026-08-14T04:24:47.555872",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 27.9
+        "temp": 27.6
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 27.9
+        "temp": 27.6
       }
     },
     {
@@ -77,7 +77,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.9
+        "temp": 22.3
       }
     },
     {
@@ -93,9 +93,9 @@
       "location": "Örby IP C Lilla Gräs P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 18.1
       }
     },
     {
@@ -111,9 +111,9 @@
       "location": "Östlyckevallen P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.2
       }
     },
     {
@@ -129,9 +129,9 @@
       "location": "Kronängs Arena B-plan F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 20.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 20.9
       }
     },
     {
@@ -147,9 +147,9 @@
       "location": "Kronängs Arena A-plan P2016 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 20.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 21.0
       }
     },
     {
@@ -165,9 +165,9 @@
       "location": "Kronängs Arena A-plan P2016 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 20.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 21.0
       }
     },
     {
