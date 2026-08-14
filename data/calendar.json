@@ -1,31 +1,13 @@
 {
-  "last_updated": "2026-08-14T04:24:47.555872",
+  "last_updated": "2026-08-14T05:58:50.807998",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 8,
   "year": 2026,
-  "activity_count": 145,
+  "activity_count": 138,
   "activities": [
-    {
-      "date": "2026-08-14",
-      "day": "14",
-      "weekday": "fre",
-      "time": "00:00",
-      "end_time": "",
-      "team": "F2015-2016",
-      "team_id": "520574",
-      "type": "Match",
-      "description": "Tranemo IF Fotboll hemma",
-      "location": "Kronängs Arena A-plan F2015-2016 »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.5
-      }
-    },
     {
       "date": "2026-08-14",
       "day": "14",
@@ -41,7 +23,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 27.6
+        "temp": 27.7
       }
     },
     {
@@ -59,7 +41,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 27.6
+        "temp": 27.7
       }
     },
     {
@@ -437,20 +419,6 @@
       "type": "Match",
       "description": "Viskafors IF hemma",
       "location": "Kronängs Arena A-plan Herr »",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-08-23",
-      "day": "23",
-      "weekday": "sön",
-      "time": "00:00",
-      "end_time": "",
-      "team": "F2015-2016",
-      "team_id": "520574",
-      "type": "Match",
-      "description": "Länghems IF borta",
-      "location": "Ingsvallen 7-manna F2015-2016 »",
       "lockerooms": null,
       "weather": null
     },
@@ -964,20 +932,6 @@
       "weekday": "sön",
       "time": "00:00",
       "end_time": "",
-      "team": "F2015-2016",
-      "team_id": "520574",
-      "type": "Match",
-      "description": "Brämhults IK Svart hemma",
-      "location": "Kronäng Arena F2015-2016 »",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-09-06",
-      "day": "06",
-      "weekday": "sön",
-      "time": "00:00",
-      "end_time": "",
       "team": "P2014",
       "team_id": "324331",
       "type": "Match",
@@ -1165,20 +1119,6 @@
       "type": "Match",
       "description": "Svenljunga IK hemma",
       "location": "Kronäng Arena konstgräs 1 VEO kamera »",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-09-12",
-      "day": "12",
-      "weekday": "lör",
-      "time": "00:00",
-      "end_time": "",
-      "team": "F2015-2016",
-      "team_id": "520574",
-      "type": "Match",
-      "description": "Mariedals IK borta",
-      "location": "Kransmossens IP D F2015-2016 »",
       "lockerooms": null,
       "weather": null
     },
@@ -1389,20 +1329,6 @@
       "type": "Match",
       "description": "Rävlanda AIS hemma",
       "location": "Kronäng Arena konstgräs 1 Herr »",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-09-19",
-      "day": "19",
-      "weekday": "lör",
-      "time": "00:00",
-      "end_time": "",
-      "team": "F2015-2016",
-      "team_id": "520574",
-      "type": "Match",
-      "description": "Dalsjöfors GoIF Svart hemma",
-      "location": "Kronäng Arena F2015-2016 »",
       "lockerooms": null,
       "weather": null
     },
@@ -1664,34 +1590,6 @@
       "weekday": "sön",
       "time": "00:00",
       "end_time": "",
-      "team": "F2015-2016",
-      "team_id": "520574",
-      "type": "Match",
-      "description": "Svenljunga IK hemma",
-      "location": "Kronäng Arena F2015-2016 »",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-09-27",
-      "day": "27",
-      "weekday": "sön",
-      "time": "00:00",
-      "end_time": "",
-      "team": "P2014",
-      "team_id": "324331",
-      "type": "Match",
-      "description": "Lerums IS hemma",
-      "location": "Kronäng Arena P2014 »",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-09-27",
-      "day": "27",
-      "weekday": "sön",
-      "time": "00:00",
-      "end_time": "",
       "team": "P2014",
       "team_id": "324331",
       "type": "Match",
@@ -1710,6 +1608,20 @@
       "team_id": "324331",
       "type": "Match",
       "description": "Ospecificerat lag (11) hemma",
+      "location": "Kronäng Arena P2014 »",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-27",
+      "day": "27",
+      "weekday": "sön",
+      "time": "00:00",
+      "end_time": "",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Match",
+      "description": "Lerums IS hemma",
       "location": "Kronäng Arena P2014 »",
       "lockerooms": null,
       "weather": null
@@ -1921,20 +1833,6 @@
       "type": "Match",
       "description": "Högvads BK borta",
       "location": "Hallevi, Mjöbäck A Herr »",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-10-04",
-      "day": "04",
-      "weekday": "sön",
-      "time": "00:00",
-      "end_time": "",
-      "team": "F2015-2016",
-      "team_id": "520574",
-      "type": "Match",
-      "description": "Dalsjöfors GoIF Svart hemma",
-      "location": "Kronäng Arena F2015-2016 »",
       "lockerooms": null,
       "weather": null
     },
