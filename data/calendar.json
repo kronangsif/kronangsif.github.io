@@ -1,49 +1,13 @@
 {
-  "last_updated": "2026-08-14T21:34:10.948681",
+  "last_updated": "2026-08-14T22:00:22.261784",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 8,
   "year": 2026,
-  "activity_count": 138,
+  "activity_count": 136,
   "activities": [
-    {
-      "date": "2026-08-14",
-      "day": "14",
-      "weekday": "fre",
-      "time": "18:00",
-      "end_time": "",
-      "team": "P2013",
-      "team_id": "324307",
-      "type": "Match",
-      "description": "Bergdalens IK hemma",
-      "location": "Kronängs Arena B-plan P2013 »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 27.7
-      }
-    },
-    {
-      "date": "2026-08-14",
-      "day": "14",
-      "weekday": "fre",
-      "time": "18:45",
-      "end_time": "",
-      "team": "Herr",
-      "team_id": "38937",
-      "type": "Match",
-      "description": "Sätila SK borta",
-      "location": "Lygnevi A Herr »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 27.7
-      }
-    },
     {
       "date": "2026-08-15",
       "day": "15",
@@ -59,7 +23,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.2
+        "temp": 22.9
       }
     },
     {
@@ -75,9 +39,9 @@
       "location": "Örby IP C Lilla Gräs P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 17.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.3
       }
     },
     {
@@ -95,7 +59,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.8
+        "temp": 18.5
       }
     },
     {
@@ -111,9 +75,9 @@
       "location": "Kronängs Arena B-plan F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 20.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 20.6
       }
     },
     {
@@ -167,7 +131,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.3
+        "temp": 21.7
       }
     },
     {
@@ -185,7 +149,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.3
+        "temp": 21.7
       }
     },
     {
@@ -201,9 +165,9 @@
       "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 21.4
       }
     },
     {
@@ -219,9 +183,9 @@
       "location": "Byttorps IP A Konstgräs P2011 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 21.4
       }
     },
     {
@@ -237,9 +201,9 @@
       "location": "Kronäng Arena konstgräs 1 VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 21.4
       }
     },
     {
@@ -305,10 +269,14 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Hestrafors IF Grön hemma",
+      "description": "Kinna IF Röd hemma",
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.7
+      }
     },
     {
       "date": "2026-08-21",
@@ -319,10 +287,14 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Kinna IF Röd hemma",
+      "description": "Hestrafors IF Grön hemma",
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.7
+      }
     },
     {
       "date": "2026-08-21",
@@ -336,7 +308,11 @@
       "description": "Ubbhult/Hällingsjö/Hyssna hemma",
       "location": "Kronängs Arena A-plan P2009-2010 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.6
+      }
     },
     {
       "date": "2026-08-21",
@@ -350,7 +326,11 @@
       "description": "Gerdskens BK Vit hemma",
       "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.6
+      }
     },
     {
       "date": "2026-08-22",
