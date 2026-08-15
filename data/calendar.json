@@ -1,31 +1,13 @@
 {
-  "last_updated": "2026-08-15T21:58:30.604000",
+  "last_updated": "2026-08-15T22:32:31.676553",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 8,
   "year": 2026,
-  "activity_count": 137,
+  "activity_count": 136,
   "activities": [
-    {
-      "date": "2026-08-15",
-      "day": "15",
-      "weekday": "lör",
-      "time": "11:00",
-      "end_time": "",
-      "team": "P2013",
-      "team_id": "324307",
-      "type": "Match",
-      "description": "Vårgårda IK Röd borta",
-      "location": "Tånga Hed Pelle planen B P2013 »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.6
-      }
-    },
     {
       "date": "2026-08-16",
       "day": "16",
@@ -269,7 +251,7 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Hestrafors IF Grön hemma",
+      "description": "Kinna IF Röd hemma",
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
@@ -287,7 +269,7 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Kinna IF Röd hemma",
+      "description": "Hestrafors IF Grön hemma",
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
@@ -362,7 +344,11 @@
       "description": "IFK Tidaholm hemma",
       "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.7
+      }
     },
     {
       "date": "2026-08-22",
@@ -376,7 +362,11 @@
       "description": "IFK Tidaholm hemma",
       "location": "Kronäng Arena konstgräs 1 VEO kamera »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.7
+      }
     },
     {
       "date": "2026-08-22",
@@ -390,7 +380,11 @@
       "description": "Rydboholms SK borta",
       "location": "Sven Erikssonsvallen P2013 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.0
+      }
     },
     {
       "date": "2026-08-22",
@@ -404,7 +398,11 @@
       "description": "Hestrafors IF Röd borta",
       "location": "Bollevi C P2014 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.0
+      }
     },
     {
       "date": "2026-08-22",
@@ -418,7 +416,11 @@
       "description": "Viskafors IF hemma",
       "location": "Kronängs Arena A-plan Herr »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.0
+      }
     },
     {
       "date": "2026-08-23",
@@ -443,7 +445,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Bergdalens IK Vit hemma",
+      "description": "Kinna IF Röd hemma",
       "location": "Kronängs Arena B-plan P2016 »",
       "lockerooms": null,
       "weather": null
@@ -457,7 +459,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Kinna IF Röd hemma",
+      "description": "Bergdalens IK Vit hemma",
       "location": "Kronängs Arena B-plan P2016 »",
       "lockerooms": null,
       "weather": null
@@ -1241,7 +1243,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Byttorps IF Vit hemma",
+      "description": "IF Elfsborg hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
@@ -1255,7 +1257,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "IF Elfsborg hemma",
+      "description": "Byttorps IF Vit hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
