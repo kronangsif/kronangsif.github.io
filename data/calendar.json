@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15T15:00:47.133207",
+  "last_updated": "2026-08-15T15:36:27.253329",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.7
+        "temp": 17.3
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.8
+        "temp": 18.4
       }
     },
     {
@@ -75,9 +75,9 @@
       "location": "Kronängs Arena B-plan F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 20.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.6
       }
     },
     {
@@ -93,9 +93,9 @@
       "location": "Kronängs Arena A-plan P2016 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 20.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 20.3
       }
     },
     {
@@ -111,9 +111,9 @@
       "location": "Kronängs Arena A-plan P2016 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 20.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 20.3
       }
     },
     {
@@ -129,9 +129,9 @@
       "location": "Kronängs Arena B-plan P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 21.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 20.3
       }
     },
     {
@@ -147,9 +147,9 @@
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 21.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 20.3
       }
     },
     {
@@ -167,7 +167,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 21.2
+        "temp": 20.2
       }
     },
     {
@@ -185,7 +185,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 21.2
+        "temp": 20.2
       }
     },
     {
@@ -203,7 +203,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 21.2
+        "temp": 20.2
       }
     },
     {
@@ -221,7 +221,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.0
+        "temp": 17.7
       }
     },
     {
