@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15T09:31:50.052811",
+  "last_updated": "2026-08-15T10:00:20.899075",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.3
+        "temp": 21.6
       }
     },
     {
@@ -39,9 +39,9 @@
       "location": "Örby IP C Lilla Gräs P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 17.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.2
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 19.1
+        "temp": 18.5
       }
     },
     {
@@ -75,9 +75,9 @@
       "location": "Kronängs Arena B-plan F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 21.2
       }
     },
     {
@@ -95,7 +95,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.5
+        "temp": 21.6
       }
     },
     {
@@ -113,7 +113,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 21.5
+        "temp": 21.6
       }
     },
     {
@@ -129,9 +129,9 @@
       "location": "Kronängs Arena B-plan P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 21.8
       }
     },
     {
@@ -147,9 +147,9 @@
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 21.8
       }
     },
     {
@@ -165,9 +165,9 @@
       "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 21.7
       }
     },
     {
@@ -183,9 +183,9 @@
       "location": "Byttorps IP A Konstgräs P2011 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 21.7
       }
     },
     {
@@ -201,9 +201,9 @@
       "location": "Kronäng Arena konstgräs 1 VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 21.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 21.7
       }
     },
     {
@@ -221,7 +221,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.0
+        "temp": 18.5
       }
     },
     {
