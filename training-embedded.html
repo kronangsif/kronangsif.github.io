@@ -242,7 +242,9 @@
                 .filter(Boolean)
                 .join(' ')
                 .toUpperCase();
-            return !haystack.includes('VEO');
+            if (haystack.includes('VEO')) return false;
+            if (item.type !== 'Match') return true;
+            return haystack.includes('HEMMA') && !haystack.includes('BORTA');
         }
 
         function renderBucket(bucket, items) {
