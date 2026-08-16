@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16T19:57:39.100889",
+  "last_updated": "2026-08-16T20:32:21.365428",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -221,7 +221,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.7
+        "temp": 13.8
       }
     },
     {
@@ -255,8 +255,8 @@
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 19.5
       }
     },
@@ -273,8 +273,8 @@
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 19.5
       }
     },
@@ -291,8 +291,8 @@
       "location": "Kronängs Arena A-plan P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 17.6
       }
     },
@@ -309,8 +309,8 @@
       "location": "Kronäng Arena konstgräs 1 P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 17.6
       }
     },
@@ -327,8 +327,8 @@
       "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 17.6
       }
     },
@@ -345,8 +345,8 @@
       "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 15.9
       }
     },
@@ -363,8 +363,8 @@
       "location": "Kronäng Arena konstgräs 1 VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 15.9
       }
     },
@@ -381,8 +381,8 @@
       "location": "Sven Erikssonsvallen P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 16.2
       }
     },
