@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16T21:00:17.569557",
+  "last_updated": "2026-08-16T21:30:39.163038",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -239,7 +239,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.9
+        "temp": 17.7
       }
     },
     {
@@ -257,7 +257,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.5
+        "temp": 17.3
       }
     },
     {
@@ -275,7 +275,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.5
+        "temp": 17.3
       }
     },
     {
@@ -293,7 +293,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.6
+        "temp": 16.5
       }
     },
     {
@@ -311,7 +311,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.6
+        "temp": 16.5
       }
     },
     {
@@ -329,7 +329,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.6
+        "temp": 16.5
       }
     },
     {
@@ -347,7 +347,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 15.7
       }
     },
     {
@@ -365,7 +365,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 15.7
       }
     },
     {
@@ -383,7 +383,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.2
+        "temp": 16.0
       }
     },
     {
@@ -401,7 +401,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.2
+        "temp": 15.9
       }
     },
     {
