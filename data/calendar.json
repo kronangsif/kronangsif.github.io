@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16T17:02:03.537677",
+  "last_updated": "2026-08-16T17:35:33.796982",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -147,8 +147,8 @@
       "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 22.6
       }
     },
@@ -165,8 +165,8 @@
       "location": "Byttorps IP A Konstgräs P2011 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 22.6
       }
     },
@@ -183,8 +183,8 @@
       "location": "Kronäng Arena konstgräs 1 VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 22.6
       }
     },
@@ -203,7 +203,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.4
+        "temp": 17.7
       }
     },
     {
@@ -219,9 +219,9 @@
       "location": "Annan P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 11.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.0
       }
     },
     {
