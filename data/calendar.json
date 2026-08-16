@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-16T06:02:51.369526",
+  "last_updated": "2026-08-16T07:00:55.790688",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 8,
   "year": 2026,
-  "activity_count": 136,
+  "activity_count": 135,
   "activities": [
     {
       "date": "2026-08-16",
@@ -251,7 +251,7 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Kinna IF Röd hemma",
+      "description": "Hestrafors IF Grön hemma",
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
@@ -269,7 +269,7 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Hestrafors IF Grön hemma",
+      "description": "Kinna IF Röd hemma",
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
@@ -379,24 +379,6 @@
       "type": "Match",
       "description": "Rydboholms SK borta",
       "location": "Sven Erikssonsvallen P2013 »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 18.0
-      }
-    },
-    {
-      "date": "2026-08-22",
-      "day": "22",
-      "weekday": "lör",
-      "time": "14:00",
-      "end_time": "",
-      "team": "P2014",
-      "team_id": "324331",
-      "type": "Match",
-      "description": "Hestrafors IF Röd borta",
-      "location": "Bollevi C P2014 »",
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
