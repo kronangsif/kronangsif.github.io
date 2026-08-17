@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17T16:47:18.257147",
+  "last_updated": "2026-08-17T17:33:04.987219",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 17.8
+        "temp": 16.9
       }
     },
     {
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.1
+        "temp": 12.5
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.1
+        "temp": 13.8
       }
     },
     {
