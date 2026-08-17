@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17T19:43:42.854457",
+  "last_updated": "2026-08-17T20:09:22.193954",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -39,8 +39,8 @@
       "location": "Annan P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
         "temp": 12.5
       }
     },
