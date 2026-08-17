@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16T23:51:05.463433",
+  "last_updated": "2026-08-17T01:43:44.195956",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -21,9 +21,9 @@
       "location": "Lundavallen A Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.4
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.0
       }
     },
     {
@@ -219,8 +219,8 @@
       "location": "Kronängs Arena A-plan Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 15.9
       }
     },
