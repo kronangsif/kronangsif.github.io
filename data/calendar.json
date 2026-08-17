@@ -1,31 +1,13 @@
 {
-  "last_updated": "2026-08-17T21:31:18.468148",
+  "last_updated": "2026-08-17T22:01:23.438561",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 8,
   "year": 2026,
-  "activity_count": 125,
+  "activity_count": 124,
   "activities": [
-    {
-      "date": "2026-08-17",
-      "day": "17",
-      "weekday": "mån",
-      "time": "18:45",
-      "end_time": "",
-      "team": "Herr",
-      "team_id": "38937",
-      "type": "Match",
-      "description": "Äspereds IF U borta",
-      "location": "Lundavallen A Herr »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 16.9
-      }
-    },
     {
       "date": "2026-08-19",
       "day": "19",
@@ -344,7 +326,11 @@
       "description": "Hemsjö IF U borta",
       "location": "Byvallen A-plan Dam »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 9.5
+      }
     },
     {
       "date": "2026-08-24",
@@ -358,7 +344,11 @@
       "description": "Hemsjö IF U borta",
       "location": "Byvallen A-plan VEO kamera »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 9.5
+      }
     },
     {
       "date": "2026-08-24",
@@ -372,7 +362,11 @@
       "description": "IF Elfsborg Gul borta",
       "location": "Ryda fotbollshall F2012/2013 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 15.4
+      }
     },
     {
       "date": "2026-08-25",
@@ -565,7 +559,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Hestrafors IF Vit hemma",
+      "description": "Ulricehamns IFK Svart hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
@@ -579,7 +573,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Ulricehamns IFK Svart hemma",
+      "description": "Hestrafors IF Vit hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
@@ -1069,7 +1063,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "IF Elfsborg hemma",
+      "description": "Byttorps IF Vit hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
@@ -1083,7 +1077,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Byttorps IF Vit hemma",
+      "description": "IF Elfsborg hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
