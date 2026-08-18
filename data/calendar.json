@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T12:02:37.515996",
+  "last_updated": "2026-08-18T13:10:03.184851",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 12.6
+        "temp": 12.4
       }
     },
     {
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.0
+        "temp": 17.5
       }
     },
     {
@@ -57,9 +57,9 @@
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 16.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.2
       }
     },
     {
@@ -75,9 +75,9 @@
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 16.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.2
       }
     },
     {
@@ -93,9 +93,9 @@
       "location": "Kronängs Arena A-plan P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 15.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.8
       }
     },
     {
@@ -111,9 +111,9 @@
       "location": "Kronängs Arena A-plan P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 15.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.8
       }
     },
     {
@@ -129,9 +129,9 @@
       "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 15.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.8
       }
     },
     {
@@ -149,7 +149,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.2
+        "temp": 15.3
       }
     },
     {
@@ -167,7 +167,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.2
+        "temp": 15.3
       }
     },
     {
@@ -185,7 +185,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.5
+        "temp": 15.1
       }
     },
     {
@@ -203,7 +203,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.5
+        "temp": 13.8
       }
     },
     {
@@ -221,7 +221,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.4
       }
     },
     {
@@ -239,7 +239,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.3
+        "temp": 17.1
       }
     },
     {
@@ -257,7 +257,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.3
+        "temp": 17.1
       }
     },
     {
@@ -275,7 +275,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 16.4
       }
     },
     {
@@ -293,7 +293,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.7
+        "temp": 15.1
       }
     },
     {
@@ -311,7 +311,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.7
+        "temp": 15.1
       }
     },
     {
@@ -327,9 +327,9 @@
       "location": "Byvallen A-plan Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 9.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 10.8
       }
     },
     {
@@ -345,9 +345,9 @@
       "location": "Byvallen A-plan VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 9.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 10.8
       }
     },
     {
@@ -363,9 +363,9 @@
       "location": "Ryda fotbollshall F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 15.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 15.1
       }
     },
     {
