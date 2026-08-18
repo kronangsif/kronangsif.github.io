@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T21:40:48.705267",
+  "last_updated": "2026-08-18T22:00:01.079972",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -380,7 +380,11 @@
       "description": "IF Elfsborg hemma",
       "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.6
+      }
     },
     {
       "date": "2026-08-25",
@@ -394,7 +398,11 @@
       "description": "IF Elfsborg hemma",
       "location": "Kronäng Arena konstgräs 1 VEO kamera »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.6
+      }
     },
     {
       "date": "2026-08-28",
