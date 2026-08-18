@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T10:04:02.825156",
+  "last_updated": "2026-08-18T10:48:12.556704",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 12.1
+        "temp": 12.7
       }
     },
     {
@@ -39,9 +39,9 @@
       "location": "Kronängs Arena B-plan F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 17.0
       }
     },
     {
