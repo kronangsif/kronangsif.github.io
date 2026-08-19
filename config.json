@@ -8,16 +8,10 @@
       "file": "training-embedded.html"
     },
     {
-      "id": "matches-1",
-      "title": "Matcher dag 1-4",
+      "id": "matches",
+      "title": "Matcher kommande 3 dagar",
       "icon": "⚽",
-      "file": "matches-embedded.html?part=0"
-    },
-    {
-      "id": "matches-2",
-      "title": "Matcher dag 5-8",
-      "icon": "⚽",
-      "file": "matches-embedded.html?part=1"
+      "file": "matches-embedded.html"
     },
     {
       "id": "herr",
@@ -30,12 +24,6 @@
       "title": "Damer",
       "icon": "",
       "file": "dam-embedded.html"
-    },
-    {
-      "id": "facebook",
-      "title": "Facebook och Nyheter",
-      "icon": "📘",
-      "file": "facebook-embedded.html"
     },
     {
       "id": "home-matches-today",
@@ -52,7 +40,7 @@
     },
     {
       "label": "Matcher",
-      "pages": ["matches-1", "matches-2"],
+      "pages": ["matches"],
       "displayMode": "single"
     },
     {
@@ -64,16 +52,11 @@
       "label": "Damer",
       "pages": ["dam"],
       "displayMode": "single"
-    },
-    {
-      "label": "Facebook och Nyheter",
-      "pages": ["facebook"],
-      "displayMode": "single"
     }
   ],
   "rotation": {
     "enabled": true,
     "intervalSeconds": 20,
-    "groups": [0, 1, 2, 3, 4]
+    "groups": [0, 1, 2, 3]
   }
 }

@@ -186,11 +186,156 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        /* Compact, readable layout for the next three days. */
+        .week-grid {
+            overflow: hidden;
+            display: block;
+            padding: 14px 18px;
+        }
+        .day-section {
+            margin-bottom: 12px;
+        }
+        .day-section:last-child {
+            margin-bottom: 0;
+        }
+        .date-heading {
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+            margin: 0 2px 7px;
+            color: #172033;
+        }
+        .date-heading .weekday {
+            font-size: 1.15rem;
+            font-weight: 800;
+            text-transform: capitalize;
+        }
+        .date-heading .date-number {
+            color: #526174;
+            font-size: 0.95rem;
+            font-weight: 700;
+        }
+        .match-list-compact {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 8px 12px;
+        }
+        .match-row {
+            display: grid;
+            grid-template-columns: minmax(90px, max-content) minmax(0, 1fr) auto;
+            align-items: center;
+            gap: 12px;
+            min-height: 78px;
+            padding: 10px 13px;
+            border: 1px solid #cbd5e1;
+            border-left: 4px solid #2563eb;
+            border-radius: 11px;
+            background: #f8fafc;
+            box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+        }
+        .match-row.home {
+            border-left-color: #111827;
+        }
+        .match-row.away {
+            border-left-color: #2563eb;
+        }
+        .match-row-time {
+            color: #1d4ed8;
+            font-size: 1.35rem;
+            font-weight: 900;
+            line-height: 1.1;
+            white-space: nowrap;
+        }
+        .match-row.home .match-row-time {
+            color: #111827;
+        }
+        .match-row.away .match-row-time {
+            color: #1d4ed8;
+        }
+        .match-row.away .match-row-team,
+        .match-row.away .match-row-desc,
+        .match-row.away .match-row-location {
+            color: #1d4ed8;
+        }
+        .match-row-main {
+            min-width: 0;
+        }
+        .match-row-team {
+            color: #172033;
+            font-size: 1rem;
+            font-weight: 800;
+        }
+        .match-row-desc {
+            margin-top: 3px;
+            overflow: hidden;
+            color: #526174;
+            font-size: 0.92rem;
+            font-weight: 600;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .match-row-location {
+            margin-top: 3px;
+            overflow: hidden;
+            color: #64748b;
+            font-size: 0.75rem;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .match-row-weather {
+            padding: 6px 8px;
+            border-radius: 999px;
+            background: #e0ecff;
+            color: #1e3a8a;
+            font-size: 0.78rem;
+            font-weight: 800;
+            white-space: nowrap;
+        }
+        @media (max-width: 900px) {
+            .match-list-compact {
+                grid-template-columns: 1fr;
+            }
+        }
+        @media (min-height: 800px) and (min-width: 901px) {
+            .week-grid {
+                padding-top: 18px;
+            }
+            .day-section {
+                margin-bottom: 18px;
+            }
+            .date-heading .weekday {
+                font-size: 1.35rem;
+            }
+            .date-heading .date-number {
+                font-size: 1.05rem;
+            }
+            .match-row {
+                grid-template-columns: minmax(110px, max-content) minmax(0, 1fr) auto;
+                min-height: clamp(92px, 10vh, 142px);
+                padding: 14px 17px;
+            }
+            .match-row-time {
+                font-size: clamp(1.45rem, 2vw, 2rem);
+            }
+            .match-row-team {
+                font-size: clamp(1.05rem, 1.4vw, 1.35rem);
+            }
+            .match-row-desc {
+                font-size: clamp(0.95rem, 1.15vw, 1.15rem);
+            }
+            .match-row-location {
+                font-size: clamp(0.78rem, 0.95vw, 0.95rem);
+            }
+            .match-row-weather {
+                font-size: 0.9rem;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1 id="matchesTitle">⚽ Matcher kommande 4 dagar</h1>
+        <h1 id="matchesTitle">⚽ Matcher kommande 3 dagar</h1>
         <img class="header-logo" src="kronang-logo-2026.png" alt="Kronängs IF logga">
     </div>
 
@@ -216,31 +361,53 @@
             return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
         }
 
-        function renderDayCard(dateIso, matches, todayIso) {
+        function renderMatch(match) {
+            const isHome = isHomeMatch(match);
+            return `
+                <article class="match-row ${isHome ? 'home' : 'away'}">
+                    <div class="match-row-time">${match.time || 'Tid saknas'}</div>
+                    <div class="match-row-main">
+                        <div class="match-row-team">${match.team || 'Okänt lag'}</div>
+                        <div class="match-row-desc">${match.description || 'Match'}</div>
+                        <div class="match-row-location">${match.location || ''}</div>
+                    </div>
+                    ${match.weather ? `<div class="match-row-weather">${match.weather.icon || ''} ${Math.round(match.weather.temp)}°C</div>` : ''}
+                </article>
+            `;
+        }
+
+        function isHomeMatch(match) {
+            const haystack = [match.team, match.description, match.location]
+                .filter(Boolean)
+                .join(' ')
+                .toLowerCase();
+            return haystack.includes('hemma') && !haystack.includes('borta');
+        }
+
+        function deduplicateMatches(matches) {
+            const seen = new Set();
+            return matches.filter(match => {
+                const key = [match.date, match.time, match.team, match.description]
+                    .map(value => String(value || '').trim().toLowerCase())
+                    .join('|');
+                if (seen.has(key)) return false;
+                seen.add(key);
+                return true;
+            });
+        }
+
+        function renderDateSection(dateIso, matches) {
             const dateObj = new Date(`${dateIso}T12:00:00`);
             const weekday = WEEKDAYS[dateObj.getDay()];
             const dateLabel = `${dateObj.getDate()} ${MONTHS[dateObj.getMonth()]}`;
-            const isToday = dateIso === todayIso;
-
-            const matchHtml = matches.length
-                ? matches.map(match => `
-                    <div class="match-item">
-                        <div class="match-time">${match.time || 'Tid saknas'}</div>
-                        <div class="match-team">${match.team || 'Okänt lag'}</div>
-                        <div class="match-desc">${match.description || 'Match'}</div>
-                        <div class="match-location">${match.location || ''}</div>
-                        ${match.weather ? `<div class="match-weather" title="${match.weather.desc}">${match.weather.icon} ${match.weather.temp}°C</div>` : ''}
-                    </div>
-                `).join('')
-                : '<div class="empty-day">Inga matcher</div>';
 
             return `
-                <section class="day-card${isToday ? ' today' : ''}">
-                    <div class="day-header">
-                        <div class="day-label">${weekday}</div>
-                        <div class="day-date">${dateLabel}</div>
+                <section class="day-section">
+                    <div class="date-heading">
+                        <span class="weekday">${weekday}</span>
+                        <span class="date-number">${dateLabel}</span>
                     </div>
-                    <div class="match-list">${matchHtml}</div>
+                    <div class="match-list-compact">${matches.map(renderMatch).join('')}</div>
                 </section>
             `;
         }
@@ -253,16 +420,12 @@
                 const data = await response.json();
 
                 const todayIso = todayIsoLocal();
-                const pageIndex = Number.parseInt(new URLSearchParams(window.location.search).get('part') || '0', 10) || 0;
-                const startOffset = Math.max(0, pageIndex) * 4;
-                const firstIso = addDaysIso(todayIso, startOffset);
-                const lastIso = addDaysIso(firstIso, 3);
-                document.getElementById('matchesTitle').textContent =
-                    `⚽ Matcher dag ${startOffset + 1}-${startOffset + 4}`;
+                const lastIso = addDaysIso(todayIso, 2);
+                document.getElementById('matchesTitle').textContent = '⚽ Matcher kommande 3 dagar';
 
-                const matches = (data.activities || [])
+                const matches = deduplicateMatches((data.activities || [])
                     .filter(item => item.type === 'Match')
-                    .filter(item => item.date && item.date >= firstIso && item.date <= lastIso)
+                    .filter(item => item.date && item.date >= todayIso && item.date <= lastIso)
                     .filter(item => {
                         const haystack = [item.team, item.description, item.location]
                             .filter(Boolean)
@@ -270,7 +433,7 @@
                             .toLowerCase();
                         return !haystack.includes('veo');
                     })
-                    .sort((a, b) => `${a.date} ${a.time}`.localeCompare(`${b.date} ${b.time}`));
+                    .sort((a, b) => `${a.date} ${a.time}`.localeCompare(`${b.date} ${b.time}`)));
 
                 const byDate = new Map();
                 matches.forEach(match => {
@@ -278,8 +441,13 @@
                     byDate.get(match.date).push(match);
                 });
 
-                const dates = Array.from({ length: 4 }, (_, index) => addDaysIso(firstIso, index));
-                grid.innerHTML = dates.map(dateIso => renderDayCard(dateIso, byDate.get(dateIso) || [], todayIso)).join('');
+                const dates = Array.from({ length: 3 }, (_, index) => addDaysIso(todayIso, index));
+                const sections = dates
+                    .filter(dateIso => (byDate.get(dateIso) || []).length > 0)
+                    .map(dateIso => renderDateSection(dateIso, byDate.get(dateIso)));
+                grid.innerHTML = sections.length
+                    ? sections.join('')
+                    : '<div class="empty-state">Inga matcher de kommande tre dagarna.</div>';
             } catch (error) {
                 grid.innerHTML = `<div class="empty-state">Kunde inte ladda matcher.<br>${error.message}</div>`;
             }
