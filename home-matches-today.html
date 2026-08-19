@@ -684,13 +684,14 @@
                         ? AVAILABLE_ROOMS
                         : AVAILABLE_ROOMS.filter(room => !SMALL_ROOMS.has(room));
                     const weekdayPreferred = isWeekday(match.date)
-                        ? preferred.filter(room => room >= 6)
+                        ? AVAILABLE_ROOMS.filter(room => room >= 6)
                         : preferred;
                     const shuffled = shuffledRooms(`${match.date}|${match.time}|${match.team}|${match.description}`);
                     const candidates = [
                         ...shuffled.filter(room => weekdayPreferred.includes(room)),
-                        ...shuffled.filter(room => preferred.includes(room) && !weekdayPreferred.includes(room)),
-                        ...shuffled.filter(room => !preferred.includes(room))
+                        ...(isWeekday(match.date)
+                            ? shuffled.filter(room => room < 6)
+                            : shuffled.filter(room => !preferred.includes(room)))
                     ];
                     const homeRoom = candidates.find(room => roomIsFree(room, interval, usage));
                     const awayRoom = candidates.find(room => room !== homeRoom && roomIsFree(room, interval, usage));

@@ -129,7 +129,7 @@
             const fixed = fixedRooms(match);
             if (fixed) return [fixed];
             const preferred = isYoung(match.team, match.date) ? AVAILABLE_ROOMS : AVAILABLE_ROOMS.filter(room => !SMALL_ROOMS.has(room));
-            const weekdayPreferred = isWeekday(match.date) ? preferred.filter(room => room >= 6) : preferred;
+            const weekdayPreferred = isWeekday(match.date) ? AVAILABLE_ROOMS.filter(room => room >= 6) : preferred;
             const order = shuffled(`${match.date}|${match.time}|${match.team}|${match.description}`);
             const rooms = [
                 ...order.filter(room => weekdayPreferred.includes(room)),
@@ -148,9 +148,9 @@
             const candidates = [];
             options.forEach(time => rooms.forEach(pair => {
                 if (canUse(pair.home, time, 'home', ageGroup(match.team)) && canUse(pair.away, time, 'away', ageGroup(match.team))) {
-                    const smallRoomPenalty = (!isYoung(match.team, match.date) && (SMALL_ROOMS.has(pair.home) || SMALL_ROOMS.has(pair.away))) ? 100 : 0;
+                    const smallRoomPenalty = (!isYoung(match.team, match.date) && (SMALL_ROOMS.has(pair.home) || SMALL_ROOMS.has(pair.away))) ? 10 : 0;
                     const weekdayRoomPenalty = isWeekday(match.date)
-                        ? ((pair.home <= 3 ? 1 : 0) + (pair.away <= 3 ? 1 : 0))
+                        ? ((pair.home <= 3 ? 100 : 0) + (pair.away <= 3 ? 100 : 0))
                         : 0;
                     const balancePenalty = Math.abs(time.startTrim - time.endTrim);
                     const sharing = usage[pair.home].filter(item => item.side === 'home' && overlaps(item.time, time));
