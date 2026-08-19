@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-19T17:31:49.757911",
+  "last_updated": "2026-08-19T18:00:46.063678",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 8,
   "year": 2026,
-  "activity_count": 302,
+  "activity_count": 303,
   "activities": [
     {
       "date": "2026-08-19",
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.3
+        "temp": 17.1
       }
     },
     {
@@ -77,7 +77,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.3
+        "temp": 17.1
       }
     },
     {
@@ -95,7 +95,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.6
+        "temp": 16.5
       }
     },
     {
@@ -113,7 +113,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.6
+        "temp": 16.5
       }
     },
     {
@@ -1983,7 +1983,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 14.0
+        "temp": 13.7
       }
     },
     {
@@ -2209,7 +2209,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.2
+        "temp": 17.0
       }
     },
     {
@@ -2397,7 +2397,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.2
+        "temp": 17.0
       }
     },
     {
@@ -2415,7 +2415,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.6
+        "temp": 16.5
       }
     },
     {
@@ -2623,7 +2623,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.2
+        "temp": 17.0
       }
     },
     {
@@ -2641,7 +2641,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.6
+        "temp": 16.5
       }
     },
     {
@@ -2871,7 +2871,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.8
+        "temp": 17.6
       }
     },
     {
@@ -3125,7 +3125,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.5
+        "temp": 18.4
       }
     },
     {
@@ -3143,7 +3143,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.3
+        "temp": 17.1
       }
     },
     {
@@ -3161,7 +3161,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.6
+        "temp": 16.5
       }
     },
     {
@@ -3419,7 +3419,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.5
+        "temp": 18.4
       }
     },
     {
@@ -3667,7 +3667,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.3
+        "temp": 17.1
       }
     },
     {
@@ -3685,7 +3685,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.3
+        "temp": 17.1
       }
     },
     {
@@ -3907,7 +3907,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.5
+        "temp": 18.4
       }
     },
     {
@@ -4183,6 +4183,24 @@
       }
     },
     {
+      "date": "2026-08-21",
+      "day": "21",
+      "weekday": "fre",
+      "time": "16:30",
+      "end_time": "17:30",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 17.8
+      }
+    },
+    {
       "date": "2026-08-22",
       "day": "22",
       "weekday": "lör",
@@ -4421,7 +4439,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.5
+        "temp": 18.4
       }
     },
     {
@@ -4553,7 +4571,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.9
+        "temp": 12.8
       }
     }
   ],
