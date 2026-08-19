@@ -11,7 +11,7 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 CALENDAR_URL = "https://www.kronangsif.se/match/?ID=38276&kommande=1"
-TEAM_CALENDAR_URL = "https://www.kronangsif.se/kalender/?ID={team_id}&GID=0"
+TEAM_CALENDAR_URL = "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID={team_id}"
 HOME_URL = "https://www.kronangsif.se/"
 OUTPUT_FILE = Path(__file__).parent / "data" / "calendar.json"
 

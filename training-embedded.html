@@ -53,8 +53,8 @@
             overflow-y: auto;
             padding: 14px;
             display: grid;
-            grid-template-columns: repeat(4, minmax(0, 1fr));
-            gap: 12px;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 18px;
             align-content: start;
         }
         .grid::-webkit-scrollbar {
@@ -65,7 +65,7 @@
             border-radius: 3px;
         }
         .bucket {
-            min-height: 240px;
+            min-height: 280px;
             display: flex;
             flex-direction: column;
             background: linear-gradient(180deg, rgba(30, 41, 59, 0.98), rgba(15, 23, 42, 0.98));
@@ -74,30 +74,30 @@
             overflow: hidden;
         }
         .bucket-header {
-            padding: 12px 14px;
+            padding: 15px 17px;
             border-bottom: 1px solid rgba(148, 163, 184, 0.16);
             background: rgba(15, 23, 42, 0.8);
         }
         .bucket-title {
-            font-size: 0.95rem;
+            font-size: 1.1rem;
             font-weight: 700;
             letter-spacing: 0.04em;
             text-transform: uppercase;
         }
         .bucket-subtitle {
-            margin-top: 4px;
+            margin-top: 5px;
             color: var(--text-secondary);
-            font-size: 0.78rem;
+            font-size: 0.9rem;
         }
         .activity-list {
             display: flex;
             flex: 1;
             flex-direction: column;
-            gap: 10px;
-            padding: 12px;
+            gap: 12px;
+            padding: 15px;
         }
         .activity-item {
-            padding: 10px 12px;
+            padding: 14px 16px;
             background: var(--bg-card);
             border-radius: 10px;
             border-left: 3px solid var(--accent);
@@ -109,32 +109,32 @@
             gap: 10px;
         }
         .activity-time {
-            font-size: 0.85rem;
+            font-size: 1rem;
             font-weight: 700;
             color: var(--accent);
         }
         .activity-type {
-            margin-top: 6px;
-            font-size: 0.78rem;
+            margin-top: 8px;
+            font-size: 0.88rem;
             letter-spacing: 0.08em;
             text-transform: uppercase;
             color: var(--text-secondary);
         }
         .activity-team {
-            margin-top: 6px;
-            font-size: 1rem;
+            margin-top: 7px;
+            font-size: 1.2rem;
             font-weight: 600;
         }
         .activity-desc {
-            margin-top: 4px;
+            margin-top: 6px;
             color: var(--text-secondary);
-            font-size: 0.85rem;
+            font-size: 1rem;
             line-height: 1.35;
         }
         .activity-location {
-            margin-top: 6px;
+            margin-top: 8px;
             color: var(--text-secondary);
-            font-size: 0.8rem;
+            font-size: 0.92rem;
             line-height: 1.35;
         }
         .activity-weather {
@@ -312,6 +312,7 @@
                 }
 
                 grid.innerHTML = BUCKETS
+                    .filter(bucket => (grouped.get(bucket.key) || []).length > 0)
                     .map(bucket => renderBucket(bucket, grouped.get(bucket.key) || []))
                     .join('');
             } catch (error) {
