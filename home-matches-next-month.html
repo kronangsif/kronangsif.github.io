@@ -207,8 +207,8 @@
         const adjustment = time?.trimMinutes ? ` · justerad −${time.trimMinutes} min` : '';
         const booking = time ? `${formatTime(time.displayStart)}–${formatTime(time.displayEnd)}${adjustment}` : 'Tid saknas';
         const roomText = hasRooms
-            ? `<div class="room home"><div class="room-label">Kronäng</div><div class="room-number">Rum ${room.home}</div><div class="room-time">${booking}</div></div><div class="room away"><div class="room-label">${opponent(match.description)}</div><div class="room-number">Rum ${room.away}</div><div class="room-time">${booking}</div></div>`
-            : `<div class="room home"><div class="room-label">Kronäng</div><div class="room-number">Ej tilldelat</div><div class="room-time">Alla rum är upptagna under intervallet.</div></div><div class="room away"><div class="room-label">Motståndare</div><div class="room-number">Ej tilldelat</div><div class="room-time">Ingen schemakrock skapas.</div></div>`;
+            ? `<div class="room home"><div class="room-label">Kronängs IF</div><div class="room-number">Rum ${room.home}</div><div class="room-time">${booking}</div></div><div class="room away"><div class="room-label">${opponent(match.description)}</div><div class="room-number">Rum ${room.away}</div><div class="room-time">${booking}</div></div>`
+            : `<div class="room home"><div class="room-label">Kronängs IF</div><div class="room-number">Ej tilldelat</div><div class="room-time">Alla rum är upptagna under intervallet.</div></div><div class="room away"><div class="room-label">Motståndare</div><div class="room-number">Ej tilldelat</div><div class="room-time">Ingen schemakrock skapas.</div></div>`;
         return `<article class="match"><div class="match-info"><div class="match-time">Matchstart ${match.time || 'Tid saknas'}</div><div class="match-team">${match.team || 'Okänt lag'}</div><div class="opponent">Motståndare: ${opponent(match.description)}</div></div><div class="rooms">${roomText}</div></article>`;
     }
     function localIso(date) { return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`; }
