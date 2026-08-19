@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T22:01:55.051015",
+  "last_updated": "2026-08-19T22:44:09.898208",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -2177,7 +2177,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.8
+        "temp": 16.9
       }
     },
     {
@@ -2361,7 +2361,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.8
+        "temp": 16.9
       }
     },
     {
@@ -2587,7 +2587,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 16.8
+        "temp": 16.9
       }
     },
     {
@@ -2835,7 +2835,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.4
+        "temp": 17.5
       }
     },
     {
@@ -4539,7 +4539,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.5
       }
     }
   ],
