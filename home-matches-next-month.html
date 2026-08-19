@@ -70,6 +70,7 @@
         return Number(date.slice(0, 4)) - Math.min(...years.map(Number));
     }
     function isYoung(team, date) { return getAge(team, date) <= 12; }
+    function isWeekday(date) { const day = new Date(`${date}T12:00:00`).getDay(); return day >= 1 && day <= 5; }
     function ageGroup(team) {
         const years = String(team || '').match(/(?:19|20)\d{2}/g);
         return years ? years.join('/') : String(team || '').trim().toLowerCase();
@@ -128,8 +129,13 @@
             const fixed = fixedRooms(match);
             if (fixed) return [fixed];
             const preferred = isYoung(match.team, match.date) ? AVAILABLE_ROOMS : AVAILABLE_ROOMS.filter(room => !SMALL_ROOMS.has(room));
+            const weekdayPreferred = isWeekday(match.date) ? preferred.filter(room => room >= 6) : preferred;
             const order = shuffled(`${match.date}|${match.time}|${match.team}|${match.description}`);
-            const rooms = [...order.filter(room => preferred.includes(room)), ...order.filter(room => !preferred.includes(room))];
+            const rooms = [
+                ...order.filter(room => weekdayPreferred.includes(room)),
+                ...order.filter(room => preferred.includes(room) && !weekdayPreferred.includes(room)),
+                ...order.filter(room => !preferred.includes(room))
+            ];
             const pairs = [];
             rooms.forEach(home => rooms.forEach(away => {
                 if (home !== away) pairs.push({ home, away });
@@ -143,12 +149,15 @@
             options.forEach(time => rooms.forEach(pair => {
                 if (canUse(pair.home, time, 'home', ageGroup(match.team)) && canUse(pair.away, time, 'away', ageGroup(match.team))) {
                     const smallRoomPenalty = (!isYoung(match.team, match.date) && (SMALL_ROOMS.has(pair.home) || SMALL_ROOMS.has(pair.away))) ? 100 : 0;
+                    const weekdayRoomPenalty = isWeekday(match.date)
+                        ? ((pair.home <= 3 ? 1 : 0) + (pair.away <= 3 ? 1 : 0))
+                        : 0;
                     const balancePenalty = Math.abs(time.startTrim - time.endTrim);
                     const sharing = usage[pair.home].filter(item => item.side === 'home' && overlaps(item.time, time));
                     const differentAgeSharing = sharing.filter(item => item.ageGroup !== ageGroup(match.team)).length;
                     const sharingPenalty = differentAgeSharing * 1000;
                     const differentAgePenalty = differentAgeSharing * 100;
-                    candidates.push({ ...pair, time, score: time.trimMinutes * 10 + balancePenalty + smallRoomPenalty + sharingPenalty + differentAgePenalty });
+                    candidates.push({ ...pair, time, score: time.trimMinutes * 10 + balancePenalty + weekdayRoomPenalty + smallRoomPenalty + sharingPenalty + differentAgePenalty });
                 }
             }));
             return candidates.sort((a, b) => a.score - b.score);

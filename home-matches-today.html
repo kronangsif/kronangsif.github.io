@@ -605,6 +605,11 @@
             return getTeamAge(team, dateIso) <= 12;
         }
 
+        function isWeekday(dateIso) {
+            const day = new Date(`${dateIso}T12:00:00`).getDay();
+            return day >= 1 && day <= 5;
+        }
+
         function hashString(value) {
             let hash = 2166136261;
             for (let index = 0; index < value.length; index += 1) {
@@ -678,9 +683,13 @@
                     const preferred = isYoungTeam(match.team, match.date)
                         ? AVAILABLE_ROOMS
                         : AVAILABLE_ROOMS.filter(room => !SMALL_ROOMS.has(room));
+                    const weekdayPreferred = isWeekday(match.date)
+                        ? preferred.filter(room => room >= 6)
+                        : preferred;
                     const shuffled = shuffledRooms(`${match.date}|${match.time}|${match.team}|${match.description}`);
                     const candidates = [
-                        ...shuffled.filter(room => preferred.includes(room)),
+                        ...shuffled.filter(room => weekdayPreferred.includes(room)),
+                        ...shuffled.filter(room => preferred.includes(room) && !weekdayPreferred.includes(room)),
                         ...shuffled.filter(room => !preferred.includes(room))
                     ];
                     const homeRoom = candidates.find(room => roomIsFree(room, interval, usage));
