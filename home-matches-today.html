@@ -563,6 +563,18 @@
             return haystack.includes('hemma');
         }
 
+        function deduplicateMatches(matches) {
+            const seen = new Set();
+            return matches.filter(match => {
+                const key = [match.date, match.time, match.team, match.description]
+                    .map(value => String(value || '').trim().toLowerCase().replace(/\s+/g, ' '))
+                    .join('|');
+                if (seen.has(key)) return false;
+                seen.add(key);
+                return true;
+            });
+        }
+
         function cleanLocation(location) {
             if (!location) return '';
             return String(location).replace(/\(\s*\)\s*$/, '').trim();
@@ -776,14 +788,15 @@
                 if (!response.ok) throw new Error('Kunde inte läsa data/calendar.json');
                 const data = await response.json();
 
-                const homeMatches = (data.activities || [])
+                const uniqueMatches = deduplicateMatches(data.activities || []);
+                const homeMatches = uniqueMatches
                     .filter(item => item.type === 'Match')
                     .filter(item => item.date === todayIso)
                     .filter(isHomeMatch)
                     .filter(isRoomAssignmentMatch)
                     .sort((a, b) => `${a.time || ''} ${a.team || ''}`.localeCompare(`${b.time || ''} ${b.team || ''}`));
                 const roomAssignments = getRoomAssignments(
-                    (data.activities || []).filter(item => item.date === todayIso)
+                    uniqueMatches.filter(item => item.date === todayIso)
                 );
 
                 document.getElementById('updatedLabel').textContent = formatUpdatedLabel(data.last_updated);
