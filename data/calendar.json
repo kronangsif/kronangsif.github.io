@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20T21:11:36.579374",
+  "last_updated": "2026-08-20T21:46:09.588672",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.8
+        "temp": 17.7
       }
     },
     {
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.8
+        "temp": 17.7
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.2
+        "temp": 17.1
       }
     },
     {
@@ -77,7 +77,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.2
+        "temp": 17.1
       }
     },
     {
@@ -95,7 +95,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.1
+        "temp": 20.0
       }
     },
     {
@@ -113,7 +113,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.1
+        "temp": 20.0
       }
     },
     {
@@ -129,9 +129,9 @@
       "location": "Sven Erikssonsvallen P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 20.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 20.0
       }
     },
     {
@@ -149,7 +149,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.5
+        "temp": 18.7
       }
     },
     {
@@ -1965,7 +1965,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.5
+        "temp": 18.7
       }
     },
     {
@@ -2195,7 +2195,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 20.1
+        "temp": 20.0
       }
     },
     {
@@ -2379,7 +2379,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.2
+        "temp": 17.1
       }
     },
     {
@@ -2397,7 +2397,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 15.4
+        "temp": 15.8
       }
     },
     {
@@ -2605,7 +2605,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.2
+        "temp": 17.1
       }
     },
     {
@@ -2621,9 +2621,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.5
       }
     },
     {
@@ -2837,9 +2837,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.5
       }
     },
     {
@@ -3093,7 +3093,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.8
+        "temp": 17.7
       }
     },
     {
@@ -3111,7 +3111,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 17.2
+        "temp": 17.1
       }
     },
     {
@@ -3127,9 +3127,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.5
       }
     },
     {
@@ -3145,9 +3145,9 @@
       "location": "Sven Erikssonsvallen(Pojkar Div 8 Borås norr)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 20.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 20.0
       }
     },
     {
@@ -3385,9 +3385,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.5
       }
     },
     {
@@ -3613,7 +3613,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.8
+        "temp": 17.7
       }
     },
     {
@@ -3631,7 +3631,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.8
+        "temp": 17.7
       }
     },
     {
@@ -3647,9 +3647,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.5
       }
     },
     {
@@ -3877,9 +3877,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.5
       }
     },
     {
@@ -4147,7 +4147,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.9
+        "temp": 18.4
       }
     },
     {
@@ -4163,9 +4163,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.5
       }
     },
     {
@@ -4263,9 +4263,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.5
       }
     },
     {
@@ -4309,9 +4309,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.5
       }
     },
     {
@@ -4409,9 +4409,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.5
       }
     },
     {
