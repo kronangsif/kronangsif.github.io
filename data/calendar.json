@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20T12:03:47.460663",
+  "last_updated": "2026-08-20T13:12:53.003399",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -17,13 +17,13 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Kinna IF Röd hemma",
+      "description": "Hestrafors IF Grön hemma",
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.0
+        "temp": 17.9
       }
     },
     {
@@ -35,13 +35,13 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Hestrafors IF Grön hemma",
+      "description": "Kinna IF Röd hemma",
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.0
+        "temp": 17.9
       }
     },
     {
@@ -57,9 +57,9 @@
       "location": "Kronängs Arena A-plan P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 17.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.3
       }
     },
     {
@@ -75,9 +75,9 @@
       "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 17.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.3
       }
     },
     {
@@ -95,7 +95,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 19.4
+        "temp": 18.8
       }
     },
     {
@@ -113,7 +113,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 19.4
+        "temp": 18.8
       }
     },
     {
@@ -129,9 +129,9 @@
       "location": "Sven Erikssonsvallen P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 19.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 19.6
       }
     },
     {
@@ -149,7 +149,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 19.3
+        "temp": 20.1
       }
     },
     {
@@ -167,25 +167,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.5
-      }
-    },
-    {
-      "date": "2026-08-23",
-      "day": "23",
-      "weekday": "sön",
-      "time": "14:00",
-      "end_time": "",
-      "team": "P2016",
-      "team_id": "414417",
-      "type": "Match",
-      "description": "Kinna IF Röd hemma",
-      "location": "Kronängs Arena B-plan P2016 »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.3
+        "temp": 15.2
       }
     },
     {
@@ -203,7 +185,43 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.3
+        "temp": 17.5
+      }
+    },
+    {
+      "date": "2026-08-23",
+      "day": "23",
+      "weekday": "sön",
+      "time": "14:00",
+      "end_time": "",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Match",
+      "description": "Kinna IF Röd hemma",
+      "location": "Kronängs Arena B-plan P2016 »",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.5
+      }
+    },
+    {
+      "date": "2026-08-23",
+      "day": "23",
+      "weekday": "sön",
+      "time": "15:00",
+      "end_time": "",
+      "team": "P2011",
+      "team_id": "260562",
+      "type": "Match",
+      "description": "Hestrafors IF hemma",
+      "location": "Kronängs Arena A-plan P2011 »",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.9
       }
     },
     {
@@ -239,25 +257,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.1
-      }
-    },
-    {
-      "date": "2026-08-23",
-      "day": "23",
-      "weekday": "sön",
-      "time": "18:30",
-      "end_time": "",
-      "team": "P2011",
-      "team_id": "260562",
-      "type": "Match",
-      "description": "Hestrafors IF hemma",
-      "location": "Kronängs Arena B-plan P2011 »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.1
+        "temp": 17.1
       }
     },
     {
@@ -273,9 +273,9 @@
       "location": "Byvallen A-plan Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 10.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 10.7
       }
     },
     {
@@ -291,9 +291,9 @@
       "location": "Byvallen A-plan VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 10.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 10.7
       }
     },
     {
@@ -311,7 +311,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.5
+        "temp": 18.1
       }
     },
     {
@@ -329,7 +329,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.9
+        "temp": 18.2
       }
     },
     {
@@ -347,7 +347,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.9
+        "temp": 18.2
       }
     },
     {
@@ -1965,7 +1965,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 19.3
+        "temp": 20.1
       }
     },
     {
@@ -1983,7 +1983,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.1
+        "temp": 17.1
       }
     },
     {
@@ -2001,7 +2001,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.5
+        "temp": 18.1
       }
     },
     {
@@ -2177,7 +2177,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.3
+        "temp": 17.7
       }
     },
     {
@@ -2195,7 +2195,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 19.4
+        "temp": 18.8
       }
     },
     {
@@ -2211,9 +2211,9 @@
       "location": "Byvallen A-plan(Damer, Utveckling Södra)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 10.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 10.7
       }
     },
     {
@@ -2231,7 +2231,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.9
+        "temp": 18.2
       }
     },
     {
@@ -2361,7 +2361,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.3
+        "temp": 17.7
       }
     },
     {
@@ -2377,9 +2377,9 @@
       "location": "Kronängs Arena A-plan(Pojkar Div 4 Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 17.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.3
       }
     },
     {
@@ -2395,9 +2395,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.7
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.6
       }
     },
     {
@@ -2415,7 +2415,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.9
+        "temp": 18.2
       }
     },
     {
@@ -2587,7 +2587,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 17.3
+        "temp": 17.7
       }
     },
     {
@@ -2603,9 +2603,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 17.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.3
       }
     },
     {
@@ -2621,9 +2621,27 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.3
+      }
+    },
+    {
+      "date": "2026-08-23",
+      "day": "23",
+      "weekday": "sön",
+      "time": "15:00",
+      "end_time": "",
+      "team": "P2011",
+      "team_id": "260562",
+      "type": "Match",
+      "description": "Hestrafors IF hemma",
+      "location": "Kronängs Arena A-plan(Pojkar Div 5 Mark)",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.9
       }
     },
     {
@@ -2641,25 +2659,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.1
-      }
-    },
-    {
-      "date": "2026-08-23",
-      "day": "23",
-      "weekday": "sön",
-      "time": "18:30",
-      "end_time": "",
-      "team": "P2011",
-      "team_id": "260562",
-      "type": "Match",
-      "description": "Hestrafors IF hemma",
-      "location": "Kronängs Arena B-plan(Pojkar Div 5 Mark)",
-      "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.1
+        "temp": 17.1
       }
     },
     {
@@ -2677,7 +2677,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.5
+        "temp": 18.1
       }
     },
     {
@@ -2835,7 +2835,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.3
+        "temp": 18.7
       }
     },
     {
@@ -2851,9 +2851,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.3
       }
     },
     {
@@ -2887,9 +2887,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 20.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 19.6
       }
     },
     {
@@ -3087,9 +3087,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.2
       }
     },
     {
@@ -3107,7 +3107,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.0
+        "temp": 17.9
       }
     },
     {
@@ -3123,9 +3123,9 @@
       "location": "Kronängs Arena B-plan(Pojkar Div 8 Dalsjöfors)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 17.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 17.3
       }
     },
     {
@@ -3141,9 +3141,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.3
       }
     },
     {
@@ -3159,9 +3159,9 @@
       "location": "Sven Erikssonsvallen(Pojkar Div 8 Borås norr)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 19.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 19.6
       }
     },
     {
@@ -3179,7 +3179,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.3
+        "temp": 17.5
       }
     },
     {
@@ -3195,9 +3195,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 20.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 21.1
       }
     },
     {
@@ -3381,9 +3381,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.2
       }
     },
     {
@@ -3399,9 +3399,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.3
       }
     },
     {
@@ -3417,9 +3417,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.1
       }
     },
     {
@@ -3437,7 +3437,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.5
+        "temp": 15.2
       }
     },
     {
@@ -3453,9 +3453,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 20.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 21.1
       }
     },
     {
@@ -3627,7 +3627,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.0
+        "temp": 17.9
       }
     },
     {
@@ -3645,7 +3645,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.0
+        "temp": 17.9
       }
     },
     {
@@ -3661,9 +3661,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.3
       }
     },
     {
@@ -3679,9 +3679,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 21.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 20.7
       }
     },
     {
@@ -3873,9 +3873,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.2
       }
     },
     {
@@ -3891,9 +3891,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.3
       }
     },
     {
@@ -3911,7 +3911,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.3
+        "temp": 17.5
       }
     },
     {
@@ -3929,7 +3929,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.3
+        "temp": 17.5
       }
     },
     {
@@ -3945,9 +3945,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 20.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 21.1
       }
     },
     {
@@ -4161,7 +4161,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.9
+        "temp": 18.7
       }
     },
     {
@@ -4177,9 +4177,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.3
       }
     },
     {
@@ -4195,9 +4195,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 21.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 20.7
       }
     },
     {
@@ -4215,7 +4215,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 18.5
+        "temp": 18.1
       }
     },
     {
@@ -4277,9 +4277,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.3
       }
     },
     {
@@ -4323,9 +4323,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.3
       }
     },
     {
@@ -4341,9 +4341,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 21.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 20.7
       }
     },
     {
@@ -4405,9 +4405,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 19.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 19.2
       }
     },
     {
@@ -4423,9 +4423,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.3
       }
     },
     {
@@ -4441,9 +4441,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 20.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 21.1
       }
     },
     {
@@ -4459,9 +4459,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 20.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 21.1
       }
     },
     {
@@ -4505,9 +4505,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 20.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 21.1
       }
     },
     {
