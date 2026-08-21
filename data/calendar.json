@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21T05:38:52.505076",
+  "last_updated": "2026-08-21T06:17:24.440166",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -4397,24 +4397,6 @@
       "day": "25",
       "weekday": "tis",
       "time": "17:30",
-      "end_time": "19:30",
-      "team": "Fotbollsskolan födda 2018",
-      "team_id": "520555",
-      "type": "Övrigt",
-      "description": "Obligatoriskt föräldramöte",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 20.3
-      }
-    },
-    {
-      "date": "2026-08-25",
-      "day": "25",
-      "weekday": "tis",
-      "time": "17:30",
       "end_time": "19:00",
       "team": "Fotbollsskolan födda 2018",
       "team_id": "520555",
@@ -4426,6 +4408,24 @@
         "icon": "☁️",
         "desc": "Molnigt",
         "temp": 20.3
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "day": "27",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "18:30",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Övrigt",
+      "description": "Möte",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 22.8
       }
     },
     {
