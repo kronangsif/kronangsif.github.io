@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22T09:07:46.095819",
+  "last_updated": "2026-08-22T09:44:38.308256",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.0
+        "temp": 18.3
       }
     },
     {
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.0
+        "temp": 18.3
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 19.7
+        "temp": 19.3
       }
     },
     {
@@ -77,7 +77,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.8
+        "temp": 19.3
       }
     },
     {
@@ -95,7 +95,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.2
+        "temp": 15.6
       }
     },
     {
@@ -113,7 +113,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 17.5
       }
     },
     {
@@ -131,7 +131,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 17.5
       }
     },
     {
@@ -149,7 +149,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.7
+        "temp": 18.5
       }
     },
     {
@@ -167,7 +167,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.1
+        "temp": 19.2
       }
     },
     {
@@ -185,7 +185,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.2
+        "temp": 19.6
       }
     },
     {
@@ -201,9 +201,9 @@
       "location": "Ryda fotbollshall F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 19.9
       }
     },
     {
@@ -1901,7 +1901,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.8
+        "temp": 19.3
       }
     },
     {
@@ -1919,7 +1919,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.2
+        "temp": 19.6
       }
     },
     {
@@ -1935,9 +1935,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 19.9
       }
     },
     {
@@ -2127,7 +2127,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.0
+        "temp": 18.3
       }
     },
     {
@@ -2551,7 +2551,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 17.5
       }
     },
     {
@@ -2569,7 +2569,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.7
+        "temp": 18.5
       }
     },
     {
@@ -2585,9 +2585,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 19.9
       }
     },
     {
@@ -2767,7 +2767,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.1
+        "temp": 19.2
       }
     },
     {
@@ -2785,7 +2785,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.1
+        "temp": 21.4
       }
     },
     {
@@ -3049,7 +3049,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 19.7
+        "temp": 19.3
       }
     },
     {
@@ -3067,7 +3067,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 17.5
       }
     },
     {
@@ -3307,7 +3307,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.0
+        "temp": 14.2
       }
     },
     {
@@ -3325,7 +3325,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.2
+        "temp": 15.6
       }
     },
     {
@@ -3565,7 +3565,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.4
+        "temp": 21.9
       }
     },
     {
@@ -3795,7 +3795,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 17.5
       }
     },
     {
@@ -3813,7 +3813,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.1
+        "temp": 17.5
       }
     },
     {
@@ -4079,9 +4079,9 @@
       "location": "Ryda fotbollshall(Flickor Div 5 Kinna)",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 17.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 19.9
       }
     },
     {
@@ -4213,7 +4213,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.4
+        "temp": 21.9
       }
     },
     {
