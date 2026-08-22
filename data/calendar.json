@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22T14:32:43.395420",
+  "last_updated": "2026-08-22T15:00:21.800241",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -4409,5 +4409,20 @@
       "weather": null
     }
   ],
-  "latest_news": []
+  "latest_news": [
+    {
+      "title": "Månadsbrev",
+      "published_at": "2026-07-25 17:05",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1352947",
+      "image": "",
+      "summary": ""
+    },
+    {
+      "title": "Vad händer 22augusti ?     Kronängs IF 80årsfirande :)",
+      "published_at": "2026-06-26",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1349574",
+      "image": "https://cdn.sportadmin.se/559/h/200/fc50a17bae5676abdffec675d57c247a4f642f6c347e9b79e51ec27ce22b8a64_L.jpg",
+      "summary": ""
+    }
+  ]
 }
