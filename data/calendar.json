@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-24T18:14:18.721527",
+  "last_updated": "2026-08-24T19:04:53.379619",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 8,
   "year": 2026,
-  "activity_count": 290,
+  "activity_count": 289,
   "activities": [
     {
       "date": "2026-08-24",
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 23.2
+        "temp": 22.8
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 23.2
+        "temp": 22.8
       }
     },
     {
@@ -75,9 +75,9 @@
       "location": "Kronäng Arena P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 24.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 23.9
       }
     },
     {
@@ -483,20 +483,6 @@
       "type": "Match",
       "description": "Södra Ving/Hössna/Timmele borta",
       "location": "Granvalla A VEO kamera »",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-09-06",
-      "day": "06",
-      "weekday": "sön",
-      "time": "00:00",
-      "end_time": "",
-      "team": "P2014",
-      "team_id": "324331",
-      "type": "Match",
-      "description": "Ubbhult/Hällingsjö/Hyssna hemma",
-      "location": "Kronäng Arena P2014 »",
       "lockerooms": null,
       "weather": null
     },
@@ -1209,7 +1195,7 @@
       "team": "P2014",
       "team_id": "324331",
       "type": "Match",
-      "description": "Ospecificerat lag (11) hemma",
+      "description": "Ospecificerat lag (9) hemma",
       "location": "Kronäng Arena P2014 »",
       "lockerooms": null,
       "weather": null
@@ -1223,7 +1209,7 @@
       "team": "P2014",
       "team_id": "324331",
       "type": "Match",
-      "description": "Ospecificerat lag (9) hemma",
+      "description": "Ospecificerat lag (11) hemma",
       "location": "Kronäng Arena P2014 »",
       "lockerooms": null,
       "weather": null
@@ -1807,7 +1793,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 23.2
+        "temp": 23.1
       }
     },
     {
@@ -2001,7 +1987,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 23.2
+        "temp": 22.8
       }
     },
     {
@@ -2223,7 +2209,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 23.2
+        "temp": 22.8
       }
     },
     {
@@ -2997,7 +2983,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.4
+        "temp": 24.1
       }
     },
     {
@@ -3251,7 +3237,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.4
+        "temp": 24.1
       }
     },
     {
@@ -3493,9 +3479,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 24.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 23.9
       }
     },
     {
@@ -3511,9 +3497,9 @@
       "location": "Kronäng Arena(Pojkar Div 11 Kinna)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 24.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 23.9
       }
     },
     {
@@ -3731,7 +3717,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.4
+        "temp": 24.1
       }
     },
     {
@@ -4005,9 +3991,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 24.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 23.9
       }
     },
     {
@@ -4129,9 +4115,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 24.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 23.9
       }
     },
     {
@@ -4205,7 +4191,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.4
+        "temp": 24.1
       }
     },
     {
@@ -4273,7 +4259,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.4
+        "temp": 24.1
       }
     },
     {
