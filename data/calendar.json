@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-24T10:05:58.826046",
+  "last_updated": "2026-08-24T10:55:13.500998",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 8,
   "year": 2026,
-  "activity_count": 291,
+  "activity_count": 290,
   "activities": [
     {
       "date": "2026-08-24",
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.2
+        "temp": 20.0
       }
     },
     {
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.6
+        "temp": 22.7
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.6
+        "temp": 22.7
       }
     },
     {
@@ -1789,7 +1789,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.2
+        "temp": 20.0
       }
     },
     {
@@ -2001,7 +2001,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.6
+        "temp": 22.7
       }
     },
     {
@@ -2223,7 +2223,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 22.6
+        "temp": 22.7
       }
     },
     {
@@ -2472,20 +2472,6 @@
       "date": "2026-08-23",
       "day": "23",
       "weekday": "sön",
-      "time": "14:30",
-      "end_time": "17:00",
-      "team": "P2011",
-      "team_id": "260562",
-      "type": "Övrigt",
-      "description": "Kiosken",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-08-23",
-      "day": "23",
-      "weekday": "sön",
       "time": "15:00",
       "end_time": "",
       "team": "P2011",
@@ -2511,7 +2497,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.2
+        "temp": 20.0
       }
     },
     {
@@ -2719,7 +2705,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.9
+        "temp": 20.7
       }
     },
     {
@@ -3011,7 +2997,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.8
+        "temp": 23.9
       }
     },
     {
@@ -3265,7 +3251,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.8
+        "temp": 23.9
       }
     },
     {
@@ -3491,7 +3477,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.3
+        "temp": 21.2
       }
     },
     {
@@ -3745,7 +3731,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.8
+        "temp": 23.9
       }
     },
     {
@@ -4003,7 +3989,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.2
+        "temp": 20.0
       }
     },
     {
@@ -4127,7 +4113,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 21.3
+        "temp": 21.2
       }
     },
     {
@@ -4219,7 +4205,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.8
+        "temp": 23.9
       }
     },
     {
@@ -4287,7 +4273,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.8
+        "temp": 23.9
       }
     },
     {
