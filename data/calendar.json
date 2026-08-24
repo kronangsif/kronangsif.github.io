@@ -1,31 +1,13 @@
 {
-  "last_updated": "2026-08-24T21:46:57.936478",
+  "last_updated": "2026-08-24T22:33:10.606544",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 8,
   "year": 2026,
-  "activity_count": 289,
+  "activity_count": 288,
   "activities": [
-    {
-      "date": "2026-08-24",
-      "day": "24",
-      "weekday": "mån",
-      "time": "19:00",
-      "end_time": "",
-      "team": "F2013/2014",
-      "team_id": "374981",
-      "type": "Match",
-      "description": "IF Elfsborg Gul borta",
-      "location": "Ryda fotbollshall F2012/2013 »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 20.8
-      }
-    },
     {
       "date": "2026-08-25",
       "day": "25",
@@ -41,7 +23,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 22.9
+        "temp": 23.4
       }
     },
     {
@@ -59,7 +41,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 22.9
+        "temp": 23.4
       }
     },
     {
@@ -77,7 +59,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 24.2
+        "temp": 23.9
       }
     },
     {
@@ -344,7 +326,11 @@
       "description": "Svenljunga/Högvad borta",
       "location": "Högvalla IP A konstgräs P2009-2010 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.0
+      }
     },
     {
       "date": "2026-09-02",
@@ -1772,11 +1758,7 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 20.8
-      }
+      "weather": null
     },
     {
       "date": "2026-08-26",
@@ -1791,9 +1773,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 23.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 23.0
       }
     },
     {
@@ -1844,7 +1826,11 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.0
+      }
     },
     {
       "date": "2026-08-04",
@@ -1987,7 +1973,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 22.9
+        "temp": 23.4
       }
     },
     {
@@ -2209,7 +2195,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 22.9
+        "temp": 23.4
       }
     },
     {
@@ -2242,7 +2228,11 @@
       "description": "Svenljunga/Högvad borta",
       "location": "Högvalla IP A konstgräs(Pojkar Div 4 Borås)",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.0
+      }
     },
     {
       "date": "2026-08-03",
@@ -2480,11 +2470,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 20.8
-      }
+      "weather": null
     },
     {
       "date": "2026-08-27",
@@ -2534,7 +2520,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.0
+      }
     },
     {
       "date": "2026-08-06",
@@ -2688,11 +2678,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 21.6
-      }
+      "weather": null
     },
     {
       "date": "2026-08-27",
@@ -2742,7 +2728,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.5
+      }
     },
     {
       "date": "2026-08-04",
@@ -2983,7 +2973,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.2
+        "temp": 24.3
       }
     },
     {
@@ -3237,7 +3227,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.2
+        "temp": 24.3
       }
     },
     {
@@ -3460,11 +3450,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 21.8
-      }
+      "weather": null
     },
     {
       "date": "2026-08-26",
@@ -3481,7 +3467,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 24.2
+        "temp": 23.9
       }
     },
     {
@@ -3499,7 +3485,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 24.2
+        "temp": 23.9
       }
     },
     {
@@ -3532,7 +3518,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 15.0
+      }
     },
     {
       "date": "2026-08-04",
@@ -3717,7 +3707,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.2
+        "temp": 24.3
       }
     },
     {
@@ -3972,11 +3962,7 @@
       "description": "IF Elfsborg Gul borta",
       "location": "Ryda fotbollshall(Flickor Div 5 Kinna)",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 20.8
-      }
+      "weather": null
     },
     {
       "date": "2026-08-26",
@@ -3993,7 +3979,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 24.2
+        "temp": 23.9
       }
     },
     {
@@ -4026,7 +4012,11 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 15.0
+      }
     },
     {
       "date": "2026-08-22",
@@ -4096,11 +4086,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 21.8
-      }
+      "weather": null
     },
     {
       "date": "2026-08-26",
@@ -4117,7 +4103,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 24.2
+        "temp": 23.9
       }
     },
     {
@@ -4132,7 +4118,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 15.0
+      }
     },
     {
       "date": "2026-08-18",
@@ -4191,7 +4181,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.2
+        "temp": 24.3
       }
     },
     {
@@ -4259,7 +4249,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 24.2
+        "temp": 24.3
       }
     },
     {
