@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-25T12:58:50.053900",
+  "last_updated": "2026-08-25T13:57:47.741190",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 8,
   "year": 2026,
-  "activity_count": 289,
+  "activity_count": 290,
   "activities": [
     {
       "date": "2026-08-25",
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 22.5
+        "temp": 22.3
       }
     },
     {
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 22.5
+        "temp": 22.3
       }
     },
     {
@@ -54,12 +54,12 @@
       "team_id": "56158",
       "type": "Match",
       "description": "IF Elfsborg Röd hemma",
-      "location": "Kronäng Arena P 2015 »",
+      "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 24.1
+        "temp": 23.9
       }
     },
     {
@@ -77,7 +77,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.8
+        "temp": 22.6
       }
     },
     {
@@ -90,7 +90,7 @@
       "team_id": "374981",
       "type": "Match",
       "description": "Alingsås KIK Blå hemma",
-      "location": "Kronäng Arena F2012/2013 »",
+      "location": "Kronängs Arena B-plan F2012/2013 »",
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
@@ -108,7 +108,7 @@
       "team_id": "52695",
       "type": "Match",
       "description": "Falköpings KIK U hemma",
-      "location": "Kronäng Arena konstgräs 1 Dam »",
+      "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
@@ -216,7 +216,7 @@
       "team_id": "324307",
       "type": "Match",
       "description": "IF Elfsborg Röd hemma",
-      "location": "Kronäng Arena P2013 »",
+      "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
@@ -234,7 +234,7 @@
       "team_id": "324307",
       "type": "Match",
       "description": "Byttorps IF hemma",
-      "location": "Kronäng Arena P2013 »",
+      "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
@@ -251,8 +251,8 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Ulricehamns IFK Svart hemma",
-      "location": "Kronäng Arena P2016 »",
+      "description": "Hestrafors IF Vit hemma",
+      "location": "Kronängs Arena A-plan P2016 »",
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
@@ -269,8 +269,8 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Hestrafors IF Vit hemma",
-      "location": "Kronäng Arena P2016 »",
+      "description": "Ulricehamns IFK Svart hemma",
+      "location": "Kronängs Arena A-plan P2016 »",
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
@@ -342,7 +342,7 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Fristads GoIF Röd hemma",
-      "location": "Kronäng Arena P 2015 »",
+      "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": null
     },
@@ -398,7 +398,7 @@
       "team_id": "38937",
       "type": "Match",
       "description": "Rydboholms SK hemma",
-      "location": "Kronäng Arena konstgräs 1 Herr »",
+      "location": "Kronängs Arena A-plan Herr »",
       "lockerooms": null,
       "weather": null
     },
@@ -412,7 +412,7 @@
       "team_id": "224798",
       "type": "Match",
       "description": "Ulricehamns IFK Blå hemma",
-      "location": "Kronäng Arena konstgräs 1 P2009-2010 »",
+      "location": "Kronängs Arena A-plan P2009-2010 »",
       "lockerooms": null,
       "weather": null
     },
@@ -426,7 +426,7 @@
       "team_id": "324307",
       "type": "Match",
       "description": "Sjömarken/Sandared Vit hemma",
-      "location": "Kronäng Arena P2013 »",
+      "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": null
     },
@@ -496,7 +496,7 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Bergdalens IK Röd hemma",
-      "location": "Kronäng Arena P 2015 »",
+      "location": "Kronängs Arena A-plan P 2015 »",
       "lockerooms": null,
       "weather": null
     },
@@ -538,7 +538,7 @@
       "team_id": "324331",
       "type": "Match",
       "description": "Annelunds IF hemma",
-      "location": "Kronäng Arena P2014 »",
+      "location": "Kronängs Arena B-plan P2014 »",
       "lockerooms": null,
       "weather": null
     },
@@ -566,7 +566,7 @@
       "team_id": "260562",
       "type": "Match",
       "description": "Ubbhults/Hällingsjö/Hyssna hemma",
-      "location": "Kronäng Arena Konstgräs 2 P2011 »",
+      "location": "Kronängs Arena B-plan P2011 »",
       "lockerooms": null,
       "weather": null
     },
@@ -594,7 +594,7 @@
       "team_id": "38937",
       "type": "Match",
       "description": "Töllsjö IF U hemma",
-      "location": "Kronäng Arena konstgräs 1 Herr »",
+      "location": "Kronängs Arena A-plan Herr »",
       "lockerooms": null,
       "weather": null
     },
@@ -1279,7 +1279,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Byttorps IF Grön hemma",
+      "description": "Mariedals IK Vit hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
@@ -1293,7 +1293,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Mariedals IK Vit hemma",
+      "description": "Byttorps IF Grön hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
@@ -1775,7 +1775,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 23.3
+        "temp": 23.2
       }
     },
     {
@@ -1973,7 +1973,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 22.5
+        "temp": 22.3
       }
     },
     {
@@ -1991,7 +1991,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 21.5
+        "temp": 21.4
       }
     },
     {
@@ -2004,7 +2004,7 @@
       "team_id": "52695",
       "type": "Match",
       "description": "Falköpings KIK U hemma",
-      "location": "Kronäng Arena konstgräs 1(Damer, Div 3 Södra)",
+      "location": "Kronängs Arena A-plan(Damer, Div 3 Södra)",
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
@@ -2195,7 +2195,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 22.5
+        "temp": 22.3
       }
     },
     {
@@ -2213,7 +2213,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 21.5
+        "temp": 21.4
       }
     },
     {
@@ -2487,7 +2487,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 21.5
+        "temp": 21.4
       }
     },
     {
@@ -2973,7 +2973,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.5
+        "temp": 23.3
       }
     },
     {
@@ -2991,7 +2991,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 24.1
+        "temp": 23.9
       }
     },
     {
@@ -3009,7 +3009,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.8
+        "temp": 22.6
       }
     },
     {
@@ -3022,7 +3022,7 @@
       "team_id": "324307",
       "type": "Match",
       "description": "IF Elfsborg Röd hemma",
-      "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
+      "location": "Kronängs Arena B-plan(Pojkar Div 8 Borås norr)",
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
@@ -3040,12 +3040,30 @@
       "team_id": "324307",
       "type": "Match",
       "description": "Byttorps IF hemma",
-      "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
+      "location": "Kronängs Arena B-plan(Pojkar Div 8 Borås norr)",
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
         "temp": 16.9
+      }
+    },
+    {
+      "date": "2026-08-30",
+      "day": "30",
+      "weekday": "sön",
+      "time": "14:00",
+      "end_time": "16:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Övrigt",
+      "description": "Domaruppdrag",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 15.5
       }
     },
     {
@@ -3245,7 +3263,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.5
+        "temp": 23.3
       }
     },
     {
@@ -3263,7 +3281,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.8
+        "temp": 22.6
       }
     },
     {
@@ -3485,7 +3503,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 24.1
+        "temp": 23.9
       }
     },
     {
@@ -3498,12 +3516,12 @@
       "team_id": "56158",
       "type": "Match",
       "description": "IF Elfsborg Röd hemma",
-      "location": "Kronäng Arena(Pojkar Div 11 Kinna)",
+      "location": "Kronängs Arena B-plan(Pojkar Div 11 Kinna)",
       "lockerooms": null,
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 24.1
+        "temp": 23.9
       }
     },
     {
@@ -3521,7 +3539,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.8
+        "temp": 22.6
       }
     },
     {
@@ -3725,7 +3743,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.5
+        "temp": 23.3
       }
     },
     {
@@ -3743,7 +3761,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.8
+        "temp": 22.6
       }
     },
     {
@@ -3774,7 +3792,7 @@
       "team_id": "414417",
       "type": "Match",
       "description": "Ulricehamns IFK Svart hemma",
-      "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
+      "location": "Kronängs Arena A-plan(Pojkar Div 13 Dalsjöfors)",
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
@@ -3792,7 +3810,7 @@
       "team_id": "414417",
       "type": "Match",
       "description": "Hestrafors IF Vit hemma",
-      "location": "Kronäng Arena(Pojkar Div 13 Borås)",
+      "location": "Kronängs Arena A-plan(Pojkar Div 13 Borås)",
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
@@ -3997,7 +4015,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 24.1
+        "temp": 23.9
       }
     },
     {
@@ -4010,7 +4028,7 @@
       "team_id": "374981",
       "type": "Match",
       "description": "Alingsås KIK Blå hemma",
-      "location": "Kronäng Arena(Flickor Div 5 Kinna)",
+      "location": "Kronängs Arena B-plan(Flickor Div 5 Kinna)",
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
@@ -4121,7 +4139,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 24.1
+        "temp": 23.9
       }
     },
     {
@@ -4199,7 +4217,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.5
+        "temp": 23.3
       }
     },
     {
@@ -4217,7 +4235,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.8
+        "temp": 22.6
       }
     },
     {
@@ -4235,7 +4253,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 22.8
+        "temp": 22.6
       }
     },
     {
@@ -4267,7 +4285,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 23.5
+        "temp": 23.3
       }
     },
     {
