@@ -136,6 +136,7 @@
 
         bySlot.forEach(slotMatches => {
             const used = new Set();
+            const p16Matches = slotMatches.filter(isP16Team);
             slotMatches
                 .sort((first, second) => {
                     const priority = match => fixedRooms(match) ? 0 : (isP16Team(match) ? 1 : 2);
@@ -152,7 +153,9 @@
                     }
 
                     const p16HomeRoom = isP16Team(match)
-                        ? [1, 2].find(room => !used.has(room))
+                        ? (p16Matches.length === 1
+                            ? [2, 1].find(room => !used.has(room))
+                            : [1, 2].find(room => !used.has(room)))
                         : null;
                     const preferred = isYoung(match.team, match.date)
                         ? AVAILABLE_ROOMS
