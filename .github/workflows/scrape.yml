@@ -2,8 +2,8 @@ name: Scrape Data
 
 on:
   schedule:
-    # Run every 15 minutes
-    - cron: '*/15 * * * *'
+    # GitHub Actions schedules use UTC. Run once every hour.
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 permissions:

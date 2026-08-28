@@ -52,7 +52,7 @@
     <section id="schedule"><div class="empty">Laddar kommande matcher...</div></section>
 </main>
 <script>
-    const AVAILABLE_ROOMS = [1, 2, 3, 6, 7, 8];
+    const AVAILABLE_ROOMS = [1, 2, 3, 4, 5, 6, 7, 8];
     const SMALL_ROOMS = new Set([7, 8]);
 
     function isHomeMatch(item) {
@@ -60,6 +60,17 @@
         return !text.includes('borta') && text.includes('hemma');
     }
     function isRoomAssignmentMatch(item) { return item.type === 'Match' && !/veo\s*kamera/i.test(item.team || ''); }
+    function deduplicateMatches(matches) {
+        const seen = new Set();
+        return matches.filter(match => {
+            const key = [match.date, match.time, match.team, match.description]
+                .map(value => String(value || '').trim().toLowerCase().replace(/\s+/g, ' '))
+                .join('|');
+            if (seen.has(key)) return false;
+            seen.add(key);
+            return true;
+        });
+    }
     function parseTime(value) {
         const match = String(value || '').match(/^(\d{1,2}):(\d{2})$/);
         return match ? Number(match[1]) * 60 + Number(match[2]) : null;
@@ -110,92 +121,50 @@
         const team = String(match.team || '').trim().toLowerCase();
         if (team === 'herr') return { home: 5, away: 3 };
         if (team === 'dam') return { home: 4, away: 2 };
+        if (/^p\s*2016$/.test(team)) return { home: 1, away: 2 };
         return null;
     }
     function assignments(matches) {
-        const result = new Map(); const usage = Object.fromEntries([...Array(9).keys()].map(room => [room, []]));
+        const result = new Map();
         const eligible = matches.filter(match => isRoomAssignmentMatch(match) && isHomeMatch(match));
-        let sharingMode = 0;
-        const canUse = (room, time, side, group) => {
-            if (!time) return false;
-            const overlapping = usage[room].filter(item => overlaps(item.time, time));
-            if (side === 'away') return overlapping.length === 0;
-            if (overlapping.some(item => item.side === 'away')) return false;
-            if (sharingMode === 0) return !overlapping.some(item => item.side === 'home');
-            if (sharingMode === 1) return !overlapping.some(item => item.side === 'home' && item.ageGroup !== group);
-            return true;
-        };
-        const roomOptions = match => {
-            const fixed = fixedRooms(match);
-            if (fixed) return [fixed];
-            const preferred = isYoung(match.team, match.date) ? AVAILABLE_ROOMS : AVAILABLE_ROOMS.filter(room => !SMALL_ROOMS.has(room));
-            const weekdayPreferred = isWeekday(match.date) ? AVAILABLE_ROOMS.filter(room => room >= 6) : preferred;
-            const order = shuffled(`${match.date}|${match.time}|${match.team}|${match.description}`);
-            const rooms = [
-                ...order.filter(room => weekdayPreferred.includes(room)),
-                ...order.filter(room => preferred.includes(room) && !weekdayPreferred.includes(room)),
-                ...order.filter(room => !preferred.includes(room))
-            ];
-            const pairs = [];
-            rooms.forEach(home => rooms.forEach(away => {
-                if (home !== away) pairs.push({ home, away });
-            }));
-            return pairs;
-        };
-        const roomPairs = match => {
-            const options = intervalOptions(match).filter(Boolean); if (!options.length) return [];
-            const rooms = roomOptions(match);
-            const candidates = [];
-            options.forEach(time => rooms.forEach(pair => {
-                if (canUse(pair.home, time, 'home', ageGroup(match.team)) && canUse(pair.away, time, 'away', ageGroup(match.team))) {
-                    const smallRoomPenalty = (!isYoung(match.team, match.date) && (SMALL_ROOMS.has(pair.home) || SMALL_ROOMS.has(pair.away))) ? 10 : 0;
-                    const weekdayRoomPenalty = isWeekday(match.date)
-                        ? ((pair.home <= 3 ? 100 : 0) + (pair.away <= 3 ? 100 : 0))
-                        : 0;
-                    const balancePenalty = Math.abs(time.startTrim - time.endTrim);
-                    const sharing = usage[pair.home].filter(item => item.side === 'home' && overlaps(item.time, time));
-                    const differentAgeSharing = sharing.filter(item => item.ageGroup !== ageGroup(match.team)).length;
-                    const sharingPenalty = differentAgeSharing * 1000;
-                    const differentAgePenalty = differentAgeSharing * 100;
-                    candidates.push({ ...pair, time, score: time.trimMinutes * 10 + balancePenalty + weekdayRoomPenalty + smallRoomPenalty + sharingPenalty + differentAgePenalty });
-                }
-            }));
-            return candidates.sort((a, b) => a.score - b.score);
-        };
-        const pending = eligible.filter(match => interval(match));
-        let searchSteps = 0;
-        const solve = remaining => {
-            searchSteps += 1;
-            if (searchSteps > 3000) return false;
-            if (!remaining.length) return true;
-            let selected = null; let candidates = null;
-            remaining.forEach(match => {
-                const options = roomPairs(match);
-                if (candidates === null || options.length < candidates.length) { selected = match; candidates = options; }
-            });
-            if (!candidates.length) return false;
-            for (const candidate of candidates) {
-                result.set(selected, candidate);
-                usage[candidate.home].push({ time: candidate.time, side: 'home', ageGroup: ageGroup(selected.team) });
-                usage[candidate.away].push({ time: candidate.time, side: 'away', ageGroup: ageGroup(selected.team) });
-                if (solve(remaining.filter(match => match !== selected))) return true;
-                usage[candidate.home].pop(); usage[candidate.away].pop(); result.delete(selected);
-            }
-            return false;
-        };
-        const solveWithSharingFallback = dateMatches => {
-            for (sharingMode = 0; sharingMode <= 2; sharingMode += 1) {
-                searchSteps = 0;
-                if (solve(dateMatches)) return true;
-            }
-            return false;
-        };
-        const byDate = new Map();
-        pending.forEach(match => {
-            if (!byDate.has(match.date)) byDate.set(match.date, []);
-            byDate.get(match.date).push(match);
+        const bySlot = new Map();
+        eligible.forEach(match => {
+            const slot = `${match.date}|${match.time || 'unknown'}`;
+            if (!bySlot.has(slot)) bySlot.set(slot, []);
+            bySlot.get(slot).push(match);
         });
-        byDate.forEach(dateMatches => solveWithSharingFallback(dateMatches));
+
+        bySlot.forEach(slotMatches => {
+            const used = new Set();
+            slotMatches
+                .sort((first, second) => {
+                    const fixedOrder = Number(Boolean(fixedRooms(first))) - Number(Boolean(fixedRooms(second)));
+                    return fixedOrder || String(first.team || '').localeCompare(String(second.team || ''));
+                })
+                .forEach(match => {
+                    const fixed = fixedRooms(match);
+                    if (fixed && !used.has(fixed.home) && !used.has(fixed.away)) {
+                        result.set(match, { ...fixed, time: interval(match) });
+                        used.add(fixed.home);
+                        used.add(fixed.away);
+                        return;
+                    }
+
+                    const preferred = isYoung(match.team, match.date)
+                        ? AVAILABLE_ROOMS
+                        : AVAILABLE_ROOMS.filter(room => !SMALL_ROOMS.has(room));
+                    const order = shuffled(`${match.date}|${match.time}|${match.team}|${match.description}`);
+                    const candidates = [
+                        ...order.filter(room => preferred.includes(room) && !used.has(room)),
+                        ...order.filter(room => !preferred.includes(room) && !used.has(room))
+                    ];
+                    if (candidates.length >= 2) {
+                        result.set(match, { home: candidates[0], away: candidates[1], time: interval(match) });
+                        used.add(candidates[0]);
+                        used.add(candidates[1]);
+                    }
+                });
+        });
         return result;
     }
     function formatDate(date) { const value = new Date(`${date}T12:00:00`); return new Intl.DateTimeFormat('sv-SE', { weekday: 'long', day: 'numeric', month: 'long' }).format(value); }
@@ -217,7 +186,9 @@
         try {
             const response = await fetch(`data/calendar.json?t=${Date.now()}`); if (!response.ok) throw new Error('Kunde inte läsa kalenderdata.');
             const data = await response.json(); const range = scheduleRange();
-            const matches = (data.activities || []).filter(item => item.date && item.date >= range.start && item.date < range.end).filter(isRoomAssignmentMatch).filter(isHomeMatch).filter(item => interval(item));
+            const matches = deduplicateMatches(data.activities || [])
+                .filter(item => item.date && item.date >= range.start && item.date < range.end)
+                .filter(isRoomAssignmentMatch).filter(isHomeMatch).filter(item => interval(item));
             const roomMap = assignments(matches); const schedule = document.getElementById('schedule');
             const lastDate = new Date(`${range.end}T12:00:00`); lastDate.setDate(lastDate.getDate() - 1);
             document.getElementById('pageTitle').textContent = `Omklädningsrum – ${new Intl.DateTimeFormat('sv-SE', { day: 'numeric', month: 'long' }).format(new Date(`${range.start}T12:00:00`))} till ${new Intl.DateTimeFormat('sv-SE', { day: 'numeric', month: 'long', year: 'numeric' }).format(lastDate)}`;
@@ -228,7 +199,7 @@
         } catch (error) { document.getElementById('schedule').innerHTML = `<div class="empty">Kunde inte ladda kalenderdata.<br>${error.message}</div>`; }
     }
     loadPage();
-    setInterval(loadPage, 300000);
+    setInterval(loadPage, 60 * 60 * 1000);
 </script>
 </body>
 </html>

@@ -596,7 +596,9 @@
             return String(description).replace(/\(\s*H\d+\s*(?:[\s,;\-\/:]*?)\s*B\d+\s*\)\s*$/i, '').trim();
         }
 
-        const AVAILABLE_ROOMS = [1, 2, 3, 6, 7, 8];
+        // All eight changing rooms are available. Rooms 4 and 5 are reserved
+        // for the senior teams, but must still be part of the allocation pool.
+        const AVAILABLE_ROOMS = [1, 2, 3, 4, 5, 6, 7, 8];
         const SMALL_ROOMS = new Set([7, 8]);
 
         function parseTimeToMinutes(value) {
@@ -664,6 +666,7 @@
             const team = String(match.team || '').trim().toLowerCase();
             if (team === 'herr') return { home: 5, away: 3 };
             if (team === 'dam') return { home: 4, away: 2 };
+            if (/^p\s*2016$/.test(team)) return { home: 1, away: 2 };
             return null;
         }
 
@@ -673,47 +676,49 @@
 
         function getRoomAssignments(matches) {
             const assignments = new Map();
-            const usage = Object.fromEntries([...Array(9).keys()].map(room => [room, []]));
             const eligible = matches.filter(match => isRoomAssignmentMatch(match) && isHomeMatch(match));
 
-            // Reserve the mandatory Herr/Dam rooms first, so random allocation cannot collide with them.
+            // Room bookings are for a match slot. Reusing a room for a later
+            // kickoff prevents a 19:30 match from becoming unassigned merely
+            // because the pre-match window of an 18:00 match overlaps it.
+            const bySlot = new Map();
             eligible.forEach(match => {
-                const fixed = fixedRoomsFor(match);
-                const interval = getRoomInterval(match);
-                if (!fixed || !interval) return;
-                assignments.set(match, fixed);
-                usage[fixed.home].push(interval);
-                usage[fixed.away].push(interval);
+                const slot = `${match.date}|${match.time || 'unknown'}`;
+                if (!bySlot.has(slot)) bySlot.set(slot, []);
+                bySlot.get(slot).push(match);
             });
 
-            eligible
-                .filter(match => !assignments.has(match))
-                .sort((first, second) => `${first.time || ''}${first.team || ''}`.localeCompare(`${second.time || ''}${second.team || ''}`))
-                .forEach(match => {
-                    const interval = getRoomInterval(match);
-                    if (!interval) return;
-                    const preferred = isYoungTeam(match.team, match.date)
-                        ? AVAILABLE_ROOMS
-                        : AVAILABLE_ROOMS.filter(room => !SMALL_ROOMS.has(room));
-                    const weekdayPreferred = isWeekday(match.date)
-                        ? AVAILABLE_ROOMS.filter(room => room >= 6)
-                        : preferred;
-                    const shuffled = shuffledRooms(`${match.date}|${match.time}|${match.team}|${match.description}`);
-                    const candidates = [
-                        ...shuffled.filter(room => weekdayPreferred.includes(room)),
-                        ...(isWeekday(match.date)
-                            ? shuffled.filter(room => room < 6)
-                            : shuffled.filter(room => !preferred.includes(room)))
-                    ];
-                    const homeRoom = candidates.find(room => roomIsFree(room, interval, usage));
-                    const awayRoom = candidates.find(room => room !== homeRoom && roomIsFree(room, interval, usage));
+            bySlot.forEach(slotMatches => {
+                const used = new Set();
+                slotMatches
+                    .sort((first, second) => {
+                        const fixedOrder = Number(Boolean(fixedRoomsFor(first))) - Number(Boolean(fixedRoomsFor(second)));
+                        return fixedOrder || String(first.team || '').localeCompare(String(second.team || ''));
+                    })
+                    .forEach(match => {
+                        const fixed = fixedRoomsFor(match);
+                        if (fixed && !used.has(fixed.home) && !used.has(fixed.away)) {
+                            assignments.set(match, fixed);
+                            used.add(fixed.home);
+                            used.add(fixed.away);
+                            return;
+                        }
 
-                    if (homeRoom && awayRoom) {
-                        assignments.set(match, { home: homeRoom, away: awayRoom });
-                        usage[homeRoom].push(interval);
-                        usage[awayRoom].push(interval);
-                    }
-                });
+                        const preferred = isYoungTeam(match.team, match.date)
+                            ? AVAILABLE_ROOMS
+                            : AVAILABLE_ROOMS.filter(room => !SMALL_ROOMS.has(room));
+                        const shuffled = shuffledRooms(`${match.date}|${match.time}|${match.team}|${match.description}`);
+                        const candidates = [
+                            ...shuffled.filter(room => preferred.includes(room) && !used.has(room)),
+                            ...shuffled.filter(room => !preferred.includes(room) && !used.has(room))
+                        ];
+                        if (candidates.length >= 2) {
+                            assignments.set(match, { home: candidates[0], away: candidates[1] });
+                            used.add(candidates[0]);
+                            used.add(candidates[1]);
+                        }
+                    });
+            });
 
             return assignments;
         }
@@ -824,7 +829,8 @@
         }
 
         loadPage();
-        setInterval(loadPage, 300000);
+        // Keep the TV view in sync with the hourly scraper without requiring a reload.
+        setInterval(loadPage, 60 * 60 * 1000);
     </script>
 </body>
 </html>
