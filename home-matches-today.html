@@ -666,8 +666,11 @@
             const team = String(match.team || '').trim().toLowerCase();
             if (team === 'herr') return { home: 5, away: 3 };
             if (team === 'dam') return { home: 4, away: 2 };
-            if (/^p\s*2016$/.test(team)) return { home: 1, away: 2 };
             return null;
+        }
+
+        function isP16Team(match) {
+            return /^p\s*2016$/.test(String(match.team || '').trim().toLowerCase());
         }
 
         function roomIsFree(room, interval, usage) {
@@ -692,7 +695,8 @@
                 const used = new Set();
                 slotMatches
                     .sort((first, second) => {
-                        const fixedOrder = Number(Boolean(fixedRoomsFor(first))) - Number(Boolean(fixedRoomsFor(second)));
+                        const priority = match => fixedRoomsFor(match) ? 0 : (isP16Team(match) ? 1 : 2);
+                        const fixedOrder = priority(first) - priority(second);
                         return fixedOrder || String(first.team || '').localeCompare(String(second.team || ''));
                     })
                     .forEach(match => {
@@ -704,10 +708,25 @@
                             return;
                         }
 
+                        const p16HomeRoom = isP16Team(match)
+                            ? [1, 2].find(room => !used.has(room))
+                            : null;
                         const preferred = isYoungTeam(match.team, match.date)
                             ? AVAILABLE_ROOMS
                             : AVAILABLE_ROOMS.filter(room => !SMALL_ROOMS.has(room));
                         const shuffled = shuffledRooms(`${match.date}|${match.time}|${match.team}|${match.description}`);
+                        if (p16HomeRoom !== undefined && p16HomeRoom !== null) {
+                            const awayCandidates = [
+                                ...shuffled.filter(room => preferred.includes(room) && !used.has(room) && room !== p16HomeRoom),
+                                ...shuffled.filter(room => !preferred.includes(room) && !used.has(room) && room !== p16HomeRoom)
+                            ];
+                            if (awayCandidates.length) {
+                                assignments.set(match, { home: p16HomeRoom, away: awayCandidates[0] });
+                                used.add(p16HomeRoom);
+                                used.add(awayCandidates[0]);
+                                return;
+                            }
+                        }
                         const candidates = [
                             ...shuffled.filter(room => preferred.includes(room) && !used.has(room)),
                             ...shuffled.filter(room => !preferred.includes(room) && !used.has(room))
