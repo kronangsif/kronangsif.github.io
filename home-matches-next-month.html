@@ -90,7 +90,7 @@
         const start = parseTime(match.time);
         if (start === null) return null;
         const before = isYoung(match.team, match.date) ? 60 : 90;
-        const after = isYoung(match.team, match.date) ? 120 : 180;
+        const after = 150;
         const dayStart = new Date(`${match.date}T00:00:00`).getTime();
         return {
             start: dayStart + (start - before + startTrim) * 60000,
