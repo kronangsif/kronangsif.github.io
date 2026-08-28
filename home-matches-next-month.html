@@ -127,6 +127,12 @@
     function assignments(matches) {
         const result = new Map();
         const eligible = matches.filter(match => isRoomAssignmentMatch(match) && isHomeMatch(match));
+        const usage = Object.fromEntries(AVAILABLE_ROOMS.map(room => [room, []]));
+        const canUseRoom = (room, match) => {
+            const time = interval(match);
+            return time && !(usage[room] || []).some(existing => overlaps(existing, time));
+        };
+        const reserveRoom = (room, match) => usage[room].push(interval(match));
         const bySlot = new Map();
         eligible.forEach(match => {
             const slot = `${match.date}|${match.time || 'unknown'}`;
@@ -134,7 +140,12 @@
             bySlot.get(slot).push(match);
         });
 
-        bySlot.forEach(slotMatches => {
+        [...bySlot.values()]
+            .sort((first, second) => {
+                const priority = group => group.some(isP16Team) ? 0 : (group.some(fixedRooms) ? 1 : 2);
+                return priority(first) - priority(second) || `${first[0].date}|${first[0].time}`.localeCompare(`${second[0].date}|${second[0].time}`);
+            })
+            .forEach(slotMatches => {
             const used = new Set();
             const p16Matches = slotMatches.filter(isP16Team);
             slotMatches
@@ -145,17 +156,20 @@
                 })
                 .forEach(match => {
                     const fixed = fixedRooms(match);
-                    if (fixed && !used.has(fixed.home) && !used.has(fixed.away)) {
+                    if (fixed && !used.has(fixed.home) && !used.has(fixed.away)
+                        && canUseRoom(fixed.home, match) && canUseRoom(fixed.away, match)) {
                         result.set(match, { ...fixed, time: interval(match) });
                         used.add(fixed.home);
                         used.add(fixed.away);
+                        reserveRoom(fixed.home, match);
+                        reserveRoom(fixed.away, match);
                         return;
                     }
 
                     const p16HomeRoom = isP16Team(match)
                         ? (p16Matches.length === 1
-                            ? [2, 1].find(room => !used.has(room))
-                            : [1, 2].find(room => !used.has(room)))
+                            ? [2, 1].find(room => !used.has(room) && canUseRoom(room, match))
+                            : [1, 2].find(room => !used.has(room) && canUseRoom(room, match)))
                         : null;
                     const preferred = isYoung(match.team, match.date)
                         ? AVAILABLE_ROOMS
@@ -163,27 +177,31 @@
                     const order = shuffled(`${match.date}|${match.time}|${match.team}|${match.description}`);
                     if (p16HomeRoom !== undefined && p16HomeRoom !== null) {
                         const awayCandidates = [
-                            ...order.filter(room => preferred.includes(room) && !used.has(room) && room !== p16HomeRoom),
-                            ...order.filter(room => !preferred.includes(room) && !used.has(room) && room !== p16HomeRoom)
+                            ...order.filter(room => preferred.includes(room) && !used.has(room) && room !== p16HomeRoom && canUseRoom(room, match)),
+                            ...order.filter(room => !preferred.includes(room) && !used.has(room) && room !== p16HomeRoom && canUseRoom(room, match))
                         ];
                         if (awayCandidates.length) {
                             result.set(match, { home: p16HomeRoom, away: awayCandidates[0], time: interval(match) });
                             used.add(p16HomeRoom);
                             used.add(awayCandidates[0]);
+                            reserveRoom(p16HomeRoom, match);
+                            reserveRoom(awayCandidates[0], match);
                             return;
                         }
                     }
                     const candidates = [
-                        ...order.filter(room => preferred.includes(room) && !used.has(room)),
-                        ...order.filter(room => !preferred.includes(room) && !used.has(room))
+                        ...order.filter(room => preferred.includes(room) && !used.has(room) && canUseRoom(room, match)),
+                        ...order.filter(room => !preferred.includes(room) && !used.has(room) && canUseRoom(room, match))
                     ];
                     if (candidates.length >= 2) {
                         result.set(match, { home: candidates[0], away: candidates[1], time: interval(match) });
                         used.add(candidates[0]);
                         used.add(candidates[1]);
+                        reserveRoom(candidates[0], match);
+                        reserveRoom(candidates[1], match);
                     }
                 });
-        });
+            });
         return result;
     }
     function formatDate(date) { const value = new Date(`${date}T12:00:00`); return new Intl.DateTimeFormat('sv-SE', { weekday: 'long', day: 'numeric', month: 'long' }).format(value); }
