@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28T00:02:39.693683",
+  "last_updated": "2026-08-28T11:27:53.867025",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 18.7
+        "temp": 17.5
       }
     },
     {
@@ -40,8 +40,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.5
+        "desc": "Regn",
+        "temp": 16.8
       }
     },
     {
@@ -58,8 +58,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.5
+        "desc": "Regn",
+        "temp": 16.8
       }
     },
     {
@@ -75,9 +75,9 @@
       "location": "Byvallen P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.8
       }
     },
     {
@@ -95,7 +95,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.5
+        "temp": 17.3
       }
     },
     {
@@ -113,7 +113,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.5
+        "temp": 17.3
       }
     },
     {
@@ -131,7 +131,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.4
+        "temp": 18.8
       }
     },
     {
@@ -149,7 +149,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.8
+        "temp": 19.4
       }
     },
     {
@@ -167,7 +167,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 16.6
       }
     },
     {
@@ -185,7 +185,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.7
+        "temp": 17.3
       }
     },
     {
@@ -203,7 +203,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.7
+        "temp": 17.3
       }
     },
     {
@@ -219,9 +219,9 @@
       "location": "Bråtaredsvallen 11 P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌦️",
-        "desc": "Regnskurar",
-        "temp": 17.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.4
       }
     },
     {
@@ -237,9 +237,9 @@
       "location": "Sven Erikssonsvallen A konstgräs Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌦️",
-        "desc": "Regnskurar",
-        "temp": 16.2
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 17.1
       }
     },
     {
@@ -257,7 +257,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.8
+        "temp": 14.5
       }
     },
     {
@@ -273,16 +273,16 @@
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.0
       }
     },
     {
       "date": "2026-09-02",
       "day": "02",
       "weekday": "ons",
-      "time": "18:50",
+      "time": "19:00",
       "end_time": "",
       "team": "P2012",
       "team_id": "281528",
@@ -291,8 +291,8 @@
       "location": "Pruhultsplanen P2012 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☀️",
+        "desc": "Klar himmel",
         "temp": 13.2
       }
     },
@@ -309,9 +309,9 @@
       "location": "Noltorpsvallen B Konstgräs Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 13.2
       }
     },
     {
@@ -327,9 +327,9 @@
       "location": "Noltorpsvallen B Konstgräs VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 13.2
       }
     },
     {
@@ -1761,7 +1761,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.5
+        "temp": 17.3
       }
     },
     {
@@ -1777,9 +1777,9 @@
       "location": "Sven Erikssonsvallen A konstgräs(Herrar, Utveckling B Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌦️",
-        "desc": "Regnskurar",
-        "temp": 16.2
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 17.1
       }
     },
     {
@@ -1797,7 +1797,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.8
+        "temp": 14.5
       }
     },
     {
@@ -1968,8 +1968,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.5
+        "desc": "Regn",
+        "temp": 16.8
       }
     },
     {
@@ -2167,9 +2167,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 20.6
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 18.3
       }
     },
     {
@@ -2187,7 +2187,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.8
+        "temp": 14.5
       }
     },
     {
@@ -2457,7 +2457,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 18.7
+        "temp": 17.5
       }
     },
     {
@@ -2475,7 +2475,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.8
+        "temp": 14.5
       }
     },
     {
@@ -2661,7 +2661,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.8
+        "temp": 19.4
       }
     },
     {
@@ -2679,7 +2679,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.0
+        "temp": 15.3
       }
     },
     {
@@ -2949,7 +2949,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.4
+        "temp": 18.8
       }
     },
     {
@@ -2967,7 +2967,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 16.6
       }
     },
     {
@@ -2985,7 +2985,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.7
+        "temp": 17.3
       }
     },
     {
@@ -3211,9 +3211,9 @@
       "location": "Byvallen(Pojkar Div 8 Alingsås)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.8
       }
     },
     {
@@ -3229,9 +3229,9 @@
       "location": "Bråtaredsvallen 11(Pojkar Div 9 Fristad)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌦️",
-        "desc": "Regnskurar",
-        "temp": 17.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.4
       }
     },
     {
@@ -3459,7 +3459,7 @@
       "weather": {
         "icon": "🌦️",
         "desc": "Regnskurar",
-        "temp": 14.5
+        "temp": 15.3
       }
     },
     {
@@ -3673,7 +3673,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.5
+        "temp": 17.3
       }
     },
     {
@@ -3691,7 +3691,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.7
+        "temp": 17.3
       }
     },
     {
@@ -3709,7 +3709,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.7
+        "temp": 17.3
       }
     },
     {
@@ -3923,7 +3923,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 18.7
+        "temp": 17.5
       }
     },
     {
@@ -3941,7 +3941,7 @@
       "weather": {
         "icon": "🌦️",
         "desc": "Regnskurar",
-        "temp": 14.5
+        "temp": 15.3
       }
     },
     {
@@ -4043,7 +4043,7 @@
       "weather": {
         "icon": "🌦️",
         "desc": "Regnskurar",
-        "temp": 14.5
+        "temp": 15.3
       }
     },
     {
