@@ -732,10 +732,15 @@
                         const preferred = isYoungTeam(match.team, match.date)
                             ? AVAILABLE_ROOMS
                             : AVAILABLE_ROOMS.filter(room => !SMALL_ROOMS.has(room));
+                        const weekdayPreferred = isWeekday(match.date)
+                            ? AVAILABLE_ROOMS.filter(room => room >= 6)
+                            : preferred;
                         const shuffled = shuffledRooms(`${match.date}|${match.time}|${match.team}|${match.description}`);
                         if (p16HomeRoom !== undefined && p16HomeRoom !== null) {
                             const awayCandidates = [
-                                ...shuffled.filter(room => preferred.includes(room) && !used.has(room) && room !== p16HomeRoom
+                                ...shuffled.filter(room => weekdayPreferred.includes(room) && !used.has(room) && room !== p16HomeRoom
+                                    && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match)),
+                                ...shuffled.filter(room => preferred.includes(room) && !weekdayPreferred.includes(room) && !used.has(room) && room !== p16HomeRoom
                                     && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match)),
                                 ...shuffled.filter(room => !preferred.includes(room) && !used.has(room) && room !== p16HomeRoom
                                     && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match))
@@ -750,7 +755,8 @@
                             }
                         }
                         const candidates = [
-                            ...shuffled.filter(room => preferred.includes(room) && !used.has(room) && canUseRoom(room, match)),
+                            ...shuffled.filter(room => weekdayPreferred.includes(room) && !used.has(room) && canUseRoom(room, match)),
+                            ...shuffled.filter(room => preferred.includes(room) && !weekdayPreferred.includes(room) && !used.has(room) && canUseRoom(room, match)),
                             ...shuffled.filter(room => !preferred.includes(room) && !used.has(room) && canUseRoom(room, match))
                         ];
                         if (candidates.length >= 2) {

@@ -174,10 +174,15 @@
                     const preferred = isYoung(match.team, match.date)
                         ? AVAILABLE_ROOMS
                         : AVAILABLE_ROOMS.filter(room => !SMALL_ROOMS.has(room));
+                    const weekdayPreferred = isWeekday(match.date)
+                        ? AVAILABLE_ROOMS.filter(room => room >= 6)
+                        : preferred;
                     const order = shuffled(`${match.date}|${match.time}|${match.team}|${match.description}`);
                     if (p16HomeRoom !== undefined && p16HomeRoom !== null) {
                         const awayCandidates = [
-                            ...order.filter(room => preferred.includes(room) && !used.has(room) && room !== p16HomeRoom
+                            ...order.filter(room => weekdayPreferred.includes(room) && !used.has(room) && room !== p16HomeRoom
+                                && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match)),
+                            ...order.filter(room => preferred.includes(room) && !weekdayPreferred.includes(room) && !used.has(room) && room !== p16HomeRoom
                                 && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match)),
                             ...order.filter(room => !preferred.includes(room) && !used.has(room) && room !== p16HomeRoom
                                 && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match))
@@ -192,7 +197,8 @@
                         }
                     }
                     const candidates = [
-                        ...order.filter(room => preferred.includes(room) && !used.has(room) && canUseRoom(room, match)),
+                        ...order.filter(room => weekdayPreferred.includes(room) && !used.has(room) && canUseRoom(room, match)),
+                        ...order.filter(room => preferred.includes(room) && !weekdayPreferred.includes(room) && !used.has(room) && canUseRoom(room, match)),
                         ...order.filter(room => !preferred.includes(room) && !used.has(room) && canUseRoom(room, match))
                     ];
                     if (candidates.length >= 2) {
