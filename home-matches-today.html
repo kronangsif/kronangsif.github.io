@@ -599,6 +599,7 @@
         // All eight changing rooms are available. Rooms 4 and 5 are reserved
         // for the senior teams, but must still be part of the allocation pool.
         const AVAILABLE_ROOMS = [1, 2, 3, 4, 5, 6, 7, 8];
+        const SENIOR_ONLY_ROOMS = new Set([4, 5]);
         const SMALL_ROOMS = new Set([7, 8]);
 
         function parseTimeToMinutes(value) {
@@ -730,8 +731,8 @@
                                 : [1, 2].find(room => !used.has(room) && canUseRoom(room, match)))
                             : null;
                         const preferred = isYoungTeam(match.team, match.date)
-                            ? AVAILABLE_ROOMS
-                            : AVAILABLE_ROOMS.filter(room => !SMALL_ROOMS.has(room));
+                            ? AVAILABLE_ROOMS.filter(room => !SENIOR_ONLY_ROOMS.has(room))
+                            : AVAILABLE_ROOMS.filter(room => !SENIOR_ONLY_ROOMS.has(room) && !SMALL_ROOMS.has(room));
                         const weekdayPreferred = isWeekday(match.date)
                             ? AVAILABLE_ROOMS.filter(room => room >= 6)
                             : preferred;
@@ -739,11 +740,11 @@
                         if (p16HomeRoom !== undefined && p16HomeRoom !== null) {
                             const awayCandidates = [
                                 ...shuffled.filter(room => weekdayPreferred.includes(room) && !used.has(room) && room !== p16HomeRoom
-                                    && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match)),
+                                    && !SENIOR_ONLY_ROOMS.has(room) && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match)),
                                 ...shuffled.filter(room => preferred.includes(room) && !weekdayPreferred.includes(room) && !used.has(room) && room !== p16HomeRoom
-                                    && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match)),
+                                    && !SENIOR_ONLY_ROOMS.has(room) && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match)),
                                 ...shuffled.filter(room => !preferred.includes(room) && !used.has(room) && room !== p16HomeRoom
-                                    && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match))
+                                    && !SENIOR_ONLY_ROOMS.has(room) && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match))
                             ];
                             if (awayCandidates.length) {
                                 assignments.set(match, { home: p16HomeRoom, away: awayCandidates[0] });
@@ -757,7 +758,7 @@
                         const candidates = [
                             ...shuffled.filter(room => weekdayPreferred.includes(room) && !used.has(room) && canUseRoom(room, match)),
                             ...shuffled.filter(room => preferred.includes(room) && !weekdayPreferred.includes(room) && !used.has(room) && canUseRoom(room, match)),
-                            ...shuffled.filter(room => !preferred.includes(room) && !used.has(room) && canUseRoom(room, match))
+                            ...shuffled.filter(room => !preferred.includes(room) && !SENIOR_ONLY_ROOMS.has(room) && !used.has(room) && canUseRoom(room, match))
                         ];
                         if (candidates.length >= 2) {
                             assignments.set(match, { home: candidates[0], away: candidates[1] });
