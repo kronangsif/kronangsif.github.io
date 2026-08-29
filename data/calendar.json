@@ -1,67 +1,13 @@
 {
-  "last_updated": "2026-08-28T19:13:00.251576",
+  "last_updated": "2026-08-29T02:45:54.138388",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 8,
   "year": 2026,
-  "activity_count": 287,
+  "activity_count": 284,
   "activities": [
-    {
-      "date": "2026-08-28",
-      "day": "28",
-      "weekday": "fre",
-      "time": "18:00",
-      "end_time": "",
-      "team": "F2013/2014",
-      "team_id": "374981",
-      "type": "Match",
-      "description": "Alingsås KIK Blå hemma",
-      "location": "Kronängs Arena B-plan F2012/2013 »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.9
-      }
-    },
-    {
-      "date": "2026-08-28",
-      "day": "28",
-      "weekday": "fre",
-      "time": "19:00",
-      "end_time": "",
-      "team": "Dam",
-      "team_id": "52695",
-      "type": "Match",
-      "description": "Falköpings KIK U hemma",
-      "location": "Kronängs Arena A-plan Dam »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.4
-      }
-    },
-    {
-      "date": "2026-08-28",
-      "day": "28",
-      "weekday": "fre",
-      "time": "19:00",
-      "end_time": "",
-      "team": "VEO kamera",
-      "team_id": "430796",
-      "type": "Match",
-      "description": "Falköpings KIK U hemma",
-      "location": "Kronäng Arena konstgräs 1 VEO kamera »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.4
-      }
-    },
     {
       "date": "2026-08-29",
       "day": "29",
@@ -77,7 +23,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.7
+        "temp": 17.4
       }
     },
     {
@@ -95,7 +41,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
+        "temp": 18.2
       }
     },
     {
@@ -113,7 +59,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
+        "temp": 18.2
       }
     },
     {
@@ -129,9 +75,9 @@
       "location": "Kronängs Arena P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.7
       }
     },
     {
@@ -147,9 +93,9 @@
       "location": "Björketorps IP A P2012 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.3
       }
     },
     {
@@ -165,27 +111,9 @@
       "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.0
-      }
-    },
-    {
-      "date": "2026-08-30",
-      "day": "30",
-      "weekday": "sön",
-      "time": "14:00",
-      "end_time": "",
-      "team": "P2016",
-      "team_id": "414417",
-      "type": "Match",
-      "description": "Hestrafors IF Vit hemma",
-      "location": "Kronängs Arena A-plan P2016 »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.4
       }
     },
     {
@@ -201,9 +129,27 @@
       "location": "Kronängs Arena A-plan P2016 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.4
+      }
+    },
+    {
+      "date": "2026-08-30",
+      "day": "30",
+      "weekday": "sön",
+      "time": "14:00",
+      "end_time": "",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Match",
+      "description": "Hestrafors IF Vit hemma",
+      "location": "Kronängs Arena A-plan P2016 »",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.4
       }
     },
     {
@@ -221,7 +167,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.6
+        "temp": 16.5
       }
     },
     {
@@ -239,7 +185,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.8
+        "temp": 16.6
       }
     },
     {
@@ -257,7 +203,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.6
+        "temp": 14.8
       }
     },
     {
@@ -273,9 +219,9 @@
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 15.8
       }
     },
     {
@@ -291,9 +237,9 @@
       "location": "Pruhultsplanen P2012 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 13.8
       }
     },
     {
@@ -309,9 +255,9 @@
       "location": "Noltorpsvallen B Konstgräs Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 13.8
       }
     },
     {
@@ -327,9 +273,9 @@
       "location": "Noltorpsvallen B Konstgräs VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 13.8
       }
     },
     {
@@ -344,7 +290,11 @@
       "description": "Rydboholms SK hemma",
       "location": "Kronängs Arena A-plan Herr »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.3
+      }
     },
     {
       "date": "2026-09-05",
@@ -384,7 +334,7 @@
       "team_id": "414417",
       "type": "Match",
       "description": "Skene IF Vit borta",
-      "location": "Vävarevallen B-plan P2016 »",
+      "location": "Kunskapens Hus, konstgräs P2016 »",
       "lockerooms": null,
       "weather": null
     },
@@ -478,20 +428,6 @@
       "weekday": "sön",
       "time": "15:00",
       "end_time": "",
-      "team": "P2012",
-      "team_id": "281528",
-      "type": "Match",
-      "description": "Alingsås IF FF Vit borta",
-      "location": "Mjörnvallen, B-plan P2012 »",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-09-06",
-      "day": "06",
-      "weekday": "sön",
-      "time": "15:00",
-      "end_time": "",
       "team": "P2014",
       "team_id": "324331",
       "type": "Match",
@@ -567,6 +503,20 @@
       "type": "Match",
       "description": "Vakant Lag 2 hemma",
       "location": "Kronäng Arena konstgräs 1 Herr »",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-08",
+      "day": "08",
+      "weekday": "tis",
+      "time": "18:30",
+      "end_time": "",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Match",
+      "description": "Alingsås IF FF Vit borta",
+      "location": "Mjörnvallen, B-plan P2012 »",
       "lockerooms": null,
       "weather": null
     },
@@ -1125,7 +1075,7 @@
       "team": "P2014",
       "team_id": "324331",
       "type": "Match",
-      "description": "Lerums IS hemma",
+      "description": "Ospecificerat lag (9) hemma",
       "location": "Kronäng Arena P2014 »",
       "lockerooms": null,
       "weather": null
@@ -1139,7 +1089,7 @@
       "team": "P2014",
       "team_id": "324331",
       "type": "Match",
-      "description": "Ospecificerat lag (9) hemma",
+      "description": "Lerums IS hemma",
       "location": "Kronäng Arena P2014 »",
       "lockerooms": null,
       "weather": null
@@ -1237,7 +1187,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Mariedals IK Vit hemma",
+      "description": "Byttorps IF Grön hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
@@ -1251,7 +1201,7 @@
       "team": "P2016",
       "team_id": "414417",
       "type": "Match",
-      "description": "Byttorps IF Grön hemma",
+      "description": "Mariedals IK Vit hemma",
       "location": "Kronäng Arena P2016 »",
       "lockerooms": null,
       "weather": null
@@ -1761,7 +1711,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
+        "temp": 18.2
       }
     },
     {
@@ -1779,7 +1729,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.8
+        "temp": 16.6
       }
     },
     {
@@ -1797,7 +1747,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.6
+        "temp": 14.8
       }
     },
     {
@@ -1966,11 +1916,7 @@
       "description": "Falköpings KIK U hemma",
       "location": "Kronängs Arena A-plan(Damer, Div 3 Södra)",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.4
-      }
+      "weather": null
     },
     {
       "date": "2026-08-01",
@@ -2166,11 +2112,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 18.8
-      }
+      "weather": null
     },
     {
       "date": "2026-08-31",
@@ -2187,7 +2129,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.6
+        "temp": 14.8
       }
     },
     {
@@ -2454,11 +2396,7 @@
       "description": "Domare",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.9
-      }
+      "weather": null
     },
     {
       "date": "2026-08-31",
@@ -2475,7 +2413,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.6
+        "temp": 14.8
       }
     },
     {
@@ -2659,9 +2597,9 @@
       "location": "Björketorps IP A(Pojkar Div 6 Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.3
       }
     },
     {
@@ -2679,7 +2617,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.2
+        "temp": 14.8
       }
     },
     {
@@ -2947,9 +2885,9 @@
       "location": "Kronängs Arena()",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.7
       }
     },
     {
@@ -2965,9 +2903,9 @@
       "location": "Kronängs Arena B-plan(Pojkar Div 8 Borås norr)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.4
       }
     },
     {
@@ -2983,9 +2921,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.4
       }
     },
     {
@@ -3213,7 +3151,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.7
+        "temp": 17.4
       }
     },
     {
@@ -3231,7 +3169,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.6
+        "temp": 16.5
       }
     },
     {
@@ -3457,9 +3395,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.4
+        "icon": "🌦️",
+        "desc": "Regnskurar",
+        "temp": 14.9
       }
     },
     {
@@ -3673,7 +3611,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
+        "temp": 18.2
       }
     },
     {
@@ -3689,9 +3627,9 @@
       "location": "Kronängs Arena A-plan(Pojkar Div 13 Dalsjöfors)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.4
       }
     },
     {
@@ -3707,9 +3645,9 @@
       "location": "Kronängs Arena A-plan(Pojkar Div 13 Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.4
       }
     },
     {
@@ -3920,11 +3858,7 @@
       "description": "Alingsås KIK Blå hemma",
       "location": "Kronängs Arena B-plan(Flickor Div 5 Kinna)",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.9
-      }
+      "weather": null
     },
     {
       "date": "2026-08-31",
@@ -3939,9 +3873,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.4
+        "icon": "🌦️",
+        "desc": "Regnskurar",
+        "temp": 14.9
       }
     },
     {
@@ -4041,9 +3975,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.4
+        "icon": "🌦️",
+        "desc": "Regnskurar",
+        "temp": 14.9
       }
     },
     {
