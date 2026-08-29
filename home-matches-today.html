@@ -700,7 +700,7 @@
 
             [...bySlot.values()]
                 .sort((first, second) => {
-                    const priority = group => group.some(isP16Team) ? 0 : (group.some(fixedRoomsFor) ? 1 : 2);
+                    const priority = group => group.some(fixedRoomsFor) ? 0 : (group.some(isP16Team) ? 1 : 2);
                     return priority(first) - priority(second) || `${first[0].date}|${first[0].time}`.localeCompare(`${second[0].date}|${second[0].time}`);
                 })
                 .forEach(slotMatches => {
