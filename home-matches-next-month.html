@@ -177,8 +177,10 @@
                     const order = shuffled(`${match.date}|${match.time}|${match.team}|${match.description}`);
                     if (p16HomeRoom !== undefined && p16HomeRoom !== null) {
                         const awayCandidates = [
-                            ...order.filter(room => preferred.includes(room) && !used.has(room) && room !== p16HomeRoom && canUseRoom(room, match)),
-                            ...order.filter(room => !preferred.includes(room) && !used.has(room) && room !== p16HomeRoom && canUseRoom(room, match))
+                            ...order.filter(room => preferred.includes(room) && !used.has(room) && room !== p16HomeRoom
+                                && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match)),
+                            ...order.filter(room => !preferred.includes(room) && !used.has(room) && room !== p16HomeRoom
+                                && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match))
                         ];
                         if (awayCandidates.length) {
                             result.set(match, { home: p16HomeRoom, away: awayCandidates[0], time: interval(match) });
