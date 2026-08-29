@@ -653,8 +653,8 @@
             if (start === null) return null;
             const young = isYoungTeam(match.team, match.date);
             return {
-                start: start - (young ? 60 : 90),
-                end: start + 150
+                start: start - 60,
+                end: start + (young ? 120 : 150)
             };
         }
 
