@@ -331,6 +331,83 @@
                 font-size: 0.9rem;
             }
         }
+
+        /* TV profile: use the full canvas and keep information readable from a distance. */
+        @media (min-width: 901px) and (min-height: 600px) {
+            .header {
+                padding: clamp(18px, 2.2vh, 30px) clamp(24px, 2.4vw, 44px);
+                border-bottom-width: 3px;
+            }
+
+            .header h1 {
+                font-size: clamp(2.2rem, 3.2vw, 3.6rem);
+                letter-spacing: -0.045em;
+            }
+
+            .header-logo {
+                width: clamp(52px, 5vw, 76px);
+                height: clamp(52px, 5vw, 76px);
+            }
+
+            .week-grid {
+                padding: clamp(20px, 2.4vh, 34px) clamp(24px, 2.4vw, 44px);
+            }
+
+            .day-section {
+                margin-bottom: clamp(20px, 2.4vh, 32px);
+            }
+
+            .date-heading {
+                gap: 14px;
+                margin: 0 4px 12px;
+            }
+
+            .date-heading .weekday {
+                font-size: clamp(1.45rem, 2.2vw, 2.35rem);
+            }
+
+            .date-heading .date-number {
+                font-size: clamp(1.1rem, 1.45vw, 1.55rem);
+            }
+
+            .match-list-compact {
+                gap: clamp(12px, 1.3vw, 22px);
+            }
+
+            .match-row {
+                min-height: clamp(112px, 14vh, 166px);
+                padding: clamp(16px, 1.6vw, 25px) clamp(18px, 1.8vw, 30px);
+                grid-template-columns: minmax(120px, max-content) minmax(0, 1fr) auto;
+                gap: clamp(16px, 1.6vw, 28px);
+                border-left-width: 7px;
+                border-radius: 16px;
+            }
+
+            .match-row-time {
+                font-size: clamp(2rem, 3.1vw, 3.35rem);
+            }
+
+            .match-row-team {
+                font-size: clamp(1.3rem, 1.9vw, 2.1rem);
+                line-height: 1.1;
+            }
+
+            .match-row-desc {
+                margin-top: 7px;
+                font-size: clamp(1.1rem, 1.45vw, 1.65rem);
+                line-height: 1.2;
+            }
+
+            .match-row-location {
+                margin-top: 6px;
+                font-size: clamp(0.9rem, 1.05vw, 1.2rem);
+            }
+
+            .match-row-weather {
+                padding: 9px 13px;
+                font-size: clamp(0.95rem, 1.1vw, 1.25rem);
+            }
+        }
     </style>
 </head>
 <body>
