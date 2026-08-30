@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T11:32:13.283292",
+  "last_updated": "2026-08-30T16:19:30.602491",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 17.2
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 17.2
       }
     },
     {
@@ -77,7 +77,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.3
+        "temp": 17.2
       }
     },
     {
@@ -95,7 +95,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.4
+        "temp": 17.5
       }
     },
     {
@@ -112,8 +112,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.1
+        "desc": "Regn",
+        "temp": 17.3
       }
     },
     {
@@ -129,9 +129,9 @@
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.3
       }
     },
     {
@@ -149,7 +149,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.3
+        "temp": 14.5
       }
     },
     {
@@ -167,7 +167,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.3
+        "temp": 14.5
       }
     },
     {
@@ -185,7 +185,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.3
+        "temp": 14.5
       }
     },
     {
@@ -201,9 +201,9 @@
       "location": "Kronängs Arena A-plan Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌦️",
-        "desc": "Regnskurar",
-        "temp": 12.4
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.9
       }
     },
     {
@@ -1655,7 +1655,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.4
+        "temp": 17.5
       }
     },
     {
@@ -1672,8 +1672,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.1
+        "desc": "Regn",
+        "temp": 17.3
       }
     },
     {
@@ -2054,8 +2054,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.1
+        "desc": "Regn",
+        "temp": 17.3
       }
     },
     {
@@ -2338,8 +2338,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.1
+        "desc": "Regn",
+        "temp": 17.3
       }
     },
     {
@@ -2537,9 +2537,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 18.2
       }
     },
     {
@@ -2841,7 +2841,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 17.2
       }
     },
     {
@@ -3083,7 +3083,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.3
+        "temp": 17.2
       }
     },
     {
@@ -3311,7 +3311,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 18.6
       }
     },
     {
@@ -3539,7 +3539,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 17.2
       }
     },
     {
@@ -3557,7 +3557,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 17.2
       }
     },
     {
@@ -3785,7 +3785,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 18.6
       }
     },
     {
@@ -3887,7 +3887,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 18.6
       }
     },
     {
