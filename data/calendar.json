@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T08:20:32.068283",
+  "last_updated": "2026-08-31T16:52:24.279646",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.2
+        "temp": 16.5
       }
     },
     {
@@ -39,8 +39,8 @@
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 16.3
       }
     },
@@ -57,9 +57,9 @@
       "location": "Pruhultsplanen P2012 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.5
       }
     },
     {
@@ -75,9 +75,9 @@
       "location": "Noltorpsvallen B Konstgräs Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.5
       }
     },
     {
@@ -93,9 +93,9 @@
       "location": "Noltorpsvallen B Konstgräs VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.5
       }
     },
     {
@@ -111,9 +111,9 @@
       "location": "Kronängs Arena A-plan Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.3
       }
     },
     {
@@ -129,9 +129,9 @@
       "location": "Kronängs Arena A-plan P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.8
       }
     },
     {
@@ -147,9 +147,9 @@
       "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.8
       }
     },
     {
@@ -165,9 +165,9 @@
       "location": "Kunskapens Hus, konstgräs P2016 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.8
       }
     },
     {
@@ -185,7 +185,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.7
+        "temp": 17.4
       }
     },
     {
@@ -203,7 +203,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.7
+        "temp": 17.4
       }
     },
     {
@@ -406,7 +406,7 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Byttorps IF Vit hemma",
-      "location": "Kronäng Arena P 2015 »",
+      "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": null
     },
@@ -434,7 +434,7 @@
       "team_id": "414417",
       "type": "Match",
       "description": "IF Elfsborg hemma",
-      "location": "Kronäng Arena P2016 »",
+      "location": "Kronängs Arena B-plan P2016 »",
       "lockerooms": null,
       "weather": null
     },
@@ -448,7 +448,7 @@
       "team_id": "52695",
       "type": "Match",
       "description": "Svenljunga IK hemma",
-      "location": "Kronäng Arena konstgräs 1 Dam »",
+      "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
       "weather": null
     },
@@ -476,7 +476,7 @@
       "team_id": "374981",
       "type": "Match",
       "description": "Skene IF hemma",
-      "location": "Kronäng Arena F2012/2013 »",
+      "location": "Kronängs Arena B-plan F2012/2013 »",
       "lockerooms": null,
       "weather": null
     },
@@ -490,7 +490,7 @@
       "team_id": "324331",
       "type": "Match",
       "description": "Kinna IF Röd hemma",
-      "location": "Kronäng Arena P2014 »",
+      "location": "Kronängs Arena A-plan P2014 »",
       "lockerooms": null,
       "weather": null
     },
@@ -546,7 +546,7 @@
       "team_id": "281528",
       "type": "Match",
       "description": "Sandared/Sjömarken Vit hemma",
-      "location": "Kronäng Arena P2012 »",
+      "location": "Kronängs Arena B-plan P2012 »",
       "lockerooms": null,
       "weather": null
     },
@@ -560,7 +560,7 @@
       "team_id": "324331",
       "type": "Match",
       "description": "Hestrafors IF Vit hemma",
-      "location": "Kronäng Arena P2014 »",
+      "location": "Kronängs Arena B-plan P2014 »",
       "lockerooms": null,
       "weather": null
     },
@@ -588,7 +588,7 @@
       "team_id": "414417",
       "type": "Match",
       "description": "Byttorps IF Vit hemma",
-      "location": "Kronäng Arena P2016 »",
+      "location": "Kronängs Arena A-plan P2016 »",
       "lockerooms": null,
       "weather": null
     },
@@ -630,7 +630,7 @@
       "team_id": "52695",
       "type": "Match",
       "description": "Hemsjö IF U hemma",
-      "location": "Kronäng Arena konstgräs 1 Dam »",
+      "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
       "weather": null
     },
@@ -1615,7 +1615,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.2
+        "temp": 16.5
       }
     },
     {
@@ -1997,7 +1997,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.2
+        "temp": 16.5
       }
     },
     {
@@ -2281,7 +2281,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 17.2
+        "temp": 16.5
       }
     },
     {
@@ -2481,7 +2481,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 18.2
+        "temp": 17.5
       }
     },
     {
@@ -3239,9 +3239,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.2
       }
     },
     {
@@ -3705,9 +3705,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.2
       }
     },
     {
@@ -3807,9 +3807,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 18.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 18.2
       }
     },
     {
