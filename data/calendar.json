@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T22:31:04.715498",
+  "last_updated": "2026-08-31T01:12:29.612755",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -21,9 +21,9 @@
       "location": "Högvalla IP A konstgräs P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 17.6
       }
     },
     {
@@ -39,9 +39,9 @@
       "location": "Kronängs Arena B-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 16.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.4
       }
     },
     {
@@ -57,9 +57,9 @@
       "location": "Pruhultsplanen P2012 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.3
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.2
       }
     },
     {
@@ -75,9 +75,9 @@
       "location": "Noltorpsvallen B Konstgräs Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.3
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.2
       }
     },
     {
@@ -93,9 +93,9 @@
       "location": "Noltorpsvallen B Konstgräs VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.3
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.2
       }
     },
     {
@@ -111,9 +111,9 @@
       "location": "Kronängs Arena A-plan Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.8
       }
     },
     {
@@ -131,7 +131,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.3
+        "temp": 16.2
       }
     },
     {
@@ -149,7 +149,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.3
+        "temp": 16.2
       }
     },
     {
@@ -167,7 +167,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.3
+        "temp": 16.2
       }
     },
     {
@@ -183,9 +183,9 @@
       "location": "Granvalla A Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.7
       }
     },
     {
@@ -201,9 +201,9 @@
       "location": "Granvalla A VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 16.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.7
       }
     },
     {
@@ -1613,9 +1613,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 17.6
       }
     },
     {
@@ -1995,9 +1995,9 @@
       "location": "Högvalla IP A konstgräs(Pojkar Div 4 Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 17.6
       }
     },
     {
@@ -2279,9 +2279,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 17.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 17.6
       }
     },
     {
@@ -2481,7 +2481,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.3
+        "temp": 18.2
       }
     },
     {
@@ -3241,7 +3241,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.7
+        "temp": 18.3
       }
     },
     {
@@ -3707,7 +3707,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.7
+        "temp": 18.3
       }
     },
     {
@@ -3809,7 +3809,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.7
+        "temp": 18.3
       }
     },
     {
