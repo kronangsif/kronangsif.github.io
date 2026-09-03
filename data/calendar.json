@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-03T20:43:00.795119",
+  "last_updated": "2026-09-03T23:04:55.645758",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 9,
   "year": 2026,
-  "activity_count": 156,
+  "activity_count": 268,
   "activities": [
     {
       "date": "2026-09-04",
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.8
+        "temp": 15.7
       }
     },
     {
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.7
+        "temp": 14.2
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.7
+        "temp": 14.2
       }
     },
     {
@@ -77,7 +77,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.7
+        "temp": 14.2
       }
     },
     {
@@ -93,9 +93,9 @@
       "location": "Granvalla A Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.4
       }
     },
     {
@@ -111,9 +111,9 @@
       "location": "Granvalla A VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.4
       }
     },
     {
@@ -1309,7 +1309,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.8
+        "temp": 15.7
       }
     },
     {
@@ -1542,11 +1542,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 15.3
-      }
+      "weather": null
     },
     {
       "date": "2026-09-05",
@@ -1561,9 +1557,9 @@
       "location": "Granvalla A(Damer, Div 3 Södra)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.4
       }
     },
     {
@@ -1596,7 +1592,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.5
+      }
     },
     {
       "date": "2026-09-11",
@@ -1750,11 +1750,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 15.3
-      }
+      "weather": null
     },
     {
       "date": "2026-09-05",
@@ -1771,7 +1767,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.7
+        "temp": 14.2
       }
     },
     {
@@ -1822,7 +1818,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.5
+      }
     },
     {
       "date": "2026-09-15",
@@ -1934,11 +1934,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 15.3
-      }
+      "weather": null
     },
     {
       "date": "2026-09-05",
@@ -1955,7 +1951,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.7
+        "temp": 14.2
       }
     },
     {
@@ -1973,7 +1969,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.7
+        "temp": 14.2
       }
     },
     {
@@ -2024,7 +2020,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.5
+      }
     },
     {
       "date": "2026-09-14",
@@ -2150,11 +2150,7 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 15.9
-      }
+      "weather": null
     },
     {
       "date": "2026-09-05",
@@ -2169,9 +2165,9 @@
       "location": "Borås Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.4
       }
     },
     {
@@ -2222,7 +2218,11 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.5
+      }
     },
     {
       "date": "2026-09-13",
@@ -2335,7 +2335,1702 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": null
+    },
+    {
+      "date": "2026-09-01",
+      "day": "01",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-02",
+      "day": "02",
+      "weekday": "ons",
+      "time": "17:45",
+      "end_time": "19:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Övrigt",
+      "description": "Domaruppdrag",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-03",
+      "day": "03",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-05",
+      "day": "05",
+      "weekday": "lör",
+      "time": "11:00",
+      "end_time": "",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Match",
+      "description": "Sjömarken/Sandared Vit hemma",
+      "location": "Kronängs Arena B-plan(Pojkar Div 8 Dalsjöfors)",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.2
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "day": "06",
+      "weekday": "sön",
+      "time": "11:00",
+      "end_time": "",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Match",
+      "description": "Tollered/Hemsjö borta",
+      "location": "Spinnarvallen 1 Gräs(Pojkar Div 8 Borås norr)",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.6
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "day": "08",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.8
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "day": "10",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.3
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "day": "12",
+      "weekday": "lör",
+      "time": "13:00",
+      "end_time": "",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Match",
+      "description": "Brämhults IK Vit borta",
+      "location": "Brämhults IP B(Pojkar Div 8 Borås norr)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-13",
+      "day": "13",
+      "weekday": "sön",
+      "time": "15:30",
+      "end_time": "",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Match",
+      "description": "Gerdskens BK Vit borta",
+      "location": "Gerdskenvallen A-plan(Pojkar Div 8 Dalsjöfors)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-15",
+      "day": "15",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-17",
+      "day": "17",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-19",
+      "day": "19",
+      "weekday": "lör",
+      "time": "11:00",
+      "end_time": "",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Match",
+      "description": "Fristads GoIF Grön hemma",
+      "location": "Kronäng Arena(Pojkar Div 8 Borås norr)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-22",
+      "day": "22",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-24",
+      "day": "24",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-27",
+      "day": "27",
+      "weekday": "sön",
+      "time": "12:30",
+      "end_time": "",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Match",
+      "description": "IF Elfsborg Röd borta",
+      "location": "Ryda Sportfält B(Pojkar Div 8 Borås norr)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-29",
+      "day": "29",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2013",
+      "team_id": "324307",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-01",
+      "day": "01",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Träning",
+      "description": "Träning + Löpning (ta med löparskor)",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-03",
+      "day": "03",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-06",
+      "day": "06",
+      "weekday": "sön",
+      "time": "14:30",
+      "end_time": "16:30",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Övrigt",
+      "description": "Kioskbemanning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.9
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "day": "06",
+      "weekday": "sön",
+      "time": "15:00",
+      "end_time": "",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Match",
+      "description": "Annelunds IF hemma",
+      "location": "Kronängs Arena B-plan(Pojkar Div 8 Alingsås)",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.6
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "day": "08",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.8
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "day": "10",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.3
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "day": "12",
+      "weekday": "lör",
+      "time": "11:00",
+      "end_time": "",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Match",
+      "description": "Kinna IF Röd hemma",
+      "location": "Kronängs Arena A-plan(Pojkar Div 9 Fristad)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-13",
+      "day": "13",
+      "weekday": "sön",
+      "time": "13:00",
+      "end_time": "",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Match",
+      "description": "Hestrafors IF Vit hemma",
+      "location": "Kronängs Arena B-plan(Pojkar Div 8 Alingsås)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-15",
+      "day": "15",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Träning",
+      "description": "Träning + Löpning (ta med löparskor)",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-17",
+      "day": "17",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-19",
+      "day": "19",
+      "weekday": "lör",
+      "time": "10:00",
+      "end_time": "",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Match",
+      "description": "Sparsörs AIK borta",
+      "location": "Trollevi B(Pojkar Div 9 Fristad)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-20",
+      "day": "20",
+      "weekday": "sön",
+      "time": "16:00",
+      "end_time": "",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Match",
+      "description": "Herrljunga/Frisco borta",
+      "location": "Skoghälla IP B(Pojkar Div 8 Alingsås)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-22",
+      "day": "22",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-24",
+      "day": "24",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-25",
+      "day": "25",
+      "weekday": "fre",
+      "time": "18:00",
+      "end_time": "",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Match",
+      "description": "IF Elfsborg Svart borta",
+      "location": "Ryda Sportfält C1(Pojkar Div 9 Fristad)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-27",
+      "day": "27",
+      "weekday": "sön",
+      "time": "00:00",
+      "end_time": "",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Match",
+      "description": "Ospecificerat lag (9) hemma",
+      "location": "Kronäng Arena(Pojkar Div 8 Alingsås)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-27",
+      "day": "27",
+      "weekday": "sön",
+      "time": "00:00",
+      "end_time": "",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Match",
+      "description": "Ospecificerat lag (11) hemma",
+      "location": "Kronäng Arena(Pojkar Div 9 Fristad)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-27",
+      "day": "27",
+      "weekday": "sön",
+      "time": "00:00",
+      "end_time": "",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Match",
+      "description": "Lerums IS hemma",
+      "location": "Kronäng Arena(Pojkar Div 8 Alingsås)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-29",
+      "day": "29",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Träning",
+      "description": "Träning + Löpning (ta med löparskor)",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-02",
+      "day": "02",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-02",
+      "day": "02",
+      "weekday": "ons",
+      "time": "17:45",
+      "end_time": "",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Match",
+      "description": "Fristads GoIF Röd hemma",
+      "location": "Kronängs Arena B-plan(Pojkar Div 11 Sandared)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-06",
+      "day": "06",
+      "weekday": "sön",
+      "time": "11:00",
+      "end_time": "",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Match",
+      "description": "Bergdalens IK Röd hemma",
+      "location": "Kronängs Arena A-plan(Pojkar Div 11 Sandared)",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.6
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "day": "06",
+      "weekday": "sön",
+      "time": "17:00",
+      "end_time": "",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Match",
+      "description": "Svansjö borta",
+      "location": "Hagavallen, Öxabäck(Pojkar Div 11 Kinna)",
+      "lockerooms": null,
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 17.1
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "day": "07",
+      "weekday": "mån",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.4
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "day": "09",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.9
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "day": "09",
+      "weekday": "ons",
+      "time": "17:45",
+      "end_time": "",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Match",
+      "description": "Byttorps IF Vit hemma",
+      "location": "Kronängs Arena B-plan(Pojkar Div 11 Kinna)",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.9
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "day": "12",
+      "weekday": "lör",
+      "time": "11:00",
+      "end_time": "",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Match",
+      "description": "Kinna IF Blå borta",
+      "location": "Viskavallen Pruhultsplanen B(Pojkar Div 11 Sandared)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-14",
+      "day": "14",
+      "weekday": "mån",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-16",
+      "day": "16",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-20",
+      "day": "20",
+      "weekday": "sön",
+      "time": "11:00",
+      "end_time": "",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Match",
+      "description": "Sandareds IF Grön hemma",
+      "location": "Kronäng Arena(Pojkar Div 11 Sandared)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-20",
+      "day": "20",
+      "weekday": "sön",
+      "time": "15:00",
+      "end_time": "",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Match",
+      "description": "Sandareds IF Svart borta",
+      "location": "Sandevi B-plan(Pojkar Div 11 Kinna)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-21",
+      "day": "21",
+      "weekday": "mån",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-23",
+      "day": "23",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-27",
+      "day": "27",
+      "weekday": "sön",
+      "time": "13:30",
+      "end_time": "",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Match",
+      "description": "Sätila SK hemma",
+      "location": "Kronäng Arena(Pojkar Div 11 Kinna)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-27",
+      "day": "27",
+      "weekday": "sön",
+      "time": "13:30",
+      "end_time": "",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Match",
+      "description": "Rydboholms SK hemma",
+      "location": "Kronäng Arena(Pojkar Div 11 Sandared)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-28",
+      "day": "28",
+      "weekday": "mån",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-30",
+      "day": "30",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-01",
+      "day": "01",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-03",
+      "day": "03",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-05",
+      "day": "05",
+      "weekday": "lör",
+      "time": "11:00",
+      "end_time": "",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Match",
+      "description": "Skene IF Vit borta",
+      "location": "Kunskapens Hus, konstgräs(Pojkar Div 13 Borås)",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.2
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "day": "06",
+      "weekday": "sön",
+      "time": "18:00",
+      "end_time": "",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Match",
+      "description": "Brämhults IK Svart borta",
+      "location": "Brämhults IP C(Pojkar Div 13 Dalsjöfors)",
+      "lockerooms": null,
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 15.8
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "day": "08",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.8
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "day": "10",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.3
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "day": "11",
+      "weekday": "fre",
+      "time": "17:30",
+      "end_time": "",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Match",
+      "description": "IF Elfsborg  hemma",
+      "location": "Kronängs Arena B-plan(Pojkar Div 13 Borås)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-13",
+      "day": "13",
+      "weekday": "sön",
+      "time": "15:30",
+      "end_time": "",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Match",
+      "description": "Byttorps IF Vit hemma",
+      "location": "Kronängs Arena A-plan(Pojkar Div 13 Dalsjöfors)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-15",
+      "day": "15",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-17",
+      "day": "17",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-20",
+      "day": "20",
+      "weekday": "sön",
+      "time": "12:00",
+      "end_time": "",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Match",
+      "description": "Sjömarkens IF Vit borta",
+      "location": "Idrottsgården B-plan(Pojkar Div 13 Dalsjöfors)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-20",
+      "day": "20",
+      "weekday": "sön",
+      "time": "16:00",
+      "end_time": "",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Match",
+      "description": "Rydboholms SK borta",
+      "location": "Sven Erikssonsvallen C(Pojkar Div 13 Borås)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-22",
+      "day": "22",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-24",
+      "day": "24",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-27",
+      "day": "27",
+      "weekday": "sön",
+      "time": "16:00",
+      "end_time": "",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Match",
+      "description": "Byttorps IF Grön hemma",
+      "location": "Kronäng Arena(Pojkar Div 13 Borås)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-27",
+      "day": "27",
+      "weekday": "sön",
+      "time": "16:00",
+      "end_time": "",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Match",
+      "description": "Mariedals IK Vit hemma",
+      "location": "Kronäng Arena(Pojkar Div 13 Dalsjöfors)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-29",
+      "day": "29",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2016",
+      "team_id": "414417",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-02",
+      "day": "02",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-06",
+      "day": "06",
+      "weekday": "sön",
+      "time": "12:00",
+      "end_time": "",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Match",
+      "description": "Byttorps IF borta",
+      "location": "Byttorps IP A(Flickor Div 5 Kinna)",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.9
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "day": "07",
+      "weekday": "mån",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.4
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "day": "09",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.9
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "day": "12",
+      "weekday": "lör",
+      "time": "14:45",
+      "end_time": "",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Match",
+      "description": "Skene IF hemma",
+      "location": "Kronängs Arena B-plan(Flickor Div 5 Kinna)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-14",
+      "day": "14",
+      "weekday": "mån",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-16",
+      "day": "16",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-20",
+      "day": "20",
+      "weekday": "sön",
+      "time": "15:00",
+      "end_time": "",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Match",
+      "description": "Sjömarken/Sandared borta",
+      "location": "Idrottsgården Konstgräsplan(Flickor Div 5 Kinna)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-21",
+      "day": "21",
+      "weekday": "mån",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-23",
+      "day": "23",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-27",
+      "day": "27",
+      "weekday": "sön",
+      "time": "00:00",
+      "end_time": "",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Match",
+      "description": "Ospecificerat lag (10) borta",
+      "location": "Annan(Flickor Div 5 Kinna)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-27",
+      "day": "27",
+      "weekday": "sön",
+      "time": "11:00",
+      "end_time": "",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Match",
+      "description": "IFK Öxnevalla borta",
+      "location": "Hedevallen(Flickor Div 5 Kinna)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-28",
+      "day": "28",
+      "weekday": "mån",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-30",
+      "day": "30",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "F2013/2014",
+      "team_id": "374981",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena B-plan",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-02",
+      "day": "02",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-06",
+      "day": "06",
+      "weekday": "sön",
+      "time": "10:30",
+      "end_time": "",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Match",
+      "description": "Borta",
+      "location": "Borås Arena()",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.9
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "day": "07",
+      "weekday": "mån",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.4
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "day": "09",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.9
+      }
+    },
+    {
+      "date": "2026-09-14",
+      "day": "14",
+      "weekday": "mån",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-16",
+      "day": "16",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-21",
+      "day": "21",
+      "weekday": "mån",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-23",
+      "day": "23",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-28",
+      "day": "28",
+      "weekday": "mån",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-30",
+      "day": "30",
+      "weekday": "ons",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-01",
+      "day": "01",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-03",
+      "day": "03",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-06",
+      "day": "06",
+      "weekday": "sön",
+      "time": "08:15",
+      "end_time": "12:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Övrigt",
+      "description": "Övrigt",
+      "location": "Borås Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 10.3
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "day": "06",
+      "weekday": "sön",
+      "time": "10:45",
+      "end_time": "15:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Övrigt",
+      "description": "Övrigt",
+      "location": "Borås Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.9
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "day": "08",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.8
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "day": "10",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.3
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "day": "15",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-17",
+      "day": "17",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-22",
+      "day": "22",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-24",
+      "day": "24",
+      "weekday": "tor",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-29",
+      "day": "29",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-01",
+      "day": "01",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2020",
+      "team_id": "584817",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-08",
+      "day": "08",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2020",
+      "team_id": "584817",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.8
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "day": "15",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2020",
+      "team_id": "584817",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-22",
+      "day": "22",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2020",
+      "team_id": "584817",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-29",
+      "day": "29",
+      "weekday": "tis",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2020",
+      "team_id": "584817",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-12",
+      "day": "12",
+      "weekday": "lör",
+      "time": "10:00",
+      "end_time": "23:00",
+      "team": "Klubbstuga",
+      "team_id": "181941",
+      "type": "Övrigt",
+      "description": "Möte",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-15",
+      "day": "15",
+      "weekday": "tis",
+      "time": "08:00",
+      "end_time": "12:00",
+      "team": "Klubbstuga",
+      "team_id": "181941",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "weather": null
     }
   ],
-  "latest_news": []
+  "latest_news": [
+    {
+      "title": "Bilder från 80årsdagsfirandet :)",
+      "published_at": "2026-08-25 14:54",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1358110",
+      "image": "",
+      "summary": "Lite smått & gott från lördagen."
+    },
+    {
+      "title": "Veckans hemmamatcher",
+      "published_at": "2026-08-24",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1339545",
+      "image": "",
+      "summary": ""
+    }
+  ]
 }
