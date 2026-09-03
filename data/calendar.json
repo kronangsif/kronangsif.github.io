@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02T23:07:20.421450",
+  "last_updated": "2026-09-03T03:37:55.628483",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 15.3
       }
     },
     {
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.5
+        "temp": 14.2
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.5
+        "temp": 14.2
       }
     },
     {
@@ -77,7 +77,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.5
+        "temp": 14.2
       }
     },
     {
@@ -95,7 +95,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.5
+        "temp": 14.2
       }
     },
     {
@@ -113,7 +113,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.5
+        "temp": 14.2
       }
     },
     {
@@ -147,8 +147,8 @@
       "location": "Spinnarvallen 1 Gräs P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 17.3
       }
     },
@@ -165,8 +165,8 @@
       "location": "Kronängs Arena A-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 17.3
       }
     },
@@ -183,8 +183,8 @@
       "location": "Byttorps IP A F2012/2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 18.3
       }
     },
@@ -203,7 +203,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.0
+        "temp": 18.5
       }
     },
     {
@@ -219,9 +219,9 @@
       "location": "Hagavallen, Öxabäck P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 17.1
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.8
       }
     },
     {
@@ -237,9 +237,9 @@
       "location": "Kronängs Arena A-plan P2011 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 17.1
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.8
       }
     },
     {
@@ -257,7 +257,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.6
+        "temp": 15.5
       }
     },
     {
@@ -275,7 +275,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.9
+        "temp": 12.3
       }
     },
     {
@@ -1309,7 +1309,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 15.3
       }
     },
     {
@@ -1325,9 +1325,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 15.3
       }
     },
     {
@@ -1545,7 +1545,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 14.2
+        "temp": 14.8
       }
     },
     {
@@ -1563,7 +1563,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.5
+        "temp": 14.2
       }
     },
     {
@@ -1581,7 +1581,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.9
+        "temp": 11.8
       }
     },
     {
@@ -1753,7 +1753,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 14.2
+        "temp": 14.8
       }
     },
     {
@@ -1771,7 +1771,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.5
+        "temp": 14.2
       }
     },
     {
@@ -1789,7 +1789,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.9
+        "temp": 11.8
       }
     },
     {
@@ -1937,7 +1937,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 14.2
+        "temp": 14.8
       }
     },
     {
@@ -1955,7 +1955,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.5
+        "temp": 14.2
       }
     },
     {
@@ -1971,9 +1971,9 @@
       "location": "Kronängs Arena A-plan(Pojkar Div 5 Mark)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 17.1
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.8
       }
     },
     {
@@ -1989,9 +1989,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 15.3
       }
     },
     {
@@ -2153,7 +2153,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.5
+        "temp": 14.2
       }
     },
     {
@@ -2169,9 +2169,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.0
       }
     },
     {
@@ -2189,7 +2189,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.9
+        "temp": 12.3
       }
     },
     {
@@ -2360,8 +2360,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.7
+        "desc": "Dis",
+        "temp": 14.4
       }
     },
     {
@@ -2379,7 +2379,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.5
+        "temp": 14.2
       }
     },
     {
@@ -2395,8 +2395,8 @@
       "location": "Spinnarvallen 1 Gräs(Pojkar Div 8 Borås norr)",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 17.3
       }
     },
@@ -2415,7 +2415,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.0
+        "temp": 13.0
       }
     },
     {
@@ -2586,8 +2586,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.7
+        "desc": "Dis",
+        "temp": 14.4
       }
     },
     {
@@ -2603,9 +2603,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 19.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 18.8
       }
     },
     {
@@ -2623,7 +2623,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.0
+        "temp": 18.5
       }
     },
     {
@@ -2641,7 +2641,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.0
+        "temp": 13.0
       }
     },
     {
@@ -2881,8 +2881,8 @@
       "location": "Kronängs Arena A-plan(Pojkar Div 11 Sandared)",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 17.3
       }
     },
@@ -2899,9 +2899,9 @@
       "location": "Hagavallen, Öxabäck(Pojkar Div 11 Kinna)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 17.1
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.8
       }
     },
     {
@@ -2917,9 +2917,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 19.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.7
       }
     },
     {
@@ -3140,8 +3140,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.7
+        "desc": "Dis",
+        "temp": 14.4
       }
     },
     {
@@ -3159,7 +3159,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.5
+        "temp": 14.2
       }
     },
     {
@@ -3177,7 +3177,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.6
+        "temp": 15.5
       }
     },
     {
@@ -3195,7 +3195,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.0
+        "temp": 13.0
       }
     },
     {
@@ -3393,8 +3393,8 @@
       "location": "Byttorps IP A(Flickor Div 5 Kinna)",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 18.3
       }
     },
@@ -3411,9 +3411,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 19.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.7
       }
     },
     {
@@ -3619,9 +3619,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 19.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.7
       }
     },
     {
@@ -3754,8 +3754,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.7
+        "desc": "Dis",
+        "temp": 14.4
       }
     },
     {
@@ -3773,7 +3773,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.0
+        "temp": 13.0
       }
     },
     {
@@ -3889,7 +3889,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.0
+        "temp": 13.0
       }
     },
     {
