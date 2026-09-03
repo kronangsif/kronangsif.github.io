@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-03T13:22:57.906502",
+  "last_updated": "2026-09-03T17:39:02.126737",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 9,
   "year": 2026,
-  "activity_count": 266,
+  "activity_count": 268,
   "activities": [
     {
       "date": "2026-09-04",
@@ -21,9 +21,9 @@
       "location": "Kronängs Arena A-plan Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.9
       }
     },
     {
@@ -39,9 +39,9 @@
       "location": "Kronängs Arena A-plan P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.7
       }
     },
     {
@@ -57,9 +57,9 @@
       "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.7
       }
     },
     {
@@ -75,9 +75,9 @@
       "location": "Kunskapens Hus, konstgräs P2016 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.7
       }
     },
     {
@@ -1307,9 +1307,9 @@
       "location": "Kronängs Arena A-plan(Herrar, Div 5 Sydvästra)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.9
       }
     },
     {
@@ -1544,8 +1544,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.6
+        "desc": "Dis",
+        "temp": 15.2
       }
     },
     {
@@ -1752,8 +1752,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.6
+        "desc": "Dis",
+        "temp": 15.2
       }
     },
     {
@@ -1769,9 +1769,9 @@
       "location": "Kronängs Arena A-plan(Pojkar Div 4 Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.7
       }
     },
     {
@@ -1936,8 +1936,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.6
+        "desc": "Dis",
+        "temp": 15.2
       }
     },
     {
@@ -1953,9 +1953,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.7
       }
     },
     {
@@ -1971,9 +1971,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.7
       }
     },
     {
@@ -2152,8 +2152,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.9
+        "desc": "Dis",
+        "temp": 15.9
       }
     },
     {
@@ -2379,7 +2379,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.8
+        "temp": 16.4
       }
     },
     {
@@ -2395,9 +2395,9 @@
       "location": "Kronängs Arena B-plan(Pojkar Div 8 Dalsjöfors)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.7
       }
     },
     {
@@ -2605,7 +2605,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.8
+        "temp": 16.4
       }
     },
     {
@@ -3159,7 +3159,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.8
+        "temp": 16.4
       }
     },
     {
@@ -3175,9 +3175,9 @@
       "location": "Kunskapens Hus, konstgräs(Pojkar Div 13 Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.7
       }
     },
     {
@@ -3773,7 +3773,43 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.8
+        "temp": 16.4
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "day": "06",
+      "weekday": "sön",
+      "time": "08:15",
+      "end_time": "12:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Övrigt",
+      "description": "Övrigt",
+      "location": "Borås Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌫️",
+        "desc": "Dimma",
+        "temp": 11.4
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "day": "06",
+      "weekday": "sön",
+      "time": "10:45",
+      "end_time": "15:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Övrigt",
+      "description": "Övrigt",
+      "location": "Borås Arena",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 15.4
       }
     },
     {
