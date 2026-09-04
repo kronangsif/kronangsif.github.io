@@ -1,31 +1,13 @@
 {
-  "last_updated": "2026-09-04T20:30:03.879842",
+  "last_updated": "2026-09-04T22:52:13.785459",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 9,
   "year": 2026,
-  "activity_count": 270,
+  "activity_count": 269,
   "activities": [
-    {
-      "date": "2026-09-04",
-      "day": "04",
-      "weekday": "fre",
-      "time": "19:30",
-      "end_time": "",
-      "team": "Herr",
-      "team_id": "38937",
-      "type": "Match",
-      "description": "Rydboholms SK hemma",
-      "location": "Kronängs Arena A-plan Herr »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.0
-      }
-    },
     {
       "date": "2026-09-05",
       "day": "05",
@@ -41,7 +23,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.6
       }
     },
     {
@@ -59,7 +41,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.6
       }
     },
     {
@@ -77,7 +59,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.6
       }
     },
     {
@@ -94,7 +76,7 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
+        "desc": "Dis",
         "temp": 15.2
       }
     },
@@ -112,7 +94,7 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
+        "desc": "Dis",
         "temp": 15.2
       }
     },
@@ -131,7 +113,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.3
+        "temp": 14.4
       }
     },
     {
@@ -149,7 +131,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.6
+        "temp": 16.3
       }
     },
     {
@@ -167,7 +149,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.6
+        "temp": 16.3
       }
     },
     {
@@ -185,7 +167,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.9
+        "temp": 17.5
       }
     },
     {
@@ -203,7 +185,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.4
+        "temp": 18.8
       }
     },
     {
@@ -219,9 +201,9 @@
       "location": "Hagavallen, Öxabäck P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 17.7
       }
     },
     {
@@ -237,9 +219,9 @@
       "location": "Kronängs Arena A-plan P2011 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 17.7
       }
     },
     {
@@ -257,7 +239,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.5
+        "temp": 16.9
       }
     },
     {
@@ -326,7 +308,11 @@
       "description": "IF Elfsborg hemma",
       "location": "Kronängs Arena B-plan P2016 »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.3
+      }
     },
     {
       "date": "2026-09-11",
@@ -340,7 +326,11 @@
       "description": "Svenljunga IK hemma",
       "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.1
+      }
     },
     {
       "date": "2026-09-11",
@@ -354,7 +344,11 @@
       "description": "Svenljunga IK hemma",
       "location": "Kronäng Arena konstgräs 1 VEO kamera »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.1
+      }
     },
     {
       "date": "2026-09-12",
@@ -1306,11 +1300,7 @@
       "description": "Rydboholms SK hemma",
       "location": "Kronängs Arena A-plan(Herrar, Div 5 Sydvästra)",
       "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.0
-      }
+      "weather": null
     },
     {
       "date": "2026-09-07",
@@ -1558,7 +1548,7 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
+        "desc": "Dis",
         "temp": 15.2
       }
     },
@@ -1610,7 +1600,11 @@
       "description": "Svenljunga IK hemma",
       "location": "Kronängs Arena A-plan(Damer, Div 3 Södra)",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.1
+      }
     },
     {
       "date": "2026-09-15",
@@ -1767,7 +1761,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.6
       }
     },
     {
@@ -1951,7 +1945,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.6
       }
     },
     {
@@ -1969,7 +1963,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.6
       }
     },
     {
@@ -1985,9 +1979,9 @@
       "location": "Kronängs Arena A-plan(Pojkar Div 5 Mark)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 17.7
       }
     },
     {
@@ -2166,7 +2160,7 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
+        "desc": "Dis",
         "temp": 15.2
       }
     },
@@ -2184,7 +2178,7 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
+        "desc": "Dis",
         "temp": 15.2
       }
     },
@@ -2411,7 +2405,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.6
       }
     },
     {
@@ -2429,7 +2423,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.6
+        "temp": 16.3
       }
     },
     {
@@ -2447,7 +2441,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.6
+        "temp": 16.3
       }
     },
     {
@@ -2655,7 +2649,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.5
+        "temp": 18.8
       }
     },
     {
@@ -2673,7 +2667,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.4
+        "temp": 18.8
       }
     },
     {
@@ -2937,7 +2931,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.6
+        "temp": 16.3
       }
     },
     {
@@ -2953,9 +2947,9 @@
       "location": "Hagavallen, Öxabäck(Pojkar Div 11 Kinna)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 18.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 17.7
       }
     },
     {
@@ -3209,7 +3203,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.6
       }
     },
     {
@@ -3227,7 +3221,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.5
+        "temp": 16.9
       }
     },
     {
@@ -3278,7 +3272,11 @@
       "description": "IF Elfsborg  hemma",
       "location": "Kronängs Arena B-plan(Pojkar Div 13 Borås)",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.3
+      }
     },
     {
       "date": "2026-09-13",
@@ -3449,7 +3447,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.9
+        "temp": 17.5
       }
     },
     {
@@ -3657,7 +3655,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.3
+        "temp": 14.4
       }
     },
     {
@@ -3823,7 +3821,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 9.3
+        "temp": 10.3
       }
     },
     {
@@ -3841,7 +3839,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.3
+        "temp": 14.4
       }
     },
     {
