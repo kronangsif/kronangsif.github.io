@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-05T00:43:29.688922",
+  "last_updated": "2026-09-05T05:23:49.450587",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 9,
   "year": 2026,
-  "activity_count": 269,
+  "activity_count": 270,
   "activities": [
     {
       "date": "2026-09-05",
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.1
+        "temp": 13.7
       }
     },
     {
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.1
+        "temp": 13.7
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.1
+        "temp": 13.7
       }
     },
     {
@@ -76,8 +76,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.5
+        "desc": "Dis",
+        "temp": 14.4
       }
     },
     {
@@ -94,8 +94,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.5
+        "desc": "Dis",
+        "temp": 14.4
       }
     },
     {
@@ -113,7 +113,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.6
+        "temp": 14.0
       }
     },
     {
@@ -131,7 +131,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.3
+        "temp": 16.2
       }
     },
     {
@@ -149,7 +149,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.3
+        "temp": 16.2
       }
     },
     {
@@ -185,7 +185,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.7
+        "temp": 18.3
       }
     },
     {
@@ -203,7 +203,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.8
+        "temp": 17.3
       }
     },
     {
@@ -221,7 +221,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.8
+        "temp": 17.3
       }
     },
     {
@@ -239,7 +239,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.9
+        "temp": 16.4
       }
     },
     {
@@ -743,6 +743,20 @@
       "weather": null
     },
     {
+      "date": "2026-09-24",
+      "day": "24",
+      "weekday": "tor",
+      "time": "19:10",
+      "end_time": "",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Match",
+      "description": "Redvägs FK hemma",
+      "location": "Kronäng Arena konstgräs 1 P2012 »",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
       "date": "2026-09-25",
       "day": "25",
       "weekday": "fre",
@@ -835,20 +849,6 @@
       "team": "P2014",
       "team_id": "324331",
       "type": "Match",
-      "description": "Lerums IS hemma",
-      "location": "Kronäng Arena P2014 »",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-09-27",
-      "day": "27",
-      "weekday": "sön",
-      "time": "00:00",
-      "end_time": "",
-      "team": "P2014",
-      "team_id": "324331",
-      "type": "Match",
       "description": "Ospecificerat lag (9) hemma",
       "location": "Kronäng Arena P2014 »",
       "lockerooms": null,
@@ -879,6 +879,20 @@
       "type": "Match",
       "description": "IFK Öxnevalla borta",
       "location": "Hedevallen F2012/2013 »",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-27",
+      "day": "27",
+      "weekday": "sön",
+      "time": "11:00",
+      "end_time": "",
+      "team": "P2014",
+      "team_id": "324331",
+      "type": "Match",
+      "description": "Lerums IS hemma",
+      "location": "Kronäng Arena P2014 »",
       "lockerooms": null,
       "weather": null
     },
@@ -1233,20 +1247,6 @@
       "weather": null
     },
     {
-      "date": "2026-11-01",
-      "day": "01",
-      "weekday": "sön",
-      "time": "00:00",
-      "end_time": "",
-      "team": "P2012",
-      "team_id": "281528",
-      "type": "Match",
-      "description": "Redvägs FK hemma",
-      "location": "Kronäng Arena P2012 »",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
       "date": "2026-11-06",
       "day": "06",
       "weekday": "fre",
@@ -1548,8 +1548,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.5
+        "desc": "Dis",
+        "temp": 14.4
       }
     },
     {
@@ -1761,7 +1761,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.1
+        "temp": 13.7
       }
     },
     {
@@ -1945,7 +1945,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.1
+        "temp": 13.7
       }
     },
     {
@@ -1963,7 +1963,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.1
+        "temp": 13.7
       }
     },
     {
@@ -1981,7 +1981,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.8
+        "temp": 17.3
       }
     },
     {
@@ -2160,8 +2160,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.5
+        "desc": "Dis",
+        "temp": 14.4
       }
     },
     {
@@ -2178,8 +2178,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 14.5
+        "desc": "Dis",
+        "temp": 14.4
       }
     },
     {
@@ -2321,6 +2321,20 @@
       "weather": null
     },
     {
+      "date": "2026-09-24",
+      "day": "24",
+      "weekday": "tor",
+      "time": "19:10",
+      "end_time": "",
+      "team": "P2012",
+      "team_id": "281528",
+      "type": "Match",
+      "description": "Redvägs FK hemma",
+      "location": "Kronäng Arena konstgräs 1(Pojkar Div 6 Borås)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
       "date": "2026-09-27",
       "day": "27",
       "weekday": "sön",
@@ -2405,7 +2419,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.1
+        "temp": 13.7
       }
     },
     {
@@ -2423,7 +2437,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.3
+        "temp": 16.2
       }
     },
     {
@@ -2441,7 +2455,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.3
+        "temp": 16.2
       }
     },
     {
@@ -2649,7 +2663,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.6
+        "temp": 18.5
       }
     },
     {
@@ -2667,7 +2681,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 18.7
+        "temp": 18.3
       }
     },
     {
@@ -2864,7 +2878,7 @@
       "date": "2026-09-27",
       "day": "27",
       "weekday": "sön",
-      "time": "00:00",
+      "time": "11:00",
       "end_time": "",
       "team": "P2014",
       "team_id": "324331",
@@ -2931,7 +2945,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.3
+        "temp": 16.2
       }
     },
     {
@@ -2949,7 +2963,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.8
+        "temp": 17.3
       }
     },
     {
@@ -3203,7 +3217,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.1
+        "temp": 13.7
       }
     },
     {
@@ -3221,7 +3235,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.9
+        "temp": 16.4
       }
     },
     {
@@ -3655,7 +3669,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.6
+        "temp": 14.0
       }
     },
     {
@@ -3819,9 +3833,9 @@
       "location": "Borås Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 10.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.9
       }
     },
     {
@@ -3839,7 +3853,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.6
+        "temp": 14.0
       }
     },
     {
