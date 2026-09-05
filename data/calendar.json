@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05T16:38:40.467628",
+  "last_updated": "2026-09-05T18:53:01.350184",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -113,7 +113,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.0
+        "temp": 14.9
       }
     },
     {
@@ -185,7 +185,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.2
+        "temp": 19.4
       }
     },
     {
@@ -239,7 +239,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.0
+        "temp": 16.7
       }
     },
     {
@@ -311,7 +311,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 12.9
+        "temp": 13.8
       }
     },
     {
@@ -329,7 +329,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.4
+        "temp": 12.2
       }
     },
     {
@@ -347,7 +347,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.4
+        "temp": 12.2
       }
     },
     {
@@ -1317,7 +1317,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.9
+        "temp": 17.7
       }
     },
     {
@@ -1585,7 +1585,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 12.3
+        "temp": 12.4
       }
     },
     {
@@ -1603,7 +1603,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.4
+        "temp": 12.2
       }
     },
     {
@@ -1815,7 +1815,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 12.3
+        "temp": 12.4
       }
     },
     {
@@ -1999,7 +1999,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.9
+        "temp": 17.7
       }
     },
     {
@@ -2017,7 +2017,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 12.3
+        "temp": 12.4
       }
     },
     {
@@ -2197,7 +2197,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.8
+        "temp": 18.6
       }
     },
     {
@@ -2233,7 +2233,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.5
+        "temp": 13.1
       }
     },
     {
@@ -2491,7 +2491,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.3
+        "temp": 13.5
       }
     },
     {
@@ -2681,7 +2681,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 19.2
+        "temp": 19.4
       }
     },
     {
@@ -2717,7 +2717,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.3
+        "temp": 13.5
       }
     },
     {
@@ -2981,7 +2981,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.5
+        "temp": 19.6
       }
     },
     {
@@ -3235,7 +3235,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.0
+        "temp": 16.7
       }
     },
     {
@@ -3271,7 +3271,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.3
+        "temp": 13.5
       }
     },
     {
@@ -3289,7 +3289,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 12.9
+        "temp": 13.8
       }
     },
     {
@@ -3479,7 +3479,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.5
+        "temp": 19.6
       }
     },
     {
@@ -3669,7 +3669,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.0
+        "temp": 14.9
       }
     },
     {
@@ -3687,7 +3687,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 19.5
+        "temp": 19.6
       }
     },
     {
@@ -3833,9 +3833,9 @@
       "location": "Borås Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.3
       }
     },
     {
@@ -3853,7 +3853,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.0
+        "temp": 14.9
       }
     },
     {
@@ -3889,7 +3889,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.3
+        "temp": 13.5
       }
     },
     {
