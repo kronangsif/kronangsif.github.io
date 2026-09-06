@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T14:01:38.483499",
+  "last_updated": "2026-09-06T17:33:11.927149",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -111,9 +111,9 @@
       "location": "Hagavallen, Öxabäck P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.2
       }
     },
     {
@@ -129,9 +129,9 @@
       "location": "Kronängs Arena A-plan P2011 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.2
       }
     },
     {
@@ -147,9 +147,9 @@
       "location": "Brämhults IP C P2016 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 16.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.2
       }
     },
     {
@@ -165,9 +165,9 @@
       "location": "Mjörnvallen, B-plan P2012 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.2
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 15.6
       }
     },
     {
@@ -1247,7 +1247,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.7
+        "temp": 16.9
       }
     },
     {
@@ -1497,7 +1497,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.3
+        "temp": 15.1
       }
     },
     {
@@ -1705,7 +1705,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.3
+        "temp": 15.1
       }
     },
     {
@@ -1897,9 +1897,9 @@
       "location": "Kronängs Arena A-plan(Pojkar Div 5 Mark)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.2
       }
     },
     {
@@ -1917,7 +1917,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.7
+        "temp": 16.9
       }
     },
     {
@@ -2077,9 +2077,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 18.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 17.7
       }
     },
     {
@@ -2095,9 +2095,9 @@
       "location": "Mjörnvallen, B-plan(Pojkar Div 6 Borås)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.2
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 15.6
       }
     },
     {
@@ -2351,7 +2351,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 16.3
       }
     },
     {
@@ -2581,7 +2581,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 16.3
       }
     },
     {
@@ -2847,9 +2847,9 @@
       "location": "Hagavallen, Öxabäck(Pojkar Div 11 Kinna)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 17.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 17.2
       }
     },
     {
@@ -2867,7 +2867,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.9
+        "temp": 18.1
       }
     },
     {
@@ -3119,9 +3119,9 @@
       "location": "Brämhults IP C(Pojkar Div 13 Dalsjöfors)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 16.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 16.2
       }
     },
     {
@@ -3139,7 +3139,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 16.3
       }
     },
     {
@@ -3383,7 +3383,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.9
+        "temp": 18.1
       }
     },
     {
@@ -3595,7 +3595,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.9
+        "temp": 18.1
       }
     },
     {
@@ -3779,7 +3779,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 16.3
       }
     },
     {
@@ -3899,7 +3899,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 16.3
       }
     },
     {
