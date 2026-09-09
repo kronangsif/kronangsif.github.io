@@ -1,49 +1,13 @@
 {
-  "last_updated": "2026-09-09T20:41:26.159655",
+  "last_updated": "2026-09-09T23:03:33.635023",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 9,
   "year": 2026,
-  "activity_count": 257,
+  "activity_count": 255,
   "activities": [
-    {
-      "date": "2026-09-09",
-      "day": "09",
-      "weekday": "ons",
-      "time": "17:45",
-      "end_time": "",
-      "team": "P 2015",
-      "team_id": "56158",
-      "type": "Match",
-      "description": "Byttorps IF Vit hemma",
-      "location": "Kronängs Arena B-plan P 2015 »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 15.2
-      }
-    },
-    {
-      "date": "2026-09-09",
-      "day": "09",
-      "weekday": "ons",
-      "time": "19:15",
-      "end_time": "",
-      "team": "P2009-2010",
-      "team_id": "224798",
-      "type": "Match",
-      "description": "Rydboholms SK borta",
-      "location": "Sven Erikssonsvallen A konstgräs P2009-2010 »",
-      "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.9
-      }
-    },
     {
       "date": "2026-09-11",
       "day": "11",
@@ -59,7 +23,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.1
+        "temp": 14.8
       }
     },
     {
@@ -75,8 +39,8 @@
       "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 14.6
       }
     },
@@ -93,8 +57,8 @@
       "location": "Kronäng Arena konstgräs 1 VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 14.6
       }
     },
@@ -1128,11 +1092,7 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.9
-      }
+      "weather": null
     },
     {
       "date": "2026-09-12",
@@ -1200,7 +1160,11 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 12.7
+      }
     },
     {
       "date": "2026-09-18",
@@ -1401,8 +1365,8 @@
       "location": "Kronängs Arena A-plan(Damer, Div 3 Södra)",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 14.6
       }
     },
@@ -1594,11 +1558,7 @@
       "description": "Rydboholms SK borta",
       "location": "Sven Erikssonsvallen A konstgräs(Pojkar Div 4 Borås)",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.9
-      }
+      "weather": null
     },
     {
       "date": "2026-09-10",
@@ -2003,7 +1963,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.0
+        "temp": 15.9
       }
     },
     {
@@ -2254,11 +2214,7 @@
       "description": "Domaruppdrag",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 15.2
-      }
+      "weather": null
     },
     {
       "date": "2026-09-10",
@@ -2275,7 +2231,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.9
+        "temp": 16.7
       }
     },
     {
@@ -2501,7 +2457,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.9
+        "temp": 16.7
       }
     },
     {
@@ -2816,11 +2772,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 15.2
-      }
+      "weather": null
     },
     {
       "date": "2026-09-09",
@@ -2834,11 +2786,7 @@
       "description": "Byttorps IF Vit hemma",
       "location": "Kronängs Arena B-plan(Pojkar Div 11 Kinna)",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 15.2
-      }
+      "weather": null
     },
     {
       "date": "2026-09-12",
@@ -2888,7 +2836,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.6
+      }
     },
     {
       "date": "2026-09-20",
@@ -3087,7 +3039,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.1
+        "temp": 14.8
       }
     },
     {
@@ -3292,11 +3244,7 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 15.2
-      }
+      "weather": null
     },
     {
       "date": "2026-09-13",
@@ -3346,7 +3294,11 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.6
+      }
     },
     {
       "date": "2026-09-20",
@@ -3500,11 +3452,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 15.2
-      }
+      "weather": null
     },
     {
       "date": "2026-09-14",
@@ -3536,7 +3484,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.6
+      }
     },
     {
       "date": "2026-09-21",
@@ -3679,7 +3631,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.9
+        "temp": 16.7
       }
     },
     {
