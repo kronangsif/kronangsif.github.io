@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-10T13:24:55.342355",
+  "last_updated": "2026-09-10T17:34:03.211044",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 9,
   "year": 2026,
-  "activity_count": 255,
+  "activity_count": 257,
   "activities": [
     {
       "date": "2026-09-11",
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 14.7
       }
     },
     {
@@ -77,7 +77,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.5
+        "temp": 15.1
       }
     },
     {
@@ -95,7 +95,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.5
+        "temp": 15.1
       }
     },
     {
@@ -113,7 +113,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.1
+        "temp": 15.7
       }
     },
     {
@@ -131,7 +131,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.8
+        "temp": 16.3
       }
     },
     {
@@ -363,6 +363,20 @@
       "type": "Match",
       "description": "Fristads GoIF Grön hemma",
       "location": "Kronängs Arena B-plan P2013 »",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
+      "date": "2026-09-19",
+      "day": "19",
+      "weekday": "lör",
+      "time": "14:25",
+      "end_time": "",
+      "team": "Fotbollsskolan flickor födda 2018",
+      "team_id": "612530",
+      "type": "Match",
+      "description": "",
+      "location": "",
       "lockerooms": null,
       "weather": null
     },
@@ -1109,7 +1123,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.1
+        "temp": 15.7
       }
     },
     {
@@ -1349,7 +1363,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.9
+        "temp": 14.7
       }
     },
     {
@@ -1575,7 +1589,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.9
+        "temp": 14.7
       }
     },
     {
@@ -1751,7 +1765,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 13.9
+        "temp": 14.7
       }
     },
     {
@@ -1769,7 +1783,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.5
+        "temp": 15.1
       }
     },
     {
@@ -1963,7 +1977,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.1
+        "temp": 15.9
       }
     },
     {
@@ -2229,9 +2243,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 16.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.4
       }
     },
     {
@@ -2249,7 +2263,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.8
+        "temp": 16.3
       }
     },
     {
@@ -2455,9 +2469,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 16.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.4
       }
     },
     {
@@ -2475,7 +2489,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.0
+        "temp": 14.5
       }
     },
     {
@@ -2493,7 +2507,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.5
+        "temp": 15.1
       }
     },
     {
@@ -2803,7 +2817,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.5
+        "temp": 15.1
       }
     },
     {
@@ -3039,7 +3053,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 14.7
       }
     },
     {
@@ -3491,6 +3505,20 @@
       }
     },
     {
+      "date": "2026-09-19",
+      "day": "19",
+      "weekday": "lör",
+      "time": "08:00",
+      "end_time": "12:00",
+      "team": "Fotbollsskolan födda 2017",
+      "team_id": "481208",
+      "type": "Träning",
+      "description": "Fotbollscup på Byttorp",
+      "location": "Byttorps IF",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
       "date": "2026-09-21",
       "day": "21",
       "weekday": "mån",
@@ -3629,9 +3657,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 16.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 16.4
       }
     },
     {
@@ -3797,7 +3825,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.0
+        "temp": 14.5
       }
     },
     {
