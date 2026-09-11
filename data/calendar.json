@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T00:58:14.087837",
+  "last_updated": "2026-09-11T05:49:10.302705",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.6
+        "temp": 14.9
       }
     },
     {
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.0
+        "temp": 14.2
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.0
+        "temp": 14.2
       }
     },
     {
@@ -77,7 +77,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.3
+        "temp": 14.1
       }
     },
     {
@@ -95,7 +95,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.3
+        "temp": 14.1
       }
     },
     {
@@ -113,7 +113,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.0
+        "temp": 15.1
       }
     },
     {
@@ -131,7 +131,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.6
+        "temp": 15.8
       }
     },
     {
@@ -149,7 +149,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.2
+        "temp": 14.3
       }
     },
     {
@@ -167,7 +167,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 15.7
       }
     },
     {
@@ -185,7 +185,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.7
+        "temp": 16.2
       }
     },
     {
@@ -201,9 +201,9 @@
       "location": "Gerdskenvallen A-plan P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.3
       }
     },
     {
@@ -219,9 +219,9 @@
       "location": "Kronängs Arena A-plan P2016 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.3
       }
     },
     {
@@ -295,6 +295,20 @@
         "desc": "Dis",
         "temp": 13.6
       }
+    },
+    {
+      "date": "2026-09-18",
+      "day": "18",
+      "weekday": "fre",
+      "time": "17:30",
+      "end_time": "",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Match",
+      "description": "Sandareds IF Svart borta",
+      "location": "Sandevi B-plan P 2015 »",
+      "lockerooms": null,
+      "weather": null
     },
     {
       "date": "2026-09-18",
@@ -461,20 +475,6 @@
       "type": "Match",
       "description": "Sjömarken/Sandared borta",
       "location": "Idrottsgården Konstgräsplan F2012/2013 »",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-09-20",
-      "day": "20",
-      "weekday": "sön",
-      "time": "15:00",
-      "end_time": "",
-      "team": "P 2015",
-      "team_id": "56158",
-      "type": "Match",
-      "description": "Sandareds IF Svart borta",
-      "location": "Sandevi B-plan P 2015 »",
       "lockerooms": null,
       "weather": null
     },
@@ -1123,7 +1123,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.0
+        "temp": 15.1
       }
     },
     {
@@ -1377,7 +1377,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.0
+        "temp": 14.2
       }
     },
     {
@@ -1779,7 +1779,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.3
+        "temp": 14.1
       }
     },
     {
@@ -1797,7 +1797,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.7
+        "temp": 16.2
       }
     },
     {
@@ -1991,7 +1991,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.2
+        "temp": 14.3
       }
     },
     {
@@ -2259,7 +2259,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.6
+        "temp": 15.8
       }
     },
     {
@@ -2275,9 +2275,9 @@
       "location": "Gerdskenvallen A-plan(Pojkar Div 8 Dalsjöfors)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.3
       }
     },
     {
@@ -2485,7 +2485,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.6
+        "temp": 13.7
       }
     },
     {
@@ -2503,7 +2503,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.3
+        "temp": 14.1
       }
     },
     {
@@ -2519,8 +2519,8 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 14.9
       }
     },
@@ -2539,7 +2539,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 15.7
       }
     },
     {
@@ -2817,7 +2817,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.3
+        "temp": 14.1
       }
     },
     {
@@ -2857,6 +2857,20 @@
       }
     },
     {
+      "date": "2026-09-18",
+      "day": "18",
+      "weekday": "fre",
+      "time": "17:30",
+      "end_time": "",
+      "team": "P 2015",
+      "team_id": "56158",
+      "type": "Match",
+      "description": "Sandareds IF Svart borta",
+      "location": "Sandevi B-plan(Pojkar Div 11 Kinna)",
+      "lockerooms": null,
+      "weather": null
+    },
+    {
       "date": "2026-09-20",
       "day": "20",
       "weekday": "sön",
@@ -2867,20 +2881,6 @@
       "type": "Match",
       "description": "Sandareds IF Grön hemma",
       "location": "Kronängs Arena A-plan(Pojkar Div 11 Sandared)",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-09-20",
-      "day": "20",
-      "weekday": "sön",
-      "time": "15:00",
-      "end_time": "",
-      "team": "P 2015",
-      "team_id": "56158",
-      "type": "Match",
-      "description": "Sandareds IF Svart borta",
-      "location": "Sandevi B-plan(Pojkar Div 11 Kinna)",
       "lockerooms": null,
       "weather": null
     },
@@ -2921,8 +2921,8 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Sätila SK hemma",
-      "location": "Kronäng Arena(Pojkar Div 11 Kinna)",
+      "description": "Rydboholms SK hemma",
+      "location": "Kronäng Arena(Pojkar Div 11 Sandared)",
       "lockerooms": null,
       "weather": null
     },
@@ -2935,8 +2935,8 @@
       "team": "P 2015",
       "team_id": "56158",
       "type": "Match",
-      "description": "Rydboholms SK hemma",
-      "location": "Kronäng Arena(Pojkar Div 11 Sandared)",
+      "description": "Sätila SK hemma",
+      "location": "Kronäng Arena(Pojkar Div 11 Kinna)",
       "lockerooms": null,
       "weather": null
     },
@@ -3053,7 +3053,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.6
+        "temp": 14.9
       }
     },
     {
@@ -3069,9 +3069,9 @@
       "location": "Kronängs Arena A-plan(Pojkar Div 13 Dalsjöfors)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 17.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 17.3
       }
     },
     {
@@ -3279,7 +3279,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.7
+        "temp": 16.2
       }
     },
     {
@@ -3829,7 +3829,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.6
+        "temp": 13.7
       }
     },
     {
