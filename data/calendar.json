@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-12T13:25:59.672988",
+  "last_updated": "2026-09-12T16:50:23.222352",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 9,
   "year": 2026,
-  "activity_count": 255,
+  "activity_count": 254,
   "activities": [
     {
       "date": "2026-09-12",
@@ -95,7 +95,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.7
+        "temp": 15.8
       }
     },
     {
@@ -113,7 +113,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.0
+        "temp": 16.4
       }
     },
     {
@@ -131,7 +131,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.6
+        "temp": 17.1
       }
     },
     {
@@ -149,7 +149,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 17.1
       }
     },
     {
@@ -167,7 +167,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 17.1
       }
     },
     {
@@ -185,7 +185,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.1
+        "temp": 17.4
       }
     },
     {
@@ -1097,9 +1097,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.0
       }
     },
     {
@@ -1755,7 +1755,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.6
+        "temp": 17.1
       }
     },
     {
@@ -1773,7 +1773,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.1
+        "temp": 17.4
       }
     },
     {
@@ -1949,25 +1949,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.7
-      }
-    },
-    {
-      "date": "2026-09-14",
-      "day": "14",
-      "weekday": "mån",
-      "time": "18:45",
-      "end_time": "20:45",
-      "team": "P2012",
-      "team_id": "281528",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.4
+        "temp": 15.8
       }
     },
     {
@@ -1983,9 +1965,9 @@
       "location": "Borås Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 16.0
       }
     },
     {
@@ -2239,7 +2221,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 17.1
       }
     },
     {
@@ -2257,7 +2239,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 17.1
       }
     },
     {
@@ -2501,7 +2483,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.6
+        "temp": 16.1
       }
     },
     {
@@ -2519,7 +2501,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.0
+        "temp": 16.4
       }
     },
     {
@@ -2815,7 +2797,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.1
+        "temp": 17.4
       }
     },
     {
@@ -3051,7 +3033,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 16.5
+        "temp": 17.1
       }
     },
     {
@@ -3259,7 +3241,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.6
+        "temp": 17.1
       }
     },
     {
@@ -3277,7 +3259,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.1
+        "temp": 17.4
       }
     },
     {
@@ -3467,7 +3449,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.1
+        "temp": 17.4
       }
     },
     {
