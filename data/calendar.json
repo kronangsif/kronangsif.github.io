@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13T15:51:19.495246",
+  "last_updated": "2026-09-13T18:37:35.365947",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -113,7 +113,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.6
+        "temp": 16.5
       }
     },
     {
@@ -131,7 +131,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.3
+        "temp": 15.0
       }
     },
     {
@@ -149,7 +149,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.3
+        "temp": 15.0
       }
     },
     {
@@ -1001,7 +1001,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.3
+        "temp": 15.1
       }
     },
     {
@@ -1237,7 +1237,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.3
+        "temp": 15.0
       }
     },
     {
@@ -1431,7 +1431,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.3
+        "temp": 15.0
       }
     },
     {
@@ -1643,7 +1643,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.6
+        "temp": 16.5
       }
     },
     {
@@ -1837,7 +1837,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.3
+        "temp": 15.1
       }
     },
     {
@@ -1845,7 +1845,7 @@
       "day": "15",
       "weekday": "tis",
       "time": "18:00",
-      "end_time": "19:30",
+      "end_time": "19:00",
       "team": "P2012",
       "team_id": "281528",
       "type": "Träning",
@@ -1855,7 +1855,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.4
+        "temp": 15.1
       }
     },
     {
@@ -2141,7 +2141,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.1
       }
     },
     {
@@ -2399,7 +2399,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.1
       }
     },
     {
@@ -2649,7 +2649,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.6
+        "temp": 16.5
       }
     },
     {
@@ -2903,7 +2903,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.1
       }
     },
     {
@@ -3111,7 +3111,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.6
+        "temp": 16.5
       }
     },
     {
@@ -3301,7 +3301,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.6
+        "temp": 16.5
       }
     },
     {
@@ -3495,7 +3495,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.1
       }
     },
     {
@@ -3601,7 +3601,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.1
       }
     },
     {
@@ -3661,7 +3661,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.8
+        "temp": 12.5
       }
     }
   ],
