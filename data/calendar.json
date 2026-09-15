@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-15T14:42:39.519218",
+  "last_updated": "2026-09-15T18:46:07.484289",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 9,
   "year": 2026,
-  "activity_count": 238,
+  "activity_count": 239,
   "activities": [
     {
       "date": "2026-09-15",
@@ -21,9 +21,9 @@
       "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.3
       }
     },
     {
@@ -39,9 +39,9 @@
       "location": "Kronäng Arena konstgräs 1 VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.3
       }
     },
     {
@@ -935,7 +935,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.8
+        "temp": 13.9
       }
     },
     {
@@ -1159,9 +1159,9 @@
       "location": "Kronängs Arena A-plan(Damer, Utveckling Södra)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.3
       }
     },
     {
@@ -1177,9 +1177,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.4
       }
     },
     {
@@ -1355,7 +1355,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.4
+        "temp": 16.0
       }
     },
     {
@@ -1575,9 +1575,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.4
       }
     },
     {
@@ -1771,7 +1771,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 15.4
+        "temp": 16.0
       }
     },
     {
@@ -1789,7 +1789,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.3
+        "temp": 13.6
       }
     },
     {
@@ -2053,7 +2053,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.8
       }
     },
     {
@@ -2071,7 +2071,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.5
+        "temp": 13.6
       }
     },
     {
@@ -2303,7 +2303,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.8
       }
     },
     {
@@ -2321,7 +2321,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.5
+        "temp": 13.6
       }
     },
     {
@@ -2571,7 +2571,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.2
+        "temp": 14.4
       }
     },
     {
@@ -2811,7 +2811,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.8
       }
     },
     {
@@ -2829,7 +2829,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.5
+        "temp": 13.6
       }
     },
     {
@@ -3037,7 +3037,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.2
+        "temp": 14.4
       }
     },
     {
@@ -3231,7 +3231,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.2
+        "temp": 14.4
       }
     },
     {
@@ -3411,7 +3411,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.8
       }
     },
     {
@@ -3429,7 +3429,25 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.5
+        "temp": 13.6
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "day": "19",
+      "weekday": "lör",
+      "time": "08:00",
+      "end_time": "14:00",
+      "team": "Fotbollsskolan födda 2018",
+      "team_id": "520555",
+      "type": "Övrigt",
+      "description": "Övrigt",
+      "location": "Byttorps IP",
+      "lockerooms": null,
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.7
       }
     },
     {
@@ -3517,7 +3535,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.8
       }
     },
     {
