@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16T00:08:52.971895",
+  "last_updated": "2026-09-16T05:45:53.970686",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -57,8 +57,8 @@
       "location": "Kronängs Arena A-plan Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 11.4
       }
     },
@@ -899,7 +899,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.6
+        "temp": 13.7
       }
     },
     {
@@ -915,8 +915,8 @@
       "location": "Kronängs Arena A-plan(Herrar, Div 5 Sydvästra)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 11.4
       }
     },
@@ -1137,9 +1137,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.4
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.3
       }
     },
     {
@@ -1539,9 +1539,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.4
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.3
       }
     },
     {
@@ -1749,7 +1749,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.3
+        "temp": 13.1
       }
     },
     {
@@ -2026,7 +2026,7 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
+        "desc": "Dis",
         "temp": 13.2
       }
     },
@@ -2276,7 +2276,7 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
+        "desc": "Dis",
         "temp": 13.2
       }
     },
@@ -2531,7 +2531,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.0
+        "temp": 14.3
       }
     },
     {
@@ -2784,7 +2784,7 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
+        "desc": "Dis",
         "temp": 13.2
       }
     },
@@ -2997,7 +2997,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.0
+        "temp": 14.3
       }
     },
     {
@@ -3191,7 +3191,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.0
+        "temp": 14.3
       }
     },
     {
@@ -3207,8 +3207,8 @@
       "location": "Byttorps IF",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 11.8
       }
     },
@@ -3384,7 +3384,7 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
+        "desc": "Dis",
         "temp": 13.2
       }
     },
@@ -3401,8 +3401,8 @@
       "location": "Byttorps IP",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 11.8
       }
     },
