@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19T13:46:16.939506",
+  "last_updated": "2026-09-19T17:04:12.005594",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -129,8 +129,8 @@
       "location": "Kronäng Arena konstgräs 1 P2011 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 13.8
       }
     },
@@ -149,7 +149,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 13.3
+        "temp": 13.5
       }
     },
     {
@@ -167,7 +167,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.5
+        "temp": 13.7
       }
     },
     {
@@ -184,8 +184,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 12.9
+        "desc": "Dis",
+        "temp": 13.5
       }
     },
     {
@@ -203,7 +203,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.4
+        "temp": 13.3
       }
     },
     {
@@ -221,7 +221,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.4
+        "temp": 13.3
       }
     },
     {
@@ -1505,8 +1505,8 @@
       "location": "Kronäng Arena konstgräs 1(Pojkar Div 5 Mark)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 13.8
       }
     },
@@ -1729,7 +1729,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.3
+        "temp": 16.2
       }
     },
     {
@@ -2007,7 +2007,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 13.3
+        "temp": 13.5
       }
     },
     {
@@ -2247,7 +2247,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.4
+        "temp": 13.3
       }
     },
     {
@@ -2473,7 +2473,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 13.3
+        "temp": 13.5
       }
     },
     {
@@ -2491,7 +2491,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.0
+        "temp": 16.9
       }
     },
     {
@@ -2709,7 +2709,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.5
+        "temp": 13.7
       }
     },
     {
@@ -2727,7 +2727,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 13.4
+        "temp": 13.3
       }
     },
     {
@@ -2920,8 +2920,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 12.9
+        "desc": "Dis",
+        "temp": 13.5
       }
     },
     {
@@ -2939,7 +2939,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.0
+        "temp": 16.9
       }
     },
     {
@@ -3147,7 +3147,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.0
+        "temp": 16.9
       }
     },
     {
