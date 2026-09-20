@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20T00:48:54.818718",
+  "last_updated": "2026-09-20T05:52:24.242599",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -40,8 +40,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 13.5
+        "desc": "Dis",
+        "temp": 13.3
       }
     },
     {
@@ -57,9 +57,9 @@
       "location": "Idrottsgården B-plan P2016 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.8
       }
     },
     {
@@ -77,7 +77,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 12.9
+        "temp": 12.4
       }
     },
     {
@@ -94,8 +94,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.1
+        "desc": "Regn",
+        "temp": 12.9
       }
     },
     {
@@ -112,8 +112,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.1
+        "desc": "Regn",
+        "temp": 12.9
       }
     },
     {
@@ -1617,7 +1617,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.6
+        "temp": 15.7
       }
     },
     {
@@ -1890,8 +1890,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 13.5
+        "desc": "Dis",
+        "temp": 13.3
       }
     },
     {
@@ -2126,8 +2126,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.1
+        "desc": "Regn",
+        "temp": 12.9
       }
     },
     {
@@ -2352,8 +2352,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 13.5
+        "desc": "Dis",
+        "temp": 13.3
       }
     },
     {
@@ -2587,9 +2587,9 @@
       "location": "Idrottsgården B-plan(Pojkar Div 13 Dalsjöfors)",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.8
       }
     },
     {
@@ -2606,8 +2606,8 @@
       "lockerooms": null,
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.1
+        "desc": "Regn",
+        "temp": 12.9
       }
     },
     {
@@ -2801,7 +2801,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 12.9
+        "temp": 12.4
       }
     },
     {
