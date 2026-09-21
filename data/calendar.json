@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T20:52:13.703748",
+  "last_updated": "2026-09-21T23:55:08.554653",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -732,11 +732,7 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.7
-      }
+      "weather": null
     },
     {
       "date": "2026-09-23",
@@ -751,9 +747,9 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 13.4
       }
     },
     {
@@ -786,7 +782,11 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.3
+      }
     },
     {
       "date": "2026-09-30",
@@ -955,9 +955,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.3
       }
     },
     {
@@ -1149,9 +1149,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.3
       }
     },
     {
@@ -1370,11 +1370,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.7
-      }
+      "weather": null
     },
     {
       "date": "2026-09-24",
@@ -1442,7 +1438,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 14.3
+      }
     },
     {
       "date": "2026-09-02",
@@ -1596,11 +1596,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 16.3
-      }
+      "weather": null
     },
     {
       "date": "2026-09-24",
@@ -1650,7 +1646,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 15.1
+      }
     },
     {
       "date": "2026-09-01",
@@ -1891,7 +1891,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 16.7
       }
     },
     {
@@ -2127,7 +2127,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 16.7
       }
     },
     {
@@ -2350,11 +2350,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 16.9
-      }
+      "weather": null
     },
     {
       "date": "2026-09-23",
@@ -2371,7 +2367,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.9
+        "temp": 14.2
       }
     },
     {
@@ -2422,7 +2418,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.0
+      }
     },
     {
       "date": "2026-09-30",
@@ -2607,7 +2607,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 16.7
       }
     },
     {
@@ -2802,11 +2802,7 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 16.9
-      }
+      "weather": null
     },
     {
       "date": "2026-09-23",
@@ -2823,7 +2819,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.9
+        "temp": 14.2
       }
     },
     {
@@ -2874,7 +2870,11 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.0
+      }
     },
     {
       "date": "2026-09-30",
@@ -3014,11 +3014,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 16.9
-      }
+      "weather": null
     },
     {
       "date": "2026-09-23",
@@ -3035,7 +3031,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.9
+        "temp": 14.2
       }
     },
     {
@@ -3050,7 +3046,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.0
+      }
     },
     {
       "date": "2026-09-30",
@@ -3207,7 +3207,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 16.7
       }
     },
     {
@@ -3299,7 +3299,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.9
+        "temp": 16.7
       }
     },
     {
