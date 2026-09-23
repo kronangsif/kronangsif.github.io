@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23T20:01:02.736823",
+  "last_updated": "2026-09-23T23:28:02.420554",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.4
       }
     },
     {
@@ -39,9 +39,9 @@
       "location": "Ryda Sportfält C1 P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.1
       }
     },
     {
@@ -57,9 +57,9 @@
       "location": "Kronängs Arena A-plan VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.1
       }
     },
     {
@@ -326,7 +326,11 @@
       "description": "Bergdalens IK U borta",
       "location": "Björkängsvallen, Borås, Gräs Dam »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.7
+      }
     },
     {
       "date": "2026-09-30",
@@ -340,7 +344,11 @@
       "description": "Bergdalens IK U borta",
       "location": "Björkängsvallen, Borås, Gräs VEO kamera »",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.7
+      }
     },
     {
       "date": "2026-10-02",
@@ -746,11 +754,7 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.4
-      }
+      "weather": null
     },
     {
       "date": "2026-09-25",
@@ -800,7 +804,11 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 15.4
+      }
     },
     {
       "date": "2026-09-01",
@@ -971,7 +979,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.4
       }
     },
     {
@@ -1022,7 +1030,11 @@
       "description": "Bergdalens IK U borta",
       "location": "Björkängsvallen, Borås, Gräs(Damer, Utveckling Södra)",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 16.7
+      }
     },
     {
       "date": "2026-09-03",
@@ -1165,7 +1177,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.0
+        "temp": 15.8
       }
     },
     {
@@ -1387,7 +1399,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.4
       }
     },
     {
@@ -1613,7 +1625,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.5
+        "temp": 15.4
       }
     },
     {
@@ -1903,9 +1915,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.0
       }
     },
     {
@@ -2157,9 +2169,9 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.0
       }
     },
     {
@@ -2175,9 +2187,9 @@
       "location": "Ryda Sportfält C1(Pojkar Div 9 Fristad)",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 15.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.1
       }
     },
     {
@@ -2382,11 +2394,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.6
-      }
+      "weather": null
     },
     {
       "date": "2026-09-27",
@@ -2454,7 +2462,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.0
+      }
     },
     {
       "date": "2026-09-01",
@@ -2637,9 +2649,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.0
       }
     },
     {
@@ -2834,11 +2846,7 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.6
-      }
+      "weather": null
     },
     {
       "date": "2026-09-27",
@@ -2906,7 +2914,11 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.0
+      }
     },
     {
       "date": "2026-09-02",
@@ -3046,11 +3058,7 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 14.6
-      }
+      "weather": null
     },
     {
       "date": "2026-09-28",
@@ -3082,7 +3090,11 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "weather": null
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 18.0
+      }
     },
     {
       "date": "2026-09-01",
@@ -3237,9 +3249,9 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 16.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 16.0
       }
     },
     {
