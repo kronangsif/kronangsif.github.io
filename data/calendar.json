@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-28T06:27:49.332946",
+  "last_updated": "2026-09-28T15:06:30.964059",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 9,
   "year": 2026,
-  "activity_count": 206,
+  "activity_count": 205,
   "activities": [
     {
       "date": "2026-09-29",
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.8
+        "temp": 16.1
       }
     },
     {
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.5
+        "temp": 17.6
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.5
+        "temp": 17.6
       }
     },
     {
@@ -72,12 +72,12 @@
       "team_id": "224798",
       "type": "Match",
       "description": "Bergdalens IK hemma",
-      "location": "Kronäng Arena konstgräs 1 P2009-2010 »",
+      "location": "Kronängs Arena A-plan P2009-2010 »",
       "lockerooms": null,
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.0
+        "temp": 13.9
       }
     },
     {
@@ -90,12 +90,12 @@
       "team_id": "324331",
       "type": "Match",
       "description": "Töllsjö IF hemma",
-      "location": "Kronäng Arena P2014 »",
+      "location": "Kronängs Arena B-plan P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 13.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.6
       }
     },
     {
@@ -108,12 +108,12 @@
       "team_id": "324307",
       "type": "Match",
       "description": "Dalsjöfors GoIF Grön hemma",
-      "location": "Kronäng Arena P2013 »",
+      "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.3
       }
     },
     {
@@ -129,9 +129,9 @@
       "location": "Hallevi, Mjöbäck A Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 15.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 15.5
       }
     },
     {
@@ -144,12 +144,12 @@
       "team_id": "281528",
       "type": "Match",
       "description": "Rydboholms SK hemma",
-      "location": "Kronäng Arena P2012 »",
+      "location": "Kronängs Arena B-plan P2012 »",
       "lockerooms": null,
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.6
+        "temp": 13.2
       }
     },
     {
@@ -162,12 +162,12 @@
       "team_id": "324331",
       "type": "Match",
       "description": "Fristads GoIF Grön hemma",
-      "location": "Kronäng Arena P2014 »",
+      "location": "Kronängs Arena A-plan P2014 »",
       "lockerooms": null,
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.6
+        "temp": 13.2
       }
     },
     {
@@ -180,12 +180,12 @@
       "team_id": "56158",
       "type": "Match",
       "description": "Sjömarkens IF Röd hemma",
-      "location": "Kronäng Arena P 2015 »",
+      "location": "Kronängs Arena A-plan P 2015 »",
       "lockerooms": null,
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 13.6
+        "temp": 13.2
       }
     },
     {
@@ -198,12 +198,12 @@
       "team_id": "324307",
       "type": "Match",
       "description": "Svansjö hemma",
-      "location": "Kronäng Arena P2013 »",
+      "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 16.0
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 15.4
       }
     },
     {
@@ -216,12 +216,12 @@
       "team_id": "52695",
       "type": "Match",
       "description": "Toarpsalliansen hemma",
-      "location": "Kronäng Arena konstgräs 1 Dam »",
+      "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.0
       }
     },
     {
@@ -237,9 +237,9 @@
       "location": "Kronäng Arena konstgräs 1 VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 14.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.0
       }
     },
     {
@@ -255,9 +255,9 @@
       "location": "Byttorps IP A Konstgräs P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 13.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.7
       }
     },
     {
@@ -527,7 +527,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.8
+        "temp": 16.3
       }
     },
     {
@@ -545,7 +545,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.7
+        "temp": 16.0
       }
     },
     {
@@ -745,7 +745,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.8
+        "temp": 16.1
       }
     },
     {
@@ -763,7 +763,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.5
+        "temp": 17.6
       }
     },
     {
@@ -935,7 +935,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.8
+        "temp": 16.1
       }
     },
     {
@@ -1163,7 +1163,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.8
+        "temp": 16.3
       }
     },
     {
@@ -1363,7 +1363,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.3
+        "temp": 17.3
       }
     },
     {
@@ -1661,7 +1661,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.8
+        "temp": 16.1
       }
     },
     {
@@ -1903,7 +1903,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
+        "temp": 18.1
       }
     },
     {
@@ -2117,7 +2117,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.8
+        "temp": 17.7
       }
     },
     {
@@ -2135,7 +2135,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.9
+        "temp": 18.7
       }
     },
     {
@@ -2363,7 +2363,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
+        "temp": 18.1
       }
     },
     {
@@ -2510,20 +2510,6 @@
       "date": "2026-09-27",
       "day": "27",
       "weekday": "sön",
-      "time": "00:00",
-      "end_time": "",
-      "team": "F2013/2014",
-      "team_id": "374981",
-      "type": "Match",
-      "description": "Ospecificerat lag (10) borta",
-      "location": "Annan(Flickor Div 5 Kinna)",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
-      "date": "2026-09-27",
-      "day": "27",
-      "weekday": "sön",
       "time": "11:00",
       "end_time": "",
       "team": "F2013/2014",
@@ -2549,7 +2535,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.8
+        "temp": 17.7
       }
     },
     {
@@ -2567,7 +2553,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.9
+        "temp": 18.7
       }
     },
     {
@@ -2725,7 +2711,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 15.8
+        "temp": 17.7
       }
     },
     {
@@ -2743,7 +2729,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.9
+        "temp": 18.7
       }
     },
     {
@@ -2915,7 +2901,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
+        "temp": 18.1
       }
     },
     {
@@ -2989,7 +2975,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.6
+        "temp": 18.1
       }
     },
     {
@@ -3023,18 +3009,18 @@
   ],
   "latest_news": [
     {
+      "title": "Veckans hemmamatcher",
+      "published_at": "2026-09-27",
+      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1339545",
+      "image": "",
+      "summary": ""
+    },
+    {
       "title": "Stimulansträning",
       "published_at": "2026-09-11 08:52",
       "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1361481",
       "image": "",
       "summary": ""
-    },
-    {
-      "title": "Bilder från 80årsdagsfirandet :)",
-      "published_at": "2026-08-25 14:54",
-      "url": "https://www.kronangsif.se/nyheter/?ID=38275&NID=1358110",
-      "image": "",
-      "summary": "Lite smått & gott från lördagen."
     }
   ]
 }
