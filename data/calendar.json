@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-29T08:05:08.022423",
+  "last_updated": "2026-09-29T15:30:23.436518",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 9,
   "year": 2026,
-  "activity_count": 205,
+  "activity_count": 206,
   "activities": [
     {
       "date": "2026-09-29",
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.9
+        "temp": 16.7
       }
     },
     {
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.7
+        "temp": 18.3
       }
     },
     {
@@ -59,7 +59,25 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.7
+        "temp": 18.3
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "day": "01",
+      "weekday": "tor",
+      "time": "19:00",
+      "end_time": "",
+      "team": "Herr",
+      "team_id": "38937",
+      "type": "Match",
+      "description": "Kronängs Idrottsförening borta",
+      "location": "Rydahallen Herr »",
+      "lockerooms": null,
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 17.3
       }
     },
     {
@@ -77,7 +95,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 14.8
+        "temp": 14.4
       }
     },
     {
@@ -93,9 +111,9 @@
       "location": "Kronängs Arena B-plan P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌫️",
-        "desc": "Dimma",
-        "temp": 11.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.9
       }
     },
     {
@@ -111,9 +129,9 @@
       "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.1
       }
     },
     {
@@ -129,9 +147,9 @@
       "location": "Hallevi, Mjöbäck A Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 15.0
       }
     },
     {
@@ -147,9 +165,9 @@
       "location": "Kronängs Arena B-plan P2012 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.2
       }
     },
     {
@@ -165,9 +183,9 @@
       "location": "Kronängs Arena A-plan P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.2
       }
     },
     {
@@ -183,9 +201,9 @@
       "location": "Kronängs Arena A-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.2
       }
     },
     {
@@ -203,7 +221,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.9
+        "temp": 14.6
       }
     },
     {
@@ -221,7 +239,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 13.9
       }
     },
     {
@@ -239,7 +257,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 13.9
       }
     },
     {
@@ -257,7 +275,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.5
+        "temp": 13.3
       }
     },
     {
@@ -541,7 +559,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 16.9
+        "temp": 16.8
       }
     },
     {
@@ -741,7 +759,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.9
+        "temp": 16.7
       }
     },
     {
@@ -759,7 +777,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.7
+        "temp": 18.3
       }
     },
     {
@@ -931,7 +949,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.9
+        "temp": 16.7
       }
     },
     {
@@ -1649,7 +1667,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.9
+        "temp": 16.7
       }
     },
     {
@@ -1891,7 +1909,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.7
+        "temp": 17.9
       }
     },
     {
@@ -2119,7 +2137,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.9
+        "temp": 19.2
       }
     },
     {
@@ -2347,7 +2365,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.7
+        "temp": 17.9
       }
     },
     {
@@ -2533,7 +2551,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.9
+        "temp": 19.2
       }
     },
     {
@@ -2705,7 +2723,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.9
+        "temp": 19.2
       }
     },
     {
@@ -2877,7 +2895,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.7
+        "temp": 17.9
       }
     },
     {
@@ -2951,7 +2969,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.7
+        "temp": 17.9
       }
     },
     {
