@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-29T01:35:46.855777",
+  "last_updated": "2026-09-29T08:05:08.022423",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.7
+        "temp": 16.9
       }
     },
     {
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.3
+        "temp": 18.7
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.3
+        "temp": 18.7
       }
     },
     {
@@ -75,9 +75,9 @@
       "location": "Kronängs Arena A-plan P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 14.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 14.8
       }
     },
     {
@@ -95,7 +95,7 @@
       "weather": {
         "icon": "🌫️",
         "desc": "Dimma",
-        "temp": 12.1
+        "temp": 11.0
       }
     },
     {
@@ -113,7 +113,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 15.1
+        "temp": 14.6
       }
     },
     {
@@ -129,9 +129,9 @@
       "location": "Hallevi, Mjöbäck A Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 15.5
       }
     },
     {
@@ -147,9 +147,9 @@
       "location": "Kronängs Arena B-plan P2012 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 13.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.3
       }
     },
     {
@@ -165,9 +165,9 @@
       "location": "Kronängs Arena A-plan P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 13.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.3
       }
     },
     {
@@ -183,9 +183,9 @@
       "location": "Kronängs Arena A-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 13.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.3
       }
     },
     {
@@ -203,7 +203,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.1
+        "temp": 13.9
       }
     },
     {
@@ -219,9 +219,9 @@
       "location": "Kronängs Arena A-plan Dam »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 13.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.2
       }
     },
     {
@@ -237,9 +237,9 @@
       "location": "Kronäng Arena konstgräs 1 VEO kamera »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 13.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.2
       }
     },
     {
@@ -255,9 +255,9 @@
       "location": "Byttorps IP A Konstgräs P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 12.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.5
       }
     },
     {
@@ -541,7 +541,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.4
+        "temp": 16.9
       }
     },
     {
@@ -741,7 +741,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.7
+        "temp": 16.9
       }
     },
     {
@@ -759,7 +759,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.3
+        "temp": 18.7
       }
     },
     {
@@ -931,7 +931,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.7
+        "temp": 16.9
       }
     },
     {
@@ -1649,7 +1649,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.7
+        "temp": 16.9
       }
     },
     {
@@ -1891,7 +1891,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 18.7
       }
     },
     {
@@ -2119,7 +2119,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.4
+        "temp": 19.9
       }
     },
     {
@@ -2347,7 +2347,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 18.7
       }
     },
     {
@@ -2533,7 +2533,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.4
+        "temp": 19.9
       }
     },
     {
@@ -2705,7 +2705,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 20.4
+        "temp": 19.9
       }
     },
     {
@@ -2877,7 +2877,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 18.7
       }
     },
     {
@@ -2951,7 +2951,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 18.0
+        "temp": 18.7
       }
     },
     {
