@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30T06:24:40.678729",
+  "last_updated": "2026-09-30T13:26:08.728841",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.8
+        "temp": 17.7
       }
     },
     {
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.8
+        "temp": 17.7
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 16.7
+        "temp": 17.7
       }
     },
     {
@@ -75,9 +75,9 @@
       "location": "Kronängs Arena A-plan P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 14.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.9
       }
     },
     {
@@ -93,9 +93,9 @@
       "location": "Kronängs Arena B-plan P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.2
+        "icon": "🌫️",
+        "desc": "Dimma",
+        "temp": 11.6
       }
     },
     {
@@ -111,9 +111,9 @@
       "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 15.0
       }
     },
     {
@@ -129,9 +129,9 @@
       "location": "Hallevi, Mjöbäck A Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.3
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 15.8
       }
     },
     {
@@ -147,9 +147,9 @@
       "location": "Kronängs Arena B-plan P2012 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 12.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.2
       }
     },
     {
@@ -165,9 +165,9 @@
       "location": "Kronängs Arena A-plan P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 12.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.2
       }
     },
     {
@@ -183,9 +183,9 @@
       "location": "Kronängs Arena A-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 12.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.2
       }
     },
     {
@@ -201,9 +201,9 @@
       "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 14.1
       }
     },
     {
@@ -221,7 +221,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 12.9
       }
     },
     {
@@ -239,7 +239,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 12.9
       }
     },
     {
@@ -257,7 +257,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.6
+        "temp": 12.1
       }
     },
     {
@@ -541,7 +541,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.6
+        "temp": 15.8
       }
     },
     {
@@ -755,7 +755,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.8
+        "temp": 17.7
       }
     },
     {
@@ -2103,7 +2103,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.0
+        "temp": 18.9
       }
     },
     {
@@ -2513,7 +2513,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.0
+        "temp": 18.9
       }
     },
     {
@@ -2685,7 +2685,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 19.0
+        "temp": 18.9
       }
     },
     {
