@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30T00:08:45.431116",
+  "last_updated": "2026-09-30T06:24:40.678729",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
@@ -75,9 +75,9 @@
       "location": "Kronängs Arena A-plan P2009-2010 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 13.3
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 14.1
       }
     },
     {
@@ -111,9 +111,9 @@
       "location": "Kronängs Arena B-plan P2013 »",
       "lockerooms": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 15.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 14.9
       }
     },
     {
@@ -129,9 +129,9 @@
       "location": "Hallevi, Mjöbäck A Herr »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 15.5
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 15.3
       }
     },
     {
@@ -147,8 +147,8 @@
       "location": "Kronängs Arena B-plan P2012 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 12.0
       }
     },
@@ -165,8 +165,8 @@
       "location": "Kronängs Arena A-plan P2014 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 12.0
       }
     },
@@ -183,8 +183,8 @@
       "location": "Kronängs Arena A-plan P 2015 »",
       "lockerooms": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
         "temp": 12.0
       }
     },
@@ -203,7 +203,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.1
+        "temp": 13.9
       }
     },
     {
@@ -221,7 +221,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.1
+        "temp": 13.2
       }
     },
     {
@@ -239,7 +239,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.1
+        "temp": 13.2
       }
     },
     {
@@ -257,7 +257,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.8
+        "temp": 12.6
       }
     },
     {
