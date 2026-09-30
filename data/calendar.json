@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-30T13:26:08.728841",
+  "last_updated": "2026-09-30T18:55:15.493267",
   "source": [
     "https://www.kronangsif.se/match/?ID=38276&kommande=1",
     "team calendars"
   ],
   "month": 9,
   "year": 2026,
-  "activity_count": 205,
+  "activity_count": 204,
   "activities": [
     {
       "date": "2026-09-30",
@@ -23,7 +23,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.7
+        "temp": 18.9
       }
     },
     {
@@ -41,7 +41,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.7
+        "temp": 18.9
       }
     },
     {
@@ -59,7 +59,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 17.7
+        "temp": 18.4
       }
     },
     {
@@ -77,7 +77,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 14.9
+        "temp": 15.1
       }
     },
     {
@@ -541,7 +541,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 15.8
+        "temp": 16.8
       }
     },
     {
@@ -727,20 +727,6 @@
       "weather": null
     },
     {
-      "date": "2026-09-29",
-      "day": "29",
-      "weekday": "tis",
-      "time": "19:00",
-      "end_time": "20:30",
-      "team": "Dam",
-      "team_id": "52695",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "weather": null
-    },
-    {
       "date": "2026-09-30",
       "day": "30",
       "weekday": "ons",
@@ -755,7 +741,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 17.7
+        "temp": 18.9
       }
     },
     {
@@ -2103,7 +2089,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.9
+        "temp": 19.9
       }
     },
     {
@@ -2513,7 +2499,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.9
+        "temp": 19.9
       }
     },
     {
@@ -2685,7 +2671,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 18.9
+        "temp": 19.9
       }
     },
     {
