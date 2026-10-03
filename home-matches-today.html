@@ -87,6 +87,11 @@
             color: var(--muted);
             font-size: 0.85rem;
         }
+        .page-status {
+            margin-top: 3px;
+            color: var(--muted);
+            font-size: 0.72rem;
+        }
         .rooms-link {
             display: inline-block;
             margin-top: 10px;
@@ -486,6 +491,7 @@
         <div class="meta">
             <div class="date" id="dateLabel">-</div>
             <div class="updated" id="updatedLabel">Laddar...</div>
+            <div class="page-status" id="pageStatus">Kontrollerar sidan...</div>
         </div>
     </header>
 
@@ -834,6 +840,26 @@
             `;
         }
 
+        let lastSuccessfulRenderAt = 0;
+
+        function formatPageStatus(value) {
+            const date = new Date(value);
+            if (Number.isNaN(date.getTime())) return 'Sidstatus okänt';
+            return `Sidan kontrollerad: ${date.toLocaleString('sv-SE')}`;
+        }
+
+        function showPageError(error) {
+            const message = error?.message || 'Okänt fel';
+            document.getElementById('pageStatus').textContent = 'Fel – försöker igen automatiskt';
+            document.getElementById('cards').innerHTML = `
+                <div class="empty">
+                    <strong>Kunde inte visa dagens matcher</strong>
+                    <span>${message}</span>
+                    <span>Försöker igen automatiskt.</span>
+                </div>
+            `;
+        }
+
         async function loadPage() {
             const todayIso = todayIsoLocal();
             document.getElementById('dateLabel').textContent = formatLocalDate(todayIso);
@@ -855,6 +881,7 @@
                 );
 
                 document.getElementById('updatedLabel').textContent = formatUpdatedLabel(data.last_updated);
+                document.getElementById('pageStatus').textContent = formatPageStatus(Date.now());
 
                 const cards = document.getElementById('cards');
                 if (!homeMatches.length) {
@@ -863,24 +890,28 @@
                             <strong>Inga hemmamatcher idag</strong>
                         </div>
                     `;
+                    lastSuccessfulRenderAt = Date.now();
                     return;
                 }
 
                 cards.innerHTML = homeMatches.map(match => renderCard(match, roomAssignments)).join('');
+                lastSuccessfulRenderAt = Date.now();
             } catch (error) {
-                document.getElementById('updatedLabel').textContent = 'Kunde inte ladda sidan';
-                document.getElementById('cards').innerHTML = `
-                    <div class="empty">
-                        <strong>Kunde inte ladda data</strong>
-                        <span>${error.message}</span>
-                    </div>
-                `;
+                showPageError(error);
             }
         }
 
         loadPage();
-        // Keep the TV view in sync with the hourly scraper without requiring a reload.
-        setInterval(loadPage, 60 * 60 * 1000);
+        // Refresh the data frequently so a newly published calendar is picked up quickly.
+        setInterval(loadPage, 5 * 60 * 1000);
+        // A full reload clears stale browser state and recovers from a broken JS render.
+        setInterval(() => location.reload(), 60 * 60 * 1000);
+        // If repeated data refreshes stop completing, recover without operator intervention.
+        setInterval(() => {
+            if (lastSuccessfulRenderAt && Date.now() - lastSuccessfulRenderAt > 15 * 60 * 1000) {
+                location.reload();
+            }
+        }, 60 * 1000);
     </script>
 </body>
 </html>
