@@ -5,15 +5,31 @@ Kronängs IF Calendar Scraper v6 - with weather forecast
 import requests
 from bs4 import BeautifulSoup
 import json
+import os
 import re
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.parse import urljoin
 
 CALENDAR_URL = "https://www.kronangsif.se/match/?ID=38276&kommande=1"
 TEAM_CALENDAR_URL = "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID={team_id}"
 HOME_URL = "https://www.kronangsif.se/"
+FOGIS_API_URL = "https://api-fogis-association.azure-api.net/club"
 OUTPUT_FILE = Path(__file__).parent / "data" / "calendar.json"
+FOGIS_CLUB_ID = 8688
+FOGIS_TEAM_NAMES = {
+    286936: "P2009-2010",
+    200322: "P2011",
+    239536: "P2012",
+    87251: "P2013",
+    185875: "P2014",
+    353087: "P2015",
+    372809: "P2016",
+    353066: "F2008-2010",
+    67275: "F2011-2012",
+    63822: "Herrar",
+    176076: "Damer",
+}
 
 # Borås coordinates (Kronäng area)
 LAT, LON = 57.72, 12.94
@@ -131,6 +147,107 @@ def fetch_calendar():
     return response.text
 
 
+def get_fogis_api_key():
+    """Read the Fogis key from Actions or the ignored local development file."""
+    api_key = os.environ.get("FOGIS_API_KEY", "").strip()
+    if api_key:
+        return api_key
+
+    local_key_file = Path(__file__).parent / "Svff.token"
+    if local_key_file.exists():
+        return local_key_file.read_text(encoding="utf-8").strip()
+    return ""
+
+
+def fetch_fogis_games(api_key, from_date, to_date):
+    """Fetch official club games from Fogis for an inclusive date range."""
+    response = requests.get(
+        f"{FOGIS_API_URL}/upcoming-games",
+        params={
+            "from": from_date.isoformat(),
+            "to": to_date.isoformat(),
+            "w": 3,
+            "take": 1000,
+            "includeCanceled": "false",
+        },
+        headers={"ApiKey": api_key, "Accept": "application/json"},
+        timeout=30,
+    )
+    response.raise_for_status()
+    payload = response.json()
+    if not isinstance(payload.get("games"), list):
+        raise ValueError("Fogis-svaret saknar games-listan")
+    return payload["games"]
+
+
+def normalize_fogis_team_name(name, team_id=None):
+    """Keep the existing dashboard's compact team naming where possible."""
+    if team_id in FOGIS_TEAM_NAMES:
+        return FOGIS_TEAM_NAMES[team_id]
+    cleaned = re.sub(r"\s+", " ", (name or "")).strip()
+    if re.search(r"P\s*09/10", cleaned, re.IGNORECASE):
+        return "P2009-2010"
+    return cleaned or "Okänt lag"
+
+
+def parse_fogis_games(games):
+    """Convert Fogis games to the activity shape used by the dashboard."""
+    activities = []
+    for game in games:
+        timestamp = str(game.get("timeAsDateTime") or "").strip()
+        match = re.match(r"^(\d{4}-\d{2}-\d{2})T(\d{1,2}):(\d{2})", timestamp)
+        if not match:
+            continue
+
+        match_date, hour, minute = match.groups()
+        home_team_id = game.get("homeTeamId")
+        away_team_id = game.get("awayTeamId")
+        home_team = normalize_fogis_team_name(game.get("homeTeamName"), home_team_id)
+        away_team = str(game.get("awayTeamName") or "Motståndarlaget").strip()
+        is_home = game.get("homeClubId") == FOGIS_CLUB_ID
+        own_team = home_team if is_home else normalize_fogis_team_name(away_team, away_team_id)
+        opponent = away_team if is_home else home_team
+        venue = re.sub(r"\s+", " ", str(game.get("venueName") or "")).strip()
+        surface = str(game.get("venueSurfaceName") or "").strip()
+        location = " ".join(part for part in (venue, surface) if part)
+        referee_data = game.get("referees") or {}
+        referee_names = []
+        for field in (
+            "name", "secondRefereeName", "assistant1Name", "assistant2Name",
+            "fourthName", "extra1Name", "extra2Name", "observerName",
+        ):
+            referee_name = str(referee_data.get(field) or "").strip()
+            if referee_name and referee_name not in referee_names:
+                referee_names.append(referee_name)
+
+        activities.append({
+            "date": match_date,
+            "day": match_date[8:10],
+            "weekday": "",
+            "time": f"{int(hour):02d}:{minute}",
+            "end_time": "",
+            "team": own_team,
+            "team_id": str(home_team_id if is_home else away_team_id or ""),
+            "type": "Match",
+            "description": f"{opponent} {'hemma' if is_home else 'borta'}",
+            "venue": venue,
+            "calendar_venue": "",
+            "location": location,
+            "lockerooms": None,
+            "home_logo_url": game.get("homeTeamImageUrl") or game.get("homeTeamImageSmlUrl") or "",
+            "away_logo_url": game.get("awayTeamImageUrl") or game.get("awayTeamImageSmlUrl") or "",
+            "referees": referee_names,
+            "fogis_game_id": game.get("gameId"),
+            "fogis_status": {
+                "postponed": bool(game.get("isPostponed")),
+                "abandoned": bool(game.get("isAbandoned")),
+                "canceled": bool(game.get("isCanceled")),
+                "finished": bool(game.get("isFinished")),
+            },
+        })
+    return activities
+
+
 def fetch_team_calendar(team_id):
     """Fetch a team's calendar, which contains training sessions as well as matches."""
     headers = {"User-Agent": "Mozilla/5.0"}
@@ -229,6 +346,50 @@ def parse_calendar(html):
 
     first_month, first_year = month_sections[0][1:]
     return first_month, first_year, activities
+
+
+def parse_sportadmin_match_calendar(html):
+    """Parse current SportAdmin match rows, including Plan A/B labels."""
+    soup = BeautifulSoup(html, 'html.parser')
+    month_node = soup.select_one('.sa-matches__month')
+    month_text = month_node.get_text(' ', strip=True) if month_node else ''
+    month_match = re.search(r'([A-ZÅÄÖ]+)\s+(\d{4})', month_text, re.I)
+    month_names = {
+        'januari': 1, 'februari': 2, 'mars': 3, 'april': 4, 'maj': 5, 'juni': 6,
+        'juli': 7, 'augusti': 8, 'september': 9, 'oktober': 10, 'november': 11, 'december': 12,
+    }
+    month = month_names.get(month_match.group(1).lower(), date.today().month) if month_match else date.today().month
+    year = int(month_match.group(2)) if month_match else date.today().year
+    team_labels = {
+        'Pojkar födda 2015': 'P2015', 'Pojkar födda 2014': 'P2014',
+        'Pojkar födda 2013': 'P2013', 'Pojkar födda 2012': 'P2012',
+        'Pojkar födda 2011': 'P2011', 'Pojkar födda 2009-10': 'P2009-2010',
+        'Dam': 'Damer', 'Herr': 'Herrar',
+    }
+    activities = []
+    for row in soup.select('.sa-matches__row'):
+        day_node = row.select_one('.sa-matches__day')
+        time_node = row.select_one('.sa-matches__time')
+        group_node = row.select_one('.sa-matches__group')
+        team_nodes = row.select('.sa-matches__team')
+        if not day_node or not time_node or not group_node or len(team_nodes) < 2:
+            continue
+        own_node = row.select_one('.sa-matches__team-name--own')
+        names = [node.select_one('.sa-matches__team-name').get_text(' ', strip=True) for node in team_nodes]
+        is_home = bool(own_node and own_node in team_nodes[0].select('.sa-matches__team-name'))
+        opponent = names[1] if is_home else names[0]
+        group_text = group_node.get_text(' ', strip=True).split(',', 1)[0].strip()
+        place_node = group_node.select_one('.sa-matches__place')
+        activities.append({
+            'date': f'{year:04d}-{month:02d}-{int(day_node.get_text(strip=True)):02d}',
+            'time': time_node.get_text(strip=True),
+            'team': team_labels.get(group_text, group_text),
+            'type': 'Match',
+            'description': f'{opponent} {"hemma" if is_home else "borta"}',
+            'location': place_node.get_text(' ', strip=True) if place_node else '',
+            'lockerooms': None,
+        })
+    return month, year, activities
 
 
 def parse_activity(row, day, weekday, iso_date):
@@ -386,11 +547,11 @@ def parse_latest_news(html, limit=2):
     return news_items
 
 
-def save_data(activities, month, year, latest_news):
+def save_data(activities, month, year, latest_news, sources=None):
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     data = {
         "last_updated": datetime.now().isoformat(),
-        "source": [CALENDAR_URL, "team calendars"],
+        "source": sources or [CALENDAR_URL, "team calendars"],
         "month": month,
         "year": year,
         "activity_count": len(activities),
@@ -404,9 +565,62 @@ def save_data(activities, month, year, latest_news):
 
 def main():
     print("Fetching Kronängs IF calendar...")
-    html = fetch_calendar()
-    month, year, activities = parse_calendar(html)
-    print(f"Calendar month: {month}/{year}")
+    today = date.today()
+    fogis_api_key = get_fogis_api_key()
+    fogis_enabled = bool(fogis_api_key)
+    sources = [CALENDAR_URL, "team calendars"]
+
+    if fogis_enabled:
+        try:
+            fogis_from = today - timedelta(days=7)
+            fogis_to = today + timedelta(days=120)
+            fogis_games = fetch_fogis_games(fogis_api_key, fogis_from, fogis_to)
+            activities = parse_fogis_games(fogis_games)
+            month, year = today.month, today.year
+            sources = [f"{FOGIS_API_URL}/upcoming-games", "team calendars"]
+            print(f"Fogis games: {len(activities)}")
+        except Exception as error:
+            print(f"Warning: Fogis unavailable, falling back to website calendar: {error}")
+            fogis_enabled = False
+
+    if not fogis_enabled:
+        html = fetch_calendar()
+        month, year, activities = parse_calendar(html)
+        print(f"Calendar month: {month}/{year}")
+
+    # The current SportAdmin main calendar contains the new calendar links
+    # (ID/AID) and may include the detailed pitch label, such as Plan A/B.
+    # Use it to enrich the authoritative Fogis fixtures.
+    if fogis_enabled:
+        try:
+            calendar_html = fetch_calendar()
+            _, _, calendar_activities = parse_sportadmin_match_calendar(calendar_html)
+            calendar_matches = [item for item in calendar_activities if item.get("type") == "Match"]
+            print(f"SportAdmin calendar matches available for enrichment: {len(calendar_matches)}")
+            for activity in calendar_matches:
+                activity_team = re.sub(r"\s+", "", str(activity.get("team") or "")).lower()
+                activity_description = re.sub(r"\s+", " ", str(activity.get("description") or "")).strip().lower()
+                for fogis_activity in activities:
+                    fogis_team = re.sub(r"\s+", "", str(fogis_activity.get("team") or "")).lower()
+                    fogis_description = re.sub(r"\s+", " ", str(fogis_activity.get("description") or "")).strip().lower()
+                    same_match = (
+                        activity.get("date") == fogis_activity.get("date")
+                        and activity.get("time") == fogis_activity.get("time")
+                        and (
+                            activity.get("team_id") == fogis_activity.get("team_id")
+                            or (activity_team and activity_team == fogis_team)
+                            or (activity_description and activity_description == fogis_description
+                                and not re.search(r'veo', activity_team))
+                        )
+                    )
+                    if same_match:
+                        if activity.get("location"):
+                            fogis_activity["calendar_venue"] = activity["location"]
+                        if activity.get("lockerooms"):
+                            fogis_activity["lockerooms"] = activity["lockerooms"]
+                        break
+        except Exception as error:
+            print(f"Warning: Could not enrich Fogis games from SportAdmin calendar: {error}")
 
     # The match calendar does not include regular team training sessions.
     # Fetch each team's calendar as well so the dashboard's daily activity
@@ -422,6 +636,33 @@ def main():
         try:
             _, _, team_activities = parse_calendar(fetch_team_calendar(team_id))
             for activity in team_activities:
+                if fogis_enabled and activity.get("type") == "Match":
+                    # Fogis is authoritative for the fixture, while the team
+                    # calendar may contain the more specific pitch label
+                    # (for example Plan A or Plan B). Enrich the same Fogis
+                    # match when date/time/team identify it unambiguously.
+                    activity_team = re.sub(r"\s+", "", str(activity.get("team") or "")).lower()
+                    activity_description = re.sub(r"\s+", " ", str(activity.get("description") or "")).strip().lower()
+                    for fogis_activity in activities:
+                        fogis_team = re.sub(r"\s+", "", str(fogis_activity.get("team") or "")).lower()
+                        fogis_description = re.sub(r"\s+", " ", str(fogis_activity.get("description") or "")).strip().lower()
+                        same_match = (
+                            activity.get("date") == fogis_activity.get("date")
+                            and activity.get("time") == fogis_activity.get("time")
+                            and (
+                                activity.get("team_id") == fogis_activity.get("team_id")
+                                or (activity_team and activity_team == fogis_team)
+                                or (activity_description and activity_description == fogis_description
+                                    and not re.search(r'veo', activity_team))
+                            )
+                        )
+                        if same_match:
+                            if activity.get("location"):
+                                fogis_activity["calendar_venue"] = activity["location"]
+                            if activity.get("lockerooms"):
+                                fogis_activity["lockerooms"] = activity["lockerooms"]
+                            break
+                    continue
                 key = (
                     activity.get('date'), activity.get('time'), activity.get('team'),
                     activity.get('description'), activity.get('location')
@@ -454,7 +695,7 @@ def main():
     except Exception as e:
         print(f"Warning: Could not fetch weather: {e}")
 
-    save_data(activities, month, year, latest_news)
+    save_data(activities, month, year, latest_news, sources=sources)
     print(f"Done! Found {len(activities)} activities")
 
 if __name__ == "__main__":
