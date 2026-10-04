@@ -408,6 +408,151 @@
                 font-size: clamp(0.95rem, 1.1vw, 1.25rem);
             }
         }
+
+        /* Match cards share the same visual language as the home-match view,
+           but intentionally omit changing-room information. */
+        .match-list-compact {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 12px;
+        }
+        .match-row,
+        .match-row.home,
+        .match-row.away {
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+            padding: 14px 16px 12px;
+            border: 1px solid #cbd5e1;
+            border-left: 1px solid #cbd5e1;
+            border-radius: 16px;
+            background: #ffffff;
+            box-shadow: 0 3px 12px rgba(15, 23, 42, 0.1);
+            color: #172033;
+        }
+        .match-row-head {
+            display: flex;
+            justify-content: center;
+            min-height: 1.1rem;
+        }
+        .match-row-showcase {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 132px minmax(0, 1fr);
+            align-items: center;
+            gap: 12px;
+            margin-top: 2px;
+        }
+        .match-row-side {
+            display: flex;
+            min-width: 0;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            text-align: center;
+        }
+        .match-row-logo {
+            width: 76px;
+            height: 76px;
+            object-fit: contain;
+            background: #ffffff;
+        }
+        .match-row-name {
+            width: 100%;
+            overflow: hidden;
+            color: #172033;
+            font-size: clamp(0.95rem, 1.35vw, 1.25rem);
+            font-weight: 900;
+            line-height: 1.05;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .match-row-center {
+            display: grid;
+            justify-items: center;
+            gap: 7px;
+            min-width: 0;
+        }
+        .match-row-level {
+            color: #4b5563;
+            font-size: clamp(1.2rem, 1.9vw, 1.7rem);
+            font-weight: 900;
+            line-height: 1;
+            white-space: nowrap;
+        }
+        .match-row-vs {
+            display: grid;
+            width: 32px;
+            height: 32px;
+            place-items: center;
+            border: 1px solid #cbd5e1;
+            border-radius: 50%;
+            color: #64748b;
+            font-size: 0.72rem;
+            font-weight: 900;
+        }
+        .match-row-kickoff {
+            color: #4b5563;
+            font-size: clamp(1.25rem, 2vw, 1.75rem);
+            font-weight: 900;
+            letter-spacing: -0.05em;
+            line-height: 1;
+            white-space: nowrap;
+        }
+        .match-row-weather {
+            padding: 0;
+            background: transparent;
+            color: #526174;
+            font-size: 0.86rem;
+            font-weight: 700;
+        }
+        .match-row-details {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 6px 12px;
+            margin-top: 10px;
+            color: #526174;
+            font-size: 0.78rem;
+            font-weight: 800;
+            text-align: center;
+        }
+        .match-row-detail + .match-row-detail::before {
+            content: '·';
+            margin-right: 12px;
+            color: #94a3b8;
+        }
+        .match-row-detail.referee {
+            color: #526174;
+        }
+        @media (min-width: 901px) and (min-height: 600px) {
+            .match-row {
+                padding: 16px 18px 14px;
+            }
+            .match-row-showcase {
+                grid-template-columns: minmax(0, 1fr) 160px minmax(0, 1fr);
+                gap: 16px;
+            }
+            .match-row-logo {
+                width: clamp(82px, 7vw, 112px);
+                height: clamp(82px, 7vw, 112px);
+            }
+            .match-row-name {
+                font-size: clamp(1rem, 1.45vw, 1.45rem);
+            }
+            .match-row-level {
+                font-size: clamp(1.35rem, 2.1vw, 2rem);
+            }
+            .match-row-kickoff {
+                font-size: clamp(1.45rem, 2.3vw, 2.15rem);
+            }
+            .match-row-details {
+                font-size: clamp(0.8rem, 0.95vw, 1rem);
+            }
+        }
+        @media (max-width: 900px) {
+            .match-list-compact {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
@@ -438,17 +583,54 @@
             return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
         }
 
+        function opponentName(match) {
+            const description = String(match.description || '');
+            return description.replace(/\s+(hemma|borta)\s*$/i, '').trim() || 'Motståndarlaget';
+        }
+
+        function displayVenue(match) {
+            const value = String(match.calendar_venue || match.venue || match.location || '').trim();
+            return value.replace(/\s+/g, ' ') || '';
+        }
+
+        function refereeLabel(match) {
+            const referees = Array.isArray(match.referees) ? match.referees.filter(Boolean) : [];
+            return referees.length ? `Domare: ${referees.join(', ')}` : '';
+        }
+
         function renderMatch(match) {
             const isHome = isHomeMatch(match);
+            const leftName = isHome ? 'Kronängs IF' : opponentName(match);
+            const rightName = isHome ? opponentName(match) : 'Kronängs IF';
+            const leftLogo = isHome ? match.home_logo_url : match.home_logo_url;
+            const rightLogo = isHome ? match.away_logo_url : match.away_logo_url;
+            const venue = displayVenue(match);
+            const referee = refereeLabel(match);
+            const level = match.team || 'Match';
+            const weather = match.weather
+                ? `${match.weather.icon || ''} ${Math.round(match.weather.temp)}°C`.trim()
+                : '';
+            const details = [venue, referee].filter(Boolean);
             return `
                 <article class="match-row ${isHome ? 'home' : 'away'}">
-                    <div class="match-row-time">${match.time || 'Tid saknas'}</div>
-                    <div class="match-row-main">
-                        <div class="match-row-team">${match.team || 'Okänt lag'}</div>
-                        <div class="match-row-desc">${match.description || 'Match'}</div>
-                        <div class="match-row-location">${match.location || ''}</div>
+                    <div class="match-row-head"></div>
+                    <div class="match-row-showcase">
+                        <div class="match-row-side">
+                            ${leftLogo ? `<img class="match-row-logo" src="${leftLogo}" alt="${leftName}" loading="lazy">` : ''}
+                            <div class="match-row-name">${leftName}</div>
+                        </div>
+                        <div class="match-row-center">
+                            <div class="match-row-level">${level}</div>
+                            <div class="match-row-vs">VS</div>
+                            <div class="match-row-kickoff">${match.time || 'Tid saknas'}</div>
+                            ${weather ? `<div class="match-row-weather">${weather}</div>` : ''}
+                        </div>
+                        <div class="match-row-side">
+                            ${rightLogo ? `<img class="match-row-logo" src="${rightLogo}" alt="${rightName}" loading="lazy">` : ''}
+                            <div class="match-row-name">${rightName}</div>
+                        </div>
                     </div>
-                    ${match.weather ? `<div class="match-row-weather">${match.weather.icon || ''} ${Math.round(match.weather.temp)}°C</div>` : ''}
+                    ${details.length ? `<div class="match-row-details">${details.map((detail, index) => `<span class="match-row-detail${index === 1 ? ' referee' : ''}">${detail}</span>`).join('')}</div>` : ''}
                 </article>
             `;
         }
