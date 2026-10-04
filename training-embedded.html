@@ -262,6 +262,129 @@
                 font-size: clamp(1rem, 1.25vw, 1.35rem);
             }
         }
+
+        /* Compact match cards for match activities. Training activities keep
+           their existing schedule presentation. */
+        .activity-list.match-list {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            align-content: start;
+        }
+        .activity-item.match-card {
+            min-height: 0;
+            padding: 10px 12px 9px;
+            border: 1px solid #cbd5e1;
+            border-left: 1px solid #cbd5e1;
+            border-radius: 14px;
+            background: #ffffff;
+            box-shadow: 0 2px 8px rgba(15, 23, 42, 0.1);
+            color: #172033;
+        }
+        .match-activity-showcase {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 84px minmax(0, 1fr);
+            align-items: center;
+            gap: 8px;
+        }
+        .match-activity-side {
+            display: flex;
+            min-width: 0;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            text-align: center;
+        }
+        .match-activity-logo {
+            width: 52px;
+            height: 52px;
+            object-fit: contain;
+            background: #ffffff;
+        }
+        .match-activity-name {
+            width: 100%;
+            overflow: hidden;
+            color: #172033;
+            font-size: 0.78rem;
+            font-weight: 900;
+            line-height: 1.05;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .match-activity-center {
+            display: grid;
+            justify-items: center;
+            gap: 4px;
+            min-width: 0;
+        }
+        .match-activity-level {
+            position: relative;
+            z-index: 2;
+            transform: translateY(-3px);
+            color: #4b5563;
+            font-size: 1rem;
+            font-weight: 900;
+            line-height: 1;
+            white-space: nowrap;
+        }
+        .match-activity-vs {
+            color: #64748b;
+            font-size: 0.62rem;
+            font-weight: 900;
+        }
+        .match-activity-time {
+            color: #4b5563;
+            font-size: 1.05rem;
+            font-weight: 900;
+            letter-spacing: -0.04em;
+            line-height: 1;
+            white-space: nowrap;
+        }
+        .match-activity-weather {
+            color: #526174;
+            font-size: 0.68rem;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+        .match-activity-details {
+            margin-top: 6px;
+            overflow: hidden;
+            color: #526174;
+            font-size: 0.68rem;
+            font-weight: 800;
+            text-align: center;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        @media (max-width: 700px) {
+            .activity-list.match-list {
+                grid-template-columns: 1fr;
+            }
+        }
+        @media (min-width: 901px) and (min-height: 600px) {
+            .activity-item.match-card {
+                padding: 12px 14px 10px;
+            }
+            .match-activity-showcase {
+                grid-template-columns: minmax(0, 1fr) 100px minmax(0, 1fr);
+                gap: 10px;
+            }
+            .match-activity-logo {
+                width: clamp(58px, 5vw, 78px);
+                height: clamp(58px, 5vw, 78px);
+            }
+            .match-activity-name {
+                font-size: clamp(0.8rem, 0.95vw, 1.05rem);
+            }
+            .match-activity-level {
+                font-size: clamp(1.05rem, 1.35vw, 1.45rem);
+            }
+            .match-activity-time {
+                font-size: clamp(1.1rem, 1.45vw, 1.55rem);
+            }
+            .match-activity-details {
+                font-size: clamp(0.7rem, 0.78vw, 0.85rem);
+            }
+        }
     </style>
 </head>
 <body>
@@ -335,9 +458,54 @@
             return haystack.includes('HEMMA') && !haystack.includes('BORTA');
         }
 
-        function renderBucket(bucket, items) {
-            const itemHtml = items.length
-                ? items.map(item => `
+        function isHomeMatch(item) {
+            const haystack = [item.team, item.description, item.location]
+                .filter(Boolean)
+                .join(' ')
+                .toLowerCase();
+            return haystack.includes('hemma') && !haystack.includes('borta');
+        }
+
+        function matchOpponent(item) {
+            return String(item.description || 'Motståndarlaget')
+                .replace(/\s+(hemma|borta)\s*$/i, '')
+                .trim() || 'Motståndarlaget';
+        }
+
+        function renderMatchActivity(item) {
+            const home = isHomeMatch(item);
+            const leftName = home ? 'Kronängs IF' : matchOpponent(item);
+            const rightName = home ? matchOpponent(item) : 'Kronängs IF';
+            const leftLogo = item.home_logo_url;
+            const rightLogo = item.away_logo_url;
+            const venue = String(item.calendar_venue || item.venue || item.location || '').trim();
+            const weather = item.weather ? `${item.weather.icon || ''} ${Math.round(item.weather.temp)}°C`.trim() : '';
+            return `
+                <div class="activity-item match-card">
+                    <div class="match-activity-showcase">
+                        <div class="match-activity-side">
+                            ${leftLogo ? `<img class="match-activity-logo" src="${leftLogo}" alt="${leftName}" loading="lazy">` : ''}
+                            <div class="match-activity-name">${leftName}</div>
+                        </div>
+                        <div class="match-activity-center">
+                            <div class="match-activity-level">${item.team || 'Match'}</div>
+                            <div class="match-activity-vs">VS</div>
+                            <div class="match-activity-time">${formatTimeRange(item)}</div>
+                            ${weather ? `<div class="match-activity-weather">${weather}</div>` : ''}
+                        </div>
+                        <div class="match-activity-side">
+                            ${rightLogo ? `<img class="match-activity-logo" src="${rightLogo}" alt="${rightName}" loading="lazy">` : ''}
+                            <div class="match-activity-name">${rightName}</div>
+                        </div>
+                    </div>
+                    ${venue ? `<div class="match-activity-details">${venue}</div>` : ''}
+                </div>
+            `;
+        }
+
+        function renderActivity(item) {
+            if (item.type === 'Match') return renderMatchActivity(item);
+            return `
                     <div class="activity-item">
                         <div class="activity-meta">
                             <div class="activity-time">${formatTimeRange(item)}</div>
@@ -348,7 +516,12 @@
                         ${item.description ? `<div class="activity-desc">${item.description}</div>` : ''}
                         <div class="activity-location">${item.location || ''}</div>
                     </div>
-                `).join('')
+                `;
+        }
+
+        function renderBucket(bucket, items) {
+            const itemHtml = items.length
+                ? items.map(renderActivity).join('')
                 : '<div class="empty-bucket">Inga aktiviteter</div>';
 
             return `
@@ -357,7 +530,7 @@
                         <div class="bucket-title">${bucket.title}</div>
                         <div class="bucket-subtitle">${items.length} aktiviteter</div>
                     </div>
-                    <div class="activity-list">${itemHtml}</div>
+                    <div class="activity-list${items.some(item => item.type === 'Match') ? ' match-list' : ''}">${itemHtml}</div>
                 </section>
             `;
         }

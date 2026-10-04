@@ -270,7 +270,7 @@
             margin-top: 3px;
             overflow: hidden;
             color: #526174;
-            font-size: 0.92rem;
+            font-size: 1rem;
             font-weight: 600;
             text-overflow: ellipsis;
             white-space: nowrap;
@@ -421,7 +421,9 @@
             display: flex;
             flex-direction: column;
             min-height: 0;
-            padding: 14px 16px 12px;
+            height: auto;
+            overflow: visible;
+            padding: 11px 16px 18px;
             border: 1px solid #cbd5e1;
             border-left: 1px solid #cbd5e1;
             border-radius: 16px;
@@ -430,13 +432,25 @@
             color: #172033;
         }
         .match-row-head {
+            align-self: flex-start;
             display: flex;
-            justify-content: center;
-            min-height: 1.1rem;
+            align-items: center;
+            min-height: 1.15rem;
+            margin-bottom: 4px;
+        }
+        .match-row-date {
+            color: #172033;
+            padding: 3px 8px;
+            border-radius: 6px;
+            background: #f1f5f9;
+            font-size: 0.92rem;
+            font-weight: 800;
+            text-transform: capitalize;
+            white-space: nowrap;
         }
         .match-row-showcase {
             display: grid;
-            grid-template-columns: minmax(0, 1fr) 132px minmax(0, 1fr);
+            grid-template-columns: minmax(0, 1fr) 150px minmax(0, 1fr);
             align-items: center;
             gap: 12px;
             margin-top: 2px;
@@ -450,18 +464,18 @@
             text-align: center;
         }
         .match-row-logo {
-            width: 76px;
-            height: 76px;
+            width: 122px;
+            height: 122px;
             object-fit: contain;
             background: #ffffff;
         }
         .match-row-name {
             width: 100%;
-            overflow: hidden;
+            overflow: visible;
             color: #172033;
             font-size: clamp(0.95rem, 1.35vw, 1.25rem);
             font-weight: 900;
-            line-height: 1.05;
+            line-height: 1.2;
             text-overflow: ellipsis;
             white-space: nowrap;
         }
@@ -472,6 +486,9 @@
             min-width: 0;
         }
         .match-row-level {
+            position: relative;
+            z-index: 2;
+            transform: translateY(-4px);
             color: #4b5563;
             font-size: clamp(1.2rem, 1.9vw, 1.7rem);
             font-weight: 900;
@@ -525,15 +542,18 @@
         }
         @media (min-width: 901px) and (min-height: 600px) {
             .match-row {
-                padding: 16px 18px 14px;
+                padding: 12px 18px 22px;
+            }
+            .match-row-head {
+                margin-bottom: 5px;
             }
             .match-row-showcase {
-                grid-template-columns: minmax(0, 1fr) 160px minmax(0, 1fr);
+                grid-template-columns: minmax(0, 1fr) 180px minmax(0, 1fr);
                 gap: 16px;
             }
             .match-row-logo {
-                width: clamp(82px, 7vw, 112px);
-                height: clamp(82px, 7vw, 112px);
+                width: clamp(122px, 10vw, 160px);
+                height: clamp(122px, 10vw, 160px);
             }
             .match-row-name {
                 font-size: clamp(1rem, 1.45vw, 1.45rem);
@@ -547,6 +567,10 @@
             .match-row-details {
                 font-size: clamp(0.8rem, 0.95vw, 1rem);
             }
+            .match-row-date {
+                padding: 4px 9px;
+                font-size: clamp(1.05rem, 1.2vw, 1.25rem);
+            }
         }
         @media (max-width: 900px) {
             .match-list-compact {
@@ -557,7 +581,7 @@
 </head>
 <body>
     <div class="header">
-        <h1 id="matchesTitle">⚽ Matcher kommande 3 dagar</h1>
+        <h1 id="matchesTitle">⚽ Kommande matcher</h1>
         <img class="header-logo" src="kronang-logo-2026.png" alt="Kronängs IF logga">
     </div>
 
@@ -568,6 +592,10 @@
     <script>
         const MONTHS = ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'];
         const WEEKDAYS = ['Söndag', 'Måndag', 'Tisdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lördag'];
+        const CALENDAR_DATA_URLS = [
+            new URL('data/calendar.json', document.baseURI).href,
+            'https://raw.githubusercontent.com/kronangsif/kronangsif.github.io/main/data/calendar.json'
+        ];
 
         function todayIsoLocal() {
             const now = new Date();
@@ -598,22 +626,31 @@
             return referees.length ? `Domare: ${referees.join(', ')}` : '';
         }
 
+        function formatMatchDate(dateIso) {
+            const date = new Date(`${dateIso}T12:00:00`);
+            const label = new Intl.DateTimeFormat('sv-SE', {
+                weekday: 'long',
+                day: 'numeric',
+                month: 'long'
+            }).format(date);
+            return label.charAt(0).toUpperCase() + label.slice(1);
+        }
+
         function renderMatch(match) {
             const isHome = isHomeMatch(match);
             const leftName = isHome ? 'Kronängs IF' : opponentName(match);
             const rightName = isHome ? opponentName(match) : 'Kronängs IF';
             const leftLogo = isHome ? match.home_logo_url : match.home_logo_url;
             const rightLogo = isHome ? match.away_logo_url : match.away_logo_url;
-            const venue = displayVenue(match);
-            const referee = refereeLabel(match);
             const level = match.team || 'Match';
             const weather = match.weather
                 ? `${match.weather.icon || ''} ${Math.round(match.weather.temp)}°C`.trim()
                 : '';
-            const details = [venue, referee].filter(Boolean);
             return `
                 <article class="match-row ${isHome ? 'home' : 'away'}">
-                    <div class="match-row-head"></div>
+                    <div class="match-row-head">
+                        <span class="match-row-date">${formatMatchDate(match.date)}</span>
+                    </div>
                     <div class="match-row-showcase">
                         <div class="match-row-side">
                             ${leftLogo ? `<img class="match-row-logo" src="${leftLogo}" alt="${leftName}" loading="lazy">` : ''}
@@ -630,7 +667,6 @@
                             <div class="match-row-name">${rightName}</div>
                         </div>
                     </div>
-                    ${details.length ? `<div class="match-row-details">${details.map((detail, index) => `<span class="match-row-detail${index === 1 ? ' referee' : ''}">${detail}</span>`).join('')}</div>` : ''}
                 </article>
             `;
         }
@@ -674,17 +710,26 @@
         async function loadMatches() {
             const grid = document.getElementById('weekGrid');
             try {
-                const response = await fetch(`data/calendar.json?t=${Date.now()}`);
-                if (!response.ok) throw new Error('Kunde inte läsa datafilen');
-                const data = await response.json();
+                let data = null;
+                let lastError = null;
+                for (const url of CALENDAR_DATA_URLS) {
+                    try {
+                        const response = await fetch(`${url}?t=${Date.now()}`, { cache: 'no-store' });
+                        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                        data = await response.json();
+                        break;
+                    } catch (error) {
+                        lastError = error;
+                    }
+                }
+                if (!data) throw new Error(`Kalenderdata kunde inte hämtas (${lastError?.message || 'okänt fel'})`);
 
                 const todayIso = todayIsoLocal();
-                const lastIso = addDaysIso(todayIso, 2);
-                document.getElementById('matchesTitle').textContent = '⚽ Matcher kommande 3 dagar';
+                document.getElementById('matchesTitle').textContent = '⚽ Kommande matcher';
 
                 const matches = deduplicateMatches((data.activities || [])
                     .filter(item => item.type === 'Match')
-                    .filter(item => item.date && item.date >= todayIso && item.date <= lastIso)
+                    .filter(item => item.date && item.date >= todayIso)
                     .filter(item => {
                         const haystack = [item.team, item.description, item.location]
                             .filter(Boolean)
@@ -692,21 +737,12 @@
                             .toLowerCase();
                         return !haystack.includes('veo');
                     })
-                    .sort((a, b) => `${a.date} ${a.time}`.localeCompare(`${b.date} ${b.time}`)));
+                    .sort((a, b) => `${a.date} ${a.time || ''}`.localeCompare(`${b.date} ${b.time || ''}`))
+                    .slice(0, 6));
 
-                const byDate = new Map();
-                matches.forEach(match => {
-                    if (!byDate.has(match.date)) byDate.set(match.date, []);
-                    byDate.get(match.date).push(match);
-                });
-
-                const dates = Array.from({ length: 3 }, (_, index) => addDaysIso(todayIso, index));
-                const sections = dates
-                    .filter(dateIso => (byDate.get(dateIso) || []).length > 0)
-                    .map(dateIso => renderDateSection(dateIso, byDate.get(dateIso)));
-                grid.innerHTML = sections.length
-                    ? sections.join('')
-                    : '<div class="empty-state">Inga matcher de kommande tre dagarna.</div>';
+                grid.innerHTML = matches.length
+                    ? `<div class="match-list-compact">${matches.map(renderMatch).join('')}</div>`
+                    : '<div class="empty-state">Inga kommande matcher.</div>';
             } catch (error) {
                 grid.innerHTML = `<div class="empty-state">Kunde inte ladda matcher.<br>${error.message}</div>`;
             }
