@@ -37,11 +37,12 @@
             flex-direction: column;
         }
         .hero {
+            position: relative;
             display: flex;
             justify-content: space-between;
             align-items: center;
             gap: 20px;
-            padding: 20px 22px 16px;
+            padding: 20px 110px 16px 22px;
             border-bottom: 1px solid var(--border);
             background: linear-gradient(180deg, rgba(5, 11, 21, 0.96), rgba(5, 11, 21, 0.6));
             backdrop-filter: blur(10px);
@@ -51,6 +52,37 @@
             align-items: center;
             gap: 18px;
             min-width: 0;
+        }
+        .hero-left {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            min-width: 0;
+        }
+        .date-nav {
+            display: flex;
+            gap: 6px;
+            flex: 0 0 auto;
+            position: absolute;
+            top: 8px;
+            right: 22px;
+            transform: none;
+        }
+        .date-nav button {
+            width: 34px;
+            height: 34px;
+            border: 1px solid #cbd5e1;
+            border-radius: 999px;
+            background: #ffffff;
+            color: #4b5563;
+            font-size: 1.35rem;
+            font-weight: 900;
+            line-height: 1;
+            cursor: pointer;
+        }
+        .date-nav button:disabled {
+            opacity: 0.3;
+            cursor: default;
         }
         .logo {
             width: clamp(72px, 8vw, 110px);
@@ -63,7 +95,7 @@
             min-width: 0;
         }
         h1 {
-            font-size: clamp(2.2rem, 4.8vw, 4.4rem);
+            font-size: clamp(2.8rem, 6.4vw, 5.8rem);
             line-height: 0.96;
             font-weight: 800;
             letter-spacing: -0.04em;
@@ -77,6 +109,7 @@
         .meta {
             text-align: right;
             flex: 0 0 auto;
+            padding-top: 24px;
         }
         .date {
             font-size: 1.05rem;
@@ -88,9 +121,7 @@
             font-size: 0.85rem;
         }
         .page-status {
-            margin-top: 3px;
-            color: var(--muted);
-            font-size: 0.72rem;
+            display: none;
         }
         .rooms-link {
             display: inline-block;
@@ -104,7 +135,7 @@
             text-decoration: underline;
         }
         .badge {
-            display: inline-flex;
+            display: none;
             align-items: center;
             gap: 8px;
             margin-bottom: 12px;
@@ -128,7 +159,8 @@
         .content {
             flex: 1;
             min-height: 0;
-            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: auto;
             padding: 20px 22px 24px;
         }
         .content::-webkit-scrollbar {
@@ -143,6 +175,14 @@
             grid-template-columns: 1fr;
             gap: 16px;
         }
+        .cards:has(.match-card:only-child) {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+        }
+        .cards:has(.match-card:only-child) .match-card {
+            min-height: 0;
+            overflow: visible;
+        }
         .match-card {
             display: flex;
             flex-direction: column;
@@ -151,18 +191,14 @@
             padding: 18px;
             width: 100%;
             border-radius: 22px;
-            background: linear-gradient(180deg, rgba(30, 41, 59, 0.98), rgba(8, 14, 25, 0.98));
+            background: #ffffff;
             border: 1px solid rgba(148, 163, 184, 0.2);
             box-shadow: 0 26px 60px rgba(0, 0, 0, 0.22);
             position: relative;
             overflow: hidden;
         }
         .match-card::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(135deg, rgba(34, 197, 94, 0.08), transparent 55%);
-            pointer-events: none;
+            display: none;
         }
         .match-top {
             display: block;
@@ -215,6 +251,13 @@
             color: #94a3b8;
             font-weight: 700;
         }
+        .referee-line {
+            position: relative;
+            z-index: 1;
+            color: #526174;
+            font-size: 0.92rem;
+            font-weight: 700;
+        }
         .meta-line .meta-sep {
             color: #718096;
             font-weight: 800;
@@ -235,6 +278,185 @@
         .match-title .match-away {
             color: #93c5fd;
         }
+        .match-topline {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+        }
+        .match-kickoff {
+            color: #1d4ed8;
+            font-size: clamp(1.6rem, 2.5vw, 2.4rem);
+            font-weight: 900;
+            letter-spacing: -0.05em;
+        }
+        .match-kind {
+            display: none;
+        }
+        .team-showcase {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 180px minmax(0, 1fr);
+            align-items: center;
+            gap: 22px;
+            padding: 6px 0 14px;
+        }
+        .team-showcase-side {
+            display: flex;
+            min-width: 0;
+            flex-direction: column;
+            align-items: center;
+            gap: 9px;
+            justify-content: center;
+        }
+        .team-showcase-side.away {
+            justify-content: center;
+            text-align: center;
+        }
+        .team-showcase-side.away .team-showcase-copy {
+            order: 0;
+        }
+        .team-logo {
+            width: 156px;
+            height: 156px;
+            flex: 0 0 156px;
+            object-fit: contain;
+            border-radius: 0;
+            background: transparent;
+            padding: 0;
+            box-shadow: none;
+            mix-blend-mode: multiply;
+            background-color: #ffffff;
+        }
+        .team-showcase-copy {
+            min-width: 0;
+        }
+        .team-showcase-name {
+            color: var(--tv-text, #172033);
+            font-size: clamp(1.1rem, 2vw, 1.7rem);
+            font-weight: 900;
+            line-height: 1.05;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .team-showcase-group {
+            margin-top: 7px;
+            color: #526174;
+            font-size: 1.15rem;
+            font-weight: 800;
+        }
+        .team-room {
+            margin-top: 2px;
+            color: #526174;
+            font-size: clamp(0.92rem, 1.1vw, 1.05rem);
+            font-weight: 800;
+            line-height: 1.2;
+        }
+        .room-number {
+            color: #4b5563;
+            font-size: 1.35em;
+            font-weight: 900;
+        }
+        .match-info-lines {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            gap: 7px;
+            margin-top: 2px;
+            text-align: center;
+        }
+        .match-info-line {
+            color: #526174;
+            font-size: 1rem;
+            font-weight: 800;
+            line-height: 1.2;
+        }
+        .match-info-line.teams {
+            color: #172033;
+            font-size: clamp(1.1rem, 1.7vw, 1.4rem);
+            font-weight: 900;
+        }
+        .match-info-line.venue { color: #172033; }
+        .match-info-paired {
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 8px 18px;
+        }
+        .match-info-paired .match-info-line { margin: 0; }
+        .match-info-paired .match-info-line + .match-info-line::before {
+            content: '·';
+            margin-right: 18px;
+            color: #94a3b8;
+        }
+        .match-info-line.referee {
+            color: #172033;
+            font-size: 1.08rem;
+            font-weight: 900;
+        }
+        .team-showcase-vs-wrap {
+            display: grid;
+            justify-items: center;
+            gap: 12px;
+        }
+        .team-showcase-kickoff {
+            color: #4b5563 !important;
+            font-size: clamp(1.55rem, 2.4vw, 2.2rem);
+            font-weight: 900;
+            letter-spacing: -0.06em;
+            line-height: 1;
+        }
+        .match-time-plan {
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            gap: 12px;
+            white-space: nowrap;
+        }
+        .match-plan-separator {
+            color: #4b5563;
+            font-size: clamp(1.35rem, 2vw, 1.8rem);
+            font-weight: 900;
+            line-height: 1;
+        }
+        .match-plan {
+            color: #4b5563 !important;
+            font-size: clamp(1.55rem, 2.4vw, 2.2rem);
+            font-weight: 900;
+            letter-spacing: -0.06em;
+            line-height: 1;
+        }
+        .match-level {
+            color: #4b5563 !important;
+            font-size: clamp(1.8rem, 3vw, 2.65rem);
+            font-weight: 900;
+            text-align: center;
+            white-space: nowrap;
+        }
+        .match-weather-compact {
+            color: #526174;
+            font-size: 1.05rem;
+            font-weight: 900;
+            white-space: nowrap;
+        }
+        .team-showcase-vs {
+            display: grid;
+            width: 42px;
+            height: 42px;
+            place-items: center;
+            border: 1px solid #cbd5e1;
+            border-radius: 999px;
+            background: #ffffff;
+            color: #526174;
+            font-size: 0.72rem;
+            font-weight: 900;
+            letter-spacing: 0.08em;
+        }
         .desc {
             position: relative;
             z-index: 1;
@@ -243,12 +465,39 @@
             color: #e2e8f0;
         }
         .details {
-            position: relative;
-            z-index: 1;
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 12px;
-            margin-top: auto;
+            display: none;
+        }
+        .room-summary {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            gap: 8px 12px;
+            padding: 14px 16px;
+            border: 1px solid #bfdbfe;
+            border-radius: 14px;
+            background: #eff6ff;
+            color: #172033;
+        }
+        .room-summary-label {
+            width: 100%;
+            color: #526174;
+            font-size: 0.72rem;
+            font-weight: 900;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+        .room-summary-value {
+            color: #166534;
+            font-size: clamp(1.08rem, 1.6vw, 1.42rem);
+            font-weight: 900;
+        }
+        .room-summary-value.away { color: #1d4ed8; }
+        .room-summary-separator { color: #64748b; font-weight: 900; }
+        .room-summary-time {
+            margin-left: auto;
+            color: #526174;
+            font-size: 0.82rem;
+            font-weight: 800;
         }
         .detail-box {
             padding: 12px 14px;
@@ -383,7 +632,7 @@
                 height: clamp(58px, 6vw, 82px);
             }
             h1 {
-                font-size: clamp(2rem, 3.4vw, 3.5rem);
+                font-size: clamp(2.8rem, 5vw, 5rem);
             }
             .badge {
                 margin-bottom: 7px;
@@ -394,16 +643,16 @@
                 padding: 12px 18px 16px;
             }
             .cards {
-                height: 100%;
+                height: auto;
                 grid-template-columns: repeat(2, minmax(0, 1fr));
-                grid-template-rows: repeat(3, minmax(0, 1fr));
-                gap: 10px;
+                grid-template-rows: repeat(3, auto);
+                gap: 8px;
             }
             .match-card {
                 min-height: 0;
-                overflow: hidden;
-                padding: 12px;
-                gap: 8px;
+                overflow: visible;
+                padding: 8px;
+                gap: 4px;
                 border-radius: 16px;
             }
             .match-title {
@@ -461,6 +710,14 @@
         }
         @media (max-width: 720px) {
             .hero {
+                padding-right: 22px;
+            }
+            .date-nav {
+                position: static;
+                transform: none;
+                order: 2;
+            }
+            .hero {
                 flex-direction: column;
                 align-items: flex-start;
             }
@@ -469,6 +726,7 @@
             }
             .meta {
                 text-align: left;
+                padding-top: 0;
             }
             .content {
                 padding: 16px;
@@ -476,16 +734,92 @@
             .match-card {
                 min-height: 200px;
             }
+            .team-showcase {
+                gap: 8px;
+            }
+            .team-showcase-side {
+                flex-direction: column;
+                gap: 7px;
+                text-align: center;
+            }
+            .team-showcase-side.away {
+                text-align: center;
+            }
+            .team-showcase-side.away .team-showcase-copy {
+                order: 0;
+            }
+            .team-logo {
+                width: 72px;
+                height: 72px;
+                flex-basis: 72px;
+            }
+        }
+        @media (min-width: 900px) {
+            .cards:has(.match-card:only-child) {
+                grid-template-columns: 1fr;
+                grid-template-rows: auto;
+            }
+            .cards:has(.match-card:only-child) .match-card {
+                min-height: 0;
+                overflow: visible;
+            }
+            .match-topline {
+                gap: 9px;
+            }
+            .match-kickoff {
+                font-size: clamp(1.1rem, 1.7vw, 1.55rem);
+            }
+            .match-kind {
+                font-size: 0.58rem;
+            }
+            .team-showcase {
+                gap: 12px;
+                padding-bottom: 6px;
+            }
+            .team-showcase-side {
+                gap: 4px;
+            }
+            .team-logo {
+                width: 118px;
+                height: 118px;
+                flex-basis: 118px;
+            }
+            .team-showcase-name {
+                font-size: clamp(1rem, 1.7vw, 1.45rem);
+            }
+            .team-room { font-size: 0.86rem; }
+            .room-number { font-size: 1.25em; }
+            .team-showcase-kickoff,
+            .match-plan { font-size: clamp(1.35rem, 2vw, 1.8rem); }
+            .match-level { font-size: clamp(1.45rem, 2.3vw, 2rem); }
+            .match-info-lines { gap: 3px; }
+            .match-info-line { font-size: 0.82rem; }
+            .match-info-line.referee { font-size: 0.88rem; }
+            .team-showcase-group {
+                margin-top: 3px;
+                font-size: 0.68rem;
+            }
+            .team-showcase-vs {
+                width: 44px;
+                height: 44px;
+                font-size: 0.72rem;
+            }
         }
     </style>
 </head>
 <body>
     <header class="hero">
-        <div class="hero-brand">
-            <img class="logo" src="kronang-logo-2026.png" alt="Kronängs IF logotyp">
-            <div class="title-wrap">
-                <div class="badge"><span class="badge-dot"></span>Hemmamatcher idag</div>
-                <h1>Välkommen till Kronängs IF</h1>
+        <div class="hero-left">
+            <nav class="date-nav" aria-label="Bläddra mellan matchdagar">
+                <button id="previousDateButton" type="button" aria-label="Föregående dag">‹</button>
+                <button id="nextDateButton" type="button" aria-label="Nästa dag">›</button>
+            </nav>
+            <div class="hero-brand">
+                <img class="logo" src="kronang-logo-2026.png" alt="Kronängs IF logotyp">
+                <div class="title-wrap">
+                    <div class="badge"><span class="badge-dot"></span>Hemmamatcher idag</div>
+                    <h1>Välkommen till Kronängs IF</h1>
+                </div>
             </div>
         </div>
         <div class="meta">
@@ -510,6 +844,25 @@
             return `${year}-${month}-${day}`;
         }
 
+        const minimumBrowseDate = todayIsoLocal();
+        const maximumBrowseDate = (() => {
+            const date = new Date(`${minimumBrowseDate}T12:00:00`);
+            date.setDate(date.getDate() + 7);
+            return date.toISOString().slice(0, 10);
+        })();
+        let viewedDateIso = minimumBrowseDate;
+
+        function shiftDate(dateIso, amount) {
+            const date = new Date(`${dateIso}T12:00:00`);
+            date.setDate(date.getDate() + amount);
+            return date.toISOString().slice(0, 10);
+        }
+
+        function updateDateNavigation() {
+            document.getElementById('previousDateButton').disabled = viewedDateIso <= minimumBrowseDate;
+            document.getElementById('nextDateButton').disabled = viewedDateIso >= maximumBrowseDate;
+        }
+
         function formatLocalDate(dateIso) {
             const date = new Date(`${dateIso}T12:00:00`);
             const formatter = new Intl.DateTimeFormat('sv-SE', {
@@ -530,6 +883,13 @@
 
         function formatVenue(location) {
             const cleaned = cleanLocation(location || '');
+            const planOnly = cleaned.match(/\b([ab]-plan)\b/i);
+            if (planOnly) {
+                return {
+                    main: `${planOnly[1].charAt(0).toUpperCase()}${planOnly[1].slice(1).toLowerCase()}`,
+                    detail: ''
+                };
+            }
             const match = cleaned.match(/^(Kronängs?\s+Arena)\s*(.*)$/i);
             if (!match) {
                 return {
@@ -537,6 +897,9 @@
                     detail: ''
                 };
             }
+
+            // A generic arena name adds no useful information to the card.
+            if (!normalizeVenueDetail(match[2])) return null;
 
             return {
                 main: 'Kronäng Arena',
@@ -671,9 +1034,13 @@
 
         function fixedRoomsFor(match) {
             const team = String(match.team || '').trim().toLowerCase();
-            if (team === 'herr') return { home: 5, away: 3 };
-            if (team === 'dam') return { home: 4, away: 2 };
+            if (team === 'herr' || team === 'herrar') return { home: 5, away: 3 };
+            if (team === 'dam' || team === 'damer') return { home: 4, away: 2 };
             return null;
+        }
+
+        function isYouthTeam(match) {
+            return !fixedRoomsFor(match) && /^[pf]\s*\d{4}/i.test(String(match.team || '').trim());
         }
 
         function isP16Team(match) {
@@ -736,12 +1103,17 @@
                                 ? [2, 1].find(room => !used.has(room) && canUseRoom(room, match))
                                 : [1, 2].find(room => !used.has(room) && canUseRoom(room, match)))
                             : null;
-                        const preferred = isYoungTeam(match.team, match.date)
-                            ? AVAILABLE_ROOMS.filter(room => !SENIOR_ONLY_ROOMS.has(room))
-                            : AVAILABLE_ROOMS.filter(room => !SENIOR_ONLY_ROOMS.has(room) && !SMALL_ROOMS.has(room));
+                        const youthTeam = isYouthTeam(match);
+                        // Use the regular rooms first. Small rooms 7 and 8 are
+                        // a last resort for younger teams only.
+                        const preferred = AVAILABLE_ROOMS.filter(room =>
+                            !SENIOR_ONLY_ROOMS.has(room) && !SMALL_ROOMS.has(room));
                         const weekdayPreferred = isWeekday(match.date)
-                            ? AVAILABLE_ROOMS.filter(room => room >= 6)
+                            ? preferred.filter(room => room >= 6)
                             : preferred;
+                        const smallRoomFallback = youthTeam
+                            ? AVAILABLE_ROOMS.filter(room => SMALL_ROOMS.has(room))
+                            : [];
                         const shuffled = shuffledRooms(`${match.date}|${match.time}|${match.team}|${match.description}`);
                         if (p16HomeRoom !== undefined && p16HomeRoom !== null) {
                             const awayCandidates = [
@@ -749,7 +1121,7 @@
                                     && !SENIOR_ONLY_ROOMS.has(room) && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match)),
                                 ...shuffled.filter(room => preferred.includes(room) && !weekdayPreferred.includes(room) && !used.has(room) && room !== p16HomeRoom
                                     && !SENIOR_ONLY_ROOMS.has(room) && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match)),
-                                ...shuffled.filter(room => !preferred.includes(room) && !used.has(room) && room !== p16HomeRoom
+                                ...shuffled.filter(room => smallRoomFallback.includes(room) && !used.has(room) && room !== p16HomeRoom
                                     && !SENIOR_ONLY_ROOMS.has(room) && !(isP16Team(match) && [1, 2].includes(room)) && canUseRoom(room, match))
                             ];
                             if (awayCandidates.length) {
@@ -764,7 +1136,7 @@
                         const candidates = [
                             ...shuffled.filter(room => weekdayPreferred.includes(room) && !used.has(room) && canUseRoom(room, match)),
                             ...shuffled.filter(room => preferred.includes(room) && !weekdayPreferred.includes(room) && !used.has(room) && canUseRoom(room, match)),
-                            ...shuffled.filter(room => !preferred.includes(room) && !SENIOR_ONLY_ROOMS.has(room) && !used.has(room) && canUseRoom(room, match))
+                            ...shuffled.filter(room => smallRoomFallback.includes(room) && !used.has(room) && canUseRoom(room, match))
                         ];
                         if (candidates.length >= 2) {
                             assignments.set(match, { home: candidates[0], away: candidates[1] });
@@ -803,39 +1175,56 @@
             const cleanDescription = stripHomeNotation(match.description || '');
             const homeRoom = assignedRooms?.home || '';
             const awayRoom = assignedRooms?.away || '';
-            const venue = formatVenue(match.location || '');
+            const venue = match.calendar_venue ? formatVenue(match.calendar_venue) : null;
             const opponentName = parseOpponent(cleanDescription || match.description || '');
-            const weatherLabel = getWeatherLabel(match.weather);
+            const weatherCompact = match.weather
+                ? `${match.weather.icon || ''} ${Math.round(match.weather.temp)}°C`.trim()
+                : '';
             const bookingText = assignedRooms ? formatBookingTime(match) : 'Ingen rumsbokning kunde göras för denna post.';
+            const referees = Array.isArray(match.referees)
+                ? match.referees.filter(Boolean)
+                : (match.referee ? [match.referee] : []);
+            const homeGroup = match.team && !/^herr$|^dam$/i.test(match.team) ? match.team : 'Kronängs IF';
 
             return `
                 <article class="match-card">
-                    <div class="match-title">${match.time || 'Tid saknas'} - <span class="match-home">Kronängs IF</span> vs <span class="match-away">${opponentName}</span></div>
-                    <div class="meta-line">
-                        <span class="meta-team">${match.team || 'Okänt lag'}</span>
-                        <span class="meta-sep">•</span>
-                        <span class="meta-venue">${venue.main}${venue.detail ? ` (${venue.detail})` : ''}</span>
-                    </div>
-                    <div class="details">
-                        <div class="detail-box">
-                            <div class="detail-label">Omklädningsrum</div>
-                            <div class="detail-value">
-                                <div class="room-grid">
-                                    <div class="room-card home">
-                                        <div class="room-head"><span class="match-home">Kronängs IF</span></div>
-                                        <div class="room-code">${homeRoom ? `Omklädningsrum ${formatRoomNumber(homeRoom)}` : 'Omklädningsrum ?'}</div>
-                                        <div class="room-note">${bookingText}</div>
-                                    </div>
-                                    <div class="room-card away">
-                                        <div class="room-head"><span class="match-away">${opponentName}</span></div>
-                                        <div class="room-code">${awayRoom ? `Omklädningsrum ${formatRoomNumber(awayRoom)}` : 'Omklädningsrum ?'}</div>
-                                        <div class="room-note">${bookingText}</div>
-                                    </div>
-                                </div>
+                    <div class="team-showcase">
+                        <div class="team-showcase-side home">
+                            ${match.home_logo_url ? `<img class="team-logo" src="${match.home_logo_url}" alt="Kronängs IF" loading="lazy">` : ''}
+                            <div class="team-showcase-name">Kronängs IF</div>
+                            <div class="team-room">Omklädningsrum <span class="room-number">${homeRoom ? formatRoomNumber(homeRoom) : '?'}</span></div>
+                        </div>
+                        <div class="team-showcase-vs-wrap">
+                            <div class="match-level">${match.team || homeGroup}</div>
+                            <div class="team-showcase-vs">VS</div>
+                            <div class="match-time-plan">
+                                <div class="team-showcase-kickoff">${match.time || 'Tid saknas'}</div>
+                                ${venue ? '<span class="match-plan-separator" aria-hidden="true">·</span>' : ''}
+                                ${venue ? `<div class="match-plan">${venue.main}${venue.detail ? ` (${venue.detail})` : ''}</div>` : ''}
                             </div>
+                            ${weatherCompact ? `<div class="match-weather-compact">${weatherCompact}</div>` : ''}
+                        </div>
+                        <div class="team-showcase-side away">
+                            ${match.away_logo_url ? `<img class="team-logo" src="${match.away_logo_url}" alt="${opponentName}" loading="lazy">` : ''}
+                            <div class="team-showcase-name">${opponentName}</div>
+                            <div class="team-room">Omklädningsrum <span class="room-number">${awayRoom ? formatRoomNumber(awayRoom) : '?'}</span></div>
                         </div>
                     </div>
-                    ${weatherLabel ? `<div class="weather" title="${match.weather.desc || ''}">${weatherLabel}</div>` : ''}
+                    <div class="match-info-lines">
+                        <div class="match-info-paired">
+                            ${referees.length ? `<div class="match-info-line referee">Domare: ${referees.join(', ')}</div>` : ''}
+                        </div>
+                        <div class="match-info-line">Omklädningsrum bokat: ${bookingText.replace(/^Bokat\s*/, '')}</div>
+                    </div>
+                    <div class="details">
+                        <div class="room-summary">
+                            <span class="room-summary-label">Omklädningsrum</span>
+                            <span class="room-summary-value">Hemmalag ${homeRoom ? formatRoomNumber(homeRoom) : '?'}</span>
+                            <span class="room-summary-separator">·</span>
+                            <span class="room-summary-value away">Bortalag ${awayRoom ? formatRoomNumber(awayRoom) : '?'}</span>
+                            <span class="room-summary-time">${bookingText}</span>
+                        </div>
+                    </div>
                 </article>
             `;
         }
@@ -861,8 +1250,8 @@
         }
 
         async function loadPage() {
-            const todayIso = todayIsoLocal();
-            document.getElementById('dateLabel').textContent = formatLocalDate(todayIso);
+            document.getElementById('dateLabel').textContent = formatLocalDate(viewedDateIso);
+            updateDateNavigation();
 
             try {
                 const response = await fetch(`data/calendar.json?t=${Date.now()}`);
@@ -872,12 +1261,12 @@
                 const uniqueMatches = deduplicateMatches(data.activities || []);
                 const homeMatches = uniqueMatches
                     .filter(item => item.type === 'Match')
-                    .filter(item => item.date === todayIso)
+                    .filter(item => item.date === viewedDateIso)
                     .filter(isHomeMatch)
                     .filter(isRoomAssignmentMatch)
                     .sort((a, b) => `${a.time || ''} ${a.team || ''}`.localeCompare(`${b.time || ''} ${b.team || ''}`));
                 const roomAssignments = getRoomAssignments(
-                    uniqueMatches.filter(item => item.date === todayIso)
+                    uniqueMatches.filter(item => item.date === viewedDateIso)
                 );
 
                 document.getElementById('updatedLabel').textContent = formatUpdatedLabel(data.last_updated);
@@ -887,7 +1276,7 @@
                 if (!homeMatches.length) {
                     cards.innerHTML = `
                         <div class="empty">
-                            <strong>Inga hemmamatcher idag</strong>
+                            <strong>Inga hemmamatcher detta datum</strong>
                         </div>
                     `;
                     lastSuccessfulRenderAt = Date.now();
@@ -900,6 +1289,17 @@
                 showPageError(error);
             }
         }
+
+        document.getElementById('previousDateButton').addEventListener('click', () => {
+            if (viewedDateIso <= minimumBrowseDate) return;
+            viewedDateIso = shiftDate(viewedDateIso, -1);
+            loadPage();
+        });
+        document.getElementById('nextDateButton').addEventListener('click', () => {
+            if (viewedDateIso >= maximumBrowseDate) return;
+            viewedDateIso = shiftDate(viewedDateIso, 1);
+            loadPage();
+        });
 
         loadPage();
         // Refresh the data frequently so a newly published calendar is picked up quickly.

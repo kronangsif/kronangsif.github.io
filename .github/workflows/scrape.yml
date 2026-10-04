@@ -26,6 +26,8 @@ jobs:
         run: pip install -r requirements.txt
       
       - name: Run scraper
+        env:
+          FOGIS_API_KEY: ${{ secrets.FOGIS_API_KEY }}
         run: python scraper.py
       
       - name: Commit and push

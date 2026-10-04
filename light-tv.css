@@ -23,7 +23,8 @@ body {
 .hero {
     background: var(--tv-bg) !important;
     color: var(--tv-text) !important;
-    border-color: #2563eb !important;
+    border-color: var(--tv-border) !important;
+    border-bottom: 0 !important;
 }
 
 .hero {
@@ -95,13 +96,13 @@ body {
 }
 
 .match-card {
-    background: var(--tv-surface) !important;
+    background: #ffffff !important;
     border-color: var(--tv-border) !important;
     box-shadow: 0 3px 12px rgba(15, 23, 42, 0.1) !important;
 }
 
 .match-card::before {
-    background: linear-gradient(135deg, rgba(37, 99, 235, 0.06), transparent 55%) !important;
+    display: none !important;
 }
 
 .team,
@@ -172,22 +173,31 @@ body {
 .activity-time,
 .match-time,
 .event-time,
-.room-number,
 .day-high,
 .current-temp,
 .hour-temp {
     color: #1d4ed8 !important;
 }
 
+.room-number {
+    color: #4b5563 !important;
+}
+
 .activity-weather,
 .match-weather,
 .event-weather,
 .weather,
-.badge,
-.meta {
+.badge {
     background: #e0ecff !important;
     color: #1e3a8a !important;
     border-color: #93c5fd !important;
+}
+
+.meta {
+    background: #ffffff !important;
+    color: var(--tv-text) !important;
+    border: 0 !important;
+    box-shadow: none !important;
 }
 
 .empty-state,
