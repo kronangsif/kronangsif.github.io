@@ -355,6 +355,116 @@
             text-overflow: ellipsis;
             white-space: nowrap;
         }
+
+        .activity-list.training-list {
+            display: grid;
+            grid-template-columns: 1fr;
+            align-content: start;
+        }
+        .activity-item.training-card {
+            min-height: 0;
+            padding: 14px 16px 16px;
+            border: 1px solid #cbd5e1;
+            border-left: 1px solid #cbd5e1;
+            border-radius: 14px;
+            background: #ffffff;
+            box-shadow: 0 2px 8px rgba(15, 23, 42, 0.1);
+            color: #172033;
+        }
+        .training-card-head {
+            display: grid;
+            grid-template-columns: 86px minmax(0, 1fr) auto;
+            align-items: stretch;
+            column-gap: clamp(22px, 2.5vw, 40px);
+            row-gap: 0;
+        }
+        .training-card-mark {
+            display: block;
+            width: 86px;
+            height: 100%;
+            min-height: 92px;
+            padding: 0;
+            object-fit: contain;
+        }
+        .training-card-copy {
+            min-width: 0;
+            align-self: start;
+            padding-top: 2px;
+        }
+        .training-card-time-wrap {
+            align-self: start;
+            padding-top: 2px;
+            text-align: right;
+        }
+        .training-card-time {
+            color: #4b5563;
+            font-size: 1.35rem;
+            font-weight: 900;
+            letter-spacing: -0.04em;
+            line-height: 1;
+            white-space: nowrap;
+        }
+        .training-card-weather {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: clamp(8px, 1.4vw, 22px);
+            margin-top: 4px;
+            color: #526174;
+            font-size: 0.78rem;
+            font-weight: 700;
+            text-align: right;
+        }
+        .training-card-weather-icon {
+            display: inline-block;
+            margin-right: 0;
+            font-size: clamp(2rem, 4vw, 4rem);
+            line-height: 0.65;
+            vertical-align: middle;
+        }
+        .training-card-team {
+            margin-top: 0;
+            color: #172033;
+            font-size: 1.3rem;
+            font-weight: 900;
+            line-height: 1.1;
+        }
+        .training-card-desc {
+            margin-top: 5px;
+            color: #526174;
+            font-size: 0.98rem;
+            font-weight: 700;
+            line-height: 1.25;
+        }
+        .training-card-location {
+            margin-top: 9px;
+            color: #64748b;
+            font-size: 0.82rem;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+        @media (min-width: 901px) and (min-height: 600px) {
+            .activity-item.training-card {
+                padding: 16px 18px 18px;
+            }
+            .training-card-mark {
+                width: clamp(88px, 7vw, 120px);
+                min-height: 108px;
+                height: 100%;
+            }
+            .training-card-time {
+                font-size: clamp(1.45rem, 1.8vw, 1.9rem);
+            }
+            .training-card-team {
+                font-size: clamp(1.35rem, 1.8vw, 1.9rem);
+            }
+            .training-card-desc {
+                font-size: clamp(1rem, 1.2vw, 1.25rem);
+            }
+            .training-card-location {
+                font-size: clamp(0.82rem, 0.95vw, 1rem);
+            }
+        }
         @media (max-width: 700px) {
             .activity-list.match-list {
                 grid-template-columns: 1fr;
@@ -418,7 +528,7 @@
             }).format(new Date());
         }
 
-        function updatePageTitle() {
+        function updatePageTitle(dateIso = todayIsoLocal()) {
             const title = document.getElementById('pageTitle');
             const formatter = new Intl.DateTimeFormat('sv-SE', {
                 timeZone: 'Europe/Stockholm',
@@ -426,7 +536,7 @@
                 day: 'numeric',
                 month: 'long'
             });
-            const label = formatter.format(new Date());
+            const label = formatter.format(new Date(`${dateIso}T12:00:00`));
             const prettyLabel = label.charAt(0).toUpperCase() + label.slice(1);
             title.textContent = `Dagens aktiviteter - ${prettyLabel}`;
         }
@@ -506,15 +616,19 @@
         function renderActivity(item) {
             if (item.type === 'Match') return renderMatchActivity(item);
             return `
-                    <div class="activity-item">
-                        <div class="activity-meta">
-                            <div class="activity-time">${formatTimeRange(item)}</div>
-                            ${item.weather ? `<div class="activity-weather" title="${item.weather.desc}">${item.weather.icon} ${item.weather.temp}°C</div>` : ''}
+                    <div class="activity-item training-card">
+                        <div class="training-card-head">
+                            <img class="training-card-mark" src="training-player-icon.png" alt="">
+                            <div class="training-card-copy">
+                                <div class="training-card-team">${item.team || 'Okänt lag'}</div>
+                                ${item.description ? `<div class="training-card-desc">${item.description}</div>` : ''}
+                                ${item.location ? `<div class="training-card-location">${item.location}</div>` : ''}
+                            </div>
+                            <div class="training-card-time-wrap">
+                                <div class="training-card-time">${formatTimeRange(item)}</div>
+                                ${item.weather ? `<div class="training-card-weather"><span class="training-card-weather-icon">${item.weather.icon}</span> ${Math.round(item.weather.temp)}°C</div>` : ''}
+                            </div>
                         </div>
-                        <div class="activity-type">${item.type || 'Aktivitet'}</div>
-                        <div class="activity-team">${item.team || 'Okänt lag'}</div>
-                        ${item.description ? `<div class="activity-desc">${item.description}</div>` : ''}
-                        <div class="activity-location">${item.location || ''}</div>
                     </div>
                 `;
         }
@@ -530,7 +644,7 @@
                         <div class="bucket-title">${bucket.title}</div>
                         <div class="bucket-subtitle">${items.length} aktiviteter</div>
                     </div>
-                    <div class="activity-list${items.some(item => item.type === 'Match') ? ' match-list' : ''}">${itemHtml}</div>
+                    <div class="activity-list${items.some(item => item.type === 'Match') ? ' match-list' : (items.length ? ' training-list' : '')}">${itemHtml}</div>
                 </section>
             `;
         }
@@ -554,11 +668,25 @@
                     throw new Error(`Kalenderdata kunde inte hämtas (${lastError?.message || 'okänt fel'})`);
                 }
 
-                const todayIso = todayIsoLocal();
-                const activities = (data.activities || [])
-                    .filter(item => item.date === todayIso)
-                    .filter(isVisibleActivity)
-                    .sort((a, b) => `${a.time}`.localeCompare(`${b.time}`));
+                const params = new URLSearchParams(window.location.search);
+                const viewDate = params.get('date') || todayIsoLocal();
+                const demoTraining = params.get('demo') === 'training';
+                updatePageTitle(viewDate);
+                const activities = demoTraining
+                    ? [{
+                        date: viewDate,
+                        time: '18:00',
+                        end_time: '19:30',
+                        team: 'P2012',
+                        type: 'Träning',
+                        description: 'Teknikträning med boll',
+                        location: 'Kronäng Arena',
+                        weather: { icon: '☁️', temp: 14 }
+                    }]
+                    : (data.activities || [])
+                        .filter(item => item.date === viewDate)
+                        .filter(isVisibleActivity)
+                        .sort((a, b) => `${a.time}`.localeCompare(`${b.time}`));
 
                 const grouped = new Map(BUCKETS.map(bucket => [bucket.key, []]));
                 activities.forEach(item => {
@@ -568,7 +696,7 @@
 
                 const hasVisibleActivities = Array.from(grouped.values()).some(items => items.length > 0);
                 if (!hasVisibleActivities) {
-                    grid.innerHTML = '<div class="empty-state">Inga aktiviteter idag i de valda tidsintervallen.</div>';
+                    grid.innerHTML = '<div class="empty-state">Inga aktiviteter detta datum i de valda tidsintervallen.</div>';
                     return;
                 }
 
