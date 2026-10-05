@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-05T08:38:32.956647",
+  "last_updated": "2026-10-05T12:50:18.557837",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -389,7 +389,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.4
+        "temp": 8.8
       }
     },
     {
@@ -419,7 +419,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.6
+        "temp": 10.3
       }
     },
     {
@@ -481,6 +481,34 @@
         "desc": "Dis",
         "temp": 8.4
       }
+    },
+    {
+      "date": "2026-10-12",
+      "day": "12",
+      "weekday": "",
+      "time": "19:30",
+      "end_time": "",
+      "team": "Kronängs IF U",
+      "team_id": "213080",
+      "type": "Match",
+      "description": "Byttorps IF U hemma",
+      "venue": "Kronäng Arena konstgräs 1",
+      "calendar_venue": "",
+      "location": "Kronäng Arena konstgräs 1 Konstgräs",
+      "lockerooms": null,
+      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
+      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11498.png",
+      "referees": [
+        "Selim Hasani"
+      ],
+      "fogis_game_id": 6743393,
+      "fogis_status": {
+        "postponed": false,
+        "abandoned": false,
+        "canceled": false,
+        "finished": false
+      },
+      "weather": null
     },
     {
       "date": "2026-10-16",
@@ -545,15 +573,15 @@
       "team": "Kronängs IF",
       "team_id": "364396",
       "type": "Match",
-      "description": "Mariestads BK borta",
+      "description": "Borås AIK hemma",
       "venue": "",
       "calendar_venue": "",
       "location": "",
       "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8679.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
+      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
+      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11535.png",
       "referees": [],
-      "fogis_game_id": 6920809,
+      "fogis_game_id": 6920808,
       "fogis_status": {
         "postponed": false,
         "abandoned": false,
@@ -571,15 +599,15 @@
       "team": "Kronängs IF",
       "team_id": "364396",
       "type": "Match",
-      "description": "Borås AIK hemma",
+      "description": "Mariestads BK borta",
       "venue": "",
       "calendar_venue": "",
       "location": "",
       "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11535.png",
+      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8679.png",
+      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
       "referees": [],
-      "fogis_game_id": 6920808,
+      "fogis_game_id": 6920809,
       "fogis_status": {
         "postponed": false,
         "abandoned": false,
@@ -632,34 +660,6 @@
       "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
       "referees": [],
       "fogis_game_id": 6920814,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": false
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-12-31",
-      "day": "31",
-      "weekday": "",
-      "time": "18:30",
-      "end_time": "",
-      "team": "Kronängs IF U",
-      "team_id": "213080",
-      "type": "Match",
-      "description": "Byttorps IF U hemma",
-      "venue": "Kronäng Arena konstgräs 1",
-      "calendar_venue": "",
-      "location": "Kronäng Arena konstgräs 1 Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11498.png",
-      "referees": [
-        "Selim Hasani"
-      ],
-      "fogis_game_id": 6743393,
       "fogis_status": {
         "postponed": false,
         "abandoned": false,
@@ -889,7 +889,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.7
+        "temp": 14.8
       }
     },
     {
@@ -905,7 +905,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.7
+        "temp": 14.8
       }
     },
     {
@@ -953,7 +953,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.5
+        "temp": 13.7
       }
     },
     {
@@ -969,7 +969,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.5
+        "temp": 13.7
       }
     },
     {
@@ -985,7 +985,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.5
+        "temp": 13.7
       }
     },
     {
@@ -1001,7 +1001,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.5
+        "temp": 13.7
       }
     },
     {
@@ -1017,7 +1017,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.5
+        "temp": 13.7
       }
     },
     {
@@ -1033,7 +1033,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.5
+        "temp": 13.7
       }
     },
     {
@@ -1049,7 +1049,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.5
+        "temp": 13.7
       }
     },
     {
@@ -1065,7 +1065,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.5
+        "temp": 13.7
       }
     },
     {
@@ -1081,7 +1081,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 12.4
       }
     },
     {
@@ -1097,7 +1097,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 12.4
       }
     },
     {
@@ -1113,7 +1113,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 12.5
       }
     },
     {
@@ -1129,7 +1129,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 12.5
       }
     },
     {
@@ -1145,7 +1145,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 12.5
       }
     },
     {
@@ -1159,9 +1159,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.0
       }
     },
     {
@@ -1175,9 +1175,9 @@
       "lockerooms": null,
       "team_id": "324307",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.3
       }
     },
     {
@@ -1191,9 +1191,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.3
       }
     },
     {
@@ -1207,9 +1207,9 @@
       "lockerooms": null,
       "team_id": "414417",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.3
       }
     },
     {
@@ -1223,9 +1223,9 @@
       "lockerooms": null,
       "team_id": "520555",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.3
       }
     },
     {
@@ -1239,9 +1239,9 @@
       "lockerooms": null,
       "team_id": "612530",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.3
       }
     },
     {
@@ -1257,7 +1257,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.2
+        "temp": 5.6
       }
     },
     {
@@ -1273,7 +1273,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.7
+        "temp": 5.5
       }
     },
     {
@@ -1289,7 +1289,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.7
+        "temp": 5.5
       }
     },
     {
@@ -1305,7 +1305,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.7
+        "temp": 5.5
       }
     },
     {
@@ -1321,7 +1321,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.5
+        "temp": 8.3
       }
     },
     {
@@ -1337,7 +1337,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.5
+        "temp": 8.3
       }
     },
     {
