@@ -11,7 +11,8 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.parse import urljoin
 
-CALENDAR_URL = "https://www.kronangsif.se/match/?ID=38276&kommande=1"
+# Current SportAdmin calendar: contains both matches and training sessions.
+CALENDAR_URL = "https://www.kronangsif.se/kalender/?ID=38276"
 TEAM_CALENDAR_URL = "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID={team_id}"
 HOME_URL = "https://www.kronangsif.se/"
 FOGIS_API_URL = "https://api-fogis-association.azure-api.net/club"
