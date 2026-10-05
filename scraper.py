@@ -200,7 +200,7 @@ def build_standings(games):
         if counts:
             selected = max(counts, key=counts.get)
             selected_competitions[label] = selected[0]
-            print(f"{label} standings competition: {selected[1]} ({counts[selected]} games)")
+            print(f"{label} standings competition: {selected[0]} {selected[1]} ({counts[selected]} games)")
 
     for game in games:
         if not game.get("isFinished") or game.get("isCanceled") or game.get("isAbandoned"):
