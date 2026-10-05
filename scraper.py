@@ -349,7 +349,7 @@ def parse_calendar(html):
 
 
 def parse_sportadmin_match_calendar(html):
-    """Parse current SportAdmin match rows, including Plan A/B labels."""
+    """Parse current SportAdmin calendar events, including training sessions."""
     soup = BeautifulSoup(html, 'html.parser')
     month_node = soup.select_one('.sa-matches__month')
     month_text = month_node.get_text(' ', strip=True) if month_node else ''
@@ -361,12 +361,58 @@ def parse_sportadmin_match_calendar(html):
     month = month_names.get(month_match.group(1).lower(), date.today().month) if month_match else date.today().month
     year = int(month_match.group(2)) if month_match else date.today().year
     team_labels = {
-        'Pojkar födda 2015': 'P2015', 'Pojkar födda 2014': 'P2014',
+        'P 2015': 'P2015', 'Pojkar födda 2015': 'P2015', 'Pojkar födda 2014': 'P2014',
         'Pojkar födda 2013': 'P2013', 'Pojkar födda 2012': 'P2012',
         'Pojkar födda 2011': 'P2011', 'Pojkar födda 2009-10': 'P2009-2010',
         'Dam': 'Damer', 'Herr': 'Herrar',
     }
     activities = []
+
+    # The current SportAdmin calendar uses date groups and event cards rather
+    # than the old match-row markup. This contains both matches and training.
+    date_groups = soup.select('.sa-calendar__date-group')
+    if date_groups:
+        for date_group in date_groups:
+            day_node = date_group.select_one('.sa-calendar__date-number')
+            if not day_node:
+                continue
+            try:
+                iso_date = date(year, month, int(day_node.get_text(strip=True))).isoformat()
+            except ValueError:
+                continue
+
+            for event in date_group.select('.sa-calendar__event'):
+                start_node = event.select_one('.sa-calendar__time-start')
+                end_node = event.select_one('.sa-calendar__time-end')
+                labels = event.select('.sa-calendar__event-label')
+                heading_node = event.select_one('.sa-calendar__event-heading')
+                location_node = event.select_one('.sa-calendar__event-location')
+                if not start_node or not labels or not heading_node:
+                    continue
+
+                team = team_labels.get(labels[0].get_text(' ', strip=True), labels[0].get_text(' ', strip=True))
+                heading = heading_node.get_text(' ', strip=True)
+                location = location_node.get_text(' ', strip=True).lstrip(',').strip() if location_node else ''
+                event_link = event.select_one('.sa-calendar__event-link')
+                is_match = 'sa-calendar__event--game' in (event.get('class') or [])
+                description = heading
+                if is_match:
+                    description = heading
+
+                activities.append({
+                    'date': iso_date,
+                    'time': start_node.get_text(strip=True),
+                    'end_time': end_node.get_text(strip=True) if end_node else '',
+                    'team': team,
+                    'type': 'Match' if is_match else ('Träning' if 'träning' in heading.lower() else 'Övrigt'),
+                    'description': description,
+                    'location': location,
+                    'lockerooms': None,
+                    'team_id': re.search(r'[?&]ID=(\d+)', labels[0].get('href', '')).group(1)
+                        if re.search(r'[?&]ID=(\d+)', labels[0].get('href', '')) else None,
+                })
+        return month, year, activities
+
     for row in soup.select('.sa-matches__row'):
         day_node = row.select_one('.sa-matches__day')
         time_node = row.select_one('.sa-matches__time')
@@ -598,6 +644,11 @@ def main():
         month, year, activities = parse_calendar(html)
         print(f"Calendar month: {month}/{year}")
 
+    existing = {
+        (a.get('date'), a.get('time'), a.get('team'), a.get('description'), a.get('location'))
+        for a in activities
+    }
+
     # The current SportAdmin main calendar contains the new calendar links
     # (ID/AID) and may include the detailed pitch label, such as Plan A/B.
     # Use it to enrich the authoritative Fogis fixtures.
@@ -606,7 +657,19 @@ def main():
             calendar_html = fetch_calendar()
             _, _, calendar_activities = parse_sportadmin_match_calendar(calendar_html)
             calendar_matches = [item for item in calendar_activities if item.get("type") == "Match"]
-            print(f"SportAdmin calendar matches available for enrichment: {len(calendar_matches)}")
+            calendar_trainings = [item for item in calendar_activities if item.get("type") != "Match"]
+            print(f"SportAdmin calendar activities available: {len(calendar_activities)} "
+                  f"({len(calendar_matches)} matches, {len(calendar_trainings)} training/other)")
+
+            for activity in calendar_trainings:
+                key = (
+                    activity.get('date'), activity.get('time'), activity.get('team'),
+                    activity.get('description'), activity.get('location')
+                )
+                if key not in existing:
+                    activities.append(activity)
+                    existing.add(key)
+
             for activity in calendar_matches:
                 activity_team = re.sub(r"\s+", "", str(activity.get("team") or "")).lower()
                 activity_description = re.sub(r"\s+", " ", str(activity.get("description") or "")).strip().lower()
@@ -632,13 +695,8 @@ def main():
         except Exception as error:
             print(f"Warning: Could not enrich Fogis games from SportAdmin calendar: {error}")
 
-    # The match calendar does not include regular team training sessions.
-    # Fetch each team's calendar as well so the dashboard's daily activity
-    # view contains both matches and training.
-    existing = {
-        (a.get('date'), a.get('time'), a.get('team'), a.get('description'), a.get('location'))
-        for a in activities
-    }
+    # Keep the legacy team-calendar pass as a compatibility fallback while
+    # SportAdmin's main calendar is migrated. New training is read above.
     team_calendar_count = 0
     for team_id, team_name in TEAM_IDS.items():
         if team_name == "VEO kamera":
