@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-05T12:53:21.429103",
+  "last_updated": "2026-10-05T13:44:03.263226",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -483,8 +483,8 @@
       }
     },
     {
-      "date": "2026-10-12",
-      "day": "12",
+      "date": "2026-10-14",
+      "day": "14",
       "weekday": "",
       "time": "19:30",
       "end_time": "",
@@ -568,15 +568,15 @@
       "date": "2026-11-08",
       "day": "08",
       "weekday": "",
-      "time": "00:00",
+      "time": "09:00",
       "end_time": "",
       "team": "Kronängs IF",
       "team_id": "364396",
       "type": "Match",
       "description": "Borås AIK hemma",
-      "venue": "",
+      "venue": "Rångedalahallen",
       "calendar_venue": "",
-      "location": "",
+      "location": "Rångedalahallen Sportgolv",
       "lockerooms": null,
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
       "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11535.png",
@@ -594,15 +594,15 @@
       "date": "2026-11-08",
       "day": "08",
       "weekday": "",
-      "time": "00:00",
+      "time": "11:40",
       "end_time": "",
       "team": "Kronängs IF",
       "team_id": "364396",
       "type": "Match",
       "description": "Mariestads BK borta",
-      "venue": "",
+      "venue": "Rångedalahallen",
       "calendar_venue": "",
-      "location": "",
+      "location": "Rångedalahallen Sportgolv",
       "lockerooms": null,
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8679.png",
       "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
@@ -889,7 +889,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 14.7
       }
     },
     {
@@ -905,7 +905,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 14.7
       }
     },
     {
@@ -921,7 +921,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.8
       }
     },
     {
@@ -937,7 +937,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.9
+        "temp": 14.8
       }
     },
     {
@@ -953,7 +953,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.7
+        "temp": 13.6
       }
     },
     {
@@ -969,7 +969,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.7
+        "temp": 13.6
       }
     },
     {
@@ -985,7 +985,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.7
+        "temp": 13.6
       }
     },
     {
@@ -1001,7 +1001,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.7
+        "temp": 13.6
       }
     },
     {
@@ -1017,7 +1017,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.7
+        "temp": 13.6
       }
     },
     {
@@ -1033,7 +1033,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.7
+        "temp": 13.6
       }
     },
     {
@@ -1049,7 +1049,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.7
+        "temp": 13.6
       }
     },
     {
@@ -1065,7 +1065,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.7
+        "temp": 13.6
       }
     },
     {
@@ -1081,7 +1081,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.3
       }
     },
     {
@@ -1097,7 +1097,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.3
       }
     },
     {
@@ -1113,7 +1113,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.5
+        "temp": 12.6
       }
     },
     {
@@ -1129,7 +1129,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.5
+        "temp": 12.6
       }
     },
     {
@@ -1145,7 +1145,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.5
+        "temp": 12.6
       }
     },
     {
@@ -1161,7 +1161,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.0
+        "temp": 11.3
       }
     },
     {
@@ -2225,267 +2225,322 @@
     {
       "key": "herrar",
       "label": "Herrar",
-      "competition": "Herrar, Div 5 Södra",
+      "competition": "Herrar, Div 5 Sydvästra",
       "rows": [
         {
           "position": 1,
-          "team_id": 60636,
-          "name": "Bollebygds SK",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/11547.png",
-          "played": 22,
-          "wins": 15,
-          "draws": 4,
-          "losses": 3,
-          "points": 49
-        },
-        {
-          "position": 2,
-          "team_id": 62099,
-          "name": "Rävlanda AIS",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/10390.png",
-          "played": 22,
-          "wins": 13,
-          "draws": 5,
-          "losses": 4,
-          "points": 44
-        },
-        {
-          "position": 3,
-          "team_id": 65436,
-          "name": "Gällstads FK",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/6966.png",
-          "played": 22,
-          "wins": 12,
-          "draws": 5,
-          "losses": 5,
-          "points": 41
-        },
-        {
-          "position": 4,
-          "team_id": 63161,
-          "name": "Äspereds IF",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/9775.png",
-          "played": 22,
-          "wins": 12,
-          "draws": 4,
-          "losses": 6,
-          "points": 40
-        },
-        {
-          "position": 5,
-          "team_id": 63604,
-          "name": "Horreds IF",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/8701.png",
-          "played": 22,
-          "wins": 10,
-          "draws": 2,
-          "losses": 10,
-          "points": 32
-        },
-        {
-          "position": 6,
-          "team_id": 65500,
-          "name": "Torestorp-Älekulla FF",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/11958.png",
-          "played": 22,
-          "wins": 10,
-          "draws": 1,
-          "losses": 11,
-          "points": 31
-        },
-        {
-          "position": 7,
-          "team_id": 63447,
-          "name": "Fritsla IF",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/8715.png",
-          "played": 22,
-          "wins": 8,
-          "draws": 3,
-          "losses": 11,
-          "points": 27
-        },
-        {
-          "position": 8,
-          "team_id": 61800,
-          "name": "Länghems IF",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/10688.png",
-          "played": 22,
-          "wins": 8,
-          "draws": 2,
-          "losses": 12,
-          "points": 26
-        },
-        {
-          "position": 9,
-          "team_id": 25563,
-          "name": "Mariedals IK",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/10652.png",
-          "played": 22,
-          "wins": 8,
-          "draws": 2,
-          "losses": 12,
-          "points": 26
-        },
-        {
-          "position": 10,
           "team_id": 62457,
           "name": "Sätila SK",
           "logo": "https://staticcdn.svenskfotboll.se/img/teams/10140.png",
           "played": 22,
-          "wins": 6,
-          "draws": 6,
-          "losses": 10,
-          "points": 24
+          "wins": 15,
+          "draws": 4,
+          "losses": 3,
+          "points": 49,
+          "goals_for": 62,
+          "goals_against": 25,
+          "goal_diff": 37
         },
         {
-          "position": 11,
+          "position": 2,
+          "team_id": 64224,
+          "name": "BK Spark",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/8649.png",
+          "played": 22,
+          "wins": 13,
+          "draws": 4,
+          "losses": 5,
+          "points": 43,
+          "goals_for": 65,
+          "goals_against": 36,
+          "goal_diff": 29
+        },
+        {
+          "position": 3,
+          "team_id": 62099,
+          "name": "Rävlanda AIS",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/10390.png",
+          "played": 22,
+          "wins": 12,
+          "draws": 6,
+          "losses": 4,
+          "points": 42,
+          "goals_for": 60,
+          "goals_against": 37,
+          "goal_diff": 23
+        },
+        {
+          "position": 4,
+          "team_id": 64513,
+          "name": "Viskafors IF",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/8629.png",
+          "played": 22,
+          "wins": 11,
+          "draws": 3,
+          "losses": 8,
+          "points": 36,
+          "goals_for": 37,
+          "goals_against": 40,
+          "goal_diff": -3
+        },
+        {
+          "position": 5,
+          "team_id": 62808,
+          "name": "Töllsjö IF",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/10016.png",
+          "played": 22,
+          "wins": 11,
+          "draws": 1,
+          "losses": 10,
+          "points": 34,
+          "goals_for": 53,
+          "goals_against": 51,
+          "goal_diff": 2
+        },
+        {
+          "position": 6,
+          "team_id": 63447,
+          "name": "Fritsla IF",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/8715.png",
+          "played": 22,
+          "wins": 9,
+          "draws": 5,
+          "losses": 8,
+          "points": 32,
+          "goals_for": 45,
+          "goals_against": 45,
+          "goal_diff": 0
+        },
+        {
+          "position": 7,
+          "team_id": 62031,
+          "name": "Rydboholms SK",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/10408.png",
+          "played": 22,
+          "wins": 8,
+          "draws": 4,
+          "losses": 10,
+          "points": 28,
+          "goals_for": 42,
+          "goals_against": 45,
+          "goal_diff": -3
+        },
+        {
+          "position": 8,
+          "team_id": 61869,
+          "name": "SK Mjörn",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/10625.png",
+          "played": 22,
+          "wins": 7,
+          "draws": 6,
+          "losses": 9,
+          "points": 27,
+          "goals_for": 48,
+          "goals_against": 50,
+          "goal_diff": -2
+        },
+        {
+          "position": 9,
           "team_id": 63822,
           "name": "Kronängs IF",
           "logo": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
           "played": 22,
-          "wins": 6,
+          "wins": 7,
+          "draws": 5,
+          "losses": 10,
+          "points": 26,
+          "goals_for": 37,
+          "goals_against": 55,
+          "goal_diff": -18
+        },
+        {
+          "position": 10,
+          "team_id": 63604,
+          "name": "Horreds IF",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/8701.png",
+          "played": 22,
+          "wins": 7,
           "draws": 3,
-          "losses": 13,
-          "points": 21
+          "losses": 12,
+          "points": 24,
+          "goals_for": 47,
+          "goals_against": 47,
+          "goal_diff": 0
+        },
+        {
+          "position": 11,
+          "team_id": 65446,
+          "name": "Högvads BK",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/6929.png",
+          "played": 22,
+          "wins": 4,
+          "draws": 4,
+          "losses": 14,
+          "points": 16,
+          "goals_for": 36,
+          "goals_against": 50,
+          "goal_diff": -14
         },
         {
           "position": 12,
-          "team_id": 63517,
-          "name": "Gånghester/Målsryd",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/8709.png",
+          "team_id": 64109,
+          "name": "Sandhults SK",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/8660.png",
           "played": 22,
-          "wins": 4,
-          "draws": 3,
-          "losses": 15,
-          "points": 15
+          "wins": 5,
+          "draws": 1,
+          "losses": 16,
+          "points": 16,
+          "goals_for": 37,
+          "goals_against": 88,
+          "goal_diff": -51
         }
       ]
     },
     {
       "key": "damer",
       "label": "Damer",
-      "competition": "Damer, Div 4 Södra",
+      "competition": "Damer, Div 3 Södra",
       "rows": [
         {
           "position": 1,
-          "team_id": 298899,
-          "name": "IF Elfsborg U",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/11429.png",
-          "played": 16,
-          "wins": 15,
-          "draws": 1,
-          "losses": 0,
-          "points": 46
+          "team_id": 206590,
+          "name": "Toarpsalliansen",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/12553.png",
+          "played": 18,
+          "wins": 17,
+          "draws": 0,
+          "losses": 1,
+          "points": 51,
+          "goals_for": 83,
+          "goals_against": 13,
+          "goal_diff": 70
         },
         {
           "position": 2,
           "team_id": 176076,
           "name": "Kronängs IF ",
           "logo": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-          "played": 16,
-          "wins": 10,
-          "draws": 3,
+          "played": 18,
+          "wins": 14,
+          "draws": 1,
           "losses": 3,
-          "points": 33
+          "points": 43,
+          "goals_for": 66,
+          "goals_against": 33,
+          "goal_diff": 33
         },
         {
           "position": 3,
-          "team_id": 60662,
-          "name": "Fristad/Borgstena/Sparsör ",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/11539.png",
-          "played": 16,
-          "wins": 9,
-          "draws": 3,
-          "losses": 4,
-          "points": 30
+          "team_id": 62448,
+          "name": "Svenljunga IK",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/10153.png",
+          "played": 18,
+          "wins": 10,
+          "draws": 2,
+          "losses": 6,
+          "points": 32,
+          "goals_for": 36,
+          "goals_against": 25,
+          "goal_diff": 11
         },
         {
           "position": 4,
-          "team_id": 61282,
-          "name": "Hyssna IF",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/11089.png",
-          "played": 16,
+          "team_id": 64429,
+          "name": "Vartofta SK",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/8632.png",
+          "played": 18,
           "wins": 9,
-          "draws": 1,
+          "draws": 3,
           "losses": 6,
-          "points": 28
+          "points": 30,
+          "goals_for": 72,
+          "goals_against": 33,
+          "goal_diff": 39
         },
         {
           "position": 5,
-          "team_id": 238782,
-          "name": "Södra Ving/Hössna/Timmele U",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/10118.png",
-          "played": 16,
+          "team_id": 238823,
+          "name": "Alingsås KIK U",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/8345.png",
+          "played": 18,
           "wins": 9,
-          "draws": 1,
-          "losses": 6,
-          "points": 28
+          "draws": 2,
+          "losses": 7,
+          "points": 29,
+          "goals_for": 41,
+          "goals_against": 33,
+          "goal_diff": 8
         },
         {
           "position": 6,
-          "team_id": 294744,
-          "name": "Gällstads FK",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/6966.png",
-          "played": 16,
-          "wins": 5,
-          "draws": 1,
+          "team_id": 62494,
+          "name": "Södra Ving/Hössna/Timmele",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/10118.png",
+          "played": 18,
+          "wins": 8,
+          "draws": 0,
           "losses": 10,
-          "points": 16
+          "points": 24,
+          "goals_for": 52,
+          "goals_against": 59,
+          "goal_diff": -7
         },
         {
           "position": 7,
-          "team_id": 312583,
-          "name": "Annelunds IF",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/11630.png",
-          "played": 16,
-          "wins": 4,
-          "draws": 2,
-          "losses": 10,
-          "points": 14
+          "team_id": 114944,
+          "name": "IK Frisco U",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/8716.png",
+          "played": 18,
+          "wins": 6,
+          "draws": 3,
+          "losses": 9,
+          "points": 21,
+          "goals_for": 29,
+          "goals_against": 67,
+          "goal_diff": -38
         },
         {
           "position": 8,
-          "team_id": 246465,
-          "name": "Brämhults IK U ",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/8727.png",
-          "played": 16,
-          "wins": 2,
-          "draws": 1,
-          "losses": 13,
-          "points": 7
+          "team_id": 63333,
+          "name": "Falköpings KIK U",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/8721.png",
+          "played": 18,
+          "wins": 3,
+          "draws": 5,
+          "losses": 10,
+          "points": 14,
+          "goals_for": 35,
+          "goals_against": 44,
+          "goal_diff": -9
         },
         {
           "position": 9,
-          "team_id": 178099,
-          "name": "Östadkulle/Södra Härene",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/9743.png",
-          "played": 16,
-          "wins": 2,
+          "team_id": 60662,
+          "name": "Fristad/Borgstena/Sparsör ",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/11539.png",
+          "played": 18,
+          "wins": 4,
           "draws": 1,
           "losses": 13,
-          "points": 7
+          "points": 13,
+          "goals_for": 36,
+          "goals_against": 67,
+          "goal_diff": -31
         },
         {
           "position": 10,
-          "team_id": 61850,
-          "name": "Mariedal/Sjömarken",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/10652.png",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "points": 0
-        },
-        {
-          "position": 11,
-          "team_id": 206590,
-          "name": "Toarpsalliansen",
-          "logo": "https://staticcdn.svenskfotboll.se/img/teams/12553.png",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "points": 0
+          "team_id": 108092,
+          "name": "IFK Tidaholm",
+          "logo": "https://staticcdn.svenskfotboll.se/img/teams/10959.png",
+          "played": 18,
+          "wins": 1,
+          "draws": 1,
+          "losses": 16,
+          "points": 4,
+          "goals_for": 16,
+          "goals_against": 92,
+          "goal_diff": -76
         }
       ]
     }
