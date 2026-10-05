@@ -182,7 +182,7 @@ def fetch_fogis_games(api_key, from_date, to_date):
     return payload["games"]
 
 
-def fetch_fogis_team_standings(api_key, team_id, label):
+def fetch_fogis_team_standings(api_key, team_id, label, preferred_competition_id=None):
     """Fetch the official full table for a team engagement from Fogis."""
     response = requests.get(
         f"{FOGIS_STANDINGS_URL}/{team_id}",
@@ -202,7 +202,12 @@ def fetch_fogis_team_standings(api_key, team_id, label):
     if not candidates:
         raise ValueError(f"Fogis-svaret saknar standings för {label}")
 
-    standings, rows = candidates[0]
+    selected = next(
+        ((standings, rows) for standings, rows in candidates
+         if standings.get("competitionId") == preferred_competition_id),
+        candidates[0],
+    )
+    standings, rows = selected
     normalized = []
     for row in rows:
         normalized.append({
@@ -215,6 +220,9 @@ def fetch_fogis_team_standings(api_key, team_id, label):
             "draws": row.get("draws", 0),
             "losses": row.get("losses", 0),
             "points": row.get("points", 0),
+            "goals_for": row.get("goalsScored", 0),
+            "goals_against": row.get("goalsConceded", 0),
+            "goal_diff": row.get("goalDifferential", 0),
         })
     normalized.sort(key=lambda row: (row["position"] is None, row["position"] or 999, row["name"]))
     return {
@@ -891,8 +899,8 @@ def main():
     if fogis_enabled:
         try:
             standings = [
-                fetch_fogis_team_standings(fogis_api_key, 63822, "Herrar"),
-                fetch_fogis_team_standings(fogis_api_key, 176076, "Damer"),
+                fetch_fogis_team_standings(fogis_api_key, 63822, "Herrar", 135576),
+                fetch_fogis_team_standings(fogis_api_key, 176076, "Damer", 135586),
             ]
             print("Official Fogis standings: " + ", ".join(
                 f"{table['label']} {len(table['rows'])} teams ({table['competition']})"
