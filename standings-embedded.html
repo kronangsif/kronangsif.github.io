@@ -31,7 +31,7 @@
     tbody tr:last-child td { border-bottom:0; }
     tbody tr:first-child { background:rgba(40,127,122,.08); }
     tbody tr:first-child td:first-child { color:var(--accent); }
-    tbody tr.own-team { background:rgba(40,127,122,.14); }
+    tbody tr.own-team { background:#e8f6ed; }
     tbody tr.own-team td:first-child { color:var(--accent); }
     .team { display:flex; align-items:center; gap:6px; min-width:0; font-weight:750; }
     .team img { width:25px; height:25px; object-fit:contain; flex:none; }
@@ -55,7 +55,7 @@
     const params = new URLSearchParams(location.search), wanted = (params.get('team') || '').toLowerCase(), fallbackLogo = 'kronang-logo-2026.png';
     const esc = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
     function tableMarkup(table) {
-      return `<article class="card"><header class="card-head"><div><h2>${esc(table.label)}</h2><span class="series">${esc(table.competition || '')}</span></div></header><div class="table-wrap"><table><thead><tr><th>Lag</th><th>Spelade</th><th>Poäng</th><th>V</th><th>O</th><th>F</th></tr></thead><tbody>${table.rows.map((row,index) => { const own = /^Kronängs IF/i.test((row.name || '').trim()); return `<tr class="${own ? 'own-team' : ''}"><td><div class="team"><span class="rank">${row.position ?? index + 1}</span><img src="${esc(row.logo || fallbackLogo)}" alt=""><span>${own ? '★ ' : ''}${esc(row.name.trim())}</span></div></td><td>${row.played}</td><td class="points">${row.points}</td><td>${row.wins}</td><td>${row.draws}</td><td>${row.losses}</td></tr>`; }).join('')}</tbody></table></div></article>`;
+      return `<article class="card"><header class="card-head"><div><h2>${esc(table.label)}</h2><span class="series">${esc(table.competition || '')}</span></div></header><div class="table-wrap"><table><thead><tr><th>Lag</th><th>Spelade</th><th>Poäng</th><th>V</th><th>O</th><th>F</th></tr></thead><tbody>${table.rows.map((row,index) => { const own = /^Kronängs IF/i.test((row.name || '').trim()); return `<tr class="${own ? 'own-team' : ''}"><td><div class="team"><span class="rank">${row.position ?? index + 1}</span><img src="${esc(row.logo || fallbackLogo)}" alt=""><span>${esc(row.name.trim())}</span></div></td><td>${row.played}</td><td class="points">${row.points}</td><td>${row.wins}</td><td>${row.draws}</td><td>${row.losses}</td></tr>`; }).join('')}</tbody></table></div></article>`;
     }
     async function load() {
       let data;
