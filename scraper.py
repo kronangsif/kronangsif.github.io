@@ -563,6 +563,16 @@ def save_data(activities, month, year, latest_news, sources=None):
     print(f"Saved {len(activities)} activities")
 
 
+def existing_activity_count():
+    """Return the number of activities in the last published data file."""
+    try:
+        with open(OUTPUT_FILE, encoding="utf-8") as f:
+            previous = json.load(f)
+        return len(previous.get("activities") or [])
+    except (OSError, ValueError, TypeError):
+        return 0
+
+
 def main():
     print("Fetching Kronängs IF calendar...")
     today = date.today()
@@ -694,6 +704,17 @@ def main():
         print(f"Weather added to {weather_count} activities")
     except Exception as e:
         print(f"Warning: Could not fetch weather: {e}")
+
+    # A failed upstream response must never replace a known-good calendar with
+    # an empty one. This is especially important when both Fogis and the
+    # legacy SportAdmin calendar are temporarily unavailable.
+    if not activities:
+        previous_count = existing_activity_count()
+        if previous_count:
+            raise RuntimeError(
+                f"Scrape returned 0 activities while published data contains "
+                f"{previous_count}; refusing to overwrite calendar.json"
+            )
 
     save_data(activities, month, year, latest_news, sources=sources)
     print(f"Done! Found {len(activities)} activities")
