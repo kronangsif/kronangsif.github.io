@@ -186,6 +186,22 @@ def build_standings(games):
     target_teams = {63822: "Herrar", 176076: "Damer"}
     tables = {label: {} for label in target_teams.values()}
 
+    competitions = {label: {} for label in target_teams.values()}
+    for game in games:
+        if not game.get("isFinished") or game.get("isCanceled") or game.get("isAbandoned"):
+            continue
+        for target_id, label in target_teams.items():
+            if target_id in (game.get("homeTeamId"), game.get("awayTeamId")):
+                key = (game.get("competitionId"), game.get("competitionName") or "Okänd tävling")
+                competitions[label][key] = competitions[label].get(key, 0) + 1
+
+    selected_competitions = {}
+    for label, counts in competitions.items():
+        if counts:
+            selected = max(counts, key=counts.get)
+            selected_competitions[label] = selected[0]
+            print(f"{label} standings competition: {selected[1]} ({counts[selected]} games)")
+
     for game in games:
         if not game.get("isFinished") or game.get("isCanceled") or game.get("isAbandoned"):
             continue
@@ -202,6 +218,8 @@ def build_standings(games):
 
         for target_id, label in target_teams.items():
             if target_id not in (home_id, away_id):
+                continue
+            if game.get("competitionId") != selected_competitions.get(label):
                 continue
             table = tables[label]
             for side, team_id, team_name, score, opponent_score in (
