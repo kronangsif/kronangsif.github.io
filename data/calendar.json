@@ -1,249 +1,13 @@
 {
-  "last_updated": "2026-10-04T21:13:49.938674",
+  "last_updated": "2026-10-05T06:31:45.650738",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 10,
   "year": 2026,
-  "activity_count": 36,
+  "activity_count": 27,
   "activities": [
-    {
-      "date": "2026-09-27",
-      "day": "27",
-      "weekday": "",
-      "time": "11:00",
-      "end_time": "",
-      "team": "P2014",
-      "team_id": "185875",
-      "type": "Match",
-      "description": "Lerums IS hemma",
-      "venue": "Kronäng Arena",
-      "calendar_venue": "",
-      "location": "Kronäng Arena Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/10756.png",
-      "referees": [],
-      "fogis_game_id": 6888825,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-09-27",
-      "day": "27",
-      "weekday": "",
-      "time": "11:00",
-      "end_time": "",
-      "team": "Kronängs IF",
-      "team_id": "244402",
-      "type": "Match",
-      "description": "IFK Öxnevalla borta",
-      "venue": "Hedevallen",
-      "calendar_venue": "",
-      "location": "Hedevallen Naturgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8694.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "referees": [],
-      "fogis_game_id": 6862761,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-09-27",
-      "day": "27",
-      "weekday": "",
-      "time": "12:30",
-      "end_time": "",
-      "team": "P2013",
-      "team_id": "87251",
-      "type": "Match",
-      "description": "IF Elfsborg Röd borta",
-      "venue": "Ryda Sportfält B",
-      "calendar_venue": "",
-      "location": "Ryda Sportfält B Naturgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11429.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "referees": [],
-      "fogis_game_id": 6723543,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-09-27",
-      "day": "27",
-      "weekday": "",
-      "time": "13:30",
-      "end_time": "",
-      "team": "P2015",
-      "team_id": "353087",
-      "type": "Match",
-      "description": "Sätila SK hemma",
-      "venue": "Kronäng Arena",
-      "calendar_venue": "",
-      "location": "Kronäng Arena Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/10140.png",
-      "referees": [],
-      "fogis_game_id": 6775978,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": false
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-09-27",
-      "day": "27",
-      "weekday": "",
-      "time": "13:30",
-      "end_time": "",
-      "team": "P2015",
-      "team_id": "353087",
-      "type": "Match",
-      "description": "Rydboholms SK hemma",
-      "venue": "Kronäng Arena",
-      "calendar_venue": "",
-      "location": "Kronäng Arena Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/10408.png",
-      "referees": [],
-      "fogis_game_id": 6776964,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": false
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-09-27",
-      "day": "27",
-      "weekday": "",
-      "time": "16:00",
-      "end_time": "",
-      "team": "P2012",
-      "team_id": "239536",
-      "type": "Match",
-      "description": "Rydboholms SK borta",
-      "venue": "Sven Erikssonsvallen",
-      "calendar_venue": "",
-      "location": "Sven Erikssonsvallen Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/10408.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "referees": [],
-      "fogis_game_id": 6721656,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-09-27",
-      "day": "27",
-      "weekday": "",
-      "time": "16:00",
-      "end_time": "",
-      "team": "P2016",
-      "team_id": "372809",
-      "type": "Match",
-      "description": "Mariedals IK Vit hemma",
-      "venue": "Kronäng Arena",
-      "calendar_venue": "",
-      "location": "Kronäng Arena Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/10652.png",
-      "referees": [],
-      "fogis_game_id": 6778173,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": false
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-09-27",
-      "day": "27",
-      "weekday": "",
-      "time": "16:00",
-      "end_time": "",
-      "team": "P2016",
-      "team_id": "372809",
-      "type": "Match",
-      "description": "Byttorps IF Grön hemma",
-      "venue": "Kronäng Arena",
-      "calendar_venue": "",
-      "location": "Kronäng Arena Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11498.png",
-      "referees": [],
-      "fogis_game_id": 6777978,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": false
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-09-27",
-      "day": "27",
-      "weekday": "",
-      "time": "18:30",
-      "end_time": "",
-      "team": "P2011",
-      "team_id": "200322",
-      "type": "Match",
-      "description": "Bollebygds SK hemma",
-      "venue": "Kronäng Arena konstgräs 1",
-      "calendar_venue": "",
-      "location": "Kronäng Arena konstgräs 1 Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11547.png",
-      "referees": [
-        "Bengt Stadig"
-      ],
-      "fogis_game_id": 6709864,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
     {
       "date": "2026-09-29",
       "day": "29",
@@ -447,7 +211,7 @@
       "type": "Match",
       "description": "Rydboholms SK hemma",
       "venue": "Kronäng Arena",
-      "calendar_venue": "Kronängs Arena B-plan",
+      "calendar_venue": "",
       "location": "Kronäng Arena Konstgräs",
       "lockerooms": null,
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
@@ -460,41 +224,7 @@
         "canceled": false,
         "finished": true
       },
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 12.5
-      }
-    },
-    {
-      "date": "2026-10-04",
-      "day": "04",
-      "weekday": "",
-      "time": "11:00",
-      "end_time": "",
-      "team": "P2015",
-      "team_id": "353087",
-      "type": "Match",
-      "description": "Sjömarkens IF Röd hemma",
-      "venue": "Kronäng Arena",
-      "calendar_venue": "Kronängs Arena A-plan",
-      "location": "Kronäng Arena Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/10325.png",
-      "referees": [],
-      "fogis_game_id": 6775938,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": false
-      },
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 12.5
-      }
+      "weather": null
     },
     {
       "date": "2026-10-04",
@@ -507,7 +237,7 @@
       "type": "Match",
       "description": "Fristads GoIF Grön hemma",
       "venue": "Kronäng Arena",
-      "calendar_venue": "Kronängs Arena A-plan",
+      "calendar_venue": "",
       "location": "Kronäng Arena Konstgräs",
       "lockerooms": null,
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
@@ -520,11 +250,33 @@
         "canceled": false,
         "finished": false
       },
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 12.5
-      }
+      "weather": null
+    },
+    {
+      "date": "2026-10-04",
+      "day": "04",
+      "weekday": "",
+      "time": "11:00",
+      "end_time": "",
+      "team": "P2015",
+      "team_id": "353087",
+      "type": "Match",
+      "description": "Sjömarkens IF Röd hemma",
+      "venue": "Kronäng Arena",
+      "calendar_venue": "",
+      "location": "Kronäng Arena Konstgräs",
+      "lockerooms": null,
+      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
+      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/10325.png",
+      "referees": [],
+      "fogis_game_id": 6775938,
+      "fogis_status": {
+        "postponed": false,
+        "abandoned": false,
+        "canceled": false,
+        "finished": false
+      },
+      "weather": null
     },
     {
       "date": "2026-10-04",
@@ -537,7 +289,7 @@
       "type": "Match",
       "description": "Svansjö hemma",
       "venue": "Kronäng Arena",
-      "calendar_venue": "Kronängs Arena B-plan",
+      "calendar_venue": "",
       "location": "Kronäng Arena Konstgräs",
       "lockerooms": null,
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
@@ -550,11 +302,7 @@
         "canceled": false,
         "finished": true
       },
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.6
-      }
+      "weather": null
     },
     {
       "date": "2026-10-04",
@@ -567,7 +315,7 @@
       "type": "Match",
       "description": "Toarpsalliansen hemma",
       "venue": "Kronäng Arena konstgräs 1",
-      "calendar_venue": "Kronängs Arena A-plan",
+      "calendar_venue": "",
       "location": "Kronäng Arena konstgräs 1 Konstgräs",
       "lockerooms": null,
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
@@ -582,11 +330,7 @@
         "canceled": false,
         "finished": true
       },
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.4
-      }
+      "weather": null
     },
     {
       "date": "2026-10-04",
@@ -599,7 +343,7 @@
       "type": "Match",
       "description": "Byttorps IF borta",
       "venue": "Byttorps IP A Konstgräs",
-      "calendar_venue": "Byttorps IP A Konstgräs",
+      "calendar_venue": "",
       "location": "Byttorps IP A Konstgräs Konstgräs",
       "lockerooms": null,
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11498.png",
@@ -614,11 +358,7 @@
         "canceled": false,
         "finished": true
       },
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 14.1
-      }
+      "weather": null
     },
     {
       "date": "2026-10-09",
@@ -649,7 +389,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.6
+        "temp": 7.5
       }
     },
     {
@@ -679,7 +419,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 6.5
+        "temp": 7.6
       }
     },
     {
@@ -706,7 +446,11 @@
         "canceled": false,
         "finished": false
       },
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.2
+      }
     },
     {
       "date": "2026-10-11",
@@ -732,7 +476,11 @@
         "canceled": false,
         "finished": false
       },
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.5
+      }
     },
     {
       "date": "2026-10-16",
