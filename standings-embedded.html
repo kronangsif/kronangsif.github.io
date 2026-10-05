@@ -52,7 +52,7 @@
     const params = new URLSearchParams(location.search), wanted = (params.get('team') || '').toLowerCase(), fallbackLogo = 'kronang-logo-2026.png';
     const esc = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
     function tableMarkup(table) {
-      return `<article class="card"><header class="card-head"><h2>${esc(table.label)}</h2><span class="badge">Fogis</span></header><div class="table-wrap"><table><thead><tr><th>Lag</th><th>Poäng</th><th>V</th><th>O</th><th>F</th></tr></thead><tbody>${table.rows.map((row,index) => `<tr><td><div class="team"><span class="rank">${index + 1}</span><img src="${esc(row.logo || fallbackLogo)}" alt=""><span>${esc(row.name)}</span></div></td><td class="points">${row.points}</td><td>${row.wins}</td><td>${row.draws}</td><td>${row.losses}</td></tr>`).join('')}</tbody></table></div></article>`;
+      return `<article class="card"><header class="card-head"><div><h2>${esc(table.label)}</h2><span class="badge">${esc(table.competition || 'Fogis')}</span></div><span class="badge">Fogis</span></header><div class="table-wrap"><table><thead><tr><th>Lag</th><th>Poäng</th><th>V</th><th>O</th><th>F</th></tr></thead><tbody>${table.rows.map((row,index) => `<tr><td><div class="team"><span class="rank">${row.position ?? index + 1}</span><img src="${esc(row.logo || fallbackLogo)}" alt=""><span>${esc(row.name)}</span></div></td><td class="points">${row.points}</td><td>${row.wins}</td><td>${row.draws}</td><td>${row.losses}</td></tr>`).join('')}</tbody></table></div></article>`;
     }
     async function load() {
       let data;

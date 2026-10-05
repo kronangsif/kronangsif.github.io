@@ -16,6 +16,7 @@ CALENDAR_URL = "https://www.kronangsif.se/kalender/?ID=38276"
 TEAM_CALENDAR_URL = "https://www.kronangsif.se/kalender/ajaxKalender.asp?ID={team_id}"
 HOME_URL = "https://www.kronangsif.se/"
 FOGIS_API_URL = "https://api-fogis-association.azure-api.net/club"
+FOGIS_STANDINGS_URL = "https://forening-api.svenskfotboll.se/club/team-standings"
 OUTPUT_FILE = Path(__file__).parent / "data" / "calendar.json"
 FOGIS_CLUB_ID = 8688
 FOGIS_TEAM_NAMES = {
@@ -179,6 +180,49 @@ def fetch_fogis_games(api_key, from_date, to_date):
     if not isinstance(payload.get("games"), list):
         raise ValueError("Fogis-svaret saknar games-listan")
     return payload["games"]
+
+
+def fetch_fogis_team_standings(api_key, team_id, label):
+    """Fetch the official full table for a team engagement from Fogis."""
+    response = requests.get(
+        f"{FOGIS_STANDINGS_URL}/{team_id}",
+        headers={"ApiKey": api_key, "Accept": "application/json"},
+        timeout=30,
+    )
+    response.raise_for_status()
+    payload = response.json()
+    team = payload.get("team") or {}
+    engagements = team.get("teamEngagementsWithStandings") or []
+    candidates = []
+    for engagement in engagements:
+        standings = engagement.get("standingsExtended") or {}
+        rows = standings.get("teamEngagements") or []
+        if rows:
+            candidates.append((standings, rows))
+    if not candidates:
+        raise ValueError(f"Fogis-svaret saknar standings för {label}")
+
+    standings, rows = candidates[0]
+    normalized = []
+    for row in rows:
+        normalized.append({
+            "position": row.get("position"),
+            "team_id": row.get("teamId"),
+            "name": row.get("teamName") or "Okänt lag",
+            "logo": row.get("teamImageUrl") or row.get("teamImageSmlUrl") or "",
+            "played": row.get("games", 0),
+            "wins": row.get("wins", 0),
+            "draws": row.get("draws", 0),
+            "losses": row.get("losses", 0),
+            "points": row.get("points", 0),
+        })
+    normalized.sort(key=lambda row: (row["position"] is None, row["position"] or 999, row["name"]))
+    return {
+        "key": label.lower(),
+        "label": label,
+        "competition": standings.get("competitionName") or "",
+        "rows": normalized,
+    }
 
 
 def build_standings(games):
@@ -846,17 +890,16 @@ def main():
     standings = None
     if fogis_enabled:
         try:
-            season_games = fetch_fogis_games(
-                fogis_api_key,
-                date(today.year, 1, 1),
-                date(today.year, 12, 31),
-            )
-            standings = build_standings(season_games)
-            print("Standings built: " + ", ".join(
-                f"{table['label']} {len(table['rows'])} teams" for table in standings
+            standings = [
+                fetch_fogis_team_standings(fogis_api_key, 63822, "Herrar"),
+                fetch_fogis_team_standings(fogis_api_key, 176076, "Damer"),
+            ]
+            print("Official Fogis standings: " + ", ".join(
+                f"{table['label']} {len(table['rows'])} teams ({table['competition']})"
+                for table in standings
             ))
         except Exception as error:
-            print(f"Warning: Could not build Fogis standings: {error}")
+            print(f"Warning: Could not fetch official Fogis standings: {error}")
 
     print("Fetching weather forecast...")
     try:
