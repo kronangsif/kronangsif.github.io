@@ -21,6 +21,7 @@
     .card-head { display:flex; align-items:center; justify-content:space-between; gap:14px; padding:18px 20px; background:linear-gradient(135deg,#f4f8fa,#eaf3f2); border-bottom:1px solid var(--line); }
     .card-head h2 { margin:0; font-size:1.45rem; letter-spacing:-.03em; }
     .badge { color:var(--accent); font-size:.76rem; font-weight:800; text-transform:uppercase; letter-spacing:.08em; }
+    .series { display:block; margin-top:4px; color:var(--muted); font-size:.72rem; font-weight:700; letter-spacing:0; text-transform:none; }
     .table-wrap { overflow-x:auto; }
     table { width:100%; border-collapse:collapse; table-layout:auto; }
     th,td { padding:10px 7px; text-align:right; white-space:nowrap; }
@@ -30,6 +31,8 @@
     tbody tr:last-child td { border-bottom:0; }
     tbody tr:first-child { background:rgba(40,127,122,.08); }
     tbody tr:first-child td:first-child { color:var(--accent); }
+    tbody tr.own-team { background:rgba(40,127,122,.14); }
+    tbody tr.own-team td:first-child { color:var(--accent); }
     .team { display:flex; align-items:center; gap:6px; min-width:0; font-weight:750; }
     .team img { width:25px; height:25px; object-fit:contain; flex:none; }
     .team span:last-child { overflow:hidden; text-overflow:ellipsis; max-width:145px; }
@@ -52,7 +55,7 @@
     const params = new URLSearchParams(location.search), wanted = (params.get('team') || '').toLowerCase(), fallbackLogo = 'kronang-logo-2026.png';
     const esc = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
     function tableMarkup(table) {
-      return `<article class="card"><header class="card-head"><div><h2>${esc(table.label)}</h2><span class="badge">${esc(table.competition || 'Fogis')}</span></div><span class="badge">Fogis</span></header><div class="table-wrap"><table><thead><tr><th>Lag</th><th>Poäng</th><th>V</th><th>O</th><th>F</th></tr></thead><tbody>${table.rows.map((row,index) => `<tr><td><div class="team"><span class="rank">${row.position ?? index + 1}</span><img src="${esc(row.logo || fallbackLogo)}" alt=""><span>${esc(row.name)}</span></div></td><td class="points">${row.points}</td><td>${row.wins}</td><td>${row.draws}</td><td>${row.losses}</td></tr>`).join('')}</tbody></table></div></article>`;
+      return `<article class="card"><header class="card-head"><div><h2>${esc(table.label)}</h2><span class="series">${esc(table.competition || '')}</span></div></header><div class="table-wrap"><table><thead><tr><th>Lag</th><th>Spelade</th><th>Poäng</th><th>V</th><th>O</th><th>F</th></tr></thead><tbody>${table.rows.map((row,index) => { const own = /^Kronängs IF/i.test((row.name || '').trim()); return `<tr class="${own ? 'own-team' : ''}"><td><div class="team"><span class="rank">${row.position ?? index + 1}</span><img src="${esc(row.logo || fallbackLogo)}" alt=""><span>${own ? '★ ' : ''}${esc(row.name.trim())}</span></div></td><td>${row.played}</td><td class="points">${row.points}</td><td>${row.wins}</td><td>${row.draws}</td><td>${row.losses}</td></tr>`; }).join('')}</tbody></table></div></article>`;
     }
     async function load() {
       let data;
