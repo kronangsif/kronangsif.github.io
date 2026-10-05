@@ -16,6 +16,7 @@
     .top img { width:clamp(46px,6vw,72px); height:clamp(46px,6vw,72px); object-fit:contain; }
     .intro { margin:0 0 22px; color:var(--muted); font-size:.98rem; }
     .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+    .grid.single { grid-template-columns:minmax(0,1fr); }
     .card { border:1px solid var(--line); border-radius:18px; overflow:hidden; background:var(--paper); box-shadow:0 5px 15px rgba(23,32,51,.08); }
     .card-head { display:flex; align-items:center; justify-content:space-between; gap:14px; padding:18px 20px; background:linear-gradient(135deg,#f4f8fa,#eaf3f2); border-bottom:1px solid var(--line); }
     .card-head h2 { margin:0; font-size:1.45rem; letter-spacing:-.03em; }
@@ -58,6 +59,7 @@
       for (const url of dataUrls) { try { const response = await fetch(url,{cache:'no-store'}); if (response.ok) { data = await response.json(); break; } } catch (_) {} }
       const all = (data?.standings || []).filter(table => !wanted || table.key === wanted || table.label.toLowerCase() === wanted), root = document.querySelector('#tables');
       if (!all.length) { root.innerHTML = '<p class="error">Kunde inte ladda tabellerna ännu.</p>'; return; }
+      root.classList.toggle('single', all.length === 1);
       root.innerHTML = all.map(tableMarkup).join('');
       if (data.last_updated) document.querySelector('#updated').textContent = `Senast uppdaterad: ${new Date(data.last_updated).toLocaleString('sv-SE')}`;
     }
