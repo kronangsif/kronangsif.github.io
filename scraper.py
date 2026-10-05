@@ -178,6 +178,8 @@ def fetch_fogis_games(api_key, from_date, to_date):
     payload = response.json()
     if not isinstance(payload.get("games"), list):
         raise ValueError("Fogis-svaret saknar games-listan")
+    if payload["games"]:
+        print(f"Fogis fields: {','.join(sorted(payload['games'][0].keys()))}")
     return payload["games"]
 
 
