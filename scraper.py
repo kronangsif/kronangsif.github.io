@@ -178,9 +178,72 @@ def fetch_fogis_games(api_key, from_date, to_date):
     payload = response.json()
     if not isinstance(payload.get("games"), list):
         raise ValueError("Fogis-svaret saknar games-listan")
-    if payload["games"]:
-        print(f"Fogis fields: {','.join(sorted(payload['games'][0].keys()))}")
     return payload["games"]
+
+
+def build_standings(games):
+    """Build Herrar and Damer tables from completed Fogis results."""
+    target_teams = {63822: "Herrar", 176076: "Damer"}
+    tables = {label: {} for label in target_teams.values()}
+
+    for game in games:
+        if not game.get("isFinished") or game.get("isCanceled") or game.get("isAbandoned"):
+            continue
+        home_id = game.get("homeTeamId")
+        away_id = game.get("awayTeamId")
+        home_score = game.get("goalsScoredHomeTeam")
+        away_score = game.get("goalsScoredAwayTeam")
+        if home_score is None or away_score is None:
+            continue
+        try:
+            home_score, away_score = int(home_score), int(away_score)
+        except (TypeError, ValueError):
+            continue
+
+        for target_id, label in target_teams.items():
+            if target_id not in (home_id, away_id):
+                continue
+            table = tables[label]
+            for side, team_id, team_name, score, opponent_score in (
+                ("home", home_id, game.get("homeTeamName"), home_score, away_score),
+                ("away", away_id, game.get("awayTeamName"), away_score, home_score),
+            ):
+                row = table.setdefault(str(team_id), {
+                    "team_id": team_id,
+                    "name": str(team_name or "Okänt lag").strip(),
+                    "logo": game.get("homeTeamImageUrl") if side == "home" else game.get("awayTeamImageUrl"),
+                    "played": 0,
+                    "wins": 0,
+                    "draws": 0,
+                    "losses": 0,
+                    "goals_for": 0,
+                    "goals_against": 0,
+                    "points": 0,
+                })
+                row["played"] += 1
+                row["goals_for"] += score
+                row["goals_against"] += opponent_score
+                if score > opponent_score:
+                    row["wins"] += 1
+                    row["points"] += 3
+                elif score == opponent_score:
+                    row["draws"] += 1
+                    row["points"] += 1
+                else:
+                    row["losses"] += 1
+
+    return [
+        {
+            "key": key.lower(),
+            "label": key,
+            "rows": sorted(
+                rows.values(),
+                key=lambda row: (-row["points"], -row["wins"],
+                                 -(row["goals_for"] - row["goals_against"]), row["name"]),
+            ),
+        }
+        for key, rows in tables.items()
+    ]
 
 
 def normalize_fogis_team_name(name, team_id=None):
@@ -596,8 +659,14 @@ def parse_latest_news(html, limit=2):
     return news_items
 
 
-def save_data(activities, month, year, latest_news, sources=None):
+def save_data(activities, month, year, latest_news, sources=None, standings=None):
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    if standings is None:
+        try:
+            with open(OUTPUT_FILE, encoding="utf-8") as f:
+                standings = json.load(f).get("standings", [])
+        except (OSError, ValueError, TypeError):
+            standings = []
     data = {
         "last_updated": datetime.now().isoformat(),
         "source": sources or [CALENDAR_URL, "team calendars"],
@@ -605,6 +674,7 @@ def save_data(activities, month, year, latest_news, sources=None):
         "year": year,
         "activity_count": len(activities),
         "activities": activities,
+        "standings": standings,
         "latest_news": latest_news,
     }
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
@@ -755,6 +825,21 @@ def main():
     except Exception as e:
         print(f"Warning: Could not fetch latest news: {e}")
 
+    standings = None
+    if fogis_enabled:
+        try:
+            season_games = fetch_fogis_games(
+                fogis_api_key,
+                date(today.year, 1, 1),
+                date(today.year, 12, 31),
+            )
+            standings = build_standings(season_games)
+            print("Standings built: " + ", ".join(
+                f"{table['label']} {len(table['rows'])} teams" for table in standings
+            ))
+        except Exception as error:
+            print(f"Warning: Could not build Fogis standings: {error}")
+
     print("Fetching weather forecast...")
     try:
         forecast = fetch_weather()
@@ -777,7 +862,7 @@ def main():
                 f"{previous_count}; refusing to overwrite calendar.json"
             )
 
-    save_data(activities, month, year, latest_news, sources=sources)
+    save_data(activities, month, year, latest_news, sources=sources, standings=standings)
     print(f"Done! Found {len(activities)} activities")
 
 if __name__ == "__main__":
