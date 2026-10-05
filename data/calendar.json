@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-05T13:46:27.832251",
+  "last_updated": "2026-10-05T18:07:35.522749",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 10,
   "year": 2026,
-  "activity_count": 141,
+  "activity_count": 144,
   "activities": [
     {
       "date": "2026-09-29",
@@ -426,6 +426,36 @@
       "date": "2026-10-11",
       "day": "11",
       "weekday": "",
+      "time": "00:00",
+      "end_time": "",
+      "team": "Damer",
+      "team_id": "176076",
+      "type": "Match",
+      "description": "Ulvåkers IF hemma",
+      "venue": "Kronäng Arena konstgräs 1",
+      "calendar_venue": "",
+      "location": "Kronäng Arena konstgräs 1 Konstgräs",
+      "lockerooms": null,
+      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
+      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/10002.png",
+      "referees": [],
+      "fogis_game_id": 6922101,
+      "fogis_status": {
+        "postponed": false,
+        "abandoned": false,
+        "canceled": false,
+        "finished": false
+      },
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.9
+      }
+    },
+    {
+      "date": "2026-10-11",
+      "day": "11",
+      "weekday": "",
       "time": "12:00",
       "end_time": "",
       "team": "P2012",
@@ -542,6 +572,32 @@
       "date": "2026-10-18",
       "day": "18",
       "weekday": "",
+      "time": "00:00",
+      "end_time": "",
+      "team": "Damer",
+      "team_id": "176076",
+      "type": "Match",
+      "description": "Götene FK borta",
+      "venue": "Kinnevallen A-plan",
+      "calendar_venue": "",
+      "location": "Kinnevallen A-plan Naturgräs",
+      "lockerooms": null,
+      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/13173.png",
+      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
+      "referees": [],
+      "fogis_game_id": 6922102,
+      "fogis_status": {
+        "postponed": false,
+        "abandoned": false,
+        "canceled": false,
+        "finished": false
+      },
+      "weather": null
+    },
+    {
+      "date": "2026-10-18",
+      "day": "18",
+      "weekday": "",
       "time": "11:00",
       "end_time": "",
       "team": "P2014",
@@ -556,6 +612,32 @@
       "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11154.png",
       "referees": [],
       "fogis_game_id": 6723297,
+      "fogis_status": {
+        "postponed": false,
+        "abandoned": false,
+        "canceled": false,
+        "finished": false
+      },
+      "weather": null
+    },
+    {
+      "date": "2026-10-25",
+      "day": "25",
+      "weekday": "",
+      "time": "13:00",
+      "end_time": "",
+      "team": "Damer",
+      "team_id": "176076",
+      "type": "Match",
+      "description": "Ödsmåls IK hemma",
+      "venue": "Kronäng Arena konstgräs 1",
+      "calendar_venue": "",
+      "location": "Kronäng Arena konstgräs 1 Konstgräs",
+      "lockerooms": null,
+      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
+      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/9771.png",
+      "referees": [],
+      "fogis_game_id": 6922104,
       "fogis_status": {
         "postponed": false,
         "abandoned": false,
@@ -889,7 +971,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.7
+        "temp": 14.6
       }
     },
     {
@@ -905,7 +987,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.7
+        "temp": 14.6
       }
     },
     {
@@ -921,7 +1003,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 14.7
       }
     },
     {
@@ -937,7 +1019,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 14.7
       }
     },
     {
@@ -953,7 +1035,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.6
+        "temp": 13.5
       }
     },
     {
@@ -969,7 +1051,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.6
+        "temp": 13.5
       }
     },
     {
@@ -985,7 +1067,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.6
+        "temp": 13.5
       }
     },
     {
@@ -1001,7 +1083,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.6
+        "temp": 13.5
       }
     },
     {
@@ -1017,7 +1099,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.6
+        "temp": 13.5
       }
     },
     {
@@ -1033,7 +1115,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.6
+        "temp": 13.5
       }
     },
     {
@@ -1049,7 +1131,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.6
+        "temp": 13.5
       }
     },
     {
@@ -1065,7 +1147,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 13.6
+        "temp": 13.5
       }
     },
     {
@@ -1081,7 +1163,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.3
+        "temp": 12.4
       }
     },
     {
@@ -1097,7 +1179,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.3
+        "temp": 12.4
       }
     },
     {
@@ -1159,9 +1241,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 11.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.4
       }
     },
     {
