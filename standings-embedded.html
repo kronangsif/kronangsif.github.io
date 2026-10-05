@@ -21,17 +21,18 @@
     .card-head h2 { margin:0; font-size:1.45rem; letter-spacing:-.03em; }
     .badge { color:var(--accent); font-size:.76rem; font-weight:800; text-transform:uppercase; letter-spacing:.08em; }
     .table-wrap { overflow-x:auto; }
-    table { width:100%; border-collapse:collapse; min-width:520px; }
-    th,td { padding:11px 10px; text-align:right; white-space:nowrap; }
-    th:first-child,td:first-child { text-align:left; padding-left:20px; }
+    table { width:100%; border-collapse:collapse; table-layout:auto; }
+    th,td { padding:10px 7px; text-align:right; white-space:nowrap; }
+    th:first-child,td:first-child { text-align:left; padding-left:12px; }
     th { color:var(--muted); font-size:.72rem; text-transform:uppercase; letter-spacing:.07em; font-weight:800; background:#fbfcfd; border-bottom:1px solid var(--line); }
     td { font-size:.9rem; border-bottom:1px solid #edf0f4; font-variant-numeric:tabular-nums; }
     tbody tr:last-child td { border-bottom:0; }
     tbody tr:first-child { background:rgba(40,127,122,.08); }
     tbody tr:first-child td:first-child { color:var(--accent); }
-    .team { display:flex; align-items:center; gap:10px; min-width:190px; font-weight:750; }
-    .team img { width:30px; height:30px; object-fit:contain; flex:none; }
-    .rank { width:24px; color:var(--muted); font-weight:800; }
+    .team { display:flex; align-items:center; gap:6px; min-width:0; font-weight:750; }
+    .team img { width:25px; height:25px; object-fit:contain; flex:none; }
+    .team span:last-child { overflow:hidden; text-overflow:ellipsis; max-width:145px; }
+    .rank { width:18px; color:var(--muted); font-weight:800; }
     .points { font-size:1.02rem; font-weight:900; color:var(--ink); }
     .empty,.error { padding:24px 20px; color:var(--muted); }
     .updated { margin-top:18px; color:var(--muted); font-size:.78rem; text-align:right; }
@@ -50,7 +51,7 @@
     const params = new URLSearchParams(location.search), wanted = (params.get('team') || '').toLowerCase(), fallbackLogo = 'kronang-logo-2026.png';
     const esc = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
     function tableMarkup(table) {
-      return `<article class="card"><header class="card-head"><h2>${esc(table.label)}</h2><span class="badge">Fogis</span></header><div class="table-wrap"><table><thead><tr><th>Lag</th><th>P</th><th>V</th><th>O</th><th>F</th><th>Poäng</th></tr></thead><tbody>${table.rows.map((row,index) => `<tr><td><div class="team"><span class="rank">${index + 1}</span><img src="${esc(row.logo || fallbackLogo)}" alt=""><span>${esc(row.name)}</span></div></td><td>${row.played}</td><td>${row.wins}</td><td>${row.draws}</td><td>${row.losses}</td><td class="points">${row.points}</td></tr>`).join('')}</tbody></table></div></article>`;
+      return `<article class="card"><header class="card-head"><h2>${esc(table.label)}</h2><span class="badge">Fogis</span></header><div class="table-wrap"><table><thead><tr><th>Lag</th><th>Poäng</th><th>V</th><th>O</th><th>F</th></tr></thead><tbody>${table.rows.map((row,index) => `<tr><td><div class="team"><span class="rank">${index + 1}</span><img src="${esc(row.logo || fallbackLogo)}" alt=""><span>${esc(row.name)}</span></div></td><td class="points">${row.points}</td><td>${row.wins}</td><td>${row.draws}</td><td>${row.losses}</td></tr>`).join('')}</tbody></table></div></article>`;
     }
     async function load() {
       let data;
