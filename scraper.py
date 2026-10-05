@@ -223,6 +223,18 @@ def fetch_fogis_team_standings(api_key, team_id, label, preferred_competition_id
             "goals_for": row.get("goalsScored", 0),
             "goals_against": row.get("goalsConceded", 0),
             "goal_diff": row.get("goalDifferential", 0),
+            "home": {
+                "played": row.get("gamesHome", 0), "wins": row.get("winsHome", 0),
+                "draws": row.get("drawsHome", 0), "losses": row.get("lossesHome", 0),
+                "goals_for": row.get("goalsScoredHome", 0), "goals_against": row.get("goalsConcededHome", 0),
+                "goal_diff": row.get("goalDifferentialHome", 0), "points": row.get("pointsHome", 0),
+            },
+            "away": {
+                "played": row.get("gamesAway", 0), "wins": row.get("winsAway", 0),
+                "draws": row.get("drawsAway", 0), "losses": row.get("lossesAway", 0),
+                "goals_for": row.get("goalsScoredAway", 0), "goals_against": row.get("goalsConcededAway", 0),
+                "goal_diff": row.get("goalDifferentialAway", 0), "points": row.get("pointsAway", 0),
+            },
         })
     normalized.sort(key=lambda row: (row["position"] is None, row["position"] or 999, row["name"]))
     return {

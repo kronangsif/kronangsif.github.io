@@ -22,6 +22,9 @@
     .card-head h2 { margin:0; font-size:1.45rem; letter-spacing:-.03em; }
     .badge { color:var(--accent); font-size:.76rem; font-weight:800; text-transform:uppercase; letter-spacing:.08em; }
     .series { display:block; margin-top:4px; color:var(--muted); font-size:.72rem; font-weight:700; letter-spacing:0; text-transform:none; }
+    .mode-tabs { display:grid; grid-template-columns:repeat(3,1fr); gap:3px; margin:0 16px 12px; padding:3px; border-radius:10px; background:#e7e9ef; }
+    .mode-tabs button { border:0; border-radius:8px; padding:8px 6px; background:transparent; color:var(--ink); font:inherit; font-size:.8rem; cursor:pointer; }
+    .mode-tabs button.active { background:#2858ee; color:#fff; font-weight:800; }
     .table-wrap { overflow-x:auto; }
     table { width:100%; border-collapse:collapse; table-layout:auto; }
     th,td { padding:10px 7px; text-align:right; white-space:nowrap; }
@@ -54,8 +57,14 @@
     const dataUrls = [new URL('data/calendar.json', document.baseURI).href,'https://raw.githubusercontent.com/kronangsif/kronangsif.github.io/main/data/calendar.json'];
     const params = new URLSearchParams(location.search), wanted = (params.get('team') || '').toLowerCase(), fallbackLogo = 'kronang-logo-2026.png';
     const esc = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
+    function rowMarkup(row, index, mode) {
+      const stats = mode === 'total' ? row : (row[mode] || row);
+      const own = /^Kronängs IF/i.test((row.name || '').trim());
+      return `<tr class="${own ? 'own-team' : ''}"><td><div class="team"><span class="rank">${row.position ?? index + 1}</span><img src="${esc(row.logo || fallbackLogo)}" alt=""><span>${esc(row.name.trim())}</span></div></td><td>${stats.played ?? 0}</td><td>${stats.wins ?? 0}</td><td>${stats.draws ?? 0}</td><td>${stats.losses ?? 0}</td><td>${stats.goals_for ?? 0}</td><td>${stats.goals_against ?? 0}</td><td>${stats.goal_diff ?? 0}</td><td class="points">${stats.points ?? 0}</td></tr>`;
+    }
     function tableMarkup(table) {
-      return `<article class="card"><header class="card-head"><div><h2>${esc(table.label)}</h2><span class="series">${esc(table.competition || '')}</span></div></header><div class="table-wrap"><table><thead><tr><th>Lag</th><th>M</th><th>V</th><th>O</th><th>F</th><th>GM</th><th>IM</th><th>MS</th><th>P</th></tr></thead><tbody>${table.rows.map((row,index) => { const own = /^Kronängs IF/i.test((row.name || '').trim()); return `<tr class="${own ? 'own-team' : ''}"><td><div class="team"><span class="rank">${row.position ?? index + 1}</span><img src="${esc(row.logo || fallbackLogo)}" alt=""><span>${esc(row.name.trim())}</span></div></td><td>${row.played}</td><td>${row.wins}</td><td>${row.draws}</td><td>${row.losses}</td><td>${row.goals_for}</td><td>${row.goals_against}</td><td>${row.goal_diff}</td><td class="points">${row.points}</td></tr>`; }).join('')}</tbody></table></div></article>`;
+      const id = `standings-${table.key}`;
+      return `<article class="card" data-table="${id}"><header class="card-head"><div><h2>${esc(table.label)}</h2><span class="series">${esc(table.competition || '')}</span></div></header><div class="mode-tabs"><button class="active" data-mode="total">Totalt</button><button data-mode="home">Hemma</button><button data-mode="away">Borta</button></div><div class="table-wrap"><table><thead><tr><th>Lag</th><th>M</th><th>V</th><th>O</th><th>F</th><th>GM</th><th>IM</th><th>MS</th><th>P</th></tr></thead><tbody id="${id}-body">${table.rows.map((row,index) => rowMarkup(row,index,'total')).join('')}</tbody></table></div></article>`;
     }
     async function load() {
       let data;
@@ -64,6 +73,13 @@
       if (!all.length) { root.innerHTML = '<p class="error">Kunde inte ladda tabellerna ännu.</p>'; return; }
       root.classList.toggle('single', all.length === 1);
       root.innerHTML = all.map(tableMarkup).join('');
+      all.forEach(table => {
+        const card = root.querySelector(`[data-table="standings-${table.key}"]`);
+        card.querySelectorAll('[data-mode]').forEach(button => button.addEventListener('click', () => {
+          card.querySelectorAll('[data-mode]').forEach(item => item.classList.toggle('active', item === button));
+          card.querySelector('tbody').innerHTML = table.rows.map((row,index) => rowMarkup(row,index,button.dataset.mode)).join('');
+        }));
+      });
       if (data.last_updated) document.querySelector('#updated').textContent = `Senast uppdaterad: ${new Date(data.last_updated).toLocaleString('sv-SE')}`;
     }
     load();
