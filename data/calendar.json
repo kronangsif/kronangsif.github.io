@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-05T06:44:54.825891",
+  "last_updated": "2026-10-05T07:35:17.763330",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 10,
   "year": 2026,
-  "activity_count": 142,
+  "activity_count": 141,
   "activities": [
     {
       "date": "2026-09-29",
@@ -387,9 +387,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.4
       }
     },
     {
@@ -417,9 +417,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.6
       }
     },
     {
@@ -449,7 +449,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.2
+        "temp": 8.3
       }
     },
     {
@@ -479,7 +479,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.5
+        "temp": 8.4
       }
     },
     {
@@ -632,32 +632,6 @@
       "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
       "referees": [],
       "fogis_game_id": 6920814,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": false
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-12-30",
-      "day": "30",
-      "weekday": "",
-      "time": "00:00",
-      "end_time": "",
-      "team": "P2014",
-      "team_id": "185875",
-      "type": "Match",
-      "description": "Hestrafors IF Röd borta",
-      "venue": "Bollevi C",
-      "calendar_venue": "",
-      "location": "Bollevi C Naturgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11145.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "referees": [],
-      "fogis_game_id": 6773406,
       "fogis_status": {
         "postponed": false,
         "abandoned": false,
@@ -915,7 +889,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.6
+        "temp": 14.7
       }
     },
     {
@@ -931,7 +905,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.6
+        "temp": 14.7
       }
     },
     {
@@ -947,7 +921,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 14.9
       }
     },
     {
@@ -963,7 +937,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 14.8
+        "temp": 14.9
       }
     },
     {
@@ -1107,7 +1081,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.3
+        "temp": 12.2
       }
     },
     {
@@ -1123,7 +1097,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.3
+        "temp": 12.2
       }
     },
     {
@@ -1139,7 +1113,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.0
+        "temp": 12.2
       }
     },
     {
@@ -1155,7 +1129,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.0
+        "temp": 12.2
       }
     },
     {
@@ -1171,7 +1145,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.0
+        "temp": 12.2
       }
     },
     {
@@ -1185,9 +1159,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 10.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 10.8
       }
     },
     {
@@ -1203,7 +1177,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.1
+        "temp": 7.1
       }
     },
     {
@@ -1219,7 +1193,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.1
+        "temp": 7.1
       }
     },
     {
@@ -1235,7 +1209,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.1
+        "temp": 7.1
       }
     },
     {
@@ -1251,7 +1225,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.1
+        "temp": 7.1
       }
     },
     {
@@ -1267,7 +1241,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.1
+        "temp": 7.1
       }
     },
     {
@@ -1283,7 +1257,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.2
+        "temp": 6.2
       }
     },
     {
@@ -1297,9 +1271,9 @@
       "lockerooms": null,
       "team_id": "52695",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.7
       }
     },
     {
@@ -1313,9 +1287,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.7
       }
     },
     {
@@ -1329,9 +1303,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.7
       }
     },
     {
@@ -1345,9 +1319,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 5.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.5
       }
     },
     {
@@ -1361,9 +1335,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 5.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.5
       }
     },
     {
@@ -1379,7 +1353,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.1
+        "temp": 8.4
       }
     },
     {
