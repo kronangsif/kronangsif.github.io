@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-06T07:20:37.441003",
+  "last_updated": "2026-10-06T14:53:27.611906",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -389,7 +389,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.5
+        "temp": 8.7
       }
     },
     {
@@ -419,37 +419,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.5
-      }
-    },
-    {
-      "date": "2026-10-11",
-      "day": "11",
-      "weekday": "",
-      "time": "00:00",
-      "end_time": "",
-      "team": "Damer",
-      "team_id": "176076",
-      "type": "Match",
-      "description": "Ulvåkers IF hemma",
-      "venue": "Kronäng Arena konstgräs 1",
-      "calendar_venue": "",
-      "location": "Kronäng Arena konstgräs 1 Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/10002.png",
-      "referees": [],
-      "fogis_game_id": 6922101,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": false
-      },
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.6
+        "temp": 11.0
       }
     },
     {
@@ -479,7 +449,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.9
+        "temp": 9.0
       }
     },
     {
@@ -510,6 +480,40 @@
         "icon": "🌧️",
         "desc": "Dis",
         "temp": 9.9
+      }
+    },
+    {
+      "date": "2026-10-11",
+      "day": "11",
+      "weekday": "",
+      "time": "16:00",
+      "end_time": "",
+      "team": "Damer",
+      "team_id": "176076",
+      "type": "Match",
+      "description": "Ulvåkers IF hemma",
+      "venue": "Kronäng Arena konstgräs 1",
+      "calendar_venue": "",
+      "location": "Kronäng Arena konstgräs 1 Konstgräs",
+      "lockerooms": null,
+      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
+      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/10002.png",
+      "referees": [
+        "Aras Salih",
+        "David Cruciat",
+        "Alawi Muzeyi"
+      ],
+      "fogis_game_id": 6922101,
+      "fogis_status": {
+        "postponed": false,
+        "abandoned": false,
+        "canceled": false,
+        "finished": false
+      },
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.1
       }
     },
     {
@@ -572,32 +576,6 @@
       "date": "2026-10-18",
       "day": "18",
       "weekday": "",
-      "time": "00:00",
-      "end_time": "",
-      "team": "Damer",
-      "team_id": "176076",
-      "type": "Match",
-      "description": "Götene FK borta",
-      "venue": "Kinnevallen A-plan",
-      "calendar_venue": "",
-      "location": "Kinnevallen A-plan Naturgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/13173.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "referees": [],
-      "fogis_game_id": 6922102,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": false
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-10-18",
-      "day": "18",
-      "weekday": "",
       "time": "11:00",
       "end_time": "",
       "team": "P2014",
@@ -612,6 +590,32 @@
       "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11154.png",
       "referees": [],
       "fogis_game_id": 6723297,
+      "fogis_status": {
+        "postponed": false,
+        "abandoned": false,
+        "canceled": false,
+        "finished": false
+      },
+      "weather": null
+    },
+    {
+      "date": "2026-10-18",
+      "day": "18",
+      "weekday": "",
+      "time": "13:00",
+      "end_time": "",
+      "team": "Damer",
+      "team_id": "176076",
+      "type": "Match",
+      "description": "Götene FK borta",
+      "venue": "Västerby IP Konstgräs",
+      "calendar_venue": "",
+      "location": "Västerby IP Konstgräs Konstgräs",
+      "lockerooms": null,
+      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/13173.png",
+      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
+      "referees": [],
+      "fogis_game_id": 6922102,
       "fogis_status": {
         "postponed": false,
         "abandoned": false,
@@ -1017,9 +1021,9 @@
       "lockerooms": null,
       "team_id": "324307",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.7
       }
     },
     {
@@ -1033,9 +1037,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.7
       }
     },
     {
@@ -1049,9 +1053,9 @@
       "lockerooms": null,
       "team_id": "414417",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.7
       }
     },
     {
@@ -1065,9 +1069,9 @@
       "lockerooms": null,
       "team_id": "520555",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.7
       }
     },
     {
@@ -1081,9 +1085,9 @@
       "lockerooms": null,
       "team_id": null,
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.7
       }
     },
     {
@@ -1097,9 +1101,9 @@
       "lockerooms": null,
       "team_id": "584817",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.7
       }
     },
     {
@@ -1113,9 +1117,9 @@
       "lockerooms": null,
       "team_id": "612530",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.7
       }
     },
     {
@@ -1129,9 +1133,9 @@
       "lockerooms": null,
       "team_id": "621421",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 13.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 13.7
       }
     },
     {
@@ -1147,7 +1151,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.6
       }
     },
     {
@@ -1163,7 +1167,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 12.6
       }
     },
     {
@@ -1177,9 +1181,9 @@
       "lockerooms": null,
       "team_id": "56158",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 13.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.7
       }
     },
     {
@@ -1193,9 +1197,9 @@
       "lockerooms": null,
       "team_id": "374981",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 13.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.7
       }
     },
     {
@@ -1209,9 +1213,9 @@
       "lockerooms": null,
       "team_id": "481208",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 13.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 13.7
       }
     },
     {
@@ -1225,9 +1229,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 12.2
       }
     },
     {
@@ -1241,9 +1245,9 @@
       "lockerooms": null,
       "team_id": "324307",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.8
       }
     },
     {
@@ -1257,9 +1261,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.8
       }
     },
     {
@@ -1273,9 +1277,9 @@
       "lockerooms": null,
       "team_id": "414417",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.8
       }
     },
     {
@@ -1289,9 +1293,9 @@
       "lockerooms": null,
       "team_id": "520555",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.8
       }
     },
     {
@@ -1305,9 +1309,9 @@
       "lockerooms": null,
       "team_id": "612530",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.8
       }
     },
     {
@@ -1321,9 +1325,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.0
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 11.8
       }
     },
     {
@@ -1339,7 +1343,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.8
+        "temp": 10.5
       }
     },
     {
@@ -1355,7 +1359,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.8
+        "temp": 10.5
       }
     },
     {
@@ -1371,7 +1375,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.8
+        "temp": 10.5
       }
     },
     {
@@ -1385,9 +1389,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.5
       }
     },
     {
@@ -1401,9 +1405,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.1
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.6
       }
     },
     {
