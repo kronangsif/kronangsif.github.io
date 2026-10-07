@@ -464,6 +464,8 @@
             align-items: center;
             gap: 12px;
             margin-top: 2px;
+            flex: 1 1 auto;
+            min-height: 0;
         }
         .match-row-side {
             display: flex;
@@ -552,27 +554,27 @@
         }
         @media (min-width: 901px) and (min-height: 600px) {
             .match-row {
-                padding: 12px 18px 22px;
+                padding: 16px 24px 26px;
             }
             .match-row-head {
                 margin-bottom: 5px;
             }
             .match-row-showcase {
-                grid-template-columns: minmax(0, 1fr) 180px minmax(0, 1fr);
-                gap: 16px;
+                grid-template-columns: minmax(0, 1fr) clamp(180px, 14vw, 240px) minmax(0, 1fr);
+                gap: clamp(18px, 2vw, 34px);
             }
             .match-row-logo {
-                width: clamp(122px, 10vw, 160px);
-                height: clamp(122px, 10vw, 160px);
+                width: clamp(132px, 14vh, 190px);
+                height: clamp(132px, 14vh, 190px);
             }
             .match-row-name {
-                font-size: clamp(1rem, 1.45vw, 1.45rem);
+                font-size: clamp(1.1rem, 1.65vw, 1.7rem);
             }
             .match-row-level {
-                font-size: clamp(1.35rem, 2.1vw, 2rem);
+                font-size: clamp(1.45rem, 2.3vw, 2.3rem);
             }
             .match-row-kickoff {
-                font-size: clamp(1.45rem, 2.3vw, 2.15rem);
+                font-size: clamp(1.6rem, 2.5vw, 2.5rem);
             }
             .match-row-details {
                 font-size: clamp(0.8rem, 0.95vw, 1rem);
