@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07T00:29:26.148597",
+  "last_updated": "2026-10-07T06:51:58.213847",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -363,7 +363,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.5
+        "temp": 8.9
       }
     },
     {
@@ -393,7 +393,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.7
+        "temp": 9.9
       }
     },
     {
@@ -421,9 +421,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.9
       }
     },
     {
@@ -451,9 +451,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.8
       }
     },
     {
@@ -485,9 +485,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.3
       }
     },
     {
@@ -609,7 +609,7 @@
       "type": "Match",
       "description": "Ödsmåls IK hemma",
       "venue": "Kronäng Arena konstgräs 1",
-      "calendar_venue": "",
+      "calendar_venue": "Kronängs Arena",
       "location": "Kronäng Arena konstgräs 1 Konstgräs",
       "lockerooms": null,
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
@@ -1117,7 +1117,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 13.4
       }
     },
     {
@@ -1133,7 +1133,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 13.4
       }
     },
     {
@@ -1149,7 +1149,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.4
+        "temp": 13.4
       }
     },
     {
@@ -1165,7 +1165,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.5
+        "temp": 11.6
       }
     },
     {
@@ -1181,7 +1181,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.5
+        "temp": 11.8
       }
     },
     {
@@ -1197,23 +1197,23 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.5
+        "temp": 11.8
       }
     },
     {
       "date": "2026-10-08",
       "time": "17:30",
-      "end_time": "19:00",
+      "end_time": "18:30",
       "team": "P2016",
       "type": "Träning",
-      "description": "Avslutning Träning",
+      "description": "Avslutning Träning Föräldramatch",
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "414417",
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.5
+        "temp": 11.8
       }
     },
     {
@@ -1229,7 +1229,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.5
+        "temp": 11.8
       }
     },
     {
@@ -1245,7 +1245,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.5
+        "temp": 11.8
       }
     },
     {
@@ -1260,8 +1260,8 @@
       "team_id": "281528",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 10.8
+        "desc": "Regn",
+        "temp": 11.4
       }
     },
     {
@@ -1277,7 +1277,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.7
+        "temp": 10.5
       }
     },
     {
@@ -1293,7 +1293,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.7
+        "temp": 10.5
       }
     },
     {
@@ -1309,7 +1309,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.7
+        "temp": 10.5
       }
     },
     {
@@ -1323,9 +1323,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 8.7
       }
     },
     {
@@ -1341,7 +1341,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.7
+        "temp": 8.4
       }
     },
     {
@@ -1355,9 +1355,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.5
       }
     },
     {
@@ -1371,9 +1371,9 @@
       "lockerooms": null,
       "team_id": "56158",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 9.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.8
       }
     },
     {
@@ -1387,9 +1387,9 @@
       "lockerooms": null,
       "team_id": "481208",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 9.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.8
       }
     },
     {
@@ -1403,9 +1403,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.9
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 8.7
       }
     },
     {
@@ -1419,9 +1419,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 6.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.1
       }
     },
     {
@@ -1435,9 +1435,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 6.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.1
       }
     },
     {
@@ -1453,7 +1453,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.8
+        "temp": 12.4
       }
     },
     {
@@ -1469,7 +1469,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.8
+        "temp": 12.4
       }
     },
     {
@@ -1485,7 +1485,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.8
+        "temp": 12.4
       }
     },
     {
@@ -1501,7 +1501,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.8
+        "temp": 12.4
       }
     },
     {
@@ -1517,7 +1517,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.8
+        "temp": 12.4
       }
     },
     {
@@ -1533,7 +1533,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.8
+        "temp": 12.4
       }
     },
     {
@@ -1549,7 +1549,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.8
+        "temp": 12.4
       }
     },
     {
@@ -1565,7 +1565,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.5
+        "temp": 11.1
       }
     },
     {
@@ -1581,7 +1581,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.5
+        "temp": 11.1
       }
     },
     {
