@@ -91,7 +91,7 @@
         const start = parseTime(match.time);
         if (start === null) return null;
         const before = 60;
-        const after = isYoung(match.team, match.date) ? 120 : 150;
+        const after = isYoung(match.team, match.date) && !isULag(match) ? 120 : 150;
         const dayStart = new Date(`${match.date}T00:00:00`).getTime();
         return {
             start: dayStart + (start - before + startTrim) * 60000,
@@ -120,17 +120,20 @@
     function overlaps(a, b) { return a.start < b.end && b.start < a.end; }
     function fixedRooms(match) {
         const team = String(match.team || '').trim().toLowerCase();
-        if (team.startsWith('herr')) return { home: 5, away: 3 };
-        if (team.startsWith('dam')) return { home: 4, away: 2 };
+        if (team === 'herr' || team === 'herrar') return { home: 5, away: 3 };
+        if (team === 'dam' || team === 'damer') return { home: 4, away: 2 };
         return null;
     }
     function isPrimarySeniorTeam(match) {
         const team = String(match.team || '').trim().toLowerCase();
-        return team === 'herr' || team === 'dam';
+        return team === 'herr' || team === 'herrar' || team === 'dam' || team === 'damer';
+    }
+    function isULag(match) {
+        return /U/.test(String(match.team || ''));
     }
     function assignmentPriority(match) {
         if (isPrimarySeniorTeam(match)) return 0;
-        if (fixedRooms(match)) return 1;
+        if (isULag(match)) return 1;
         if (isP16Team(match)) return 2;
         return 3;
     }
@@ -154,7 +157,7 @@
         [...bySlot.values()]
             .sort((first, second) => {
                 const priority = group => group.some(isPrimarySeniorTeam) ? 0
-                    : (group.some(fixedRooms) ? 1 : (group.some(isP16Team) ? 2 : 3));
+                    : (group.some(isULag) ? 1 : (group.some(isP16Team) ? 2 : 3));
                 return priority(first) - priority(second) || `${first[0].date}|${first[0].time}`.localeCompare(`${second[0].date}|${second[0].time}`);
             })
             .forEach(slotMatches => {
@@ -182,7 +185,7 @@
                             ? [2, 1].find(room => !used.has(room) && canUseRoom(room, match))
                             : [1, 2].find(room => !used.has(room) && canUseRoom(room, match)))
                         : null;
-                    const preferred = isYoung(match.team, match.date)
+                    const preferred = isYoung(match.team, match.date) && !isULag(match)
                         ? AVAILABLE_ROOMS.filter(room => !SENIOR_ONLY_ROOMS.has(room))
                         : AVAILABLE_ROOMS.filter(room => !SENIOR_ONLY_ROOMS.has(room) && !SMALL_ROOMS.has(room));
                     const weekdayPreferred = isWeekday(match.date)

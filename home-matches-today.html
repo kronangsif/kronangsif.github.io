@@ -403,6 +403,8 @@
             display: grid;
             justify-items: center;
             gap: 12px;
+            min-width: 0;
+            width: 100%;
         }
         .team-showcase-kickoff {
             color: #4b5563 !important;
@@ -416,7 +418,9 @@
             align-items: baseline;
             justify-content: center;
             gap: 12px;
-            white-space: nowrap;
+            flex-wrap: wrap;
+            max-width: 100%;
+            line-height: 1.05;
         }
         .match-plan-separator {
             color: #4b5563;
@@ -430,6 +434,9 @@
             font-weight: 900;
             letter-spacing: -0.06em;
             line-height: 1;
+            max-width: 100%;
+            overflow-wrap: anywhere;
+            text-align: center;
         }
         .match-level {
             color: #4b5563 !important;
@@ -1021,7 +1028,7 @@
         function getRoomInterval(match) {
             const start = parseTimeToMinutes(match.time);
             if (start === null) return null;
-            const young = isYoungTeam(match.team, match.date);
+            const young = isYoungTeam(match.team, match.date) && !isSeniorRuleTeam(match);
             return {
                 start: start - 60,
                 end: start + (young ? 120 : 150)
@@ -1039,8 +1046,28 @@
             return null;
         }
 
+        function isPrimarySeniorTeam(match) {
+            const team = String(match.team || '').trim().toLowerCase();
+            return team === 'herr' || team === 'herrar' || team === 'dam' || team === 'damer';
+        }
+
+        function isULag(match) {
+            return /U/.test(String(match.team || ''));
+        }
+
+        function isSeniorRuleTeam(match) {
+            return isPrimarySeniorTeam(match) || isULag(match);
+        }
+
+        function assignmentPriority(match) {
+            if (isPrimarySeniorTeam(match)) return 0;
+            if (isULag(match)) return 1;
+            if (isP16Team(match)) return 2;
+            return 3;
+        }
+
         function isYouthTeam(match) {
-            return !fixedRoomsFor(match) && /^[pf]\s*\d{4}/i.test(String(match.team || '').trim());
+            return !isSeniorRuleTeam(match) && /^[pf]\s*\d{4}/i.test(String(match.team || '').trim());
         }
 
         function isP16Team(match) {
@@ -1074,7 +1101,8 @@
 
             [...bySlot.values()]
                 .sort((first, second) => {
-                    const priority = group => group.some(fixedRoomsFor) ? 0 : (group.some(isP16Team) ? 1 : 2);
+                    const priority = group => group.some(isPrimarySeniorTeam) ? 0
+                        : (group.some(isULag) ? 1 : (group.some(isP16Team) ? 2 : 3));
                     return priority(first) - priority(second) || `${first[0].date}|${first[0].time}`.localeCompare(`${second[0].date}|${second[0].time}`);
                 })
                 .forEach(slotMatches => {
@@ -1082,8 +1110,7 @@
                 const p16Matches = slotMatches.filter(isP16Team);
                 slotMatches
                     .sort((first, second) => {
-                        const priority = match => fixedRoomsFor(match) ? 0 : (isP16Team(match) ? 1 : 2);
-                        const fixedOrder = priority(first) - priority(second);
+                        const fixedOrder = assignmentPriority(first) - assignmentPriority(second);
                         return fixedOrder || String(first.team || '').localeCompare(String(second.team || ''));
                     })
                     .forEach(match => {
