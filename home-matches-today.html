@@ -351,13 +351,32 @@
         }
         .team-room {
             margin-top: 2px;
-            color: #526174;
-            font-size: clamp(0.92rem, 1.1vw, 1.05rem);
+            display: inline-flex;
+            align-items: baseline;
+            gap: 4px;
+            padding: 6px 14px;
+            border: 3px solid #64748b;
+            border-radius: 999px;
+            background: #e2e8f0;
+            color: #1e293b;
+            font-size: clamp(0.98rem, 1.25vw, 1.15rem);
             font-weight: 800;
             line-height: 1.2;
         }
+        .team-showcase-side.home .team-room {
+            border-color: #15803d;
+            background: #bbf7d0;
+            color: #14532d;
+            box-shadow: 0 3px 9px rgba(22, 101, 52, 0.3);
+        }
+        .team-showcase-side.away .team-room {
+            border-color: #1d4ed8;
+            background: #bfdbfe;
+            color: #1e3a8a;
+            box-shadow: 0 3px 9px rgba(29, 78, 216, 0.28);
+        }
         .room-number {
-            color: #4b5563;
+            color: inherit;
             font-size: 1.35em;
             font-weight: 900;
         }
