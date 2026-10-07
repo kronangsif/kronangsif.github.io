@@ -1062,6 +1062,7 @@
             const team = String(match.team || '').trim().toLowerCase();
             if (team === 'herr' || team === 'herrar') return { home: 5, away: 3 };
             if (team === 'dam' || team === 'damer') return { home: 4, away: 2 };
+            if (/U/.test(String(match.team || ''))) return { home: 5, away: 3 };
             return null;
         }
 
