@@ -120,9 +120,19 @@
     function overlaps(a, b) { return a.start < b.end && b.start < a.end; }
     function fixedRooms(match) {
         const team = String(match.team || '').trim().toLowerCase();
-        if (team === 'herr') return { home: 5, away: 3 };
-        if (team === 'dam') return { home: 4, away: 2 };
+        if (team.startsWith('herr')) return { home: 5, away: 3 };
+        if (team.startsWith('dam')) return { home: 4, away: 2 };
         return null;
+    }
+    function isPrimarySeniorTeam(match) {
+        const team = String(match.team || '').trim().toLowerCase();
+        return team === 'herr' || team === 'dam';
+    }
+    function assignmentPriority(match) {
+        if (isPrimarySeniorTeam(match)) return 0;
+        if (fixedRooms(match)) return 1;
+        if (isP16Team(match)) return 2;
+        return 3;
     }
     function isP16Team(match) { return /^p\s*2016$/.test(String(match.team || '').trim().toLowerCase()); }
     function assignments(matches) {
@@ -143,7 +153,8 @@
 
         [...bySlot.values()]
             .sort((first, second) => {
-                const priority = group => group.some(fixedRooms) ? 0 : (group.some(isP16Team) ? 1 : 2);
+                const priority = group => group.some(isPrimarySeniorTeam) ? 0
+                    : (group.some(fixedRooms) ? 1 : (group.some(isP16Team) ? 2 : 3));
                 return priority(first) - priority(second) || `${first[0].date}|${first[0].time}`.localeCompare(`${second[0].date}|${second[0].time}`);
             })
             .forEach(slotMatches => {
@@ -151,8 +162,7 @@
             const p16Matches = slotMatches.filter(isP16Team);
             slotMatches
                 .sort((first, second) => {
-                    const priority = match => fixedRooms(match) ? 0 : (isP16Team(match) ? 1 : 2);
-                    const fixedOrder = priority(first) - priority(second);
+                    const fixedOrder = assignmentPriority(first) - assignmentPriority(second);
                     return fixedOrder || String(first.team || '').localeCompare(String(second.team || ''));
                 })
                 .forEach(match => {
@@ -176,7 +186,7 @@
                         ? AVAILABLE_ROOMS.filter(room => !SENIOR_ONLY_ROOMS.has(room))
                         : AVAILABLE_ROOMS.filter(room => !SENIOR_ONLY_ROOMS.has(room) && !SMALL_ROOMS.has(room));
                     const weekdayPreferred = isWeekday(match.date)
-                        ? AVAILABLE_ROOMS.filter(room => room >= 6)
+                        ? AVAILABLE_ROOMS.filter(room => room >= 6 && preferred.includes(room))
                         : preferred;
                     const order = shuffled(`${match.date}|${match.time}|${match.team}|${match.description}`);
                     if (p16HomeRoom !== undefined && p16HomeRoom !== null) {
