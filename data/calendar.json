@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07T06:51:58.213847",
+  "last_updated": "2026-10-07T06:59:21.687646",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -363,7 +363,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.9
+        "temp": 9.2
       }
     },
     {
@@ -1117,7 +1117,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.4
+        "temp": 12.8
       }
     },
     {
@@ -1133,7 +1133,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.4
+        "temp": 12.8
       }
     },
     {
@@ -1149,7 +1149,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.4
+        "temp": 12.8
       }
     },
     {
@@ -1163,8 +1163,8 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 11.6
       }
     },
@@ -1181,7 +1181,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.8
+        "temp": 12.1
       }
     },
     {
@@ -1197,7 +1197,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.8
+        "temp": 12.1
       }
     },
     {
@@ -1213,7 +1213,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.8
+        "temp": 12.1
       }
     },
     {
@@ -1229,7 +1229,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.8
+        "temp": 12.1
       }
     },
     {
@@ -1245,7 +1245,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.8
+        "temp": 12.1
       }
     },
     {
@@ -1261,7 +1261,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Regn",
-        "temp": 11.4
+        "temp": 11.8
       }
     },
     {
@@ -1277,7 +1277,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.5
+        "temp": 10.7
       }
     },
     {
@@ -1293,7 +1293,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.5
+        "temp": 10.7
       }
     },
     {
@@ -1309,7 +1309,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.5
+        "temp": 10.7
       }
     },
     {
