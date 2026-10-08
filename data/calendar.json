@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-08T07:07:19.117166",
+  "last_updated": "2026-10-08T15:22:37.043751",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 10,
   "year": 2026,
-  "activity_count": 144,
+  "activity_count": 146,
   "activities": [
     {
       "date": "2026-10-01",
@@ -335,7 +335,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.3
+        "temp": 10.0
       }
     },
     {
@@ -365,7 +365,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.2
+        "temp": 10.7
       }
     },
     {
@@ -393,9 +393,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 9.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.4
       }
     },
     {
@@ -425,7 +425,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.5
+        "temp": 8.8
       }
     },
     {
@@ -457,9 +457,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.7
       }
     },
     {
@@ -653,18 +653,18 @@
       "weather": null
     },
     {
-      "date": "2026-11-29",
-      "day": "29",
+      "date": "2026-11-14",
+      "day": "14",
       "weekday": "",
-      "time": "00:00",
+      "time": "13:30",
       "end_time": "",
       "team": "Kronängs IF",
       "team_id": "364396",
       "type": "Match",
       "description": "Vara SK borta",
-      "venue": "",
+      "venue": "Alléhallen, Vara",
       "calendar_venue": "",
-      "location": "",
+      "location": "Alléhallen, Vara Sportgolv",
       "lockerooms": null,
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/9966.png",
       "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
@@ -679,18 +679,18 @@
       "weather": null
     },
     {
-      "date": "2026-11-29",
-      "day": "29",
+      "date": "2026-11-14",
+      "day": "14",
       "weekday": "",
-      "time": "00:00",
+      "time": "15:50",
       "end_time": "",
       "team": "Kronängs IF",
       "team_id": "364396",
       "type": "Match",
       "description": "Borås AIK borta",
-      "venue": "",
+      "venue": "Alléhallen, Vara",
       "calendar_venue": "",
-      "location": "",
+      "location": "Alléhallen, Vara Sportgolv",
       "lockerooms": null,
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11535.png",
       "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
@@ -1141,7 +1141,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.0
+        "temp": 11.1
       }
     },
     {
@@ -1157,7 +1157,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.0
+        "temp": 11.1
       }
     },
     {
@@ -1173,7 +1173,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.0
+        "temp": 11.1
       }
     },
     {
@@ -1189,7 +1189,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.0
+        "temp": 11.1
       }
     },
     {
@@ -1205,7 +1205,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.0
+        "temp": 11.1
       }
     },
     {
@@ -1221,7 +1221,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.1
+        "temp": 9.9
       }
     },
     {
@@ -1237,7 +1237,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.8
+        "temp": 8.2
       }
     },
     {
@@ -1253,7 +1253,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.8
+        "temp": 8.2
       }
     },
     {
@@ -1269,7 +1269,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.8
+        "temp": 8.2
       }
     },
     {
@@ -1285,7 +1285,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.9
+        "temp": 9.3
       }
     },
     {
@@ -1301,7 +1301,39 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.7
+        "temp": 9.6
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "time": "09:40",
+      "end_time": "14:00",
+      "team": "Fotbollsskolan pojkar födda 2018",
+      "type": "Övrigt",
+      "description": "Övrigt",
+      "location": "Rydahallen",
+      "lockerooms": null,
+      "team_id": "520555",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.8
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "time": "12:30",
+      "end_time": "17:00",
+      "team": "Fotbollsskolan pojkar födda 2018",
+      "type": "Övrigt",
+      "description": "Övrigt",
+      "location": "Rydahallen",
+      "lockerooms": null,
+      "team_id": "520555",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.4
       }
     },
     {
@@ -1315,9 +1347,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 10.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.6
       }
     },
     {
@@ -1333,7 +1365,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.0
+        "temp": 9.3
       }
     },
     {
@@ -1349,7 +1381,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.0
+        "temp": 9.3
       }
     },
     {
@@ -1365,7 +1397,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.7
+        "temp": 7.8
       }
     },
     {
@@ -1381,7 +1413,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.0
+        "temp": 6.0
       }
     },
     {
@@ -1397,7 +1429,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.0
+        "temp": 6.0
       }
     },
     {
@@ -1413,7 +1445,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.7
       }
     },
     {
@@ -1429,7 +1461,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.7
       }
     },
     {
@@ -1445,7 +1477,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.7
       }
     },
     {
@@ -1461,7 +1493,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.7
       }
     },
     {
@@ -1477,7 +1509,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.7
       }
     },
     {
@@ -1493,7 +1525,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.7
       }
     },
     {
@@ -1509,7 +1541,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.7
       }
     },
     {
@@ -1525,7 +1557,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.1
+        "temp": 10.9
       }
     },
     {
@@ -1541,7 +1573,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.1
+        "temp": 10.9
       }
     },
     {
