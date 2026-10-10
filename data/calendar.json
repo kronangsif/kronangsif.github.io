@@ -1,41 +1,13 @@
 {
-  "last_updated": "2026-10-09T20:42:31.292121",
+  "last_updated": "2026-10-10T00:34:53.358149",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 10,
   "year": 2026,
-  "activity_count": 139,
+  "activity_count": 138,
   "activities": [
-    {
-      "date": "2026-10-02",
-      "day": "02",
-      "weekday": "",
-      "time": "18:30",
-      "end_time": "",
-      "team": "P2009-2010",
-      "team_id": "286936",
-      "type": "Match",
-      "description": "Bergdalens IK hemma",
-      "venue": "Kronäng Arena konstgräs 1",
-      "calendar_venue": "Kronängs Arena A-plan",
-      "location": "Kronäng Arena konstgräs 1 Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11592.png",
-      "referees": [
-        "Nima Saemi"
-      ],
-      "fogis_game_id": 6710950,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
     {
       "date": "2026-10-03",
       "day": "03",
@@ -150,32 +122,6 @@
       "weekday": "",
       "time": "11:00",
       "end_time": "",
-      "team": "P2012",
-      "team_id": "239536",
-      "type": "Match",
-      "description": "Rydboholms SK hemma",
-      "venue": "Kronäng Arena",
-      "calendar_venue": "Kronängs Arena B-plan",
-      "location": "Kronäng Arena Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/10408.png",
-      "referees": [],
-      "fogis_game_id": 6721608,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-10-04",
-      "day": "04",
-      "weekday": "",
-      "time": "11:00",
-      "end_time": "",
       "team": "P2014",
       "team_id": "185875",
       "type": "Match",
@@ -193,6 +139,32 @@
         "abandoned": false,
         "canceled": false,
         "finished": false
+      },
+      "weather": null
+    },
+    {
+      "date": "2026-10-04",
+      "day": "04",
+      "weekday": "",
+      "time": "11:00",
+      "end_time": "",
+      "team": "P2012",
+      "team_id": "239536",
+      "type": "Match",
+      "description": "Rydboholms SK hemma",
+      "venue": "Kronäng Arena",
+      "calendar_venue": "Kronängs Arena B-plan",
+      "location": "Kronäng Arena Konstgräs",
+      "lockerooms": null,
+      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
+      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/10408.png",
+      "referees": [],
+      "fogis_game_id": 6721608,
+      "fogis_status": {
+        "postponed": false,
+        "abandoned": false,
+        "canceled": false,
+        "finished": true
       },
       "weather": null
     },
@@ -304,11 +276,7 @@
         "canceled": false,
         "finished": true
       },
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.6
-      }
+      "weather": null
     },
     {
       "date": "2026-10-10",
@@ -337,7 +305,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.9
+        "temp": 10.0
       }
     },
     {
@@ -365,9 +333,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 8.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.6
       }
     },
     {
@@ -395,9 +363,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.5
       }
     },
     {
@@ -429,9 +397,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.9
       }
     },
     {
@@ -492,7 +460,11 @@
         "canceled": false,
         "finished": false
       },
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 10.9
+      }
     },
     {
       "date": "2026-10-18",
@@ -1219,9 +1191,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.0
+        "icon": "🌧️",
+        "desc": "Regn",
+        "temp": 8.2
       }
     },
     {
@@ -1236,8 +1208,8 @@
       "team_id": "224798",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 9.3
+        "desc": "Dis",
+        "temp": 8.7
       }
     },
     {
@@ -1253,7 +1225,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.6
+        "temp": 9.2
       }
     },
     {
@@ -1269,7 +1241,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.1
+        "temp": 10.4
       }
     },
     {
@@ -1283,8 +1255,8 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Regn",
+        "icon": "☁️",
+        "desc": "Molnigt",
         "temp": 8.3
       }
     },
