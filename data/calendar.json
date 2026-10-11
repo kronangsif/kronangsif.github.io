@@ -1,95 +1,13 @@
 {
-  "last_updated": "2026-10-10T22:18:55.498806",
+  "last_updated": "2026-10-11T01:39:48.932368",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 10,
   "year": 2026,
-  "activity_count": 138,
+  "activity_count": 135,
   "activities": [
-    {
-      "date": "2026-10-03",
-      "day": "03",
-      "weekday": "",
-      "time": "11:00",
-      "end_time": "",
-      "team": "P2014",
-      "team_id": "185875",
-      "type": "Match",
-      "description": "Töllsjö IF hemma",
-      "venue": "Kronäng Arena",
-      "calendar_venue": "Kronängs Arena B-plan",
-      "location": "Kronäng Arena Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/10016.png",
-      "referees": [],
-      "fogis_game_id": 6723277,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-10-03",
-      "day": "03",
-      "weekday": "",
-      "time": "13:00",
-      "end_time": "",
-      "team": "P2013",
-      "team_id": "87251",
-      "type": "Match",
-      "description": "Dalsjöfors GoIF Grön hemma",
-      "venue": "Kronäng Arena",
-      "calendar_venue": "Kronängs Arena B-plan",
-      "location": "Kronäng Arena Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/12553.png",
-      "referees": [],
-      "fogis_game_id": 6723630,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-10-03",
-      "day": "03",
-      "weekday": "",
-      "time": "16:00",
-      "end_time": "",
-      "team": "Herrar",
-      "team_id": "63822",
-      "type": "Match",
-      "description": "Högvads BK borta",
-      "venue": "Hallevi, Mjöbäck A",
-      "calendar_venue": "Hallevi, Mjöbäck A",
-      "location": "Hallevi, Mjöbäck A Naturgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/6929.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "referees": [
-        "Rasoul Mansourieh",
-        "Dini Ali",
-        "William Ewertzon"
-      ],
-      "fogis_game_id": 6569017,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
     {
       "date": "2026-10-04",
       "day": "04",
@@ -122,32 +40,6 @@
       "weekday": "",
       "time": "11:00",
       "end_time": "",
-      "team": "P2014",
-      "team_id": "185875",
-      "type": "Match",
-      "description": "Fristads GoIF Grön hemma",
-      "venue": "Kronäng Arena",
-      "calendar_venue": "Kronängs Arena A-plan",
-      "location": "Kronäng Arena Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11342.png",
-      "referees": [],
-      "fogis_game_id": 6773451,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": false
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-10-04",
-      "day": "04",
-      "weekday": "",
-      "time": "11:00",
-      "end_time": "",
       "team": "P2012",
       "team_id": "239536",
       "type": "Match",
@@ -165,6 +57,32 @@
         "abandoned": false,
         "canceled": false,
         "finished": true
+      },
+      "weather": null
+    },
+    {
+      "date": "2026-10-04",
+      "day": "04",
+      "weekday": "",
+      "time": "11:00",
+      "end_time": "",
+      "team": "P2014",
+      "team_id": "185875",
+      "type": "Match",
+      "description": "Fristads GoIF Grön hemma",
+      "venue": "Kronäng Arena",
+      "calendar_venue": "Kronängs Arena A-plan",
+      "location": "Kronäng Arena Konstgräs",
+      "lockerooms": null,
+      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
+      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11342.png",
+      "referees": [],
+      "fogis_game_id": 6773451,
+      "fogis_status": {
+        "postponed": false,
+        "abandoned": false,
+        "canceled": false,
+        "finished": false
       },
       "weather": null
     },
@@ -359,9 +277,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 7.9
       }
     },
     {
@@ -395,7 +313,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.1
+        "temp": 7.5
       }
     },
     {
@@ -425,9 +343,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 9.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.0
       }
     },
     {
@@ -457,9 +375,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 10.7
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 12.0
       }
     },
     {
@@ -1237,7 +1155,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.4
+        "temp": 7.5
       }
     },
     {
@@ -1251,9 +1169,9 @@
       "lockerooms": null,
       "team_id": "56158",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.8
       }
     },
     {
@@ -1267,9 +1185,9 @@
       "lockerooms": null,
       "team_id": "481208",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.8
       }
     },
     {
@@ -1283,9 +1201,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 7.3
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.0
       }
     },
     {
@@ -1301,7 +1219,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 6.4
+        "temp": 6.1
       }
     },
     {
@@ -1317,7 +1235,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 6.4
+        "temp": 6.1
       }
     },
     {
@@ -1331,9 +1249,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.1
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.7
       }
     },
     {
@@ -1347,9 +1265,9 @@
       "lockerooms": null,
       "team_id": "324307",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.1
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.7
       }
     },
     {
@@ -1363,9 +1281,9 @@
       "lockerooms": null,
       "team_id": "520555",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.1
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.7
       }
     },
     {
@@ -1379,9 +1297,9 @@
       "lockerooms": null,
       "team_id": null,
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.1
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.7
       }
     },
     {
@@ -1395,9 +1313,9 @@
       "lockerooms": null,
       "team_id": "584817",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.1
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.7
       }
     },
     {
@@ -1411,9 +1329,9 @@
       "lockerooms": null,
       "team_id": "621421",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.1
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.7
       }
     },
     {
@@ -1427,9 +1345,9 @@
       "lockerooms": null,
       "team_id": "52695",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.4
       }
     },
     {
@@ -1443,9 +1361,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.4
       }
     },
     {
@@ -1461,7 +1379,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.5
+        "temp": 11.8
       }
     },
     {
@@ -1477,7 +1395,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.5
+        "temp": 11.8
       }
     },
     {
@@ -1491,9 +1409,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 9.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.0
       }
     },
     {
@@ -1507,9 +1425,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.4
       }
     },
     {
@@ -1523,9 +1441,9 @@
       "lockerooms": null,
       "team_id": "324307",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.4
       }
     },
     {
@@ -1539,9 +1457,9 @@
       "lockerooms": null,
       "team_id": "520555",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.4
       }
     },
     {
@@ -1557,7 +1475,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 12.0
       }
     },
     {
@@ -1573,7 +1491,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.8
+        "temp": 11.6
       }
     },
     {
@@ -1589,7 +1507,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.8
+        "temp": 11.6
       }
     },
     {
@@ -1605,7 +1523,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.8
+        "temp": 11.6
       }
     },
     {
