@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T07:04:34.747792",
+  "last_updated": "2026-10-12T17:32:30.915556",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -161,7 +161,7 @@
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
       "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11498.png",
       "referees": [
-        "Selim Hasani"
+        "Andreas Svensson"
       ],
       "fogis_game_id": 6743393,
       "fogis_status": {
@@ -171,9 +171,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 8.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 9.4
       }
     },
     {
@@ -203,9 +203,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.8
       }
     },
     {
@@ -235,7 +235,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.0
+        "temp": 6.7
       }
     },
     {
@@ -254,7 +254,9 @@
       "lockerooms": null,
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/13173.png",
       "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "referees": [],
+      "referees": [
+        "Anders Orlinder"
+      ],
       "fogis_game_id": 6922102,
       "fogis_status": {
         "postponed": false,
@@ -265,7 +267,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.3
+        "temp": 9.5
       }
     },
     {
@@ -1003,7 +1005,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.6
+        "temp": 7.7
       }
     },
     {
@@ -1019,7 +1021,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.6
+        "temp": 7.7
       }
     },
     {
@@ -1035,7 +1037,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.2
+        "temp": 7.4
       }
     },
     {
@@ -1049,9 +1051,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 6.7
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.0
       }
     },
     {
@@ -1065,9 +1067,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 6.7
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 7.0
       }
     },
     {
@@ -1081,9 +1083,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.2
       }
     },
     {
@@ -1097,9 +1099,9 @@
       "lockerooms": null,
       "team_id": "324307",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.2
       }
     },
     {
@@ -1113,9 +1115,9 @@
       "lockerooms": null,
       "team_id": "520555",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.2
       }
     },
     {
@@ -1129,9 +1131,9 @@
       "lockerooms": null,
       "team_id": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.2
       }
     },
     {
@@ -1145,9 +1147,9 @@
       "lockerooms": null,
       "team_id": "584817",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.2
       }
     },
     {
@@ -1161,9 +1163,9 @@
       "lockerooms": null,
       "team_id": "621421",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.2
       }
     },
     {
@@ -1177,9 +1179,9 @@
       "lockerooms": null,
       "team_id": "52695",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.5
       }
     },
     {
@@ -1193,9 +1195,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.5
       }
     },
     {
@@ -1209,9 +1211,9 @@
       "lockerooms": null,
       "team_id": "56158",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.2
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 12.5
       }
     },
     {
@@ -1225,25 +1227,9 @@
       "lockerooms": null,
       "team_id": "481208",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.2
-      }
-    },
-    {
-      "date": "2026-10-14",
-      "time": "19:00",
-      "end_time": "20:45",
-      "team": "Herrar",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena A-plan",
-      "lockerooms": null,
-      "team_id": "38937",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 8.5
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 12.5
       }
     },
     {
@@ -1257,9 +1243,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.3
       }
     },
     {
@@ -1273,9 +1259,9 @@
       "lockerooms": null,
       "team_id": "324307",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.3
       }
     },
     {
@@ -1289,9 +1275,9 @@
       "lockerooms": null,
       "team_id": "520555",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 12.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.3
       }
     },
     {
@@ -1307,7 +1293,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.2
+        "temp": 11.8
       }
     },
     {
@@ -1323,7 +1309,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.9
+        "temp": 11.5
       }
     },
     {
@@ -1339,7 +1325,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.9
+        "temp": 11.5
       }
     },
     {
@@ -1355,7 +1341,23 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.9
+        "temp": 11.5
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "time": "11:00",
+      "end_time": "18:00",
+      "team": "Klubbstuga",
+      "type": "Övrigt",
+      "description": "Möte",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "team_id": "181941",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 7.6
       }
     },
     {
@@ -1371,7 +1373,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 4.0
+        "temp": 5.0
       }
     },
     {
@@ -1387,7 +1389,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.0
+        "temp": 6.7
       }
     },
     {
@@ -1403,7 +1405,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.9
+        "temp": 8.3
       }
     },
     {
