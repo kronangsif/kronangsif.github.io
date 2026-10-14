@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T16:48:47.786764",
+  "last_updated": "2026-10-14T20:30:56.660584",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -168,12 +168,12 @@
         "postponed": false,
         "abandoned": false,
         "canceled": false,
-        "finished": false
+        "finished": true
       },
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.6
+        "temp": 10.2
       }
     },
     {
@@ -204,8 +204,8 @@
       },
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 11.3
+        "desc": "Regn",
+        "temp": 12.4
       }
     },
     {
@@ -235,7 +235,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.0
+        "temp": 6.7
       }
     },
     {
@@ -269,7 +269,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.1
+        "temp": 8.9
       }
     },
     {
@@ -1223,7 +1223,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 13.3
       }
     },
     {
@@ -1239,7 +1239,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 13.3
       }
     },
     {
@@ -1255,7 +1255,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 13.3
       }
     },
     {
@@ -1271,7 +1271,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.0
+        "temp": 13.2
       }
     },
     {
@@ -1287,7 +1287,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.8
+        "temp": 12.9
       }
     },
     {
@@ -1303,7 +1303,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.8
+        "temp": 12.9
       }
     },
     {
@@ -1319,7 +1319,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.8
+        "temp": 12.9
       }
     },
     {
@@ -1333,9 +1333,9 @@
       "lockerooms": null,
       "team_id": "181941",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.2
       }
     },
     {
@@ -1349,9 +1349,9 @@
       "lockerooms": null,
       "team_id": "324307",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.2
       }
     },
     {
@@ -1367,7 +1367,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.5
+        "temp": 5.0
       }
     },
     {
@@ -1383,7 +1383,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.0
+        "temp": 6.7
       }
     },
     {
@@ -1399,7 +1399,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.2
+        "temp": 7.9
       }
     },
     {
@@ -1415,7 +1415,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.7
+        "temp": 9.3
       }
     },
     {
@@ -1431,7 +1431,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.5
+        "temp": 7.9
       }
     },
     {
@@ -1447,7 +1447,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.0
+        "temp": 6.3
       }
     },
     {
@@ -1463,7 +1463,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.0
+        "temp": 7.8
       }
     },
     {
@@ -1479,7 +1479,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.0
+        "temp": 7.8
       }
     },
     {
@@ -1495,7 +1495,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.0
+        "temp": 7.8
       }
     },
     {
@@ -1511,7 +1511,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.0
+        "temp": 7.8
       }
     },
     {
@@ -1527,7 +1527,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.0
+        "temp": 7.8
       }
     },
     {
@@ -1543,7 +1543,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.0
+        "temp": 7.8
       }
     },
     {
@@ -1559,7 +1559,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.0
+        "temp": 6.0
       }
     },
     {
