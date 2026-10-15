@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-15T03:50:56.643014",
+  "last_updated": "2026-10-15T09:00:22.898927",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 10,
   "year": 2026,
-  "activity_count": 129,
+  "activity_count": 130,
   "activities": [
     {
       "date": "2026-10-09",
@@ -201,7 +201,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 12.5
+        "temp": 12.4
       }
     },
     {
@@ -265,7 +265,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.0
+        "temp": 9.9
       }
     },
     {
@@ -526,24 +526,24 @@
       "date": "2026-10-01",
       "time": "19:00",
       "end_time": "20:30",
-      "team": "P2011",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "team_id": "260562",
-      "weather": null
-    },
-    {
-      "date": "2026-10-01",
-      "time": "19:00",
-      "end_time": "20:30",
       "team": "Damer",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "52695",
+      "weather": null
+    },
+    {
+      "date": "2026-10-01",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "P2011",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "team_id": "260562",
       "weather": null
     },
     {
@@ -610,24 +610,24 @@
       "date": "2026-10-05",
       "time": "17:30",
       "end_time": "19:00",
-      "team": "Fotbollsskolan födda 2017",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "team_id": "481208",
-      "weather": null
-    },
-    {
-      "date": "2026-10-05",
-      "time": "17:30",
-      "end_time": "19:00",
       "team": "P2015",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "56158",
+      "weather": null
+    },
+    {
+      "date": "2026-10-05",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "team_id": "481208",
       "weather": null
     },
     {
@@ -658,24 +658,24 @@
       "date": "2026-10-06",
       "time": "17:30",
       "end_time": "19:00",
-      "team": "Fotbollsskolan pojkar födda 2018",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "team_id": "520555",
-      "weather": null
-    },
-    {
-      "date": "2026-10-06",
-      "time": "17:30",
-      "end_time": "19:00",
       "team": "Fotbollsskolan födda 2021",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "621421",
+      "weather": null
+    },
+    {
+      "date": "2026-10-06",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan pojkar födda 2018",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "team_id": "520555",
       "weather": null
     },
     {
@@ -753,18 +753,6 @@
     {
       "date": "2026-10-06",
       "time": "19:00",
-      "end_time": "20:45",
-      "team": "P2009-2010",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "team_id": "224798",
-      "weather": null
-    },
-    {
-      "date": "2026-10-06",
-      "time": "19:00",
       "end_time": "20:30",
       "team": "Damer",
       "type": "Träning",
@@ -775,15 +763,15 @@
       "weather": null
     },
     {
-      "date": "2026-10-07",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "Fotbollsskolan födda 2017",
+      "date": "2026-10-06",
+      "time": "19:00",
+      "end_time": "20:45",
+      "team": "P2009-2010",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "481208",
+      "team_id": "224798",
       "weather": null
     },
     {
@@ -796,6 +784,18 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "56158",
+      "weather": null
+    },
+    {
+      "date": "2026-10-07",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "team_id": "481208",
       "weather": null
     },
     {
@@ -898,12 +898,12 @@
       "date": "2026-10-08",
       "time": "19:00",
       "end_time": "20:30",
-      "team": "P2011",
+      "team": "Damer",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "260562",
+      "team_id": "52695",
       "weather": null
     },
     {
@@ -922,12 +922,12 @@
       "date": "2026-10-08",
       "time": "19:00",
       "end_time": "20:30",
-      "team": "Damer",
+      "team": "P2011",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "52695",
+      "team_id": "260562",
       "weather": null
     },
     {
@@ -1090,6 +1090,18 @@
       "date": "2026-10-13",
       "time": "17:30",
       "end_time": "19:00",
+      "team": "P2013",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "team_id": "324307",
+      "weather": null
+    },
+    {
+      "date": "2026-10-13",
+      "time": "17:30",
+      "end_time": "19:00",
       "team": "Fotbollsskolan pojkar födda 2018",
       "type": "Träning",
       "description": "Träning",
@@ -1124,14 +1136,14 @@
     },
     {
       "date": "2026-10-13",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "P2013",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "Damer",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "324307",
+      "team_id": "52695",
       "weather": null
     },
     {
@@ -1144,18 +1156,6 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "224798",
-      "weather": null
-    },
-    {
-      "date": "2026-10-13",
-      "time": "19:00",
-      "end_time": "20:30",
-      "team": "Damer",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "team_id": "52695",
       "weather": null
     },
     {
@@ -1174,24 +1174,24 @@
       "date": "2026-10-14",
       "time": "17:30",
       "end_time": "19:00",
-      "team": "Fotbollsskolan födda 2017",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "team_id": "481208",
-      "weather": null
-    },
-    {
-      "date": "2026-10-14",
-      "time": "17:30",
-      "end_time": "19:00",
       "team": "P2015",
       "type": "Träning",
       "description": "Träning och föräldramatch!",
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "56158",
+      "weather": null
+    },
+    {
+      "date": "2026-10-14",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "team_id": "481208",
       "weather": null
     },
     {
@@ -1207,7 +1207,23 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 12.7
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "P2013",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "team_id": "324307",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.7
       }
     },
     {
@@ -1223,23 +1239,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.2
-      }
-    },
-    {
-      "date": "2026-10-15",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "P2013",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "team_id": "324307",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 13.2
+        "temp": 12.7
       }
     },
     {
@@ -1255,39 +1255,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 13.0
-      }
-    },
-    {
-      "date": "2026-10-15",
-      "time": "19:00",
-      "end_time": "20:30",
-      "team": "P2011",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "team_id": "260562",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.7
-      }
-    },
-    {
-      "date": "2026-10-15",
-      "time": "19:00",
-      "end_time": "20:30",
-      "team": "P2009-2010",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "team_id": "224798",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.7
+        "temp": 12.6
       }
     },
     {
@@ -1303,7 +1271,39 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 12.7
+        "temp": 12.5
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "P2009-2010",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "team_id": "224798",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.5
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "P2011",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "team_id": "260562",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 12.5
       }
     },
     {
@@ -1319,7 +1319,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.1
+        "temp": 8.4
       }
     },
     {
@@ -1335,7 +1335,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.1
+        "temp": 8.4
       }
     },
     {
@@ -1351,7 +1351,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.4
+        "temp": 5.3
       }
     },
     {
@@ -1383,7 +1383,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.9
+        "temp": 9.0
       }
     },
     {
@@ -1399,7 +1399,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.6
+        "temp": 8.5
       }
     },
     {
@@ -1431,7 +1431,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.4
+        "temp": 5.5
       }
     },
     {
@@ -1445,9 +1445,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.8
       }
     },
     {
@@ -1461,9 +1461,9 @@
       "lockerooms": null,
       "team_id": "621421",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.8
       }
     },
     {
@@ -1477,9 +1477,9 @@
       "lockerooms": null,
       "team_id": "520555",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.8
       }
     },
     {
@@ -1493,9 +1493,9 @@
       "lockerooms": null,
       "team_id": null,
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.8
       }
     },
     {
@@ -1509,9 +1509,9 @@
       "lockerooms": null,
       "team_id": "584817",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.8
       }
     },
     {
@@ -1525,9 +1525,9 @@
       "lockerooms": null,
       "team_id": "324307",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 7.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.8
       }
     },
     {
@@ -1543,7 +1543,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.2
+        "temp": 6.1
       }
     },
     {
@@ -1559,7 +1559,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.1
+        "temp": 10.0
       }
     },
     {
@@ -1575,7 +1575,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.2
+        "temp": 9.5
       }
     },
     {
@@ -1630,24 +1630,24 @@
       "date": "2026-10-22",
       "time": "19:00",
       "end_time": "20:30",
-      "team": "P2011",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "team_id": "260562",
-      "weather": null
-    },
-    {
-      "date": "2026-10-22",
-      "time": "19:00",
-      "end_time": "20:30",
       "team": "Damer",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "52695",
+      "weather": null
+    },
+    {
+      "date": "2026-10-22",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "P2011",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "team_id": "260562",
       "weather": null
     },
     {
@@ -1844,6 +1844,18 @@
     },
     {
       "date": "2026-10-29",
+      "time": "08:00",
+      "end_time": "18:00",
+      "team": "P2009-2010",
+      "type": "Övrigt",
+      "description": "Torslanda Futsal Cup (P10)",
+      "location": "Torslanda",
+      "lockerooms": null,
+      "team_id": "224798",
+      "weather": null
+    },
+    {
+      "date": "2026-10-29",
       "time": "17:30",
       "end_time": "19:00",
       "team": "Fotbollsskolan pojkar födda 2018",
@@ -1882,24 +1894,24 @@
       "date": "2026-10-29",
       "time": "19:00",
       "end_time": "20:30",
-      "team": "P2011",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "team_id": "260562",
-      "weather": null
-    },
-    {
-      "date": "2026-10-29",
-      "time": "19:00",
-      "end_time": "20:30",
       "team": "Damer",
       "type": "Träning",
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "52695",
+      "weather": null
+    },
+    {
+      "date": "2026-10-29",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "P2011",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "team_id": "260562",
       "weather": null
     }
   ],
