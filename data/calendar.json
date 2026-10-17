@@ -1,41 +1,13 @@
 {
-  "last_updated": "2026-10-16T23:19:32.967215",
+  "last_updated": "2026-10-17T03:36:32.856784",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 10,
   "year": 2026,
-  "activity_count": 130,
+  "activity_count": 129,
   "activities": [
-    {
-      "date": "2026-10-09",
-      "day": "09",
-      "weekday": "",
-      "time": "18:45",
-      "end_time": "",
-      "team": "P2009-2010",
-      "team_id": "286936",
-      "type": "Match",
-      "description": "Bergdalens IK borta",
-      "venue": "Björkängsvallen, Borås, Konstgräs",
-      "calendar_venue": "Björkängsvallen, Borås, Konstgräs",
-      "location": "Björkängsvallen, Borås, Konstgräs Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11592.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "referees": [
-        "Patrik Solérius"
-      ],
-      "fogis_game_id": 6710992,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
     {
       "date": "2026-10-10",
       "day": "10",
@@ -227,7 +199,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.2
+        "temp": 7.1
       }
     },
     {
@@ -1289,7 +1261,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 9.1
+        "temp": 8.9
       }
     },
     {
@@ -1305,7 +1277,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 9.1
+        "temp": 8.9
       }
     },
     {
@@ -1321,7 +1293,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.3
+        "temp": 5.2
       }
     },
     {
@@ -1337,7 +1309,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.2
+        "temp": 7.1
       }
     },
     {
@@ -1385,7 +1357,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.1
+        "temp": 6.2
       }
     },
     {
@@ -1417,7 +1389,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.6
+        "temp": 9.5
       }
     },
     {
@@ -1433,7 +1405,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.6
+        "temp": 9.5
       }
     },
     {
@@ -1449,7 +1421,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.6
+        "temp": 9.5
       }
     },
     {
@@ -1465,7 +1437,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.6
+        "temp": 9.5
       }
     },
     {
@@ -1481,7 +1453,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.6
+        "temp": 9.5
       }
     },
     {
@@ -1497,7 +1469,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.6
+        "temp": 9.5
       }
     },
     {
@@ -1513,7 +1485,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.9
+        "temp": 7.7
       }
     },
     {
@@ -1529,7 +1501,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.4
+        "temp": 9.9
       }
     },
     {
@@ -1545,7 +1517,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.1
+        "temp": 9.5
       }
     },
     {
@@ -1561,7 +1533,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.5
+        "temp": 9.9
       }
     },
     {
@@ -1577,7 +1549,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.5
+        "temp": 9.9
       }
     },
     {
@@ -1593,7 +1565,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.5
+        "temp": 9.9
       }
     },
     {
@@ -1609,7 +1581,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.3
+        "temp": 9.8
       }
     },
     {
@@ -1625,7 +1597,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.2
+        "temp": 9.7
       }
     },
     {
@@ -1641,7 +1613,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.2
+        "temp": 9.7
       }
     },
     {
