@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-17T12:47:02.162760",
+  "last_updated": "2026-10-17T16:11:50.147083",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -31,7 +31,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": true
-      }
+      },
+      "weather": null
     },
     {
       "date": "2026-10-11",
@@ -56,7 +57,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": true
-      }
+      },
+      "weather": null
     },
     {
       "date": "2026-10-11",
@@ -81,7 +83,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": true
-      }
+      },
+      "weather": null
     },
     {
       "date": "2026-10-11",
@@ -110,7 +113,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": true
-      }
+      },
+      "weather": null
     },
     {
       "date": "2026-10-14",
@@ -137,7 +141,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": true
-      }
+      },
+      "weather": null
     },
     {
       "date": "2026-10-16",
@@ -164,7 +169,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": true
-      }
+      },
+      "weather": null
     },
     {
       "date": "2026-10-18",
@@ -189,6 +195,11 @@
         "abandoned": false,
         "canceled": false,
         "finished": false
+      },
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.0
       }
     },
     {
@@ -218,6 +229,11 @@
         "abandoned": false,
         "canceled": false,
         "finished": false
+      },
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 9.9
       }
     },
     {
@@ -245,7 +261,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": false
-      }
+      },
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -270,7 +287,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": false
-      }
+      },
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -295,7 +313,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": false
-      }
+      },
+      "weather": null
     },
     {
       "date": "2026-11-14",
@@ -320,7 +339,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": false
-      }
+      },
+      "weather": null
     },
     {
       "date": "2026-11-14",
@@ -345,7 +365,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": false
-      }
+      },
+      "weather": null
     },
     {
       "date": "2027-01-17",
@@ -370,7 +391,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": false
-      }
+      },
+      "weather": null
     },
     {
       "date": "2027-01-17",
@@ -395,7 +417,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": false
-      }
+      },
+      "weather": null
     },
     {
       "date": "2026-10-01",
@@ -406,7 +429,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": null
     },
     {
       "date": "2026-10-01",
@@ -417,7 +441,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": null
     },
     {
       "date": "2026-10-01",
@@ -428,7 +453,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "414417"
+      "team_id": "414417",
+      "weather": null
     },
     {
       "date": "2026-10-01",
@@ -439,7 +465,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "520555"
+      "team_id": "520555",
+      "weather": null
     },
     {
       "date": "2026-10-01",
@@ -450,7 +477,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "612530"
+      "team_id": "612530",
+      "weather": null
     },
     {
       "date": "2026-10-01",
@@ -461,7 +489,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-10-01",
@@ -472,7 +501,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": null
     },
     {
       "date": "2026-10-01",
@@ -483,7 +513,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "260562"
+      "team_id": "260562",
+      "weather": null
     },
     {
       "date": "2026-10-02",
@@ -494,7 +525,8 @@
       "description": "Övrigt",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "374981"
+      "team_id": "374981",
+      "weather": null
     },
     {
       "date": "2026-10-03",
@@ -505,7 +537,8 @@
       "description": "Kioskbemanning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": null
     },
     {
       "date": "2026-10-04",
@@ -516,7 +549,8 @@
       "description": "Borås Arena Cup - Kronängs IF svart",
       "location": "Borås Arena",
       "lockerooms": null,
-      "team_id": "414417"
+      "team_id": "414417",
+      "weather": null
     },
     {
       "date": "2026-10-04",
@@ -527,7 +561,8 @@
       "description": "Borås Arena Cup - Kronängs IF vit",
       "location": "Borås Arena",
       "lockerooms": null,
-      "team_id": "414417"
+      "team_id": "414417",
+      "weather": null
     },
     {
       "date": "2026-10-04",
@@ -538,7 +573,8 @@
       "description": "Domaruppdrag",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "260562"
+      "team_id": "260562",
+      "weather": null
     },
     {
       "date": "2026-10-05",
@@ -549,7 +585,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "56158"
+      "team_id": "56158",
+      "weather": null
     },
     {
       "date": "2026-10-05",
@@ -560,7 +597,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": null
     },
     {
       "date": "2026-10-05",
@@ -571,7 +609,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-10-05",
@@ -582,7 +621,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "260562"
+      "team_id": "260562",
+      "weather": null
     },
     {
       "date": "2026-10-06",
@@ -593,7 +633,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": null
     },
     {
       "date": "2026-10-06",
@@ -604,7 +645,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": null
     },
     {
       "date": "2026-10-06",
@@ -615,7 +657,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "414417"
+      "team_id": "414417",
+      "weather": null
     },
     {
       "date": "2026-10-06",
@@ -626,7 +669,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "520555"
+      "team_id": "520555",
+      "weather": null
     },
     {
       "date": "2026-10-06",
@@ -637,7 +681,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": null
+      "team_id": null,
+      "weather": null
     },
     {
       "date": "2026-10-06",
@@ -648,7 +693,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "584817"
+      "team_id": "584817",
+      "weather": null
     },
     {
       "date": "2026-10-06",
@@ -659,7 +705,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "612530"
+      "team_id": "612530",
+      "weather": null
     },
     {
       "date": "2026-10-06",
@@ -670,7 +717,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "621421"
+      "team_id": "621421",
+      "weather": null
     },
     {
       "date": "2026-10-06",
@@ -681,7 +729,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": null
     },
     {
       "date": "2026-10-06",
@@ -692,7 +741,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": null
     },
     {
       "date": "2026-10-07",
@@ -703,7 +753,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "56158"
+      "team_id": "56158",
+      "weather": null
     },
     {
       "date": "2026-10-07",
@@ -714,7 +765,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "374981"
+      "team_id": "374981",
+      "weather": null
     },
     {
       "date": "2026-10-07",
@@ -725,7 +777,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": null
     },
     {
       "date": "2026-10-07",
@@ -736,7 +789,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "38937"
+      "team_id": "38937",
+      "weather": null
     },
     {
       "date": "2026-10-08",
@@ -747,7 +801,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": null
     },
     {
       "date": "2026-10-08",
@@ -758,7 +813,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": null
     },
     {
       "date": "2026-10-08",
@@ -769,7 +825,8 @@
       "description": "Avslutning Träning Föräldramatch",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "414417"
+      "team_id": "414417",
+      "weather": null
     },
     {
       "date": "2026-10-08",
@@ -780,7 +837,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "520555"
+      "team_id": "520555",
+      "weather": null
     },
     {
       "date": "2026-10-08",
@@ -791,7 +849,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "612530"
+      "team_id": "612530",
+      "weather": null
     },
     {
       "date": "2026-10-08",
@@ -802,7 +861,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-10-08",
@@ -813,7 +873,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": null
     },
     {
       "date": "2026-10-08",
@@ -824,7 +885,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": null
     },
     {
       "date": "2026-10-08",
@@ -835,7 +897,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "260562"
+      "team_id": "260562",
+      "weather": null
     },
     {
       "date": "2026-10-10",
@@ -846,7 +909,8 @@
       "description": "BUA arrangör",
       "location": "Rydahallen",
       "lockerooms": null,
-      "team_id": "260562"
+      "team_id": "260562",
+      "weather": null
     },
     {
       "date": "2026-10-10",
@@ -857,7 +921,8 @@
       "description": "BUA arrangör",
       "location": "Rydahallen",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": null
     },
     {
       "date": "2026-10-10",
@@ -868,7 +933,8 @@
       "description": "Övrigt",
       "location": "Rydahallen",
       "lockerooms": null,
-      "team_id": "520555"
+      "team_id": "520555",
+      "weather": null
     },
     {
       "date": "2026-10-10",
@@ -879,7 +945,8 @@
       "description": "Övrigt",
       "location": "Rydahallen",
       "lockerooms": null,
-      "team_id": "520555"
+      "team_id": "520555",
+      "weather": null
     },
     {
       "date": "2026-10-11",
@@ -890,7 +957,8 @@
       "description": "Kioskbemanning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": null
     },
     {
       "date": "2026-10-11",
@@ -901,7 +969,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": null
     },
     {
       "date": "2026-10-12",
@@ -912,7 +981,8 @@
       "description": "Lag aktivitet träskboll + pizza",
       "location": "Hestrastugan",
       "lockerooms": null,
-      "team_id": "56158"
+      "team_id": "56158",
+      "weather": null
     },
     {
       "date": "2026-10-12",
@@ -923,7 +993,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": null
     },
     {
       "date": "2026-10-12",
@@ -934,7 +1005,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-10-12",
@@ -945,7 +1017,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "38937"
+      "team_id": "38937",
+      "weather": null
     },
     {
       "date": "2026-10-12",
@@ -956,7 +1029,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "260562"
+      "team_id": "260562",
+      "weather": null
     },
     {
       "date": "2026-10-13",
@@ -967,7 +1041,8 @@
       "description": "Träning + löpning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": null
     },
     {
       "date": "2026-10-13",
@@ -978,7 +1053,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": null
     },
     {
       "date": "2026-10-13",
@@ -989,7 +1065,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "520555"
+      "team_id": "520555",
+      "weather": null
     },
     {
       "date": "2026-10-13",
@@ -1000,7 +1077,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": null
+      "team_id": null,
+      "weather": null
     },
     {
       "date": "2026-10-13",
@@ -1011,7 +1089,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "584817"
+      "team_id": "584817",
+      "weather": null
     },
     {
       "date": "2026-10-13",
@@ -1022,7 +1101,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "621421"
+      "team_id": "621421",
+      "weather": null
     },
     {
       "date": "2026-10-13",
@@ -1033,7 +1113,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": null
     },
     {
       "date": "2026-10-13",
@@ -1044,7 +1125,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": null
     },
     {
       "date": "2026-10-14",
@@ -1055,7 +1137,8 @@
       "description": "Träning och föräldramatch!",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "56158"
+      "team_id": "56158",
+      "weather": null
     },
     {
       "date": "2026-10-14",
@@ -1066,7 +1149,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "374981"
+      "team_id": "374981",
+      "weather": null
     },
     {
       "date": "2026-10-14",
@@ -1077,7 +1161,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": null
     },
     {
       "date": "2026-10-15",
@@ -1088,7 +1173,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": null
     },
     {
       "date": "2026-10-15",
@@ -1099,7 +1185,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": null
     },
     {
       "date": "2026-10-15",
@@ -1110,7 +1197,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "520555"
+      "team_id": "520555",
+      "weather": null
     },
     {
       "date": "2026-10-15",
@@ -1121,7 +1209,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-10-15",
@@ -1132,7 +1221,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": null
     },
     {
       "date": "2026-10-15",
@@ -1143,7 +1233,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": null
     },
     {
       "date": "2026-10-15",
@@ -1154,7 +1245,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "260562"
+      "team_id": "260562",
+      "weather": null
     },
     {
       "date": "2026-10-17",
@@ -1165,7 +1257,12 @@
       "description": "Möte",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "181941"
+      "team_id": "181941",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 8.4
+      }
     },
     {
       "date": "2026-10-17",
@@ -1176,7 +1273,12 @@
       "description": "Säsongsfirande",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 8.4
+      }
     },
     {
       "date": "2026-10-18",
@@ -1187,7 +1289,12 @@
       "description": "Kioskbemanning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 4.9
+      }
     },
     {
       "date": "2026-10-18",
@@ -1198,7 +1305,12 @@
       "description": "Firande av serieseger 🏆",
       "location": "Kronängs Arena Cafeteria",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.0
+      }
     },
     {
       "date": "2026-10-18",
@@ -1209,7 +1321,12 @@
       "description": "Träning",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.6
+      }
     },
     {
       "date": "2026-10-19",
@@ -1220,7 +1337,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 9.8
+      }
     },
     {
       "date": "2026-10-19",
@@ -1231,7 +1353,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.0
+      }
     },
     {
       "date": "2026-10-19",
@@ -1242,7 +1369,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "260562"
+      "team_id": "260562",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 6.1
+      }
     },
     {
       "date": "2026-10-20",
@@ -1253,7 +1385,12 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.3
+      }
     },
     {
       "date": "2026-10-20",
@@ -1264,7 +1401,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.3
+      }
     },
     {
       "date": "2026-10-20",
@@ -1275,7 +1417,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "520555"
+      "team_id": "520555",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.3
+      }
     },
     {
       "date": "2026-10-20",
@@ -1286,7 +1433,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": null
+      "team_id": null,
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.3
+      }
     },
     {
       "date": "2026-10-20",
@@ -1297,7 +1449,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "584817"
+      "team_id": "584817",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.3
+      }
     },
     {
       "date": "2026-10-20",
@@ -1308,7 +1465,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "621421"
+      "team_id": "621421",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 10.3
+      }
     },
     {
       "date": "2026-10-20",
@@ -1319,7 +1481,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.0
+      }
     },
     {
       "date": "2026-10-21",
@@ -1330,7 +1497,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 10.5
+      }
     },
     {
       "date": "2026-10-21",
@@ -1341,7 +1513,12 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "38937"
+      "team_id": "38937",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 10.0
+      }
     },
     {
       "date": "2026-10-22",
@@ -1352,7 +1529,12 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.2
+      }
     },
     {
       "date": "2026-10-22",
@@ -1363,7 +1545,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.2
+      }
     },
     {
       "date": "2026-10-22",
@@ -1374,7 +1561,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "520555"
+      "team_id": "520555",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.2
+      }
     },
     {
       "date": "2026-10-22",
@@ -1385,7 +1577,12 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.1
+      }
     },
     {
       "date": "2026-10-22",
@@ -1396,7 +1593,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.1
+      }
     },
     {
       "date": "2026-10-22",
@@ -1407,7 +1609,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "260562"
+      "team_id": "260562",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.1
+      }
     },
     {
       "date": "2026-10-24",
@@ -1418,7 +1625,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-10-24",
@@ -1429,7 +1637,8 @@
       "description": "Säsongsavslutning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-10-25",
@@ -1440,7 +1649,8 @@
       "description": "Bollvärdar Norrby IF- IFK Norrköping",
       "location": "Borås Arena",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-10-25",
@@ -1451,7 +1661,8 @@
       "description": "Träningsmatch",
       "location": "Byttorps IP",
       "lockerooms": null,
-      "team_id": "260562"
+      "team_id": "260562",
+      "weather": null
     },
     {
       "date": "2026-10-26",
@@ -1462,7 +1673,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": null
     },
     {
       "date": "2026-10-26",
@@ -1473,7 +1685,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-10-26",
@@ -1484,7 +1697,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "38937"
+      "team_id": "38937",
+      "weather": null
     },
     {
       "date": "2026-10-26",
@@ -1495,7 +1709,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "260562"
+      "team_id": "260562",
+      "weather": null
     },
     {
       "date": "2026-10-27",
@@ -1506,7 +1721,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": null
     },
     {
       "date": "2026-10-27",
@@ -1517,7 +1733,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "520555"
+      "team_id": "520555",
+      "weather": null
     },
     {
       "date": "2026-10-27",
@@ -1528,7 +1745,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": null
+      "team_id": null,
+      "weather": null
     },
     {
       "date": "2026-10-27",
@@ -1539,7 +1757,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "584817"
+      "team_id": "584817",
+      "weather": null
     },
     {
       "date": "2026-10-27",
@@ -1550,7 +1769,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "621421"
+      "team_id": "621421",
+      "weather": null
     },
     {
       "date": "2026-10-27",
@@ -1561,7 +1781,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": null
     },
     {
       "date": "2026-10-28",
@@ -1572,7 +1793,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": null
     },
     {
       "date": "2026-10-28",
@@ -1583,7 +1805,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "38937"
+      "team_id": "38937",
+      "weather": null
     },
     {
       "date": "2026-10-29",
@@ -1594,7 +1817,8 @@
       "description": "Torslanda Futsal Cup (P10)",
       "location": "Torslanda",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": null
     },
     {
       "date": "2026-10-29",
@@ -1605,7 +1829,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": null
     },
     {
       "date": "2026-10-29",
@@ -1616,7 +1841,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "520555"
+      "team_id": "520555",
+      "weather": null
     },
     {
       "date": "2026-10-29",
@@ -1627,7 +1853,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-10-29",
@@ -1638,7 +1865,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": null
     },
     {
       "date": "2026-10-29",
@@ -1649,7 +1877,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "260562"
+      "team_id": "260562",
+      "weather": null
     }
   ],
   "standings": [
