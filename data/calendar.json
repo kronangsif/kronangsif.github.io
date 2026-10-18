@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-18T14:21:26.214133",
+  "last_updated": "2026-10-18T17:53:47.765207",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -1307,7 +1307,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.1
+        "temp": 9.7
       }
     },
     {
@@ -1323,7 +1323,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.2
+        "temp": 7.8
       }
     },
     {
@@ -1339,7 +1339,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.4
+        "temp": 5.8
       }
     },
     {
@@ -1355,7 +1355,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.8
+        "temp": 8.5
       }
     },
     {
@@ -1371,7 +1371,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.8
+        "temp": 8.5
       }
     },
     {
@@ -1387,7 +1387,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.8
+        "temp": 8.5
       }
     },
     {
@@ -1403,7 +1403,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.8
+        "temp": 8.5
       }
     },
     {
@@ -1419,7 +1419,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.8
+        "temp": 8.5
       }
     },
     {
@@ -1435,7 +1435,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.8
+        "temp": 8.5
       }
     },
     {
@@ -1451,7 +1451,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 7.3
+        "temp": 7.8
       }
     },
     {
