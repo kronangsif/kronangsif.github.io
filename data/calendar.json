@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-18T20:18:51.082840",
+  "last_updated": "2026-10-18T22:52:35.802142",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -170,11 +170,7 @@
         "canceled": false,
         "finished": true
       },
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 4.5
-      }
+      "weather": null
     },
     {
       "date": "2026-10-18",
@@ -204,11 +200,7 @@
         "canceled": false,
         "finished": true
       },
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.6
-      }
+      "weather": null
     },
     {
       "date": "2026-10-25",
@@ -236,7 +228,11 @@
         "canceled": false,
         "finished": false
       },
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.2
+      }
     },
     {
       "date": "2026-11-08",
@@ -1256,11 +1252,7 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "324331",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 2.1
-      }
+      "weather": null
     },
     {
       "date": "2026-10-18",
@@ -1272,11 +1264,7 @@
       "location": "Kronängs Arena Cafeteria",
       "lockerooms": null,
       "team_id": "324331",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 4.5
-      }
+      "weather": null
     },
     {
       "date": "2026-10-18",
@@ -1288,11 +1276,7 @@
       "location": "Björkängshallen",
       "lockerooms": null,
       "team_id": "224798",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 6.5
-      }
+      "weather": null
     },
     {
       "date": "2026-10-19",
@@ -1307,7 +1291,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.8
+        "temp": 9.5
       }
     },
     {
@@ -1323,7 +1307,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.9
+        "temp": 7.7
       }
     },
     {
@@ -1339,7 +1323,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.8
+        "temp": 5.9
       }
     },
     {
@@ -1355,7 +1339,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.4
+        "temp": 8.6
       }
     },
     {
@@ -1371,7 +1355,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.4
+        "temp": 8.6
       }
     },
     {
@@ -1387,7 +1371,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.4
+        "temp": 8.6
       }
     },
     {
@@ -1403,7 +1387,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.4
+        "temp": 8.6
       }
     },
     {
@@ -1419,7 +1403,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.4
+        "temp": 8.6
       }
     },
     {
@@ -1435,7 +1419,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.4
+        "temp": 8.6
       }
     },
     {
@@ -1449,9 +1433,9 @@
       "lockerooms": null,
       "team_id": "52695",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 7.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 7.9
       }
     },
     {
@@ -1624,7 +1608,11 @@
       "location": "Borås Arena",
       "lockerooms": null,
       "team_id": "281528",
-      "weather": null
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.2
+      }
     },
     {
       "date": "2026-10-25",
@@ -1636,7 +1624,11 @@
       "location": "Byttorps IP",
       "lockerooms": null,
       "team_id": "260562",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.7
+      }
     },
     {
       "date": "2026-10-26",
