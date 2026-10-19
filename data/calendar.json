@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-19T00:56:21.742297",
+  "last_updated": "2026-10-19T05:55:39.602474",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 10,
   "year": 2026,
-  "activity_count": 125,
+  "activity_count": 126,
   "activities": [
     {
       "date": "2026-10-14",
@@ -1209,7 +1209,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.2
+        "temp": 9.1
       }
     },
     {
@@ -1225,7 +1225,23 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.3
+        "temp": 7.2
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "Herrar",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena A-plan",
+      "lockerooms": null,
+      "team_id": "38937",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 5.4
       }
     },
     {
@@ -1241,7 +1257,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.5
+        "temp": 5.4
       }
     },
     {
@@ -1257,7 +1273,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.4
+        "temp": 8.5
       }
     },
     {
@@ -1273,7 +1289,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.4
+        "temp": 8.5
       }
     },
     {
@@ -1289,7 +1305,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.4
+        "temp": 8.5
       }
     },
     {
@@ -1305,7 +1321,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.4
+        "temp": 8.5
       }
     },
     {
@@ -1321,7 +1337,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.4
+        "temp": 8.5
       }
     },
     {
@@ -1337,7 +1353,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.4
+        "temp": 8.5
       }
     },
     {
@@ -1353,7 +1369,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.8
+        "temp": 8.0
       }
     },
     {
