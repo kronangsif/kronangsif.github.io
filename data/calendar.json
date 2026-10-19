@@ -1,95 +1,13 @@
 {
-  "last_updated": "2026-10-18T22:52:35.802142",
+  "last_updated": "2026-10-19T00:56:21.742297",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 10,
   "year": 2026,
-  "activity_count": 128,
+  "activity_count": 125,
   "activities": [
-    {
-      "date": "2026-10-11",
-      "day": "11",
-      "weekday": "",
-      "time": "12:00",
-      "end_time": "",
-      "team": "P2012",
-      "team_id": "239536",
-      "type": "Match",
-      "description": "Mariedals IK Blå hemma",
-      "venue": "Kronäng Arena Konstgräs 2",
-      "calendar_venue": "Kronäng Arena Konstgräs 2",
-      "location": "Kronäng Arena Konstgräs 2 Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/10652.png",
-      "referees": [],
-      "fogis_game_id": 6721623,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-10-11",
-      "day": "11",
-      "weekday": "",
-      "time": "14:00",
-      "end_time": "",
-      "team": "P2014",
-      "team_id": "185875",
-      "type": "Match",
-      "description": "Herrljunga/Frisco hemma",
-      "venue": "Kronäng Arena Konstgräs 2",
-      "calendar_venue": "Kronäng Arena Konstgräs 2",
-      "location": "Kronäng Arena Konstgräs 2 Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/7724.png",
-      "referees": [],
-      "fogis_game_id": 6723310,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-10-11",
-      "day": "11",
-      "weekday": "",
-      "time": "16:00",
-      "end_time": "",
-      "team": "Damer",
-      "team_id": "176076",
-      "type": "Match",
-      "description": "Ulvåkers IF hemma",
-      "venue": "Kronäng Arena konstgräs 1",
-      "calendar_venue": "Kronäng Arena konstgräs 1",
-      "location": "Kronäng Arena konstgräs 1 Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/10002.png",
-      "referees": [
-        "Aras Salih",
-        "David Cruciat",
-        "Alawi Muzeyi"
-      ],
-      "fogis_game_id": 6922101,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
     {
       "date": "2026-10-14",
       "day": "14",
@@ -1291,7 +1209,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.5
+        "temp": 9.2
       }
     },
     {
@@ -1307,7 +1225,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.7
+        "temp": 7.3
       }
     },
     {
@@ -1323,7 +1241,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.9
+        "temp": 5.5
       }
     },
     {
@@ -1339,7 +1257,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.4
       }
     },
     {
@@ -1355,7 +1273,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.4
       }
     },
     {
@@ -1371,7 +1289,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.4
       }
     },
     {
@@ -1387,7 +1305,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.4
       }
     },
     {
@@ -1403,7 +1321,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.4
       }
     },
     {
@@ -1419,7 +1337,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.6
+        "temp": 8.4
       }
     },
     {
@@ -1435,7 +1353,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.9
+        "temp": 7.8
       }
     },
     {
@@ -1449,9 +1367,9 @@
       "lockerooms": null,
       "team_id": "481208",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 10.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.2
       }
     },
     {
@@ -1467,7 +1385,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.6
+        "temp": 8.4
       }
     },
     {
@@ -1483,7 +1401,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.0
+        "temp": 9.2
       }
     },
     {
@@ -1499,7 +1417,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.0
+        "temp": 9.2
       }
     },
     {
@@ -1515,7 +1433,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.0
+        "temp": 9.2
       }
     },
     {
@@ -1529,9 +1447,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 8.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.8
       }
     },
     {
@@ -1545,9 +1463,9 @@
       "lockerooms": null,
       "team_id": "52695",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.4
       }
     },
     {
@@ -1561,9 +1479,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 7.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.4
       }
     },
     {
@@ -1579,7 +1497,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.1
+        "temp": 9.5
       }
     },
     {
@@ -1593,9 +1511,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 8.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.5
       }
     },
     {
