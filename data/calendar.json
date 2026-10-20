@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T09:51:56.843910",
+  "last_updated": "2026-10-20T14:49:21.591406",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -137,7 +137,9 @@
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
       "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/9771.png",
       "referees": [
-        "Mehran Gasemi"
+        "Mehran Gasemi",
+        "Saman Rakh",
+        "Tommy Naumanen"
       ],
       "fogis_game_id": 6922104,
       "fogis_status": {
@@ -149,7 +151,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.0
+        "temp": 9.3
       }
     },
     {
@@ -1257,7 +1259,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.9
+        "temp": 9.3
       }
     },
     {
@@ -1273,7 +1275,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.9
+        "temp": 9.3
       }
     },
     {
@@ -1289,7 +1291,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.9
+        "temp": 9.3
       }
     },
     {
@@ -1305,7 +1307,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.9
+        "temp": 9.3
       }
     },
     {
@@ -1321,7 +1323,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.9
+        "temp": 9.3
       }
     },
     {
@@ -1337,7 +1339,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.9
+        "temp": 9.3
       }
     },
     {
@@ -1353,7 +1355,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.2
+        "temp": 8.3
       }
     },
     {
@@ -1369,7 +1371,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.2
+        "temp": 8.3
       }
     },
     {
@@ -1383,9 +1385,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.0
       }
     },
     {
@@ -1401,7 +1403,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.5
+        "temp": 10.7
       }
     },
     {
@@ -1417,7 +1419,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.5
+        "temp": 10.7
       }
     },
     {
@@ -1433,7 +1435,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.5
+        "temp": 10.7
       }
     },
     {
@@ -1449,7 +1451,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.5
+        "temp": 10.5
       }
     },
     {
@@ -1465,7 +1467,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.7
+        "temp": 10.2
       }
     },
     {
@@ -1481,7 +1483,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 8.7
+        "temp": 10.2
       }
     },
     {
@@ -1497,7 +1499,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.4
+        "temp": 7.0
       }
     },
     {
@@ -1513,7 +1515,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.0
+        "temp": 9.8
       }
     },
     {
@@ -1529,7 +1531,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.0
+        "temp": 8.9
       }
     },
     {
@@ -1545,7 +1547,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.0
+        "temp": 9.3
       }
     },
     {
@@ -1559,9 +1561,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.0
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.1
       }
     },
     {
