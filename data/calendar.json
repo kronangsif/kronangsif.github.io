@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T04:04:51.609951",
+  "last_updated": "2026-10-20T09:51:56.843910",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -137,7 +137,7 @@
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
       "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/9771.png",
       "referees": [
-        "Tillsätts senare av div 5 coach, AG"
+        "Mehran Gasemi"
       ],
       "fogis_game_id": 6922104,
       "fogis_status": {
@@ -147,9 +147,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 10.0
       }
     },
     {
@@ -1353,13 +1353,13 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.3
+        "temp": 8.2
       }
     },
     {
       "date": "2026-10-20",
       "time": "19:00",
-      "end_time": "20:30",
+      "end_time": "20:45",
       "team": "P2009-2010",
       "type": "Träning",
       "description": "Träning (inomhus)",
@@ -1369,7 +1369,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.3
+        "temp": 8.2
       }
     },
     {
@@ -1385,7 +1385,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.4
+        "temp": 10.7
       }
     },
     {
@@ -1401,7 +1401,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.7
+        "temp": 10.5
       }
     },
     {
@@ -1417,7 +1417,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.7
+        "temp": 10.5
       }
     },
     {
@@ -1433,7 +1433,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.7
+        "temp": 10.5
       }
     },
     {
@@ -1449,7 +1449,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.0
+        "temp": 9.5
       }
     },
     {
@@ -1463,9 +1463,9 @@
       "lockerooms": null,
       "team_id": "52695",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 9.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.7
       }
     },
     {
@@ -1479,9 +1479,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 9.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.7
       }
     },
     {
@@ -1495,9 +1495,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 6.4
       }
     },
     {
@@ -1513,7 +1513,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.3
+        "temp": 8.0
       }
     },
     {
@@ -1529,7 +1529,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 8.1
+        "temp": 8.0
       }
     },
     {
@@ -1543,9 +1543,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 10.0
       }
     },
     {
@@ -1559,9 +1559,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 10.0
       }
     },
     {
@@ -1575,9 +1575,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.6
       }
     },
     {
@@ -1591,9 +1591,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.1
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.7
       }
     },
     {
@@ -1607,9 +1607,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.1
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 7.7
       }
     },
     {
