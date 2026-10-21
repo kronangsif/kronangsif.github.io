@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21T03:53:51.272719",
+  "last_updated": "2026-10-21T09:13:22.456206",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -139,7 +139,7 @@
       "referees": [
         "Mehran Gasemi",
         "Saman Rakh",
-        "Tommy Naumanen"
+        "Örs Dezsy"
       ],
       "fogis_game_id": 6922104,
       "fogis_status": {
@@ -151,7 +151,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.8
+        "temp": 6.9
       }
     },
     {
@@ -1353,9 +1353,9 @@
       "lockerooms": null,
       "team_id": "374981",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.4
       }
     },
     {
@@ -1371,7 +1371,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.1
+        "temp": 10.9
       }
     },
     {
@@ -1387,7 +1387,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.3
+        "temp": 10.4
       }
     },
     {
@@ -1403,7 +1403,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.3
+        "temp": 10.4
       }
     },
     {
@@ -1419,7 +1419,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.3
+        "temp": 10.4
       }
     },
     {
@@ -1435,7 +1435,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.0
+        "temp": 10.2
       }
     },
     {
@@ -1451,7 +1451,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.8
+        "temp": 10.0
       }
     },
     {
@@ -1467,7 +1467,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.8
+        "temp": 10.0
       }
     },
     {
@@ -1497,9 +1497,9 @@
       "lockerooms": null,
       "team_id": "181941",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 9.2
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 8.6
       }
     },
     {
@@ -1515,7 +1515,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.7
+        "temp": 9.9
       }
     },
     {
@@ -1531,7 +1531,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.0
+        "temp": 10.6
       }
     },
     {
@@ -1547,7 +1547,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.8
+        "temp": 6.9
       }
     },
     {
@@ -1563,7 +1563,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.8
+        "temp": 7.9
       }
     },
     {
@@ -1579,7 +1579,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 6.2
+        "temp": 7.3
       }
     },
     {
@@ -1593,9 +1593,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 5.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.9
       }
     },
     {
@@ -1609,9 +1609,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 5.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.9
       }
     },
     {
@@ -1627,7 +1627,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.3
+        "temp": 9.8
       }
     },
     {
@@ -1643,7 +1643,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.3
+        "temp": 9.8
       }
     },
     {
@@ -1659,7 +1659,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.3
+        "temp": 9.8
       }
     },
     {
@@ -1675,7 +1675,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.3
+        "temp": 9.8
       }
     },
     {
@@ -1691,7 +1691,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.3
+        "temp": 9.8
       }
     },
     {
@@ -1707,7 +1707,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.2
+        "temp": 10.1
       }
     },
     {
