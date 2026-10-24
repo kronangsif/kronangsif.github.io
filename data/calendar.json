@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T20:37:13.406159",
+  "last_updated": "2026-10-24T22:59:31.149940",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -95,7 +95,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.9
+        "temp": 6.7
       }
     },
     {
@@ -1404,11 +1404,7 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "181941",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.4
-      }
+      "weather": null
     },
     {
       "date": "2026-10-24",
@@ -1420,11 +1416,7 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "281528",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.9
-      }
+      "weather": null
     },
     {
       "date": "2026-10-24",
@@ -1436,11 +1428,7 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "281528",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.0
-      }
+      "weather": null
     },
     {
       "date": "2026-10-25",
@@ -1455,7 +1443,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.9
+        "temp": 6.7
       }
     },
     {
@@ -1485,9 +1473,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 10.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 10.3
       }
     },
     {
@@ -1503,7 +1491,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.3
+        "temp": 9.9
       }
     },
     {
@@ -1740,7 +1728,11 @@
       "location": "Arena Älvhögsborg, Trolhättan",
       "lockerooms": null,
       "team_id": "224798",
-      "weather": null
+      "weather": {
+        "icon": "🌫️",
+        "desc": "Dimma",
+        "temp": -0.6
+      }
     }
   ],
   "standings": [
