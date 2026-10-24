@@ -1,41 +1,13 @@
 {
-  "last_updated": "2026-10-23T21:56:18.882253",
+  "last_updated": "2026-10-24T00:24:59.716867",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 10,
   "year": 2026,
-  "activity_count": 130,
+  "activity_count": 129,
   "activities": [
-    {
-      "date": "2026-10-16",
-      "day": "16",
-      "weekday": "",
-      "time": "19:00",
-      "end_time": "",
-      "team": "P2009-2010",
-      "team_id": "286936",
-      "type": "Match",
-      "description": "Hestrafors IF hemma",
-      "venue": "Kronäng Arena konstgräs 1",
-      "calendar_venue": "Kronäng Arena konstgräs 1",
-      "location": "Kronäng Arena konstgräs 1 Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11145.png",
-      "referees": [
-        "William Ewertzon"
-      ],
-      "fogis_game_id": 6710990,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
     {
       "date": "2026-10-18",
       "day": "18",
@@ -1420,11 +1392,7 @@
       "location": "Björkängshallen",
       "lockerooms": null,
       "team_id": "224798",
-      "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 9.0
-      }
+      "weather": null
     },
     {
       "date": "2026-10-24",
@@ -1503,7 +1471,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.0
+        "temp": 8.9
       }
     },
     {
@@ -1517,9 +1485,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 9.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.0
       }
     },
     {
@@ -1533,9 +1501,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 9.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.6
       }
     },
     {
@@ -1549,9 +1517,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 8.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 9.0
       }
     },
     {
@@ -1567,7 +1535,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.3
+        "temp": 11.8
       }
     },
     {
@@ -1583,7 +1551,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.3
+        "temp": 11.8
       }
     },
     {
@@ -1599,7 +1567,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.3
+        "temp": 11.8
       }
     },
     {
@@ -1615,7 +1583,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.3
+        "temp": 11.8
       }
     },
     {
@@ -1631,7 +1599,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.3
+        "temp": 11.8
       }
     },
     {
@@ -1679,7 +1647,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.8
+        "temp": 10.5
       }
     },
     {
@@ -1695,7 +1663,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.0
+        "temp": 8.8
       }
     },
     {
@@ -1709,9 +1677,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 7.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.5
       }
     },
     {
@@ -1725,9 +1693,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "🌫️",
-        "desc": "Dimma",
-        "temp": 5.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 6.2
       }
     },
     {
@@ -1743,7 +1711,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.6
+        "temp": 8.7
       }
     },
     {
@@ -1759,7 +1727,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.6
+        "temp": 8.7
       }
     },
     {
@@ -1775,7 +1743,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.3
+        "temp": 7.6
       }
     },
     {
@@ -1791,7 +1759,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.3
+        "temp": 6.4
       }
     },
     {
@@ -1807,7 +1775,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.3
+        "temp": 6.4
       }
     },
     {
