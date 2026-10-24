@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T14:20:54.677887",
+  "last_updated": "2026-10-24T17:57:33.914076",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -1469,9 +1469,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.9
       }
     },
     {
@@ -1485,8 +1485,8 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌧️",
+        "desc": "Dis",
         "temp": 10.6
       }
     },
@@ -1501,9 +1501,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.4
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 10.3
       }
     },
     {
