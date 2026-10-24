@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-24T05:31:44.495185",
+  "last_updated": "2026-10-24T10:33:30.824507",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 10,
   "year": 2026,
-  "activity_count": 129,
+  "activity_count": 126,
   "activities": [
     {
       "date": "2026-10-18",
@@ -95,7 +95,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.5
+        "temp": 7.0
       }
     },
     {
@@ -1407,7 +1407,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.8
+        "temp": 10.5
       }
     },
     {
@@ -1455,7 +1455,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.5
+        "temp": 7.0
       }
     },
     {
@@ -1471,23 +1471,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 9.0
-      }
-    },
-    {
-      "date": "2026-10-26",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "P2011",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "team_id": "260562",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 10.0
+        "temp": 8.5
       }
     },
     {
@@ -1503,7 +1487,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.6
+        "temp": 10.4
       }
     },
     {
@@ -1517,9 +1501,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 9.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 9.9
       }
     },
     {
@@ -1535,7 +1519,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.8
+        "temp": 11.3
       }
     },
     {
@@ -1551,7 +1535,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.8
+        "temp": 11.3
       }
     },
     {
@@ -1567,7 +1551,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.8
+        "temp": 11.3
       }
     },
     {
@@ -1583,23 +1567,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.8
-      }
-    },
-    {
-      "date": "2026-10-27",
-      "time": "17:30",
-      "end_time": "19:00",
-      "team": "Fotbollsskolan födda 2021",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "team_id": "621421",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 11.8
+        "temp": 11.3
       }
     },
     {
@@ -1615,7 +1583,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.5
+        "temp": 11.8
       }
     },
     {
@@ -1631,7 +1599,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.5
+        "temp": 11.8
       }
     },
     {
@@ -1647,7 +1615,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 10.5
+        "temp": 11.3
       }
     },
     {
@@ -1661,9 +1629,9 @@
       "lockerooms": null,
       "team_id": "374981",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.8
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 9.4
       }
     },
     {
@@ -1677,9 +1645,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 7.7
       }
     },
     {
@@ -1693,9 +1661,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 6.2
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 6.0
       }
     },
     {
@@ -1711,7 +1679,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.7
+        "temp": 8.4
       }
     },
     {
@@ -1727,7 +1695,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 8.7
+        "temp": 8.4
       }
     },
     {
@@ -1743,7 +1711,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.6
+        "temp": 7.1
       }
     },
     {
@@ -1759,23 +1727,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.4
-      }
-    },
-    {
-      "date": "2026-10-29",
-      "time": "19:00",
-      "end_time": "20:30",
-      "team": "P2011",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kronängs Arena",
-      "lockerooms": null,
-      "team_id": "260562",
-      "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 6.4
+        "temp": 5.7
       }
     },
     {
