@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T07:24:10.798195",
+  "last_updated": "2026-10-25T13:02:39.625828",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -95,7 +95,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.0
+        "temp": 8.0
       }
     },
     {
@@ -1443,7 +1443,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 7.0
+        "temp": 8.0
       }
     },
     {
@@ -1458,8 +1458,8 @@
       "team_id": "260562",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
-        "temp": 9.0
+        "desc": "Dis",
+        "temp": 9.4
       }
     },
     {
@@ -1475,7 +1475,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.0
+        "temp": 10.3
       }
     },
     {
@@ -1491,7 +1491,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.8
+        "temp": 10.1
       }
     },
     {
@@ -1505,9 +1505,9 @@
       "lockerooms": null,
       "team_id": "324307",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 11.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.4
       }
     },
     {
@@ -1521,9 +1521,9 @@
       "lockerooms": null,
       "team_id": "520555",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 11.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.4
       }
     },
     {
@@ -1537,9 +1537,9 @@
       "lockerooms": null,
       "team_id": null,
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 11.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.4
       }
     },
     {
@@ -1553,9 +1553,9 @@
       "lockerooms": null,
       "team_id": "584817",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 11.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 11.4
       }
     },
     {
@@ -1569,9 +1569,9 @@
       "lockerooms": null,
       "team_id": "52695",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.4
       }
     },
     {
@@ -1585,9 +1585,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 11.4
       }
     },
     {
@@ -1603,7 +1603,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 11.9
+        "temp": 12.0
       }
     },
     {
@@ -1619,7 +1619,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 8.3
+        "temp": 7.8
       }
     },
     {
@@ -1633,9 +1633,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 6.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 7.8
       }
     },
     {
@@ -1645,13 +1645,13 @@
       "team": "P2009-2010",
       "type": "Övrigt",
       "description": "Torslanda Futsal Cup",
-      "location": "Torslanda",
+      "location": "Torslandahallen",
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.7
+        "temp": 8.3
       }
     },
     {
@@ -1667,7 +1667,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.7
+        "temp": 8.3
       }
     },
     {
@@ -1683,7 +1683,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.7
+        "temp": 8.3
       }
     },
     {
@@ -1699,7 +1699,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.6
+        "temp": 7.1
       }
     },
     {
@@ -1715,7 +1715,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 5.7
+        "temp": 6.1
       }
     },
     {
