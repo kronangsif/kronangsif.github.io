@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T20:34:32.913217",
+  "last_updated": "2026-10-25T23:05:06.927968",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -92,11 +92,7 @@
         "canceled": false,
         "finished": true
       },
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.0
-      }
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -1440,11 +1436,7 @@
       "location": "Borås Arena",
       "lockerooms": null,
       "team_id": "281528",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 8.0
-      }
+      "weather": null
     },
     {
       "date": "2026-10-25",
@@ -1456,11 +1448,7 @@
       "location": "Byttorps IP",
       "lockerooms": null,
       "team_id": "260562",
-      "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 9.0
-      }
+      "weather": null
     },
     {
       "date": "2026-10-26",
@@ -1475,7 +1463,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.1
+        "temp": 9.9
       }
     },
     {
@@ -1491,7 +1479,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 9.9
+        "temp": 9.7
       }
     },
     {
@@ -1507,7 +1495,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.4
+        "temp": 11.0
       }
     },
     {
@@ -1523,7 +1511,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.4
+        "temp": 11.0
       }
     },
     {
@@ -1539,7 +1527,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.4
+        "temp": 11.0
       }
     },
     {
@@ -1555,7 +1543,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 11.4
+        "temp": 11.0
       }
     },
     {
@@ -1571,7 +1559,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.4
       }
     },
     {
@@ -1587,7 +1575,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.4
       }
     },
     {
