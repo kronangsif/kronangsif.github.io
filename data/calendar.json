@@ -1,69 +1,13 @@
 {
-  "last_updated": "2026-10-25T23:05:06.927968",
+  "last_updated": "2026-10-26T03:54:59.957019",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 10,
   "year": 2026,
-  "activity_count": 126,
+  "activity_count": 124,
   "activities": [
-    {
-      "date": "2026-10-18",
-      "day": "18",
-      "weekday": "",
-      "time": "11:00",
-      "end_time": "",
-      "team": "P2014",
-      "team_id": "185875",
-      "type": "Match",
-      "description": "Hemsjö IF hemma",
-      "venue": "Kronäng Arena",
-      "calendar_venue": "Kronäng Arena",
-      "location": "Kronäng Arena Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11154.png",
-      "referees": [],
-      "fogis_game_id": 6723297,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
-    {
-      "date": "2026-10-18",
-      "day": "18",
-      "weekday": "",
-      "time": "13:00",
-      "end_time": "",
-      "team": "Damer",
-      "team_id": "176076",
-      "type": "Match",
-      "description": "Götene FK borta",
-      "venue": "Västerby IP Konstgräs",
-      "calendar_venue": "Västerby IP Konstgräs",
-      "location": "Västerby IP Konstgräs Konstgräs",
-      "lockerooms": null,
-      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/13173.png",
-      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "referees": [
-        "Anders Orlinder",
-        "Julian David",
-        "Aziz Alahmad"
-      ],
-      "fogis_game_id": 6922102,
-      "fogis_status": {
-        "postponed": false,
-        "abandoned": false,
-        "canceled": false,
-        "finished": true
-      },
-      "weather": null
-    },
     {
       "date": "2026-10-25",
       "day": "25",
@@ -1136,6 +1080,7 @@
       "location": "Kronängs Arena Cafeteria",
       "lockerooms": null,
       "team_id": "324331",
+      "calendar_venue": "Kronäng Arena",
       "weather": null
     },
     {
@@ -1589,9 +1534,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 12.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 12.4
       }
     },
     {
@@ -1605,9 +1550,9 @@
       "lockerooms": null,
       "team_id": "374981",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 8.4
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 8.2
       }
     },
     {
@@ -1623,7 +1568,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 7.7
+        "temp": 7.9
       }
     },
     {
@@ -1639,7 +1584,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.8
+        "temp": 8.2
       }
     },
     {
@@ -1655,7 +1600,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.8
+        "temp": 8.2
       }
     },
     {
@@ -1671,7 +1616,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 7.8
+        "temp": 8.2
       }
     },
     {
@@ -1687,7 +1632,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 6.6
+        "temp": 6.8
       }
     },
     {
@@ -1717,9 +1662,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 3.0
+        "icon": "🌫️",
+        "desc": "Dimma",
+        "temp": 2.5
       }
     }
   ],
