@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T23:38:26.800529",
+  "last_updated": "2026-10-28T04:46:11.050146",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -1502,9 +1502,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 12.3
       }
     },
     {
@@ -1520,7 +1520,7 @@
       "weather": {
         "icon": "⛅",
         "desc": "Delvis molnigt",
-        "temp": 10.4
+        "temp": 10.5
       }
     },
     {
@@ -1534,9 +1534,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 8.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 8.5
       }
     },
     {
@@ -1600,7 +1600,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.0
+        "temp": 11.1
       }
     },
     {
@@ -1616,7 +1616,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.8
+        "temp": 11.0
       }
     },
     {
@@ -1632,7 +1632,7 @@
       "weather": {
         "icon": "🌫️",
         "desc": "Dimma",
-        "temp": 7.2
+        "temp": 2.8
       }
     },
     {
@@ -1646,9 +1646,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.3
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 8.0
       }
     }
   ],
