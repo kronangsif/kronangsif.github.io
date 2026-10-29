@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-29T16:44:55.572138",
+  "last_updated": "2026-10-29T21:39:18.433974",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 10,
   "year": 2026,
-  "activity_count": 120,
+  "activity_count": 119,
   "activities": [
     {
       "date": "2026-10-25",
@@ -1524,7 +1524,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.4
+        "temp": 11.0
       }
     },
     {
@@ -1540,7 +1540,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.2
+        "temp": 10.6
       }
     },
     {
@@ -1554,25 +1554,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 9.0
-      }
-    },
-    {
-      "date": "2026-10-31",
-      "time": "15:00",
-      "end_time": "17:00",
-      "team": "P2012",
-      "type": "Övrigt",
-      "description": "Bollvärdar Norrby IF- IFK Värnamo",
-      "location": "Borås Arena",
-      "lockerooms": null,
-      "team_id": "281528",
-      "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 10.2
+        "temp": 8.7
       }
     }
   ],
