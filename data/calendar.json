@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T22:59:39.356847",
+  "last_updated": "2026-10-29T02:20:11.686942",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -1501,11 +1501,7 @@
       "location": "Boråshallen",
       "lockerooms": null,
       "team_id": "224798",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 12.0
-      }
+      "weather": null
     },
     {
       "date": "2026-10-28",
@@ -1517,11 +1513,7 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "team_id": "374981",
-      "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 9.9
-      }
+      "weather": null
     },
     {
       "date": "2026-10-28",
@@ -1533,11 +1525,7 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "team_id": "38937",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 8.2
-      }
+      "weather": null
     },
     {
       "date": "2026-10-29",
@@ -1552,7 +1540,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.7
       }
     },
     {
@@ -1568,7 +1556,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.7
       }
     },
     {
@@ -1584,7 +1572,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.6
+        "temp": 11.7
       }
     },
     {
@@ -1600,7 +1588,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 11.0
+        "temp": 11.3
       }
     },
     {
@@ -1616,7 +1604,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 10.7
+        "temp": 10.8
       }
     },
     {
@@ -1632,7 +1620,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 9.9
+        "temp": 10.8
       }
     },
     {
@@ -1648,7 +1636,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 10.1
+        "temp": 11.0
       }
     }
   ],
