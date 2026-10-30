@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T15:42:06.598263",
+  "last_updated": "2026-10-30T20:32:22.987082",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -1538,9 +1538,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 8.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 8.9
       }
     }
   ],
