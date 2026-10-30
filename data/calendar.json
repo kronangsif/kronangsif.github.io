@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T08:18:08.756460",
+  "last_updated": "2026-10-30T15:42:06.598263",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -1540,7 +1540,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 9.3
+        "temp": 8.5
       }
     }
   ],
