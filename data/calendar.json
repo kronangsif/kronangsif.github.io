@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T21:39:18.433974",
+  "last_updated": "2026-10-30T01:42:22.535378",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -1489,11 +1489,7 @@
       "location": "Torslandahallen",
       "lockerooms": null,
       "team_id": "224798",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.6
-      }
+      "weather": null
     },
     {
       "date": "2026-10-29",
@@ -1505,11 +1501,7 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "324307",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.6
-      }
+      "weather": null
     },
     {
       "date": "2026-10-29",
@@ -1521,11 +1513,7 @@
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
       "team_id": "281528",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 11.0
-      }
+      "weather": null
     },
     {
       "date": "2026-10-29",
@@ -1537,11 +1525,7 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "52695",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 10.6
-      }
+      "weather": null
     },
     {
       "date": "2026-10-31",
@@ -1554,9 +1538,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 8.7
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 9.6
       }
     }
   ],
