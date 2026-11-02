@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-11-02T07:28:01.055812",
+  "last_updated": "2026-11-02T17:59:54.688188",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 11,
   "year": 2026,
-  "activity_count": 79,
+  "activity_count": 87,
   "activities": [
     {
       "date": "2026-11-08",
@@ -36,9 +36,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.8
+        "icon": "🌫️",
+        "desc": "Dimma",
+        "temp": 0.8
       }
     },
     {
@@ -69,9 +69,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.5
+        "icon": "🌫️",
+        "desc": "Dimma",
+        "temp": 2.2
       }
     },
     {
@@ -213,9 +213,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 6.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.8
       }
     },
     {
@@ -229,9 +229,9 @@
       "lockerooms": null,
       "team_id": "481208",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 6.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.8
       }
     },
     {
@@ -245,9 +245,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 5.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.5
       }
     },
     {
@@ -261,9 +261,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 4.9
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 5.9
       }
     },
     {
@@ -277,9 +277,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 5.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 5.3
       }
     },
     {
@@ -293,9 +293,9 @@
       "lockerooms": null,
       "team_id": null,
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 5.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 5.3
       }
     },
     {
@@ -309,9 +309,9 @@
       "lockerooms": null,
       "team_id": "584817",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 5.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 5.3
       }
     },
     {
@@ -325,9 +325,9 @@
       "lockerooms": null,
       "team_id": "52695",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 3.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 4.0
       }
     },
     {
@@ -341,9 +341,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 3.6
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 4.0
       }
     },
     {
@@ -351,15 +351,15 @@
       "time": "17:30",
       "end_time": "19:00",
       "team": "F2012/2013",
-      "type": "Träning",
-      "description": "Träning",
+      "type": "Övrigt",
+      "description": "Föräldrarna vs. Barnen",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "team_id": "374981",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 5.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.4
       }
     },
     {
@@ -373,9 +373,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 3.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.5
       }
     },
     {
@@ -391,7 +391,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 4.9
+        "temp": 4.4
       }
     },
     {
@@ -407,7 +407,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 4.9
+        "temp": 4.4
       }
     },
     {
@@ -423,7 +423,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 3.7
+        "temp": 3.8
       }
     },
     {
@@ -437,9 +437,9 @@
       "lockerooms": null,
       "team_id": "52695",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 2.7
+        "icon": "🌫️",
+        "desc": "Dimma",
+        "temp": 3.3
       }
     },
     {
@@ -453,9 +453,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.2
+        "icon": "🌫️",
+        "desc": "Dimma",
+        "temp": 2.2
       }
     },
     {
@@ -469,9 +469,25 @@
       "lockerooms": null,
       "team_id": "612530",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.5
+        "icon": "🌫️",
+        "desc": "Dimma",
+        "temp": 0.2
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "time": "10:00",
+      "end_time": "11:00",
+      "team": "Fotbollsskolan födda 2017",
+      "type": "Träning",
+      "description": "Träning inomhus",
+      "location": "Fredriksborgshallen",
+      "lockerooms": null,
+      "team_id": "481208",
+      "weather": {
+        "icon": "🌫️",
+        "desc": "Dimma",
+        "temp": 1.5
       }
     },
     {
@@ -485,9 +501,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.5
+        "icon": "🌫️",
+        "desc": "Dimma",
+        "temp": 2.2
       }
     },
     {
@@ -503,7 +519,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.8
+        "temp": 3.1
       }
     },
     {
@@ -519,7 +535,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.8
+        "temp": 3.1
       }
     },
     {
@@ -535,7 +551,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.7
+        "temp": 3.2
       }
     },
     {
@@ -548,6 +564,18 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "260562",
+      "weather": null
+    },
+    {
+      "date": "2026-11-09",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "type": "Träning",
+      "description": "Träning utomhus",
+      "location": "Kronängs Arena A-plan",
+      "lockerooms": null,
+      "team_id": "481208",
       "weather": null
     },
     {
@@ -696,6 +724,18 @@
     },
     {
       "date": "2026-11-15",
+      "time": "10:00",
+      "end_time": "11:00",
+      "team": "Fotbollsskolan födda 2017",
+      "type": "Träning",
+      "description": "Träning inomhus",
+      "location": "Fredriksborgshallen",
+      "lockerooms": null,
+      "team_id": "481208",
+      "weather": null
+    },
+    {
+      "date": "2026-11-15",
       "time": "11:00",
       "end_time": "12:30",
       "team": "P2014",
@@ -752,6 +792,18 @@
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "260562",
+      "weather": null
+    },
+    {
+      "date": "2026-11-16",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "type": "Träning",
+      "description": "Träning utomhus",
+      "location": "Kronängs Arena A-plan",
+      "lockerooms": null,
+      "team_id": "481208",
       "weather": null
     },
     {
@@ -888,6 +940,18 @@
     },
     {
       "date": "2026-11-22",
+      "time": "10:00",
+      "end_time": "11:00",
+      "team": "Fotbollsskolan födda 2017",
+      "type": "Träning",
+      "description": "Träning inomhus",
+      "location": "Fredriksborgshallen",
+      "lockerooms": null,
+      "team_id": "481208",
+      "weather": null
+    },
+    {
+      "date": "2026-11-22",
       "time": "11:00",
       "end_time": "12:30",
       "team": "P2014",
@@ -932,6 +996,18 @@
       "location": "Fredriksborgshallen",
       "lockerooms": null,
       "team_id": "324307",
+      "weather": null
+    },
+    {
+      "date": "2026-11-23",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "type": "Träning",
+      "description": "Träning utomhus",
+      "location": "Kronängs Arena A-plan",
+      "lockerooms": null,
+      "team_id": "481208",
       "weather": null
     },
     {
@@ -1068,6 +1144,18 @@
     },
     {
       "date": "2026-11-29",
+      "time": "10:00",
+      "end_time": "11:00",
+      "team": "Fotbollsskolan födda 2017",
+      "type": "Träning",
+      "description": "Träning inomhus",
+      "location": "Fredriksborgshallen",
+      "lockerooms": null,
+      "team_id": "481208",
+      "weather": null
+    },
+    {
+      "date": "2026-11-29",
       "time": "11:00",
       "end_time": "12:30",
       "team": "P2014",
@@ -1112,6 +1200,18 @@
       "location": "Fredriksborgshallen",
       "lockerooms": null,
       "team_id": "324307",
+      "weather": null
+    },
+    {
+      "date": "2026-11-30",
+      "time": "17:30",
+      "end_time": "19:00",
+      "team": "Fotbollsskolan födda 2017",
+      "type": "Träning",
+      "description": "Träning utomhus",
+      "location": "Kronängs Arena A-plan",
+      "lockerooms": null,
+      "team_id": "481208",
       "weather": null
     },
     {
