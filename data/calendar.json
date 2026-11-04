@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-11-04T01:59:54.480048",
+  "last_updated": "2026-11-04T08:59:33.623737",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 11,
   "year": 2026,
-  "activity_count": 90,
+  "activity_count": 95,
   "activities": [
     {
       "date": "2026-11-08",
@@ -36,9 +36,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 3.8
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 2.3
       }
     },
     {
@@ -71,7 +71,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.2
+        "temp": 3.8
       }
     },
     {
@@ -321,9 +321,25 @@
       "lockerooms": null,
       "team_id": "374981",
       "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 4.3
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "time": "19:00",
+      "end_time": "20:30",
+      "team": "Herrar",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "team_id": "38937",
+      "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.5
+        "temp": 2.7
       }
     },
     {
@@ -339,7 +355,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.4
+        "temp": 2.7
       }
     },
     {
@@ -353,9 +369,9 @@
       "lockerooms": null,
       "team_id": "56158",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 6.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 5.9
       }
     },
     {
@@ -369,9 +385,9 @@
       "lockerooms": null,
       "team_id": "324307",
       "weather": {
-        "icon": "🌤️",
-        "desc": "Mestadels klart",
-        "temp": 6.1
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 5.9
       }
     },
     {
@@ -387,7 +403,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 4.6
+        "temp": 4.5
       }
     },
     {
@@ -403,7 +419,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 3.7
+        "temp": 3.9
       }
     },
     {
@@ -433,9 +449,25 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "🌫️",
-        "desc": "Dimma",
-        "temp": 3.8
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 3.5
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "time": "12:00",
+      "end_time": "13:30",
+      "team": "Herrar",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Björkängshallen",
+      "lockerooms": null,
+      "team_id": "38937",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 5.7
       }
     },
     {
@@ -449,9 +481,9 @@
       "lockerooms": null,
       "team_id": "612530",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 3.5
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 1.7
       }
     },
     {
@@ -467,7 +499,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.0
+        "temp": 2.9
       }
     },
     {
@@ -483,7 +515,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.2
+        "temp": 3.8
       }
     },
     {
@@ -499,7 +531,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.3
+        "temp": 4.7
       }
     },
     {
@@ -515,7 +547,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.4
+        "temp": 5.3
       }
     },
     {
@@ -531,7 +563,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.2
+        "temp": 5.3
       }
     },
     {
@@ -547,7 +579,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.6
+        "temp": 5.0
       }
     },
     {
@@ -563,7 +595,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.6
+        "temp": 5.0
       }
     },
     {
@@ -579,7 +611,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.4
+        "temp": 4.7
       }
     },
     {
@@ -595,7 +627,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.3
+        "temp": 4.5
       }
     },
     {
@@ -609,9 +641,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 3.1
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.5
       }
     },
     {
@@ -625,9 +657,9 @@
       "lockerooms": null,
       "team_id": "52695",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 2.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.2
       }
     },
     {
@@ -641,9 +673,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 2.3
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.2
       }
     },
     {
@@ -704,6 +736,18 @@
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "team_id": "52695",
+      "weather": null
+    },
+    {
+      "date": "2026-11-14",
+      "time": "12:00",
+      "end_time": "13:30",
+      "team": "Herrar",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Björkängshallen",
+      "lockerooms": null,
+      "team_id": "38937",
       "weather": null
     },
     {
@@ -947,6 +991,18 @@
       "weather": null
     },
     {
+      "date": "2026-11-21",
+      "time": "12:00",
+      "end_time": "13:30",
+      "team": "Herrar",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Björkängshallen",
+      "lockerooms": null,
+      "team_id": "38937",
+      "weather": null
+    },
+    {
       "date": "2026-11-22",
       "time": "08:45",
       "end_time": "10:00",
@@ -1160,6 +1216,18 @@
       "location": "Björkängshallen",
       "lockerooms": null,
       "team_id": "224798",
+      "weather": null
+    },
+    {
+      "date": "2026-11-28",
+      "time": "12:00",
+      "end_time": "13:30",
+      "team": "Herrar",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Björkängshallen",
+      "lockerooms": null,
+      "team_id": "38937",
       "weather": null
     },
     {
