@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-11-06T10:33:51.082073",
+  "last_updated": "2026-11-06T17:51:22.287942",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 11,
   "year": 2026,
-  "activity_count": 97,
+  "activity_count": 98,
   "activities": [
     {
       "date": "2026-11-08",
@@ -38,7 +38,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.0
+        "temp": 3.1
       }
     },
     {
@@ -71,7 +71,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.2
+        "temp": 4.5
       }
     },
     {
@@ -401,7 +401,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.1
+        "temp": 1.4
       }
     },
     {
@@ -417,7 +417,23 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.5
+        "temp": 3.7
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "time": "10:30",
+      "end_time": "12:00",
+      "team": "P2012",
+      "type": "Träning",
+      "description": "Träning inomhus",
+      "location": "Björkängshallen",
+      "lockerooms": null,
+      "team_id": "281528",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 3.7
       }
     },
     {
@@ -433,7 +449,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.6
+        "temp": 5.2
       }
     },
     {
@@ -449,7 +465,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.7
+        "temp": 2.9
       }
     },
     {
@@ -465,7 +481,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.5
+        "temp": 3.8
       }
     },
     {
@@ -481,7 +497,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.2
+        "temp": 4.5
       }
     },
     {
@@ -495,9 +511,9 @@
       "lockerooms": null,
       "team_id": "56158",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 4.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.0
       }
     },
     {
@@ -511,9 +527,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 4.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.4
       }
     },
     {
@@ -527,9 +543,9 @@
       "lockerooms": null,
       "team_id": "324307",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": 5.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.4
       }
     },
     {
@@ -545,7 +561,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.1
+        "temp": 4.9
       }
     },
     {
@@ -561,7 +577,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 5.1
+        "temp": 4.9
       }
     },
     {
@@ -577,7 +593,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.9
+        "temp": 4.8
       }
     },
     {
@@ -593,7 +609,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.7
+        "temp": 4.5
       }
     },
     {
@@ -609,7 +625,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.9
+        "temp": 4.7
       }
     },
     {
@@ -625,7 +641,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.9
+        "temp": 4.7
       }
     },
     {
@@ -641,7 +657,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.5
+        "temp": 3.6
       }
     },
     {
@@ -657,7 +673,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.5
+        "temp": 3.6
       }
     },
     {
@@ -673,7 +689,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.8
+        "temp": 5.0
       }
     },
     {
