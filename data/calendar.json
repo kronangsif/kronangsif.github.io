@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06T22:52:07.532394",
+  "last_updated": "2026-11-07T02:37:18.288530",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -38,7 +38,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.1
+        "temp": 2.4
       }
     },
     {
@@ -398,11 +398,7 @@
       "location": "Björkängshallen",
       "lockerooms": null,
       "team_id": "224798",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 1.4
-      }
+      "weather": null
     },
     {
       "date": "2026-11-07",
@@ -417,7 +413,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.0
+        "temp": 2.0
       }
     },
     {
@@ -433,7 +429,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.0
+        "temp": 2.0
       }
     },
     {
@@ -449,7 +445,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.5
+        "temp": 4.4
       }
     },
     {
@@ -465,7 +461,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.7
+        "temp": 2.2
       }
     },
     {
@@ -481,7 +477,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.8
+        "temp": 3.5
       }
     },
     {
@@ -513,7 +509,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.9
+        "temp": 5.1
       }
     },
     {
@@ -593,7 +589,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.7
+        "temp": 3.5
       }
     },
     {
@@ -609,7 +605,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.7
+        "temp": 3.1
       }
     },
     {
@@ -623,9 +619,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 3.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 5.0
       }
     },
     {
@@ -639,9 +635,9 @@
       "lockerooms": null,
       "team_id": "414417",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 3.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 5.0
       }
     },
     {
@@ -655,9 +651,9 @@
       "lockerooms": null,
       "team_id": "52695",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 2.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.4
       }
     },
     {
@@ -671,9 +667,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 2.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.4
       }
     },
     {
@@ -689,7 +685,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.9
+        "temp": 4.8
       }
     },
     {
@@ -703,9 +699,9 @@
       "lockerooms": null,
       "team_id": "56158",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 3.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 3.5
       }
     },
     {
@@ -719,9 +715,9 @@
       "lockerooms": null,
       "team_id": "324307",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 3.9
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 3.5
       }
     },
     {
@@ -735,9 +731,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 3.6
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 3.1
       }
     },
     {
@@ -751,9 +747,9 @@
       "lockerooms": null,
       "team_id": "52695",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 3.4
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 2.7
       }
     },
     {
