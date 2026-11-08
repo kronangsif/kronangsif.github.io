@@ -831,6 +831,26 @@
                 font-size: 0.72rem;
             }
         }
+        .values-fallback {
+            position: fixed;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            background: #fff;
+            z-index: 1;
+        }
+        body.show-values .hero-brand,
+        body.show-values .meta,
+        body.show-values .content {
+            display: none;
+        }
+        body.show-values .date-nav {
+            position: fixed;
+            top: 12px;
+            right: 76px;
+            z-index: 2;
+        }
     </style>
 </head>
 <body>
@@ -1284,7 +1304,33 @@
             return `Sidan kontrollerad: ${date.toLocaleString('sv-SE')}`;
         }
 
+        let valuesRotationTimer = null;
+
+        function setValuesFallback(visible) {
+            let frame = document.getElementById('valuesFallback');
+            document.body.classList.toggle('show-values', visible);
+            if (visible) {
+                // Reuse the frame during calendar refreshes to avoid restarting
+                // the current message or creating duplicate rotation timers.
+                if (frame) return;
+                frame = document.createElement('iframe');
+                frame.id = 'valuesFallback';
+                frame.className = 'values-fallback';
+                frame.title = 'Kronängs IF:s värdegrund';
+                frame.src = 'values-embedded.html';
+                document.body.appendChild(frame);
+                valuesRotationTimer = setInterval(() => {
+                    frame.src = 'values-embedded.html';
+                }, 20 * 1000);
+            } else {
+                if (valuesRotationTimer) clearInterval(valuesRotationTimer);
+                valuesRotationTimer = null;
+                if (frame) frame.remove();
+            }
+        }
+
         function showPageError(error) {
+            setValuesFallback(false);
             const message = error?.message || 'Okänt fel';
             document.getElementById('pageStatus').textContent = 'Fel – försöker igen automatiskt';
             document.getElementById('cards').innerHTML = `
@@ -1321,15 +1367,12 @@
 
                 const cards = document.getElementById('cards');
                 if (!homeMatches.length) {
-                    cards.innerHTML = `
-                        <div class="empty">
-                            <strong>Inga hemmamatcher detta datum</strong>
-                        </div>
-                    `;
+                    setValuesFallback(true);
                     lastSuccessfulRenderAt = Date.now();
                     return;
                 }
 
+                setValuesFallback(false);
                 cards.innerHTML = homeMatches.map(match => renderCard(match, roomAssignments)).join('');
                 lastSuccessfulRenderAt = Date.now();
             } catch (error) {

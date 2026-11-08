@@ -76,6 +76,7 @@ Frontend-sidorna läser `data/calendar.json` direkt i webbläsaren.
 - `herr-embedded.html` och `dam-embedded.html` kombinerar kalenderdata med inbäddade tabeller från Everysport.
 - `index.html` laddar sidorna från `config.json` och roterar mellan dem automatiskt.
 - `values-embedded.html` visar en stor logga, en fet värdegrundsrubrik, en förklarande mening och en källhänvisning. De sju budskapen visas i ordning, ett per varv (20 sekunder), och börjar sedan om. Nästa budskap sparas i webbläsarflikens sessionslagring, så att serien fortsätter när undersidan laddas om.
+- `home-matches-today.html` visar värdegrundsskärmen när det valda datumet saknar hemmamatcher med omklädningsrum. Budskapet byts var 20:e sekund. Datumpilarna fungerar även då, och matchvyn återkommer automatiskt när kalenderuppdateringen hittar matcher.
 
 ## Lokal körning
 
