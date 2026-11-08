@@ -26,6 +26,12 @@
       "file": "dam-embedded.html"
     },
     {
+      "id": "values",
+      "title": "Vår värdegrund",
+      "icon": "",
+      "file": "values-embedded.html"
+    },
+    {
       "id": "home-matches-today",
       "title": "Hemmamatcher idag",
       "icon": "🏟️",
@@ -52,11 +58,16 @@
       "label": "Damer",
       "pages": ["dam"],
       "displayMode": "single"
+    },
+    {
+      "label": "Vår värdegrund",
+      "pages": ["values"],
+      "displayMode": "single"
     }
   ],
   "rotation": {
     "enabled": true,
     "intervalSeconds": 20,
-    "groups": [0, 1, 2, 3]
+    "groups": [0, 1, 2, 3, 4]
   }
 }

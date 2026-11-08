@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kronängs IF – Vår värdegrund</title>
+    <link rel="icon" type="image/png" href="kronang-logo-2026.png">
+    <link rel="stylesheet" href="tv.css">
+    <link rel="stylesheet" href="light-tv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; }
+        html, body { margin: 0; width: 100%; height: 100%; }
+        body {
+            background: #fff;
+            color: #172033;
+            font-family: 'Inter', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .header {
+            padding: 12px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-shrink: 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+        .header-logo {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            flex: 0 0 auto;
+        }
+        .content {
+            flex: 1;
+            min-height: 0;
+            padding: 14px;
+            display: flex;
+        }
+        .slide {
+            width: 100%;
+            min-width: 0;
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            padding: 4vh 5vw 2.5vh;
+            background: var(--tv-surface);
+            border: 1px solid var(--tv-border);
+            border-radius: 14px;
+            box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+        }
+        .message-space {
+            flex: 1;
+            min-height: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 3vh 0;
+        }
+        .message { width: 100%; text-align: center; }
+        .message h2 {
+            margin: 0;
+            font-size: 1em;
+            font-weight: 800;
+            line-height: 1.06;
+            text-wrap: balance;
+            overflow-wrap: break-word;
+        }
+        .explanation {
+            margin: 0.55em auto 0;
+            max-width: 30em;
+            font-size: 0.51em;
+            font-weight: 400;
+            font-style: italic;
+            line-height: 1.3;
+            text-wrap: balance;
+        }
+        .source {
+            flex-shrink: 0;
+            align-self: flex-end;
+            margin: 0;
+            max-width: 100%;
+            font-size: clamp(12px, 1.2vw, 26px);
+            line-height: 1.4;
+            color: #526174;
+            text-align: right;
+        }
+        .source cite { font-style: normal; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Värdegrund</h1>
+        <img class="header-logo" src="kronang-logo-2026.png" alt="Kronängs IF">
+    </header>
+    <main class="content">
+      <article class="slide" aria-label="Kronängs IF:s värdegrund">
+        <div class="message-space">
+            <div class="message">
+                <h2>ALLA MÄNNISKOR HAR LIKA VÄRDE</h2>
+                <p class="explanation">Vi ser till att alla får vara med och känna sig viktiga i laget.</p>
+            </div>
+        </div>
+        <p class="source"><cite>Kronängs IF:s föreningspolicy</cite></p>
+      </article>
+    </main>
+    <script>
+        const slides = [
+            {
+                title: 'ALLA MÄNNISKOR HAR LIKA VÄRDE',
+                explanation: 'Vi ser till att alla får vara med och känna sig viktiga i laget.',
+                source: 'Kronängs IF:s föreningspolicy'
+            },
+            {
+                title: 'VI STÄLLER UPP FÖR VARANDRA',
+                explanation: 'Vi hjälper och peppar våra lagkamrater när de behöver oss.',
+                source: 'Kronängs IF:s föreningspolicy'
+            },
+            {
+                title: 'VI BEHANDLAR VARANDRA MED RESPEKT',
+                explanation: 'Vi lyssnar på varandra och uppmuntrar den som vågar försöka.',
+                source: 'Kronängs IF:s föreningspolicy'
+            },
+            {
+                title: 'ALLA ÄR DELAKTIGA I FRAMGÅNGEN',
+                explanation: 'Vi gläds åt varandras framgångar och firar tillsammans.',
+                source: 'Kronängs IF:s föreningspolicy'
+            },
+            {
+                title: 'VI GÖR ALLTID VÅRT BÄSTA',
+                explanation: 'Vi vågar prova nya saker och utvecklas tillsammans.',
+                source: 'Kronängs IF:s föreningspolicy'
+            },
+            {
+                title: 'GLÄDJE, KAMRATSKAP OCH UPPMUNTRAN SKAPAR TRYGGHET',
+                explanation: 'Vi hälsar på varandra, sprider glädje och ser till att alla känner sig välkomna.',
+                source: 'Kronängs IF:s föreningspolicy'
+            },
+            {
+                title: 'ETT LAG – MÅNGA STJÄRNOR',
+                explanation: 'Vi har alla olika styrkor och tillsammans gör vi varandra bättre.',
+                source: 'Inspirerat av Kronängs IF:s värdegrund'
+            }
+        ];
+
+        // Each iframe visit shows one message; resizing never advances the sequence.
+        const storageKey = 'kronang-values-next-slide';
+        let slideIndex = 0;
+        try {
+            const saved = Number(sessionStorage.getItem(storageKey));
+            slideIndex = Number.isInteger(saved) && saved >= 0 ? saved % slides.length : 0;
+            sessionStorage.setItem(storageKey, String((slideIndex + 1) % slides.length));
+        } catch (error) {
+            // Keep rotation working in the dashboard even when storage is disabled.
+            try {
+                slideIndex = (window.parent.kronangValuesNextSlide || 0) % slides.length;
+                window.parent.kronangValuesNextSlide = (slideIndex + 1) % slides.length;
+            } catch (parentError) { /* Standalone page still shows the first message. */ }
+        }
+
+        const slide = slides[slideIndex];
+        document.querySelector('.message h2').textContent = slide.title;
+        document.querySelector('.explanation').textContent = slide.explanation;
+        document.querySelector('cite').textContent = slide.source;
+
+        const space = document.querySelector('.message-space');
+        const message = document.querySelector('.message');
+        function fitMessage() {
+            if (!space.clientWidth || !space.clientHeight) return;
+            let low = 1;
+            let high = Math.min(window.innerWidth * 0.085, window.innerHeight * 0.16);
+            // Find the largest heading size that fits both the heading and explanation.
+            for (let step = 0; step < 12; step++) {
+                const size = (low + high) / 2;
+                message.style.fontSize = `${size}px`;
+                if (message.scrollHeight <= space.clientHeight && message.scrollWidth <= space.clientWidth) {
+                    low = size;
+                } else {
+                    high = size;
+                }
+            }
+            message.style.fontSize = `${low}px`;
+        }
+        new ResizeObserver(fitMessage).observe(space);
+        document.fonts.ready.then(fitMessage);
+        fitMessage();
+    </script>
+</body>
+</html>

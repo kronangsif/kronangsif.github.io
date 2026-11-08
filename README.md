@@ -37,6 +37,7 @@ kronang-dashboard/
 ├── herr-embedded.html         # Herrar-vy med tabell + matcher
 ├── dam-embedded.html          # Damer-vy med tabell + matcher
 ├── weather-embedded.html      # Separat vädervy
+├── values-embedded.html       # Värdegrund: ett av sju budskap per rotationsvarv
 ├── standings.html             # Enkel tabellvy
 ├── calendar.html              # Full kalenderdashboard
 ├── app.js                     # JavaScript för kalenderdashboarden
@@ -74,6 +75,7 @@ Frontend-sidorna läser `data/calendar.json` direkt i webbläsaren.
 - `matches-embedded.html` visar kommande matcher.
 - `herr-embedded.html` och `dam-embedded.html` kombinerar kalenderdata med inbäddade tabeller från Everysport.
 - `index.html` laddar sidorna från `config.json` och roterar mellan dem automatiskt.
+- `values-embedded.html` visar en stor logga, en fet värdegrundsrubrik, en förklarande mening och en källhänvisning. De sju budskapen visas i ordning, ett per varv (20 sekunder), och börjar sedan om. Nästa budskap sparas i webbläsarflikens sessionslagring, så att serien fortsätter när undersidan laddas om.
 
 ## Lokal körning
 
