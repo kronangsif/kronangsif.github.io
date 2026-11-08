@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T19:25:13.929936",
+  "last_updated": "2026-11-08T23:29:42.793961",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -35,11 +35,7 @@
         "canceled": false,
         "finished": true
       },
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 3.6
-      }
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -68,11 +64,7 @@
         "canceled": false,
         "finished": true
       },
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.3
-      }
+      "weather": null
     },
     {
       "date": "2026-11-14",
@@ -442,11 +434,7 @@
       "location": "Kristinebergshallen",
       "lockerooms": null,
       "team_id": "612530",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 3.6
-      }
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -458,11 +446,7 @@
       "location": "Fredriksborgshallen",
       "lockerooms": null,
       "team_id": null,
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 3.6
-      }
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -474,11 +458,7 @@
       "location": "Fredriksborgshallen",
       "lockerooms": null,
       "team_id": "481208",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 3.9
-      }
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -490,11 +470,7 @@
       "location": "Fredriksborgshallen",
       "lockerooms": null,
       "team_id": "324331",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.3
-      }
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -506,11 +482,7 @@
       "location": "Kristinebergshallen",
       "lockerooms": null,
       "team_id": "621421",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.3
-      }
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -522,11 +494,7 @@
       "location": "Fredriksborgshallen",
       "lockerooms": null,
       "team_id": "56158",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.5
-      }
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -538,11 +506,7 @@
       "location": "Fredriksborgshallen",
       "lockerooms": null,
       "team_id": "324307",
-      "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.1
-      }
+      "weather": null
     },
     {
       "date": "2026-11-09",
@@ -557,7 +521,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.7
+        "temp": 4.1
       }
     },
     {
@@ -573,7 +537,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.4
+        "temp": 3.9
       }
     },
     {
@@ -589,7 +553,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.1
+        "temp": 3.8
       }
     },
     {
@@ -605,7 +569,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.5
+        "temp": 4.2
       }
     },
     {
@@ -621,7 +585,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.5
+        "temp": 4.2
       }
     },
     {
@@ -637,7 +601,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.5
+        "temp": 4.2
       }
     },
     {
@@ -653,7 +617,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.3
+        "temp": 3.9
       }
     },
     {
@@ -669,7 +633,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.3
+        "temp": 3.9
       }
     },
     {
@@ -778,7 +742,11 @@
       "location": "Rydahallen",
       "lockerooms": null,
       "team_id": "56158",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.8
+      }
     },
     {
       "date": "2026-11-15",
@@ -790,7 +758,11 @@
       "location": "Kristinebergshallen",
       "lockerooms": null,
       "team_id": "612530",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.8
+      }
     },
     {
       "date": "2026-11-15",
@@ -802,7 +774,11 @@
       "location": "Fredriksborgshallen",
       "lockerooms": null,
       "team_id": null,
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 5.2
+      }
     },
     {
       "date": "2026-11-15",
@@ -814,7 +790,11 @@
       "location": "Fredriksborgshallen",
       "lockerooms": null,
       "team_id": "481208",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 5.7
+      }
     },
     {
       "date": "2026-11-15",
@@ -826,7 +806,11 @@
       "location": "Fredriksborgshallen",
       "lockerooms": null,
       "team_id": "324331",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.0
+      }
     },
     {
       "date": "2026-11-15",
@@ -838,7 +822,11 @@
       "location": "Kristinebergshallen",
       "lockerooms": null,
       "team_id": "621421",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.0
+      }
     },
     {
       "date": "2026-11-15",
@@ -850,7 +838,11 @@
       "location": "Fredriksborgshallen",
       "lockerooms": null,
       "team_id": "56158",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.3
+      }
     },
     {
       "date": "2026-11-15",
@@ -862,7 +854,11 @@
       "location": "Björkängshallen",
       "lockerooms": null,
       "team_id": "224798",
-      "weather": null
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.2
+      }
     },
     {
       "date": "2026-11-16",
