@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-11-11T10:30:07.722089",
+  "last_updated": "2026-11-11T18:27:51.550716",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 11,
   "year": 2026,
-  "activity_count": 114,
+  "activity_count": 116,
   "activities": [
     {
       "date": "2026-11-08",
@@ -96,7 +96,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.2
+        "temp": 5.1
       }
     },
     {
@@ -129,7 +129,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.1
+        "temp": 5.3
       }
     },
     {
@@ -693,9 +693,9 @@
       "lockerooms": null,
       "team_id": "374981",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.7
       }
     },
     {
@@ -711,7 +711,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 2.6
+        "temp": 2.4
       }
     },
     {
@@ -727,7 +727,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 2.6
+        "temp": 2.4
       }
     },
     {
@@ -743,7 +743,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 2.4
+        "temp": 2.3
       }
     },
     {
@@ -757,9 +757,9 @@
       "lockerooms": null,
       "team_id": "52695",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 2.2
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 2.4
       }
     },
     {
@@ -773,9 +773,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "☀️",
-        "desc": "Klar himmel",
-        "temp": 1.1
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 1.3
       }
     },
     {
@@ -789,9 +789,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 2.9
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 3.2
       }
     },
     {
@@ -807,7 +807,23 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.2
+        "temp": 4.7
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "time": "07:20",
+      "end_time": "12:00",
+      "team": "P2016",
+      "type": "Övrigt",
+      "description": "Matchdag Rydahallen Lag Svart",
+      "location": "Rydahallen",
+      "lockerooms": null,
+      "team_id": "414417",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.4
       }
     },
     {
@@ -823,7 +839,23 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.7
+        "temp": 4.5
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "time": "08:40",
+      "end_time": "13:30",
+      "team": "P2016",
+      "type": "Övrigt",
+      "description": "Matchdag Rydahallen Lag Vit",
+      "location": "Rydahallen",
+      "lockerooms": null,
+      "team_id": "414417",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.5
       }
     },
     {
@@ -839,7 +871,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.7
+        "temp": 4.5
       }
     },
     {
@@ -855,7 +887,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.1
+        "temp": 4.7
       }
     },
     {
@@ -871,7 +903,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.4
+        "temp": 5.0
       }
     },
     {
@@ -885,9 +917,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 5.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.3
       }
     },
     {
@@ -901,9 +933,9 @@
       "lockerooms": null,
       "team_id": "584817",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 5.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.3
       }
     },
     {
@@ -917,9 +949,9 @@
       "lockerooms": null,
       "team_id": "621421",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 5.9
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.3
       }
     },
     {
@@ -933,9 +965,9 @@
       "lockerooms": null,
       "team_id": "56158",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.8
       }
     },
     {
@@ -949,9 +981,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.8
       }
     },
     {
@@ -965,9 +997,9 @@
       "lockerooms": null,
       "team_id": "520555",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 6.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.2
       }
     },
     {
@@ -983,7 +1015,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.0
+        "temp": 6.9
       }
     },
     {
@@ -999,7 +1031,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.0
+        "temp": 6.9
       }
     },
     {
@@ -1015,7 +1047,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.2
+        "temp": 6.7
       }
     },
     {
@@ -1031,7 +1063,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.2
+        "temp": 6.6
       }
     },
     {
