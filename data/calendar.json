@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-11-11T02:37:33.255130",
+  "last_updated": "2026-11-11T10:30:07.722089",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 11,
   "year": 2026,
-  "activity_count": 110,
+  "activity_count": 114,
   "activities": [
     {
       "date": "2026-11-08",
@@ -96,7 +96,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.9
+        "temp": 4.2
       }
     },
     {
@@ -127,10 +127,88 @@
         "finished": false
       },
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 4.7
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.1
       }
+    },
+    {
+      "date": "2026-11-28",
+      "day": "28",
+      "weekday": "",
+      "time": "10:45",
+      "end_time": "",
+      "team": "Kronängs IF",
+      "team_id": "364396",
+      "type": "Match",
+      "description": "IFK Falköping FF hemma",
+      "venue": "Boda Arena",
+      "calendar_venue": "",
+      "location": "Boda Arena Sportgolv",
+      "lockerooms": null,
+      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
+      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/7190.png",
+      "referees": [],
+      "fogis_game_id": 6930715,
+      "fogis_status": {
+        "postponed": false,
+        "abandoned": false,
+        "canceled": false,
+        "finished": false
+      },
+      "weather": null
+    },
+    {
+      "date": "2026-11-28",
+      "day": "28",
+      "weekday": "",
+      "time": "12:00",
+      "end_time": "",
+      "team": "Kronängs IF",
+      "team_id": "364396",
+      "type": "Match",
+      "description": "Borås AIK borta",
+      "venue": "Boda Arena",
+      "calendar_venue": "",
+      "location": "Boda Arena Sportgolv",
+      "lockerooms": null,
+      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11535.png",
+      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
+      "referees": [],
+      "fogis_game_id": 6930716,
+      "fogis_status": {
+        "postponed": false,
+        "abandoned": false,
+        "canceled": false,
+        "finished": false
+      },
+      "weather": null
+    },
+    {
+      "date": "2026-11-28",
+      "day": "28",
+      "weekday": "",
+      "time": "14:00",
+      "end_time": "",
+      "team": "Kronängs IF",
+      "team_id": "364396",
+      "type": "Match",
+      "description": "FC Kindmark IF borta",
+      "venue": "Boda Arena",
+      "calendar_venue": "",
+      "location": "Boda Arena Sportgolv",
+      "lockerooms": null,
+      "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/14835.png",
+      "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
+      "referees": [],
+      "fogis_game_id": 6930718,
+      "fogis_status": {
+        "postponed": false,
+        "abandoned": false,
+        "canceled": false,
+        "finished": false
+      },
+      "weather": null
     },
     {
       "date": "2027-01-17",
@@ -615,9 +693,9 @@
       "lockerooms": null,
       "team_id": "374981",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.4
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.5
       }
     },
     {
@@ -633,7 +711,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.5
+        "temp": 2.6
       }
     },
     {
@@ -649,7 +727,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.5
+        "temp": 2.6
       }
     },
     {
@@ -665,7 +743,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 2.9
+        "temp": 2.4
       }
     },
     {
@@ -679,9 +757,25 @@
       "lockerooms": null,
       "team_id": "52695",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 2.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 2.2
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "time": "18:00",
+      "end_time": "20:00",
+      "team": "P2009-2010",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Björkängshallen",
+      "lockerooms": null,
+      "team_id": "224798",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": 1.1
       }
     },
     {
@@ -695,9 +789,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 3.3
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 2.9
       }
     },
     {
@@ -713,7 +807,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.6
+        "temp": 4.2
       }
     },
     {
@@ -729,7 +823,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.0
+        "temp": 4.7
       }
     },
     {
@@ -745,7 +839,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.0
+        "temp": 4.7
       }
     },
     {
@@ -761,7 +855,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.2
+        "temp": 5.1
       }
     },
     {
@@ -793,7 +887,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.5
+        "temp": 5.9
       }
     },
     {
@@ -809,7 +903,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.5
+        "temp": 5.9
       }
     },
     {
@@ -825,7 +919,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.5
+        "temp": 5.9
       }
     },
     {
@@ -841,7 +935,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.5
+        "temp": 6.4
       }
     },
     {
@@ -857,7 +951,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 5.3
+        "temp": 6.6
       }
     },
     {
@@ -871,9 +965,9 @@
       "lockerooms": null,
       "team_id": "520555",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 4.8
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.2
       }
     },
     {
@@ -887,9 +981,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 3.0
       }
     },
     {
@@ -903,9 +997,9 @@
       "lockerooms": null,
       "team_id": "481208",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 3.0
       }
     },
     {
@@ -919,9 +1013,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.6
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 3.2
       }
     },
     {
@@ -935,9 +1029,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 5.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 3.2
       }
     },
     {
@@ -951,9 +1045,9 @@
       "lockerooms": null,
       "team_id": "56158",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": -0.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 2.7
       }
     },
     {
@@ -967,9 +1061,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": -0.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 2.7
       }
     },
     {
@@ -983,9 +1077,9 @@
       "lockerooms": null,
       "team_id": "414417",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": -0.2
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 2.7
       }
     },
     {
@@ -1001,7 +1095,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -1.4
+        "temp": 2.1
       }
     },
     {
@@ -1017,7 +1111,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -1.4
+        "temp": 2.1
       }
     },
     {
