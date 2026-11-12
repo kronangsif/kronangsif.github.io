@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-11-12T09:29:11.620849",
+  "last_updated": "2026-11-12T17:59:09.426561",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 11,
   "year": 2026,
-  "activity_count": 116,
+  "activity_count": 119,
   "activities": [
     {
       "date": "2026-11-08",
@@ -94,9 +94,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 5.7
       }
     },
     {
@@ -127,9 +127,9 @@
         "finished": false
       },
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.3
       }
     },
     {
@@ -706,7 +706,7 @@
       "team_id": "56158",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
+        "desc": "Dis",
         "temp": 2.0
       }
     },
@@ -722,7 +722,7 @@
       "team_id": "324307",
       "weather": {
         "icon": "🌧️",
-        "desc": "Regn",
+        "desc": "Dis",
         "temp": 2.0
       }
     },
@@ -738,8 +738,8 @@
       "team_id": "281528",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 1.9
+        "desc": "Regn",
+        "temp": 1.7
       }
     },
     {
@@ -755,7 +755,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 1.7
+        "temp": 1.9
       }
     },
     {
@@ -771,7 +771,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": 1.7
+        "temp": 1.6
       }
     },
     {
@@ -785,9 +785,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 2.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 1.5
       }
     },
     {
@@ -801,9 +801,25 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.6
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "time": "13:30",
+      "end_time": "15:00",
+      "team": "Damer",
+      "type": "Träning",
+      "description": "Träning Futsal",
+      "location": "Björkängshallen",
+      "lockerooms": null,
+      "team_id": "52695",
+      "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 6.0
+        "temp": 5.7
       }
     },
     {
@@ -817,9 +833,9 @@
       "lockerooms": null,
       "team_id": "414417",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 4.6
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.8
       }
     },
     {
@@ -833,9 +849,9 @@
       "lockerooms": null,
       "team_id": "56158",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 4.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.6
       }
     },
     {
@@ -849,9 +865,9 @@
       "lockerooms": null,
       "team_id": "414417",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 4.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.6
       }
     },
     {
@@ -865,9 +881,9 @@
       "lockerooms": null,
       "team_id": "612530",
       "weather": {
-        "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 4.5
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 4.6
       }
     },
     {
@@ -899,7 +915,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.9
+        "temp": 3.7
       }
     },
     {
@@ -963,7 +979,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.6
+        "temp": 4.8
       }
     },
     {
@@ -979,7 +995,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.9
+        "temp": 5.2
       }
     },
     {
@@ -995,7 +1011,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 4.6
+        "temp": 4.9
       }
     },
     {
@@ -1009,9 +1025,9 @@
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 5.3
       }
     },
     {
@@ -1025,9 +1041,9 @@
       "lockerooms": null,
       "team_id": "481208",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.7
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 5.3
       }
     },
     {
@@ -1041,9 +1057,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 5.3
       }
     },
     {
@@ -1057,9 +1073,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 6.4
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 5.3
       }
     },
     {
@@ -1075,7 +1091,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.4
+        "temp": 2.1
       }
     },
     {
@@ -1091,7 +1107,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.4
+        "temp": 2.1
       }
     },
     {
@@ -1107,7 +1123,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.4
+        "temp": 2.1
       }
     },
     {
@@ -1123,7 +1139,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.0
+        "temp": 2.1
       }
     },
     {
@@ -1139,7 +1155,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.0
+        "temp": 2.1
       }
     },
     {
@@ -1228,6 +1244,18 @@
       "location": "Björkängshallen",
       "lockerooms": null,
       "team_id": "38937",
+      "weather": null
+    },
+    {
+      "date": "2026-11-21",
+      "time": "13:30",
+      "end_time": "15:00",
+      "team": "Damer",
+      "type": "Träning",
+      "description": "Träning Futsal",
+      "location": "Björkängshallen",
+      "lockerooms": null,
+      "team_id": "52695",
       "weather": null
     },
     {
@@ -1516,6 +1544,18 @@
       "location": "Björkängshallen",
       "lockerooms": null,
       "team_id": "38937",
+      "weather": null
+    },
+    {
+      "date": "2026-11-28",
+      "time": "13:30",
+      "end_time": "15:00",
+      "team": "Damer",
+      "type": "Träning",
+      "description": "Träning Futsal",
+      "location": "Björkängshallen",
+      "lockerooms": null,
+      "team_id": "52695",
       "weather": null
     },
     {
