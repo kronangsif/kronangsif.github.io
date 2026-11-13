@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-11-13T05:45:34.056147",
+  "last_updated": "2026-11-13T14:13:01.374321",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 11,
   "year": 2026,
-  "activity_count": 119,
+  "activity_count": 120,
   "activities": [
     {
       "date": "2026-11-08",
@@ -34,7 +34,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": true
-      }
+      },
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -62,7 +63,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": true
-      }
+      },
+      "weather": null
     },
     {
       "date": "2026-11-14",
@@ -90,6 +92,11 @@
         "abandoned": false,
         "canceled": false,
         "finished": false
+      },
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.4
       }
     },
     {
@@ -118,6 +125,11 @@
         "abandoned": false,
         "canceled": false,
         "finished": false
+      },
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.0
       }
     },
     {
@@ -136,14 +148,18 @@
       "lockerooms": null,
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
       "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/7190.png",
-      "referees": [],
+      "referees": [
+        "Amira Ajrizaj",
+        "Bekim Ajrizaj"
+      ],
       "fogis_game_id": 6930715,
       "fogis_status": {
         "postponed": false,
         "abandoned": false,
         "canceled": false,
         "finished": false
-      }
+      },
+      "weather": null
     },
     {
       "date": "2026-11-28",
@@ -161,14 +177,18 @@
       "lockerooms": null,
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/11535.png",
       "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "referees": [],
+      "referees": [
+        "Sylë Bajrami",
+        "Adel Mahmoud"
+      ],
       "fogis_game_id": 6930716,
       "fogis_status": {
         "postponed": false,
         "abandoned": false,
         "canceled": false,
         "finished": false
-      }
+      },
+      "weather": null
     },
     {
       "date": "2026-11-28",
@@ -186,14 +206,18 @@
       "lockerooms": null,
       "home_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/14835.png",
       "away_logo_url": "https://staticcdn.svenskfotboll.se/img/teams/8688.png",
-      "referees": [],
+      "referees": [
+        "Adel Mahmoud",
+        "Sylë Bajrami"
+      ],
       "fogis_game_id": 6930718,
       "fogis_status": {
         "postponed": false,
         "abandoned": false,
         "canceled": false,
         "finished": false
-      }
+      },
+      "weather": null
     },
     {
       "date": "2027-01-17",
@@ -218,7 +242,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": false
-      }
+      },
+      "weather": null
     },
     {
       "date": "2027-01-17",
@@ -243,7 +268,8 @@
         "abandoned": false,
         "canceled": false,
         "finished": false
-      }
+      },
+      "weather": null
     },
     {
       "date": "2026-11-01",
@@ -254,7 +280,8 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "lockerooms": null,
-      "team_id": "621421"
+      "team_id": "621421",
+      "weather": null
     },
     {
       "date": "2026-11-01",
@@ -265,7 +292,8 @@
       "description": "Träning",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": null
     },
     {
       "date": "2026-11-02",
@@ -276,7 +304,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "260562"
+      "team_id": "260562",
+      "weather": null
     },
     {
       "date": "2026-11-02",
@@ -287,7 +316,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": null
     },
     {
       "date": "2026-11-02",
@@ -298,7 +328,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-11-02",
@@ -309,7 +340,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "38937"
+      "team_id": "38937",
+      "weather": null
     },
     {
       "date": "2026-11-03",
@@ -320,7 +352,8 @@
       "description": "Träning utomhus A-plan",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": null
     },
     {
       "date": "2026-11-03",
@@ -331,7 +364,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "584817"
+      "team_id": "584817",
+      "weather": null
     },
     {
       "date": "2026-11-03",
@@ -342,7 +376,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": null
     },
     {
       "date": "2026-11-03",
@@ -353,7 +388,8 @@
       "description": "Träning",
       "location": "Kristinebergshallen",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": null
     },
     {
       "date": "2026-11-04",
@@ -364,7 +400,8 @@
       "description": "Föräldrarna vs. Barnen",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "374981"
+      "team_id": "374981",
+      "weather": null
     },
     {
       "date": "2026-11-04",
@@ -375,7 +412,8 @@
       "description": "Träningsmatch Byttorp",
       "location": "Byttorps IP",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-11-05",
@@ -386,7 +424,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "56158"
+      "team_id": "56158",
+      "weather": null
     },
     {
       "date": "2026-11-05",
@@ -397,7 +436,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": null
     },
     {
       "date": "2026-11-05",
@@ -408,7 +448,8 @@
       "description": "OBS Inställd Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-11-05",
@@ -419,7 +460,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": null
     },
     {
       "date": "2026-11-06",
@@ -430,7 +472,8 @@
       "description": "Träning",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": null
     },
     {
       "date": "2026-11-07",
@@ -441,7 +484,8 @@
       "description": "Träning inomhus",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "260562"
+      "team_id": "260562",
+      "weather": null
     },
     {
       "date": "2026-11-07",
@@ -452,7 +496,8 @@
       "description": "Träning inomhus",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-11-07",
@@ -463,7 +508,8 @@
       "description": "Inomhusträning",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "38937"
+      "team_id": "38937",
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -474,7 +520,8 @@
       "description": "Träning",
       "location": "Kristinebergshallen",
       "lockerooms": null,
-      "team_id": "612530"
+      "team_id": "612530",
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -485,7 +532,8 @@
       "description": "Träning",
       "location": "Fredriksborgshallen",
       "lockerooms": null,
-      "team_id": null
+      "team_id": null,
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -496,7 +544,8 @@
       "description": "Träning inomhus",
       "location": "Fredriksborgshallen",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -507,7 +556,8 @@
       "description": "Träning inomhus",
       "location": "Fredriksborgshallen",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -518,7 +568,8 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "lockerooms": null,
-      "team_id": "584817"
+      "team_id": "584817",
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -529,7 +580,8 @@
       "description": "Träning",
       "location": "Kristinebergshallen",
       "lockerooms": null,
-      "team_id": "621421"
+      "team_id": "621421",
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -540,7 +592,8 @@
       "description": "Träning",
       "location": "Fredriksborgshallen",
       "lockerooms": null,
-      "team_id": "56158"
+      "team_id": "56158",
+      "weather": null
     },
     {
       "date": "2026-11-08",
@@ -551,7 +604,8 @@
       "description": "Träning",
       "location": "Fredriksborgshallen",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": null
     },
     {
       "date": "2026-11-09",
@@ -562,7 +616,8 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": null
     },
     {
       "date": "2026-11-09",
@@ -573,7 +628,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-11-10",
@@ -584,7 +640,8 @@
       "description": "Träning med p2016",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "56158"
+      "team_id": "56158",
+      "weather": null
     },
     {
       "date": "2026-11-10",
@@ -595,7 +652,8 @@
       "description": "Träning utomhus A-plan",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": null
     },
     {
       "date": "2026-11-10",
@@ -606,7 +664,8 @@
       "description": "Träning Utomhus",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "414417"
+      "team_id": "414417",
+      "weather": null
     },
     {
       "date": "2026-11-10",
@@ -617,7 +676,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": null
     },
     {
       "date": "2026-11-10",
@@ -628,7 +688,8 @@
       "description": "Träning",
       "location": "Kristinebergshallen",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": null
     },
     {
       "date": "2026-11-11",
@@ -639,7 +700,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "374981"
+      "team_id": "374981",
+      "weather": null
     },
     {
       "date": "2026-11-12",
@@ -650,7 +712,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "56158"
+      "team_id": "56158",
+      "weather": null
     },
     {
       "date": "2026-11-12",
@@ -661,7 +724,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": null
     },
     {
       "date": "2026-11-12",
@@ -672,7 +736,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-11-12",
@@ -683,7 +748,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": null
     },
     {
       "date": "2026-11-13",
@@ -694,7 +760,12 @@
       "description": "Träning",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 0.8
+      }
     },
     {
       "date": "2026-11-14",
@@ -705,7 +776,12 @@
       "description": "Träning inomhus",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "260562"
+      "team_id": "260562",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 0.8
+      }
     },
     {
       "date": "2026-11-14",
@@ -716,7 +792,12 @@
       "description": "Träning",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "38937"
+      "team_id": "38937",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 3.4
+      }
     },
     {
       "date": "2026-11-14",
@@ -727,7 +808,12 @@
       "description": "Träning Futsal",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 4.4
+      }
     },
     {
       "date": "2026-11-15",
@@ -738,7 +824,12 @@
       "description": "Matchdag Rydahallen Lag Svart",
       "location": "Rydahallen",
       "lockerooms": null,
-      "team_id": "414417"
+      "team_id": "414417",
+      "weather": {
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 6.2
+      }
     },
     {
       "date": "2026-11-15",
@@ -749,7 +840,12 @@
       "description": "Cup i Rydahallen",
       "location": "Rydahallen",
       "lockerooms": null,
-      "team_id": "56158"
+      "team_id": "56158",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.9
+      }
     },
     {
       "date": "2026-11-15",
@@ -760,7 +856,12 @@
       "description": "Matchdag Rydahallen Lag Vit",
       "location": "Rydahallen",
       "lockerooms": null,
-      "team_id": "414417"
+      "team_id": "414417",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.9
+      }
     },
     {
       "date": "2026-11-15",
@@ -771,7 +872,12 @@
       "description": "Träning",
       "location": "Kristinebergshallen",
       "lockerooms": null,
-      "team_id": "612530"
+      "team_id": "612530",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.9
+      }
     },
     {
       "date": "2026-11-15",
@@ -782,7 +888,28 @@
       "description": "Träning",
       "location": "Fredriksborgshallen",
       "lockerooms": null,
-      "team_id": null
+      "team_id": null,
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.6
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "time": "09:45",
+      "end_time": "14:00",
+      "team": "P2013",
+      "type": "Övrigt",
+      "description": "Samlingskallelse match 11v11",
+      "location": "Kronängs Arena",
+      "lockerooms": null,
+      "team_id": "324307",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.6
+      }
     },
     {
       "date": "2026-11-15",
@@ -793,7 +920,12 @@
       "description": "Träning inomhus",
       "location": "Fredriksborgshallen",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.6
+      }
     },
     {
       "date": "2026-11-15",
@@ -804,7 +936,12 @@
       "description": "Träning inomhus",
       "location": "Fredriksborgshallen",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.7
+      }
     },
     {
       "date": "2026-11-15",
@@ -815,7 +952,12 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "lockerooms": null,
-      "team_id": "584817"
+      "team_id": "584817",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.7
+      }
     },
     {
       "date": "2026-11-15",
@@ -826,18 +968,28 @@
       "description": "Träning",
       "location": "Kristinebergshallen",
       "lockerooms": null,
-      "team_id": "621421"
+      "team_id": "621421",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.7
+      }
     },
     {
       "date": "2026-11-15",
       "time": "12:30",
-      "end_time": "14:00",
-      "team": "P2015",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Fredriksborgshallen",
+      "end_time": "16:00",
+      "team": "P2013",
+      "type": "Övrigt",
+      "description": "Samlingskallelse match 9v9",
+      "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "56158"
+      "team_id": "324307",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 5.9
+      }
     },
     {
       "date": "2026-11-15",
@@ -848,7 +1000,12 @@
       "description": "Träning",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.1
+      }
     },
     {
       "date": "2026-11-15",
@@ -859,7 +1016,12 @@
       "description": "Träning",
       "location": "Kristinebergshallen",
       "lockerooms": null,
-      "team_id": "520555"
+      "team_id": "520555",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 6.0
+      }
     },
     {
       "date": "2026-11-16",
@@ -870,7 +1032,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "260562"
+      "team_id": "260562",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 4.1
+      }
     },
     {
       "date": "2026-11-16",
@@ -881,7 +1048,12 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 4.1
+      }
     },
     {
       "date": "2026-11-16",
@@ -892,7 +1064,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 3.9
+      }
     },
     {
       "date": "2026-11-16",
@@ -903,7 +1080,12 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "38937"
+      "team_id": "38937",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 3.6
+      }
     },
     {
       "date": "2026-11-17",
@@ -914,7 +1096,12 @@
       "description": "Träning med p2016",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "56158"
+      "team_id": "56158",
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 1.7
+      }
     },
     {
       "date": "2026-11-17",
@@ -925,7 +1112,12 @@
       "description": "Träning utomhus A-plan",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 1.7
+      }
     },
     {
       "date": "2026-11-17",
@@ -936,7 +1128,12 @@
       "description": "Träning Utomhus",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "414417"
+      "team_id": "414417",
+      "weather": {
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": 1.7
+      }
     },
     {
       "date": "2026-11-17",
@@ -947,7 +1144,12 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": {
+        "icon": "🌫️",
+        "desc": "Dimma",
+        "temp": 0.0
+      }
     },
     {
       "date": "2026-11-17",
@@ -958,7 +1160,12 @@
       "description": "Träning",
       "location": "Kristinebergshallen",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": {
+        "icon": "🌫️",
+        "desc": "Dimma",
+        "temp": 0.0
+      }
     },
     {
       "date": "2026-11-18",
@@ -969,7 +1176,12 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "374981"
+      "team_id": "374981",
+      "weather": {
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": 0.8
+      }
     },
     {
       "date": "2026-11-19",
@@ -980,7 +1192,12 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "56158"
+      "team_id": "56158",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": -0.8
+      }
     },
     {
       "date": "2026-11-19",
@@ -991,7 +1208,12 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": -0.8
+      }
     },
     {
       "date": "2026-11-19",
@@ -1002,7 +1224,12 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": -1.9
+      }
     },
     {
       "date": "2026-11-19",
@@ -1013,7 +1240,12 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": {
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": -2.6
+      }
     },
     {
       "date": "2026-11-20",
@@ -1024,7 +1256,8 @@
       "description": "Träning",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": null
     },
     {
       "date": "2026-11-21",
@@ -1035,7 +1268,8 @@
       "description": "Träning",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "38937"
+      "team_id": "38937",
+      "weather": null
     },
     {
       "date": "2026-11-21",
@@ -1046,7 +1280,8 @@
       "description": "Träning Futsal",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": null
     },
     {
       "date": "2026-11-22",
@@ -1057,7 +1292,8 @@
       "description": "Träning",
       "location": "Kristinebergshallen",
       "lockerooms": null,
-      "team_id": "612530"
+      "team_id": "612530",
+      "weather": null
     },
     {
       "date": "2026-11-22",
@@ -1068,7 +1304,8 @@
       "description": "Träning inomhus",
       "location": "Fredriksborgshallen",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": null
     },
     {
       "date": "2026-11-22",
@@ -1079,7 +1316,8 @@
       "description": "Träning inomhus",
       "location": "Fredriksborgshallen",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": null
     },
     {
       "date": "2026-11-22",
@@ -1090,7 +1328,8 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "lockerooms": null,
-      "team_id": "584817"
+      "team_id": "584817",
+      "weather": null
     },
     {
       "date": "2026-11-22",
@@ -1101,7 +1340,8 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "lockerooms": null,
-      "team_id": "621421"
+      "team_id": "621421",
+      "weather": null
     },
     {
       "date": "2026-11-22",
@@ -1112,7 +1352,8 @@
       "description": "Träning",
       "location": "Fredriksborgshallen",
       "lockerooms": null,
-      "team_id": "56158"
+      "team_id": "56158",
+      "weather": null
     },
     {
       "date": "2026-11-22",
@@ -1123,7 +1364,8 @@
       "description": "Träning",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": null
     },
     {
       "date": "2026-11-22",
@@ -1134,7 +1376,8 @@
       "description": "Träning",
       "location": "Fredriksborgshallen",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": null
     },
     {
       "date": "2026-11-22",
@@ -1145,7 +1388,8 @@
       "description": "Träning",
       "location": "Kristinebergshallen",
       "lockerooms": null,
-      "team_id": "520555"
+      "team_id": "520555",
+      "weather": null
     },
     {
       "date": "2026-11-23",
@@ -1156,7 +1400,8 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": null
     },
     {
       "date": "2026-11-23",
@@ -1167,7 +1412,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-11-23",
@@ -1178,7 +1424,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "38937"
+      "team_id": "38937",
+      "weather": null
     },
     {
       "date": "2026-11-24",
@@ -1189,7 +1436,8 @@
       "description": "Träning med p2016",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "56158"
+      "team_id": "56158",
+      "weather": null
     },
     {
       "date": "2026-11-24",
@@ -1200,7 +1448,8 @@
       "description": "Träning utomhus A-plan",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": null
     },
     {
       "date": "2026-11-24",
@@ -1211,7 +1460,8 @@
       "description": "Träning Utomhus",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "414417"
+      "team_id": "414417",
+      "weather": null
     },
     {
       "date": "2026-11-24",
@@ -1222,7 +1472,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": null
     },
     {
       "date": "2026-11-24",
@@ -1233,7 +1484,8 @@
       "description": "Träning",
       "location": "Kristinebergshallen",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": null
     },
     {
       "date": "2026-11-25",
@@ -1244,7 +1496,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "374981"
+      "team_id": "374981",
+      "weather": null
     },
     {
       "date": "2026-11-26",
@@ -1255,7 +1508,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "56158"
+      "team_id": "56158",
+      "weather": null
     },
     {
       "date": "2026-11-26",
@@ -1266,7 +1520,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": null
     },
     {
       "date": "2026-11-26",
@@ -1277,7 +1532,8 @@
       "description": "Träning",
       "location": "Kronängs Arena B-plan",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-11-26",
@@ -1288,7 +1544,8 @@
       "description": "Träning",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": null
     },
     {
       "date": "2026-11-27",
@@ -1299,7 +1556,8 @@
       "description": "Träning",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": null
     },
     {
       "date": "2026-11-28",
@@ -1310,7 +1568,8 @@
       "description": "Träning",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "38937"
+      "team_id": "38937",
+      "weather": null
     },
     {
       "date": "2026-11-28",
@@ -1321,7 +1580,8 @@
       "description": "Träning Futsal",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "52695"
+      "team_id": "52695",
+      "weather": null
     },
     {
       "date": "2026-11-29",
@@ -1332,7 +1592,8 @@
       "description": "Träning",
       "location": "Kristinebergshallen",
       "lockerooms": null,
-      "team_id": "612530"
+      "team_id": "612530",
+      "weather": null
     },
     {
       "date": "2026-11-29",
@@ -1343,7 +1604,8 @@
       "description": "Träning inomhus",
       "location": "Fredriksborgshallen",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": null
     },
     {
       "date": "2026-11-29",
@@ -1354,7 +1616,8 @@
       "description": "Träning inomhus",
       "location": "Fredriksborgshallen",
       "lockerooms": null,
-      "team_id": "324331"
+      "team_id": "324331",
+      "weather": null
     },
     {
       "date": "2026-11-29",
@@ -1365,7 +1628,8 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "lockerooms": null,
-      "team_id": "584817"
+      "team_id": "584817",
+      "weather": null
     },
     {
       "date": "2026-11-29",
@@ -1376,7 +1640,8 @@
       "description": "Träning",
       "location": "Kristinebergskolan",
       "lockerooms": null,
-      "team_id": "621421"
+      "team_id": "621421",
+      "weather": null
     },
     {
       "date": "2026-11-29",
@@ -1387,7 +1652,8 @@
       "description": "Träning",
       "location": "Fredriksborgshallen",
       "lockerooms": null,
-      "team_id": "56158"
+      "team_id": "56158",
+      "weather": null
     },
     {
       "date": "2026-11-29",
@@ -1398,7 +1664,8 @@
       "description": "Träning",
       "location": "Björkängshallen",
       "lockerooms": null,
-      "team_id": "224798"
+      "team_id": "224798",
+      "weather": null
     },
     {
       "date": "2026-11-29",
@@ -1409,7 +1676,8 @@
       "description": "Träning",
       "location": "Fredriksborgshallen",
       "lockerooms": null,
-      "team_id": "324307"
+      "team_id": "324307",
+      "weather": null
     },
     {
       "date": "2026-11-29",
@@ -1420,7 +1688,8 @@
       "description": "Träning",
       "location": "Kristinebergshallen",
       "lockerooms": null,
-      "team_id": "520555"
+      "team_id": "520555",
+      "weather": null
     },
     {
       "date": "2026-11-30",
@@ -1431,7 +1700,8 @@
       "description": "Träning utomhus",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
-      "team_id": "481208"
+      "team_id": "481208",
+      "weather": null
     },
     {
       "date": "2026-11-30",
@@ -1442,7 +1712,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "281528"
+      "team_id": "281528",
+      "weather": null
     },
     {
       "date": "2026-11-30",
@@ -1453,7 +1724,8 @@
       "description": "Träning",
       "location": "Kronängs Arena",
       "lockerooms": null,
-      "team_id": "38937"
+      "team_id": "38937",
+      "weather": null
     }
   ],
   "standings": [
