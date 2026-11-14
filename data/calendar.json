@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14T09:55:58.321662",
+  "last_updated": "2026-11-14T16:27:54.454163",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -89,7 +89,7 @@
         "postponed": false,
         "abandoned": false,
         "canceled": false,
-        "finished": false
+        "finished": true
       }
     },
     {
