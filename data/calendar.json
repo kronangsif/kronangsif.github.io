@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-16T01:38:51.455343",
+  "last_updated": "2026-11-16T09:11:24.553016",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -902,7 +902,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.1
+        "temp": 5.2
       }
     },
     {
@@ -918,7 +918,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 4.1
+        "temp": 5.2
       }
     },
     {
@@ -933,8 +933,8 @@
       "team_id": "281528",
       "weather": {
         "icon": "🌧️",
-        "desc": "Dis",
-        "temp": 3.9
+        "desc": "Regn",
+        "temp": 5.0
       }
     },
     {
@@ -950,7 +950,7 @@
       "weather": {
         "icon": "🌧️",
         "desc": "Dis",
-        "temp": 3.8
+        "temp": 4.8
       }
     },
     {
@@ -966,7 +966,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.6
+        "temp": 2.8
       }
     },
     {
@@ -982,7 +982,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.6
+        "temp": 2.8
       }
     },
     {
@@ -998,7 +998,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.6
+        "temp": 2.8
       }
     },
     {
@@ -1014,7 +1014,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.8
+        "temp": 2.5
       }
     },
     {
@@ -1030,7 +1030,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.8
+        "temp": 2.5
       }
     },
     {
@@ -1046,7 +1046,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -0.3
+        "temp": 0.3
       }
     },
     {
@@ -1060,9 +1060,9 @@
       "lockerooms": null,
       "team_id": "324307",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": -1.4
+        "icon": "⛅",
+        "desc": "Delvis molnigt",
+        "temp": -0.6
       }
     },
     {
@@ -1076,9 +1076,9 @@
       "lockerooms": null,
       "team_id": "56158",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": -3.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": -4.5
       }
     },
     {
@@ -1092,9 +1092,9 @@
       "lockerooms": null,
       "team_id": "324307",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": -3.8
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": -4.5
       }
     },
     {
@@ -1108,9 +1108,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": -4.0
+        "icon": "☀️",
+        "desc": "Klar himmel",
+        "temp": -4.6
       }
     },
     {
@@ -1126,7 +1126,7 @@
       "weather": {
         "icon": "🌤️",
         "desc": "Mestadels klart",
-        "temp": -2.4
+        "temp": -2.9
       }
     },
     {
@@ -1142,7 +1142,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 2.1
+        "temp": 0.9
       }
     },
     {
@@ -1158,7 +1158,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 2.4
+        "temp": 1.1
       }
     },
     {
@@ -1174,7 +1174,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": -2.6
+        "temp": -2.1
       }
     },
     {
@@ -1190,7 +1190,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": -0.9
+        "temp": -0.4
       }
     },
     {
@@ -1206,7 +1206,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 0.0
+        "temp": 0.5
       }
     },
     {
@@ -1222,7 +1222,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 0.0
+        "temp": 0.5
       }
     },
     {
@@ -1238,7 +1238,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 0.0
+        "temp": 0.5
       }
     },
     {
@@ -1254,7 +1254,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 0.7
+        "temp": 1.1
       }
     },
     {
@@ -1270,7 +1270,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": 1.0
+        "temp": 1.3
       }
     },
     {
