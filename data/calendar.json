@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23T00:04:22.921786",
+  "last_updated": "2026-11-23T08:43:27.983891",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -1014,6 +1014,17 @@
     },
     {
       "date": "2026-11-22",
+      "time": "10:00",
+      "end_time": "11:00",
+      "team": "Fotbollsskolan födda 2020",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kristinebergskolan",
+      "lockerooms": null,
+      "team_id": "584817"
+    },
+    {
+      "date": "2026-11-22",
       "time": "11:00",
       "end_time": "12:30",
       "team": "P2014",
@@ -1022,17 +1033,6 @@
       "location": "Fredriksborgshallen",
       "lockerooms": null,
       "team_id": "324331"
-    },
-    {
-      "date": "2026-11-22",
-      "time": "11:00",
-      "end_time": "12:00",
-      "team": "Fotbollsskolan födda 2020",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kristinebergskolan",
-      "lockerooms": null,
-      "team_id": "584817"
     },
     {
       "date": "2026-11-22",
@@ -1105,8 +1105,8 @@
       "time": "17:30",
       "end_time": "19:00",
       "team": "P2011",
-      "type": "Träning",
-      "description": "Träning - utomhus",
+      "type": "Övrigt",
+      "description": "Löpning + Bastu",
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "260562"
@@ -1117,7 +1117,7 @@
       "end_time": "19:00",
       "team": "Fotbollsskolan födda 2017",
       "type": "Träning",
-      "description": "Träning utomhus",
+      "description": "INSTÄLLD TRÄNING PGA SNÖ",
       "location": "Kronängs Arena A-plan",
       "lockerooms": null,
       "team_id": "481208"
@@ -1300,6 +1300,17 @@
     },
     {
       "date": "2026-11-29",
+      "time": "10:00",
+      "end_time": "11:00",
+      "team": "Fotbollsskolan födda 2020",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kristinebergskolan",
+      "lockerooms": null,
+      "team_id": "584817"
+    },
+    {
+      "date": "2026-11-29",
       "time": "11:00",
       "end_time": "12:30",
       "team": "P2014",
@@ -1308,17 +1319,6 @@
       "location": "Fredriksborgshallen",
       "lockerooms": null,
       "team_id": "324331"
-    },
-    {
-      "date": "2026-11-29",
-      "time": "11:00",
-      "end_time": "12:00",
-      "team": "Fotbollsskolan födda 2020",
-      "type": "Träning",
-      "description": "Träning",
-      "location": "Kristinebergskolan",
-      "lockerooms": null,
-      "team_id": "584817"
     },
     {
       "date": "2026-11-29",
