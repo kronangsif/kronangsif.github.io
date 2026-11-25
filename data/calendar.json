@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T12:19:13.623257",
+  "last_updated": "2026-11-25T22:12:18.895883",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -38,7 +38,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -2.4
+        "temp": -2.3
       }
     },
     {
@@ -71,7 +71,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -0.1
+        "temp": -0.4
       }
     },
     {
@@ -104,7 +104,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -0.2
+        "temp": 0.3
       }
     },
     {
@@ -1265,7 +1265,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -0.3
+        "temp": -0.5
       }
     },
     {
@@ -1281,7 +1281,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -0.8
+        "temp": -0.6
       }
     },
     {
@@ -1297,7 +1297,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": -3.6
+        "temp": -4.2
       }
     },
     {
@@ -1313,7 +1313,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": -3.6
+        "temp": -4.2
       }
     },
     {
@@ -1327,9 +1327,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": -1.6
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": -1.3
       }
     },
     {
@@ -1345,7 +1345,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -0.1
+        "temp": -0.4
       }
     },
     {
@@ -1361,7 +1361,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -0.1
+        "temp": 0.3
       }
     },
     {
@@ -1377,7 +1377,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -1.9
+        "temp": -1.8
       }
     },
     {
@@ -1393,7 +1393,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -1.4
+        "temp": -1.0
       }
     },
     {
@@ -1409,7 +1409,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -1.4
+        "temp": -1.0
       }
     },
     {
@@ -1423,9 +1423,9 @@
       "lockerooms": null,
       "team_id": "324331",
       "weather": {
-        "icon": "🌨️",
-        "desc": "Snöbyar",
-        "temp": -1.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": -0.6
       }
     },
     {
@@ -1439,9 +1439,9 @@
       "lockerooms": null,
       "team_id": "621421",
       "weather": {
-        "icon": "🌨️",
-        "desc": "Snöbyar",
-        "temp": -1.0
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": -0.6
       }
     },
     {
@@ -1455,9 +1455,9 @@
       "lockerooms": null,
       "team_id": "56158",
       "weather": {
-        "icon": "🌨️",
-        "desc": "Snöbyar",
-        "temp": -0.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": -0.1
       }
     },
     {
@@ -1471,9 +1471,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "🌨️",
-        "desc": "Snöbyar",
-        "temp": 0.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 0.3
       }
     },
     {
@@ -1487,8 +1487,8 @@
       "lockerooms": null,
       "team_id": "324307",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌨️",
+        "desc": "Snöbyar",
         "temp": 0.2
       }
     },
@@ -1503,8 +1503,8 @@
       "lockerooms": null,
       "team_id": "520555",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
+        "icon": "🌨️",
+        "desc": "Snöbyar",
         "temp": 0.2
       }
     },
@@ -1519,9 +1519,9 @@
       "lockerooms": null,
       "team_id": "52695",
       "weather": {
-        "icon": "❄️",
-        "desc": "Snö",
-        "temp": -0.1
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": -0.4
       }
     },
     {
@@ -1537,7 +1537,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.0
+        "temp": 2.0
       }
     },
     {
@@ -1553,7 +1553,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.0
+        "temp": 2.0
       }
     },
     {
@@ -1569,7 +1569,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 3.2
+        "temp": 1.8
       }
     },
     {
@@ -1583,9 +1583,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "🌫️",
-        "desc": "Dimma",
-        "temp": 3.4
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 1.7
       }
     }
   ],
