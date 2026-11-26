@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T04:45:10.275529",
+  "last_updated": "2026-11-26T14:49:08.698017",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
@@ -38,7 +38,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -0.2
+        "temp": -0.0
       }
     },
     {
@@ -71,7 +71,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.0
+        "temp": 1.2
       }
     },
     {
@@ -104,7 +104,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.0
+        "temp": 1.6
       }
     },
     {
@@ -1289,7 +1289,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": -3.8
+        "temp": -4.8
       }
     },
     {
@@ -1305,7 +1305,7 @@
       "weather": {
         "icon": "☀️",
         "desc": "Klar himmel",
-        "temp": -3.8
+        "temp": -4.8
       }
     },
     {
@@ -1319,9 +1319,9 @@
       "lockerooms": null,
       "team_id": "224798",
       "weather": {
-        "icon": "⛅",
-        "desc": "Delvis molnigt",
-        "temp": -1.0
+        "icon": "🌤️",
+        "desc": "Mestadels klart",
+        "temp": -2.0
       }
     },
     {
@@ -1337,7 +1337,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.0
+        "temp": 1.2
       }
     },
     {
@@ -1353,7 +1353,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.1
+        "temp": 1.4
       }
     },
     {
@@ -1369,7 +1369,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -1.6
+        "temp": -1.2
       }
     },
     {
@@ -1385,7 +1385,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -0.9
+        "temp": -0.5
       }
     },
     {
@@ -1401,7 +1401,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -0.9
+        "temp": -0.5
       }
     },
     {
@@ -1417,7 +1417,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -0.3
+        "temp": -0.2
       }
     },
     {
@@ -1433,7 +1433,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -0.3
+        "temp": -0.2
       }
     },
     {
@@ -1449,7 +1449,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 0.2
+        "temp": 0.3
       }
     },
     {
@@ -1465,7 +1465,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 0.4
+        "temp": 0.3
       }
     },
     {
@@ -1513,7 +1513,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -1.0
+        "temp": -0.4
       }
     },
     {
@@ -1529,7 +1529,7 @@
       "weather": {
         "icon": "🌫️",
         "desc": "Dimma",
-        "temp": 2.2
+        "temp": 1.5
       }
     },
     {
@@ -1545,7 +1545,7 @@
       "weather": {
         "icon": "🌫️",
         "desc": "Dimma",
-        "temp": 2.2
+        "temp": 1.5
       }
     },
     {
@@ -1561,7 +1561,7 @@
       "weather": {
         "icon": "🌫️",
         "desc": "Dimma",
-        "temp": 2.1
+        "temp": 1.5
       }
     },
     {
@@ -1577,7 +1577,7 @@
       "weather": {
         "icon": "🌫️",
         "desc": "Dimma",
-        "temp": 2.1
+        "temp": 1.5
       }
     }
   ],
