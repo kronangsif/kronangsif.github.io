@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-11-28T09:57:13.667897",
+  "last_updated": "2026-11-28T18:04:21.940308",
   "source": [
     "https://api-fogis-association.azure-api.net/club/upcoming-games",
     "team calendars"
   ],
   "month": 11,
   "year": 2026,
-  "activity_count": 118,
+  "activity_count": 119,
   "activities": [
     {
       "date": "2026-11-28",
@@ -33,7 +33,7 @@
         "postponed": false,
         "abandoned": false,
         "canceled": false,
-        "finished": false
+        "finished": true
       },
       "weather": {
         "icon": "☁️",
@@ -66,12 +66,12 @@
         "postponed": false,
         "abandoned": false,
         "canceled": false,
-        "finished": false
+        "finished": true
       },
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.4
+        "temp": 1.5
       }
     },
     {
@@ -99,12 +99,12 @@
         "postponed": false,
         "abandoned": false,
         "canceled": false,
-        "finished": false
+        "finished": true
       },
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.5
+        "temp": 1.8
       }
     },
     {
@@ -1325,7 +1325,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.4
+        "temp": 1.5
       }
     },
     {
@@ -1341,7 +1341,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.4
+        "temp": 1.8
       }
     },
     {
@@ -1357,7 +1357,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -0.4
+        "temp": -0.3
       }
     },
     {
@@ -1373,7 +1373,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -0.3
+        "temp": -0.2
       }
     },
     {
@@ -1389,7 +1389,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -0.1
+        "temp": 0.2
       }
     },
     {
@@ -1405,7 +1405,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": -0.1
+        "temp": 0.2
       }
     },
     {
@@ -1421,7 +1421,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 0.3
+        "temp": 0.6
       }
     },
     {
@@ -1437,7 +1437,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 0.3
+        "temp": 0.6
       }
     },
     {
@@ -1453,7 +1453,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 0.7
+        "temp": 0.9
       }
     },
     {
@@ -1469,7 +1469,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.0
+        "temp": 1.2
       }
     },
     {
@@ -1485,7 +1485,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.1
+        "temp": 1.2
       }
     },
     {
@@ -1501,7 +1501,23 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 1.1
+        "temp": 1.2
+      }
+    },
+    {
+      "date": "2026-11-29",
+      "time": "17:00",
+      "end_time": "18:00",
+      "team": "F2012/2013",
+      "type": "Träning",
+      "description": "Träning",
+      "location": "Kristinebergskolan",
+      "lockerooms": null,
+      "team_id": "374981",
+      "weather": {
+        "icon": "☁️",
+        "desc": "Molnigt",
+        "temp": 0.8
       }
     },
     {
@@ -1517,7 +1533,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 0.8
+        "temp": 0.7
       }
     },
     {
@@ -1526,14 +1542,14 @@
       "end_time": "19:00",
       "team": "P2011",
       "type": "Träning",
-      "description": "Träning - utomhus",
+      "description": "Löpträning + bastu",
       "location": "Kronängs Arena",
       "lockerooms": null,
       "team_id": "260562",
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.6
+        "temp": 2.8
       }
     },
     {
@@ -1549,7 +1565,7 @@
       "weather": {
         "icon": "☁️",
         "desc": "Molnigt",
-        "temp": 2.6
+        "temp": 2.8
       }
     },
     {
@@ -1563,9 +1579,9 @@
       "lockerooms": null,
       "team_id": "281528",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 2.5
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 2.8
       }
     },
     {
@@ -1579,9 +1595,9 @@
       "lockerooms": null,
       "team_id": "38937",
       "weather": {
-        "icon": "☁️",
-        "desc": "Molnigt",
-        "temp": 2.4
+        "icon": "🌧️",
+        "desc": "Dis",
+        "temp": 2.8
       }
     }
   ],
